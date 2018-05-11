@@ -3,7 +3,7 @@
     <div>
       <app-logo/>
       <h1 class="title">
-        openbook-org-www
+        {{ $t("home.title") }}
       </h1>
       <h2 class="subtitle">
         The Openbook Organization website
