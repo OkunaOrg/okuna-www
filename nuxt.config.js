@@ -35,7 +35,7 @@ module.exports = {
         })
       }
 
-      config.module.rules.push( {
+      config.module.rules.push({
         test: /\.exec\.js$/,
         use: [ 'script-loader' ]
       })
@@ -43,6 +43,7 @@ module.exports = {
     }
   },
   css: [
-    '@/assets/styles/index.scss'
+    '@/assets/styles/index.scss',
+    'bootstrap-vue/dist/bootstrap-vue.css'
   ]
 }
