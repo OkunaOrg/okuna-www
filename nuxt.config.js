@@ -35,14 +35,58 @@ module.exports = {
         })
       }
 
-      config.module.rules.push( {
+      config.module.rules.push({
         test: /\.exec\.js$/,
-        use: [ 'script-loader' ]
+        use: ['script-loader']
       })
 
     }
   },
+  plugins: [
+    '~plugins/vue-bootstrap.js'
+  ],
   css: [
-    '@/assets/styles/index.scss'
+    '@/assets/styles/index.scss',
+    'bootstrap-vue/dist/bootstrap-vue.css'
+  ],
+  modules: [
+    ['nuxt-i18n', {
+      // Options
+      locales: [
+        'en',
+        'fr',
+        'es'
+      ],
+      defaultLocale: 'en',
+      detectBrowserLanguage: {
+        // If enabled, a cookie is set once a user has been redirected to his
+        // preferred language to prevent subsequent redirections
+        // Set to false to redirect every time
+        useCookie: true,
+        // Cookie name
+        cookieKey: 'i18n_redirected'
+      },
+      seo: true,
+      vueI18n: {
+        fallbackLocale: 'en',
+        messages: {
+          en: {
+            "home": {
+              "title": "Welcome"
+            }
+          },
+          fr: {
+            "home": {
+              "title": "Bienvenue"
+            }
+          },
+          es: {
+            "home": {
+              "title": "Bienvenido"
+            }
+          }
+        }
+      }
+    }]
   ]
 }

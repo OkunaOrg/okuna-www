@@ -21,16 +21,15 @@ This is the work in progress code for the new [www.open-book.org](https://openbo
 
 ## Project overview
 
-The website is a Vue application using [Nuxt](https://nuxtjs.org/) for server side rendering.
+The website is a [Vue](https://vuejs.org/) application using [Nuxt](https://nuxtjs.org/) for server side rendering.
 
 For detailed explanation on how server side rendering works, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
 
-Other technologies used
+Other technologies used are
 
 * [Sass](https://sass-lang.com/) for stylesheets
 * [Bootstrap 4](https://getbootstrap.com/) for kickstarting the basic styles
-* [Boomerang Bootstrap](https://preview.webpixels.io/boomerang-v3.6/) as base bootstrap template
-* [Vue 2 with ES6](https://vuejs.org/) for custom JavasScript components
+* [Vue Bootstrap](https://bootstrap-vue.js.org) for bootstrap components code
 * [Webpack 4](https://webpack.js.org/) for bundling everything together
 
 ## Contributing
