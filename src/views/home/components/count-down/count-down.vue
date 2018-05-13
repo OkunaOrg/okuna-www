@@ -5,12 +5,12 @@
                 <div class="columns is-centered is-vcentered is-mobile" style="height: 100%">
                     <div class="column countdown-content">
                         <div class="content">
-                            <h3>
+                            <p class="is-size-4 is-marginless padding-bottom-1x">
                                 Kickstarter countdown
-                            </h3>
-                            <p>
-                                We will launch our campaign on the 15th of July of 2018.
                             </p>
+                            <span>
+                                We will launch our campaign on the 15th of July of 2018.
+                            </span>
                         </div>
                         <countdown :time="2 * 24 * 60 * 60 * 1000">
                             <template slot-scope="props">
