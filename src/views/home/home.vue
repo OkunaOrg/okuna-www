@@ -19,8 +19,11 @@
                                 <h3 class="is-size-5">
                                     The open source, zero ads, zero
                                     tracking,
-                                    social network that respects for your privacy, coming soon to Kickstarter.
+                                    social network that respects for your privacy.
                                 </h3>
+                                <h5>
+                                    <strong>Coming soon to <span style="color: #034752;">Kickstarter.</span></strong>
+                                </h5>
                             </div>
                         </div>
                         <div class="columns is-centered">
