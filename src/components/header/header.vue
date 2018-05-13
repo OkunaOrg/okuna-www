@@ -3,7 +3,7 @@
         <nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
             <div class="container">
                 <div class="navbar-brand">
-                    <a class="navbar-item is-size-4" href="https://open-book.org">
+                    <a class="navbar-item is-size-4 has-text-primary" href="https://open-book.org">
                         <strong>Open</strong>book.
                     </a>
                     <ob-hamburger></ob-hamburger>

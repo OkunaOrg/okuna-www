@@ -60,6 +60,7 @@
     }
 
     .browser-window {
+        box-shadow: 0 12px 15px rgba(0,0,0,0.1), 0 17px 50px rgba(0,0,0,0.1);
         text-align: left;
         width: 100%;
         height: $height;
@@ -89,6 +90,7 @@
     }
 
     .browser-window .browser-content {
+        overflow: hidden;
         width: 100%;
         height: 100%;
         display: block;
