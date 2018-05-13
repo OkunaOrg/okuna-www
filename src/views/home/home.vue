@@ -1,5 +1,5 @@
 <template>
-    <section class="hero is-fullheight fullpage-section" id="main">
+    <section class="hero is-fullheight hero--home" id="main">
         <div class="ocean">
             <div class="wave"></div>
             <div class="wave"></div>
@@ -7,16 +7,16 @@
         <div class="hero-body">
             <div class="container is-fluid">
                 <div class="columns is-centered is-vcentered">
-                    <div class="column has-text-centered">
-                        <div class="columns is-centered">
+                    <div class="column has-text-centered home-splash-text">
+                        <div class="columns is-centered is-mobile">
                             <div class="column" style="max-width: 520px">
-                                <h1 class="title is-size-2">
+                                <h1 class="title is-size-3-mobile is-size-2">
                                     Hello <span id="hello-subject">world!</span>
                                 </h1>
-                                <h2 class="subtitle is-size-4">
+                                <h2 class="subtitle is-size-5-mobile is-size-4">
                                     We're <strong>Open</strong>book.
                                 </h2>
-                                <h3 class="is-size-5">
+                                <h3 class="is-size-6-mobile">
                                     The open source, zero ads, zero
                                     tracking,
                                     social network that respects for your privacy.
@@ -26,7 +26,7 @@
                                 </h5>
                             </div>
                         </div>
-                        <div class="columns is-centered">
+                        <div class="columns is-centered is-mobile">
                             <div class="column is-narrow">
                                 <button class="button is-primary is-outlined is-rounded">
                                     <span class="icon">
@@ -49,7 +49,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column">
+                    <div class="column home-splash-browser">
                         <ob-browser></ob-browser>
                     </div>
                 </div>
@@ -101,6 +101,21 @@
         }
         50% {
             transform: translate3d(0, 5px, 0);
+        }
+    }
+
+    .hero--home{
+        position: relative;
+    }
+
+    .home-splash-text{
+        margin-top: 1rem;
+    }
+
+    .home-splash-browser{
+        margin-top: 1rem;
+        @media(max-width: 770px){
+            max-height: 30vh;
         }
     }
 </style>

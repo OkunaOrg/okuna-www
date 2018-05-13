@@ -59,7 +59,7 @@
 
     $border: $bottomColor;
 
-    $height: 500px;
+    $height: 430px;
 
     .browser-window-container {
         padding: 0 1rem;

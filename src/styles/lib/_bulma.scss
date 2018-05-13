@@ -11,6 +11,7 @@ $family-primary: 'Nunito Sans', sans-serif;;
 $navbar-height: 4.25rem !default
 
 
+
 // Import the rest of Bulma
 @import "../../../node_modules/bulma/bulma";
 
@@ -30,4 +31,9 @@ $navbar-height: 4.25rem !default
     margin: 0 auto;
     max-width: 800px !important;
     width: 100%;
+}
+
+
+.hero-body{
+    padding: 4.5rem 1.5rem;
 }
