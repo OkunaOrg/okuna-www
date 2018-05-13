@@ -65,12 +65,12 @@
                         Why Openbook?
                     </h3>
                     <p>
-                        The main things that set us apart from other social networks.
+                        Some of the key things that set us apart from other social networks.
                     </p>
                 </div>
                 <div class="columns">
-                    <div class="column">
-                        <div class="columns is-centered is-mobile is-multiline">
+                    <div class="column home-why-container">
+                        <div class="columns is-centered is-mobile is-multiline home-why">
                             <div class="is-size-1">
                                 <i class="fas fa-eye-slash"></i>
                             </div>
@@ -89,8 +89,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column">
-                        <div class="columns is-centered is-mobile is-multiline">
+                    <div class="column home-why-container">
+                        <div class="columns is-centered is-mobile is-multiline home-why">
                             <div class="is-size-1">
                                 <i class="far fa-handshake"></i>
                             </div>
@@ -109,8 +109,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column">
-                        <div class="columns is-centered is-mobile is-multiline has-text-centered">
+                    <div class="column home-why-container">
+                        <div class="columns is-centered is-mobile is-multiline has-text-centered home-why">
                             <div class="is-size-1">
                                 <i class="fas fa-exchange-alt"></i>
                             </div>
@@ -196,12 +196,25 @@
         }
     }
 
+    .home-why-container{
+        display: flex !important;
+        justify-content: center !important;
+        margin-bottom: 3rem;
+    }
+
+    .home-why{
+        max-width: 400px;
+    }
+
     .home-why-content{
-        min-height: 5rem;
         display: flex !important;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        @media(min-width: 770px){
+            min-height: 8rem;
+        }
     }
 </style>
 
