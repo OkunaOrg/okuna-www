@@ -13,7 +13,7 @@
 
 <script>
 
-    import obFooter from './components/footer.vue';
+    import obFooter from './components/footer/footer.vue';
     import obHeader from './components/header/header.vue';
     import obMobileMenu from './components/mobile-menu.vue';
     export default {

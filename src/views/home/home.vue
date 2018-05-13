@@ -61,9 +61,9 @@
         <section class="section">
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
-                    <h3 class="is-size-3 padding-bottom-2x">
+                    <p class="is-size-3 padding-bottom-2x">
                         Why Openbook?
-                    </h3>
+                    </p>
                     <p>
                         Some of the key things that set us apart from other social networks.
                     </p>
@@ -83,7 +83,7 @@
                                 </p>
                             </div>
                             <div class="column is-narrow">
-                                <button class="button is-primary is-rounded">
+                                <button class="button is-primary is-rounded is-outlined">
                                     Learn more
                                 </button>
                             </div>
@@ -103,7 +103,7 @@
                                 </p>
                             </div>
                             <div class="column is-narrow">
-                                <button class="button is-primary is-rounded">
+                                <button class="button is-primary is-rounded is-outlined">
                                     Learn more
                                 </button>
                             </div>
@@ -123,9 +123,137 @@
                                 </p>
                             </div>
                             <div class="column is-narrow">
-                                <button class="button is-primary is-rounded">
+                                <button class="button is-primary is-rounded is-outlined">
                                     Learn more
                                 </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero is-primary is-bold">
+            <div class="hero-body has-text-centered">
+                <div class="container">
+                    <div class="columns is-centered is-vcentered">
+                        <div class="column">
+                            <h3 class="title is-size-4">
+                                Curious about the details?
+                            </h3>
+                        </div>
+                        <div class="column">
+                            <a href="#" class="button is-white is-outlined is-rounded is-medium">
+                                Read our manifesto
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="content has-text-centered padding-bottom-2x">
+                    <p class="is-size-3 padding-bottom-3x">
+                        What is people saying?
+                    </p>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="box">
+                            <article class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-1.jpg" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <strong>John Smith</strong>
+                                            <br>
+                                            <small> Founder of KPN</small>
+                                            <br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="box">
+                            <article class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-2.jpg" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <strong>John Smith</strong>
+                                            <br>
+                                            <small> Founder of KPN</small>
+                                            <br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="box">
+                            <article class="media">
+                                <div class="media-left">
+                                    <figure class="image is-64x64">
+                                        <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
+                                    </figure>
+                                </div>
+                                <div class="media-content">
+                                    <div class="content">
+                                        <p>
+                                            <strong>John Smith</strong>
+                                            <br>
+                                            <small> Founder of KPN</small>
+                                            <br>
+                                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
+                                        </p>
+                                    </div>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="hero is-primary is-bold">
+            <div class="hero-body has-text-centered">
+                <div class="container">
+                    <div class="columns is-centered is-vcentered">
+                        <div class="column">
+                            <a href="#" class="button is-white is-outlined is-rounded is-medium">
+                                Meet the team
+                            </a>
+                        </div>
+                        <div class="column">
+                            <div class="columns is-centered is-mobile">
+                                <div class="column is-narrow">
+                                    <div class="home-team">
+                                        <figure class="image is-64x64 home-team-figure">
+                                            <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
+                                        </figure>
+                                        <figure class="image is-64x64 home-team-figure">
+                                            <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
+                                        </figure>
+                                        <figure class="image is-64x64 home-team-figure">
+                                            <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
+                                        </figure>
+                                        <figure class="image is-64x64 home-team-figure">
+                                            <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
+                                        </figure>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -196,24 +324,32 @@
         }
     }
 
-    .home-why-container{
+    .home-why-container {
         display: flex !important;
         justify-content: center !important;
         margin-bottom: 3rem;
     }
 
-    .home-why{
+    .home-why {
         max-width: 400px;
     }
 
-    .home-why-content{
+    .home-why-content {
         display: flex !important;
         flex-direction: column;
         align-items: center;
         justify-content: center;
 
-        @media(min-width: 770px){
+        @media(min-width: 770px) {
             min-height: 8rem;
+        }
+    }
+
+    .home-team{
+        display: flex;
+        position: relative;
+        &-figure{
+            margin-right: -20px;
         }
     }
 </style>

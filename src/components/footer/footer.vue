@@ -1,6 +1,20 @@
 <template>
-    <footer class="footer" id="footer">
+    <footer class="footer has-text-white" id="footer">
         <div class="container">
+            <div class="content has-text-centered padding-bottom-2x">
+                <p class="is-size-8">
+                    As featured by
+                </p>
+            </div>
+            <div class="columns is-centered">
+                <div class="column is-narrow">
+                    <a href="https://greennetproject.org/">
+                        <figure class="image featured-by-img">
+                            <img src="./assets/greennet.png">
+                        </figure>
+                    </a>
+                </div>
+            </div>
             <div class="content has-text-centered">
                 <p>
                     <span>Made with </span><i class="icon fas fa-heart"
@@ -36,3 +50,11 @@
         </div>
     </footer>
 </template>
+
+<style lang="scss">
+    .featured-by-img{
+        width: 128px;
+        height: auto;
+    }
+
+</style>
