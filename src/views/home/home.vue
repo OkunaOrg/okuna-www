@@ -1,61 +1,128 @@
 <template>
-    <section class="hero is-fullheight hero--home" id="main">
-        <div class="ocean">
-            <div class="wave"></div>
-            <div class="wave"></div>
-        </div>
-        <div class="hero-body">
-            <div class="container is-fluid">
-                <div class="columns is-centered is-vcentered">
-                    <div class="column has-text-centered home-splash-text">
-                        <div class="columns is-centered is-mobile">
-                            <div class="column" style="max-width: 520px">
-                                <h1 class="title is-size-3-mobile is-size-2">
-                                    Hello <span id="hello-subject">world!</span>
-                                </h1>
-                                <h2 class="subtitle is-size-5-mobile is-size-4">
-                                    We're <strong>Open</strong>book.
-                                </h2>
-                                <h3 class="is-size-6-mobile">
-                                    An open source, zero ads, zero
-                                    tracking, beautifully designed,
-                                    social network that respects for your privacy.
-                                </h3>
-                                <h5>
-                                    <strong>Coming soon to <span style="color: #034752;">Kickstarter.</span></strong>
-                                </h5>
+    <div>
+        <section class="hero is-fullheight hero--home" id="main">
+            <div class="ocean">
+                <div class="wave"></div>
+                <div class="wave"></div>
+            </div>
+            <div class="hero-body">
+                <div class="container is-fluid">
+                    <div class="columns is-centered is-vcentered">
+                        <div class="column has-text-centered home-splash-text">
+                            <div class="columns is-centered is-mobile">
+                                <div class="column" style="max-width: 520px">
+                                    <h1 class="title is-size-3-mobile is-size-2">
+                                        Hello <span id="hello-subject">world!</span>
+                                    </h1>
+                                    <h2 class="subtitle is-size-5-mobile is-size-4">
+                                        We're <strong>Open</strong>book.
+                                    </h2>
+                                    <h3 class="is-size-6-mobile">
+                                        An open source, zero ads, zero
+                                        tracking, beautifully designed,
+                                        social network that respects for your privacy.
+                                    </h3>
+                                    <h5>
+                                        <strong>Coming soon to <span
+                                            style="color: #034752;">Kickstarter.</span></strong>
+                                    </h5>
+                                </div>
                             </div>
-                        </div>
-                        <div class="columns is-centered is-mobile">
-                            <div class="column is-narrow">
-                                <button class="button is-primary is-outlined is-rounded">
+                            <div class="columns is-centered is-mobile">
+                                <div class="column is-narrow">
+                                    <button class="button is-primary is-outlined is-rounded">
                                     <span class="icon">
                                         <i class="fas fa-share-alt"></i>
                                     </span>
-                                    <span>
+                                        <span>
                                         Share
                                     </span>
-                                </button>
-                            </div>
-                            <div class="column is-narrow">
-                                <button class="button is-primary is-rounded">
+                                    </button>
+                                </div>
+                                <div class="column is-narrow">
+                                    <button class="button is-primary is-rounded">
                                     <span class="icon">
                                         <i class="fas fa-heart"></i>
                                     </span>
-                                    <span>
+                                        <span>
                                         Join the waitlist
                                     </span>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column home-splash-browser">
+                            <ob-browser></ob-browser>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="content has-text-centered">
+                    <h3 class="is-size-3 padding-bottom-2x">
+                        Why Openbook?
+                    </h3>
+                </div>
+                <div class="columns">
+                    <div class="column">
+                        <div class="columns is-centered is-mobile is-multiline">
+                            <div class="column content is-12">
+                                <h4 class="is-size-4 has-text-centered">
+                                    Respect for your privacy
+                                </h4>
+                                <p class="is-size-5">
+                                    We won't track you nor make profits out of your personal data.
+                                </p>
+                            </div>
+                            <div class="column is-narrow">
+                                <button class="button is-primary is-rounded">
+                                    Learn more
                                 </button>
                             </div>
                         </div>
                     </div>
-                    <div class="column home-splash-browser">
-                        <ob-browser></ob-browser>
+                    <div class="column">
+                        <div class="columns is-centered is-mobile is-multiline">
+                            <div class="column content is-12">
+                                <h4 class="is-size-4 has-text-centered">
+                                    Honest
+                                </h4>
+                                <p class="is-size-5">
+                                    We won't track you nor make profits out of your personal data.
+                                </p>
+                            </div>
+                            <div class="column is-narrow">
+                                <button class="button is-primary is-rounded">
+                                    Learn more
+                                </button>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="column">
+                        <div class="columns is-centered is-mobile is-multiline">
+                            <div class="column content is-12">
+                                <h4 class="is-size-4 has-text-centered">
+                                    Easy-peasy
+                                </h4>
+                                <p class="is-size-5 has-text-centered">
+                                    We won't track you nor make profits out of your personal data.
+                                </p>
+                            </div>
+                            <div class="column is-narrow">
+                                <button class="button is-primary is-rounded">
+                                    Learn more
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
+    </div>
 </template>
 
 <style lang="scss">
@@ -104,17 +171,17 @@
         }
     }
 
-    .hero--home{
+    .hero--home {
         position: relative;
     }
 
-    .home-splash-text{
+    .home-splash-text {
         margin-top: 1rem;
     }
 
-    .home-splash-browser{
+    .home-splash-browser {
         margin-top: 1rem;
-        @media(max-width: 770px){
+        @media(max-width: 770px) {
             max-height: 30vh;
         }
     }
