@@ -63,12 +63,16 @@
 
     .browser-window-container {
         padding: 0 1rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .browser-window {
         box-shadow: 0 12px 15px rgba(0,0,0,0.1), 0 17px 50px rgba(0,0,0,0.1);
         text-align: left;
         width: 100%;
+        max-width: 700px;
         height: $height;
         display: inline-block;
         border-radius: 5px;

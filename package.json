@@ -7,6 +7,7 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "@xkeshi/vue-countdown": "^0.6.0",
     "buefy": "^0.6.5",
     "bulma": "^0.7.1",
     "jquery": "^3.3.1",

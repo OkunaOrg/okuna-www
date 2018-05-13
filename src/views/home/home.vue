@@ -171,13 +171,49 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                Curious about the details?
+                                Want to know more?
                             </h3>
                         </div>
                         <div class="column">
                             <a href="#" class="button is-white is-outlined is-rounded is-medium">
                                 Read our manifesto
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <ob-count-down></ob-count-down>
+        </section>
+        <section class="hero is-primary is-bold">
+            <div class="hero-body has-text-centered">
+                <div class="container">
+                    <div class="columns is-centered is-vcentered">
+                        <div class="column">
+                            <a href="#" class="button is-white is-outlined is-rounded is-medium">
+                                Meet the team
+                            </a>
+                        </div>
+                        <div class="column">
+                            <div class="columns is-centered is-mobile">
+                                <div class="column is-narrow">
+                                    <div class="home-team">
+                                        <figure class="image is-64x64 home-team-figure">
+                                            <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
+                                        </figure>
+                                        <figure class="image is-64x64 home-team-figure">
+                                            <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
+                                        </figure>
+                                        <figure class="image is-64x64 home-team-figure">
+                                            <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
+                                        </figure>
+                                        <figure class="image is-64x64 home-team-figure">
+                                            <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
+                                        </figure>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -255,39 +291,6 @@
                                     </div>
                                 </div>
                             </article>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="hero is-primary is-bold">
-            <div class="hero-body has-text-centered">
-                <div class="container">
-                    <div class="columns is-centered is-vcentered">
-                        <div class="column">
-                            <a href="#" class="button is-white is-outlined is-rounded is-medium">
-                                Meet the team
-                            </a>
-                        </div>
-                        <div class="column">
-                            <div class="columns is-centered is-mobile">
-                                <div class="column is-narrow">
-                                    <div class="home-team">
-                                        <figure class="image is-64x64 home-team-figure">
-                                            <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
-                                        </figure>
-                                        <figure class="image is-64x64 home-team-figure">
-                                            <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
-                                        </figure>
-                                        <figure class="image is-64x64 home-team-figure">
-                                            <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
-                                        </figure>
-                                        <figure class="image is-64x64 home-team-figure">
-                                            <img class="is-rounded" src="https://preview.webpixels.io/boomerang-v3.6/assets/images/prv/people/person-3.jpg" alt="Image">
-                                        </figure>
-                                    </div>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
@@ -406,12 +409,15 @@
 
 <script>
 
+    import ObCountDown from "./components/count-down/count-down.vue";
+
     require('./scripts/typewriter.exec.js');
 
     import obBrowser from './components/browser.vue'
 
     export default {
         components: {
+            ObCountDown,
             obBrowser
         },
         mounted() {
