@@ -19,9 +19,15 @@
 
                             </div>
                             <div class="open-book-header-actions-buttons">
-                                <div class="open-book-header-actions-button"></div>
-                                <div class="open-book-header-actions-button"></div>
-                                <div class="open-book-header-actions-button"></div>
+                                <div class="open-book-header-actions-button">
+                                    <div class="open-book-header-actions-button-notification"></div>
+                                </div>
+                                <div class="open-book-header-actions-button">
+                                    <div class="open-book-header-actions-button-notification"></div>
+                                </div>
+                                <div class="open-book-header-actions-button">
+                                    <div class="open-book-header-actions-button-notification"></div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -154,6 +160,17 @@
                 width: 20px;
                 border-radius: 10%;
                 background: rgba(0, 0, 0, 0.25);
+                position: relative;
+
+                &-notification{
+                    height: 10px;
+                    width: 10px;
+                    border-radius: 20%;
+                    background: #ff405f;
+                    top: -5px;
+                    right: -5px;
+                    position: absolute;
+                }
             }
         }
     }
