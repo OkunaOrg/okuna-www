@@ -76,16 +76,11 @@
                             </div>
                             <div class="column content is-12 has-text-centered">
                                 <h4 class="is-size-4">
-                                    Privacy
+                                    Respect for your privacy
                                 </h4>
                                 <p class="is-size-5 home-why-content">
                                     We will never track you, inside or outside of the network.
                                 </p>
-                            </div>
-                            <div class="column is-narrow">
-                                <button class="button is-primary is-rounded is-outlined">
-                                    Learn more
-                                </button>
                             </div>
                         </div>
                     </div>
@@ -96,16 +91,11 @@
                             </div>
                             <div class="column content is-12 has-text-centered">
                                 <h4 class="is-size-4">
-                                    Honesty
+                                    Honest
                                 </h4>
                                 <p class="is-size-5 home-why-content">
-                                    The code of the network will be will be free and open for everyone to see, reproduce and contribute to. <br/>
+                                    No tricks, the code of the network will be will be free and open for everyone to see, reproduce and contribute to. <br/>
                                 </p>
-                            </div>
-                            <div class="column is-narrow">
-                                <button class="button is-primary is-rounded is-outlined">
-                                    Learn more
-                                </button>
                             </div>
                         </div>
                     </div>
@@ -122,14 +112,57 @@
                                     We will provide tools to migrate all of your existing data to our network.
                                 </p>
                             </div>
-                            <div class="column is-narrow">
-                                <button class="button is-primary is-rounded is-outlined">
-                                    Learn more
-                                </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column home-why-container">
+                        <div class="columns is-centered is-mobile is-multiline home-why">
+                            <div class="is-size-1">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="column content is-12 has-text-centered">
+                                <h4 class="is-size-4">
+                                    Secure
+                                </h4>
+                                <p class="is-size-5 home-why-content">
+                                    Third party applications that wish to access your data will have to meet our strict security policy.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column home-why-container">
+                        <div class="columns is-centered is-mobile is-multiline home-why">
+                            <div class="is-size-1">
+                                <i class="fas fa-hourglass-start"></i>
+                            </div>
+                            <div class="column content is-12 has-text-centered">
+                                <h4 class="is-size-4">
+                                    Future-proof
+                                </h4>
+                                <p class="is-size-5 home-why-content">
+                                    With a solid business plan based on peer-to-peer transactions, we are in for the long game.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column home-why-container">
+                        <div class="columns is-centered is-mobile is-multiline has-text-centered home-why">
+                            <div class="is-size-1">
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="column content is-12">
+                                <h4 class="is-size-4">
+                                    Modern & beautiful
+                                </h4>
+                                <p class="is-size-5 has-text-centered home-why-content">
+                                    Built on the latest technologies and designed with simplicity in mind, you won't find anything like it elsewhere.
+                                </p>
                             </div>
                         </div>
                     </div>
                 </div>
+
             </div>
         </section>
         <section class="hero is-primary is-bold">
@@ -154,7 +187,7 @@
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
                     <p class="is-size-3 padding-bottom-3x">
-                        What is people saying?
+                        What are others saying?
                     </p>
                 </div>
                 <div class="columns">

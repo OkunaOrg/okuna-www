@@ -6,7 +6,7 @@ import router from './router'
 import './styles/index.scss';
 
 // Load third party js libs
-import './scripts/fontawesome-all.exec.js';
+//import './scripts/fontawesome-all.exec.js';
 
 // Load jQuery and it's global plugins
 window['jQuery'] = window['$'] = require('jquery');
