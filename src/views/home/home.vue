@@ -60,8 +60,8 @@
         </section>
         <section class="section">
             <div class="container">
-                <div class="content has-text-centered padding-bottom-2x">
-                    <p class="is-size-3 padding-bottom-2x">
+                <div class="content has-text-centered padding-bottom-3x">
+                    <p class="is-size-3">
                         Why Openbook?
                     </p>
                     <p>
@@ -71,7 +71,7 @@
                 <div class="columns">
                     <div class="column home-why-container">
                         <div class="columns is-centered is-mobile is-multiline home-why">
-                            <div class="is-size-1">
+                            <div class="is-size-3 home-why-icon home-why-icon--privacy">
                                 <i class="fas fa-eye-slash"></i>
                             </div>
                             <div class="column content is-12 has-text-centered">
@@ -86,7 +86,7 @@
                     </div>
                     <div class="column home-why-container">
                         <div class="columns is-centered is-mobile is-multiline home-why">
-                            <div class="is-size-1">
+                            <div class="is-size-3 home-why-icon home-why-icon--honesty">
                                 <i class="far fa-handshake"></i>
                             </div>
                             <div class="column content is-12 has-text-centered">
@@ -101,7 +101,7 @@
                     </div>
                     <div class="column home-why-container">
                         <div class="columns is-centered is-mobile is-multiline has-text-centered home-why">
-                            <div class="is-size-1">
+                            <div class="is-size-3 home-why-icon home-why-icon--migration">
                                 <i class="fas fa-exchange-alt"></i>
                             </div>
                             <div class="column content is-12">
@@ -118,7 +118,7 @@
                 <div class="columns">
                     <div class="column home-why-container">
                         <div class="columns is-centered is-mobile is-multiline home-why">
-                            <div class="is-size-1">
+                            <div class="is-size-3 home-why-icon home-why-icon--secure">
                                 <i class="fas fa-shield-alt"></i>
                             </div>
                             <div class="column content is-12 has-text-centered">
@@ -133,7 +133,7 @@
                     </div>
                     <div class="column home-why-container">
                         <div class="columns is-centered is-mobile is-multiline home-why">
-                            <div class="is-size-1">
+                            <div class="is-size-3 home-why-icon home-why-icon--future">
                                 <i class="fas fa-hourglass-start"></i>
                             </div>
                             <div class="column content is-12 has-text-centered">
@@ -148,7 +148,7 @@
                     </div>
                     <div class="column home-why-container">
                         <div class="columns is-centered is-mobile is-multiline has-text-centered home-why">
-                            <div class="is-size-1">
+                            <div class="is-size-3 home-why-icon home-why-icon--beautiful">
                                 <i class="far fa-star"></i>
                             </div>
                             <div class="column content is-12">
@@ -365,6 +365,23 @@
 
     .home-why {
         max-width: 400px;
+    }
+
+    $home-why-icon-size: 5rem;
+
+    .home-why-icon{
+        margin-bottom: 1rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: $home-why-icon-size;
+        width: $home-why-icon-size;
+        border-radius: 50%;
+        background: #690ddc;
+        color: white;
+
+
+
     }
 
     .home-why-content {
