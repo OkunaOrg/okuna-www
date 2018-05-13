@@ -17,8 +17,8 @@
                                     We're <strong>Open</strong>book.
                                 </h2>
                                 <h3 class="is-size-6-mobile">
-                                    The open source, zero ads, zero
-                                    tracking,
+                                    An open source, zero ads, zero
+                                    tracking, beautifully designed,
                                     social network that respects for your privacy.
                                 </h3>
                                 <h5>
