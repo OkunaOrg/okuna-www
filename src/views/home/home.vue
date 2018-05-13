@@ -60,20 +60,26 @@
         </section>
         <section class="section">
             <div class="container">
-                <div class="content has-text-centered">
+                <div class="content has-text-centered padding-bottom-2x">
                     <h3 class="is-size-3 padding-bottom-2x">
                         Why Openbook?
                     </h3>
+                    <p>
+                        The main things that set us apart from other social networks.
+                    </p>
                 </div>
                 <div class="columns">
                     <div class="column">
                         <div class="columns is-centered is-mobile is-multiline">
-                            <div class="column content is-12">
-                                <h4 class="is-size-4 has-text-centered">
-                                    Respect for your privacy
+                            <div class="is-size-1">
+                                <i class="fas fa-eye-slash"></i>
+                            </div>
+                            <div class="column content is-12 has-text-centered">
+                                <h4 class="is-size-4">
+                                    Privacy
                                 </h4>
-                                <p class="is-size-5">
-                                    We won't track you nor make profits out of your personal data.
+                                <p class="is-size-5 home-why-content">
+                                    We will never track you, inside or outside of the network.
                                 </p>
                             </div>
                             <div class="column is-narrow">
@@ -85,12 +91,15 @@
                     </div>
                     <div class="column">
                         <div class="columns is-centered is-mobile is-multiline">
-                            <div class="column content is-12">
-                                <h4 class="is-size-4 has-text-centered">
-                                    Honest
+                            <div class="is-size-1">
+                                <i class="far fa-handshake"></i>
+                            </div>
+                            <div class="column content is-12 has-text-centered">
+                                <h4 class="is-size-4">
+                                    Honesty
                                 </h4>
-                                <p class="is-size-5">
-                                    We won't track you nor make profits out of your personal data.
+                                <p class="is-size-5 home-why-content">
+                                    The code of the network will be will be free and open for everyone to see, reproduce and contribute to. <br/>
                                 </p>
                             </div>
                             <div class="column is-narrow">
@@ -100,15 +109,17 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="column">
-                        <div class="columns is-centered is-mobile is-multiline">
+                        <div class="columns is-centered is-mobile is-multiline has-text-centered">
+                            <div class="is-size-1">
+                                <i class="fas fa-exchange-alt"></i>
+                            </div>
                             <div class="column content is-12">
-                                <h4 class="is-size-4 has-text-centered">
-                                    Easy-peasy
+                                <h4 class="is-size-4">
+                                    Seamless migration
                                 </h4>
-                                <p class="is-size-5 has-text-centered">
-                                    We won't track you nor make profits out of your personal data.
+                                <p class="is-size-5 has-text-centered home-why-content">
+                                    We will provide tools to migrate all of your existing data to our network.
                                 </p>
                             </div>
                             <div class="column is-narrow">
@@ -118,7 +129,6 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </section>
@@ -184,6 +194,14 @@
         @media(max-width: 770px) {
             max-height: 30vh;
         }
+    }
+
+    .home-why-content{
+        min-height: 5rem;
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
 </style>
 
