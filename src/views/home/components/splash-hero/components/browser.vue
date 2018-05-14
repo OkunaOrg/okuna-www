@@ -233,6 +233,7 @@
     const jQuery = require('jquery');
 
     export default {
+        name: 'ob-browser',
         data(){
             return {
                 posts: [

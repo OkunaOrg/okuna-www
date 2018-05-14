@@ -17,7 +17,7 @@
 
     $wave-height: 198px;
     .wave {
-        background: url(./assets/wave.svg) repeat-x;
+        background: url(assets/wave.svg) repeat-x;
         position: absolute;
         top: -$wave-height;
         width: 6400px;
