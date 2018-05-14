@@ -1,0 +1,42 @@
+// Import the initial variables
+@import "../../../node_modules/bulma/sass/utilities/initial-variables";
+@import "../../../node_modules/bulma/sass/utilities/functions";
+
+
+// Override
+$primary: #690ddc;
+$primary-invert: white;
+$family-primary: 'Nunito Sans', sans-serif;;
+
+$navbar-height: 4.25rem !default
+//$footer-background-color: $primary;
+
+$box-shadow	: 0 12px 15px rgba(0,0,0,0.1), 0 17px 50px rgba(0,0,0,0.1);
+
+
+
+// Import the rest of Bulma
+@import "../../../node_modules/bulma/bulma";
+
+.navbar{
+    border-bottom: solid 1px #fafafa;
+}
+
+.hero{
+    overflow: hidden;
+}
+
+.hero-footer{
+    max-height: 210px;
+}
+
+.small-container{
+    margin: 0 auto;
+    max-width: 800px !important;
+    width: 100%;
+}
+
+
+.hero-body{
+    padding: 4.5rem 1.5rem;
+}
