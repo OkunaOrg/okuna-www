@@ -70,11 +70,20 @@
                 <ob-quotes></ob-quotes>
             </div>
         </section>
+        <section class="section">
+            <div class="container">
+                <div class="content has-text-centered padding-bottom-2x">
+                    <p class="is-size-5 padding-bottom-3x has-text-grey-light">
+                        As featured in
+                    </p>
+                </div>
+                <ob-featured-on></ob-featured-on>
+            </div>
+        </section>
     </div>
 </template>
 
 <style lang="scss">
-
     .home-team{
         display: flex;
         position: relative;
@@ -92,9 +101,11 @@
     import ObWhyOpenbook from "./components/why-openbook";
     import ObOcean from "./components/splash-hero/components/ocean/ocean";
     import ObSplashHero from "./components/splash-hero/splash-hero";
+    import ObFeaturedOn from "./components/featured-in/featured-in";
 
     export default {
         components: {
+            ObFeaturedOn,
             ObSplashHero,
             ObOcean,
             ObWhyOpenbook,
