@@ -9,15 +9,18 @@
                                 Kickstarter countdown
                             </p>
                             <span>
-                                We will launch the campaign on the 15th of July of 2018.
+                                We will launch our Kickstarter campaign on the 15th of July of 2018.
                             </span>
                         </div>
-                        <countdown :time="2 * 24 * 60 * 60 * 1000">
+                        <countdown :time="countdownDate">
                             <template slot-scope="props">
                                 <strong class="is-size-3">{{ props.days }}</strong><span class="is-size-5"> days </span>
-                                <strong class="is-size-3">{{ props.hours }}</strong><span class="is-size-5"> hours </span>
-                                <strong class="is-size-3">{{ props.minutes }}</strong><span class="is-size-5"> minutes </span>
-                                <strong class="is-size-3">{{ props.seconds }}</strong><span class="is-size-5"> seconds </span>
+                                <strong class="is-size-3">{{ props.hours }}</strong><span
+                                class="is-size-5"> hours </span>
+                                <strong class="is-size-3">{{ props.minutes }}</strong><span
+                                class="is-size-5"> minutes </span>
+                                <strong class="is-size-3">{{ props.seconds }}</strong><span
+                                class="is-size-5"> seconds </span>
                             </template>
                         </countdown>
                         <a href="#" class="button is-primary is-rounded is-medium padding-top-2x">
@@ -45,28 +48,32 @@
 </template>
 
 <style>
-    .countdown-content{
-        max-width: 500px;
+    .countdown-content {
+        max-width: 520px;
     }
 </style>
 
 <script>
 
     import VueCountdown from '@xkeshi/vue-countdown'
+    import dayjs from 'dayjs';
 
 
-    export default{
+    export default {
         name: 'ob-count-down',
         components: {
             countdown: VueCountdown
         },
         data() {
-            const now = new Date();
-            const newYear = new Date(now.getFullYear() + 1, 0, 1);
+            const now = dayjs();
+            const kickstarterDate = dayjs('2018-7-1');
+
+            const timeTillKickstarterDate = kickstarterDate.diff(now);
+
+            const countdownDate = timeTillKickstarterDate.valueOf();
 
             return {
-                counting: false,
-                time: newYear - now,
+                countdownDate
             };
         },
     }
