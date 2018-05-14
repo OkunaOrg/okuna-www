@@ -9,7 +9,7 @@
                                 Kickstarter countdown
                             </p>
                             <span>
-                                We will launch our campaign on the 15th of July of 2018.
+                                We will launch the campaign on the 15th of July of 2018.
                             </span>
                         </div>
                         <countdown :time="2 * 24 * 60 * 60 * 1000">
