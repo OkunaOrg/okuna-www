@@ -1,9 +1,11 @@
 <template>
     <div class="columns is-centered">
         <div class="column is-narrow">
-            <figure class="image featured-in-img">
-                <img class="is-grayscale" src="./assets/greennet.png">
-            </figure>
+            <a href="https://www.greennetproject.org/" target="_blank">
+                <figure class="image featured-in-img">
+                    <img class="is-grayscale" src="./assets/greennet.png">
+                </figure>
+            </a>
         </div>
     </div>
 </template>
