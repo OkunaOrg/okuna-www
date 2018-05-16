@@ -15,8 +15,8 @@
                                 </h2>
                                 <h3 class="is-size-6-mobile">
                                     An open source, zero ads, zero
-                                    tracking, beautifully designed,
-                                    social network that respects for your privacy.
+                                    tracking, beautifully designed
+                                    social network with respect for your privacy.
                                 </h3>
                                 <h5>
                                     <strong>Coming soon to <span
