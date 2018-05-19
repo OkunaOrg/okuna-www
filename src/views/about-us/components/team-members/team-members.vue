@@ -16,7 +16,6 @@
     import plaholderPhoto from './assets/placeholder.png';
 
 
-
     export default {
         components: {ObTeamMember},
         name: 'ob-team-members',
@@ -29,17 +28,22 @@
                         photo: joelPhoto,
                         talents: [
                             'Leadership',
+                            'Entrepreneurship',
+                            'Advocacy',
                             'Product Development',
-                            'Management',
+                            'UI/UX Design',
+                            'Systems Engineering',
+                            'Strategy',
                             'Software Engineering',
                             'Development Operations',
-                            'UI/UX Design',
-                            'Ping-pong'
+                            'Open Source Software'
                         ],
-                        networks: {
+                        links: {
                             website: 'https://www.lifenautjoe.com',
+                            github: '',
                             instagram: 'https://instagram.com/lifenautjoe',
-                            linkedin: ''
+                            linkedin: 'https://www.linkedin.com/in/lifenautjoe',
+                            twitter: 'https://twitter.com/lifenautjoe'
                         }
                     },
                     {
@@ -48,13 +52,21 @@
                         photo: jayaPhoto,
                         talents: [
                             'Information Security',
+                            'Network Security',
                             'Strategy',
+                            'Cloud Computing',
+                            'Leadership',
                             'Management',
                             'Business Continuity',
-                            'Policy',
-                            'Auditing',
-                            'Dancing like nobody\'s watching'
-                        ]
+                            'Policy-making',
+                            'Risk Management',
+                            'Security Architecture Design'
+                        ],
+                        links: {
+                            website: 'https://singularityuthenetherlands.org/people/jaya-baloo/',
+                            linkedin: 'https://nl.linkedin.com/in/jaya-baloo-558492',
+                            twitter: 'https://twitter.com/jayabaloo?lang=nl'
+                        }
                     },
                     {
                         name: 'Lars Rosenquist',
@@ -64,11 +76,17 @@
                             'Systems Engineering',
                             'Cloud Architecture',
                             'Leadership',
+                            'Management',
                             'Development Operations',
                             'Software Engineering',
-                            'Management',
-                            'Kicking ass'
-                        ]
+                            'Automation',
+                            'Management'
+                        ],
+                        links: {
+                            github: 'https://github.com/NLxAROSA',
+                            linkedin: 'https://www.linkedin.com/in/larsrosenquist/',
+                            twitter: 'https://twitter.com/larsrosenquist'
+                        }
                     },
                     {
                         name: 'Phillip Zimmermann',
@@ -79,10 +97,15 @@
                             'Data security',
                             'Entrepreneurship',
                             'Society',
-                            'Policy',
+                            'Secure Systems',
                             'Innovation',
-                            'Presenting without slides'
-                        ]
+                            'Advocacy',
+                            'Product Development',
+                            'Leadership'
+                        ],
+                        links: {
+                            website: 'https://en.wikipedia.org/wiki/Phil_Zimmermann'
+                        }
                     },
                     {
                         name: 'Vincent Ruijter',
@@ -92,9 +115,18 @@
                             'Pentesting',
                             'Information Security',
                             'Application Security',
+                            'Auditing',
                             'Exploit Development',
-                            'Minecraft'
-                        ]
+                            'Research',
+                            'Network Security',
+                            'Physical Security',
+                            'Social Engineering'
+                        ],
+                        links: {
+                            github: 'https://github.com/evict',
+                            linkedin: 'https://www.linkedin.com/in/vincent-ruijter-97783215/',
+                            twitter: 'https://twitter.com/_evict'
+                        }
                     },
                     {
                         name: 'Bas Roemburg',
@@ -103,23 +135,31 @@
                         talents: [
                             'UI/UX Design',
                             'Prototyping',
+                            'Interaction Design',
                             'Marketing',
                             'Multimedia',
                             'Usability',
-                            'Beer-pong'
-                        ]
+                            'Web Development'
+                        ],
+                        links: {
+                            github: 'https://github.com/roemburg'
+                        }
                     },
                     {
                         name: 'Martijn Jansen',
                         position: 'Software Engineer',
                         photo: plaholderPhoto,
                         talents: [
-                            'Frontend Development',
+                            'Software Engineering',
+                            'Accessibility',
                             'Mobile Development',
+                            'Web Development',
                             'Backend Development',
-                            'Management',
-                            'Dad-jokes'
-                        ]
+                            'Management'
+                        ],
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/martijn-jansen-7b0218a/'
+                        }
                     }
                 ]
             }
