@@ -11,7 +11,7 @@
                                         About us
                                     </h1>
                                     <h2 class="title is-size-2 trust-text">
-                                        We want to build a social network we all can <span class="has-text-primary">trust</span>.
+                                        We want to build a tool for <span class="has-text-primary">good</span>.
                                     </h2>
                                 </div>
                             </div>
@@ -26,7 +26,7 @@
                             </div>
                             <div class="columns">
                                 <div class="column has-text-centered">
-                                    <p>The place we all call home.</p>
+                                    <p>The home of the people we want to benefit with our tool.</p>
                                 </div>
                             </div>
                         </div>
@@ -37,13 +37,57 @@
         <section class="section">
             <div class="container">
                 <div class="columns is-centered">
-                    <div class="column has-text-centered intro-text">
-                        <h3 class="is-size-4">
-                            In the year 2018, data scandal after data scandal, tracking tools improving their efficiency thanks to the development of artificial intelligence,
-                        </h3>
+                    <div class="column has-text-centered intro-text is-size-4">
+                        <p class="title is-size-3">
+                            <strong>In the year 2018, social networks are a destructive force in our society.</strong>
+                        </p>
+                        <br/>
+                        <p>
+                            Meant to connect us, they divide us by feeding us information that reinforce our personal beliefs and discourage dialogue.
+                        </p>
+                        <br/>
+                        <p>
+                            Meant to help us share our treasured moments with our loved ones,  they share our information with third parties guided by political, economical or disruptive agendas.
+                        </p>
+                        <br/>
+                        <p>
+                            Meant to be a tool for good, they contribute to the development of a global mass surveillance network, threatening all civil liberties.
+                        </p>
+                        <br/>
+                        <p>
+                            Enough was enough.
+                        </p>
+                        <br/>
+                        <p>
+                            We set out to gather a team of extraordinary individuals to make things right, to build a tool for <strong class="has-text-primary">good</strong>.
+                        </p>
+                        <br/>
+                        <p>
+                            We set out to build <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span>.
+                        </p>
                     </div>
                 </div>
-
+            </div>
+        </section>
+        <section class="section">
+            <ob-team-members/>
+        </section>
+        <section class="hero is-primary is-bold">
+            <div class="hero-body has-text-centered">
+                <div class="container">
+                    <div class="columns is-centered is-vcentered">
+                        <div class="column">
+                            <h3 class="title is-size-4">
+                                Want to know more?
+                            </h3>
+                        </div>
+                        <div class="column">
+                            <a href="#" class="button is-white is-outlined is-rounded is-medium">
+                                Read our manifesto
+                            </a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -51,13 +95,12 @@
 
 
 <style lang="scss">
-
     .hero--about-us{
         border-bottom: solid 1px #fafafa;
     }
 
     .trust-text{
-        max-width:500px;
+        max-width:400px;
     }
 
     .trust-gif{
@@ -66,7 +109,16 @@
     }
 
     .intro-text{
-        max-width: 600px;
+        max-width: 900px;
     }
 
 </style>
+
+
+<script>
+    import ObTeamMembers from "./components/team-members/team-members";
+
+    export default{
+        components: {ObTeamMembers}
+    }
+</script>
