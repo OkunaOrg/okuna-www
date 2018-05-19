@@ -24,7 +24,7 @@
             return {
                 teamMembers: [
                     {
-                        name: 'Joel',
+                        name: 'Joel Hernández',
                         position: 'Founder, Chief Executive Officer',
                         photo: joelPhoto,
                         talents: [
