@@ -37,8 +37,8 @@
         <section class="section">
             <div class="container">
                 <div class="columns is-centered">
-                    <div class="column has-text-centered intro-text is-size-4">
-                        <p class="title is-size-3">
+                    <div class="column has-text-centered intro-text content is-large">
+                        <p class="title is-size-4">
                             <strong>In the year 2018, social networks are a destructive force in our society.</strong>
                         </p>
                         <br/>

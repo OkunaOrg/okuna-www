@@ -1,10 +1,586 @@
 <template>
     <div>
-        <h1>
-            I'm manifesto!
-        </h1>
+        <section class="hero is-medium hero--about-us">
+            <div class="hero-body">
+                <div class="container is-fluid">
+                    <div class="columns is-centered is-vcentered">
+                        <div class="column about-us-header-text">
+                            <div class="columns is-centered">
+                                <div class="column is-narrow">
+                                    <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
+                                        Manifesto
+                                    </h1>
+                                    <h2 class="title is-size-2 trust-text has-text-centered-mobile">
+                                        The problem, the solution, the next steps.
+                                    </h2>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="column about-us-header-gif">
+                            <div class="columns is-centered is-vcentered is-mobile padding-bottom-2x">
+                                <div class="column is-narrow">
+                                    <svg class="book-shelf" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 84 94" height="200" width="420">
+                                        <path fill="none" d="M37.612 92.805L4.487 73.71c-2.75-1.587-4.45-4.52-4.45-7.687L.008 27.877c-.003-3.154 1.676-6.063 4.405-7.634L37.558 1.167c2.73-1.57 6.096-1.566 8.835.013l33.124 19.096c2.75 1.586 4.45 4.518 4.45 7.686l.028 38.146c.002 3.154-1.677 6.063-4.406 7.634L46.445 92.818c-2.73 1.57-6.096 1.566-8.834-.013z"/>
+                                        <g class="book-shelf__book book-shelf__book--one" fill-rule="evenodd">
+                                            <path fill="#5199fc" d="M31 29h4c1.105 0 2 .895 2 2v29c0 1.105-.895 2-2 2h-4c-1.105 0-2-.895-2-2V31c0-1.105.895-2 2-2z"/>
+                                            <path fill="#afd7fb" d="M34 36h-2c-.552 0-1-.448-1-1s.448-1 1-1h2c.552 0 1 .448 1 1s-.448 1-1 1zm-2 1h2c.552 0 1 .448 1 1s-.448 1-1 1h-2c-.552 0-1-.448-1-1s.448-1 1-1z"/>
+                                        </g>
+                                        <g class="book-shelf__book book-shelf__book--two" fill-rule="evenodd">
+                                            <path fill="#ff9868" d="M39 34h6c1.105 0 2 .895 2 2v24c0 1.105-.895 2-2 2h-6c-1.105 0-2-.895-2-2V36c0-1.105.895-2 2-2z"/>
+                                            <path fill="#d06061" d="M42 38c1.105 0 2 .895 2 2s-.895 2-2 2-2-.895-2-2 .895-2 2-2z"/>
+                                        </g>
+                                        <g class="book-shelf__book book-shelf__book--three" fill-rule="evenodd">
+                                            <path fill="#ff5068" d="M49 32h2c1.105 0 2 .86 2 1.92v25.906c0 1.06-.895 1.92-2 1.92h-2c-1.105 0-2-.86-2-1.92V33.92c0-1.06.895-1.92 2-1.92z"/>
+                                            <path fill="#d93368" d="M50 35c.552 0 1 .448 1 1v2c0 .552-.448 1-1 1s-1-.448-1-1v-2c0-.552.448-1 1-1z"/>
+                                        </g>
+                                        <g fill-rule="evenodd">
+                                            <path class="book-shelf__shelf" fill="#ae8280" d="M21 60h40c1.105 0 2 .895 2 2s-.895 2-2 2H21c-1.105 0-2-.895-2-2s.895-2 2-2z"/>
+                                            <path fill="#855f6d" d="M51.5 67c-.828 0-1.5-.672-1.5-1.5V64h3v1.5c0 .828-.672 1.5-1.5 1.5zm-21 0c-.828 0-1.5-.672-1.5-1.5V64h3v1.5c0 .828-.672 1.5-1.5 1.5z"/>
+                                        </g>
+                                    </svg>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-footer">
+                <div class="box is-shadowless">
+                    <p class="has-text-centered">
+                        <span class="tag is-primary">Reading time</span> &nbsp;&nbsp; 6 minutes
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="why">
+            <div class="small-container">
+                <div class="content is-medium">
+                    <div class="has-text-centered">
+                        <div>
+                            <span class="icon is-large" v-twemoji>🤔</span>
+                        </div>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">Why?</h2>
+                        <h4 class="subtitle is-5">The reason we're building yet another social network.</h4>
+                    </div>
+                    <p>
+                        Social networks are undoubtedly one of the greatest inventions of the 21st century.
+                    </p>
+                    <p>
+                        They have redefined how we connect with our loved ones, how we share our precious
+                        moments, our politics, our economy, our world.
+                    </p>
+                    <p>
+                        We entrust them with our stories, ideas, goals, plans and wishes. We entrust them with ourselves.
+                    </p>
+                    <p>
+                        Is the trust deserved? Is the goal of these companies really to help us connect with others or
+                        simply,
+                        making money?
+                    </p>
+                    <p>
+                        We, like you, can't tell.
+                    </p>
+                    <p>
+                        Why? Because these social networks operate in secrecy.
+                    </p>
+                    <p>
+                        Behind walls of uncertainty, often proven to be also walls of deceit and dishonesty.
+                    </p>
+                    <p>
+                        We want to bring those walls down.
+                    </p>
+                    <p>
+                        <strong>We want to build the first ever open and secure social network we can all trust.</strong>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section" id="how">
+            <div class="small-container">
+                <div class="content is-medium">
+                    <div class="has-text-centered">
+                        <div>
+                            <span class="icon is-large" v-twemoji>💡</span>
+                        </div>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">How?</h2>
+                        <h4 class="subtitle is-5">How will we create an open and secure social network?</h4>
+                    </div>
+
+                    <h3>1. Openness.</h3>
+                    <p>
+                        From the code running in our servers to our our T-Shirt designs, everything we do will be free and
+                        open for everyone to see, reproduce and contribute to.</p>
+                    <p>
+                        People will be able to see our intents in every line of code we write and will be able to hold us
+                        accountable
+                        for it. No tricks, no gimmicks, no unpleasant surprises.
+                    </p>
+                    <p>
+                        And finally, if something awful were to happen to the network ( like being overtaken by people with
+                        purely monetary interests ), with all of the code publicly available, anyone could setup their own
+                        and carry on with the mission.
+                    </p>
+                    <h3>
+                        2. Privacy and security.
+                    </h3>
+                    <p>
+                        Given our cyber security background, there is nothing we value more in a product than it's privacy
+                        and security.
+                    </p>
+                    <p>
+                        We will embed privacy and security in the core of everything we do.
+                    </p>
+                    <h4>
+                        2.1 Data sharing with applications
+                    </h4>
+                    <p>
+                        One of the great benefits of having a social media account these days is being able to use it to log
+                        into other applications.
+                    </p>
+                    <p>
+                        This is done through data sharing. The social network shares the information that the application
+                        <i>needs</i>
+                        from you.
+                    </p>
+                    <h5>Example</h5>
+                    <p>
+                        This is what data sharing normally looks like.
+                    </p>
+                    <p>
+                        Let's say you find yourself in a cafeteria. You notice there's an open WiFi network and you connect
+                        to it.
+                    </p>
+                    <p>
+                        The box below appears in your screen.
+                    </p>
+                    <p>
+                        <i>(Go ahead, click around as you would normally)</i>
+                    </p>
+                    <ob-generic-data-sharing></ob-generic-data-sharing>
+                    <p>
+                        Did you give the application permissions?
+                    </p>
+                    <p>
+                        Did you spot the problems?
+                    </p>
+                    <h5> Problem #1: What data did you actually share with the application?</h5>
+                    <p>
+                        Can you name the exact data that was shared with the application?
+                    </p>
+                    <p>
+                        You might say, <i>"well of course, it says clearly public profile, friend list, birthday, likes and
+                        email address"</i>.
+                    </p>
+                    <p>
+                        But what is <i>"public profile"</i>? And did you click/hover the "<i
+                        class="icon is-small fas fa-info-circle"></i>"
+                        icon?
+                    </p>
+                    <p>
+                        When you do, you'll get some more information.
+                    </p>
+                    <p><i>"Your public profile includes name, profile picture, age, range, gender, language, country
+                        <strong>and other public info</strong>."</i></p>
+                    <p>
+                        Apart from wondering why in the world would a WiFi hotspot need any of these, what qualifies as <i>"other
+                        public info"</i>?
+                    </p>
+                    <p>
+                        <strong>There is never a clear indication of the data being shared.</strong>
+                    </p>
+                    <p>
+                        Unacceptable.
+                    </p>
+                    <h5> Problem #2: Who determines what information does the application require from you?</h5>
+                    <p>
+                        You might be thinking, <i>"what a silly question, the application of course"</i>, they are providing
+                        a service, they know best.
+                    </p>
+                    <p>
+                        And as it turns out, this is the current case in every social media. Companies register an
+                        application, configure what
+                        information the application "needs" from it's users, and they're done.
+                    </p>
+                    <p>
+                        In a perfect world where all humans are honest and have nothing but good intentions, this would
+                        work.
+                    </p>
+                    <p>
+                        In our world, companies more often than not, abuse this system.
+                    </p>
+                    <p>
+                        And with no supervision whatsoever of the system, they go ahead and request all the information they
+                        can about you.
+                    </p>
+                    <p>
+                        Be it to truly provide a service or to analyze and sell your data, we will never know. And really,
+                        it
+                        shouldn't be our responsibility to find out.
+                    </p>
+                    <p>
+                        <strong>Social media companies should be responsible for ensuring applications do not abuse their
+                            data
+                            sharing systems.</strong>
+                    </p>
+                    <p>All applications requesting access to user data should be examined in depth, by real people, with the
+                        privacy and security of their users in mind.</p>
+                    <h5> Problem #3: What happens to your information once it leaves the social network?</h5>
+                    <p>
+                        So, you went ahead and hit <i>Continue</i>. What now?
+                    </p>
+                    <p>
+                        Where's the data?
+                    </p>
+                    <p>
+                        What if you were to discover that these WiFi hotspots are owned by your local goverment which is
+                        gathering this
+                        information for mass-surveillance reasons?
+                    </p>
+                    <p>
+                        Could you revoke the access to your data? But most importantly, could you make sure its deleted?
+                    </p>
+                    <p>
+                        The answer is no. Once the data is shared, there's no going back. There are no procedures for
+                        tracking it or deleting it.
+                    </p>
+                    <h5> Our solution</h5>
+                    <p>
+                        These are all clear and very serious problems that no social network as of today has been able to
+                        address.
+                    </p>
+                    <p>
+                        Perhaps the privacy and security of their users are not part of their priorities.
+                    </p>
+                    <p>
+                        They are part of ours.
+                    </p>
+                    <p>
+                        Here's our prototype.
+                    </p>
+                    <p>
+                        Let's say now you downloaded the awesome music app everyone has been recommending to you. As soon as
+                        you open the app, the box below shows up.
+                    </p>
+                    <p>
+                        <i>(Go ahead, click around as you would normally)</i>
+                    </p>
+                    <ob-openbook-data-sharing></ob-openbook-data-sharing>
+                    <p>
+                        Did you spot the differences?
+                    </p>
+                    <p>
+                        Here are the most important ones.
+                    </p>
+                    <p>
+                        <strong>
+                            Explicit and informed consent
+                        </strong>
+                    </p>
+                    <p>
+                        Sharing our information is sharing a bit of ourselves. That is why we want to make sure it's
+                        always crystal clear what is to be shared.
+                    </p>
+                    <p>We won't hide anything behind popups or behind vague descriptions such as "public information".</p>
+                    <p>We will be explicit about what information is to be shared and we will give you a way to inspect it
+                        yourself.
+                    </p>
+                    <p>
+                        We have an inspect shared data button. When activated, it displays the exact data that will be
+                        shared with the application.
+                    </p>
+                    <p>
+                        Information is power!
+                    </p>
+                    <p>
+                        <strong>
+                            Safe applications
+                        </strong>
+                    </p>
+                    <p>
+                        We will introduce the concept of safe applications.
+                    </p>
+                    <p>
+                        These applications will be examined in depth by us.
+                    </p>
+                    <p>
+                        To name a few items, we will make sure that these applications:
+                    </p>
+                    <ul>
+                        <li>
+                            Only request the information they need to provide the service.
+                        </li>
+                        <li>
+                            Know at all times where your data is stored physically and have this information available to
+                            you.
+                        </li>
+                        <li>
+                            Have provable procedures in place to delete your information from ALL of their systems if you
+                            were to
+                            revoke the permission.
+                        </li>
+                        <li>
+                            Will notify us (so we can then notify you) in the case of a data breach that might involve your
+                            data and have a contingency plan in place.
+                        </li>
+                    </ul>
+                    <p>
+                        If an application meets these and other of our privacy and security guidelines, a badge will be
+                        shown below their logo.
+                    </p>
+                    <p>
+                        We will then create an Applications Overview dashboard where you will be able to pinpoint the exact
+                        location of your shared data, revoke it's access and best of all, request it's deletion.
+                    </p>
+                    <p>
+                        <strong>Goodbye data sharing abuse! Hello control of your data!</strong>
+                    </p>
+                    <p class="is-size-7">
+                        P.D. You will recognize some of these items as <a href="https://www.eugdpr.org/">EU General Data
+                        Protection Regulation (GDPR)</a> policies. We embrace the regulation and aim to be compliant from
+                        day one.
+                    </p>
+                    <h4> 2.2 Privacy first</h4>
+                    <p>
+                        Although we're fans of the <a href="https://en.wikipedia.org/wiki/Do_Not_Track">Do Not Track
+                        initiative</a>, we firmly believe no <i>"Opt-out"</i>
+                        should be necessary for people not to be monitored across the internet.
+                    </p>
+                    <p><strong>Privacy should be a default everywhere.</strong></p>
+                    <p>
+                        That is why, apart from not tracking you anywhere, anyhow, by default, we will also only share the
+                        data applications must have in order to provide a service, by default.
+                    </p>
+                    <p>
+                        All optional data sharing will be disabled by default <sup class="is-size-7">1</sup>.
+                    </p>
+                    <p>
+                        For example, if an application does not require your friends list to provide a service but would
+                        like to have it, this will be disabled by default.
+                    </p>
+                    <p>
+                        If you want the application to have this information, you can allow this with the flick of a switch.
+                    </p>
+                    <p>
+                        Your data, your decision.
+                    </p>
+                    <p class="is-size-7">
+                    <span>
+                        [1] Currently, social networks enable all optional shared data by default.
+                    </span>
+                    </p>
+                    <h4> 2.3 Privacy and security as a journey, not a destination.</h4>
+                    <p>
+                        We will continuously research and develop new ways to improve your privacy and security.
+                    </p>
+                    <p>
+                        <strong>The less we know about you, the better.</strong>
+                    </p>
+                    <p>
+                        <strong>The more you know about us, the better.</strong>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <div class="section">
+            <div class="small-container">
+                <div class="content is-medium">
+                    <div class="has-text-centered">
+                        <div>
+                            <span class="icon is-large" v-twemoji>☝️</span>
+                        </div>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">Oh, and one more thing...</h2>
+                    </div>
+                    <p>
+                        We, like you, have put a tremendous amount of our time and data into existing social networks.
+                    </p>
+                    <p>
+                        That is why, we will make sure that, <strong>if the social network you are coming from provides a
+                        way to
+                        download your data, we will help you migrate it
+                        all to our network</strong>.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section" id="next">
+            <div class="small-container">
+                <div class="content is-medium">
+                    <div class="has-text-centered">
+                        <div>
+                            <span class="icon is-large" v-twemoji>➡</span>
+                        </div>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">What's next</h2>
+                        <h4 class="subtitle is-5">Where do we go from here?</h4>
+                    </div>
+                    <p>
+                        We are eager to bring this social network to life. To re-invent the way social media companies
+                        operate. To claim back our privacy and security.
+                    </p>
+                    <p>
+                        It won't be an easy task. Apart from the obvious technical challenges, being the underdogs in an
+                        industry with billions of dollars of revenue, we will be fought against, challenged and perhaps even
+                        ridiculised.
+                    </p>
+                    <p>
+                        We will need all the help we can get.
+                    </p>
+                    <p>
+                        That is why we are currently working on a Kickstarter campaign where you like millions of others,
+                        will be able
+                        to help us bring the project to life.
+                    </p>
+                    <p>
+                        We will have some awesome perks for our supporters, including apparel, mugs, stickers and more!
+                    </p>
+                    <h5>
+                        Stay tuned!
+                    </h5>
+                    <div class="columns is-mobile is-multiline padding-top-2x">
+                        <div class="column is-narrow">
+                            <a href="#" class="button is-primary is-rounded">
+                            <span class="icon">
+                                <i class="fas fa-bell"></i>
+                            </span>
+                                <span>
+                                Subscribe for updates
+                            </span>
+                            </a>
+                        </div>
+                        <div class="column is-narrow">
+                            <a href="https://twitter.com/OpenBook_org" target="_blank" class="button is-info is-rounded">
+                            <span class="icon">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                                <span>
+                                <span>
+                                    Follow us on Twitter for updates
+                                </span>
+                        </span>
+                            </a>
+                        </div>
+                        <div class="column is-narrow">
+                            <a href="https://twitter.com/intent/tweet?url=https://open-book.org&hastags=openbook,openbookorg&via=OpenBook_org&text=The open and secure social network coming soon to @kickstarter"
+                               target="_blank" class="button is-info is-outlined is-rounded">
+                            <span class="icon">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                                <span>
+                            Tweet about us
+                            </span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="hero is-primary is-bold">
+            <div class="hero-body has-text-centered">
+                <div class="container">
+                    <div class="columns is-centered is-vcentered">
+                        <div class="column">
+                            <h3 class="title is-size-4">
+                                Still have questions?
+                            </h3>
+                        </div>
+                        <div class="column">
+                            <a href="#" class="button is-white is-outlined is-rounded is-medium">
+                                Visit our FAQ
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
+
+<style lang="scss">
+
+    $generic-social-media-color: #4f6398;
+    $generic-social-media-color-invert: white;
+    $open-book-primary-color: #690ddc;
+    $open-book-primary-color-invert: white;
+
+
+    .small-container{
+        margin: 0 auto;
+        max-width: 800px !important;
+        width: 100%;
+    }
+
+
+    .is-generic-social-media{
+        color: $generic-social-media-color-invert !important;
+
+        background-color: $generic-social-media-color !important;
+
+        &:hover, &:focus{
+            background-color: $generic-social-media-color !important;
+            color: $generic-social-media-color-invert;
+        }
+    }
+
+    .is-primary-background {
+        background-color: $open-book-primary-color !important;
+    }
+
+    .is-primary-color {
+        color: $open-book-primary-color !important;
+    }
+
+    .is-generic-social-media-background {
+        background-color: $generic-social-media-color !important;
+    }
+
+
+    .is-borderless{
+        border: none !important;
+        &:focus {outline:0;}
+    }
+
+    // Bookshelf courtesy to the amazing Ryan
+    // https://codepen.io/ryanmclaughlin/pen/XJopVe
+    @keyframes book-bounce {
+        0% { transform: translateY(0); }
+        40% { transform: translateY(-10px); }
+        80% { transform: translateY(0); }
+        100% { transform: translateY(0); }
+    }
+
+    @keyframes shelf-lift {
+        0% { transform: translateY(0) rotate(0); }
+        20% { transform: translateY(-4px) rotate(10deg); }
+        40% { transform: translateY(-4px) rotate(0); }
+        40% { transform: translateY(-4px) rotate(-10deg); }
+        80% { transform: translateY(0); }
+        100% { transform: translateY(0); }
+    }
+
+    .book-shelf:hover {
+        cursor: pointer;
+
+        .book-shelf__book {
+            animation: book-bounce 0.4s ease;
+            animation-iteration-count: 1;
+        }
+
+        .book-shelf__book--two {
+            animation-delay: 0.04s;
+        }
+
+        .book-shelf__book--three {
+            animation-delay: 0.08s;
+        }
+
+        .book-shelf__shelf {
+            animation: shelf-lift 0.4s ease;
+            animation-iteration-count: 1;
+            transform-origin: 50% 50%;
+        }
+    }
+
+
+</style>
 
 <script>
     import obGenericDataSharing from './components/generic-data-sharing.vue';

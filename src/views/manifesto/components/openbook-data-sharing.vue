@@ -5,7 +5,7 @@
                 <div v-if="stepNumber === 1">
                     <div class="columns is-mobile is-multiline">
                         <div class="column is-12 has-text-centered">
-                            <button class="button is-success is-large is-outlined app-logo" disabled>
+                            <button class="button is-success is-large is-outlined app-logo is-rounded" disabled>
                                 <i class="fas fa-music app-logo__icon"></i>
                             </button>
                         </div>

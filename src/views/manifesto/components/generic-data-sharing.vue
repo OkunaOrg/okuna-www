@@ -5,7 +5,7 @@
                 <div v-if="stepNumber === 1">
                     <div class="columns is-mobile is-multiline">
                         <div class="column is-12 has-text-centered">
-                            <button class="button is-danger is-large is-outlined app-logo" disabled>
+                            <button class="button is-danger is-large is-outlined app-logo is-rounded" disabled>
                                 <i class="fas fa-wifi app-logo__icon"></i>
                             </button>
                         </div>
@@ -142,9 +142,10 @@
         position: relative;
         max-width: 400px;
         min-height: 500px;
-        display: flex;
+        display: flex !important;
         justify-content: center;
         align-items: center;
+        box-shadow:0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1) !important;
     }
 
     .app-logo {
