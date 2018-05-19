@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-fullheight hero--about-us">
+        <section class="hero is-medium hero--about-us">
             <div class="hero-body">
                 <div class="container is-fluid">
                     <div class="columns is-centered is-vcentered">
@@ -26,7 +26,7 @@
                             </div>
                             <div class="columns">
                                 <div class="column has-text-centered">
-                                    <p>The home of the people we want to benefit with our tool.</p>
+                                    <p>The people we want to build the tool for.</p>
                                 </div>
                             </div>
                         </div>
@@ -47,7 +47,7 @@
                         </p>
                         <br/>
                         <p>
-                            Meant to help us share our treasured moments with our loved ones,  they share our information with third parties guided by political, economical or disruptive agendas.
+                            Meant to help us share our treasured moments with our loved ones,  they share our information with third parties following political, economical or disruptive agendas.
                         </p>
                         <br/>
                         <p>
@@ -69,18 +69,13 @@
                 </div>
             </div>
         </section>
-        <section class="section">
-            <div class="container">
-                <ob-team-members/>
-            </div>
-        </section>
         <section class="hero is-primary is-bold">
             <div class="hero-body has-text-centered">
                 <div class="container">
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                Want to know more?
+                                Want to know how will we do this?
                             </h3>
                         </div>
                         <div class="column">
@@ -92,13 +87,23 @@
                 </div>
             </div>
         </section>
+        <section class="section">
+            <div class="container">
+                <div class="content has-text-centered padding-bottom-2x">
+                    <p class="is-size-3 padding-bottom-3x">
+                        The humans behind Openbook
+                    </p>
+                </div>
+                <ob-team-members/>
+            </div>
+        </section>
     </div>
 </template>
 
 
 <style lang="scss">
     .hero--about-us{
-        border-bottom: solid 1px #fafafa;
+        border-bottom: solid 1px #d4d4d4;
     }
 
     .trust-text{

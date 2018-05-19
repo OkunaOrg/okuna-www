@@ -40,7 +40,7 @@
                         ],
                         links: {
                             website: 'https://www.lifenautjoe.com',
-                            github: '',
+                            github: 'https://github.com/lifenautjoe',
                             instagram: 'https://instagram.com/lifenautjoe',
                             linkedin: 'https://www.linkedin.com/in/lifenautjoe',
                             twitter: 'https://twitter.com/lifenautjoe'
