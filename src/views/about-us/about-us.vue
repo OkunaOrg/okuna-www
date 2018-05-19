@@ -70,7 +70,9 @@
             </div>
         </section>
         <section class="section">
-            <ob-team-members/>
+            <div class="container">
+                <ob-team-members/>
+            </div>
         </section>
         <section class="hero is-primary is-bold">
             <div class="hero-body has-text-centered">

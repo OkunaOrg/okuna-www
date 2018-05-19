@@ -1,6 +1,6 @@
 <template>
-    <div class="columns is-multiline">
-        <div class="column" v-for="teamMember of teamMembers">
+    <div class="columns is-multiline is-mobile">
+        <div class="column is-6-mobile is-4-tablet is-2-desktop" v-for="teamMember of teamMembers">
             <ob-team-member :team-member="teamMember" :key="teamMember.name"/>
         </div>
     </div>
@@ -8,6 +8,14 @@
 
 <script>
     import ObTeamMember from "./components/team-member";
+    import joelPhoto from './assets/joel.jpeg';
+    import jayaPhoto from './assets/jaya.png';
+    import larsPhoto from './assets/lars.jpeg';
+    import philPhoto from './assets/phil.jpg';
+    import vincentPhoto from './assets/vincent.jpeg';
+    import plaholderPhoto from './assets/placeholder.png';
+
+
 
     export default {
         components: {ObTeamMember},
@@ -18,7 +26,7 @@
                     {
                         name: 'Joel',
                         position: 'Founder, Chief Executive Officer',
-                        photo: 'Tech Lead',
+                        photo: joelPhoto,
                         talents: [
                             'Leadership',
                             'Product Development',
@@ -37,7 +45,7 @@
                     {
                         name: 'Jaya Baloo',
                         position: 'Chief Operating Officer',
-                        photo: 'Tech Lead',
+                        photo: jayaPhoto,
                         talents: [
                             'Information Security',
                             'Strategy',
@@ -51,7 +59,7 @@
                     {
                         name: 'Lars Rosenquist',
                         position: 'Chief Technology Officer',
-                        photo: '',
+                        photo: larsPhoto,
                         talents: [
                             'Systems Engineering',
                             'Cloud Architecture',
@@ -65,7 +73,7 @@
                     {
                         name: 'Phillip Zimmermann',
                         position: 'Chief Cryptographer',
-                        photo: '',
+                        photo: philPhoto,
                         talents: [
                             'Cryptography',
                             'Data security',
@@ -79,7 +87,7 @@
                     {
                         name: 'Bas Roemburg',
                         position: 'UI/UX Desginer',
-                        photo: '',
+                        photo: plaholderPhoto,
                         talents: [
                             'UI/UX Design',
                             'Prototyping',
@@ -92,7 +100,7 @@
                     {
                         name: 'Vincent Ruijter',
                         position: 'Security Engineer',
-                        photo: '',
+                        photo: vincentPhoto,
                         talents: [
                             'Pentesting',
                             'Information Security',
@@ -104,7 +112,7 @@
                     {
                         name: 'Martijn Jansen',
                         position: 'Software Engineer',
-                        photo: '',
+                        photo: plaholderPhoto,
                         talents: [
                             'Frontend Development',
                             'Mobile Development',
