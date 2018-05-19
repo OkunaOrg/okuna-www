@@ -1,8 +1,8 @@
 <template>
     <div class="columns is-mobile is-multiline">
         <div class="column is-12">
-            <figure class="image">
-                <img :src="teamMember.photo" v-bind:alt="teamMember.photo">
+            <figure class="image is-4by5">
+                <img class="is-semi-rounded is-shadowed" :src="teamMember.photo" v-bind:alt="teamMember.photo">
             </figure>
         </div>
         <div class="column is-12">
@@ -18,6 +18,10 @@
 </template>
 
 
+<style lang="scss">
+
+</style>
+
 <script>
     export default {
         name: 'ob-team-member',
@@ -26,7 +30,6 @@
                 type: Object
             }
         },
-        methods: {
-        }
+        methods: {}
     }
 </script>
