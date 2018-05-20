@@ -10,7 +10,7 @@
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
                                         FAQ
                                     </h1>
-                                    <h2 class="title is-size-2 trust-text has-text-centered-mobile">
+                                    <h2 class="title is-size-2 faq-text has-text-centered-mobile">
                                         The frequently asked questions.
                                     </h2>
                                 </div>
@@ -158,6 +158,15 @@
         </section>
     </div>
 </template>
+
+<style lang="scss">
+    .faq-text{
+        @media (min-width: 768px){
+            max-width:400px;
+        }
+    }
+
+</style>
 
 <script>
     import ObPets from "./components/pets";

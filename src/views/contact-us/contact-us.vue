@@ -10,7 +10,7 @@
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
                                         Contact us
                                     </h1>
-                                    <h2 class="title is-size-2 trust-text has-text-centered-mobile">
+                                    <h2 class="title is-size-2 contact-text has-text-centered-mobile">
                                         We want to hear from you.
                                     </h2>
                                 </div>
@@ -59,6 +59,12 @@
 </template>
 
 <style lang="scss">
+
+    .contact-text{
+        @media (min-width: 768px){
+            max-width:400px;
+        }
+    }
 
     .contact-us-header-text {
         @media(max-width: 768px) {

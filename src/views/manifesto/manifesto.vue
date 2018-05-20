@@ -10,7 +10,7 @@
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
                                         Manifesto
                                     </h1>
-                                    <h2 class="title is-size-2 trust-text has-text-centered-mobile">
+                                    <h2 class="title is-size-2 manifesto-text has-text-centered-mobile">
                                         The problem, the solution, the next steps.
                                     </h2>
                                 </div>
@@ -501,6 +501,11 @@
     $open-book-primary-color: #690ddc;
     $open-book-primary-color-invert: white;
 
+    .manifesto-text{
+        @media (min-width: 768px){
+            max-width:400px;
+        }
+    }
 
     .is-generic-social-media{
         color: $generic-social-media-color-invert !important;
