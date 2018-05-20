@@ -114,8 +114,17 @@
                 });
             },
             onSubmitWithValidForm() {
-                console.log('All is well!');
-                this.submissionInProgress = true;
+                this.submitForm();
+            },
+            submitForm() {
+                this.enableLoading();
+                setTimeout(() => {
+                    this.disableLoading();
+                    this.clearAll();
+                    this.$dialog.alert({
+                        message: 'Your message has been delivered. <br/> You\'ll hear from us soon.'
+                    })
+                }, 3000);
             },
             validateAll() {
                 return this.$validator.validateAll().then((result) => {
@@ -131,6 +140,14 @@
             clearAll() {
                 Object.assign(this.$data, initialState());
                 this.$validator.reset();
+            },
+            enableLoading() {
+                this.submissionInProgress = true;
+                this.loadingComponent = this.$loading.open();
+            },
+            disableLoading() {
+                this.submissionInProgress = false;
+                this.loadingComponent.close();
             }
         }
     }
