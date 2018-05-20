@@ -5,7 +5,7 @@
                 <div class="container is-fluid">
                     <div class="columns">
                         <div class="column">
-                            <div class="columns is-centered">
+                            <div class="columns is-centered contact-us-header-text">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
                                         Contact us
@@ -17,7 +17,7 @@
                             </div>
                         </div>
                         <div class="column">
-                            <div class="columns is-centered is-vcentered">
+                            <div class="columns is-centered is-vcentered contact-us-header-mailbox is-mobile">
                                 <div class="column is-narrow">
                                     <ob-mailbox/>
                                 </div>
@@ -29,7 +29,7 @@
         </section>
         <section class="section">
             <div class="container">
-                <div class="columns">
+                <div class="columns contact">
                     <div class="column is-4-tablet">
                         <div class="columns is-centered is-mobile">
                             <div class="column contact-information">
@@ -42,7 +42,7 @@
                     </div>
                     <div class="column">
                         <div class="columns is-centered is-mobile">
-                            <div class="column contact-message">
+                            <div class="column contact-message padding-bottom-2x-mobile">
                                 <div class="content">
                                     <h4 class="padding-bottom-2x">
                                         Send us a message
@@ -59,11 +59,31 @@
 </template>
 
 <style lang="scss">
-    .contact-information{
+
+    .contact-us-header-text {
+        @media(max-width: 768px) {
+            padding-top: 1rem;
+        }
+    }
+
+    .contact-us-header-envelope {
+        @media(max-width: 768px) {
+            padding-top: 1rem;
+        }
+    }
+
+    .contact {
+        @media(max-width: 768px) {
+            display: flex;
+            flex-direction: column-reverse;
+        }
+    }
+
+    .contact-information {
         max-width: 250px;
     }
 
-    .contact-message{
+    .contact-message {
         max-width: 750px;
     }
 
@@ -74,11 +94,12 @@
     import ObAddress from "./components/address";
     import ObMessage from "./components/message";
 
-    export default{
+    export default {
         components: {
             ObMessage,
             ObAddress,
-            ObMailbox}
+            ObMailbox
+        }
 
     }
 </script>
