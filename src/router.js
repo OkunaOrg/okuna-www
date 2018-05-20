@@ -45,5 +45,11 @@ export default new Router({
             name: 'jobs',
             component: jobs
         }
-    ]
+    ],
+    scrollBehavior(){
+        return {
+            x:0,
+            y:0
+        }
+    }
 })
