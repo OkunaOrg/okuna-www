@@ -3,9 +3,9 @@
         <nav class="navbar is-fixed-top is-transparent" role="navigation" aria-label="main navigation">
             <div class="container">
                 <div class="navbar-brand">
-                    <a class="navbar-item is-size-4 has-text-primary" href="https://open-book.org">
+                    <router-link to="home" class="navbar-item is-size-4 has-text-primary">
                         <strong>Open</strong>book.
-                    </a>
+                    </router-link>
                     <ob-hamburger></ob-hamburger>
                 </div>
                 <div class="navbar-menu">
@@ -16,6 +16,18 @@
                         <router-link to="contact-us" class="navbar-item" active-class="is-active">Contact us</router-link>
                         <router-link to="jobs" class="navbar-item" active-class="is-active">Jobs</router-link>
                         <router-link to="faq" class="navbar-item" active-class="is-active">FAQ</router-link>
+                    </div>
+                    <div class="navbar-item">
+                        <b-dropdown>
+                            <button class="button is-primary" slot="trigger">
+                                <span>English</span>
+                                <span class="icon">
+                                        <i class="fas fa-angle-down"></i>
+                                    </span>
+                            </button>
+
+                            <b-dropdown-item>Spanish</b-dropdown-item>
+                        </b-dropdown>
                     </div>
                 </div>
             </div>
