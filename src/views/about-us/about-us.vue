@@ -24,11 +24,6 @@
                                     </figure>
                                 </div>
                             </div>
-                            <div class="columns">
-                                <div class="column has-text-centered">
-                                    <p>The people we want to build the tool for.</p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>

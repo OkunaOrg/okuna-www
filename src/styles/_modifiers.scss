@@ -20,6 +20,13 @@
     }
 }
 
+.padding-top-1x-mobile{
+    @media(max-width: 768px) {
+        padding-top: 1rem !important;
+    }
+}
+
+
 img .is-rounded {
     border-radius: 50%;
 }

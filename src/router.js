@@ -4,6 +4,7 @@ import home from './views/home/home.vue';
 import aboutUs from './views/about-us/about-us.vue';
 import manifesto from './views/manifesto/manifesto.vue';
 import contactUs from './views/contact-us/contact-us.vue';
+import faq from './views/faq/faq.vue';
 
 Vue.use(Router);
 
@@ -32,6 +33,11 @@ export default new Router({
             path: '/contact-us',
             name: 'contact-us',
             component: contactUs
+        },
+        {
+            path: '/faq',
+            name: 'faq',
+            component: faq
         }
     ]
 })
