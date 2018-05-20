@@ -9,19 +9,28 @@
                     <ob-hamburger></ob-hamburger>
                 </div>
                 <div class="navbar-menu">
-                    <div class="navbar-end">
-                        <router-link to="home" class="navbar-item">Home</router-link>
-                        <router-link to="about-us" class="navbar-item">About us</router-link>
-                        <router-link to="manifesto" class="navbar-item">Manifesto</router-link>
-                        <router-link to="contact-us" class="navbar-item">Contact us</router-link>
-                        <router-link to="jobs" class="navbar-item">Jobs</router-link>
-                        <router-link to="faq" class="navbar-item">FAQ</router-link>
+                    <div class="navbar-end header-links">
+                        <router-link to="home" class="navbar-item" active-class="is-active">Home</router-link>
+                        <router-link to="about-us" class="navbar-item" active-class="is-active">About us</router-link>
+                        <router-link to="manifesto" class="navbar-item" active-class="is-active">Manifesto</router-link>
+                        <router-link to="contact-us" class="navbar-item" active-class="is-active">Contact us</router-link>
+                        <router-link to="jobs" class="navbar-item" active-class="is-active">Jobs</router-link>
+                        <router-link to="faq" class="navbar-item" active-class="is-active">FAQ</router-link>
                     </div>
                 </div>
             </div>
         </nav>
     </header>
 </template>
+
+<style lang="scss">
+    .header-links{
+        .is-active{
+            font-weight: bold;
+            color: #690ddc !important;
+        }
+    }
+</style>
 
 <script>
     import obHamburger from './components/hamburger.vue';
