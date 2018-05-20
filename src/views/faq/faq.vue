@@ -11,7 +11,7 @@
                                         FAQ
                                     </h1>
                                     <h2 class="title is-size-2 trust-text has-text-centered-mobile">
-                                        The frequently asked questions
+                                        The frequently asked questions.
                                     </h2>
                                 </div>
                             </div>

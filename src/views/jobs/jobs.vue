@@ -29,7 +29,7 @@
         </section>
         <section class="section">
             <div class="small-container">
-                <div class="content is-large">
+                <div class="content is-medium">
                     <h4>
                         We are embarking in one of the most exciting digital adventures ever and we are looking for talented people to sail with us!
                     </h4>

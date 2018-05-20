@@ -32,7 +32,7 @@
         <section class="section">
             <div class="small-container">
                 <div class="columns is-centered">
-                    <div class="column has-text-centered intro-text content is-large">
+                    <div class="column has-text-centered intro-text content is-medium">
                         <p class="title is-size-4">
                             <strong>In the year 2018, social networks are a destructive force in our society.</strong>
                         </p>
