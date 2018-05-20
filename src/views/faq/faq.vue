@@ -137,6 +137,22 @@
                 </div>
             </div>
         </section>
+        <section class="hero is-primary is-bold">
+            <div class="hero-body has-text-centered">
+                <div class="container">
+                    <div class="columns is-centered is-vcentered">
+                        <div class="column">
+                            <h3 class="title is-size-4">
+                                Have another question?
+                            </h3>
+                        </div>
+                        <div class="column">
+                            <router-link to="contact-us" class="button is-white is-outlined is-rounded is-medium">Send us a message</router-link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </div>
 </template>
 
