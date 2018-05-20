@@ -14,6 +14,12 @@
     margin-top: 2rem !important;
 }
 
+.padding-bottom-2x-mobile{
+    @media(max-width: 768px) {
+        margin-bottom: 2rem !important;
+    }
+}
+
 img .is-rounded {
     border-radius: 50%;
 }
@@ -33,4 +39,7 @@ img .is-rounded {
     box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1), 0 17px 50px rgba(0, 0, 0, 0.1);
 }
 
+.has-border-bottom-gray {
+    border-bottom: solid 1px #d4d4d4;
+}
 

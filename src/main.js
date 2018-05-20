@@ -16,8 +16,11 @@ require('slick-carousel');
 // Load Vue plugins
 import Buefy from 'buefy'
 import VueScrollTo from 'vue-scrollto';
+import VeeValidate from 'vee-validate';
+
 
 Vue.use(Buefy);
+Vue.use(VeeValidate);
 
 // Current workaround to preserve element hash after scroll
 // See issue here https://github.com/rigor789/vue-scrollto/issues/85

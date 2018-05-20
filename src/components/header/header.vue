@@ -13,9 +13,9 @@
                         <router-link to="home" class="navbar-item">Home</router-link>
                         <router-link to="about-us" class="navbar-item">About us</router-link>
                         <router-link to="manifesto" class="navbar-item">Manifesto</router-link>
-                        <router-link to="manifesto" class="navbar-item">Contact</router-link>
-                        <router-link to="manifesto" class="navbar-item">Jobs</router-link>
-                        <router-link to="manifesto" class="navbar-item">FAQ</router-link>
+                        <router-link to="contact-us" class="navbar-item">Contact us</router-link>
+                        <router-link to="jobs" class="navbar-item">Jobs</router-link>
+                        <router-link to="faq" class="navbar-item">FAQ</router-link>
                     </div>
                 </div>
             </div>

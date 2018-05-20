@@ -1,6 +1,6 @@
 <template>
     <div class="columns is-multiline is-mobile">
-        <div class="column is-6-mobile is-4-tablet is-3-desktop" v-for="teamMember of teamMembers">
+        <div class="column is-6-mobile is-3-tablet is-2-desktop" v-for="teamMember of teamMembers">
             <ob-team-member :team-member="teamMember" :key="teamMember.name"/>
         </div>
     </div>
