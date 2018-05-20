@@ -5,6 +5,7 @@ import aboutUs from './views/about-us/about-us.vue';
 import manifesto from './views/manifesto/manifesto.vue';
 import contactUs from './views/contact-us/contact-us.vue';
 import faq from './views/faq/faq.vue';
+import jobs from './views/jobs/jobs.vue';
 
 Vue.use(Router);
 
@@ -38,6 +39,11 @@ export default new Router({
             path: '/faq',
             name: 'faq',
             component: faq
+        },
+        {
+            path: '/jobs',
+            name: 'jobs',
+            component: jobs
         }
     ]
 })
