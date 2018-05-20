@@ -1,13 +1,16 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import home from './views/home/home.vue';
-import aboutUs from './views/about-us/about-us.vue';
-import manifesto from './views/manifesto/manifesto.vue';
-import contactUs from './views/contact-us/contact-us.vue';
-import faq from './views/faq/faq.vue';
-import jobs from './views/jobs/jobs.vue';
 
 Vue.use(Router);
+
+// Lazy load everything but home page!
+const contactUs = () => import('./views/contact-us/contact-us.vue');
+const aboutUs = () => import('./views/about-us/about-us.vue');
+const manifesto = () => import('./views/manifesto/manifesto.vue');
+const faq = () => import('./views/faq/faq.vue');
+const jobs = () => import('./views/jobs/jobs.vue');
+
 
 export default new Router({
     routes: [
