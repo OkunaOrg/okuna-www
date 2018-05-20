@@ -17,7 +17,7 @@
                             </div>
                         </div>
                         <div class="column about-us-header-gif">
-                            <div class="columns is-centered is-vcentered is-mobile padding-bottom-2x">
+                            <div class="columns is-centered is-vcentered is-mobile">
                                 <div class="column is-narrow">
                                     <svg class="book-shelf" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 84 94" height="200" width="420">
                                         <path fill="none" d="M37.612 92.805L4.487 73.71c-2.75-1.587-4.45-4.52-4.45-7.687L.008 27.877c-.003-3.154 1.676-6.063 4.405-7.634L37.558 1.167c2.73-1.57 6.096-1.566 8.835.013l33.124 19.096c2.75 1.586 4.45 4.518 4.45 7.686l.028 38.146c.002 3.154-1.677 6.063-4.406 7.634L46.445 92.818c-2.73 1.57-6.096 1.566-8.834-.013z"/>
@@ -500,13 +500,6 @@
     $generic-social-media-color-invert: white;
     $open-book-primary-color: #690ddc;
     $open-book-primary-color-invert: white;
-
-
-    .small-container{
-        margin: 0 auto;
-        max-width: 800px !important;
-        width: 100%;
-    }
 
 
     .is-generic-social-media{
