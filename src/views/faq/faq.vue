@@ -20,6 +20,9 @@
                             <div class="columns is-centered is-vcentered contact-us-header-mailbox is-mobile">
                                 <div class="column is-narrow padding-top-1x-mobile">
                                     <ob-pets/>
+                                    <div class="has-text-centered is-size-7">
+                                        Our office dog hard at work.
+                                    </div>
                                 </div>
                             </div>
                         </div>
