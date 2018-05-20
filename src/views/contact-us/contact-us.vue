@@ -44,9 +44,10 @@
                         <div class="columns is-centered is-mobile">
                             <div class="column contact-message">
                                 <div class="content">
-                                    <h4>
+                                    <h4 class="padding-bottom-2x">
                                         Send us a message
                                     </h4>
+                                    <ob-message/>
                                 </div>
                             </div>
                         </div>
@@ -71,9 +72,11 @@
 <script>
     import ObMailbox from "./components/mailbox";
     import ObAddress from "./components/address";
+    import ObMessage from "./components/message";
 
     export default{
         components: {
+            ObMessage,
             ObAddress,
             ObMailbox}
 
