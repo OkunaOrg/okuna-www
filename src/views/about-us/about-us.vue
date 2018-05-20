@@ -1,6 +1,6 @@
 <template>
     <div>
-        <section class="hero is-medium hero--about-us">
+        <section class="hero is-medium has-border-bottom-gray">
             <div class="hero-body">
                 <div class="container is-fluid">
                     <div class="columns is-centered is-vcentered">
@@ -120,9 +120,6 @@
 
 
 <style lang="scss">
-    .hero--about-us{
-        border-bottom: solid 1px #d4d4d4;
-    }
 
     .about-us-header-text{
         @media(max-width: 768px){
