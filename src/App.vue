@@ -4,6 +4,7 @@
         <ob-header></ob-header>
         <router-view/>
         <ob-footer></ob-footer>
+        <ob-scroll-hud></ob-scroll-hud>
     </div>
 </template>
 
@@ -16,8 +17,10 @@
     import obFooter from './components/footer/footer.vue';
     import obHeader from './components/header/header.vue';
     import obMobileMenu from './components/mobile-menu.vue';
+    import ObScrollHud from "./components/scroll-hud/scroll-hud.vue";
     export default {
         components: {
+            ObScrollHud,
             obMobileMenu,
             obFooter,
             obHeader
