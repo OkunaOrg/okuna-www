@@ -169,7 +169,9 @@
         name: 'ob-mailbox',
         mounted() {
             setTimeout(() => {
-                this.$refs.letterImageElement.classList.add('opened');
+                if(this.$refs.letterImageElement){
+                    this.$refs.letterImageElement.classList.add('opened');
+                }
             }, 500);
         }
     }
