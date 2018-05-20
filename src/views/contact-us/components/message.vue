@@ -12,6 +12,7 @@
                         type="text"
                         placeholder="The reason you are contacting us"
                         id="subject"
+                        v-model="subject"
                         name="subject">
                 </div>
                 <p class="help is-danger">
@@ -25,8 +26,13 @@
                     Email
                 </label>
                 <div class="control">
-                    <input class="input is-medium" v-validate="'required|email'" type="text" id="email" name="email"
-                           placeholder="The email we can reach you at">
+                    <input class="input is-medium"
+                           v-validate="'required|email'"
+                           type="text"
+                           id="email"
+                           name="email"
+                           placeholder="The email we can reach you at"
+                           v-model="email">
                 </div>
                 <p class="help is-danger">
                     <span v-show="fields.email && fields.email.touched && errors.has('email')">
@@ -45,7 +51,9 @@
                                 placeholder="What can we do for you?"
                                 style="resize: none;"
                                 id="message"
-                                name="message"></textarea>
+                                name="message"
+                                v-model="message"
+                            ></textarea>
                         </div>
                     </div>
                 </div>
@@ -57,12 +65,13 @@
             </div>
             <div class="field is-grouped is-grouped-right">
                 <p class="control">
-                    <a class="button is-light">
+                    <a class="button is-light" @click="clearAll()">
                         Clear form
                     </a>
                 </p>
                 <p class="control">
-                    <button class="button is-primary" type="submit" :disabled="(formWasSubmitted && !formIsValid) || submissionInProgress">
+                    <button class="button is-primary" type="submit"
+                            :disabled="(formWasSubmitted && !formIsValid) || submissionInProgress">
                         Submit
                     </button>
                 </p>
@@ -76,14 +85,20 @@
 </style>
 
 <script>
+
+    function initialState() {
+        return {
+            formWasSubmitted: false,
+            submissionInProgress: false,
+            email: '',
+            subject: '',
+            message: ''
+        }
+    }
+
     export default {
         name: 'ob-message',
-        data() {
-            return {
-                formWasSubmitted: false,
-                submissionInProgress: false
-            }
-        },
+        data: initialState,
         computed: {
             formIsValid() {
                 return this.errors.items.length <= 0;
@@ -92,7 +107,6 @@
         methods: {
             onSubmit() {
                 this.validateAll().then((result) => {
-                    debugger;
                     this.formWasSubmitted = true;
                     if (result) {
                         this.onSubmitWithValidForm();
@@ -113,6 +127,10 @@
                 return Object.keys(this.fields).every(field => {
                     return this.fields[field].touched = true;
                 });
+            },
+            clearAll() {
+                Object.assign(this.$data, initialState());
+                this.$validator.reset();
             }
         }
     }
