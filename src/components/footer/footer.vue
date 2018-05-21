@@ -1,5 +1,5 @@
 <template>
-    <footer class="hero is-primary" id="footer">
+    <footer class="hero is-small is-primary" id="footer">
         <div class="hero-head">
             <div class="hero is-small">
                 <div class="hero-body">
