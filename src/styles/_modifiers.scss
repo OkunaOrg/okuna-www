@@ -14,18 +14,21 @@
     margin-top: 2rem !important;
 }
 
-.padding-bottom-2x-mobile{
+.has-padding-2x{
+    padding: 2rem !important;
+}
+
+.padding-bottom-2x-mobile {
     @media(max-width: 768px) {
         margin-bottom: 2rem !important;
     }
 }
 
-.padding-top-1x-mobile{
+.padding-top-1x-mobile {
     @media(max-width: 768px) {
         padding-top: 1rem !important;
     }
 }
-
 
 img .is-rounded {
     border-radius: 50%;
@@ -50,3 +53,11 @@ img .is-rounded {
     border-bottom: solid 1px #d4d4d4;
 }
 
+.has-border-bottom-gray-light {
+    border-bottom: solid 1px #fafafa;
+}
+
+
+.is-flex{
+    display: flex;
+}
