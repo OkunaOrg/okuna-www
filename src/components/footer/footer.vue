@@ -116,7 +116,7 @@
                         <div class="level has-padding-2x">
                             <div class="level-left">
                                 <div class="content has-text-centered-mobile">
-                                    © Openbook
+                                    © The Openbook Organization
                                 </div>
                             </div>
                             <div class="level-right">
