@@ -4,9 +4,9 @@
             <div class="container">
                 <div class="columns is-centered is-vcentered">
                     <div class="column">
-                        <a href="#" class="button is-white is-outlined is-rounded is-medium">
+                        <router-link to="about-us" class="button is-white is-outlined is-rounded is-medium">
                             Meet the team
-                        </a>
+                        </router-link>
                     </div>
                     <div class="column">
                         <div class="columns is-centered is-mobile">

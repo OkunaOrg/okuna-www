@@ -16,9 +16,9 @@
                             </h3>
                         </div>
                         <div class="column">
-                            <a href="#" class="button is-white is-outlined is-rounded is-medium">
+                            <router-link to="manifesto" class="button is-white is-outlined is-rounded is-medium">
                                 Read our manifesto
-                            </a>
+                            </router-link>
                         </div>
                     </div>
                 </div>
