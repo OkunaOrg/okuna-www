@@ -530,12 +530,6 @@
         background-color: $generic-social-media-color !important;
     }
 
-
-    .is-borderless{
-        border: none !important;
-        &:focus {outline:0;}
-    }
-
     // Bookshelf courtesy to the amazing Ryan
     // https://codepen.io/ryanmclaughlin/pen/XJopVe
     @keyframes book-bounce {

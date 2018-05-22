@@ -7,13 +7,16 @@
                     <div class="container">
                         <div class="navbar-brand">
                             <a class="navbar-item is-size-4 is-primary-color" href="https://open-book.org">
-                                <strong>Open</strong>book
+                                <strong>Open</strong>book.
                             </a>
-                            <button class="button is-primary is-outlined is-borderless navbar-close" @click="closeMenu()">
-                                <span class="icon">
-                                    <i class="fas fa-times"></i>
-                                </span>
-                            </button>
+                            <div class="navbar-close navbar-item">
+                                <button class="button is-outlined is-borderless navbar-close__button"
+                                        @click="closeMenu()">
+                                    <span class="icon is-size-3">
+                                        <i class="fas fa-times"></i>
+                                    </span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </header>
@@ -74,6 +77,9 @@
                     </ul>
                 </div>
             </div>
+            <div class="hero-footer">
+
+            </div>
         </section>
     </div>
 </template>
@@ -98,26 +104,32 @@
         }
     }
 
-    .navbar-close {
-        border-radius: 0;
+
+    .navbar-close{
+        cursor: pointer;
+        display: block;
+        height: 4.25rem;
+        position: relative;
+        width: 4.25rem;
         margin-left: auto;
-        width: 55px;
-        height: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+
+        &__button{
+            border-radius: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
     }
 
-    .menu-list{
-        &-item{
-            &__link{
+    .menu-list {
+        &-item {
+            &__link {
                 padding: 1rem !important;
                 display: flex !important;
                 align-items: center;
                 justify-content: center;
                 height: 60px;
 
-                span{
+                span {
                     margin: 0 0.5rem;
                 }
             }
@@ -155,10 +167,10 @@
             onWantsToCloseMenu() {
                 this.closeMenu();
             },
-            openMenu(){
+            openMenu() {
                 this.isOpen = true;
             },
-            closeMenu(){
+            closeMenu() {
                 this.isOpen = false;
             }
         }

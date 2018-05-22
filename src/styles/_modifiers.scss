@@ -40,6 +40,11 @@ img .is-rounded {
     -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
+.is-borderless{
+    border: none !important;
+    &:focus {outline:0;}
+}
+
 .is-semi-rounded {
     overflow: hidden;
     border-radius: 5px !important;
