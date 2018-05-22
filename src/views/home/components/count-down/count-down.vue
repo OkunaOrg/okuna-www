@@ -23,14 +23,18 @@
                                 class="is-size-5"> seconds </span>
                             </template>
                         </countdown>
-                        <a href="#" class="button is-primary is-rounded is-medium padding-top-2x">
+                        <div class="columns is-mobile is-centered">
+                            <div class="column is-narrow">
+                                <a href="#" class="button is-primary is-rounded is-medium padding-top-2x">
                             <span class="icon">
                                 <i class="fas fa-bell"></i>
                             </span>
-                            <span>
+                                    <span>
                                 Notify me
                             </span>
-                        </a>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
