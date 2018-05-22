@@ -287,7 +287,8 @@
         top: 0;
         left: 0;
         right: 0;
-        bottom: 0;
+        min-height:100%;
+        height:auto;
         background: #fafafa;
         display: none;
 
@@ -331,6 +332,7 @@
             width: 100% !important;
         }
     }
+
 </style>
 
 <script>
@@ -355,6 +357,11 @@
         },
         destroyed() {
             this.removeAllEvents();
+        },
+        watch:{
+            $route (){
+                this.closeMenu();
+            }
         },
         methods: {
             onWantsToOpenMenu() {
