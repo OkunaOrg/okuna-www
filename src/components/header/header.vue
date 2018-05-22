@@ -6,6 +6,18 @@
                     <router-link to="home" class="navbar-item is-size-4 has-text-primary">
                         <strong>Open</strong>book.
                     </router-link>
+                    <div class="navbar-item is-hidden-desktop">
+                        <b-dropdown>
+                            <button class="button is-primary" slot="trigger">
+                                <span>English</span>
+                                <span class="icon">
+                                        <i class="fas fa-angle-down"></i>
+                                    </span>
+                            </button>
+
+                            <b-dropdown-item>Spanish</b-dropdown-item>
+                        </b-dropdown>
+                    </div>
                     <ob-hamburger></ob-hamburger>
                 </div>
                 <div class="navbar-menu">
@@ -42,6 +54,7 @@
             color: #690ddc !important;
         }
     }
+
 </style>
 
 <script>
