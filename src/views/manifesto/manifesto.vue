@@ -483,9 +483,9 @@
                             </h3>
                         </div>
                         <div class="column">
-                            <a href="#" class="button is-white is-outlined is-rounded is-medium">
+                            <router-link to="faq" class="button is-white is-outlined is-rounded is-medium">
                                 Visit our FAQ
-                            </a>
+                            </router-link>
                         </div>
                     </div>
                 </div>
