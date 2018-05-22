@@ -26,7 +26,7 @@
                         </div>
                         <div class="columns is-centered is-mobile">
                             <div class="column is-narrow">
-                                <button class="button is-primary is-outlined is-rounded">
+                                <button class="button is-primary is-outlined is-rounded" @click="onUserWantsToShare()">
                                     <span class="icon">
                                         <i class="fas fa-share-alt"></i>
                                     </span>
@@ -81,6 +81,7 @@
 
     import ObBrowser from "./components/browser";
     import ObOcean from "./components/ocean/ocean";
+    import ObSocialShare from "./components/social-share/social-share";
 
     export default {
         components: {
@@ -121,6 +122,14 @@
 
                 typewriter.start();
 
+            },
+            onUserWantsToShare() {
+                this.openShareModal();
+            },
+            openShareModal() {
+                this.$modal.open({
+                    component: ObSocialShare
+                })
             }
         }
     }
