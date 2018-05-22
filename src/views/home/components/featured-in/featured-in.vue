@@ -1,5 +1,5 @@
 <template>
-    <div class="columns is-centered">
+    <div class="columns is-centered is-mobile">
         <div class="column is-narrow">
             <a href="https://www.greennetproject.org/" target="_blank">
                 <figure class="image featured-in-img">

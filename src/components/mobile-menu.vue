@@ -6,72 +6,273 @@
                 <header class="navbar">
                     <div class="container">
                         <div class="navbar-brand">
-                            <a class="navbar-item is-size-4 is-primary-color" href="https://open-book.org">
-                                <strong>Open</strong>book
+                            <a class="navbar-item is-size-4 has-text-primary" href="https://open-book.org">
+                                <strong>Open</strong>book.
                             </a>
-                            <button class="button is-primary is-outlined is-borderless navbar-close" @click="closeMenu()">
-                                <span class="icon">
-                                    <i class="fas fa-times"></i>
-                                </span>
-                            </button>
+                            <div class="navbar-close navbar-item">
+                                <button class="button is-outlined is-borderless navbar-close__button has-text-primary"
+                                        @click="closeMenu()">
+                                    <span class="icon is-size-3">
+                                        <i class="fas fa-times"></i>
+                                    </span>
+                                </button>
+                            </div>
                         </div>
                     </div>
                 </header>
             </div>
 
             <!-- Hero content: will be in the middle -->
-            <div class="hero-body is-paddingless">
-                <div class="container has-text-centered">
-                    <ul class="menu-list">
-                        <li class="menu-list-item" href="#main" @click="closeMenu()">
-                            <a class="menu-list-item__link is-size-5">
-                                <span class="icon" v-twemoji>✨</span>
-                                <span>
-                                    Introduction
-                                </span>
-                            </a>
-                        </li>
-                        <li class="menu-list-item is-size-5">
-                            <a class="menu-list-item__link" href="#why" @click="closeMenu()">
-                                <span class="icon" v-twemoji>🤔</span>
-                                <span>
-                                    Why?
-                                </span>
-                            </a>
-                        </li>
-                        <li class="menu-list-item is-size-5">
-                            <a class="menu-list-item__link" href="#how" @click="closeMenu()">
-                                <span class="icon" v-twemoji>💡</span>
-                                <span>
-                                    How?
-                                </span>
-                            </a>
-                        </li>
-                        <li class="menu-list-item is-size-5">
-                            <a class="menu-list-item__link" href="#next" @click="closeMenu()">
-                                <span class="icon" v-twemoji>➡</span>
-                                <span>
-                                    What's next
-                                </span>
-                            </a>
-                        </li>
-                        <li class="menu-list-item is-size-5">
-                            <a class="menu-list-item__link" href="#work" @click="closeMenu()">
-                                <span class="icon" v-twemoji>💪</span>
-                                <span>
-                                    Work with us
-                                </span>
-                            </a>
-                        </li>
-                        <li class="menu-list-item is-size-5">
-                            <a class="menu-list-item__link" href="#faq" @click="closeMenu()">
-                                <span class="icon" v-twemoji>📝</span>
-                                <span>
-                                    FAQ
-                                </span>
-                            </a>
-                        </li>
-                    </ul>
+            <div class="hero-body is-paddingless hero-body--mobile-menu">
+                <div class="container">
+                    <div class="columns">
+                        <router-link to="home" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-border-top-gray-lighter has-text-grey-dark mobile-menu-item">
+                            <div class="columns is-mobile">
+                                <div class="column is-3">
+                                    <div class="columns is-mobile is-centered is-vcentered">
+                                        <div class="column is-narrow">
+                                            <span class="icon">
+                                                <i class="fas fa-home"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span>Home</span>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="columns is-mobile is-centered is-vcentered">
+                                                <div class="column is-narrow">
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </router-link>
+                        <router-link to="about-us" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
+                            <div class="columns is-mobile">
+                                <div class="column is-3">
+                                    <div class="columns is-mobile is-centered is-vcentered">
+                                        <div class="column is-narrow">
+                                            <span class="icon">
+                                                <i class="fas fa-info"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span>About us</span>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="columns is-mobile is-centered is-vcentered">
+                                                <div class="column is-narrow">
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </router-link>
+                        <router-link to="manifesto" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
+                            <div class="columns is-mobile">
+                                <div class="column is-3">
+                                    <div class="columns is-mobile is-centered is-vcentered">
+                                        <div class="column is-narrow">
+                                            <span class="icon">
+                                                <i class="fas fa-book-open"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span>Manifesto</span>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="columns is-mobile is-centered is-vcentered">
+                                                <div class="column is-narrow">
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </router-link>
+                        <router-link to="contact-us" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
+                            <div class="columns is-mobile">
+                                <div class="column is-3">
+                                    <div class="columns is-mobile is-centered is-vcentered">
+                                        <div class="column is-narrow">
+                                            <span class="icon">
+                                                <i class="fas fa-envelope"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span>Contact us</span>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="columns is-mobile is-centered is-vcentered">
+                                                <div class="column is-narrow">
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </router-link>
+                        <router-link to="jobs" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
+                            <div class="columns is-mobile">
+                                <div class="column is-3">
+                                    <div class="columns is-mobile is-centered is-vcentered">
+                                        <div class="column is-narrow">
+                                            <span class="icon">
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span>Jobs</span>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="columns is-mobile is-centered is-vcentered">
+                                                <div class="column is-narrow">
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </router-link>
+                        <router-link to="faq" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
+                            <div class="columns is-mobile">
+                                <div class="column is-3">
+                                    <div class="columns is-mobile is-centered is-vcentered">
+                                        <div class="column is-narrow">
+                                            <span class="icon">
+                                                <i class="fas fa-question-circle"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span>FAQ</span>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="columns is-mobile is-centered is-vcentered">
+                                                <div class="column is-narrow">
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </router-link>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-footer">
+                <div class="hero is-small is-primary">
+                    <div class="hero-body">
+                        <div class="columns is-mobile is-multiline">
+                            <div class="column is-12">
+                                <div class="columns is-mobile is-vcentered">
+                                    <div class="column">
+                                        <span class="is-size-7">Follow us on</span>
+                                    </div>
+                                    <div class="column is-2">
+                                        <a href="https://twitter.com/Openbook_org" class="is-flex is-vcentered"
+                                           target="_blank">
+                                            <div class="columns is-mobile">
+                                                <div class="column">
+                                            <span class="icon">
+                                                <i class="fab fa-twitter"></i>
+                                            </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="column is-2">
+                                        <a href="https://github.com/OpenBookOrg" class="is-flex is-vcentered"
+                                           target="_blank">
+                                            <div class="columns is-mobile">
+                                                <div class="column">
+                                            <span class="icon">
+                                                <i class="fab fa-github"></i>
+                                            </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="column is-2">
+                                        <a href="https://www.reddit.com/user/openbook_org" class="is-flex is-vcentered"
+                                           target="_blank">
+                                            <div class="columns is-mobile">
+                                                <div class="column">
+                                            <span class="icon">
+                                                <i class="fab fa-reddit-alien"></i>
+                                            </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="column is-2">
+                                        <a href="https://gitter.im/openbook-org/Lobby" class="is-flex is-vcentered"
+                                           target="_blank">
+                                            <div class="columns is-mobile">
+                                                <div class="column">
+                                            <span class="icon">
+                                                <i class="fab fa-gitter"></i>
+                                            </span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="column is-2">
+                                        <a href="https://www.facebook.com/openbookorg/" class="is-flex is-vcentered"
+                                           target="_blank">
+                                            <div class="columns is-mobile">
+                                                <div class="column">
+                                                    <span class="icon"><i class="fab fa-facebook-f"></i></span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
@@ -80,13 +281,15 @@
 
 <style lang="scss">
     .mobile-menu {
+        overflow: hidden;
         z-index: 999;
         position: fixed;
         top: 0;
         left: 0;
         right: 0;
-        bottom: 0;
-        background: white;
+        min-height:100%;
+        height:auto;
+        background: #fafafa;
         display: none;
 
         &--open {
@@ -98,31 +301,38 @@
         }
     }
 
-    .navbar-close {
-        border-radius: 0;
-        margin-left: auto;
-        width: 55px;
-        height: 55px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
+    .mobile-menu-item {
+        &--active {
+            background: #eaeaea !important;
+            font-weight: bold;
 
-    .menu-list{
-        &-item{
-            &__link{
-                padding: 1rem !important;
-                display: flex !important;
-                align-items: center;
-                justify-content: center;
-                height: 60px;
-
-                span{
-                    margin: 0 0.5rem;
-                }
+            .mobile-menu-item__chevron {
+                display: none !important;
             }
         }
     }
+
+    .hero-body--mobile-menu {
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+
+    .navbar-close {
+        cursor: pointer;
+        display: block;
+        height: 4.25rem;
+        position: relative;
+        width: 4.25rem;
+        margin-left: auto;
+
+        &__button {
+            background: none !important;
+            border-radius: 0 !important;
+            height: 100% !important;
+            width: 100% !important;
+        }
+    }
+
 </style>
 
 <script>
@@ -148,6 +358,11 @@
         destroyed() {
             this.removeAllEvents();
         },
+        watch:{
+            $route (){
+                this.closeMenu();
+            }
+        },
         methods: {
             onWantsToOpenMenu() {
                 this.openMenu();
@@ -155,10 +370,10 @@
             onWantsToCloseMenu() {
                 this.closeMenu();
             },
-            openMenu(){
+            openMenu() {
                 this.isOpen = true;
             },
-            closeMenu(){
+            closeMenu() {
                 this.isOpen = false;
             }
         }

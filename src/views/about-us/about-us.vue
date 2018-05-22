@@ -17,7 +17,7 @@
                             </div>
                         </div>
                         <div class="column about-us-header-gif">
-                            <div class="columns is-centered is-vcentered is-mobile padding-bottom-2x">
+                            <div class="columns is-centered is-vcentered is-mobile padding-bottom-2x-mobile">
                                 <div class="column is-narrow">
                                     <figure class="image trust-gif">
                                         <img class="is-rounded is-square trust-gif__img" src="https://orig00.deviantart.net/b64a/f/2015/196/4/6/earth_3_0__animated__by_shaddow24-d91hqbn.gif">
@@ -30,9 +30,9 @@
             </div>
         </section>
         <section class="section">
-            <div class="container">
+            <div class="small-container">
                 <div class="columns is-centered">
-                    <div class="column has-text-centered intro-text content is-large">
+                    <div class="column has-text-centered intro-text content is-medium">
                         <p class="title is-size-4">
                             <strong>In the year 2018, social networks are a destructive force in our society.</strong>
                         </p>

@@ -1,30 +1,28 @@
 <template>
-    <button class="button is-primary scroll-to-top animated fadeInUp" v-scroll-to="'#main'" v-show="visible">
-        <span class="icon">
-            <i class="fas fa-arrow-up"></i>
-        </span>
-    </button>
+    <div v-show="visible" class="scroll-hud">
+        <ob-scroll-to-top></ob-scroll-to-top>
+    </div>
 </template>
 
 <style lang="scss">
-
-    $button-size: 45px;
-
-    .scroll-to-top {
+    .scroll-hud{
         position: fixed;
         bottom: 0;
-        right: 0;
-        height: $button-size;
-        width: $button-size;
-        margin: 1rem;
+        left:0;
+        right:0;
     }
 </style>
 
 <script>
     import debounce from 'lodash.debounce';
 
+    import ObScrollToTop from "./components/scroll-to-top.vue";
+
     export default {
-        name: 'ob-scroll-to-top',
+        components: {
+            ObScrollToTop
+        },
+        name: 'ob-scroll-hud',
         data() {
             return {
                 visible: false,

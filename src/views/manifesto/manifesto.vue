@@ -10,14 +10,14 @@
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
                                         Manifesto
                                     </h1>
-                                    <h2 class="title is-size-2 trust-text has-text-centered-mobile">
+                                    <h2 class="title is-size-2 manifesto-text has-text-centered-mobile">
                                         The problem, the solution, the next steps.
                                     </h2>
                                 </div>
                             </div>
                         </div>
                         <div class="column about-us-header-gif">
-                            <div class="columns is-centered is-vcentered is-mobile padding-bottom-2x">
+                            <div class="columns is-centered is-vcentered is-mobile">
                                 <div class="column is-narrow">
                                     <svg class="book-shelf" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 84 94" height="200" width="420">
                                         <path fill="none" d="M37.612 92.805L4.487 73.71c-2.75-1.587-4.45-4.52-4.45-7.687L.008 27.877c-.003-3.154 1.676-6.063 4.405-7.634L37.558 1.167c2.73-1.57 6.096-1.566 8.835.013l33.124 19.096c2.75 1.586 4.45 4.518 4.45 7.686l.028 38.146c.002 3.154-1.677 6.063-4.406 7.634L46.445 92.818c-2.73 1.57-6.096 1.566-8.834-.013z"/>
@@ -483,9 +483,9 @@
                             </h3>
                         </div>
                         <div class="column">
-                            <a href="#" class="button is-white is-outlined is-rounded is-medium">
+                            <router-link to="faq" class="button is-white is-outlined is-rounded is-medium">
                                 Visit our FAQ
-                            </a>
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -501,13 +501,11 @@
     $open-book-primary-color: #690ddc;
     $open-book-primary-color-invert: white;
 
-
-    .small-container{
-        margin: 0 auto;
-        max-width: 800px !important;
-        width: 100%;
+    .manifesto-text{
+        @media (min-width: 768px){
+            max-width:400px;
+        }
     }
-
 
     .is-generic-social-media{
         color: $generic-social-media-color-invert !important;
@@ -530,12 +528,6 @@
 
     .is-generic-social-media-background {
         background-color: $generic-social-media-color !important;
-    }
-
-
-    .is-borderless{
-        border: none !important;
-        &:focus {outline:0;}
     }
 
     // Bookshelf courtesy to the amazing Ryan

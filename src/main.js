@@ -21,17 +21,7 @@ import VeeValidate from 'vee-validate';
 
 Vue.use(Buefy);
 Vue.use(VeeValidate);
-
-// Current workaround to preserve element hash after scroll
-// See issue here https://github.com/rigor789/vue-scrollto/issues/85
-Vue.use(VueScrollTo, {
-    onDone: function (element) {
-        const elementHasId = typeof element.id !== 'undefined';
-        if (elementHasId) {
-            window.location.hash = element.id;
-        }
-    }
-});
+Vue.use(VueScrollTo);
 
 // Load Vue globals
 import twemoji from './directives/twemoji.js';

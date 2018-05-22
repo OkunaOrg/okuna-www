@@ -20,10 +20,6 @@ $box-shadow	: 0 12px 15px rgba(0,0,0,0.1), 0 17px 50px rgba(0,0,0,0.1);
 // Import the rest of Bulma
 @import "../../../node_modules/bulma/bulma";
 
-.navbar{
-    border-bottom: solid 1px #fafafa;
-}
-
 .hero{
     overflow: hidden;
 }
