@@ -77,8 +77,71 @@
                     </ul>
                 </div>
             </div>
-            <div class="hero-footer">
-
+            <div class="hero-footer has-padding-2x">
+                <div class="columns is-mobile is-multiline">
+                    <div class="column is-12">
+                        Follow us on
+                    </div>
+                    <div class="column is-12">
+                        <div class="columns is-mobile">
+                            <div class="column is-2">
+                                <a href="https://twitter.com/Openbook_org" class="is-flex is-vcentered" target="_blank">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span class="icon">
+                                                <i class="fab fa-twitter"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="column is-2">
+                                <a href="https://github.com/OpenBookOrg" class="is-flex is-vcentered" target="_blank">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span class="icon">
+                                                <i class="fab fa-github"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="column is-2">
+                                <a href="https://www.reddit.com/user/openbook_org" class="is-flex is-vcentered"
+                                   target="_blank">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span class="icon">
+                                                <i class="fab fa-reddit-alien"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="column is-2">
+                                <a href="https://gitter.im/openbook-org/Lobby" class="is-flex is-vcentered" target="_blank">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span class="icon">
+                                                <i class="fab fa-gitter"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="column is-2">
+                                <a href="https://www.facebook.com/openbookorg/" class="is-flex is-vcentered"
+                                   target="_blank">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span class="icon"><i class="fab fa-facebook-f"></i></span>
+                                        </div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </div>
@@ -104,8 +167,7 @@
         }
     }
 
-
-    .navbar-close{
+    .navbar-close {
         cursor: pointer;
         display: block;
         height: 4.25rem;
@@ -113,7 +175,7 @@
         width: 4.25rem;
         margin-left: auto;
 
-        &__button{
+        &__button {
             border-radius: 0 !important;
             height: 100% !important;
             width: 100% !important;
