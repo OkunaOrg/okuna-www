@@ -26,7 +26,8 @@
             <div class="hero-body is-paddingless hero-body--mobile-menu">
                 <div class="container">
                     <div class="columns">
-                        <router-link to="home" class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-black-bis mobile-menu__item">
+                        <router-link to="home" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-border-top-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
                                     <div class="columns is-mobile is-centered is-vcentered">
@@ -45,7 +46,7 @@
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
                                                 <div class="column is-narrow">
-                                                    <i class="fas fa-chevron-right"></i>
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
                                                 </div>
                                             </div>
                                         </div>
@@ -54,13 +55,14 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link to="home" class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-black-bis mobile-menu__item">
+                        <router-link to="about-us" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
                                     <div class="columns is-mobile is-centered is-vcentered">
                                         <div class="column is-narrow">
                                             <span class="icon">
-                                                <i class="fas fa-home"></i>
+                                                <i class="fas fa-info"></i>
                                             </span>
                                         </div>
                                     </div>
@@ -68,12 +70,12 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>Home</span>
+                                            <span>About us</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
                                                 <div class="column is-narrow">
-                                                    <i class="fas fa-chevron-right"></i>
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
                                                 </div>
                                             </div>
                                         </div>
@@ -82,13 +84,14 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link to="home" class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-black-bis mobile-menu__item">
+                        <router-link to="manifesto" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
                                     <div class="columns is-mobile is-centered is-vcentered">
                                         <div class="column is-narrow">
                                             <span class="icon">
-                                                <i class="fas fa-home"></i>
+                                                <i class="fas fa-book-open"></i>
                                             </span>
                                         </div>
                                     </div>
@@ -96,12 +99,12 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>Home</span>
+                                            <span>Manifesto</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
                                                 <div class="column is-narrow">
-                                                    <i class="fas fa-chevron-right"></i>
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
                                                 </div>
                                             </div>
                                         </div>
@@ -110,13 +113,14 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link to="home" class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-black-bis mobile-menu__item">
+                        <router-link to="contact-us" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
                                     <div class="columns is-mobile is-centered is-vcentered">
                                         <div class="column is-narrow">
                                             <span class="icon">
-                                                <i class="fas fa-home"></i>
+                                                <i class="fas fa-envelope"></i>
                                             </span>
                                         </div>
                                     </div>
@@ -124,12 +128,12 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>Home</span>
+                                            <span>Contact us</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
                                                 <div class="column is-narrow">
-                                                    <i class="fas fa-chevron-right"></i>
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
                                                 </div>
                                             </div>
                                         </div>
@@ -138,13 +142,14 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link to="home" class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-black-bis mobile-menu__item">
+                        <router-link to="jobs" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
                                     <div class="columns is-mobile is-centered is-vcentered">
                                         <div class="column is-narrow">
                                             <span class="icon">
-                                                <i class="fas fa-home"></i>
+                                                <i class="fas fa-star"></i>
                                             </span>
                                         </div>
                                     </div>
@@ -152,12 +157,12 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>Home</span>
+                                            <span>Jobs</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
                                                 <div class="column is-narrow">
-                                                    <i class="fas fa-chevron-right"></i>
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
                                                 </div>
                                             </div>
                                         </div>
@@ -166,13 +171,14 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link to="home" class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-black-bis mobile-menu__item">
+                        <router-link to="faq" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
                                     <div class="columns is-mobile is-centered is-vcentered">
                                         <div class="column is-narrow">
                                             <span class="icon">
-                                                <i class="fas fa-home"></i>
+                                                <i class="fas fa-question-circle"></i>
                                             </span>
                                         </div>
                                     </div>
@@ -180,17 +186,16 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>Home</span>
+                                            <span>FAQ</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
                                                 <div class="column is-narrow">
-                                                    <i class="fas fa-chevron-right"></i>
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
                             </div>
                         </router-link>
@@ -202,10 +207,10 @@
                     <div class="hero-body">
                         <div class="columns is-mobile is-multiline">
                             <div class="column is-12">
-                                Follow us on
-                            </div>
-                            <div class="column is-12">
-                                <div class="columns is-mobile">
+                                <div class="columns is-mobile is-vcentered">
+                                    <div class="column">
+                                        <span class="is-size-7">Follow us on</span>
+                                    </div>
                                     <div class="column is-2">
                                         <a href="https://twitter.com/Openbook_org" class="is-flex is-vcentered"
                                            target="_blank">
@@ -276,6 +281,7 @@
 
 <style lang="scss">
     .mobile-menu {
+        overflow: hidden;
         z-index: 999;
         position: fixed;
         top: 0;
@@ -291,6 +297,17 @@
 
         @media (min-width: 1090px) {
             display: none !important;
+        }
+    }
+
+    .mobile-menu-item {
+        &--active {
+            background: #eaeaea !important;
+            font-weight: bold;
+
+            .mobile-menu-item__chevron {
+                display: none !important;
+            }
         }
     }
 
@@ -312,22 +329,6 @@
             border-radius: 0 !important;
             height: 100% !important;
             width: 100% !important;
-        }
-    }
-
-    .menu-list {
-        &-item {
-            &__link {
-                padding: 1rem !important;
-                display: flex !important;
-                align-items: center;
-                justify-content: center;
-                height: 60px;
-
-                span {
-                    margin: 0 0.5rem;
-                }
-            }
         }
     }
 </style>

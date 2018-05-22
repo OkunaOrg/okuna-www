@@ -62,6 +62,10 @@ img .is-rounded {
     border-bottom: solid 1px #e0e0e0;
 }
 
+.has-border-top-gray-lighter {
+    border-top: solid 1px #e0e0e0;
+}
+
 .has-border-bottom-gray-light {
     border-bottom: solid 1px #fafafa;
 }
@@ -69,4 +73,10 @@ img .is-rounded {
 
 .is-flex{
     display: flex;
+}
+
+.is-centered-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
