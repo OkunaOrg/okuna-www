@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="animated fadeIn">
         <section class="hero is-medium has-border-bottom-gray">
             <div class="hero-body">
                 <div class="container is-fluid">
@@ -16,7 +16,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="column about-us-header-gif">
+                        <div class="column manifesto-gif">
                             <div class="columns is-centered is-vcentered is-mobile">
                                 <div class="column is-narrow">
                                     <svg class="book-shelf" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid" viewBox="0 0 84 94" height="200" width="420">
@@ -504,6 +504,13 @@
     .manifesto-text{
         @media (min-width: 768px){
             max-width:400px;
+        }
+    }
+
+
+    .manifesto-gif{
+        @media(max-width: 768px){
+            margin-top: 1rem;
         }
     }
 

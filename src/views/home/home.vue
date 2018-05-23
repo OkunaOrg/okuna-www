@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="animated fadeIn">
         <ob-splash-hero></ob-splash-hero>
         <section class="section">
             <div class="container">
