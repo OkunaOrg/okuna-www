@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="animated fadeIn">
         <section class="hero is-medium hero--jobs has-border-bottom-gray">
             <div class="hero-body">
                 <div class="container is-fluid">
