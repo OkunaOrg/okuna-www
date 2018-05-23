@@ -28,16 +28,6 @@
             <ob-count-down></ob-count-down>
         </section>
         <ob-meet-the-team></ob-meet-the-team>
-<!--        <section class="section">
-            <div class="container">
-                <div class="content has-text-centered padding-bottom-2x">
-                    <p class="is-size-3 padding-bottom-3x">
-                        What are others saying?
-                    </p>
-                </div>
-                <ob-quotes></ob-quotes>
-            </div>
-        </section>-->
         <section class="section">
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
