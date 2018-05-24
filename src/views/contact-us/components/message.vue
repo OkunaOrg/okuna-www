@@ -63,6 +63,17 @@
                     </span>
                 </p>
             </div>
+            <div class="field">
+                <div class="control">
+                    <vue-recaptcha sitekey="6LcBGlsUAAAAAA6NXsqPOtUbsk_G2ov5nafyduDk" ref="recaptcha"
+                                   v-on:verify="onCaptchaVerified($event)"></vue-recaptcha>
+                </div>
+                <p class="help is-danger">
+                    <span v-show="formWasSubmitted && !captchaVerified">
+                        Please tick this box
+                    </span>
+                </p>
+            </div>
             <div class="field is-grouped is-grouped-right">
                 <p class="control">
                     <a class="button is-light" @click="clearAll()">
@@ -85,11 +96,17 @@
 </style>
 
 <script>
+    import VueRecaptcha from 'vue-recaptcha';
+    import axios from 'axios';
+
+    const CONTACT_URL = process.env.VUE_APP_CONTACT_URL;
 
     function initialState() {
         return {
             formWasSubmitted: false,
             submissionInProgress: false,
+            captchaVerified: false,
+            captchaResponse: '',
             email: '',
             subject: '',
             message: ''
@@ -99,9 +116,12 @@
     export default {
         name: 'ob-message',
         data: initialState,
+        components: {
+            VueRecaptcha
+        },
         computed: {
             formIsValid() {
-                return this.errors.items.length <= 0;
+                return this.errors.items.length <= 0 && this.captchaVerified === true;
             }
         },
         methods: {
@@ -116,20 +136,43 @@
             onSubmitWithValidForm() {
                 this.submitForm();
             },
+            onCaptchaVerified(response) {
+                this.captchaVerified = true;
+                this.captchaResponse = response;
+                console.log('Captcha is valid!');
+            },
             submitForm() {
                 this.enableLoading();
-                setTimeout(() => {
-                    this.disableLoading();
-                    this.clearAll();
-                    this.$dialog.alert({
-                        message: 'Your message has been delivered. <br/> You\'ll hear from us soon.'
+
+                const requestData = {
+                    subject: this.subject,
+                    email: this.email,
+                    message: this.message,
+                    captcha: this.captchaResponse
+                };
+
+                axios.post(CONTACT_URL, requestData)
+                    .then(() => {
+                        this.clearAll();
+                        this.disableLoading();
+                        this.$dialog.alert({
+                            title: 'Hooray!',
+                            message: 'Your message has been delivered. <br/> You\'ll hear from us soon.'
+                        });
                     })
-                }, 3000);
+                    .catch((error) => {
+                        console.error(error);
+                        this.disableLoading();
+                        this.$dialog.alert({
+                            title: 'Oh no...',
+                            message: 'We could not deliver your message. Please try again later or contact us at info@open-book.org'
+                        });
+                    });
             },
             validateAll() {
                 return this.$validator.validateAll().then((result) => {
                     this.touchAll();
-                    return result;
+                    return result && this.captchaVerified;
                 });
             },
             touchAll() {
@@ -140,6 +183,7 @@
             clearAll() {
                 Object.assign(this.$data, initialState());
                 this.$validator.reset();
+                this.$refs.recaptcha.reset()
             },
             enableLoading() {
                 this.submissionInProgress = true;

@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@xkeshi/vue-countdown": "^0.6.0",
+    "axios": "^0.18.0",
     "buefy": "^0.6.5",
     "bulma": "^0.7.1",
     "dayjs": "^1.5.24",
@@ -19,6 +20,7 @@
     "twemoji": "^2.5.1",
     "vee-validate": "^2.0.9",
     "vue": "^2.5.16",
+    "vue-recaptcha": "^1.1.1",
     "vue-router": "^3.0.1",
     "vue-scrollto": "^2.11.0"
   },
