@@ -8,5 +8,13 @@ module.exports = {
                 }
             ]
         }
+    },
+    devServer: {
+        proxy: {
+            "/contact": {
+                target: "http://localhost:8000/",
+                secure: false
+            }
+        }
     }
 };
