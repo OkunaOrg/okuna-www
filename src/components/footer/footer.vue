@@ -26,13 +26,16 @@
                                 <router-link to="home" class="navbar-item" active-class="is-active">Home</router-link>
                             </li>
                             <li>
-                                <router-link to="about-us" class="navbar-item" active-class="is-active">About us</router-link>
+                                <router-link to="about-us" class="navbar-item" active-class="is-active">About us
+                                </router-link>
                             </li>
                             <li>
-                                <router-link to="manifesto" class="navbar-item" active-class="is-active">Manifesto</router-link>
+                                <router-link to="manifesto" class="navbar-item" active-class="is-active">Manifesto
+                                </router-link>
                             </li>
                             <li>
-                                <router-link to="contact-us" class="navbar-item" active-class="is-active">Contact us</router-link>
+                                <router-link to="contact-us" class="navbar-item" active-class="is-active">Contact us
+                                </router-link>
                             </li>
                             <li>
                                 <router-link to="jobs" class="navbar-item" active-class="is-active">Jobs</router-link>
@@ -69,7 +72,8 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://www.reddit.com/user/openbook_org" class="is-flex is-vcentered" target="_blank">
+                                <a href="https://www.reddit.com/user/openbook_org" class="is-flex is-vcentered"
+                                   target="_blank">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">
@@ -81,7 +85,8 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://gitter.im/openbook-org/Lobby" class="is-flex is-vcentered" target="_blank">
+                                <a href="https://gitter.im/openbook-org/Lobby" class="is-flex is-vcentered"
+                                   target="_blank">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">
@@ -93,7 +98,8 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://www.facebook.com/openbookorg/" class="is-flex is-vcentered" target="_blank">
+                                <a href="https://www.facebook.com/openbookorg/" class="is-flex is-vcentered"
+                                   target="_blank">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon"><i class="fab fa-facebook-f"></i></span>
@@ -116,7 +122,9 @@
                         <div class="level has-padding-2x">
                             <div class="level-left">
                                 <div class="content has-text-centered-mobile">
-                                    © The Openbook Organization | <a href="https://www.iubenda.com/privacy-policy/91224954" class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank">Privacy Policy</a>
+                                    © The Openbook Organization | <a
+                                    href="https://www.iubenda.com/privacy-policy/91224954"
+                                    class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank">Privacy Policy</a>
                                 </div>
                             </div>
                             <div class="level-right">
@@ -128,8 +136,9 @@
                                     <i class="fas fa-heart"></i>
                                 </span>
                                     <span>
-                                    in Europe.
-                                </span>
+                                    in Europe &nbsp;
+                                    </span>
+                                    <span class="icon is-medium" v-twemoji>🇪🇺</span>
                                 </div>
                             </div>
                         </div>
@@ -141,8 +150,9 @@
 </template>
 
 <style lang="scss">
-    .made-in-europe{
+    .made-in-europe {
         display: flex;
+        align-items: center;
         justify-content: center;
     }
 </style>
