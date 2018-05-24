@@ -437,7 +437,7 @@
                     </h5>
                     <div class="columns is-mobile is-multiline padding-top-2x">
                         <div class="column is-narrow">
-                            <a href="#" class="button is-primary is-rounded">
+                            <a target="_blank" href="http://eepurl.com/dvRRmD" class="button is-primary is-rounded">
                             <span class="icon">
                                 <i class="fas fa-bell"></i>
                             </span>

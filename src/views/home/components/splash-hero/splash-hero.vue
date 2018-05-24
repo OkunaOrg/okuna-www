@@ -36,14 +36,14 @@
                                 </button>
                             </div>
                             <div class="column is-narrow">
-                                <button class="button is-primary is-rounded">
+                                <a class="button is-primary is-rounded" target="_blank" href="http://eepurl.com/dvRRmD">
                                     <span class="icon">
                                         <i class="fas fa-heart"></i>
                                     </span>
                                     <span>
                                         Join the waitlist
                                     </span>
-                                </button>
+                                </a>
                             </div>
                         </div>
                     </div>
