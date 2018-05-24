@@ -116,7 +116,7 @@
                         <div class="level has-padding-2x">
                             <div class="level-left">
                                 <div class="content has-text-centered-mobile">
-                                    © The Openbook Organization | <a href="https://www.iubenda.com/privacy-policy/91224954" class="iubenda-white iubenda-embed " title="Privacy Policy">Privacy Policy</a>
+                                    © The Openbook Organization | <a href="https://www.iubenda.com/privacy-policy/91224954" class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank">Privacy Policy</a>
                                 </div>
                             </div>
                             <div class="level-right">
