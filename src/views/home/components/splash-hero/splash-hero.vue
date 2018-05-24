@@ -38,10 +38,10 @@
                             <div class="column is-narrow">
                                 <a class="button is-primary is-rounded" target="_blank" href="http://eepurl.com/dvRRmD">
                                     <span class="icon">
-                                        <i class="fas fa-heart"></i>
+                                        <i class="fas fa-bell"></i>
                                     </span>
                                     <span>
-                                        Join the waitlist
+                                        Notify me
                                     </span>
                                 </a>
                             </div>
