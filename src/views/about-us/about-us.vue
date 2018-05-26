@@ -70,7 +70,7 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                Want to know how will we do this?
+                                How will we do this?
                             </h3>
                         </div>
                         <div class="column">
