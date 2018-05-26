@@ -33,9 +33,9 @@
                             </span>
                         </a>
                     </div>
-                    <div class="member-talents">
-                        <span class="tag member-talent" v-for="talent in teamMember.talents">
-                            {{talent}}
+                    <div class="member-description">
+                        <span>
+                            {{teamMember.description}}
                         </span>
                     </div>
                 </div>
@@ -72,7 +72,7 @@
 
 
 
-    .member-talents {
+    .member-description {
         padding-top: 0.5rem;
     }
 
