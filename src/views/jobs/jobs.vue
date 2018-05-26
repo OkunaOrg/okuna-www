@@ -2,7 +2,7 @@
     <div class="animated fadeIn">
         <section class="hero is-medium hero--jobs has-border-bottom-gray">
             <div class="hero-body">
-                <div class="container is-fluid">
+                <div class="container">
                     <div class="columns">
                         <div class="column about-us-header-text">
                             <div class="columns is-centered is-vcentered is-mobile" style="height: 100%;">

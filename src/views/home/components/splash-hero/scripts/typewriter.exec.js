@@ -81,7 +81,7 @@
             cursorClassName: 'typewriter-cursor',
             cursor: '|',
             animateCursor: true,
-            blinkSpeed: 50,
+            blinkSpeed: 40,
             typingSpeed: 'natural',
             deleteSpeed: 'natural',
             charSpanClassName: 'typewriter-char',

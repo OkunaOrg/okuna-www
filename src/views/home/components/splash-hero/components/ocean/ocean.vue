@@ -22,14 +22,16 @@
         top: -$wave-height;
         width: 6400px;
         height: $wave-height;
-        animation: wave 7s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
+        animation: wave 12s cubic-bezier(0.36, 0.45, 0.63, 0.53) infinite;
         transform: translate3d(0, 0, 0);
     }
 
     .wave:nth-of-type(2) {
         top: -175px;
-        animation: wave 7s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 7s ease -1.25s infinite;
+        animation: wave 12s cubic-bezier( 0.36, 0.45, 0.63, 0.53) -.125s infinite, swell 12s ease -2.25s infinite;
         opacity: 1;
+        transform: translate3d(0, 0, 0);
+
     }
 
     @keyframes wave {

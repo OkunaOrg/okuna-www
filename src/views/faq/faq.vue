@@ -2,7 +2,7 @@
     <div class="animated fadeIn">
         <section class="hero is-large has-border-bottom-gray">
             <div class="hero-body">
-                <div class="container is-fluid">
+                <div class="container">
                     <div class="columns">
                         <div class="column">
                             <div class="columns is-centered padding-top-1x-mobile">
