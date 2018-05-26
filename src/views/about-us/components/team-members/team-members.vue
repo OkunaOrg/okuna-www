@@ -14,6 +14,7 @@
     import philPhoto from './assets/phil.jpg';
     import vincentPhoto from './assets/vincent.jpeg';
     import basPhoto from './assets/bas.jpg';
+    import shantanuPhoto from './assets/shantanu.jpg';
     import plaholderPhoto from './assets/placeholder.png';
 
 
@@ -87,7 +88,15 @@
                         links: {
                             github: 'https://github.com/roemburg'
                         },
-                        description: ''
+                        description: ' Advocate of useful and meaningful product experiences, UX wizard, worked with numerous international brands, researcher, hardware hacker.'
+                    },
+                    {
+                        name: 'Shantanu Tarey',
+                        position: 'Software Engineer',
+                        photo: shantanuPhoto,
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/shantanutarey/'
+                        }
                     },
                     {
                         name: 'Martijn Jansen',
