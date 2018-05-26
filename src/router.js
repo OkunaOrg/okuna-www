@@ -12,7 +12,7 @@ const faq = () => import('./views/faq/faq.vue');
 const jobs = () => import('./views/jobs/jobs.vue');
 
 
-export default new Router({
+const router = new Router({
     routes: [
         {
             path: '/',
@@ -21,38 +21,63 @@ export default new Router({
         {
             path: '/home',
             name: 'home',
-            component: home
+            component: home,
+            meta: {
+                title: 'Home | Openbook social network'
+            }
         },
         {
             path: '/about-us',
             name: 'about-us',
-            component: aboutUs
+            component: aboutUs,
+            meta: {
+                title: 'About us | Openbook social network'
+            }
         },
         {
             path: '/manifesto',
             name: 'manifesto',
-            component: manifesto
+            component: manifesto,
+            meta: {
+                title: 'Manifesto | Openbook social network'
+            }
         },
         {
             path: '/contact-us',
             name: 'contact-us',
-            component: contactUs
+            component: contactUs,
+            meta: {
+                title: 'Contact us | Openbook social network'
+            }
         },
         {
             path: '/faq',
             name: 'faq',
-            component: faq
+            component: faq,
+            meta: {
+                title: 'FAQ | Openbook social network'
+            }
         },
         {
             path: '/jobs',
             name: 'jobs',
-            component: jobs
+            component: jobs,
+            meta: {
+                title: 'Jobs | Openbook social network'
+            }
         }
     ],
-    scrollBehavior(){
+    scrollBehavior() {
         return {
-            x:0,
-            y:0
+            x: 0,
+            y: 0
         }
     }
-})
+});
+
+router.beforeEach((to, from, next) => {
+    document.title = to.meta.title;
+    next()
+});
+
+export default router;
