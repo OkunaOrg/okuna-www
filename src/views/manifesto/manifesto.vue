@@ -426,60 +426,88 @@
                     <p class="is-size-7">
                         Hello there goverment agencies!
                     </p>
-                    <h3>4. Providing a useful and sustainable service.</h3>
+                    <h3>3. A useful and sustainable revenue model.</h3>
                     <p>
-
-                    </p>
-                    <h3>3. Giving back.</h3>
-                    <p>
-                        Social networks have an incredible economical potential.
+                        The world is a marketplace, so will <span class="has-text-primary"><strong
+                        class="has-text-primary">Open</strong>book</span>.
                     </p>
                     <p>
-                        Facebook itself, made <a href="http://variety.com/2018/digital/news/facebook-q4-2017-earnings-1202683184/" target="_blank"><strong>40.65 billion dollars of revenue</strong></a> in 2017, and the numbers
+                        Our business model is not and will never be advertisement (also known as your personal data).
+                    </p>
+                    <p>
+                        <strong><span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span>
+                            will be a marketplace for peer to peer transactions of products, services and more.</strong>
+                    </p>
+                    <p>
+                        For example, you could sell your beloved Star Wars collection on the network in the same way you
+                        could hire someone to walk your dog or djay at your party.
+                    </p>
+                    <p>
+                        Transactions made within the platform will benefit from the privacy and security of the
+                        ecosystem.
+                    </p>
+                    <h3>4. Giving back.</h3>
+                    <p>
+                        Social networks have an incredible economic potential.
+                    </p>
+                    <p>
+                        Facebook itself, made <strong>40.65 billion dollars of revenue</strong> in 2017<sup
+                        class="is-size-7">1</sup>, and the numbers
                         keep getting higher and higher.
                     </p>
                     <p>
                         What's the use of generating so much revenue if it's not for good?
                     </p>
                     <p class="is-size-5">
-                        <strong>At <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span>,
-                            we will give 30% of our revenue towards making the world a better place, now and forever.</strong>
+                        <strong>At <span class="has-text-primary"><strong
+                            class="has-text-primary">Open</strong>book</span>,
+                            we will give 30% of our revenue towards making the world a better place, now and
+                            forever.</strong>
                     </p>
                     <p>
-                        Think about it, let's say we make the same 40 billion dollars, that's <strong>12 billion dollars towards education, sanitization, treatment of diseases, medical treatment and more</strong>.
+                        Think about it, let's say we make the same 40 billion dollars, that's 12 billion dollars towards
+                        education, sanitization, treatment of diseases, medical treatment and more.
                     </p>
                     <p>
-                        As a reference, <a href="https://www.unicef.org/publicpartnerships/files/2016arr_humanitarianaction(1).pdf">UNICEF total global expenses for the year 2016 were $1.8 billion billion dollars.</a>
+                        As a reference, UNICEF total global expenses for the year 2016 were $1.8 billion billion dollars
+                        <sup class="is-size-7">2</sup>.
                     </p>
                     <p>
                         <strong>We could change the world.</strong>
                     </p>
-                </div>
-            </div>
-        </section>
-
-        <div class="section">
-            <div class="small-container">
-                <div class="content is-medium">
-                    <div class="has-text-centered">
-                        <div>
-                            <span class="icon is-large" v-twemoji>☝️</span>
-                        </div>
-                        <h2 class="title is-3 is-spaced is-margin-top-small">Oh, and one more thing...</h2>
-                    </div>
+                    <p class="is-size-7">
+                        We will do this in partnership with <a href="https://founderspledge.com/" target="_blank">FoundersPledge</a>.
+                    </p>
+                    <p class="is-size-7">
+                                  <span>
+                        [1] <a href="http://variety.com/2018/digital/news/facebook-q4-2017-earnings-1202683184/"
+                               target="_blank">Source</a>
+                        [2] <a href="https://www.unicef.org/publicpartnerships/files/2016arr_humanitarianaction(1).pdf"
+                               target="_blank">Source</a>
+                    </span>
+                    </p>
+                    <h3>
+                        5. Seamless migration
+                    </h3>
                     <p>
-                        We, like you, have put a tremendous amount of our time and data into existing social networks.
+                        Finally, we, like you, have put a tremendous amount of our time and data into existing social
+                        networks.
                     </p>
                     <p>
                         That is why, we will make sure that, <strong>if the social network you are coming from provides
                         a
                         way to
                         download your data, we will help you migrate it
-                        all to our network</strong>.
+                        all to our network, in a couple of steps, painlessly</strong><sup class="is-size-7">1</sup>.
+                    </p>
+                    <p class="is-size-7">
+                    <span>
+                        [1] Most major social networks allow this, and is now part of the GDPR regulation, therefore .
+                    </span>
                     </p>
                 </div>
             </div>
-        </div>
+        </section>
         <div class="section" id="next">
             <div class="small-container">
                 <div class="content is-medium">
@@ -491,26 +519,26 @@
                         <h4 class="subtitle is-5">Where do we go from here?</h4>
                     </div>
                     <p>
-                        We are eager to bring this social network to life. To re-invent the way social media companies
-                        operate. To claim back our privacy and security.
+                        We are eager to bring <span class="has-text-primary"><strong
+                        class="has-text-primary">Open</strong>book</span> to life. To re-invent the way social media
+                        companies
+                        operate, o claim back our privacy, to build a tool for good, to change the world.
                     </p>
                     <p>
-                        It won't be an easy task. Apart from the obvious technical challenges, being the underdogs in an
-                        industry with billions of dollars of revenue, we will be fought against, challenged and perhaps
-                        even
-                        ridiculised.
+                        It won't be an easy task. Apart from the technical challenges, being the underdogs trying to
+                        redefine a billion dollars industry, we will be fought against in every way possible.
                     </p>
                     <p>
                         We will need all the help we can get.
                     </p>
                     <p>
-                        That is why we are currently working on a Kickstarter campaign where you like millions of
-                        others,
-                        will be able
-                        to help us bring the project to life.
+                        That is why we are currently working on a Kickstarter campaign where everyone will be able to
+                        help us bring the project to life.
                     </p>
-                    <p>
-                        We will have some awesome perks for our supporters, including apparel, mugs, stickers and more!
+                    <p class="is-size-5">
+                        <strong>
+                            Awesome perks + helping build something good for society = win.
+                        </strong>
                     </p>
                     <h5>
                         Stay tuned!
