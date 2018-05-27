@@ -50,7 +50,8 @@ Please read and follow our [Code of Conduct](https://github.com/OpenBookOrg/open
 
 #### License
 
-Every contribution accepted is licensed under [AGPL v3.0](http://www.gnu.org/licenses/agpl-3.0.html) or any later version.
+Every contribution accepted is licensed under the [MIT License](https://choosealicense.com/licenses/mit/).
+
 You must be careful to not include any code that can not be licensed under this license.
 
 Please read carefully [our license](https://github.com/OpenBookOrg/openbook-org-www/blob/master/LICENSE.txt) and ask us if you have any questions.

@@ -1,40 +1,41 @@
 {
-  "name": "openbook-org",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "serve": "vue-cli-service serve --open",
-    "build": "vue-cli-service build"
-  },
-  "dependencies": {
-    "@xkeshi/vue-countdown": "^0.6.0",
-    "axios": "^0.18.0",
-    "buefy": "^0.6.5",
-    "bulma": "^0.7.1",
-    "dayjs": "^1.5.24",
-    "jquery": "^3.3.1",
-    "lodash.debounce": "^4.0.8",
-    "mitt": "^1.1.3",
-    "normalize.css": "^8.0.0",
-    "slick-carousel": "^1.8.1",
-    "twemoji": "^2.5.1",
-    "vee-validate": "^2.0.9",
-    "vue": "^2.5.16",
-    "vue-recaptcha": "^1.1.1",
-    "vue-router": "^3.0.1",
-    "vue-scrollto": "^2.11.0"
-  },
-  "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.0.0-beta.10",
-    "@vue/cli-service": "^3.0.0-beta.10",
-    "node-sass": "^4.7.2",
-    "sass-loader": "^6.0.6",
-    "script-loader": "^0.7.2",
-    "vue-template-compiler": "^2.5.13"
-  },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not ie <= 8"
-  ]
+    "name": "openbook-org",
+    "version": "0.1.0",
+    "private": true,
+    "license": "MIT",
+    "scripts": {
+        "serve": "vue-cli-service serve --open",
+        "build": "vue-cli-service build"
+    },
+    "dependencies": {
+        "@xkeshi/vue-countdown": "^0.6.0",
+        "axios": "^0.18.0",
+        "buefy": "^0.6.5",
+        "bulma": "^0.7.1",
+        "dayjs": "^1.5.24",
+        "jquery": "^3.3.1",
+        "lodash.debounce": "^4.0.8",
+        "mitt": "^1.1.3",
+        "normalize.css": "^8.0.0",
+        "slick-carousel": "^1.8.1",
+        "twemoji": "^2.5.1",
+        "vee-validate": "^2.0.9",
+        "vue": "^2.5.16",
+        "vue-recaptcha": "^1.1.1",
+        "vue-router": "^3.0.1",
+        "vue-scrollto": "^2.11.0"
+    },
+    "devDependencies": {
+        "@vue/cli-plugin-babel": "^3.0.0-beta.10",
+        "@vue/cli-service": "^3.0.0-beta.10",
+        "node-sass": "^4.7.2",
+        "sass-loader": "^6.0.6",
+        "script-loader": "^0.7.2",
+        "vue-template-compiler": "^2.5.13"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not ie <= 8"
+    ]
 }
