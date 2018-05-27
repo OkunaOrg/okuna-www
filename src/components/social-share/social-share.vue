@@ -32,8 +32,8 @@
  */
     @font-face {
         font-family: 'social-share-kit';
-        src: url('./assets/fonts/social-share-kit.eot');
-        src: url('./assets/fonts/social-share-kit.eot?#iefix') format('embedded-opentype'), url('./assets/fonts/social-share-kit.woff') format('woff'), url('./assets/fonts/social-share-kit.ttf') format('truetype'), url('./assets/fonts/social-share-kit.svg#social-share-kit') format('svg');
+        src: url('assets/fonts/social-share-kit.eot');
+        src: url('assets/fonts/social-share-kit.eot?#iefix') format('embedded-opentype'), url('assets/fonts/social-share-kit.woff') format('woff'), url('assets/fonts/social-share-kit.ttf') format('truetype'), url('assets/fonts/social-share-kit.svg#social-share-kit') format('svg');
         font-weight: normal;
         font-style: normal
     }
@@ -1009,7 +1009,7 @@
     require('./assets/scripts/social-share.exec.js');
 
     export default {
-        name: 'ob-social-share-buttons',
+        name: 'ob-social-share',
         mounted() {
             this.initSocialShare();
         },

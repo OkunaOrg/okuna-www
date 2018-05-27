@@ -30,112 +30,113 @@
                 </div>
             </div>
         </section>
+        <section class="section" id="TOC">
+            <div class="small-container">
+                <div class="content is-medium">
+                    <div class="has-text-centered">
+                        <h2 class="title is-3 is-spaced is-margin-top-small">Table of contents</h2>
+                    </div>
+                    <br/>
+                    <ul>
+                        <li>
+                            <a href="#whospaying" v-scroll-to="'#whospaying'">
+                                Who's paying for everything so far?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#willitbedistributed" v-scroll-to="'#willitbedistributed'">
+                                Will it be distributed like diaspora, mastodon, etc?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#help" v-scroll-to="'#help'">
+                                I want to help right now, what can I do?
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
         <section class="section" id="faq">
             <div class="small-container">
                 <div class="content is-medium">
-                    <h3>
-                        Why now?
+                    <h3 id="whospaying">
+                        Who's paying for everything so far?
                     </h3>
                     <p>
-                        After years of using and seeing existing platforms make questionable choices when it comes to the
-                        privacy
-                        and security of its users, we decided enough was enough.
+                        <strong>We are</strong>. We are completely self funded and we would like to keep it that way.
                     </p>
                     <p>
-                        We had hoped someone else would take on the challenge. That someone, somewhere would realize how
-                        much of a difference this could make,
-                        not only in the context of social networks, but in the context of the security and privacy of the
-                        internet.
+                        This is the reason why we are going with Kickstarter. We hope the campaign provides us with the necessary funds to sustain the company until it can stand on it's own.
                     </p>
-                    <p>
-                        There were several attempts, and some of them still exist to this day. Sadly sooner or later, they
-                        all gave up to
-                        pursue other markets like micro-communities and business solutions. Perhaps they thought going after
-                        the social network giants was too big of a challenge.
-                    </p>
-                    <p>
-                        Well, it sure is. Luckily, we believe the greatest accomplishments of mankind are often the ones
-                        that
-                        posed the greatest challenges.
-                    </p>
-                    <p>
-                        That being said, we are taking on the challenge.
-                    </p>
-                    <h3>
-                        How does Openbook differ from other established alternative social networks like Diaspora, Mastodon,
-                        Friendica, etc.?
+                    <h3 id="willitbedistributed">
+                        Will it be distributed like diaspora, mastodon, etc?
                     </h3>
                     <p>
-                        Briefly put, we are a privacy and security first social network.
+                        <strong>TLDR; No, but your data will be fully portable to other Openbook instances.</strong>
                     </p>
                     <p>
-                        Practically, this means we aim to have the functionality that MySpace, Facebook and other similar
-                        networks have, but designed to be secure and privacy aware right from the start.
+                        We want to give our users absolute control of their data. We want them to be able to see the exact physical location of their data and to be able to ensure its deletion, even when shared with third party applications.
                     </p>
                     <p>
-                        Some examples of this are
+                        Protocols for interconnection between social networks such as ActivityPub rely on independently distributed networks to accomplish this.
+                    </p>
+                    <p>
+                        These networks, being independently distributed, make these items impossible to guarantee.
+                    </p>
+                    <p>
+                        However, if your concern is data portability, all of your data will downloadable and fully portable to other Openbook instances.
+                    </p>
+                    <p>
+                    </p>
+                    <p class="is-size-7">
+                        <span>Don't get us wrong though, we have nothing against these networks, in fact, we are amazed by their ingenuity.</span>
+                    </p>
+                    <h3 id="help">
+                        I want to help right now, what can I do?
+                    </h3>
+                    <p>
+                        We're happy and grateful you want to help out!
+                    </p>
+                    <p>
+                        There's many ways you can help right now.
+                    </p>
+                    <p>
+                        Here's some ideas:
                     </p>
                     <ul>
                         <li>
-                            No tracking, within or outside the network.
+                            <a href="" @click.prevent="onUserWantsToShare">Share the website on social media</a>
                         </li>
                         <li>
-                            No deep learning algorithms analyzing your personal information together with your usage of the
-                            platform to determine the content you are served (which are the source of <a href="https://en.wikipedia.org/wiki/Echo_chamber_(media)" target="_blank">echo chambers</a>).
+                            Talk to your friends and family about us
                         </li>
                         <li>
-                            End to end encryption as the default way to communicate (even on the browser).
+                            If you're a developer, you can help us <a
+                            href="https://github.com/OpenBookOrg/openbook-org-www"
+                            target="_blank">improve our website</a>.
                         </li>
                         <li>
-                            Absolute control of your data (decentralised platforms cant do this). Our data sharing policy is is strict and transparent. You will always know where all your data is physically located and be able to delete it. Even with third party applications.
+                            If you have an idea for the network, you can <a href="https://github.com/OpenBookOrg/ideas"
+                                                                            target="_blank">let us know</a>.
+                        </li>
+                        <li>
+                            If you're a public figure and would like to become an ambassador,
+                            <router-link to="contact-us">contact us</router-link>
+                            .
+                        </li>
+                        <li>
+                            If you're looking for a job and believe Openbook would be a great fit for you,
+                            <router-link to="jobs">visit our jobs page</router-link>
+                            .
                         </li>
                     </ul>
                     <p>
-                        Overall, other alternative social networks are too hard to use for normal people (like our grandpas and grandmas), try to fill in other market niches, or are making the same mistakes social media companies have made for the past few years in concern to the privacy and security of their users.
-                    </p>
-                    <h3>
-                        How will you make money?
-                    </h3>
-                    <p>
-                        Call us crazy but <strong>our business model is not and will never be advertisement</strong> (also
-                        known as
-                        your personal data).
-                    </p>
-                    <p>
-                        We will build Openbook to be a platform for peer-to-peer services such as
-                        marketplaces.
-                    </p>
-                    <p>
-                        For example, you could sell your beloved Star Wars collection on the network in the same way you
-                        could hire someone to walk your dog.
-                    </p>
-                    <p>
-                        Applications built within the platform will benefit from the privacy and security of the ecosystem.
-                    </p>
-                    <p>
-                        Apart from this, we are also looking into offering business services.
-                    </p>
-                    <p>
-                        We would offer them help setting up their own private internal Openbook networks with extra business
-                        features such as event planning, team work planning, payslips management and identity management.
-                    </p>
-                    <h3>
-                        What if you don't meet your funding goals?
-                    </h3>
-                    <p>
-                        If we don't meet our funding goals, we hope to serve as an inspiration for existing and upcoming
-                        social
-                        networks.
-                    </p>
-                    <p>
-                        We hope they take note of our ideas and implement them. We hope they put their users privacy and
-                        security
-                        first.
-                    </p>
-                    <p>
-                        And finally, we hope they realise new ways of making money can be thought of that don't involve
-                        monetizing the
-                        personal information of their users.
+                        And lastly, if you would like to be even more involved, we're forming a network of volunteers across the world to help us spread the word.
+                        <br/>
+                        Interested?
+                        <router-link to="contact-us">Contact us</router-link>
+                        .
                     </p>
                 </div>
             </div>
@@ -150,7 +151,9 @@
                             </h3>
                         </div>
                         <div class="column">
-                            <router-link to="contact-us" class="button is-white is-outlined is-rounded is-medium">Send us a message</router-link>
+                            <router-link to="contact-us" class="button is-white is-outlined is-rounded is-medium">
+                                Send us a message
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -160,19 +163,30 @@
 </template>
 
 <style lang="scss">
-    .faq-text{
-        @media (min-width: 768px){
-            max-width:400px;
+    .faq-text {
+        @media (min-width: 768px) {
+            max-width: 400px;
         }
     }
 
 </style>
 
 <script>
+    import ObSocialShare from "@/components/social-share/social-share";
     import ObPets from "./components/pets";
 
-    export default{
+    export default {
         components: {ObPets},
-        name: 'ob-faq'
+        name: 'ob-faq',
+        methods: {
+            onUserWantsToShare() {
+                this.openShareModal();
+            },
+            openShareModal() {
+                this.$modal.open({
+                    component: ObSocialShare
+                })
+            }
+        }
     }
 </script>

@@ -78,7 +78,7 @@
 
     import ObBrowser from "./components/browser";
     import ObOcean from "./components/ocean/ocean";
-    import ObSocialShare from "./components/social-share/social-share";
+    import ObSocialShare from "@/components/social-share/social-share";
 
     export default {
         components: {
