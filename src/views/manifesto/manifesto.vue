@@ -71,61 +71,61 @@
                     <br/>
                     <ul>
                         <li>
-                            <a href="#why">
+                            <a href="#why" v-scroll-to="'#why'">
                                 Why?
                             </a>
                         </li>
                         <li>
-                            <a href="#how">
+                            <a href="#how" v-scroll-to="'#how'">
                                 How?
                             </a>
                             <ul>
                                 <li>
-                                    <a href="#openness">
+                                    <a href="#openness" v-scroll-to="'#openness'">
                                         1. Openess
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#privacyandsecurity">
+                                    <a href="#privacyandsecurity" v-scroll-to="'#privacyandsecurity'">
                                         2. Privacy and security.
                                     </a>
                                     <ul>
                                         <li>
-                                            <a href="#datasharing">
+                                            <a href="#datasharing" v-scroll-to="'#datasharing'">
                                                 2.1 Data sharing with applications.
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#privacyfirst">
+                                            <a href="#privacyfirst" v-scroll-to="'#privacyfirst'">
                                                 2.2 Privacy first.
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#privacyasajourney">
+                                            <a href="#privacyasajourney" v-scroll-to="'#privacyasajourney'">
                                                 2.3 Privacy and security as a journey, not a destination.
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#revenuemodel">
+                                    <a href="#revenuemodel" v-scroll-to="'#revenuemodel'">
                                         3. A useful and sustainable revenue model.
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#givingback">
+                                    <a href="#givingback" v-scroll-to="'#givingback'">
                                         4. Giving back.
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#migration">
+                                    <a href="#migration" v-scroll-to="'#migration'">
                                         5. Seamless migration.
                                     </a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            <a href="#next">
+                            <a href="#next" v-scroll-to="'#next'">
                                 3. What's next
                             </a>
                         </li>
