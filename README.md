@@ -2,7 +2,7 @@
 
 ![Human Friendly](https://img.shields.io/badge/human-friendly-brightgreen.svg) ![Privacy](https://img.shields.io/badge/privacy-first-690ddc.svg) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/openbook-org/Lobby?source=orgpage)
 
-Code of the all new [www.open-book.org](https://openbook-org-www).
+Code of the all new [www.open-book.org](https://www.open-book.org).
 
 ## Table of contents
 
