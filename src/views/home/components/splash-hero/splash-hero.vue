@@ -2,15 +2,15 @@
     <section class="hero is-fullheight hero--splash" id="main">
         <ob-ocean></ob-ocean>
         <div class="hero-body">
-            <div class="container is-fluid">
+            <div class="container">
                 <div class="columns is-centered is-vcentered">
                     <div class="column has-text-centered splash-text">
                         <div class="columns is-centered is-mobile">
                             <div class="column" style="max-width: 520px">
-                                <h1 class="title is-size-3-mobile is-size-2">
+                                <h1 class="title is-size-2-mobile is-size-1">
                                     Hello <span id="hello-subject">world!</span>
                                 </h1>
-                                <h2 class="subtitle is-size-5-mobile is-size-4">
+                                <h2 class="subtitle is-size-5-mobile is-size-3">
                                     We're <strong>Open</strong>book.
                                 </h2>
                                 <h3 class="is-size-6-mobile">
@@ -68,6 +68,11 @@
         @media(max-width: 770px) {
             max-height: 30vh;
         }
+    }
+
+    .typewriter-cursor {
+        font-weight: 400;
+        color: #333;
     }
 </style>
 

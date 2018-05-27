@@ -20,10 +20,10 @@
                             </div>
                             <div class="open-book-header-actions-buttons">
                                 <div class="open-book-header-actions-button">
-                                    <div class="open-book-header-actions-button-notification"></div>
+                                    <!-- <div class="open-book-header-actions-button-notification"></div> -->
                                 </div>
                                 <div class="open-book-header-actions-button">
-                                    <div class="open-book-header-actions-button-notification"></div>
+                                    <!-- <div class="open-book-header-actions-button-notification"></div> -->
                                 </div>
                                 <div class="open-book-header-actions-button">
                                     <div class="open-book-header-actions-button-notification"></div>
@@ -69,7 +69,7 @@
     }
 
     .browser-window {
-        box-shadow: 0 12px 15px rgba(0,0,0,0.1), 0 17px 50px rgba(0,0,0,0.1);
+        box-shadow: 0 12px 15px rgba(0,0,0,0.1), 0 50px 40px rgba(0,0,0,0.1);
         text-align: left;
         width: 100%;
         max-width: 700px;

@@ -70,7 +70,6 @@ img .is-rounded {
     border-bottom: solid 1px #fafafa;
 }
 
-
 .is-flex{
     display: flex;
 }
@@ -79,4 +78,19 @@ img .is-rounded {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+// limit line length to ~45 characters
+.is-measure-narrow {
+  max-width: 20em;
+}
+
+// limit line lengths to ~45 characters
+.is-measure {
+  max-width: 30em;
+}
+
+// limit line lengths to ~80 characters
+.is-measure-wide {
+  max-width: 34em;
 }
