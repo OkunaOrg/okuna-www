@@ -73,16 +73,6 @@
                 <ob-team-members/>
             </div>
         </section>
-        <section class="section">
-            <div class="container">
-                <div class="content has-text-centered padding-bottom-2x">
-                    <p class="is-size-3 padding-bottom-3x">
-                        Our ambassadors
-                    </p>
-                </div>
-                <ob-team-members/>
-            </div>
-        </section>
         <section class="hero is-primary is-bold">
             <div class="hero-body has-text-centered">
                 <div class="container">
@@ -96,6 +86,37 @@
                             <a href="#" class="button is-white is-outlined is-rounded is-medium">
                                 Visit our jobs page
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="content has-text-centered padding-bottom-2x">
+                    <p class="is-size-3 padding-bottom-3x">
+                        Our ambassadors
+                    </p>
+                    <p class="is-size-6 is-marginless is-paddingless">
+                        Incredible people that stand for everything we do.
+                    </p>
+                </div>
+                <ob-ambassadors></ob-ambassadors>
+            </div>
+        </section>
+        <section class="hero is-bold">
+            <div class="hero-body has-text-centered">
+                <div class="container">
+                    <div class="columns is-centered is-vcentered">
+                        <div class="column">
+                            <h3 class="title is-size-4">
+                                Want to become an ambassador?
+                            </h3>
+                        </div>
+                        <div class="column">
+                            <router-link to="contact-us" class="button is-primary is-rounded is-medium">
+                                Contact us
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -146,8 +167,11 @@
 
 <script>
     import ObTeamMembers from "./components/team-members/team-members";
+    import ObAmbassadors from "./components/ambassadors/ambassadors.vue";
 
     export default{
-        components: {ObTeamMembers}
+        components: {
+            ObAmbassadors,
+            ObTeamMembers}
     }
 </script>

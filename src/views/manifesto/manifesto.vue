@@ -153,7 +153,7 @@
                     </p>
                     <p>
                         Meant to help us share our treasured moments with our loved ones, they share our information
-                        with questionable third parties which in turn analyze us, classify us and manipulate us.
+                        with questionable third parties which in turn, analyze us, classify us and manipulate us.
                     </p>
                     <p>
                         Meant to be a tool for good, they have grown into mass surveillance networks, threatening our
