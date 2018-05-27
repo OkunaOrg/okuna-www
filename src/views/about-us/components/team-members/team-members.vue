@@ -14,6 +14,7 @@
     import philPhoto from './assets/phil.jpg';
     import vincentPhoto from './assets/vincent.jpeg';
     import basPhoto from './assets/bas.jpg';
+    import lambrechtPhoto from './assets/lambrecht.jpeg';
     import shantanuPhoto from './assets/shantanu.jpg';
     import plaholderPhoto from './assets/placeholder.png';
 
@@ -35,7 +36,7 @@
                             linkedin: 'https://www.linkedin.com/in/lifenautjoe',
                             twitter: 'https://twitter.com/lifenautjoe'
                         },
-                        description: 'Entrepreneur, privacy and security advocate, software engineer, digital products designer, open sourcerer, The Next Web Top 500 young talent.'
+                        description: 'Privacy and security activist, software engineer, digital products designer, open sourcerer, The Next Web Top 500 young talent, human.'
                     },
                     {
                         name: 'Jaya Baloo',
@@ -47,7 +48,7 @@
                             twitter: 'https://twitter.com/jayabaloo?lang=nl'
                         },
                         headline: 'Cyber-security expert',
-                        description: 'Globally recognized cyber-security expert, speaker on lawful interception, quantum-computing mass surveillance, and cryptography.'
+                        description: 'Globally recognized cyber-security expert, speaker on lawful interception, quantum-computing, counter surveillance and cryptography.'
                     },
                     {
                         name: 'Lars Rosenquist',
@@ -68,7 +69,17 @@
                             website: 'https://en.wikipedia.org/wiki/Phil_Zimmermann'
                         },
                         headline: 'Cryptography pioneer',
-                        description: 'Cryptography pioneer, creator of PGP, the most widely used email encryption software in the world, internet hall of fame member, privacy advocate.'
+                        description: 'Cryptography pioneer, creator of PGP, the most widely used email encryption software in the world, internet hall of fame member, privacy activist.'
+                    },
+                    {
+                        name: 'Lambrecht Wessels',
+                        photo: lambrechtPhoto,
+                        position: 'Chief Marketing Officer',
+                        description: 'Security and international relations expert, conflict analyst, peace-builder, media researcher & producer, human rights activist.',
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/lambrechtwessels/',
+                            twitter: 'https://twitter.com/lambrechtw?lang=en'
+                        }
                     },
                     {
                         name: 'Vincent Ruijter',
@@ -96,15 +107,8 @@
                         photo: shantanuPhoto,
                         links: {
                             linkedin: 'https://www.linkedin.com/in/shantanutarey/'
-                        }
-                    },
-                    {
-                        name: 'Martijn Jansen',
-                        position: 'Software Engineer',
-                        photo: plaholderPhoto,
-                        links: {
-                            linkedin: 'https://www.linkedin.com/in/martijn-jansen-7b0218a/'
-                        }
+                        },
+                        description: 'Pragmatic software engineer, user interface engineer, crypto-geek, bot-maker, simplicity advocate.'
                     }
                 ]
             }
