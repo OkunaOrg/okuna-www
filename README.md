@@ -1,6 +1,6 @@
 <img alt="Open book logo" src="https://i.snag.gy/conKBO.jpg" width="200">
 
-![Human Friendly](https://img.shields.io/badge/human-friendly-brightgreen.svg) ![Privacy](https://img.shields.io/badge/privacy-first-690ddc.svg)
+![Human Friendly](https://img.shields.io/badge/human-friendly-brightgreen.svg) ![Privacy](https://img.shields.io/badge/privacy-first-690ddc.svg) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/openbook-org/Lobby?source=orgpage)
 
 Code of the all new [www.open-book.org](https://openbook-org-www).
 
@@ -21,15 +21,13 @@ Code of the all new [www.open-book.org](https://openbook-org-www).
  
 ## Project overview
 
-The website is a [Vue](https://vuejs.org/) application using [Nuxt](https://nuxtjs.org/) for server side rendering.
+The website is a [Vue 2.x](https://vuejs.org/) application.
 
-For detailed explanation on how server side rendering works, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
-
-Other technologies used are
+Other relevant technologies used are
 
 * [Sass](https://sass-lang.com/) for stylesheets
-* [Bootstrap 4](https://getbootstrap.com/) for kickstarting the basic styles
-* [Vue Bootstrap](https://bootstrap-vue.js.org) for bootstrap components code
+* [Bulma](https://bulma.io/documentation/overview/start/) for kickstarting the styles/layout.
+* [Buefy](https://buefy.github.io/#/) for providing the logic to the Bulma components.
 * [Webpack 4](https://webpack.js.org/) for bundling everything together
 
 ## Contributing
@@ -85,17 +83,10 @@ Serve with hot reload at localhost:3000
 $ npm run serve
 ```
 
-Build for production and launch server
+Build for production
 ```bash
 npm run build
-npm start
 ```
-
-Generate static project
-```bash
-npm run generate
-```
-
 <br>
 
 #### Happy coding 🎉!
