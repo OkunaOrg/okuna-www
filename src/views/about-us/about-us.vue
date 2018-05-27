@@ -98,7 +98,7 @@
                         Our ambassadors
                     </p>
                     <p class="is-size-6 is-marginless is-paddingless">
-                        Incredible people that stand for everything we do.
+                        Incredible people that stand for the same things we do.
                     </p>
                 </div>
                 <ob-ambassadors></ob-ambassadors>
