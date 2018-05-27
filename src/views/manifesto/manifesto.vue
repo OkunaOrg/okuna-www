@@ -92,12 +92,12 @@
                                     <ul>
                                         <li>
                                             <a href="#datasharing" v-scroll-to="'#datasharing'">
-                                                2.1 Data sharing with applications.
+                                                2.1 Better data sharing with applications.
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#privacyfirst" v-scroll-to="'#privacyfirst'">
-                                                2.2 Privacy first.
+                                                2.2 Privacy as default.
                                             </a>
                                         </li>
                                         <li>
@@ -208,7 +208,7 @@
                         We will embed privacy and security in the core of everything we do.
                     </p>
                     <h4 id="datasharing">
-                        2.1 Data sharing with applications
+                        2.1 Better data sharing with applications
                     </h4>
                     <p>
                         One of the great benefits of having a social media account these days is being able to use it to
@@ -237,9 +237,6 @@
                         <i>(Go ahead, click around as you would normally)</i>
                     </p>
                     <ob-generic-data-sharing></ob-generic-data-sharing>
-                    <p>
-                        Did you give the application permissions?
-                    </p>
                     <p>
                         Did you spot the problems?
                     </p>
@@ -273,7 +270,7 @@
                     <p>
                         Unacceptable.
                     </p>
-                    <h5> Problem #2: Who determines what information does the application require from you?</h5>
+                    <h5> Problem #2: Who determines what information the application requires from you?</h5>
                     <p>
                         You might be thinking, <i>"what a silly question, the application of course"</i>, they are
                         providing
@@ -337,7 +334,7 @@
                         address.
                     </p>
                     <p>
-                        Perhaps the privacy and security of their users are not part of their priorities.
+                        Perhaps the privacy and security of their users, is not part of their priorities.
                     </p>
                     <p>
                         They are part of ours.
@@ -367,9 +364,9 @@
                     </p>
                     <p>
                         Sharing our information is sharing a bit of ourselves. That is why we want to make sure it's
-                        always crystal clear what is to be shared.
+                        always crystal clear what is being shared.
                     </p>
-                    <p>We won't hide anything behind popups or behind vague descriptions such as "public
+                    <p>We won't hide anything behind pop-ups or behind vague descriptions such as "public
                         information".</p>
                     <p>We will be explicit about what information is to be shared and we will give you a way to inspect
                         it
@@ -412,13 +409,12 @@
                             revoke the permission.
                         </li>
                         <li>
-                            Will notify us (so we can then notify you) in the case of a data breach that might involve
-                            your
+                            Will notify us (so we can then notify you) in case of a data breach that might involve your
                             data and have a contingency plan in place.
                         </li>
                     </ul>
                     <p>
-                        If an application meets these and other of our privacy and security guidelines, a badge will be
+                        If an application meets these and our other privacy and security guidelines, a badge will be
                         shown below their logo.
                     </p>
                     <p>
@@ -435,7 +431,7 @@
                         from
                         day one.
                     </p>
-                    <h4 id="privacyfirst"> 2.2 Privacy first</h4>
+                    <h4 id="privacyfirst"> 2.2 Privacy as default</h4>
                     <p>
                         Although we're fans of the <a href="https://en.wikipedia.org/wiki/Do_Not_Track">Do Not Track
                         initiative</a>, we firmly believe no <i>"Opt-out"</i>
@@ -443,9 +439,7 @@
                     </p>
                     <p><strong>Privacy should be a default everywhere.</strong></p>
                     <p>
-                        That is why, apart from not tracking you anywhere, anyhow, by default, we will also only share
-                        the
-                        data applications must have in order to provide a service, by default.
+                        That is why, apart from not tracking you anywhere, by default, we will also only share the data applications must have in order to provide a service.
                     </p>
                     <p>
                         All optional data sharing will be disabled by default <sup class="is-size-7">1</sup>.
@@ -562,6 +556,12 @@
                     <p>
                         Finally, we, like you, have put a tremendous amount of our time and data into existing social
                         networks.
+                    </p>
+                    <p>
+                        Hundreds of conversations, friendships, photos, videos, check-ins and more.
+                    </p>
+                    <p>
+                        It would be a shame to start all over again.
                     </p>
                     <p>
                         That is why, we will make sure that, <strong>if the social network you are coming from provides
