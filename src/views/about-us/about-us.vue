@@ -32,12 +32,14 @@
         <section class="section">
             <div class="small-container">
                 <div class="columns is-centered">
-                    <div class="column has-text-centered intro-text content is-medium">
+                    <div class="column has-text-centered intro-text content">
+                        <p class="is-size-5">
+                            <span class="has-text-primary"><strong
+                                class="has-text-primary">Open</strong>book</span> is an open-source MIT-licensed, zero tracking, zero advertisement, secure and sustainable, social network that gives 30% of it's revenue towards making the world a better place, now and forever.
+                        </p>
                         <p>
                             Founded in 2018, <span class="has-text-primary"><strong
                             class="has-text-primary">Open</strong>book</span> is a project to make things right, a project to redefine how social networks operate, a project to re-think the "free" internet, a project to bring transparency in an era of closed walls, a project to break the digital chambers that separate us, a project to claim back our privacy, <strong>a project to make the world a better place</strong>.
-                        </p>
-                        <p>
                         </p>
                     </div>
                 </div>
