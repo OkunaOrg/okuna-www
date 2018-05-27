@@ -14,14 +14,11 @@
                                     We're <strong>Open</strong>book.
                                 </h2>
                                 <h3 class="is-size-6-mobile">
-                                    An open source, zero ads, zero
-                                    tracking, beautifully designed
-                                    social network with respect for your privacy.
+                                    An open source, zero tracking, zero
+                                    advertisement, beautifully designed, easy to migrate to,
+                                    social network <strong>coming soon to <span
+                                    style="color: #034752;">Kickstarter</span></strong>.
                                 </h3>
-                                <h5>
-                                    <strong>Coming soon to <span
-                                        style="color: #034752;">Kickstarter.</span></strong>
-                                </h5>
                             </div>
                         </div>
                         <div class="columns is-centered is-mobile">
