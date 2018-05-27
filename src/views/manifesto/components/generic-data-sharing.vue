@@ -10,12 +10,12 @@
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            Before you can enjoy of our free Wifi Hotspots you must continue with Anchorbook.
+                            Before you can enjoy of our free Wifi Hotspots you must continue with EvilCorp.
                         </div>
                         <div class="column is-12 has-text-centered">
                             <button class="button is-generic-social-media" @click="goToStep2()">
                                 <span class="icon"><i
-                                    class="fas fa-anchor"></i></span><span>Continue with Anchorbook</span>
+                                    class="fas fa-anchor"></i></span><span>Continue with EvilCorp</span>
                             </button>
                         </div>
                     </div>

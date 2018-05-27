@@ -99,7 +99,7 @@
                         links: {
                             github: 'https://github.com/roemburg'
                         },
-                        description: ' Advocate of useful and meaningful product experiences, UX wizard, worked with numerous international brands, researcher, hardware hacker.'
+                        description: ' Advocate of useful and meaningful products, user experience wizard, worked with numerous international brands, researcher, hardware hacker.'
                     },
                     {
                         name: 'Shantanu Tarey',
