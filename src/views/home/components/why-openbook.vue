@@ -35,7 +35,7 @@
                                 Honest
                             </h4>
                             <p class="is-size-5 home-why-content">
-                                All of our code is MIT licensed; meaning free and open for everyone to inspect, reproduce and contribute to.
+                                All of our code free and open for everyone to inspect, reproduce and contribute to.
                             </p>
                         </div>
                     </div>
