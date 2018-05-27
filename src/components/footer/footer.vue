@@ -8,7 +8,7 @@
                             <div class="navbar-brand">
                                 <div class="navbar-item">
                                     <router-link to="home" class="navbar-item is-size-3">
-                                        <strong>Open</strong>book.
+                                        <strong>Open</strong>book
                                     </router-link>
                                 </div>
                             </div>

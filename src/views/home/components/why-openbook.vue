@@ -35,7 +35,7 @@
                                 Honest
                             </h4>
                             <p class="is-size-5 home-why-content">
-                                No tricks, the code of the network will be will be free and open for everyone to see, reproduce and contribute to. <br/>
+                                All of our code is MIT licensed; meaning free and open for everyone to inspect, reproduce and contribute to.
                             </p>
                         </div>
                     </div>
@@ -50,7 +50,7 @@
                                 Seamless migration
                             </h4>
                             <p class="is-size-5 has-text-centered home-why-content">
-                                We will provide tools to migrate all of your existing data to our network.
+                                We will provide importers to migrate all of your existing data to our network.
                             </p>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                                 Future-proof
                             </h4>
                             <p class="is-size-5 home-why-content">
-                                With a solid business plan based on peer-to-peer transactions, we are in for the long game.
+                                With a solid and useful revenue model based on peer-to-peer transactions, we are in for the long run.
                             </p>
                         </div>
                     </div>
@@ -98,6 +98,25 @@
                             </h4>
                             <p class="is-size-5 has-text-centered home-why-content">
                                 Built on the latest technologies and designed with simplicity in mind, you won't find anything like it elsewhere.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
+                <div class="column home-why-container">
+                    <div class="columns is-centered is-mobile is-multiline has-text-centered home-why">
+                        <div class="is-size-3 home-why-icon home-why-icon--beautiful">
+                            <i class="fas fa-leaf"></i>
+                        </div>
+                        <div class="column content is-12">
+                            <h4 class="is-size-4">
+                                Good for the planet
+                            </h4>
+                            <p class="is-size-5 has-text-centered home-why-content">
+                                In partnership with <a href="https://founderspledge.com/" target="_blank">Founders Pledge</a>
+                                we will give 30% of our revenue towards making the world a better place, now and
+                                forever.
                             </p>
                         </div>
                     </div>
@@ -120,7 +139,7 @@
 
     $home-why-icon-size: 5rem;
 
-    .home-why-icon{
+    .home-why-icon {
         margin-bottom: 1rem;
         display: flex;
         align-items: center;
@@ -145,7 +164,7 @@
 </style>
 
 <script>
-    export default{
+    export default {
         name: 'ob-why-openbook'
     }
 </script>

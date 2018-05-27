@@ -4,7 +4,7 @@
             <div class="container">
                 <div class="navbar-brand">
                     <router-link to="home" class="navbar-item is-size-4 has-text-primary">
-                        <strong>Open</strong>book.
+                        <strong>Open</strong>book
                     </router-link>
                     <ob-hamburger></ob-hamburger>
                 </div>

@@ -13,6 +13,7 @@ const jobs = () => import('./views/jobs/jobs.vue');
 
 
 const router = new Router({
+    mode: 'history',
     routes: [
         {
             path: '/',

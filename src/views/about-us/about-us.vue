@@ -32,33 +32,14 @@
         <section class="section">
             <div class="small-container">
                 <div class="columns is-centered">
-                    <div class="column has-text-centered intro-text content is-medium">
-                        <p class="title is-size-4">
-                            <strong>In the year 2018, social networks are a destructive force in our society.</strong>
+                    <div class="column has-text-centered intro-text content">
+                        <p class="is-size-5">
+                            <span class="has-text-primary"><strong
+                                class="has-text-primary">Open</strong>book</span> is an open-source MIT-licensed, zero tracking, zero advertisement, secure and sustainable, social network that gives 30% of it's revenue towards making the world a better place, now and forever.
                         </p>
-                        <br/>
                         <p>
-                            Meant to connect us, they divide us by feeding us information that reinforce our personal beliefs, discouraging dialogue.
-                        </p>
-                        <br/>
-                        <p>
-                            Meant to help us share our treasured moments with our loved ones,  they share our information with third parties, working under economical, political or disruptive agendas.
-                        </p>
-                        <br/>
-                        <p>
-                            Meant to be a tool for good, they contribute to the development of a global mass surveillance network, threatening all of our civil liberties.
-                        </p>
-                        <br/>
-                        <p>
-                            Enough was enough.
-                        </p>
-                        <br/>
-                        <p>
-                            We set out to gather a team of extraordinary individuals to make things right, to build a tool for <strong class="has-text-primary">good</strong>.
-                        </p>
-                        <br/>
-                        <p>
-                            We set out to build <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span>.
+                            Founded in 2018, <span class="has-text-primary"><strong
+                            class="has-text-primary">Open</strong>book</span> is a project to make things right, a project to redefine how social networks operate, a project to re-think the "free" internet, a project to bring transparency in an era of closed walls, a project to break the digital chambers that separate us, a project to claim back our privacy, <strong>a project to make the world a better place</strong>.
                         </p>
                     </div>
                 </div>
@@ -70,13 +51,13 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                Want to know how will we do this?
+                                How will we do this?
                             </h3>
                         </div>
                         <div class="column">
-                            <a href="#" class="button is-white is-outlined is-rounded is-medium">
+                            <router-link to="manifesto" class="button is-white is-outlined is-rounded is-medium">
                                 Read our manifesto
-                            </a>
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -86,7 +67,7 @@
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
                     <p class="is-size-3 padding-bottom-3x">
-                        The humans behind Openbook
+                        The humans behind <strong>Open</strong>book
                     </p>
                 </div>
                 <ob-team-members/>
@@ -105,6 +86,37 @@
                             <a href="#" class="button is-white is-outlined is-rounded is-medium">
                                 Visit our jobs page
                             </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="content has-text-centered padding-bottom-2x">
+                    <p class="is-size-3 padding-bottom-1x">
+                        Our ambassadors
+                    </p>
+                    <p class="is-size-6 is-marginless is-paddingless">
+                        People that help us spread the word around and stand for everything we do.
+                    </p>
+                </div>
+                <ob-ambassadors></ob-ambassadors>
+            </div>
+        </section>
+        <section class="hero is-bold">
+            <div class="hero-body has-text-centered">
+                <div class="container">
+                    <div class="columns is-centered is-vcentered">
+                        <div class="column">
+                            <h3 class="title is-size-4">
+                                Want to become an ambassador?
+                            </h3>
+                        </div>
+                        <div class="column">
+                            <router-link to="contact-us" class="button is-primary is-rounded is-medium">
+                                Contact us
+                            </router-link>
                         </div>
                     </div>
                 </div>
@@ -155,8 +167,11 @@
 
 <script>
     import ObTeamMembers from "./components/team-members/team-members";
+    import ObAmbassadors from "./components/ambassadors/ambassadors.vue";
 
     export default{
-        components: {ObTeamMembers}
+        components: {
+            ObAmbassadors,
+            ObTeamMembers}
     }
 </script>

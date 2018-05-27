@@ -18,8 +18,10 @@
     import obHeader from './components/header/header.vue';
     import obMobileMenu from './components/mobile-menu.vue';
     import ObScrollHud from "./components/scroll-hud/scroll-hud.vue";
+    import ObSocialShare from "./components/social-share/social-share.vue";
     export default {
         components: {
+            ObSocialShare,
             ObScrollHud,
             obMobileMenu,
             obFooter,

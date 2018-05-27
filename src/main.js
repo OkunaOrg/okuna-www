@@ -36,7 +36,9 @@ Raven.config('https://2bc7c06c27df4f2f9a612cfdd8548a72@sentry.io/1212325').insta
 Raven.context(function () {
     Vue.use(Buefy);
     Vue.use(VeeValidate);
-    Vue.use(VueScrollTo);
+    Vue.use(VueScrollTo,{
+        offset: -90
+});
 
 
 // Load Vue globals
