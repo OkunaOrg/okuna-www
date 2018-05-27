@@ -102,7 +102,7 @@
                                         </li>
                                         <li>
                                             <a href="#privacyasajourney" v-scroll-to="'#privacyasajourney'">
-                                                2.3 Privacy and security as a journey, not a destination.
+                                                2.3 Privacy and security as a journey.
                                             </a>
                                         </li>
                                     </ul>
@@ -460,7 +460,7 @@
                         [1] Currently, social networks enable all optional shared data by default.
                     </span>
                     </p>
-                    <h4 id="privacyasajourney"> 2.3 Privacy and security as a journey, not a destination.</h4>
+                    <h4 id="privacyasajourney"> 2.3 Privacy and security as a journey.</h4>
                     <p>
                         We will continuously research and develop new ways to improve your privacy and security.
                     </p>
