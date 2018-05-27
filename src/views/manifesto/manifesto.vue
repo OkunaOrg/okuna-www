@@ -71,41 +71,63 @@
                     <br/>
                     <ul>
                         <li>
-                            Why?
+                            <a href="#why">
+                                Why?
+                            </a>
                         </li>
                         <li>
-                            How?
+                            <a href="#how">
+                                How?
+                            </a>
                             <ul>
                                 <li>
-                                    1. Openess
+                                    <a href="#openness">
+                                        1. Openess
+                                    </a>
                                 </li>
                                 <li>
-                                    2. Privacy and security.
+                                    <a href="#privacyandsecurity">
+                                        2. Privacy and security.
+                                    </a>
                                     <ul>
                                         <li>
-                                            2.1 Data sharing with applications.
+                                            <a href="#datasharing">
+                                                2.1 Data sharing with applications.
+                                            </a>
                                         </li>
                                         <li>
-                                            2.2 Privacy first.
+                                            <a href="#privacyfirst">
+                                                2.2 Privacy first.
+                                            </a>
                                         </li>
                                         <li>
-                                            2.3 Privacy and security as a journey, not a destination.
+                                            <a href="#privacyasajourney">
+                                                2.3 Privacy and security as a journey, not a destination.
+                                            </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    3. A useful and sustainable revenue model.
+                                    <a href="#revenuemodel">
+                                        3. A useful and sustainable revenue model.
+                                    </a>
                                 </li>
                                 <li>
-                                    4. Giving back.
+                                    <a href="#givingback">
+                                        4. Giving back.
+                                    </a>
                                 </li>
                                 <li>
-                                    5. Seamless migration.
+                                    <a href="#migration">
+                                        5. Seamless migration.
+                                    </a>
                                 </li>
                             </ul>
                         </li>
                         <li>
-                            3. What's next
+                            <a href="#next">
+                                3. What's next
+                            </a>
                         </li>
                     </ul>
                 </div>
@@ -161,8 +183,7 @@
                         <h2 class="title is-3 is-spaced is-margin-top-small">How?</h2>
                         <h4 class="subtitle is-5">How will we create a tool for good?</h4>
                     </div>
-
-                    <h3>1. Openness.</h3>
+                    <h3 id="openness">1. Openness.</h3>
                     <p>
                         Every single line of code we write will be MIT licensed; meaning free and
                         open for everyone to see, reproduce and contribute to.
@@ -175,7 +196,7 @@
                         If we were to ever deviate, we encourage the world to grab the source code and carry on with the
                         mission.
                     </p>
-                    <h3>
+                    <h3 id="privacyandsecurity">
                         2. Privacy and security.
                     </h3>
                     <p>
@@ -186,7 +207,7 @@
                     <p>
                         We will embed privacy and security in the core of everything we do.
                     </p>
-                    <h4>
+                    <h4 id="datasharing">
                         2.1 Data sharing with applications
                     </h4>
                     <p>
@@ -414,7 +435,7 @@
                         from
                         day one.
                     </p>
-                    <h4> 2.2 Privacy first</h4>
+                    <h4 id="privacyfirst"> 2.2 Privacy first</h4>
                     <p>
                         Although we're fans of the <a href="https://en.wikipedia.org/wiki/Do_Not_Track">Do Not Track
                         initiative</a>, we firmly believe no <i>"Opt-out"</i>
@@ -445,7 +466,7 @@
                         [1] Currently, social networks enable all optional shared data by default.
                     </span>
                     </p>
-                    <h4> 2.3 Privacy and security as a journey, not a destination.</h4>
+                    <h4 id="privacyasajourney"> 2.3 Privacy and security as a journey, not a destination.</h4>
                     <p>
                         We will continuously research and develop new ways to improve your privacy and security.
                     </p>
@@ -475,7 +496,7 @@
                     <p class="is-size-7">
                         Hello there goverment agencies!
                     </p>
-                    <h4>3. A useful and sustainable revenue model.</h4>
+                    <h4 id="revenuemodel">3. A useful and sustainable revenue model.</h4>
                     <p>
                         The world is a marketplace, so will <span class="has-text-primary"><strong
                         class="has-text-primary">Open</strong>book</span>.
@@ -495,7 +516,7 @@
                         Transactions made within the platform will benefit from the privacy and security of the
                         ecosystem.
                     </p>
-                    <h4>4. Giving back.</h4>
+                    <h4 id="givingback">4. Giving back.</h4>
                     <p>
                         Social networks have an incredible economic potential.
                     </p>
@@ -535,7 +556,7 @@
                                target="_blank">Source</a>
                     </span>
                     </p>
-                    <h4>
+                    <h4 id="migration">
                         5. Seamless migration.
                     </h4>
                     <p>
