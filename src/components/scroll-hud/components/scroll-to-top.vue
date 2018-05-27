@@ -11,6 +11,7 @@
     $button-size: 45px;
 
     .scroll-to-top {
+        border: solid 1px white !important;
         position: absolute !important;
         bottom: 0;
         right: 0;
