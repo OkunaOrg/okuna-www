@@ -185,7 +185,7 @@
                     </div>
                     <h3 id="openness">1. Openness.</h3>
                     <p>
-                        Every single line of code we write will be MIT licensed; meaning free and
+                        All of our code is and will continue being free and
                         open for everyone to see, reproduce and contribute to.
                     </p>
                     <p>
