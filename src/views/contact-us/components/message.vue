@@ -8,7 +8,7 @@
                 <div class="control">
                     <input
                         class="input is-medium"
-                        v-validate="'required|min:5'"
+                        v-validate="'required|min:5|max:64'"
                         type="text"
                         placeholder="The reason you are contacting us"
                         id="subject"
@@ -46,7 +46,7 @@
                     <div class="field">
                         <div class="control">
                             <textarea
-                                v-validate="'required|min:10'"
+                                v-validate="'required|min:10|max:1000'"
                                 class="textarea is-medium"
                                 placeholder="What can we do for you?"
                                 style="resize: none;"
