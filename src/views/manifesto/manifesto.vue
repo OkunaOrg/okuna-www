@@ -62,6 +62,55 @@
                 </div>
             </div>
         </section>
+        <section class="section" id="TOC">
+            <div class="small-container">
+                <div class="content is-medium">
+                    <div class="has-text-centered">
+                        <h2 class="title is-3 is-spaced is-margin-top-small">Table of contents</h2>
+                    </div>
+                    <br/>
+                    <ul>
+                        <li>
+                            Why?
+                        </li>
+                        <li>
+                            How?
+                            <ul>
+                                <li>
+                                    1. Openess
+                                </li>
+                                <li>
+                                    2. Privacy and security.
+                                    <ul>
+                                        <li>
+                                            2.1 Data sharing with applications.
+                                        </li>
+                                        <li>
+                                            2.2 Privacy first.
+                                        </li>
+                                        <li>
+                                            2.3 Privacy and security as a journey, not a destination.
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    3. A useful and sustainable revenue model.
+                                </li>
+                                <li>
+                                    4. Giving back.
+                                </li>
+                                <li>
+                                    5. Seamless migration.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            3. What's next
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
         <section class="section" id="why">
             <div class="small-container">
                 <div class="content is-medium">
@@ -426,7 +475,7 @@
                     <p class="is-size-7">
                         Hello there goverment agencies!
                     </p>
-                    <h3>3. A useful and sustainable revenue model.</h3>
+                    <h4>3. A useful and sustainable revenue model.</h4>
                     <p>
                         The world is a marketplace, so will <span class="has-text-primary"><strong
                         class="has-text-primary">Open</strong>book</span>.
@@ -446,7 +495,7 @@
                         Transactions made within the platform will benefit from the privacy and security of the
                         ecosystem.
                     </p>
-                    <h3>4. Giving back.</h3>
+                    <h4>4. Giving back.</h4>
                     <p>
                         Social networks have an incredible economic potential.
                     </p>
@@ -486,9 +535,9 @@
                                target="_blank">Source</a>
                     </span>
                     </p>
-                    <h3>
-                        5. Seamless migration
-                    </h3>
+                    <h4>
+                        5. Seamless migration.
+                    </h4>
                     <p>
                         Finally, we, like you, have put a tremendous amount of our time and data into existing social
                         networks.
