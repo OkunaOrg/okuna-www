@@ -92,6 +92,16 @@
                 <ob-team-members/>
             </div>
         </section>
+        <section class="section">
+            <div class="container">
+                <div class="content has-text-centered padding-bottom-2x">
+                    <p class="is-size-3 padding-bottom-3x">
+                        Our ambassadors
+                    </p>
+                </div>
+                <ob-team-members/>
+            </div>
+        </section>
         <section class="hero is-primary is-bold">
             <div class="hero-body has-text-centered">
                 <div class="container">
