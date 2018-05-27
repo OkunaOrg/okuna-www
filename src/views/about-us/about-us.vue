@@ -67,7 +67,7 @@
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
                     <p class="is-size-3 padding-bottom-3x">
-                        The humans behind Openbook
+                        The humans behind <strong>Open</strong>book
                     </p>
                 </div>
                 <ob-team-members/>
@@ -94,11 +94,11 @@
         <section class="section">
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
-                    <p class="is-size-3 padding-bottom-3x">
+                    <p class="is-size-3 padding-bottom-1x">
                         Our ambassadors
                     </p>
                     <p class="is-size-6 is-marginless is-paddingless">
-                        Incredible people that stand for the same things we do.
+                        People that help us spread the word around and stand for everything we do.
                     </p>
                 </div>
                 <ob-ambassadors></ob-ambassadors>
