@@ -41,11 +41,14 @@
                 </div>
                 <div class="columns">
                     <div class="column intro-text content small-container">
-                        <p class="is-size-5 small-container padding-bottom-3x">
-                            Founded in April 2018, <strong>Open</strong>book is a project to make things right.<br/> A project to redefine social networks, a project to rethink the "free" internet, a project to bring transparency to the internet, a project to claim back our privacy.
+                        <p class="is-size-5 small-container">
+                            Founded in April 2018, Openbook is a project to make things right.
                         </p>
-                        <p class="is-size-5 small-container has-text-weight-bold">
-                            Openbook is a project to make the world a better place.
+                        <p class="is-size-5 small-container">
+                            A project to redefine social networks, a project to rethink the "free" internet, a project to bring transparency to the internet, a project to claim back our privacy.
+                        </p>
+                        <p class="is-size-5 small-container">
+                            <strong>Openbook is a project to make the world a better place</strong>.
                         </p>
                     </div>
                 </div>
@@ -57,7 +60,7 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                How will we do this?
+                                How will we accomplish this?
                             </h3>
                         </div>
                         <div class="column">
