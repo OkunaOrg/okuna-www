@@ -98,6 +98,19 @@
                                         </div>
                                     </div>
                                 </a>
+                                <a href="https://www.linkedin.com/company/openbook-org/" class="is-flex is-vcentered"
+                                   target="_blank">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span class="icon">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </span>
+                                        </div>
+                                        <div class="column">
+                                            LinkedIn
+                                        </div>
+                                    </div>
+                                </a>
                                 <a href="https://www.facebook.com/openbookorg/" class="is-flex is-vcentered"
                                    target="_blank">
                                     <div class="columns is-mobile">
