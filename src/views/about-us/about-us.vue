@@ -30,16 +30,22 @@
             </div>
         </section>
         <section class="section">
-            <div class="small-container">
+            <div>
                 <div class="columns is-centered">
-                    <div class="column has-text-centered intro-text content">
-                        <p class="is-size-5">
+                    <div class="column intro-text content">
+                        <p class="is-size-4 has-text-centered small-container padding-bottom-1x">
                             <span class="has-text-primary"><strong
-                                class="has-text-primary">Open</strong>book</span> is an open-source MIT-licensed, zero tracking, zero advertisement, secure and sustainable, social network that gives 30% of it's revenue towards making the world a better place, now and forever.
+                                class="has-text-primary">Open</strong>book</span> is an open-source, zero tracking, zero spying, zero advertisement, secure social network that gives 30% of it's revenue towards making the world a better place, now and forever.
                         </p>
-                        <p>
-                            Founded in 2018, <span class="has-text-primary"><strong
-                            class="has-text-primary">Open</strong>book</span> is a project to make things right, a project to redefine how social networks operate, a project to re-think the "free" internet, a project to bring transparency in an era of closed walls, a project to break the digital chambers that separate us, a project to claim back our privacy, <strong>a project to make the world a better place</strong>.
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column intro-text content small-container">
+                        <p class="is-size-5 small-container padding-bottom-3x">
+                            Founded in April 2018, <strong>Open</strong>book is a project to make things right.<br/> A project to redefine social networks, a project to rethink the "free" internet, a project to bring transparency to the internet, a project to claim back our privacy.
+                        </p>
+                        <p class="is-size-5 small-container has-text-weight-bold">
+                            Openbook is a project to make the world a better place.
                         </p>
                     </div>
                 </div>
