@@ -592,7 +592,7 @@
                         We are eager to bring <span class="has-text-primary"><strong
                         class="has-text-primary">Open</strong>book</span> to life. To re-invent the way social media
                         companies
-                        operate, o claim back our privacy, to build a tool for good, to change the world.
+                        operate, to claim back our privacy, to build a tool for good, to change the world.
                     </p>
                     <p>
                         It won't be an easy task. Apart from the technical challenges, being the underdogs trying to
