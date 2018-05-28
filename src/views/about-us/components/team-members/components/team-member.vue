@@ -12,22 +12,22 @@
                     <br/>
                     <span class="is-size-7-mobile">{{teamMember.position}}</span>
                     <div class="member-links">
-                        <a :href="teamMember.links.website" v-if="teamMember.links.website" class="member-links-link member-links-link--website" target="_blank">
+                        <a :href="teamMember.links.website" v-if="teamMember.links.website" class="member-links-link member-links-link--website" target="_blank" rel="noopener noreferrer">
                             <span class="icon">
                                 <i class="fas fa-globe"></i>
                             </span>
                         </a>
-                        <a :href="teamMember.links.github" v-if="teamMember.links.github" class="member-links-link member-links-link--github" target="_blank">
+                        <a :href="teamMember.links.github" v-if="teamMember.links.github" class="member-links-link member-links-link--github" target="_blank" rel="noopener noreferrer">
                             <span class="icon">
                                 <i class="fab fa-github"></i>
                             </span>
                         </a>
-                        <a :href="teamMember.links.twitter" v-if="teamMember.links.twitter" class="member-links-link member-links-link--twitter" target="_blank">
+                        <a :href="teamMember.links.twitter" v-if="teamMember.links.twitter" class="member-links-link member-links-link--twitter" target="_blank" rel="noopener noreferrer">
                             <span class="icon">
                                 <i class="fab fa-twitter"></i>
                             </span>
                         </a>
-                        <a :href="teamMember.links.linkedin" v-if="teamMember.links.linkedin" class="member-links-link member-links-link--linkedin" target="_blank">
+                        <a :href="teamMember.links.linkedin" v-if="teamMember.links.linkedin" class="member-links-link member-links-link--linkedin" target="_blank" rel="noopener noreferrer">
                             <span class="icon">
                                 <i class="fab fa-linkedin"></i>
                             </span>

@@ -25,7 +25,7 @@
                         </countdown>
                         <div class="columns is-mobile is-centered">
                             <div class="column is-narrow">
-                                <a target="_blank" href="http://eepurl.com/dvRRmD" class="button is-primary is-rounded is-medium padding-top-2x">
+                                <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dvRRmD" class="button is-primary is-rounded is-medium padding-top-2x">
                             <span class="icon">
                                 <i class="fas fa-bell"></i>
                             </span>

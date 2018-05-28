@@ -131,7 +131,7 @@
                                                 </span>
                                             </a>
                                             <a v-else-if="dataItem.type === 'image'" :href="dataItem.value"
-                                               target="_blank">
+                                               target="_blank" rel="noopener noreferrer">
                                                 <span>
                                                     Open image ↗
                                                 </span>
@@ -193,7 +193,7 @@
                                                 </span>
                                             </a>
                                             <a v-else-if="dataItem.type === 'image'" :href="dataItem.value"
-                                               target="_blank">
+                                               target="_blank" rel="noopener noreferrer">
                                                 <span>
                                                     Open image ↗
                                                 </span>

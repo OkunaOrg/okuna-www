@@ -114,11 +114,11 @@
                         <li>
                             If you're a developer, you can help us <a
                             href="https://github.com/OpenBookOrg/openbook-org-www"
-                            target="_blank">improve our website</a>.
+                            target="_blank" rel="noopener noreferrer">improve our website</a>.
                         </li>
                         <li>
                             If you have an idea for the network, you can <a href="https://github.com/OpenBookOrg/ideas"
-                                                                            target="_blank">let us know</a>.
+                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.
                         </li>
                         <li>
                             If you're a public figure and would like to become an ambassador,

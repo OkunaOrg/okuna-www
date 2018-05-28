@@ -48,7 +48,7 @@
             </div>
             <div class="column is-10">
                 <strong>Website</strong><br/>
-                <a href="https://www.open-book.org" target="_blank">
+                <a href="https://www.open-book.org" target="_blank" rel="noopener noreferrer">
                     www.open-book.org
                 </a>
             </div>

@@ -540,14 +540,14 @@
                         <strong>We could change the world.</strong>
                     </p>
                     <p class="is-size-7">
-                        We will do this in partnership with <a href="https://founderspledge.com/" target="_blank">FoundersPledge</a>.
+                        We will do this in partnership with <a href="https://founderspledge.com/" target="_blank" rel="noopener noreferrer">FoundersPledge</a>.
                     </p>
                     <p class="is-size-7">
                                   <span>
                         [1] <a href="http://variety.com/2018/digital/news/facebook-q4-2017-earnings-1202683184/"
-                               target="_blank">Source</a>
+                               target="_blank" rel="noopener noreferrer">Source</a>
                         [2] <a href="https://www.unicef.org/publicpartnerships/files/2016arr_humanitarianaction(1).pdf"
-                               target="_blank">Source</a>
+                               target="_blank" rel="noopener noreferrer">Source</a>
                     </span>
                     </p>
                     <h4 id="migration">
@@ -615,7 +615,7 @@
                     </h5>
                     <div class="columns is-mobile is-multiline padding-top-2x">
                         <div class="column is-narrow">
-                            <a target="_blank" href="http://eepurl.com/dvRRmD" class="button is-primary is-rounded">
+                            <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dvRRmD" class="button is-primary is-rounded">
                             <span class="icon">
                                 <i class="fas fa-bell"></i>
                             </span>
@@ -625,7 +625,7 @@
                             </a>
                         </div>
                         <div class="column is-narrow">
-                            <a href="https://twitter.com/OpenBook_org" target="_blank"
+                            <a href="https://twitter.com/OpenBook_org" target="_blank" rel="noopener noreferrer"
                                class="button is-info is-rounded">
                             <span class="icon">
                                 <i class="fab fa-twitter"></i>
@@ -639,7 +639,7 @@
                         </div>
                         <div class="column is-narrow">
                             <a href="https://twitter.com/intent/tweet?url=https://open-book.org&hastags=openbook,openbookorg&via=OpenBook_org&text=The open and secure social network coming soon to @kickstarter"
-                               target="_blank" class="button is-info is-outlined is-rounded">
+                               target="_blank" rel="noopener noreferrer" class="button is-info is-outlined is-rounded">
                             <span class="icon">
                                 <i class="fab fa-twitter"></i>
                             </span>

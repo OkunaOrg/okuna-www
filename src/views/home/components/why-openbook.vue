@@ -145,7 +145,7 @@
                                 Good for the planet
                             </h4>
                             <p class="is-size-5 has-text-centered home-why-content">
-                                <span>In partnership with <a href="https://founderspledge.com/" target="_blank">Founders Pledge</a>
+                                <span>In partnership with <a href="https://founderspledge.com/" target="_blank" rel="noopener noreferrer">Founders Pledge</a>
                                 we will give 30% of our revenue towards making the world a better place, now and
                                     forever.</span>
                             </p>
