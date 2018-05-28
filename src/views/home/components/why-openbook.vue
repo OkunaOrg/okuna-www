@@ -68,7 +68,7 @@
                                 Tough data protection
                             </h4>
                             <p class="is-size-5 has-text-centered home-why-content">
-                                Third party applications that wish to access your data will have to meet our strict and tough security policies.
+                                Third party applications that wish to access your data will have to comply with our strict and tough security policies.
                             </p>
                         </div>
                     </div>
@@ -145,9 +145,9 @@
                                 Good for the planet
                             </h4>
                             <p class="is-size-5 has-text-centered home-why-content">
-                                In partnership with <a href="https://founderspledge.com/" target="_blank">Founders Pledge</a>
+                                <span>In partnership with <a href="https://founderspledge.com/" target="_blank">Founders Pledge</a>
                                 we will give 30% of our revenue towards making the world a better place, now and
-                                forever.
+                                    forever.</span>
                             </p>
                         </div>
                     </div>
