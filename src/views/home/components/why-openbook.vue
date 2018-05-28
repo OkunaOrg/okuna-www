@@ -17,10 +17,10 @@
                         </div>
                         <div class="column content is-12 has-text-centered">
                             <h4 class="is-size-4">
-                                Respect for your privacy
+                                Zero tracking
                             </h4>
                             <p class="is-size-5 home-why-content">
-                                We will never track you, inside or outside of the network.
+                                <span>We will never track you, anywhere, anyhow.</span>
                             </p>
                         </div>
                     </div>
@@ -28,29 +28,30 @@
                 <div class="column home-why-container">
                     <div class="columns is-centered is-mobile is-multiline home-why">
                         <div class="is-size-3 home-why-icon home-why-icon--honesty">
-                            <i class="far fa-handshake"></i>
+                            <i class="fas fa-user-lock"></i>
                         </div>
                         <div class="column content is-12 has-text-centered">
                             <h4 class="is-size-4">
-                                Honest
+                                Zero spying
                             </h4>
                             <p class="is-size-5 home-why-content">
-                                All of our code free and open for everyone to inspect, reproduce and contribute to.
+                                Be confident your private conversations are truly private.
                             </p>
                         </div>
                     </div>
                 </div>
                 <div class="column home-why-container">
-                    <div class="columns is-centered is-mobile is-multiline has-text-centered home-why">
-                        <div class="is-size-3 home-why-icon home-why-icon--migration">
-                            <i class="fas fa-exchange-alt"></i>
+                    <div class="columns is-centered is-mobile is-multiline home-why">
+                        <div class="is-size-3 home-why-icon home-why-icon--honesty">
+                            <i class="fas fa-object-group"></i>
                         </div>
-                        <div class="column content is-12">
+                        <div class="column content is-12 has-text-centered">
                             <h4 class="is-size-4">
-                                Seamless migration
+                                Zero advertisement
                             </h4>
-                            <p class="is-size-5 has-text-centered home-why-content">
-                                We will provide importers to migrate all of your existing data to our network.
+                            <p class="is-size-5 home-why-content">
+                                Online advertisement is what lead to the downfall of the "free" internet.
+                                Our revenue model is not nor will ever be advertisement.
                             </p>
                         </div>
                     </div>
@@ -58,20 +59,52 @@
             </div>
             <div class="columns">
                 <div class="column home-why-container">
-                    <div class="columns is-centered is-mobile is-multiline home-why">
-                        <div class="is-size-3 home-why-icon home-why-icon--secure">
+                    <div class="columns is-centered is-mobile is-multiline has-text-centered home-why">
+                        <div class="is-size-3 home-why-icon home-why-icon--migration">
                             <i class="fas fa-shield-alt"></i>
                         </div>
-                        <div class="column content is-12 has-text-centered">
+                        <div class="column content is-12">
                             <h4 class="is-size-4">
-                                Secure
+                                Tough data protection
                             </h4>
-                            <p class="is-size-5 home-why-content">
-                                Third party applications that wish to access your data will have to meet our strict security policy.
+                            <p class="is-size-5 has-text-centered home-why-content">
+                                Third party applications that wish to access your data will have to meet our strict and tough security policies.
                             </p>
                         </div>
                     </div>
                 </div>
+                <div class="column home-why-container">
+                    <div class="columns is-centered is-mobile is-multiline has-text-centered home-why">
+                        <div class="is-size-3 home-why-icon home-why-icon--beautiful">
+                            <i class="far fa-handshake"></i>
+                        </div>
+                        <div class="column content is-12">
+                            <h4 class="is-size-4">
+                                Honest
+                            </h4>
+                            <p class="is-size-5 has-text-centered home-why-content">
+                                All of our code is free and open for everyone to inspect, reproduce and contribute to. No unpleasant surprises.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column home-why-container">
+                    <div class="columns is-centered is-mobile is-multiline home-why">
+                        <div class="is-size-3 home-why-icon home-why-icon--secure">
+                            <i class="fas fa-suitcase"></i>
+                        </div>
+                        <div class="column content is-12 has-text-centered">
+                            <h4 class="is-size-4">
+                                Easy to migrate
+                            </h4>
+                            <p class="is-size-5 home-why-content">
+                                We will provide tools to migrate all of your existing data to our network.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns">
                 <div class="column home-why-container">
                     <div class="columns is-centered is-mobile is-multiline home-why">
                         <div class="is-size-3 home-why-icon home-why-icon--future">
@@ -102,12 +135,10 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="columns">
                 <div class="column home-why-container">
                     <div class="columns is-centered is-mobile is-multiline has-text-centered home-why">
                         <div class="is-size-3 home-why-icon home-why-icon--beautiful">
-                            <i class="fas fa-leaf"></i>
+                            <i class="fas fa-hand-holding-heart"></i>
                         </div>
                         <div class="column content is-12">
                             <h4 class="is-size-4">
