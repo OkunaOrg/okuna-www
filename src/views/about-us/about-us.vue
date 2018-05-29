@@ -20,7 +20,7 @@
                             <div class="columns is-centered is-vcentered is-mobile padding-bottom-2x-mobile">
                                 <div class="column is-narrow">
                                     <figure class="image trust-gif">
-                                        <img class="is-rounded is-square trust-gif__img" src="https://orig00.deviantart.net/b64a/f/2015/196/4/6/earth_3_0__animated__by_shaddow24-d91hqbn.gif">
+                                        <img class="is-rounded is-square trust-gif__img" :src="spinningWorldImg">
                                     </figure>
                                 </div>
                             </div>
@@ -183,6 +183,11 @@
         components: {
             ObAmbassadors,
             ObTeamMembers
+        },
+        data(){
+            return {
+                spinningWorldImg
+            }
         }
     }
 </script>
