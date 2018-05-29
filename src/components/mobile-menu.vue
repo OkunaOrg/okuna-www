@@ -209,11 +209,8 @@
                             <div class="column is-12">
                                 <div class="columns is-mobile is-vcentered">
                                     <div class="column">
-                                        <span class="is-size-7">Follow us on</span>
-                                    </div>
-                                    <div class="column is-2">
                                         <a href="https://twitter.com/Openbook_org" class="is-flex is-vcentered"
-                                           target="_blank">
+                                           target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
                                             <span class="icon">
@@ -223,9 +220,9 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="column is-2">
+                                    <div class="column">
                                         <a href="https://github.com/OpenBookOrg" class="is-flex is-vcentered"
-                                           target="_blank">
+                                           target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
                                             <span class="icon">
@@ -235,9 +232,9 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="column is-2">
+                                    <div class="column">
                                         <a href="https://www.reddit.com/user/openbook_org" class="is-flex is-vcentered"
-                                           target="_blank">
+                                           target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
                                             <span class="icon">
@@ -247,9 +244,9 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="column is-2">
+                                    <div class="column">
                                         <a href="https://gitter.im/openbook-org/Lobby" class="is-flex is-vcentered"
-                                           target="_blank">
+                                           target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
                                             <span class="icon">
@@ -259,9 +256,19 @@
                                             </div>
                                         </a>
                                     </div>
-                                    <div class="column is-2">
+                                    <div class="column">
+                                        <a href="https://www.linkedin.com/openbookorg/" class="is-flex is-vcentered"
+                                           target="_blank" rel="noopener noreferrer">
+                                            <div class="columns is-mobile">
+                                                <div class="column">
+                                                    <span class="icon"><i class="fab fa-linkedin-in"></i></span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="column">
                                         <a href="https://www.facebook.com/openbookorg/" class="is-flex is-vcentered"
-                                           target="_blank">
+                                           target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
                                                     <span class="icon"><i class="fab fa-facebook-f"></i></span>

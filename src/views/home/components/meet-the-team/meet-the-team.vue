@@ -26,11 +26,11 @@
 </template>
 
 <script>
-    import teamImage1 from './assets/joel.jpeg';
-    import teamImage2 from './assets/jaya.png';
-    import teamImage3 from './assets/phil.jpg';
-    import teamImage4 from './assets/vincent.jpeg';
-    import teamImage5 from './assets/lars.jpeg';
+    import teamImage1 from './assets/joel-min.jpg';
+    import teamImage2 from './assets/jaya-min.png';
+    import teamImage3 from './assets/phil-min.jpg';
+    import teamImage4 from './assets/vincent-min.jpeg';
+    import teamImage5 from './assets/lars-min.jpeg';
 
     export default{
         name: 'ob-meet-the-team',

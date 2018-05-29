@@ -48,7 +48,7 @@
                     <div class="level-right">
                         <ul>
                             <li>
-                                <a href="https://twitter.com/Openbook_org" class="is-flex is-vcentered" target="_blank">
+                                <a href="https://twitter.com/Openbook_org" class="is-flex is-vcentered" target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">
@@ -60,7 +60,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://github.com/OpenBookOrg" class="is-flex is-vcentered" target="_blank">
+                                <a href="https://github.com/OpenBookOrg" class="is-flex is-vcentered" target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">
@@ -73,7 +73,7 @@
                                     </div>
                                 </a>
                                 <a href="https://www.reddit.com/user/openbook_org" class="is-flex is-vcentered"
-                                   target="_blank">
+                                   target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">
@@ -86,7 +86,7 @@
                                     </div>
                                 </a>
                                 <a href="https://gitter.im/openbook-org/Lobby" class="is-flex is-vcentered"
-                                   target="_blank">
+                                   target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">
@@ -98,8 +98,21 @@
                                         </div>
                                     </div>
                                 </a>
+                                <a href="https://www.linkedin.com/company/openbook-org/" class="is-flex is-vcentered"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span class="icon">
+                                                <i class="fab fa-linkedin-in"></i>
+                                            </span>
+                                        </div>
+                                        <div class="column">
+                                            LinkedIn
+                                        </div>
+                                    </div>
+                                </a>
                                 <a href="https://www.facebook.com/openbookorg/" class="is-flex is-vcentered"
-                                   target="_blank">
+                                   target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon"><i class="fab fa-facebook-f"></i></span>
@@ -124,7 +137,7 @@
                                 <div class="content has-text-centered-mobile">
                                     © The Openbook Organization | <a
                                     href="https://www.iubenda.com/privacy-policy/91224954"
-                                    class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank">Privacy Policy</a>
+                                    class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
                                 </div>
                             </div>
                             <div class="level-right">

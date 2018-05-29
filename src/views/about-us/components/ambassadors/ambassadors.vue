@@ -7,7 +7,6 @@
 </template>
 
 <script>
-    import placeholderPhoto from './assets/placeholder.png';
     import isaacPhoto from './assets/isaac.jpg';
     import ObAmbassador from './components/ambassador.vue';
 

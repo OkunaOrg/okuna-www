@@ -12,27 +12,27 @@
                     <br/>
                     <span class="is-size-7-mobile">{{ambassador.description}}</span>
                     <div class="member-links">
-                        <a :href="ambassador.links.website" v-if="ambassador.links.website" class="member-links-link member-links-link--website" target="_blank">
+                        <a :href="ambassador.links.website" v-if="ambassador.links.website" class="member-links-link member-links-link--website" target="_blank" rel="noopener noreferrer">
                             <span class="icon">
                                 <i class="fas fa-globe"></i>
                             </span>
                         </a>
-                        <a :href="ambassador.links.instagram" v-if="ambassador.links.instagram" class="member-links-link member-links-link--instagram" target="_blank">
+                        <a :href="ambassador.links.instagram" v-if="ambassador.links.instagram" class="member-links-link member-links-link--instagram" target="_blank" rel="noopener noreferrer">
                             <span class="icon">
                                 <i class="fab fa-instagram"></i>
                             </span>
                         </a>
-                        <a :href="ambassador.links.facebook" v-if="ambassador.links.facebook" class="member-links-link member-links-link--facebook" target="_blank">
+                        <a :href="ambassador.links.facebook" v-if="ambassador.links.facebook" class="member-links-link member-links-link--facebook" target="_blank" rel="noopener noreferrer">
                             <span class="icon">
                                 <i class="fab fa-facebook"></i>
                             </span>
                         </a>
-                        <a :href="ambassador.links.twitter" v-if="ambassador.links.twitter" class="member-links-link member-links-link--twitter" target="_blank">
+                        <a :href="ambassador.links.twitter" v-if="ambassador.links.twitter" class="member-links-link member-links-link--twitter" target="_blank" rel="noopener noreferrer">
                             <span class="icon">
                                 <i class="fab fa-twitter"></i>
                             </span>
                         </a>
-                        <a :href="ambassador.links.linkedin" v-if="ambassador.links.linkedin" class="member-links-link member-links-link--linkedin" target="_blank">
+                        <a :href="ambassador.links.linkedin" v-if="ambassador.links.linkedin" class="member-links-link member-links-link--linkedin" target="_blank" rel="noopener noreferrer">
                             <span class="icon">
                                 <i class="fab fa-linkedin"></i>
                             </span>

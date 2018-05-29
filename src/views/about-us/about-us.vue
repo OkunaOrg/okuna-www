@@ -20,7 +20,7 @@
                             <div class="columns is-centered is-vcentered is-mobile padding-bottom-2x-mobile">
                                 <div class="column is-narrow">
                                     <figure class="image trust-gif">
-                                        <img class="is-rounded is-square trust-gif__img" src="https://orig00.deviantart.net/b64a/f/2015/196/4/6/earth_3_0__animated__by_shaddow24-d91hqbn.gif">
+                                        <img class="is-rounded is-square trust-gif__img" :src="spinningWorldImg">
                                     </figure>
                                 </div>
                             </div>
@@ -30,16 +30,25 @@
             </div>
         </section>
         <section class="section">
-            <div class="small-container">
+            <div>
                 <div class="columns is-centered">
-                    <div class="column has-text-centered intro-text content">
-                        <p class="is-size-5">
+                    <div class="column intro-text content">
+                        <p class="is-size-4 has-text-centered small-container padding-bottom-1x">
                             <span class="has-text-primary"><strong
-                                class="has-text-primary">Open</strong>book</span> is an open-source MIT-licensed, zero tracking, zero advertisement, secure and sustainable, social network that gives 30% of it's revenue towards making the world a better place, now and forever.
+                                class="has-text-primary">Open</strong>book</span> is an open-source, zero tracking, zero spying, zero advertisement, secure social network that gives 30% of it's revenue towards making the world a better place, now and forever.
                         </p>
-                        <p>
-                            Founded in 2018, <span class="has-text-primary"><strong
-                            class="has-text-primary">Open</strong>book</span> is a project to make things right, a project to redefine how social networks operate, a project to re-think the "free" internet, a project to bring transparency in an era of closed walls, a project to break the digital chambers that separate us, a project to claim back our privacy, <strong>a project to make the world a better place</strong>.
+                    </div>
+                </div>
+                <div class="columns">
+                    <div class="column intro-text content small-container">
+                        <p class="is-size-5 small-container">
+                            Founded in April 2018, Openbook is a project to make things right.
+                        </p>
+                        <p class="is-size-5 small-container">
+                            A project to redefine social networks, a project to rethink the "free" internet, a project to bring transparency to the internet, a project to claim back our privacy.
+                        </p>
+                        <p class="is-size-5 small-container">
+                            <strong>Openbook is a project to make the world a better place</strong>.
                         </p>
                     </div>
                 </div>
@@ -51,7 +60,7 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                How will we do this?
+                                How will we accomplish this?
                             </h3>
                         </div>
                         <div class="column">
@@ -168,10 +177,17 @@
 <script>
     import ObTeamMembers from "./components/team-members/team-members";
     import ObAmbassadors from "./components/ambassadors/ambassadors.vue";
+    import spinningWorldImg from './assets/spinningworld.gif';
 
     export default{
         components: {
             ObAmbassadors,
-            ObTeamMembers}
+            ObTeamMembers
+        },
+        data(){
+            return {
+                spinningWorldImg
+            }
+        }
     }
 </script>

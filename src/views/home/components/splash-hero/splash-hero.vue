@@ -33,7 +33,7 @@
                                 </button>
                             </div>
                             <div class="column is-narrow">
-                                <a class="button is-primary is-rounded" target="_blank" href="http://eepurl.com/dvRRmD">
+                                <a class="button is-primary is-rounded" target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dvRRmD">
                                     <span class="icon">
                                         <i class="fas fa-bell"></i>
                                     </span>
