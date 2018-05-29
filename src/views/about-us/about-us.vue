@@ -177,10 +177,12 @@
 <script>
     import ObTeamMembers from "./components/team-members/team-members";
     import ObAmbassadors from "./components/ambassadors/ambassadors.vue";
+    import spinningWorldImg from './assets/spinningworld.gif';
 
     export default{
         components: {
             ObAmbassadors,
-            ObTeamMembers}
+            ObTeamMembers
+        }
     }
 </script>
