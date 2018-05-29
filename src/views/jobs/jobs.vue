@@ -37,7 +37,7 @@
                         We are looking for people with all kinds of skills. Technology, design, marketing, finance, media, you name it.
                     </p>
                     <p>
-                        If you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> and are talented in what you do, we need your help!
+                        If you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> and are talented at what you do, we need your help!
                     </p>
                     <p>
                         Send us your CV to  <a

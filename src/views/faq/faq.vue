@@ -85,7 +85,7 @@
                         These networks, being independently distributed, make these items impossible to guarantee.
                     </p>
                     <p>
-                        However, if your concern is data portability, all of your data will downloadable and fully portable to other Openbook instances.
+                        However, if your concern is data portability, all of your data will be downloadable and fully portable to other Openbook instances.
                     </p>
                     <p>
                     </p>
@@ -99,10 +99,10 @@
                         We're happy and grateful you want to help out!
                     </p>
                     <p>
-                        There's many ways you can help right now.
+                        There are many ways you can help right now.
                     </p>
                     <p>
-                        Here's some ideas:
+                        Here are some ideas:
                     </p>
                     <ul>
                         <li>

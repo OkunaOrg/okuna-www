@@ -231,7 +231,7 @@
                         to it.
                     </p>
                     <p>
-                        The box below appears in your screen.
+                        The box below appears on your screen.
                     </p>
                     <p>
                         <i>(Go ahead, click around as you would normally)</i>
