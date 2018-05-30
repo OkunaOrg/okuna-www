@@ -16,6 +16,7 @@
                         <router-link to="contact-us" class="navbar-item" active-class="is-active">Contact us</router-link>
                         <router-link to="jobs" class="navbar-item" active-class="is-active">Jobs</router-link>
                         <router-link to="faq" class="navbar-item" active-class="is-active">FAQ</router-link>
+                        <router-link to="press" class="navbar-item" active-class="is-active">Press</router-link>
                     </div>
                 </div>
             </div>
