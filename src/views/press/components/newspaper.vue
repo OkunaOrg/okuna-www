@@ -83,7 +83,7 @@
 
     // Newspaper courtesy of awesome Curtis Blanton
     // https://codepen.io/shotcowboystyle/pen/OXOzyy
-    
+
     #feed-icon-svg {
         margin: 50px auto;
         display: block;

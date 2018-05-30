@@ -7,12 +7,12 @@
                         <div class="column">
                             <div class="columns is-centered contact-us-header-text">
                                 <div class="column is-narrow">
-                                    <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
-                                        Press
-                                    </h1>
                                     <h2 class="title is-size-2 contact-text has-text-centered-mobile">
-                                        Help us change the world.
+                                        We <3 Press
                                     </h2>
+                                    <h3>
+                                        Today, and everyday.
+                                    </h3>
                                 </div>
                             </div>
                         </div>
@@ -31,21 +31,26 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <h4>
-                        We are embarking on one of the most exciting digital adventures ever and we are looking for talented people to sail with us!
+                        Press kits
                     </h4>
-                    <p>
-                        We are looking for people with all kinds of skills. Technology, design, marketing, finance, media, you name it.
-                    </p>
-                    <p>
-                        If you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> and are talented at what you do, we need your help!
-                    </p>
-                    <p>
-                        Send us your CV to  <a
-                        href="mailto:press@open-book.org?subject=Job%20Application">press@open-book.org</a>.
-                    </p>
-                    <p>
-                        We look forward to meeting you !
-                    </p>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="small-container">
+                <div class="content is-medium">
+                    <h4>
+                        People
+                    </h4>
+                </div>
+            </div>
+        </section>
+        <section class="section">
+            <div class="small-container">
+                <div class="content is-medium">
+                    <h4>
+                        Logos
+                    </h4>
                 </div>
             </div>
         </section>
