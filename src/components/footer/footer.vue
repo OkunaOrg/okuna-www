@@ -137,7 +137,8 @@
                                 <div class="content has-text-centered-mobile">
                                     © The Openbook Organization | <a
                                     href="https://www.iubenda.com/privacy-policy/91224954"
-                                    class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                                    class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank" rel="noopener noreferrer">Privacy policy</a>
+                                    | <a href="#" @click="openVulnerabilityReport($event)">Vulnerability report</a> | <a href="#" @click="openPress($event)">Press</a>
                                 </div>
                             </div>
                             <div class="level-right">
@@ -169,3 +170,26 @@
         justify-content: center;
     }
 </style>
+
+<script>
+
+    import vulnerabilityReport from './components/vulnerability-report.vue';
+    import press from './components/press.vue';
+
+    export default{
+        methods: {
+            openVulnerabilityReport($event){
+                $event.preventDefault();
+                this.$dialog.alert({
+                    component: vulnerabilityReport
+                });
+            },
+            openPress($event){
+                $event.preventDefault();
+                this.$dialog.alert({
+                    component: press
+                });
+            }
+        }
+    }
+</script>
