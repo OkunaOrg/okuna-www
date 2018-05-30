@@ -106,7 +106,8 @@
                     'world',
                     'friends',
                     'family',
-                    'grandma'
+                    'grandma',
+                    'reddit'
                 ];
 
                 const helloSubject = document.querySelector('#hello-subject');
