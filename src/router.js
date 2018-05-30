@@ -10,6 +10,7 @@ const aboutUs = () => import('./views/about-us/about-us.vue');
 const manifesto = () => import('./views/manifesto/manifesto.vue');
 const faq = () => import('./views/faq/faq.vue');
 const jobs = () => import('./views/jobs/jobs.vue');
+const vulnerabilityReport = () => import('./views/vulnerability-report/vulnerability-report.vue');
 
 
 const router = new Router({
@@ -66,6 +67,18 @@ const router = new Router({
             meta: {
                 title: 'Jobs | Openbook social network'
             }
+        },
+        {
+            path: '/vulnerability-report',
+            name: 'vulnerability-report',
+            component: vulnerabilityReport,
+            meta: {
+                title: 'Report vulnerability | Openbook social network'
+            }
+        },
+        {
+            path: '*',
+            redirect: 'home'
         }
     ],
     scrollBehavior() {
