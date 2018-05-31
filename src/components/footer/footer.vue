@@ -186,24 +186,6 @@
 </style>
 
 <script>
-
-    import vulnerabilityReport from './components/vulnerability-report.vue';
-    import press from './components/press.vue';
-
     export default{
-        methods: {
-            openVulnerabilityReport($event){
-                $event.preventDefault();
-                this.$dialog.alert({
-                    component: vulnerabilityReport
-                });
-            },
-            openPress($event){
-                $event.preventDefault();
-                this.$dialog.alert({
-                    component: press
-                });
-            }
-        }
     }
 </script>
