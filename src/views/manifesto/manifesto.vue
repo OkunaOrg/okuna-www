@@ -145,7 +145,7 @@
                     </div>
                     <br/>
                     <p>
-                        <strong>In the year 2018, social networks are a destructive force in our society.</strong>
+                        <strong>In the year 2018, social networks play a destructive role in our society.</strong>
                     </p>
                     <p>
                         Meant to connect us, they divide us by reinforcing our personal beliefs, isolating us from the
