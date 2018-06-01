@@ -167,7 +167,7 @@
                         <strong class="has-text-primary">good</strong>.
                     </p>
                     <p>
-                        We set out to build <span class="has-text-primary"><strong
+                        We set out to build the next generation social network, we set out to build <span class="has-text-primary"><strong
                         class="has-text-primary">Open</strong>book</span>.
                     </p>
                 </div>
