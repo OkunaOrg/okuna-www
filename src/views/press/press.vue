@@ -91,7 +91,7 @@
         </section>
         <section class="section" id="logos">
             <div class="small-container">
-                <div class="content is-medium">
+                <div class="content is-medium padding-bottom-3x">
                     <h4>
                         Logos
                     </h4>

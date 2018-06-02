@@ -12,7 +12,7 @@ module.exports = {
     },
     devServer: {
         proxy: {
-            "/contact": {
+            "/contact^": {
                 target: "http://localhost:8000/",
                 secure: false
             }
