@@ -5,7 +5,7 @@
                 <div class="container">
                     <div class="columns is-vcentered">
                         <div class="column">
-                            <div class="columns is-centered contact-us-header-text">
+                            <div class="columns is-centered has-padding-top-2x-mobile">
                                 <div class="column is-narrow">
                                     <h2 class="title is-size-2 contact-text has-text-centered-mobile">
                                         We &nbsp;<span class="icon" style="color: #ff0000;"><i class="fas fa-heart"></i></span>

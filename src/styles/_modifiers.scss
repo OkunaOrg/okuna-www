@@ -24,9 +24,9 @@
     }
 }
 
-.padding-top-1x-mobile {
+.padding-top-2x-mobile {
     @media(max-width: 768px) {
-        padding-top: 1rem !important;
+        padding-top: 2rem !important;
     }
 }
 
@@ -70,6 +70,12 @@ img .is-rounded {
 
 .has-border-bottom-gray-light {
     border-bottom: solid 1px #fafafa;
+}
+
+.has-padding-top-2x-mobile {
+    @media(max-width: 768px) {
+        padding-top: 2rem !important;
+    }
 }
 
 .is-flex {

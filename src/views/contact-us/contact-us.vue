@@ -5,7 +5,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <div class="columns is-centered contact-us-header-text">
+                            <div class="columns is-centered has-padding-top-2x-mobile">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
                                         Contact us
@@ -63,12 +63,6 @@
     .contact-text{
         @media (min-width: 768px){
             max-width:400px;
-        }
-    }
-
-    .contact-us-header-text {
-        @media(max-width: 768px) {
-            padding-top: 1rem;
         }
     }
 
