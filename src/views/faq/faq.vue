@@ -5,7 +5,7 @@
                 <div class="container">
                     <div class="columns">
                         <div class="column">
-                            <div class="columns is-centered padding-top-1x-mobile">
+                            <div class="columns is-centered padding-top-2x-mobile">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
                                         FAQ
@@ -18,7 +18,7 @@
                         </div>
                         <div class="column">
                             <div class="columns is-centered is-vcentered contact-us-header-mailbox is-mobile">
-                                <div class="column is-narrow padding-top-1x-mobile">
+                                <div class="column is-narrow padding-top-2x-mobile">
                                     <ob-pets/>
                                     <div class="has-text-centered is-size-7">
                                         Our office dog hard at work.

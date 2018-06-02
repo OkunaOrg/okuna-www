@@ -21,29 +21,44 @@
             <div class="container">
                 <div class="level">
                     <div class="level-left">
-                        <ul>
-                            <li>
-                                <router-link to="home" class="navbar-item" active-class="is-active">Home</router-link>
-                            </li>
-                            <li>
-                                <router-link to="about-us" class="navbar-item" active-class="is-active">About us
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link to="manifesto" class="navbar-item" active-class="is-active">Manifesto
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link to="contact-us" class="navbar-item" active-class="is-active">Contact us
-                                </router-link>
-                            </li>
-                            <li>
-                                <router-link to="jobs" class="navbar-item" active-class="is-active">Jobs</router-link>
-                            </li>
-                            <li>
-                                <router-link to="faq" class="navbar-item" active-class="is-active">FAQ</router-link>
-                            </li>
-                        </ul>
+                        <div class="columns">
+                            <div class="column is-narrow">
+                                <ul>
+                                    <li>
+                                        <router-link to="home" class="navbar-item" active-class="is-active">Home</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link to="about-us" class="navbar-item" active-class="is-active">About us
+                                        </router-link>
+                                    </li>
+                                    <li>
+                                        <router-link to="manifesto" class="navbar-item" active-class="is-active">Manifesto
+                                        </router-link>
+                                    </li>
+                                    <li>
+                                        <router-link to="contact-us" class="navbar-item" active-class="is-active">Contact us
+                                        </router-link>
+                                    </li>
+                                    <li>
+                                        <router-link to="jobs" class="navbar-item" active-class="is-active">Jobs</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link to="faq" class="navbar-item" active-class="is-active">FAQ</router-link>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="column is-narrow">
+                                <ul>
+                                    <li>
+                                        <router-link to="vulnerability-report" class="navbar-item" active-class="is-active">Report vulnerability</router-link>
+                                    </li>
+                                    <li>
+                                        <router-link to="press" class="navbar-item" active-class="is-active">Press
+                                        </router-link>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                     </div>
                     <div class="level-right">
                         <ul>
@@ -137,7 +152,7 @@
                                 <div class="content has-text-centered-mobile">
                                     © The Openbook Organization | <a
                                     href="https://www.iubenda.com/privacy-policy/91224954"
-                                    class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank" rel="noopener noreferrer">Privacy Policy</a>
+                                    class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank" rel="noopener noreferrer">Privacy policy</a>
                                 </div>
                             </div>
                             <div class="level-right">
@@ -169,3 +184,8 @@
         justify-content: center;
     }
 </style>
+
+<script>
+    export default{
+    }
+</script>

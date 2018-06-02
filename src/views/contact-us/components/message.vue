@@ -1,5 +1,5 @@
 <template>
-    <div class="columns is-multiline is-mobile">
+    <div class="columns is-multiline is-mobile" id="message-form">
         <form class="column is-12" @submit.prevent="onSubmit()">
             <div class="field padding-bottom-1x">
                 <label class="label" for="subject">
@@ -63,7 +63,69 @@
                     </span>
                 </p>
             </div>
-            <div class="field">
+            <div class="padding-top-2x padding-bottom-2x" v-if="!acceptedRecaptcha">
+                <div class="columns">
+                    <div class="column">
+                        <b-message type="is-info">
+                            <div class="columns is-mobile is-multiline">
+                                <div class="column is-12">
+                                    We use <a href="https://www.google.com/recaptcha/intro/v3beta.html" target="_blank"
+                                              rel="noopener noreferrer">Google Recaptcha</a>
+                                    to prevent the abuse of this form.
+                                    <br/>
+                                    Google collects information about you in order to "verify" you are human.
+                                    <br/>
+                                    <br/>
+                                    This information includes
+                                    <ul>
+                                        <li>
+                                            Your IP, which can be used for determining your location and cross-referencing your identity with other sites you have visited.
+                                        </li>
+                                        <li>
+                                            All cookies placed by Google over the last 6 months.
+                                        </li>
+                                        <li>
+                                            How many mouse clicks you’ve made (or touches if on a touch device).
+                                        </li>
+                                        <li>
+                                            The CSS information of the page
+                                        </li>
+                                        <li>
+                                            The date
+                                        </li>
+                                        <li>
+                                            The language of your browser
+                                        </li>
+                                        <li>
+                                            Any plugins you have installed on the browser
+                                        </li>
+                                        <li>
+                                            The Javascript objects on the page
+                                        </li>
+                                    </ul>
+                                    <br/>
+                                    Do you authorize us to load Google Recaptcha and therefore allow Google to collect this information?
+                                </div>
+                                <div class="column is-12">
+                                    <button class="button is-warning is-large is-size-7-mobile is-size-6" @click="enableGoogleRecaptcha()" type="button" v-scroll-to="'#message-form'">
+                                        Yes, I authorize you to load Google Recaptcha
+                                    </button>
+                                </div>
+                                <div class="column is-12">
+                                    or
+                                </div>
+                                <div class="column is-12">
+                                    <a :href="mailToLink"
+                                       class="button is-success is-large is-size-7-mobile is-size-6">
+                                        No, send an e-mail to info@open-book.org
+                                    </a>
+                                </div>
+                            </div>
+                        </b-message>
+                    </div>
+                </div>
+            </div>
+            <div class="field" v-else>
                 <div class="control">
                     <vue-recaptcha sitekey="6LcBGlsUAAAAAA6NXsqPOtUbsk_G2ov5nafyduDk" ref="recaptcha"
                                    v-on:verify="onCaptchaVerified($event)"></vue-recaptcha>
@@ -82,7 +144,7 @@
                 </p>
                 <p class="control">
                     <button class="button is-primary" type="submit"
-                            :disabled="(formWasSubmitted && !formIsValid) || submissionInProgress">
+                            :disabled="(formWasSubmitted && !formIsValid) || submissionInProgress || !acceptedRecaptcha">
                         Submit
                     </button>
                 </p>
@@ -100,6 +162,7 @@
     import axios from 'axios';
 
     const CONTACT_URL = process.env.VUE_APP_CONTACT_URL;
+    const GOOGLE_RECAPTCHA_SCRIPT = 'https://www.google.com/recaptcha/api.js?onload=vueRecaptchaApiLoaded&render=explicit';
 
     function initialState() {
         return {
@@ -109,7 +172,8 @@
             captchaResponse: '',
             email: '',
             subject: '',
-            message: ''
+            message: '',
+            acceptedRecaptcha: false,
         }
     }
 
@@ -122,9 +186,37 @@
         computed: {
             formIsValid() {
                 return this.errors.items.length <= 0 && this.captchaVerified === true;
+            },
+            mailToLink() {
+                return `mailto:info@open-book.org${this.mailToQueryString}`;
+            },
+            mailToQueryString() {
+                const encodedSubject = encodeURIComponent(this.subject);
+                const encodedMessage = encodeURIComponent(this.message);
+                return `?subject=${encodedSubject}&body=${encodedMessage}`;
             }
         },
         methods: {
+            enableGoogleRecaptcha() {
+                this.injectGoogleRecaptcha();
+            },
+            injectGoogleRecaptcha() {
+                const that = this;
+                (function (d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) {
+                        return;
+                    }
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.onload = function () {
+                        that.acceptedRecaptcha = true;
+                        // remote script has loaded
+                    };
+                    js.src = GOOGLE_RECAPTCHA_SCRIPT;
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'google-recaptcha'));
+            },
             onSubmit() {
                 this.validateAll().then((result) => {
                     this.formWasSubmitted = true;

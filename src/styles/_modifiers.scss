@@ -14,7 +14,7 @@
     margin-top: 2rem !important;
 }
 
-.has-padding-2x{
+.has-padding-2x {
     padding: 2rem !important;
 }
 
@@ -24,9 +24,9 @@
     }
 }
 
-.padding-top-1x-mobile {
+.padding-top-2x-mobile {
     @media(max-width: 768px) {
-        padding-top: 1rem !important;
+        padding-top: 2rem !important;
     }
 }
 
@@ -40,9 +40,11 @@ img .is-rounded {
     -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
 }
 
-.is-borderless{
+.is-borderless {
     border: none !important;
-    &:focus {outline:0;}
+    &:focus {
+        outline: 0;
+    }
 }
 
 .is-semi-rounded {
@@ -70,11 +72,17 @@ img .is-rounded {
     border-bottom: solid 1px #fafafa;
 }
 
-.is-flex{
+.has-padding-top-2x-mobile {
+    @media(max-width: 768px) {
+        padding-top: 2rem !important;
+    }
+}
+
+.is-flex {
     display: flex;
 }
 
-.is-centered-container{
+.is-centered-container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,15 +90,20 @@ img .is-rounded {
 
 // limit line length to ~45 characters
 .is-measure-narrow {
-  max-width: 20em;
+    max-width: 20em;
 }
 
 // limit line lengths to ~45 characters
 .is-measure {
-  max-width: 30em;
+    max-width: 30em;
 }
 
 // limit line lengths to ~80 characters
 .is-measure-wide {
-  max-width: 34em;
+    max-width: 34em;
+}
+
+$generic-social-media-color: #4f6398;
+.has-text-evilcorp {
+    color: $generic-social-media-color !important;
 }

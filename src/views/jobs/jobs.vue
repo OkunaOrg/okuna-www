@@ -4,7 +4,7 @@
             <div class="hero-body">
                 <div class="container">
                     <div class="columns">
-                        <div class="column about-us-header-text">
+                        <div class="column padding-top-2x-mobile">
                             <div class="columns is-centered is-vcentered is-mobile" style="height: 100%;">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">

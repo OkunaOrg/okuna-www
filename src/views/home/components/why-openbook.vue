@@ -127,10 +127,10 @@
                         </div>
                         <div class="column content is-12">
                             <h4 class="is-size-4">
-                                Modern & beautiful
+                                Modern, beautiful, ethically designed.
                             </h4>
                             <p class="is-size-5 has-text-centered home-why-content">
-                                Built on the latest technologies and designed with simplicity in mind, you won't find anything like it elsewhere.
+                                Built with the latest technologies, a keen eye for detail and ethics, you won't find anything like it elsewhere.
                             </p>
                         </div>
                     </div>
