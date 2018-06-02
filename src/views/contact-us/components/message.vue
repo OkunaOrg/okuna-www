@@ -104,7 +104,7 @@
                                         </li>
                                     </ul>
                                     <br/>
-                                    Do you authorize us to load Google Recaptcha and therefore allow Google collect this information?
+                                    Do you authorize us to load Google Recaptcha and therefore allow Google to collect this information?
                                 </div>
                                 <div class="column is-12">
                                     <button class="button is-warning is-large is-size-7-mobile is-size-6" @click="enableGoogleRecaptcha()" type="button" v-scroll-to="'#message-form'">
