@@ -14,9 +14,9 @@
                                     We're <strong>Open</strong>book.
                                 </h2>
                                 <h3 class="is-size-6-mobile">
-                                    An open source, zero tracking, zero
-                                    advertisement, beautifully designed, easy to migrate to,
-                                    social network <strong>coming soon to <span
+                                    An open source, zero tracking, zero spying, zero
+                                    ads, ethically designed, easy to migrate to,
+                                    social network <strong>soon on <span
                                     style="color: #034752;">Kickstarter</span></strong>.
                                 </h3>
                             </div>
