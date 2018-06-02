@@ -1,9 +1,9 @@
 <template>
-    <a :href="url" rel="noopener noreferrer" @click="downloadAsset($event)" ref="anchor" :download="filename">
+    <a :href="url" rel="noopener noreferrer" ref="anchor" :download="filename">
         <div class="columns is-multiline is-mobile has-text-centered">
             <div class="column is-12">
-                <figure class="image is-square">
-                    <img class="is-shadowed is-semi-rounded" :src="previewImg" v-bind:alt="name">
+                <figure class="image">
+                    <img class="is-shadowed is-semi-rounded" :src="previewImg || url" v-bind:alt="name">
                 </figure>
             </div>
             <div class="column is-12">
@@ -36,13 +36,6 @@
             },
             filename:{
                 type: String
-            }
-        },
-        methods: {
-            downloadAsset($event){
-                //$event.preventDefault();
-                //document.body.appendChild(a);
-                //a.click();
             }
         }
     }

@@ -8,7 +8,8 @@
                             <div class="columns is-centered contact-us-header-text">
                                 <div class="column is-narrow">
                                     <h2 class="title is-size-2 contact-text has-text-centered-mobile">
-                                        We &nbsp;<span class="icon" style="color: #ff0000;"><i class="fas fa-heart"></i></span> &nbsp;Press
+                                        We &nbsp;<span class="icon" style="color: #ff0000;"><i class="fas fa-heart"></i></span>
+                                        &nbsp;Press
                                     </h2>
                                     <h3 class="has-text-centered-mobile">
                                         Today, and everyday.
@@ -30,7 +31,18 @@
         <section class="section" id="TOC">
             <div class="small-container">
                 <div class="content is-medium">
-                    <div>
+                    <h2>
+                        Hi there!
+                    </h2>
+                    <p>
+                        We hope you find everything you need below.
+                        ​​If you have any questions, would like to schedule an interview or require extra material, feel free to contact Lambrecht Wessels at <a
+                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">lambrecht@open-book.org</a>.
+                    </p>
+                    <p>
+                        We’re happy to help.
+                    </p>
+                    <div class="padding-top-2x">
                         <h2 class="title is-4 is-spaced is-margin-top-small">Jump to</h2>
                     </div>
                     <br/>
@@ -50,11 +62,6 @@
                                 Logos
                             </a>
                         </li>
-                        <li>
-                            <a href="#inquiries" v-scroll-to="'#inquiries'">
-                                Further inquiries
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -66,7 +73,7 @@
                         Press kit
                     </h4>
                     <p>
-                        Includes press release, manifesto, bios, photos, logos, misc images and preliminary website photos.
+                        Includes press release, manifesto, bios, photos, vector logos, misc images and website photos.
                     </p>
                 </div>
                 <ob-press-kits></ob-press-kits>
@@ -89,13 +96,15 @@
                         Logos
                     </h4>
                 </div>
+                <ob-logos></ob-logos>
             </div>
         </section>
         <section class="section" id="inquiries">
             <div class="small-container">
                 <div class="content is-medium">
                     <p>
-                        For further inquiries please contact <a href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">Lambrecht Wessels</a>.
+                        Missing something? Contact <a
+                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">Lambrecht Wessels</a>.
                     </p>
                 </div>
             </div>
@@ -104,12 +113,12 @@
 </template>
 
 <style lang="scss">
-    .hero--press{
+    .hero--press {
         position: relative;
         display: flex;
     }
 
-    .press-separator{
+    .press-separator {
         width: 100%;
         height: 1px;
         border: solid 1px black;
@@ -121,9 +130,11 @@
     import ObPressAsset from "./components/press-asset.vue";
     import ObPressKits from "./components/press-kits/press-kits";
     import ObPressPeople from "./components/press-people/press-people.vue";
+    import ObLogos from "./components/logos/logos.vue";
 
     export default {
         components: {
+            ObLogos,
             ObPressPeople,
             ObPressKits,
             ObNewspaper,
