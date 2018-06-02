@@ -523,11 +523,11 @@
                         social networks make.
                     </p>
                     <p>
-                        Therefore these networks are designed and optimized to keep us the longest time possible
+                        Therefore, these networks are designed and optimized to keep us the longest time possible
                         attached
                         to our screens, pulling us from living the precious moments we were meant to share in the
                         network.
-                        Oh the irony.
+                        Oh,the irony.
                     </p>
                     <p>
                         When we finally manage to break away, we get spammed with endless notifications and alerts
@@ -544,7 +544,7 @@
                     <p>
                         For example, the "Old sneakers have been posted for sale near you" notification. You might
                         think, well that's just
-                        a feature of the application. It lets you know when someone is selling something near by.
+                        a feature of the application. It lets you know when someone is selling something nearby.
                     </p>
                     <p>
                         Have you noticed how many people post items for sale near you? Dozens, perhaps even hundreds.
@@ -571,7 +571,7 @@
                         intrusive as possible.
                     </p>
                     <p>
-                        Our revenue model does not depend on the time you spend in the network, therefore we can
+                        Our revenue model does not depend on the time you spend in the network; therefore, we can
                         freely design towards helping you spend more time in the things that matter, away from the screen.
                     </p>
                     <h4 id="givingback">5. Giving back.</h4>
