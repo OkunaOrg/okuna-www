@@ -6,10 +6,10 @@
                     <img class="is-shadowed is-semi-rounded" :src="previewImg" v-bind:alt="name">
                 </figure>
             </div>
-            <div class="column is-12 is-paddingless">
-                <strong class="is-size-5">{{ name }}</strong>
+            <div class="column is-12">
+                <strong class="is-size-6">{{ name }}</strong>
             </div>
-            <div class="column is-12 is-paddingless">
+            <div class="column is-12 is-paddingless is-size-7">
                 {{size}}
             </div>
         </div>

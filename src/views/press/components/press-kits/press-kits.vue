@@ -1,6 +1,6 @@
 <template>
     <div class="columns is-multiline is-mobile is-variable is-5">
-        <div class="column is-6-mobile is-3-tablet is-3-desktop" v-for="pressKit of pressKits" :key="pressKit.name">
+        <div class="column is-6-mobile is-4-tablet is-4-desktop" v-for="pressKit of pressKits" :key="pressKit.name">
             <ob-press-asset :name="pressKit.name" :url="pressKit.url" :size="pressKit.size" :preview-img="pressKit.previewImg" :filename="pressKit.filename"></ob-press-asset>
         </div>
     </div>
@@ -18,11 +18,11 @@
             return {
                 pressKits: [
                     {
-                        name: 'Press kit',
-                        url: 'https://showcase.dropbox.com/collection/items/download?padId=pmx9lNzdy1vAJff2RfNdH&collectionItemId=yhF8C3QkOt1mCrhs0B4o',
+                        name: 'Press-kit.zip',
+                        url: 'https://www.dropbox.com/s/ptag3v0a4rg7qx5/Press-kit-2.zip?dl=1',
                         size: '~ 40 MB',
                         previewImg: zipPreview,
-                        filename: 'presskit.zip'
+                        filename: 'Press-kit.zip'
                     }
                 ]
             }

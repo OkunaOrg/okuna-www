@@ -74,7 +74,7 @@ const router = new Router({
             name: 'press',
             component: press,
             meta: {
-                title: 'Jobs | Openbook social network'
+                title: 'Press | Openbook social network'
             }
         },
         {
