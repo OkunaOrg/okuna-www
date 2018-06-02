@@ -82,7 +82,7 @@
                             <ul>
                                 <li>
                                     <a href="#openness" v-scroll-to="'#openness'">
-                                        1. Openess
+                                        1. Openess.
                                     </a>
                                 </li>
                                 <li>
@@ -113,13 +113,18 @@
                                     </a>
                                 </li>
                                 <li>
+                                    <a href="#ethicaldesign" v-scroll-to="'#ethicaldesign'">
+                                        4. Designed ethically.
+                                    </a>
+                                </li>
+                                <li>
                                     <a href="#givingback" v-scroll-to="'#givingback'">
-                                        4. Giving back.
+                                        5. Giving back.
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#migration" v-scroll-to="'#migration'">
-                                        5. Seamless migration.
+                                        6. Seamless migration.
                                     </a>
                                 </li>
                             </ul>
@@ -167,7 +172,8 @@
                         <strong class="has-text-primary">good</strong>.
                     </p>
                     <p>
-                        We set out to build the next generation social network, we set out to build <span class="has-text-primary"><strong
+                        We set out to build the next generation social network, we set out to build <span
+                        class="has-text-primary"><strong
                         class="has-text-primary">Open</strong>book</span>.
                     </p>
                 </div>
@@ -439,7 +445,8 @@
                     </p>
                     <p><strong>Privacy should be a default everywhere.</strong></p>
                     <p>
-                        That is why, apart from not tracking you anywhere, by default, we will also only share the data applications must have in order to provide a service.
+                        That is why, apart from not tracking you anywhere, by default, we will also only share the data
+                        applications must have in order to provide a service.
                     </p>
                     <p>
                         All optional data sharing will be disabled by default <sup class="is-size-7">1</sup>.
@@ -510,7 +517,64 @@
                         Transactions made within the platform will benefit from the privacy and security of the
                         ecosystem.
                     </p>
-                    <h4 id="givingback">4. Giving back.</h4>
+                    <h4 id="ethicaldesign">4. Designed ethically.</h4>
+                    <p>
+                        The more time we spend in social networks, the more ads are shown to us, the more money
+                        social networks make.
+                    </p>
+                    <p>
+                        Therefore these networks are designed and optimized to keep us the longest time possible
+                        attached
+                        to our screens, pulling us from living the precious moments we were meant to share in the
+                        network.
+                        Oh the irony.
+                    </p>
+                    <p>
+                        When we finally manage to break away, we get spammed with endless notifications and alerts
+                        trying to pull us back in.
+                    </p>
+                    <blockquote>
+                        "In case you missed this.", "You haven't posted for a while", "See what you were doing 10
+                        years ago", "Old sneakers have been posted for sale near you", X and Y liked this recently", "X
+                        and Y followed Z".
+                    </blockquote>
+                    <p>
+                        Some of them may seem quite innocent, they are not.
+                    </p>
+                    <p>
+                        For example, the "Old sneakers have been posted for sale near you" notification. You might
+                        think, well that's just
+                        a feature of the application. It lets you know when someone is selling something near by.
+                    </p>
+                    <p>
+                        Have you noticed how many people post items for sale near you? Dozens, perhaps even hundreds.
+                        You don't get notified of every single one of these items.
+                    </p>
+                    <p>
+                        You only receive one of these notifications when these social networks have run out of pretexts
+                        to bring you back to the network.
+                    </p>
+                    <img class="padding-bottom-2x padding-top-2x" :src="memeImg"/>
+                    <p>
+                        This is called <strong class="has-text-evilcorp">unethical design</strong>.
+                    </p>
+                    <p>
+                        It's intrusive, it brings a constant burden to it's users, it's deceitful, it's disrespectful,
+                        it's horrible.
+                    </p>
+                    <p>
+                        In contrast,
+                        <span class="has-text-primary"><strong
+                            class="has-text-primary">Open</strong>book</span> will be ethically designed. Meaning as
+                        useful
+                        as possible and as less
+                        intrusive as possible.
+                    </p>
+                    <p>
+                        Our revenue model does not depend on the time you spend in the network, therefore we can
+                        freely design towards helping you spend more time in the things that matter, away from the screen.
+                    </p>
+                    <h4 id="givingback">5. Giving back.</h4>
                     <p>
                         Social networks have an incredible economic potential.
                     </p>
@@ -540,7 +604,8 @@
                         <strong>We could change the world.</strong>
                     </p>
                     <p class="is-size-7">
-                        We will do this in partnership with <a href="https://founderspledge.com/" target="_blank" rel="noopener noreferrer">FoundersPledge</a>.
+                        We will do this in partnership with <a href="https://founderspledge.com/" target="_blank"
+                                                               rel="noopener noreferrer">FoundersPledge</a>.
                     </p>
                     <p class="is-size-7">
                                   <span>
@@ -551,7 +616,7 @@
                     </span>
                     </p>
                     <h4 id="migration">
-                        5. Seamless migration.
+                        6. Seamless migration.
                     </h4>
                     <p>
                         Finally, we, like you, have put a tremendous amount of our time and data into existing social
@@ -615,7 +680,8 @@
                     </h5>
                     <div class="columns is-mobile is-multiline padding-top-2x">
                         <div class="column is-narrow">
-                            <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dvRRmD" class="button is-primary is-rounded">
+                            <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dvRRmD"
+                               class="button is-primary is-rounded">
                             <span class="icon">
                                 <i class="fas fa-bell"></i>
                             </span>
@@ -782,11 +848,17 @@
 <script>
     import obGenericDataSharing from './components/generic-data-sharing.vue';
     import obOpenbookDataSharing from './components/openbook-data-sharing.vue';
+    import memeImg from './assets/meme.jpg';
 
     export default {
         components: {
             obGenericDataSharing,
             obOpenbookDataSharing
+        },
+        data() {
+            return {
+                memeImg
+            }
         }
     }
 </script>

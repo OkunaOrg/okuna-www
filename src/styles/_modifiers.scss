@@ -96,3 +96,8 @@ img .is-rounded {
 .is-measure-wide {
     max-width: 34em;
 }
+
+$generic-social-media-color: #4f6398;
+.has-text-evilcorp {
+    color: $generic-social-media-color !important;
+}
