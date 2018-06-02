@@ -518,7 +518,7 @@
                         ecosystem.
                     </p>
                     <p>
-                        Apart from this, we will help enterprise customers set up their own internal, self-hosted and secure social
+                        Apart from this, we will also help enterprise customers set up their own internal, self-hosted and secure social
                         networks with extra functionality such as project, identity and access management.
                     </p>
                     <h4 id="ethicaldesign">4. Ethical design.</h4>
