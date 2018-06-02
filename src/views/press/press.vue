@@ -10,7 +10,7 @@
                                     <h2 class="title is-size-2 contact-text has-text-centered-mobile">
                                         We &nbsp;<span class="icon" style="color: #ff0000;"><i class="fas fa-heart"></i></span> &nbsp;Press
                                     </h2>
-                                    <h3>
+                                    <h3 class="has-text-centered-mobile">
                                         Today, and everyday.
                                     </h3>
                                 </div>
@@ -37,7 +37,7 @@
                     <ul>
                         <li>
                             <a href="#presskits" v-scroll-to="'#presskits'">
-                                Press kits and images
+                                Press kit
                             </a>
                         </li>
                         <li>
@@ -61,11 +61,15 @@
         </section>
         <section class="section" id="presskits">
             <div class="small-container">
-                <div class="content is-medium">
+                <div class="content is-medium padding-bottom-3x">
                     <h4>
-                        Press kits and images
+                        Press kit
                     </h4>
+                    <p>
+                        Includes press release, manifesto, bios, photos, logos, misc images and preliminary website photos.
+                    </p>
                 </div>
+                <ob-press-kits></ob-press-kits>
             </div>
         </section>
         <section class="section" id="people">
@@ -113,10 +117,14 @@
 
 <script>
     import ObNewspaper from "./components/newspaper.vue";
+    import ObPressAsset from "./components/press-asset.vue";
+    import ObPressKits from "./components/press-kits/press-kits";
 
     export default {
         components: {
-            ObNewspaper
+            ObPressKits,
+            ObNewspaper,
+            ObPressAsset
         }
     }
 </script>
