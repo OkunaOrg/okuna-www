@@ -10,7 +10,7 @@
     import ObTeamMember from "./components/team-member";
     import joelPhoto from './assets/joel-min.jpg';
     import jayaPhoto from './assets/jaya-min.png';
-    import larsPhoto from './assets/lars-min.jpeg';
+    import martijnPhoto from './assets/martijn-min.jpg';
     import philPhoto from './assets/phil-min.jpg';
     import vincentPhoto from './assets/vincent-min.jpeg';
     import basPhoto from './assets/bas-min.jpg';
@@ -48,17 +48,6 @@
                         },
                         headline: 'Cyber-security expert',
                         description: 'Globally recognized cyber-security expert, speaker on lawful interception, quantum-computing, counter surveillance and cryptography.'
-                    },
-                    {
-                        name: 'Lars Rosenquist',
-                        position: 'Chief Technology Officer',
-                        photo: larsPhoto,
-                        links: {
-                            github: 'https://github.com/NLxAROSA',
-                            linkedin: 'https://www.linkedin.com/in/larsrosenquist/',
-                            twitter: 'https://twitter.com/larsrosenquist'
-                        },
-                        description: 'Technologist, visionary, digital platforms architect, cloud engineer, software guru, coolness officer in charge.'
                     },
                     {
                         name: 'Phillip Zimmermann',
@@ -108,7 +97,16 @@
                             linkedin: 'https://www.linkedin.com/in/shantanutarey/'
                         },
                         description: 'Pragmatic software engineer, user interface engineer, crypto-geek, bot-maker, simplicity advocate.'
-                    }
+                    },
+                    {
+                        name: 'Martijn Jansen',
+                        position: 'Software Engineer',
+                        photo: martijnPhoto,
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/martijn-jansen-7b0218a/'
+                        },
+                        description: 'Practical software engineer, JavaScript guru, wearable tech geek, gamer, coolness officer in charge.'
+                    },
                 ]
             }
         }
