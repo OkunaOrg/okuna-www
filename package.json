@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@xkeshi/vue-countdown": "^0.6.0",
+    "animate.css": "^3.6.1",
     "axios": "^0.18.0",
     "buefy": "^0.6.5",
     "bulma": "^0.7.1",
@@ -33,6 +34,7 @@
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
     "script-loader": "^0.7.2",
+    "style-loader": "^0.21.0",
     "vue-template-compiler": "^2.5.13"
   },
   "browserslist": [
