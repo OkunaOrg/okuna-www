@@ -1,4 +1,3 @@
-
 module.exports = {
     configureWebpack: {
         module: {
@@ -6,6 +5,10 @@ module.exports = {
                 {
                     test: /\.exec\.js$/,
                     use: ['script-loader']
+                },
+                {
+                    test: /\.(woff2?|eot|ttf|otf)(\?.*)?$/,
+                    use: ['url-loader']
                 }
             ]
         }
