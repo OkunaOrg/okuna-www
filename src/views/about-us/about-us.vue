@@ -42,7 +42,7 @@
                 <div class="columns">
                     <div class="column intro-text content small-container">
                         <p class="is-size-5 small-container">
-                            Founded in April 2018, Openbook is a project to make things right.
+                            Founded in April 2018 in the international city of peace and justice, The Hague, Openbook is a project to make things right.
                         </p>
                         <p class="is-size-5 small-container">
                             A project to redefine social networks, a project to rethink the "free" internet, a project to bring transparency to the internet, a project to claim back our privacy.
