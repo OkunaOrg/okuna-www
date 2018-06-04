@@ -7,6 +7,7 @@ import VeeValidate from 'vee-validate';
 import App from './App.vue'
 import router from './router'
 import twemoji from './directives/twemoji.js';
+import './lib/fontawesome-all.min.exec.js';
 
 // Load stylesheets
 import './styles/index.scss';
@@ -15,6 +16,8 @@ import './styles/index.scss';
 // Load jQuery and it's global plugins
 window['jQuery'] = window['$'] = require('jquery');
 require('slick-carousel');
+
+require('script-loader!raven-js/dist/vue/raven.js');
 
 // Raven loaded through script tag
 const Raven = window['Raven'] || {

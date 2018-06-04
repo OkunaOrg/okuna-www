@@ -34,7 +34,7 @@
                                 </span>
                             </div>
                             <div class="is-size-7">
-                                It has successfully met our privacy and security guidelines.
+                                It has met our strict privacy and security policies.
                             </div>
                             <div class="is-size-7">
                                 <a @click="wantsToLearnMoreAboutSecureApps()">

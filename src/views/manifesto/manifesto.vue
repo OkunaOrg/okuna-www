@@ -114,7 +114,7 @@
                                 </li>
                                 <li>
                                     <a href="#ethicaldesign" v-scroll-to="'#ethicaldesign'">
-                                        4. Designed ethically.
+                                        4. Ethical design.
                                     </a>
                                 </li>
                                 <li>
@@ -517,7 +517,11 @@
                         Transactions made within the platform will benefit from the privacy and security of the
                         ecosystem.
                     </p>
-                    <h4 id="ethicaldesign">4. Designed ethically.</h4>
+                    <p>
+                        Apart from this, we will also help enterprise customers set up their own internal, self-hosted and secure social
+                        networks with extra functionality such as project, identity and access management.
+                    </p>
+                    <h4 id="ethicaldesign">4. Ethical design.</h4>
                     <p>
                         The more time we spend in social networks, the more ads are shown to us, the more money
                         social networks make.
@@ -572,7 +576,8 @@
                     </p>
                     <p>
                         Our revenue model does not depend on the time you spend in the network; therefore, we can
-                        freely design towards helping you spend more time in the things that matter, away from the screen.
+                        freely design towards helping you spend more time in the things that matter, away from the
+                        screen.
                     </p>
                     <h4 id="givingback">5. Giving back.</h4>
                     <p>
@@ -759,6 +764,7 @@
     }
 
     .is-generic-social-media {
+        border: none !important;
         color: $generic-social-media-color-invert !important;
 
         background-color: $generic-social-media-color !important;

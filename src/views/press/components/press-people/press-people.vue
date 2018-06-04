@@ -11,13 +11,14 @@
 
     import joelPreview from './assets/joel-min.jpg';
     import jayaPreview from './assets/jaya-min.png';
-    import larsPreview from './assets/lars-min.jpeg';
+    import martijnPreview from './assets/martijn-min.jpg';
     import philPreview from './assets/phil-min.jpg';
     import lambrechtPreview from './assets/lambrecht-min.jpeg';
     import vincentPreview from './assets/vincent-min.jpeg';
     import basPreview from './assets/bas-min.jpg';
     import shantanuPreview from './assets/shantanu-min.jpg';
     import ObPressAsset from './../press-asset.vue';
+
     export default {
         components: {ObPressAsset},
         name: 'ob-press-people',
@@ -37,13 +38,6 @@
                         size: '~ 79 KB',
                         previewImg: jayaPreview,
                         filename: 'jaya-baloo-coo.png'
-                    },
-                    {
-                        name: 'Lars Rosenquist, CTO',
-                        url: 'https://www.dropbox.com/s/3v233m7bwf0b2e7/lars-rosenquist-cto.jpg?dl=1',
-                        size: '~ 390 KB',
-                        previewImg: larsPreview,
-                        filename: 'lars-rosenquist-cto.jpg'
                     },
                     {
                         name: 'Phil Zimmermann, Cryptographer',
@@ -80,7 +74,13 @@
                         previewImg: shantanuPreview,
                         filename: 'shantanu-tarey.jpg'
                     },
-
+                    {
+                        name: 'Martijn Jansen, Engineer',
+                        url: 'https://www.dropbox.com/s/ly23ohabuqrlw54/martijn-software-engineer.jpg?dl=1',
+                        size: '~ 183 KB',
+                        previewImg: martijnPreview,
+                        filename: 'martijn.jpg'
+                    }
                 ]
             }
         }

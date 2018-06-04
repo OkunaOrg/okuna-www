@@ -30,7 +30,7 @@
     import teamImage2 from './assets/jaya-min.png';
     import teamImage3 from './assets/phil-min.jpg';
     import teamImage4 from './assets/vincent-min.jpeg';
-    import teamImage5 from './assets/lars-min.jpeg';
+    import teamImage5 from './assets/lambrecht-min.jpeg';
 
     export default{
         name: 'ob-meet-the-team',
