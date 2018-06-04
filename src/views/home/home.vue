@@ -24,9 +24,7 @@
                 </div>
             </div>
         </section>
-        <section class="section">
-            <ob-count-down></ob-count-down>
-        </section>
+        <ob-count-down></ob-count-down>
         <ob-meet-the-team></ob-meet-the-team>
         <section class="section">
             <div class="container">
