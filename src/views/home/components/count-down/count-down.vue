@@ -3,7 +3,7 @@
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-centered is-mobile is-multiline">
-                    <div class="column is-12">
+                    <div class="column is-12 padding-bottom-1x">
                         <h2 class="title is-size-2 has-text-centered">
                             <span class="has-text-kickstarter">Kickstarter</span> campaign countdown
                         </h2>
