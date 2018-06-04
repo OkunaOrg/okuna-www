@@ -7,6 +7,7 @@ import VeeValidate from 'vee-validate';
 import App from './App.vue'
 import router from './router'
 import twemoji from './directives/twemoji.js';
+import './lib/fontawesome-all.min.exec.js';
 
 // Load stylesheets
 import './styles/index.scss';
