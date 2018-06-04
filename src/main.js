@@ -17,6 +17,8 @@ import './styles/index.scss';
 window['jQuery'] = window['$'] = require('jquery');
 require('slick-carousel');
 
+require('script-loader!raven-js/dist/vue/raven.js');
+
 // Raven loaded through script tag
 const Raven = window['Raven'] || {
     context(startApp) {
