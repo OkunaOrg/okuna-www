@@ -3,10 +3,10 @@
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-centered is-mobile is-multiline">
-                    <div class="column is-12 padding-bottom-1x">
-                        <h2 class="is-size-2 has-text-centered">
-                            <span class="has-text-kickstarter">Kickstarter</span> campaign countdown
-                        </h2>
+                    <div class="column is-12 padding-bottom-1x content">
+                        <p class="is-size-3 has-text-centered">
+                            <span class="has-text-kickstarter">Kickstarter</span> <span class="has-text-grey-dark">campaign countdown</span>
+                        </p>
                     </div>
                     <div class="column is-12">
                         <div class="has-text-centered">
@@ -47,6 +47,11 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div class="column is-narrow small-container padding-top-2x">
+                        <figure class="image is-4by3 is-semi-rounded is-shadowed">
+                            <img src="./assets/open-book-multiple-shirts.jpg">
+                        </figure>
                     </div>
                 </div>
             </div>
