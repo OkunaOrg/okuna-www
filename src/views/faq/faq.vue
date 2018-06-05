@@ -34,7 +34,7 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <div class="has-text-centered">
-                        <h2 class="title is-3 is-spaced is-margin-top-small">Table of contents</h2>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">Jump to</h2>
                     </div>
                     <br/>
                     <ul>
@@ -46,6 +46,11 @@
                         <li>
                             <a href="#willitbedistributed" v-scroll-to="'#willitbedistributed'">
                                 Will it be distributed like diaspora, mastodon, etc?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#whynotnonprofit" v-scroll-to="'#whynotnonprofit'">
+                                Why is Openbook not a non-profit?
                             </a>
                         </li>
                         <li>
@@ -64,11 +69,15 @@
                         Who's paying for everything so far?
                     </h3>
                     <p>
-                        <strong>We are</strong>. We are completely self funded and we would like to keep it that way.
+                        So far we have been completely self funded. However, this has proven to be very hard.
+                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.
                     </p>
                     <p>
-                        This is the reason why we are going with Kickstarter. We hope the campaign provides us with the necessary funds to sustain the company until it can stand on it's own.
+                        As we wanted the project to be driven by people and not capital, we decided to go for crowd-funding.
                     </p>
+                    <P>
+                        We'll be launching our Kickstarter campaign on the 15th of July.
+                    </P>
                     <h3 id="willitbedistributed">
                         Will it be distributed like diaspora, mastodon, etc?
                     </h3>
@@ -91,6 +100,27 @@
                     </p>
                     <p class="is-size-7">
                         <span>Don't get us wrong though, we have nothing against these networks, in fact, we are amazed by their ingenuity.</span>
+                    </p>
+                    <h3 id="whynotnonprofit">
+                        Why is Openbook not a non-profit?
+                    </h3>
+                    <p>
+                        Making Openbook a for-profit was a hard choice to make.
+                    </p>
+                    <p>
+                        We check all the non-profits boxes and we love non-profits. We love Wikipedia, the Ghost Foundation, Founders Pledge, Mozilla and many more.
+                    </p>
+                    <p>
+                        However we see the same struggle repeated over and over again. These companies struggle to grow beyond their profitability. These companies struggle to grow to the size and resources needed to compete with for-profit businesses.
+                    </p>
+                    <p>
+                        When we need to grow exponentially, we need to be able to raise the large amounts of money needed to do so.
+                    </p>
+                    <p>
+                        Therefore we are officially a for-profit company.
+                    </p>
+                    <p>
+                        But do note that when we do this, we will make sure the people investing in the company will be people with real interest on the platform, its core values of privacy, security, freedom, openness and its humanitarian nature.
                     </p>
                     <h3 id="help">
                         I want to help right now, what can I do?
