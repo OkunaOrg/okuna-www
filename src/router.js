@@ -11,6 +11,7 @@ const manifesto = () => import('./views/manifesto/manifesto.vue');
 const faq = () => import('./views/faq/faq.vue');
 const jobs = () => import('./views/jobs/jobs.vue');
 const press = () => import('./views/press/press.vue');
+const newsroom = () => import('./views/newsroom/newsroom.vue');
 const vulnerabilityReport = () => import('./views/vulnerability-report/vulnerability-report.vue');
 
 
@@ -75,6 +76,14 @@ const router = new Router({
             component: press,
             meta: {
                 title: 'Press | Openbook social network'
+            }
+        },
+        {
+            path: '/newsroom',
+            name: 'newsroom',
+            component: newsroom,
+            meta: {
+                title: 'Newsroom | Openbook social network'
             }
         },
         {

@@ -53,6 +53,11 @@
                             </a>
                         </li>
                         <li>
+                            <a href="#newsroom" v-scroll-to="'#newsroom'">
+                                Newsroom
+                            </a>
+                        </li>
+                        <li>
                             <a href="#people" v-scroll-to="'#people'">
                                 People
                             </a>
@@ -73,10 +78,25 @@
                         Press kit
                     </h4>
                     <p>
-                        Includes press release, manifesto, bios, photos, vector logos, misc images and website photos.
+                        Includes press releases, manifesto, bios, photos, vector logos, misc images and website photos.
                     </p>
                 </div>
                 <ob-press-kits></ob-press-kits>
+            </div>
+        </section>
+        <section class="section" id="newsroom">
+            <div class="small-container">
+                <div class="content is-medium padding-bottom-3x">
+                    <h4>
+                        Newsroom
+                    </h4>
+                    <p>
+                        Home to our press releases.
+                    </p>
+                    <router-link class="button is-primary" to="newsroom">
+                        Go to newsroom
+                    </router-link>
+                </div>
             </div>
         </section>
         <section class="section" id="people">

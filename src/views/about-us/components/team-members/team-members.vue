@@ -82,7 +82,7 @@
                     },
                     {
                         name: 'Bas Roemburg',
-                        position: 'UI/UX Desginer',
+                        position: 'UI/UX Ethical Designer',
                         photo: basPhoto,
                         links: {
                             github: 'https://github.com/roemburg'
