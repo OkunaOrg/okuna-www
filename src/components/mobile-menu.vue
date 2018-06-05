@@ -285,6 +285,16 @@
                                         </a>
                                     </div>
                                     <div class="column">
+                                        <a href="https://www.producthunt.com/posts/openbook" class="is-flex is-vcentered"
+                                           target="_blank" rel="noopener noreferrer">
+                                            <div class="columns is-mobile">
+                                                <div class="column">
+                                                    <span class="icon"><i class="fab fa-product-hunt"></i></span>
+                                                </div>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <div class="column">
                                         <a href="https://www.linkedin.com/openbookorg/" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
