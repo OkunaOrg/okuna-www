@@ -126,6 +126,19 @@
                                         </div>
                                     </div>
                                 </a>
+                                <a href="https://www.producthunt.com/posts/openbook" class="is-flex is-vcentered"
+                                   target="_blank" rel="noopener noreferrer">
+                                    <div class="columns is-mobile">
+                                        <div class="column is-narrow">
+                                            <span class="icon"><i class="fab fa-product-hunt"></i></span>
+                                        </div>
+                                        <div class="column">
+                                            <span>
+                                                Product Hunt
+                                            </span>
+                                        </div>
+                                    </div>
+                                </a>
                                 <a href="https://www.facebook.com/openbookorg/" class="is-flex is-vcentered"
                                    target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
