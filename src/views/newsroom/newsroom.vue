@@ -162,7 +162,7 @@
 
                     <p>
                         If you want to learn more about it or keep up with the developments of Openbook, you can find them
-                        online at https://open-book.orgor at Twitter @Openbook_org.
+                        online at https://open-book.org or at Twitter @Openbook_org.
                     </p>
                 </div>
             </div>
