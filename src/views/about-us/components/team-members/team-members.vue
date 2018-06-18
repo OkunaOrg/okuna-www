@@ -94,9 +94,10 @@
                         position: 'Software Engineer',
                         photo: shantanuPhoto,
                         links: {
-                            linkedin: 'https://www.linkedin.com/in/shantanutarey/'
+                            linkedin: 'https://www.linkedin.com/in/shantanutarey/',
+                            twitter: 'https://twitter.com/shantanutarey'
                         },
-                        description: 'Pragmatic software engineer, user interface engineer, crypto-geek, bot-maker, simplicity advocate.'
+                        description: 'Pragmatic software engineer, product guy, crypto-geek, bot-maker, simplicity advocate.'
                     },
                     {
                         name: 'Martijn Jansen',
