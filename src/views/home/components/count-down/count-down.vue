@@ -82,7 +82,7 @@
         },
         data() {
             const now = dayjs();
-            const kickstarterDate = dayjs('2018-7-1');
+            const kickstarterDate = dayjs('2018-7-15');
 
             const timeTillKickstarterDate = kickstarterDate.diff(now);
 
