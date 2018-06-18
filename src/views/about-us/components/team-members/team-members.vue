@@ -91,10 +91,11 @@
                     },
                     {
                         name: 'Shantanu Tarey',
-                        position: 'Software Engineer',
+                        position: 'Product & Engineering',
                         photo: shantanuPhoto,
                         links: {
-                            linkedin: 'https://www.linkedin.com/in/shantanutarey/'
+                            linkedin: 'https://www.linkedin.com/in/shantanutarey/',
+                            twitter: 'https://twitter.com/shantanutarey'
                         },
                         description: 'Pragmatic software engineer, user interface engineer, crypto-geek, bot-maker, simplicity advocate.'
                     },
