@@ -8,6 +8,7 @@
 
 <script>
     import isaacPhoto from './assets/isaac.jpg';
+    import rubenPhoto from './assets/ruben.jpg';
     import ObAmbassador from './components/ambassador.vue';
 
     export default {
@@ -26,6 +27,16 @@
                             facebook: 'https://www.facebook.com/IsaacHernandezOficial/'
                         },
                         description: 'Artist, social entrepreneur.'
+                    },
+                    {
+                        name: 'Ruben Van Vreeland',
+                        photo: rubenPhoto,
+                        links: {
+                            website: 'https://bitsensor.io',
+                            twitter: 'https://twitter.com/EnableBitSensor',
+                            linkedin: 'https://www.linkedin.com/in/rubenvanvreeland/'
+                        },
+                        description: 'CEO & Co-Founder of BitSensor, cyber-security software.'
                     }
                 ]
             }
