@@ -161,7 +161,7 @@
                         with questionable third parties which in turn, analyze us, classify us and manipulate us.
                     </p>
                     <p>
-                        Meant to be a tool for good, they have grown into mass surveillance networks, threatening our
+                        Meant to be a tool for good, they threaten our
                         freedom, our democracy, our peace, our society.
                     </p>
                     <p>
