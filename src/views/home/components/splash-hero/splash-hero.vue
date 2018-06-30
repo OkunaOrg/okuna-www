@@ -10,7 +10,7 @@
                                     Hello <span id="hello-subject">world!</span>
                                 </h1>
                                 <h2 class="subtitle is-size-5-mobile is-size-3">
-                                    We're <strong>Open</strong>book.
+                                    We're <strong v-rainbow-text>Open</strong><span v-rainbow-text>book</span>.
                                 </h2>
                                 <h3 class="is-size-6-mobile">
                                     The open source, privacy-friendly, fun and honest social

@@ -7,6 +7,7 @@ import VeeValidate from 'vee-validate';
 import App from './App.vue'
 import router from './router'
 import twemoji from './directives/twemoji.js';
+import rainbowText from './directives/rainbow-text.js';
 import './lib/fontawesome-all.min.exec.js';
 
 // Load stylesheets
@@ -37,19 +38,21 @@ Raven.config('https://2bc7c06c27df4f2f9a612cfdd8548a72@sentry.io/1212325').insta
 
 
 Raven.context(function () {
-    Vue.use(Buefy,{
+    Vue.use(Buefy, {
         defaultIconPack: 'fa'
     });
     Vue.use(VeeValidate);
-    Vue.use(VueScrollTo,{
+    Vue.use(VueScrollTo, {
         offset: -90
-});
+    });
 
 
-// Load Vue globals
+    // Load Vue globals
     Vue.directive('twemoji', twemoji);
 
-// Start app
+    Vue.directive('rainbow-text', rainbowText);
+
+    // Start app
     Vue.config.productionTip = false;
 
     new Vue({
