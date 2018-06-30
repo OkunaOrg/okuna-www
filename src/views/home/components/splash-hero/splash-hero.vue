@@ -1,6 +1,5 @@
 <template>
-    <section class="hero is-fullheight hero--splash" id="main">
-        <ob-ocean></ob-ocean>
+    <section class="hero is-large hero--splash" id="main">
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-centered is-vcentered">
@@ -14,38 +13,27 @@
                                     We're <strong>Open</strong>book.
                                 </h2>
                                 <h3 class="is-size-6-mobile">
-                                    An open source, zero tracking, zero spying, zero
-                                    ads, ethically designed, easy to migrate to,
-                                    social network <strong>soon on <span
+                                    The open source, privacy-friendly, fun and honest social
+                                    network making the world a better place, <strong>now on <span
                                     style="color: #034752;">Kickstarter</span></strong>.
                                 </h3>
                             </div>
                         </div>
                         <div class="columns is-centered is-mobile">
                             <div class="column is-narrow">
-                                <button class="button is-primary is-outlined is-rounded" @click="onUserWantsToShare()">
+                                <a class="button is-rainbow is-rounded is-medium" target="_blank"
+                                   rel="noopener noreferrer" href="http://eepurl.com/dvRRmD">
                                     <span class="icon">
-                                        <i class="fas fa-share-alt"></i>
+                                        <i class="fab fa-kickstarter-k"></i>
                                     </span>
                                     <span>
-                                        Share
-                                    </span>
-                                </button>
-                            </div>
-                            <div class="column is-narrow">
-                                <a class="button is-primary is-rounded" target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dvRRmD">
-                                    <span class="icon">
-                                        <i class="fas fa-bell"></i>
-                                    </span>
-                                    <span>
-                                        Notify me
+                                        Visit Kickstarter Campaign
                                     </span>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="column splash-browser">
-                        <ob-browser></ob-browser>
                     </div>
                 </div>
             </div>

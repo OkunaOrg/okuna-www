@@ -1,11 +1,6 @@
 <template>
     <div class="animated fadeIn">
         <ob-splash-hero></ob-splash-hero>
-        <section class="section">
-            <div class="container">
-                <ob-why-openbook></ob-why-openbook>
-            </div>
-        </section>
         <section class="hero is-primary is-bold">
             <div class="hero-body has-text-centered">
                 <div class="container">

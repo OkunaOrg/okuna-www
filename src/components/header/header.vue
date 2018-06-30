@@ -3,7 +3,7 @@
         <nav class="navbar is-fixed-top is-transparent has-border-bottom-gray-light animated fadeInDown" role="navigation" aria-label="main navigation">
             <div class="container">
                 <div class="navbar-brand">
-                    <router-link to="home" class="navbar-item is-size-4 has-text-primary">
+                    <router-link to="home" class="navbar-item is-size-4">
                         <strong>Open</strong>book
                     </router-link>
                     <ob-hamburger></ob-hamburger>
