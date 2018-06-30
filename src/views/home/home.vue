@@ -19,8 +19,13 @@
                 </div>
             </div>
         </section>
-        <ob-count-down></ob-count-down>
+        <section class="section">
+
+        </section>
         <ob-meet-the-team></ob-meet-the-team>
+        <section class="section">
+
+        </section>
         <section class="section">
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
