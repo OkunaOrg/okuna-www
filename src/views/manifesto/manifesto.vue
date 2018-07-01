@@ -57,7 +57,7 @@
             <div class="hero-footer">
                 <div class="box is-shadowless">
                     <p class="has-text-centered">
-                        <span class="tag is-primary">Reading time</span> &nbsp;&nbsp; 6 minutes
+                        <span class="tag is-rainbow">Reading time</span> &nbsp;&nbsp; 6 minutes
                     </p>
                 </div>
             </div>
@@ -686,7 +686,7 @@
                     <div class="columns is-mobile is-multiline padding-top-2x">
                         <div class="column is-narrow">
                             <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dvRRmD"
-                               class="button is-primary is-rounded">
+                               class="button is-rainbow is-rounded">
                             <span class="icon">
                                 <i class="fas fa-bell"></i>
                             </span>
@@ -723,7 +723,7 @@
                 </div>
             </div>
         </div>
-        <section class="hero is-primary is-bold">
+        <section class="hero is-white">
             <div class="hero-body has-text-centered">
                 <div class="container">
                     <div class="columns is-centered is-vcentered">
@@ -733,7 +733,7 @@
                             </h3>
                         </div>
                         <div class="column">
-                            <router-link to="faq" class="button is-white is-outlined is-rounded is-medium">
+                            <router-link to="faq" class="button is-rainbow is-rounded is-medium">
                                 Visit our FAQ
                             </router-link>
                         </div>

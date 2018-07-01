@@ -13,7 +13,7 @@
                             In order to use Songipy you must continue with Openbook.
                         </div>
                         <div class="column is-12 has-text-centered">
-                            <button class="button is-primary" @click="goToStep2()">
+                            <button class="button is-rainbow" @click="goToStep2()">
                                 <span>Continue with <strong>Open</strong>book</span>
                             </button>
                         </div>
@@ -152,7 +152,7 @@
                                     </button>
                                 </div>
                                 <div class="column is-6">
-                                    <button class="button is-primary is-medium" @click="goToStep4()">
+                                    <button class="button is-rainbow is-medium" @click="goToStep4()">
                                         Continue
                                     </button>
                                 </div>
