@@ -6,7 +6,7 @@
                     <div class="column has-text-centered has-padding-top-2x-mobile">
                         <div class="columns is-centered is-mobile">
                             <div class="column" style="max-width: 520px">
-                                <h1 class="title is-size-2-mobile is-size-1">
+                                <h1 class="title is-size-3-mobile is-size-1">
                                     Hello <span id="hello-subject">world!</span>
                                 </h1>
                                 <h2 class="subtitle is-size-5-mobile is-size-3">
@@ -21,7 +21,7 @@
                         </div>
                         <div class="columns is-centered is-mobile">
                             <div class="column is-narrow">
-                                <a class="button is-rainbow is-rounded is-medium" target="_blank"
+                                <a class="button is-rainbow is-rounded is-medium is-size-6-mobile" target="_blank"
                                    rel="noopener noreferrer" href="http://eepurl.com/dvRRmD">
                                     <span class="icon">
                                         <i class="fab fa-kickstarter-k"></i>
