@@ -72,8 +72,7 @@
                                 </small>
                                 <br>
                                 <span class="quote-box-content">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean efficitur sit amet massa fringilla egestas. Nullam condimentum luctus turpis.
-                                </span>
+The natural flow of technology tends to move in the direction of making surveillance easier, and the ability of computers to track us doubles every eighteen months. Openbook challenges this.                                </span>
                             </p>
                         </div>
                     </div>
@@ -92,7 +91,7 @@
         font-weight: lighter;
     }
 
-    .quote-box-content{
+    .quote-box-content {
         display: inline-block;
         padding-top: 0.5rem;
     }
