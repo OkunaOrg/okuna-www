@@ -6,8 +6,8 @@
                 <header class="navbar">
                     <div class="container">
                         <div class="navbar-brand">
-                            <a class="navbar-item is-size-4 has-text-primary" href="https://open-book.org">
-                                <strong>Open</strong>book.
+                            <a class="navbar-item is-size-4" href="https://open-book.org">
+                                <a href="#" class="header-logo"></a><span class="header-logo-separator"></span><strong>Open</strong>book
                             </a>
                             <div class="navbar-close navbar-item">
                                 <button class="button is-outlined is-borderless navbar-close__button has-text-primary"
