@@ -1,5 +1,5 @@
 <template>
-    <footer class="hero is-small is-white has-border-top-gray" id="footer">
+    <footer class="hero is-small is-white has-border-top-gray-light" id="footer">
         <div class="hero-head">
             <div class="hero is-small">
                 <div class="hero-body">
@@ -8,7 +8,7 @@
                             <div class="navbar-brand">
                                 <div class="navbar-item">
                                     <router-link to="home" class="navbar-item is-size-3">
-                                        <strong>Open</strong>book
+                                        <a href="#" class="footer-logo"></a><span class="footer-logo-separator"></span><strong>Open</strong>book
                                     </router-link>
                                 </div>
                             </div>
@@ -196,6 +196,23 @@
         align-items: center;
         justify-content: center;
     }
+
+    .footer-logo {
+        background-image: url('../assets/openbook-logo.svg');
+        background-size: 40px 40px;
+        background-repeat: no-repeat;
+        background-position: center center;
+        width: 40px;
+        height: 40px;
+    }
+
+    .footer-logo-separator{
+        width: 1px;
+        height: 25px;
+        background: #fafafa;
+        margin-right: 8px;
+    }
+
 </style>
 
 <script>
