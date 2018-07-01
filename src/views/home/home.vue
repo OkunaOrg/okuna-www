@@ -1,7 +1,7 @@
 <template>
     <div class="animated fadeIn">
         <ob-splash-hero></ob-splash-hero>
-        <section class="hero is-white is-bold">
+        <section class="hero is-white">
             <div class="hero-body has-text-centered">
                 <div class="container">
                     <div class="columns is-centered is-vcentered">
