@@ -9,7 +9,7 @@
                 </div>
             </div>
             <div class='browser-content'>
-                <div class="open-book-header">
+                <div class="open-book-header is-rainbow">
                     <div class="open-book-container">
                         <div class="open-book-header-logo">
                             <div class="open-book-header-logo__icon"></div>
@@ -121,7 +121,6 @@
 
     .open-book-header {
         width: 100%;
-        background-color: #690ddc;
         height: 30px;
         display: flex;
 

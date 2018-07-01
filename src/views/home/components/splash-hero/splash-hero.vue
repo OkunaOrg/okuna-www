@@ -34,6 +34,7 @@
                         </div>
                     </div>
                     <div class="column splash-browser">
+                       <ob-browser></ob-browser>
                     </div>
                 </div>
             </div>
