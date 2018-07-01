@@ -8,7 +8,7 @@
             </div>
             <div class="column is-10">
                 <strong>Name</strong><br/>
-                The Openbook Organization
+                Openbook B.V.
             </div>
             <div class="column is-2">
                 <span class="icon">
