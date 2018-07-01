@@ -143,7 +143,7 @@
                     </a>
                 </p>
                 <p class="control">
-                    <button class="button is-primary" type="submit"
+                    <button class="button is-rainbow" type="submit"
                             :disabled="(formWasSubmitted && !formIsValid) || submissionInProgress || !acceptedRecaptcha">
                         Submit
                     </button>
