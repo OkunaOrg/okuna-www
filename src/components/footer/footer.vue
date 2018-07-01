@@ -1,9 +1,9 @@
 <template>
-    <footer class="hero is-small is-primary" id="footer">
+    <footer class="hero is-small is-white has-border-top-gray" id="footer">
         <div class="hero-head">
             <div class="hero is-small">
                 <div class="hero-body">
-                    <div class="navbar is-transparent is-primary">
+                    <div class="navbar is-transparent">
                         <div class="container">
                             <div class="navbar-brand">
                                 <div class="navbar-item">
