@@ -1,10 +1,10 @@
 <template>
-    <section class="hero is-primary is-bold">
+    <section class="hero is-white is-bold">
         <div class="hero-body has-text-centered">
             <div class="container">
                 <div class="columns is-centered is-vcentered">
                     <div class="column">
-                        <router-link to="about-us" class="button is-white is-outlined is-rounded is-medium">
+                        <router-link to="about-us" class="button is-rounded is-medium is-rainbow">
                             Meet the team
                         </router-link>
                     </div>

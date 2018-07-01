@@ -1,7 +1,7 @@
 <template>
     <div class="animated fadeIn">
         <ob-splash-hero></ob-splash-hero>
-        <section class="hero is-primary is-bold">
+        <section class="hero is-white is-bold">
             <div class="hero-body has-text-centered">
                 <div class="container">
                     <div class="columns is-centered is-vcentered">
@@ -11,7 +11,7 @@
                             </h3>
                         </div>
                         <div class="column">
-                            <router-link to="manifesto" class="button is-white is-outlined is-rounded is-medium">
+                            <router-link to="manifesto" class="button is-rainbow is-rounded is-medium">
                                 Read our manifesto
                             </router-link>
                         </div>
@@ -24,7 +24,9 @@
         </section>
         <ob-meet-the-team></ob-meet-the-team>
         <section class="section">
-
+            <div class="container">
+                <ob-quotes></ob-quotes>
+            </div>
         </section>
         <section class="section">
             <div class="container">
@@ -53,7 +55,7 @@
 
     import ObCountDown from "./components/count-down/count-down.vue";
     import obBrowser from './components/splash-hero/components/browser.vue'
-    import ObQuotes from "./components/quotes";
+    import ObQuotes from "./components/quotes/quotes";
     import ObWhyOpenbook from "./components/why-openbook";
     import ObOcean from "./components/splash-hero/components/ocean/ocean";
     import ObSplashHero from "./components/splash-hero/splash-hero";
