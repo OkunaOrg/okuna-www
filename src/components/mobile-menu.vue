@@ -231,7 +231,7 @@
                 </div>
             </div>
             <div class="hero-footer">
-                <div class="hero is-small is-primary">
+                <div class="hero is-small is-white">
                     <div class="hero-body">
                         <div class="columns is-mobile is-multiline">
                             <div class="column is-12">
