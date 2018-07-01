@@ -171,7 +171,7 @@
                 </div>
             </div>
         </section>
-        <section class="hero is-primary is-bold">
+        <section class="hero is-white">
             <div class="hero-body has-text-centered">
                 <div class="container">
                     <div class="columns is-centered is-vcentered">
@@ -181,7 +181,7 @@
                             </h3>
                         </div>
                         <div class="column">
-                            <router-link to="contact-us" class="button is-white is-outlined is-rounded is-medium">
+                            <router-link to="contact-us" class="button is-rainbow is-rounded is-medium">
                                 Send us a message
                             </router-link>
                         </div>
