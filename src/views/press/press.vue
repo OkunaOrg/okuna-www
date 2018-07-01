@@ -93,7 +93,7 @@
                     <p>
                         Home to our press releases.
                     </p>
-                    <router-link class="button is-primary" to="newsroom">
+                    <router-link class="button is-rainbow" to="newsroom">
                         Go to newsroom
                     </router-link>
                 </div>
