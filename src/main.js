@@ -8,10 +8,9 @@ import App from './App.vue'
 import router from './router'
 import twemoji from './directives/twemoji.js';
 import './lib/fontawesome-all.min.exec.js';
-
+import * as vuei18n from './i18n-setup';
 // Load stylesheets
 import './styles/index.scss';
-
 
 // Load jQuery and it's global plugins
 window['jQuery'] = window['$'] = require('jquery');
@@ -45,14 +44,14 @@ Raven.context(function () {
         offset: -90
 });
 
+const i18n = vuei18n.i18n;
 
 // Load Vue globals
     Vue.directive('twemoji', twemoji);
-
 // Start app
     Vue.config.productionTip = false;
-
     new Vue({
+        i18n,
         router,
         render: h => h(App)
     }).$mount('#app');

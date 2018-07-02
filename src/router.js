@@ -1,6 +1,8 @@
 import Vue from 'vue';
 import Router from 'vue-router';
 import home from './views/home/home.vue';
+import root from './views/root.vue';
+import * as setupi18n from './i18n-setup';
 
 Vue.use(Router);
 
@@ -19,85 +21,91 @@ const router = new Router({
     mode: 'history',
     routes: [
         {
-            path: '/',
-            redirect: '/home'
+            path: '/:locale',
+            component: root,
+            children: [
+                {
+                    path: 'home',
+                    name: 'home',
+                    component: home,
+                    meta: {
+                        title: 'Home | Openbook social network'
+                    }
+                },
+                {
+                    path: 'about-us',
+                    name: 'about-us',
+                    component: aboutUs,
+                    meta: {
+                        title: 'About us | Openbook social network'
+                    }
+                },
+                {
+                    path: 'manifesto',
+                    name: 'manifesto',
+                    component: manifesto,
+                    meta: {
+                        title: 'Manifesto | Openbook social network'
+                    }
+                },
+                {
+                    path: 'contact-us',
+                    name: 'contact-us',
+                    component: contactUs,
+                    meta: {
+                        title: 'Contact us | Openbook social network'
+                    }
+                },
+                {
+                    path: 'faq',
+                    name: 'faq',
+                    component: faq,
+                    meta: {
+                        title: 'FAQ | Openbook social network'
+                    }
+                },
+                {
+                    path: 'jobs',
+                    name: 'jobs',
+                    component: jobs,
+                    meta: {
+                        title: 'Jobs | Openbook social network'
+                    }
+                },
+                {
+                    path: 'press',
+                    name: 'press',
+                    component: press,
+                    meta: {
+                        title: 'Press | Openbook social network'
+                    }
+                },
+                {
+                    path: 'newsroom',
+                    name: 'newsroom',
+                    component: newsroom,
+                    meta: {
+                        title: 'Newsroom | Openbook social network'
+                    }
+                },
+                {
+                    path: 'vulnerability-report',
+                    name: 'vulnerability-report',
+                    component: vulnerabilityReport,
+                    meta: {
+                        title: 'Report vulnerability | Openbook social network'
+                    }
+                },
+                // {
+                //     path: '/',
+                //     redirect: '/en/home'
+                // },
+                {
+                    path: '/',
+                    redirect: '/en/home'
+                }
+            ]
         },
-        {
-            path: '/home',
-            name: 'home',
-            component: home,
-            meta: {
-                title: 'Home | Openbook social network'
-            }
-        },
-        {
-            path: '/about-us',
-            name: 'about-us',
-            component: aboutUs,
-            meta: {
-                title: 'About us | Openbook social network'
-            }
-        },
-        {
-            path: '/manifesto',
-            name: 'manifesto',
-            component: manifesto,
-            meta: {
-                title: 'Manifesto | Openbook social network'
-            }
-        },
-        {
-            path: '/contact-us',
-            name: 'contact-us',
-            component: contactUs,
-            meta: {
-                title: 'Contact us | Openbook social network'
-            }
-        },
-        {
-            path: '/faq',
-            name: 'faq',
-            component: faq,
-            meta: {
-                title: 'FAQ | Openbook social network'
-            }
-        },
-        {
-            path: '/jobs',
-            name: 'jobs',
-            component: jobs,
-            meta: {
-                title: 'Jobs | Openbook social network'
-            }
-        },
-        {
-            path: '/press',
-            name: 'press',
-            component: press,
-            meta: {
-                title: 'Press | Openbook social network'
-            }
-        },
-        {
-            path: '/newsroom',
-            name: 'newsroom',
-            component: newsroom,
-            meta: {
-                title: 'Newsroom | Openbook social network'
-            }
-        },
-        {
-            path: '/vulnerability-report',
-            name: 'vulnerability-report',
-            component: vulnerabilityReport,
-            meta: {
-                title: 'Report vulnerability | Openbook social network'
-            }
-        },
-        {
-            path: '*',
-            redirect: 'home'
-        }
     ],
     scrollBehavior() {
         return {
@@ -109,7 +117,13 @@ const router = new Router({
 
 router.beforeEach((to, from, next) => {
     document.title = to.meta.title;
-    next()
+    console.log(to, from);
+    let locale = to.params.locale;
+    if (!locale) {
+        locale = 'en';
+    }
+    setupi18n.loadLanguageAsync(locale).then(() => next())
+    // next();
 });
 
 export default router;
