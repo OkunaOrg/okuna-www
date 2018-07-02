@@ -18,7 +18,7 @@
                                 reproduce.
                             </p>
                             <p>
-                                No place for tricks, no place for lies, no unpleasant surprises.
+                                No tricks, no gimmicks, no unpleasant surprises.
                             </p>
                             <p>
                                 <strong>Transparent and honest.</strong>
