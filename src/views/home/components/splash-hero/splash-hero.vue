@@ -1,5 +1,5 @@
 <template>
-    <section class="hero is-large hero--splash" id="main">
+    <section class="hero is-medium hero--splash" id="main">
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-centered is-vcentered">
