@@ -7,17 +7,11 @@
                     <div class="column has-text-centered has-padding-top-2x-mobile">
                         <div class="columns is-centered is-mobile">
                             <div class="column" style="max-width: 520px">
-                                <h1 class="title is-size-2-mobile is-size-1">
-                                    Hello <span id="hello-subject">world!</span>
+                                <h1 class="title is-size-2-mobile is-size-1" v-html="$t('splash_hero.hello_world')">
                                 </h1>
-                                <h2 class="subtitle is-size-5-mobile is-size-3">
-                                    We're <strong>Open</strong>book.
+                                <h2 class="subtitle is-size-5-mobile is-size-3" v-html="$t('splash_hero.we_are_ob')">
                                 </h2>
-                                <h3 class="is-size-6-mobile">
-                                    An open source, zero tracking, zero spying, zero
-                                    ads, ethically designed, easy to migrate to,
-                                    social network <strong>soon on <span
-                                    style="color: #034752;">Kickstarter</span></strong>.
+                                <h3 class="is-size-6-mobile" v-html="$t('splash_hero.kickstarter')">
                                 </h3>
                             </div>
                         </div>
@@ -28,7 +22,7 @@
                                         <i class="fas fa-share-alt"></i>
                                     </span>
                                     <span>
-                                        Share
+                                        {{$t('splash_hero.share')}}
                                     </span>
                                 </button>
                             </div>
@@ -38,7 +32,7 @@
                                         <i class="fas fa-bell"></i>
                                     </span>
                                     <span>
-                                        Notify me
+                                        {{$t('splash_hero.notify_me')}}
                                     </span>
                                 </a>
                             </div>
@@ -103,11 +97,11 @@
                 const Typewriter = window['Typewriter'];
 
                 const helloSubjects = [
-                    'world',
-                    'friends',
-                    'family',
-                    'grandma',
-                    'reddit'
+                    this.$i18n.t('splash_hero.world'),
+                    this.$i18n.t('splash_hero.friends'),
+                    this.$i18n.t('splash_hero.family'),
+                    this.$i18n.t('splash_hero.grandma'),
+                    this.$i18n.t('splash_hero.reddit'),
                 ];
 
                 const helloSubject = document.querySelector('#hello-subject');

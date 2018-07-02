@@ -3,10 +3,10 @@
         <div class="column">
             <div class="content has-text-centered padding-bottom-3x">
                 <p class="is-size-3">
-                    Why Openbook?
+                    {{ $t('why_ob.title') }}
                 </p>
                 <p>
-                    Some of the key things that set us apart from other social networks.
+                    {{ $t('why_ob.subtitle') }}
                 </p>
             </div>
             <div class="columns">
@@ -17,10 +17,10 @@
                         </div>
                         <div class="column content is-12 has-text-centered">
                             <h4 class="is-size-4">
-                                Zero tracking
+                                {{ $t('why_ob.zero_tracking') }}
                             </h4>
                             <p class="is-size-5 home-why-content">
-                                <span>We will never track you, anywhere, anyhow.</span>
+                                <span>{{ $t('why_ob.zero_tracking_desc') }}</span>
                             </p>
                         </div>
                     </div>
@@ -32,10 +32,10 @@
                         </div>
                         <div class="column content is-12 has-text-centered">
                             <h4 class="is-size-4">
-                                Zero spying
+                                {{ $t('why_ob.zero_spying') }}
                             </h4>
                             <p class="is-size-5 home-why-content">
-                                Be confident your private conversations are truly private.
+                                {{ $t('why_ob.zero_spying_desc') }}
                             </p>
                         </div>
                     </div>
@@ -47,10 +47,10 @@
                         </div>
                         <div class="column content is-12 has-text-centered">
                             <h4 class="is-size-4">
-                                Zero advertisement
+                                {{ $t('why_ob.zero_ads') }}
                             </h4>
                             <p class="is-size-5 home-why-content">
-                                Advertisement lead to targeted advertisement, which in turn lead to the loss of online privacy. We won't have ads.
+                                {{ $t('why_ob.zero_ads_desc') }}
                             </p>
                         </div>
                     </div>
@@ -64,10 +64,10 @@
                         </div>
                         <div class="column content is-12">
                             <h4 class="is-size-4">
-                                Tough data protection
+                                {{ $t('why_ob.data_protection') }} Tough data protection
                             </h4>
                             <p class="is-size-5 has-text-centered home-why-content">
-                                Third party applications that wish to access your data will have to comply with our strict and tough security policies.
+                                {{ $t('why_ob.data_protection_desc') }} Third party applications that wish to access your data will have to comply with our strict and tough security policies.
                             </p>
                         </div>
                     </div>

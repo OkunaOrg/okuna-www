@@ -26,7 +26,7 @@
             <div class="hero-body is-paddingless hero-body--mobile-menu">
                 <div class="container">
                     <div class="columns is-mobile is-multiline">
-                        <router-link to="home" active-class="mobile-menu-item--active"
+                        <router-link :to="'home'" active-class="mobile-menu-item--active"
                                      class="column is-12 is-size-5 has-border-bottom-gray-lighter has-border-top-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
@@ -55,7 +55,7 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link to="about-us" active-class="mobile-menu-item--active"
+                        <router-link :to="'about-us'" active-class="mobile-menu-item--active"
                                      class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
@@ -84,7 +84,7 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link to="manifesto" active-class="mobile-menu-item--active"
+                        <router-link :to="'manifesto'" active-class="mobile-menu-item--active"
                                      class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
@@ -113,7 +113,7 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link to="contact-us" active-class="mobile-menu-item--active"
+                        <router-link :to="'contact-us'" active-class="mobile-menu-item--active"
                                      class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
@@ -142,7 +142,7 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link to="jobs" active-class="mobile-menu-item--active"
+                        <router-link :to="'jobs'" active-class="mobile-menu-item--active"
                                      class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
@@ -171,7 +171,7 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link to="faq" active-class="mobile-menu-item--active"
+                        <router-link :to="'faq'" active-class="mobile-menu-item--active"
                                      class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
@@ -199,7 +199,7 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link to="press" active-class="mobile-menu-item--active"
+                        <router-link :to="'press'" active-class="mobile-menu-item--active"
                                      class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">

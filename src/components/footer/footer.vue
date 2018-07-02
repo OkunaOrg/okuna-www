@@ -7,7 +7,7 @@
                         <div class="container">
                             <div class="navbar-brand">
                                 <div class="navbar-item">
-                                    <router-link to="home" class="navbar-item is-size-3">
+                                    <router-link :to="'home'" class="navbar-item is-size-3">
                                         <strong>Open</strong>book
                                     </router-link>
                                 </div>
@@ -25,35 +25,35 @@
                             <div class="column is-narrow">
                                 <ul>
                                     <li>
-                                        <router-link to="home" class="navbar-item" active-class="is-active">Home</router-link>
+                                        <router-link :to="'home'" class="navbar-item" active-class="is-active">Home</router-link>
                                     </li>
                                     <li>
-                                        <router-link to="about-us" class="navbar-item" active-class="is-active">About us
+                                        <router-link :to="'about-us'" class="navbar-item" active-class="is-active">About us
                                         </router-link>
                                     </li>
                                     <li>
-                                        <router-link to="manifesto" class="navbar-item" active-class="is-active">Manifesto
+                                        <router-link :to="'manifesto'" class="navbar-item" active-class="is-active">Manifesto
                                         </router-link>
                                     </li>
                                     <li>
-                                        <router-link to="contact-us" class="navbar-item" active-class="is-active">Contact us
+                                        <router-link :to="'contact-us'" class="navbar-item" active-class="is-active">Contact us
                                         </router-link>
                                     </li>
                                     <li>
-                                        <router-link to="jobs" class="navbar-item" active-class="is-active">Jobs</router-link>
+                                        <router-link :to="'jobs'" class="navbar-item" active-class="is-active">Jobs</router-link>
                                     </li>
                                     <li>
-                                        <router-link to="faq" class="navbar-item" active-class="is-active">FAQ</router-link>
+                                        <router-link :to="'faq'" class="navbar-item" active-class="is-active">FAQ</router-link>
                                     </li>
                                 </ul>
                             </div>
                             <div class="column is-narrow">
                                 <ul>
                                     <li>
-                                        <router-link to="vulnerability-report" class="navbar-item" active-class="is-active">Report vulnerability</router-link>
+                                        <router-link :to="'vulnerability-report'" class="navbar-item" active-class="is-active">Report vulnerability</router-link>
                                     </li>
                                     <li>
-                                        <router-link to="press" class="navbar-item" active-class="is-active">Press
+                                        <router-link :to="'press'" class="navbar-item" active-class="is-active">Press
                                         </router-link>
                                     </li>
                                 </ul>
