@@ -64,10 +64,10 @@
                         </div>
                         <div class="column content is-12">
                             <h4 class="is-size-4">
-                                {{ $t('why_ob.data_protection') }} Tough data protection
+                                {{ $t('why_ob.data_protection') }}
                             </h4>
                             <p class="is-size-5 has-text-centered home-why-content">
-                                {{ $t('why_ob.data_protection_desc') }} Third party applications that wish to access your data will have to comply with our strict and tough security policies.
+                                {{ $t('why_ob.data_protection_desc') }}
                             </p>
                         </div>
                     </div>
@@ -79,10 +79,10 @@
                         </div>
                         <div class="column content is-12">
                             <h4 class="is-size-4">
-                                Honest
+                                {{ $t('why_ob.honest') }}
                             </h4>
                             <p class="is-size-5 has-text-centered home-why-content">
-                                All of our code is free and open for everyone to inspect, reproduce and contribute to. No unpleasant surprises.
+                                {{ $t('why_ob.honest_desc') }}
                             </p>
                         </div>
                     </div>
@@ -94,10 +94,10 @@
                         </div>
                         <div class="column content is-12 has-text-centered">
                             <h4 class="is-size-4">
-                                Easy to migrate
+                                {{ $t('why_ob.easy_to_migrate') }}
                             </h4>
                             <p class="is-size-5 home-why-content">
-                                We will provide tools to migrate all of your existing data to our network.
+                                {{ $t('why_ob.easy_to_migrate_desc') }}
                             </p>
                         </div>
                     </div>
@@ -111,10 +111,10 @@
                         </div>
                         <div class="column content is-12 has-text-centered">
                             <h4 class="is-size-4">
-                                Future-proof
+                                {{ $t('why_ob.future_proof') }}
                             </h4>
                             <p class="is-size-5 home-why-content">
-                                With a solid and useful revenue model based on peer-to-peer transactions, we are in for the long run.
+                                {{ $t('why_ob.future_proof_desc') }}
                             </p>
                         </div>
                     </div>
@@ -126,10 +126,10 @@
                         </div>
                         <div class="column content is-12">
                             <h4 class="is-size-4">
-                                Modern, beautiful, ethically designed.
+                                {{ $t('why_ob.modern_design') }}
                             </h4>
                             <p class="is-size-5 has-text-centered home-why-content">
-                                Built with the latest technologies, a keen eye for detail and ethics, you won't find anything like it elsewhere.
+                                {{ $t('why_ob.modern_design_desc') }}
                             </p>
                         </div>
                     </div>
@@ -141,13 +141,10 @@
                         </div>
                         <div class="column content is-12">
                             <h4 class="is-size-4">
-                                Good for the planet
+                                {{ $t('why_ob.good_for_planet') }}
                             </h4>
                             <p class="is-size-5 has-text-centered home-why-content">
-                                <span>In partnership with <a href="https://founderspledge.com/" target="_blank"
-                                                             rel="noopener noreferrer">Founders Pledge</a>
-                                we will give 30% of our revenue towards making the world a better place, now and
-                                    forever.</span>
+                                <span v-html="$t('why_ob.good_for_planet_desc')"></span>
                             </p>
                         </div>
                     </div>

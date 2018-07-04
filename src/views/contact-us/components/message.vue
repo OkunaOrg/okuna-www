@@ -3,7 +3,7 @@
         <form class="column is-12" @submit.prevent="onSubmit()">
             <div class="field padding-bottom-1x">
                 <label class="label" for="subject">
-                    Subject
+                    {{ $t('message.subject') }} Subject
                 </label>
                 <div class="control">
                     <input

@@ -8,10 +8,9 @@
                             <div class="columns is-centered">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
-                                        About us
+                                        {{ $t('about_us.title') }}
                                     </h1>
-                                    <h2 class="title is-size-2 trust-text has-text-centered-mobile">
-                                        We want to build a tool for <span class="has-text-primary">good</span>.
+                                    <h2 class="title is-size-2 trust-text has-text-centered-mobile" v-html="$t('about_us.subtitle')">
                                     </h2>
                                 </div>
                             </div>
@@ -33,22 +32,19 @@
             <div>
                 <div class="columns is-centered">
                     <div class="column intro-text content">
-                        <p class="is-size-4 has-text-centered small-container padding-bottom-1x">
-                            <span class="has-text-primary"><strong
-                                class="has-text-primary">Open</strong>book</span> is an open-source, zero tracking, zero spying, zero advertisement, secure social network that gives 30% of it's revenue towards making the world a better place, now and forever.
+                        <p class="is-size-4 has-text-centered small-container padding-bottom-1x" v-html="$t('about_us.description')">
                         </p>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column intro-text content small-container">
                         <p class="is-size-5 small-container">
-                            Founded in April 2018 in the international city of peace and justice, The Hague, Openbook is a project to make things right.
+                            {{ $t('about_us.description_founded') }}
                         </p>
                         <p class="is-size-5 small-container">
-                            A project to redefine social networks, a project to rethink the "free" internet, a project to bring transparency to the internet, a project to claim back our privacy.
+                            {{ $t('about_us.description_project') }}
                         </p>
-                        <p class="is-size-5 small-container">
-                            <strong>Openbook is a project to make the world a better place</strong>.
+                        <p class="is-size-5 small-container" v-html="$t('about_us.description_better_world')">
                         </p>
                     </div>
                 </div>
@@ -60,12 +56,12 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                How will we accomplish this?
+                                {{ $t('about_us.accomplish_how') }}
                             </h3>
                         </div>
                         <div class="column">
                             <router-link to="manifesto" class="button is-white is-outlined is-rounded is-medium">
-                                Read our manifesto
+                                {{ $t('about_us.read_our_manifesto') }}
                             </router-link>
                         </div>
                     </div>
@@ -75,8 +71,7 @@
         <section class="section">
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
-                    <p class="is-size-3 padding-bottom-3x">
-                        The humans behind <strong>Open</strong>book
+                    <p class="is-size-3 padding-bottom-3x" v-html="$t('about_us.humans_behind_ob')">
                     </p>
                 </div>
                 <ob-team-members/>
@@ -88,12 +83,12 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                Want to work with us?
+                                {{ $t('about_us.work_with_us') }}
                             </h3>
                         </div>
                         <div class="column">
                             <a href="#" class="button is-white is-outlined is-rounded is-medium">
-                                Visit our jobs page
+                                {{ $t('about_us.visit_jobs_page') }}
                             </a>
                         </div>
                     </div>
@@ -104,10 +99,10 @@
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
                     <p class="is-size-3 padding-bottom-1x">
-                        Our ambassadors
+                        {{ $t('about_us.our_ambassadors') }}
                     </p>
                     <p class="is-size-6 is-marginless is-paddingless">
-                        People that help us spread the word around and stand for everything we do.
+                        {{ $t('about_us.ambassadors_desc') }}
                     </p>
                 </div>
                 <ob-ambassadors></ob-ambassadors>
@@ -119,12 +114,12 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                Want to become an ambassador?
+                                {{ $t('about_us.become_ambassadors') }}
                             </h3>
                         </div>
                         <div class="column">
                             <router-link to="contact-us" class="button is-primary is-rounded is-medium">
-                                Contact us
+                                {{ $t('about_us.contact_us') }}
                             </router-link>
                         </div>
                     </div>
