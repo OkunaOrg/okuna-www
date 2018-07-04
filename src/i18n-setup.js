@@ -8,7 +8,7 @@ Vue.use(VueI18n);
 const messages = translations.messages;
 console.log(messages);
 export const i18n = new VueI18n({
-    locale: 'en', // set locale
+    locale: navigator.language.substring(0,2), // set locale
     fallbackLocale: 'en',
     messages // set locale messages
 });

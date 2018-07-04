@@ -9,7 +9,9 @@ Vue.use(Router);
 // Lazy load everything but home page!
 const contactUs = () => import('./views/contact-us/contact-us.vue');
 const aboutUs = () => import('./views/about-us/about-us.vue');
-const manifesto = () => import('./views/manifesto/manifesto.vue');
+const manifesto_en = () => import('./views/manifesto/en/manifesto.vue');
+const manifesto_es = () => import('./views/manifesto/es/manifesto.vue');
+const manifesto_nl = () => import('./views/manifesto/nl/manifesto.vue');
 const faq = () => import('./views/faq/faq.vue');
 const jobs = () => import('./views/jobs/jobs.vue');
 const press = () => import('./views/press/press.vue');
@@ -20,6 +22,58 @@ const vulnerabilityReport = () => import('./views/vulnerability-report/vulnerabi
 const router = new Router({
     mode: 'history',
     routes: [
+        {
+            path: '/',
+            redirect: `/${navigator.language.substring(0,2)}/home`
+        },
+        {
+            path: '/about-us',
+            redirect: `/${navigator.language.substring(0,2)}/about-us`
+        },
+        {
+            path: '/home',
+            redirect: `/${navigator.language.substring(0,2)}/home`
+        },
+        {
+            path: '/contact-us',
+            redirect: `/${navigator.language.substring(0,2)}/contact-us`
+        },
+        {
+            path: '/faq',
+            redirect: `/${navigator.language.substring(0,2)}/faq`
+        },
+        {
+            path: '/jobs',
+            redirect: `/${navigator.language.substring(0,2)}/jobs`
+        },
+        {
+            path: '/en/manifesto',
+            name: 'manifesto',
+            component: manifesto_en,
+            meta: {
+                title: 'Manifesto | Openbook social network'
+            }
+        },
+        {
+            path: '/nl/manifesto',
+            name: 'manifesto',
+            component: manifesto_nl,
+            meta: {
+                title: 'Manifesto | Openbook social network'
+            }
+        },
+        {
+            path: '/es/manifesto',
+            name: 'manifesto',
+            component: manifesto_es,
+            meta: {
+                title: 'Manifesto | Openbook social network'
+            }
+        },
+        {
+            path: '/press',
+            redirect: `/${navigator.language.substring(0,2)}/press`
+        },
         {
             path: '/:locale',
             component: root,
@@ -38,14 +92,6 @@ const router = new Router({
                     component: aboutUs,
                     meta: {
                         title: 'About us | Openbook social network'
-                    }
-                },
-                {
-                    path: 'manifesto',
-                    name: 'manifesto',
-                    component: manifesto,
-                    meta: {
-                        title: 'Manifesto | Openbook social network'
                     }
                 },
                 {
@@ -98,12 +144,8 @@ const router = new Router({
                 },
                 // {
                 //     path: '/',
-                //     redirect: '/en/home'
-                // },
-                {
-                    path: '/',
-                    redirect: '/en/home'
-                }
+                //     redirect: `/${navigator.language.substring(0,2)}/home`
+                // }
             ]
         },
     ],
@@ -120,10 +162,9 @@ router.beforeEach((to, from, next) => {
     console.log(to, from);
     let locale = to.params.locale;
     if (!locale) {
-        locale = 'en';
+        locale = navigator.language.substring(0,2);
     }
     setupi18n.loadLanguageAsync(locale).then(() => next())
-    // next();
 });
 
 export default router;
