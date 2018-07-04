@@ -1,5 +1,5 @@
 export const messages = {
-    en : {
+    es : {
         global: {
             openbook: '<strong>Open</strong>book'
         },
