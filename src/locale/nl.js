@@ -140,9 +140,110 @@ export const messages = {
         },
         message: {
             subject: 'Subject',
-
+            reason_placeholder: 'The reason you are contacting us',
+            email_placeholder: 'The email we can reach you at',
+            email: 'Email',
+            user_message: 'Message',
+            user_message_placeholder: 'What can we do for you?',
+            google_recaptcha_title: 'We use <a href="https://www.google.com/recaptcha/intro/v3beta.html" target="_blank"\n' +
+            '                                              rel="noopener noreferrer">Google Recaptcha</a>\n' +
+            '                                    to prevent the abuse of this form.',
+            recaptcha_info: 'Google collects information about you in order to "verify" you are human.',
+            info_includes: 'This information includes',
+            info_ip_location: 'Your IP, which can be used for determining your location and cross-referencing your identity with other sites you have visited.',
+            info_cookies: 'All cookies placed by Google over the last 6 months.',
+            info_mouse_clicks: 'How many mouse clicks you’ve made (or touches if on a touch device).',
+            info_css: 'The CSS information of the page',
+            info_date: 'The date',
+            info_browser_lang: 'The language of your browser',
+            info_plugins: 'Any plugins you have installed on the browser',
+            info_js: 'The Javascript objects on the page',
+            recaptcha_authorization: 'Do you authorize us to load Google Recaptcha and therefore allow Google to collect this information?',
+            recaptcha_authorization_yes: 'Yes, I authorize you to load Google Recaptcha',
+            or: 'or',
+            recaptcha_authorization_no: 'No, send an e-mail to info@open-book.org',
+            tick_box: 'Please tick this box',
+            clear_form: 'Clear form',
+            submit: 'Submit'
+        },
+        jobs : {
+            title: 'Jobs',
+            subtitle: 'Work with us.',
+            exciting_adventure: 'We are embarking on one of the most exciting digital adventures ever and we are looking for talented people to sail with us!',
+            all_skills: 'We are looking for people with all kinds of skills. Technology, design, marketing, finance, media, you name it.',
+            need_your_help: 'If you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> and are talented at what you do, we need your help!',
+            send_cv: 'Send us your CV to  <a\n' +
+            '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
+            look_forward : 'We look forward to meeting you !',
+            colleagues: 'Who will you be working with?',
+            meet_the_team: 'Meet the team'
+        },
+        faq: {
+            title: 'FAQ',
+            subtitle: 'The frequently asked questions.',
+            office_dog: 'Our office dog hard at work.',
+            whos_paying: 'Who\'s paying for everything so far?',
+            whos_paying_ans: 'So far we have been completely self funded. However, this has proven to be very hard.\n' +
+            '                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
+            crowd_funding: 'As we wanted the project to be driven by people and not capital, we decided to go for crowd-funding.',
+            launching_kickstarter: 'We\'ll be launching our Kickstarter campaign on the 17th of July.',
+            is_distributed: 'Will it be distributed like diaspora, mastodon, etc?',
+            is_distributed_ans: 'TLDR; No, but your data will be fully portable to other Openbook instances.',
+            absolute_control: 'We want to give our users absolute control of their data. We want them to be able to see the exact physical location of their data and to be able to ensure its deletion, even when shared with third party applications.',
+            activity_pub: 'Protocols for interconnection between social networks such as ActivityPub rely on independently distributed networks to accomplish this.',
+            impossible_guarantee: 'These networks, being independently distributed, make these items impossible to guarantee.',
+            data_portability: 'However, if your concern is data portability, all of your data will be downloadable and fully portable to other Openbook instances.',
+            nothing_against_decentralisation: 'Don\'t get us wrong though, we have nothing against these networks, in fact, we are amazed by their ingenuity.',
+            why_not_non_profit: 'Why is Openbook not a non-profit?',
+            why_not_non_profit_ans: 'Making Openbook a for-profit was a hard choice to make.',
+            check_all_boxes: 'We check all the non-profits boxes and we love non-profits. We love Wikipedia, the Ghost Foundation, Founders Pledge, Mozilla and many more.',
+            same_struggle: 'However we see the same struggle repeated over and over again. These companies struggle to grow beyond their profitability. These companies struggle to grow to the size and resources needed to compete with for-profit businesses.',
+            need_money: 'When we need to grow exponentially, we need to be able to raise the large amounts of money needed to do so.',
+            hence_for_profit: 'Therefore we are officially a for-profit company.',
+            humanitarian: 'But do note that when we do this, we will make sure the people investing in the company will be people with real interest on the platform, its core values of privacy, security, freedom, openness and its humanitarian nature.',
+            want_to_help: 'I want to help right now, what can I do?',
+            want_to_help_ans: 'We\'re happy and grateful you want to help out!',
+            many_ways: 'There are many ways you can help right now.',
+            ideas: 'Here are some ideas:',
+            share_website: 'Share the website on social media',
+            talk_to_friends: 'Talk to your friends and family about us',
+            improve_website: 'If you\'re a developer, you can help us <a\n' +
+            '                            href="https://github.com/OpenBookOrg/openbook-org-www"\n' +
+            '                            target="_blank" rel="noopener noreferrer">improve our website</a>.',
+            let_us_know: 'If you have an idea for the network, you can <a href="https://github.com/OpenBookOrg/ideas"\n' +
+            '                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.',
+            public_figure: 'If you\'re a public figure and would like to become an ambassador,',
+            contact_us: 'contact us',
+            looking_for_job: 'If you\'re looking for a job and believe Openbook would be a great fit for you,',
+            visit_jobs: 'visit our jobs page',
+            volunteer: 'And lastly, if you would like to be even more involved, we\'re forming a network of volunteers across the world to help us spread the word.',
+            interested: 'Interested?',
+            contact_us_2: 'Contact us',
+            more_questions: 'Have another question?',
+            send_us_message: 'Send us a message'
+        },
+        press: {
+            we: 'We',
+            press: 'Press',
+            today_everyday: 'Today, and everyday.',
+            hi: 'Hi there!',
+            any_questions: 'We hope you find everything you need below.\n' +
+            '                        ​​If you have any questions, would like to schedule an interview or require extra material, feel free to contact Lambrecht Wessels at <a\n' +
+            '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">lambrecht@open-book.org</a>.',
+            happy_to_help: 'We’re happy to help.',
+            jump_to: 'Jump to',
+            press_kit: 'Press kit',
+            newsroom: 'Newsroom',
+            people: 'People',
+            logos: 'Logos',
+            includes_everything: 'Includes press releases, manifesto, bios, photos, vector logos, misc images and website photos.',
+            home_press: 'Home to our press releases.',
+            go_to_newsroom: 'Go to newsroom',
+            missing_something: 'Missing something? Contact <a\n' +
+            '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">Lambrecht Wessels</a>.'
         }
     }
 };
+
 
 
