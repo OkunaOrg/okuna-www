@@ -4,9 +4,9 @@
             <div class="container">
                 <div class="columns is-mobile is-multiline">
                     <div class="content is-medium column is-12 has-text-centered">
-                        <h3 class="has-text-centered-mobile">Personal</h3>
+                        <h3 class="has-text-centered-mobile has-text-shadow">Personal</h3>
                         <p>
-                            Customize your profile the way you want. Be different, be yourself.
+                            Customize the network the way you want. Be different, be yourself!
                         </p>
                     </div>
                     <div class="column is-12">

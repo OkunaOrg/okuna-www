@@ -2,7 +2,7 @@
     <section class="section hero">
         <div class="hero-body">
             <div class="container">
-                <div class="columns">
+                <div class="columns has-reverse-row-order-mobile">
                     <div class="column has-padding-top-2x-mobile">
                         <div class="columns is-centered is-vcentered is-height-100 is-mobile">
                             <div class="column is-narrow">
@@ -13,9 +13,9 @@
                     <div class="column">
                         <div class="columns is-vcentered is-mobile">
                             <div class="column content is-medium honesty-text">
-                                <h3 class="has-text-centered-mobile">Honest</h3>
+                                <h3>Honest</h3>
                                 <p>
-                                    All the code is open-source, so free for anyone to see, modify and reproduce.
+                                    All the code is open-source, so free for anyone to see, modify and reproduce. No room for unpleasant surprises.
                                 </p>
                             </div>
                         </div>
