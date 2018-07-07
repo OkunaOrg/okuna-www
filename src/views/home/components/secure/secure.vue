@@ -6,7 +6,7 @@
                     <div class="column has-padding-top-2x-mobile">
                         <div class="columns is-centered is-vcentered is-height-100 is-mobile">
                             <div class="column is-narrow">
-                                <ob-cute-robot></ob-cute-robot>
+                                <ob-secure-icon></ob-secure-icon>
                             </div>
                         </div>
                     </div>
@@ -41,9 +41,11 @@
 
 <script>
     import ObCuteRobot from "../../../../components/cute-robot.vue";
+    import ObSecureIcon from "./components/secure-icon.vue";
 
     export default {
         components: {
+            ObSecureIcon,
             ObCuteRobot},
         name: 'ob-secure'
     }
