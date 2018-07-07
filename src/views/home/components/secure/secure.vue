@@ -1,6 +1,6 @@
 <template>
     <section class="section">
-        <div class="hero-body">
+        <div>
             <div class="container">
                 <div class="columns has-reverse-row-order-mobile">
                     <div class="column has-padding-top-2x-mobile">

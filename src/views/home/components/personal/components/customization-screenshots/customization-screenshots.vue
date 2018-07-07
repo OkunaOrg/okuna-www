@@ -10,6 +10,8 @@
 
 <style lang="scss">
     .customization-screenshots{
+        pointer-events: none;
+
         .slick-center{
         }
 
@@ -22,7 +24,7 @@
     }
 
     .customization-screenshot{
-        padding: 0 2rem;
+        padding: 0 1.5rem;
 
         img{
             box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1), 0 17px 50px rgba(0, 0, 0, 0.1);
@@ -58,6 +60,7 @@
             const screenshotsContainer = this.$refs['screenshots'];
 
             jquery(screenshotsContainer).slick({
+                accessibility: false,
                 centerMode: true,
                 centerPadding: '5%',
                 slidesToShow: 3,
@@ -73,8 +76,11 @@
                         settings: {
                             arrows: false,
                             centerMode: true,
-                            centerPadding: '40px',
-                            slidesToShow: 3
+                            centerPadding: '5%',
+                            slidesToShow: 2,
+                            draggable: false,
+                            pauseOnFocus: false,
+                            pauseOnHover: false
                         }
                     },
                     {
@@ -82,8 +88,11 @@
                         settings: {
                             arrows: false,
                             centerMode: true,
-                            centerPadding: '40px',
-                            slidesToShow: 1
+                            centerPadding: '5%',
+                            slidesToShow: 1,
+                            draggable: false,
+                            pauseOnFocus: false,
+                            pauseOnHover: false
                         }
                     }
                 ]

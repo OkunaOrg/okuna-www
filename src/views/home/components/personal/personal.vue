@@ -1,17 +1,15 @@
 <template>
-    <section class="hero">
-        <div class="hero-body">
-            <div class="container">
-                <div class="columns is-mobile is-multiline">
-                    <div class="content is-medium column is-12 has-text-centered">
-                        <h3 class="has-text-centered-mobile has-text-shadow">Personal</h3>
-                        <p>
-                            Customize the network the way you want. Be different, be yourself!
-                        </p>
-                    </div>
-                    <div class="column is-12">
-                        <ob-customization-screenshots></ob-customization-screenshots>
-                    </div>
+    <section class="section">
+        <div class="container">
+            <div class="columns is-mobile is-multiline">
+                <div class="content is-medium column is-12 padding-bottom-3x">
+                    <h3 class="has-text-shadow">Personal</h3>
+                    <p>
+                        Customize the network the way you want. Be different, be yourself!
+                    </p>
+                </div>
+                <div class="column is-12">
+                    <ob-customization-screenshots></ob-customization-screenshots>
                 </div>
             </div>
         </div>
