@@ -3,6 +3,7 @@
         <ob-splash-hero></ob-splash-hero>
         <ob-honesty></ob-honesty>
         <ob-privacy></ob-privacy>
+        <ob-secure></ob-secure>
         <ob-personal></ob-personal>
         <section class="hero is-white">
             <div class="hero-body has-text-centered">
@@ -67,9 +68,11 @@
     import ObHonesty from "./components/honesty/honesty.vue";
     import ObPersonal from "./components/personal/personal.vue";
     import ObPrivacy from "./components/privacy/privacy.vue";
+    import ObSecure from "./components/secure/secure.vue";
 
     export default {
         components: {
+            ObSecure,
             ObPrivacy,
             ObPersonal,
             ObHonesty,

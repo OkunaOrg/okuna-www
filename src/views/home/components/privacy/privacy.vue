@@ -4,8 +4,8 @@
             <div class="container">
                 <div class="columns">
                     <div class="column">
-                        <div class="columns is-vcentered is-mobile">
-                            <div class="column content is-medium privacy-text">
+                        <div class="columns is-vcentered is-centered">
+                            <div class="column is-narrow content is-medium privacy-text">
                                 <h3>Privacy-friendly</h3>
                                 <p>
                                     We don't monitor nor track anything you do. Surf the network with absolute peace of mind!
