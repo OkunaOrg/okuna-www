@@ -1,0 +1,97 @@
+<template>
+    <div>
+        <div ref="screenshots" class="customization-screenshots">
+            <figure class="image customization-screenshot" v-for="sc in screnshots">
+                <img :src="sc">
+            </figure>
+        </div>
+    </div>
+</template>
+
+<style lang="scss">
+    .customization-screenshots{
+        .slick-center{
+        }
+
+        .slick-slide{
+        }
+
+        .slick-list{
+            overflow: visible;
+        }
+    }
+
+    .customization-screenshot{
+        padding: 0 2rem;
+
+        img{
+            box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1), 0 17px 50px rgba(0, 0, 0, 0.1);
+            border-radius: 3px;
+        }
+    }
+</style>
+
+<script>
+    import blackScreenshot from './assets/black.png';
+    import blueScreenshot from './assets/blue.png';
+    import pinkScreenshot from './assets/pink.png';
+    import purpleScreenshot from './assets/purple.png';
+    import yellowScreenshot from './assets/yellow.png';
+    import whiteScreenshot from './assets/white.png';
+    import jquery from 'jquery';
+
+    export default {
+        name: 'ob-customization-screenshots',
+        data(){
+            return {
+                screnshots: [
+                    blackScreenshot,
+                    blueScreenshot,
+                    pinkScreenshot,
+                    purpleScreenshot,
+                    yellowScreenshot,
+                    whiteScreenshot
+                ]
+            }
+        },
+        mounted(){
+            const screenshotsContainer = this.$refs['screenshots'];
+
+            jquery(screenshotsContainer).slick({
+                centerMode: true,
+                centerPadding: '5%',
+                slidesToShow: 3,
+                autoplay: true,
+                autoplaySpeed: 1200,
+                pauseOnFocus: false,
+                pauseOnHover: false,
+                draggable: false,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 768,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            arrows: false,
+                            centerMode: true,
+                            centerPadding: '40px',
+                            slidesToShow: 1
+                        }
+                    }
+                ]
+            });
+        },
+        destroyed(){
+            $(this.$refs.screenshots).slick('unslick');
+        }
+
+    }
+</script>

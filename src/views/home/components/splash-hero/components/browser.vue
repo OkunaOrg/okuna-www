@@ -69,7 +69,7 @@
     }
 
     .browser-window {
-        box-shadow: 0 12px 15px rgba(0,0,0,0.1), 0 50px 40px rgba(0,0,0,0.1);
+        box-shadow: 0 12px 15px rgba(0, 0, 0, 0.1), 0 50px 40px rgba(0, 0, 0, 0.1);
         text-align: left;
         width: 100%;
         max-width: 700px;
@@ -165,7 +165,7 @@
                 background: rgba(0, 0, 0, 0.25);
                 position: relative;
 
-                &-notification{
+                &-notification {
                     height: 10px;
                     width: 10px;
                     border-radius: 20%;
@@ -217,12 +217,18 @@
         pointer-events: none;
         outline: none;
 
-        &-content{
+        &-content {
             display: flex;
             align-items: center;
             justify-content: center;
             width: 100%;
             height: 100%;
+        }
+    }
+
+    .open-book-body-timeline {
+        .slick-list {
+            overflow: visible !important;
         }
     }
 
@@ -233,11 +239,11 @@
 
     export default {
         name: 'ob-browser',
-        data(){
+        data() {
             return {
                 posts: [
                     {
-                      content: '🎉'
+                        content: '🎉'
                     },
                     {
                         content: '🙈'
@@ -280,6 +286,8 @@
         },
         destroyed() {
             if (this.intervalHandle) clearInterval(this.intervalHandle);
+            $(this.$refs.timeline).slick('unslick');
+
         }
     }
 </script>

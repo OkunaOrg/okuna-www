@@ -2,6 +2,7 @@
     <div class="animated fadeIn">
         <ob-splash-hero></ob-splash-hero>
         <ob-honesty></ob-honesty>
+        <ob-personal></ob-personal>
         <section class="hero is-white">
             <div class="hero-body has-text-centered">
                 <div class="container">
@@ -63,9 +64,11 @@
     import ObFeaturedOn from "./components/featured-in/featured-in";
     import ObMeetTheTeam from "./components/meet-the-team/meet-the-team.vue";
     import ObHonesty from "./components/honesty/honesty.vue";
+    import ObPersonal from "./components/personal/personal.vue";
 
     export default {
         components: {
+            ObPersonal,
             ObHonesty,
             ObMeetTheTeam,
             ObFeaturedOn,

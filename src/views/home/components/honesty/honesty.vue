@@ -14,14 +14,7 @@
                         <div class="column content is-medium honesty-text">
                             <h3 class="has-text-centered-mobile">Honest</h3>
                             <p>
-                                All the code behind Openbook is open-source, meaning free for anyone to see, modify and
-                                reproduce.
-                            </p>
-                            <p>
-                                No tricks, no gimmicks, no unpleasant surprises.
-                            </p>
-                            <p>
-                                <strong>Transparent and honest.</strong>
+                                All the code is open-source, so free for anyone to see, modify and reproduce.
                             </p>
                         </div>
                     </div>
