@@ -12,7 +12,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="column has-padding-top-2x-mobile">
+                <div class="column padding-top-2x-mobile">
                     <div class="columns is-centered is-vcentered is-height-100 is-mobile">
                         <div class="column is-narrow">
                             <ob-pets></ob-pets>
