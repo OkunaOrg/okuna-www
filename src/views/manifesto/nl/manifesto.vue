@@ -8,7 +8,7 @@
                             <div class="columns is-centered">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
-                                        Manifesto nederland
+                                        Manifesto
                                     </h1>
                                     <h2 class="title is-size-2 manifesto-text has-text-centered-mobile">
                                         The problem, the solution, the next steps.

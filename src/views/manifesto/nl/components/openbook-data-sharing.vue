@@ -10,11 +10,11 @@
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            In order to use Songipy you must continue with Openbook.
+                            Om gebruik te kunnen maken van Songipy, moet je inloggen met Openbook.
                         </div>
                         <div class="column is-12 has-text-centered">
                             <button class="button is-primary" @click="goToStep2()">
-                                <span>Continue with <strong>Open</strong>book</span>
+                                <span>Inloggen met<strong>Open</strong>book</span>
                             </button>
                         </div>
                     </div>
@@ -30,15 +30,15 @@
                             <div>
                                 <i class="fas fa-lock"></i>
                                 <span>
-                                    &nbsp; This application is safe to use.
+                                    &nbsp; Je kunt veilig gebruik maken van de applicatie.
                                 </span>
                             </div>
                             <div class="is-size-7">
-                                It has met our strict privacy and security policies.
+                                Het is in lijn met onze strikte privacy en veiligheids voorwaarden.
                             </div>
                             <div class="is-size-7">
                                 <a @click="wantsToLearnMoreAboutSecureApps()">
-                                    Learn more
+                                    Meer informatie
                                 </a>
                             </div>
                         </div>
@@ -46,7 +46,7 @@
                             <div class="section-separator"></div>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            <span>In order to continue, <strong>Songipy</strong> requires your</span>
+                            <span>Om verder te gaan heeft<strong>Songipy</strong> het volgende nodig</span>
                             <span v-for="(dataItem, index) of requiredSharedData">
                                 <span v-if="index === (requiredSharedData.length - 1)">
                                     and
@@ -68,8 +68,8 @@
                             <div class="field">
                                 <b-checkbox size="is-medium" v-model="optionalDataSharingEnabled">
                                     <div class="is-size-7">
-                                        <strong>Optionally</strong>, you would like to share
-                                        <span>your</span>
+                                        <strong>Additioneel</strong>, kun je de volgende gegevens delen
+                                        <span>je</span>
                                         <span v-if="enabledOptionalSharedData.length === 1">
                                             {{enabledOptionalSharedData[0].readableName}}
                                         </span>
@@ -85,8 +85,8 @@
                             <div class="field">
                                 <b-checkbox size="is-medium" v-model="optionalDataSharingEnabled">
                                     <div class="is-size-7">
-                                        <strong>Optionally</strong>, it would also like to access
-                                        <span>your</span>
+                                        <strong>Additioneel</strong>, wil de applicatie ook bij de volgende gegevens
+                                        <span>je</span>
                                         <span v-for="(dataItem, index) of optionalSharedData">
                                 {{ index === optionalSharedData.length - 1 ? 'and ' + dataItem.readableName : dataItem.readableName + ', '
                                             }}
@@ -98,7 +98,7 @@
                         <div class="column is-12 has-text-centered">
                             <button class="button is-outlined is-small" @click="goToStep3()">
                                 <span>
-                                    Edit shared optional data
+                                    Wijzig de optioneel gedeelde data
                                 </span>
                                 <span class="icon">
                                     <i class="fas fa-pencil-alt"></i>
@@ -109,7 +109,7 @@
                             <b-collapse :open.sync="inspectDataOpen">
                                 <button class="button is-transparent is-size-7 is-borderless" slot="trigger">
                                     <span>
-                                        Inspect shared data
+                                        Inspecteer gedeelde data
                                     </span>
                                     <span class="icon is-small">
                                         <i class="fas fa-angle-down"></i>
@@ -127,13 +127,13 @@
                                             <a v-else-if="dataItem.type === 'list'"
                                                @click="wantsToDisplayListWithName(dataItem.readableName)">
                                                 <span>
-                                                    Open list ↗
+                                                    Lijst openen ↗
                                                 </span>
                                             </a>
                                             <a v-else-if="dataItem.type === 'image'" :href="dataItem.value"
                                                target="_blank" rel="noopener noreferrer">
                                                 <span>
-                                                    Open image ↗
+                                                    Open afbeelding ↗
                                                 </span>
                                             </a>
                                         </p>
@@ -148,12 +148,12 @@
                             <div class="columns is-mobile">
                                 <div class="column is-6">
                                     <button class="button is-outlined is-medium" @click="goToStep1()">
-                                        Cancel
+                                        Annuleer
                                     </button>
                                 </div>
                                 <div class="column is-6">
                                     <button class="button is-primary is-medium" @click="goToStep4()">
-                                        Continue
+                                        Doorgaan
                                     </button>
                                 </div>
                             </div>
@@ -189,7 +189,7 @@
                                             <a v-else-if="dataItem.type === 'list'"
                                                @click="wantsToDisplayListWithName(dataItem.readableName)">
                                                 <span>
-                                                    Open list ↗
+                                                    Open lijst ↗
                                                 </span>
                                             </a>
                                             <a v-else-if="dataItem.type === 'image'" :href="dataItem.value"
@@ -225,7 +225,7 @@
                                 </strong>
                             </div>
                             <span>
-                                Openbook has now shared your information with Songipy.
+                                Openbook heeft nu de volgende informatie met Songipy gedeeld.
                             </span>
                         </div>
                         <div class="column is-12 has-text-centered">
@@ -233,7 +233,7 @@
                                 <span class="icon is-small">
                                     <i class="fas fa-sync-alt"></i>
                                 </span>
-                                <span>  Restart prototype</span>
+                                <span>  Prototype opnieuw starten</span>
                             </button>
                         </div>
                     </div>

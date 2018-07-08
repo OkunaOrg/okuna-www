@@ -10,7 +10,7 @@
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            Before you can enjoy of our free Wifi Hotspots you must continue with EvilCorp.
+                            Voordat je gebruik kan maken van onze gratis Wifi Hotspots, moet je inloggen met Openbook.
                         </div>
                         <div class="column is-12 has-text-centered">
                             <button class="button is-generic-social-media" @click="goToStep2()">
@@ -119,7 +119,7 @@
                                 </strong>
                             </div>
                             <span>
-                                The social network has now shared your information with the application.
+                                Het sociale netwerk heeft nu je data gedeeld met de applicatie.
                             </span>
                         </div>
                         <div class="column is-12 has-text-centered">
@@ -127,7 +127,7 @@
                                 <span class="icon is-small">
                                     <i class="fas fa-sync-alt"></i>
                                 </span>
-                                <span>  Restart example</span>
+                                <span> Voorbeeld herstarten</span>
                             </button>
                         </div>
                     </div>
