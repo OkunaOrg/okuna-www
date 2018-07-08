@@ -159,9 +159,11 @@ const router = new Router({
 
 router.beforeEach((to, from, next) => {
     document.title = to.meta.title;
-    console.log(to, from);
     let locale = to.params.locale;
-    if (!locale) {
+
+    if (!locale && to.name === 'manifesto') {
+        locale = to.path.split('/')[1];
+    } else if (!locale) {
         locale = navigator.language.substring(0,2);
     }
     setupi18n.loadLanguageAsync(locale).then(() => next())
