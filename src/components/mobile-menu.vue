@@ -227,6 +227,51 @@
                                 </div>
                             </div>
                         </router-link>
+                        <b-collapse
+                            class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item mobile-language-selection">
+                            <div class="columns is-mobile" slot="trigger" slot-scope="props">
+                                <div class="column is-3">
+                                    <div class="columns is-mobile is-centered is-vcentered">
+                                        <div class="column is-narrow">
+                                            <span class="icon">
+                                                <i class="fas fa-language"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span>Language</span>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="columns is-mobile is-centered is-vcentered">
+                                                <div class="column is-narrow">
+                                                    <span v-show="props.open === false"><i class="fas fa-chevron-right mobile-menu-item__chevron"></i></span>
+                                                    <span v-show="props.open === true"><i class="fas fa-chevron-down mobile-menu-item__chevron"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <ul class="content">
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'en' }" v-on:click="changeLocale('en')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">English <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'es' }" v-on:click="changeLocale('es')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Español <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'nl' }" v-on:click="changeLocale('nl')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Nederlands <i class="fas fa-check"></i></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </b-collapse>
                     </div>
                 </div>
             </div>
@@ -378,6 +423,26 @@
         }
     }
 
+    .mobile-language-selection {
+        .card-content {
+            padding: 0.5rem;
+            .columns {
+                margin: 0;
+            }
+        }
+
+        .active {
+            .fa-check {
+                display: inline-block;
+            }
+        }
+
+        .fa-check {
+            margin-left: 1em;
+            display: none;
+        }
+    }
+
 </style>
 
 <script>
@@ -393,7 +458,7 @@
         mounted() {
             const eventRemovers = [
                 events.onWantsToOpenMenu(this.onWantsToOpenMenu),
-                events.onWantsToCloseMenu(this.onWantsToCloseMenu)
+                events.onWantsToCloseMenu(this.onWantsToCloseMenu),
             ];
 
             this.removeAllEvents = () => {
@@ -420,6 +485,10 @@
             },
             closeMenu() {
                 this.isOpen = false;
+            },
+            changeLocale(locale) {
+                const path = this.$router.currentRoute.path.split('/')[2];
+                this.$router.push(`/${locale}/${path}`);
             }
         }
     }
