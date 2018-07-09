@@ -75,7 +75,6 @@
 
 
     .centered-box {
-        color: #f5f5f5;
         font-family: 'Lato', arial, sans-serif;
         text-transform: uppercase;
         font-size: 14px;
@@ -84,12 +83,7 @@
         display: block;
         letter-spacing: 2px;
         white-space: normal;
-        position: absolute;
         max-width: 100%;
-        left: 50%;
-        top: 50%;
-        -webkit-transform: translate(-50%, -50%);
-        transform: translate(-50%, -50%);
         z-index: 3
     }
 
@@ -310,7 +304,6 @@
         display: block;
         width: 6px;
         height: 20px;
-        background: #f0b2bc;
         position: absolute;
         top: 0;
         left: 50%;
