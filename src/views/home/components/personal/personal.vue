@@ -3,10 +3,18 @@
         <div class="container">
             <div class="columns is-mobile is-multiline">
                 <div class="content is-medium column is-12 padding-bottom-3x">
-                    <h3 class="has-text-shadow">Personal</h3>
-                    <p>
-                        Customize the network the way you want. Be different, be yourself!
-                    </p>
+                    <div class="columns">
+                        <div class="column is-6 is-paddingless">
+                            <div class="columns is-centered">
+                                <div class="column is-narrow personal-text">
+                                    <h3 class="has-text-shadow">Personal</h3>
+                                    <p>
+                                        Customize the network the way you want. Be different, be yourself!
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="column is-12">
                     <ob-customization-screenshots></ob-customization-screenshots>

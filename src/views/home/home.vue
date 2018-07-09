@@ -5,6 +5,7 @@
         <ob-privacy></ob-privacy>
         <ob-secure></ob-secure>
         <ob-easy></ob-easy>
+        <ob-fun></ob-fun>
         <ob-personal></ob-personal>
         <section class="hero is-white">
             <div class="hero-body has-text-centered">
@@ -71,9 +72,11 @@
     import ObPrivacy from "./components/privacy/privacy.vue";
     import ObSecure from "./components/secure/secure.vue";
     import ObEasy from "./components/easy/easy.vue";
+    import ObFun from "./components/fun/fun";
 
     export default {
         components: {
+            ObFun,
             ObEasy,
             ObSecure,
             ObPrivacy,
