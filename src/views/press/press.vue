@@ -8,11 +8,11 @@
                             <div class="columns is-centered has-padding-top-2x-mobile">
                                 <div class="column is-narrow">
                                     <h2 class="title is-size-2 contact-text has-text-centered-mobile">
-                                        We &nbsp;<span class="icon" style="color: #ff0000;"><i class="fas fa-heart"></i></span>
-                                        &nbsp;Press
+                                        {{ $t('press.we') }}  &nbsp;<span class="icon" style="color: #ff0000;"><i class="fas fa-heart"></i></span>
+                                        &nbsp;{{ $t('press.press') }}
                                     </h2>
                                     <h3 class="has-text-centered-mobile">
-                                        Today, and everyday.
+                                        {{ $t('press.today_everyday') }}
                                     </h3>
                                 </div>
                             </div>
@@ -32,39 +32,36 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <h2>
-                        Hi there!
+                        {{ $t('press.hi') }}
                     </h2>
-                    <p>
-                        We hope you find everything you need below.
-                        ​​If you have any questions, would like to schedule an interview or require extra material, feel free to contact Lambrecht Wessels at <a
-                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">lambrecht@open-book.org</a>.
+                    <p v-html="$t('press.any_questions')">
                     </p>
                     <p>
-                        We’re happy to help.
+                        {{ $t('press.happy_to_help') }}
                     </p>
                     <div class="padding-top-2x">
-                        <h2 class="title is-4 is-spaced is-margin-top-small">Jump to</h2>
+                        <h2 class="title is-4 is-spaced is-margin-top-small"> {{ $t('press.jump_to') }}</h2>
                     </div>
                     <br/>
                     <ul>
                         <li>
                             <a href="#presskits" v-scroll-to="'#presskits'">
-                                Press kit
+                                {{ $t('press.press_kit') }}
                             </a>
                         </li>
                         <li>
                             <a href="#newsroom" v-scroll-to="'#newsroom'">
-                                Newsroom
+                                {{ $t('press.newsroom') }}
                             </a>
                         </li>
                         <li>
                             <a href="#people" v-scroll-to="'#people'">
-                                People
+                                {{ $t('press.people') }}
                             </a>
                         </li>
                         <li>
                             <a href="#logos" v-scroll-to="'#logos'">
-                                Logos
+                                {{ $t('press.logos') }}
                             </a>
                         </li>
                     </ul>
@@ -75,10 +72,10 @@
             <div class="small-container">
                 <div class="content is-medium padding-bottom-3x">
                     <h4>
-                        Press kit
+                        {{ $t('press.press_kit') }}
                     </h4>
                     <p>
-                        Includes press releases, manifesto, bios, photos, vector logos, misc images and website photos.
+                        {{ $t('press.includes_everything') }}
                     </p>
                 </div>
                 <ob-press-kits></ob-press-kits>
@@ -88,13 +85,13 @@
             <div class="small-container">
                 <div class="content is-medium padding-bottom-3x">
                     <h4>
-                        Newsroom
+                        {{ $t('press.newsroom') }}
                     </h4>
                     <p>
-                        Home to our press releases.
+                        {{ $t('press.home_press') }}
                     </p>
                     <router-link class="button is-rainbow" to="newsroom">
-                        Go to newsroom
+                        {{ $t('press.go_to_newsroom') }}
                     </router-link>
                 </div>
             </div>
@@ -103,7 +100,7 @@
             <div class="small-container">
                 <div class="content is-medium padding-bottom-3x">
                     <h4>
-                        People
+                        {{ $t('press.people') }}
                     </h4>
                 </div>
                 <ob-press-people></ob-press-people>
@@ -113,7 +110,7 @@
             <div class="small-container">
                 <div class="content is-medium padding-bottom-3x">
                     <h4>
-                        Logos
+                        {{ $t('press.logos') }}
                     </h4>
                 </div>
                 <ob-logos></ob-logos>
@@ -122,9 +119,7 @@
         <section class="section" id="inquiries">
             <div class="small-container">
                 <div class="content is-medium">
-                    <p>
-                        Missing something? Contact <a
-                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">Lambrecht Wessels</a>.
+                    <p v-html="$t('press.missing_something')">
                     </p>
                 </div>
             </div>

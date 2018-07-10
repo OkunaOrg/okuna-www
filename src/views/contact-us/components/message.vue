@@ -3,14 +3,14 @@
         <form class="column is-12" @submit.prevent="onSubmit()">
             <div class="field padding-bottom-1x">
                 <label class="label" for="subject">
-                    Subject
+                    {{ $t('message.subject') }}
                 </label>
                 <div class="control">
                     <input
                         class="input is-medium"
                         v-validate="'required|min:5|max:64'"
                         type="text"
-                        placeholder="The reason you are contacting us"
+                        :placeholder="$t('message.reason_placeholder')"
                         id="subject"
                         v-model="subject"
                         name="subject">
@@ -23,7 +23,7 @@
             </div>
             <div class="field padding-bottom-1x">
                 <label class="label" for="email">
-                    Email
+                    {{ $t('message.email') }}
                 </label>
                 <div class="control">
                     <input class="input is-medium"
@@ -31,7 +31,7 @@
                            type="text"
                            id="email"
                            name="email"
-                           placeholder="The email we can reach you at"
+                           :placeholder="$t('message.email_placeholder')"
                            v-model="email">
                 </div>
                 <p class="help is-danger">
@@ -41,14 +41,14 @@
                 </p>
             </div>
             <div class="field padding-bottom-3x">
-                <label class="label" for="message">Message</label>
+                <label class="label" for="message"> {{ $t('message.user_message') }}</label>
                 <div class="field-body">
                     <div class="field">
                         <div class="control">
                             <textarea
                                 v-validate="'required|min:10|max:1000'"
                                 class="textarea is-medium"
-                                placeholder="What can we do for you?"
+                                :placeholder="$t('message.user_message_placeholder')"
                                 style="resize: none;"
                                 id="message"
                                 name="message"
@@ -69,55 +69,53 @@
                         <b-message type="is-info">
                             <div class="columns is-mobile is-multiline">
                                 <div class="column is-12">
-                                    We use <a href="https://www.google.com/recaptcha/intro/v3beta.html" target="_blank"
-                                              rel="noopener noreferrer">Google Recaptcha</a>
-                                    to prevent the abuse of this form.
+                                    <p v-html="$t('message.google_recaptcha_title')"></p>
                                     <br/>
-                                    Google collects information about you in order to "verify" you are human.
+                                    {{ $t('message.recaptcha_info') }}
                                     <br/>
                                     <br/>
-                                    This information includes
+                                    {{ $t('message.info_includes') }}
                                     <ul>
                                         <li>
-                                            Your IP, which can be used for determining your location and cross-referencing your identity with other sites you have visited.
+                                            {{ $t('message.info_ip_location') }}
                                         </li>
                                         <li>
-                                            All cookies placed by Google over the last 6 months.
+                                            {{ $t('message.info_cookies') }}
                                         </li>
                                         <li>
-                                            How many mouse clicks you’ve made (or touches if on a touch device).
+                                            {{ $t('message.info_mouse_clicks') }}
                                         </li>
                                         <li>
-                                            The CSS information of the page
+                                            {{ $t('message.info_css') }}
                                         </li>
                                         <li>
-                                            The date
+                                            {{ $t('message.info_date') }}
                                         </li>
                                         <li>
-                                            The language of your browser
+                                            {{ $t('message.info_browser_lang') }}
                                         </li>
                                         <li>
-                                            Any plugins you have installed on the browser
+                                            {{ $t('message.info_plugins') }}
                                         </li>
                                         <li>
-                                            The Javascript objects on the page
+                                            {{ $t('message.info_js') }}
                                         </li>
                                     </ul>
                                     <br/>
-                                    Do you authorize us to load Google Recaptcha and therefore allow Google to collect this information?
+                                    {{ $t('message.recaptcha_authorization') }}
                                 </div>
                                 <div class="column is-12">
                                     <button class="button is-warning is-large is-size-7-mobile is-size-6" @click="enableGoogleRecaptcha()" type="button" v-scroll-to="'#message-form'">
-                                        Yes, I authorize you to load Google Recaptcha
+                                        {{ $t('message.recaptcha_authorization_yes') }}
                                     </button>
                                 </div>
                                 <div class="column is-12">
-                                    or
+                                    {{ $t('message.or') }}
                                 </div>
                                 <div class="column is-12">
                                     <a :href="mailToLink"
                                        class="button is-success is-large is-size-7-mobile is-size-6">
-                                        No, send an e-mail to info@open-book.org
+                                        {{ $t('message.recaptcha_authorization_no') }}
                                     </a>
                                 </div>
                             </div>
@@ -132,20 +130,20 @@
                 </div>
                 <p class="help is-danger">
                     <span v-show="formWasSubmitted && !captchaVerified">
-                        Please tick this box
+                        {{ $t('message.tick_box') }}
                     </span>
                 </p>
             </div>
             <div class="field is-grouped is-grouped-right">
                 <p class="control">
                     <a class="button is-light" @click="clearAll()">
-                        Clear form
+                        {{ $t('message.clear_form') }}
                     </a>
                 </p>
                 <p class="control">
                     <button class="button is-rainbow" type="submit"
                             :disabled="(formWasSubmitted && !formIsValid) || submissionInProgress || !acceptedRecaptcha">
-                        Submit
+                        {{ $t('message.submit') }}
                     </button>
                 </p>
             </div>

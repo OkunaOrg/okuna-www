@@ -7,8 +7,8 @@
                         <div class="container">
                             <div class="navbar-brand">
                                 <div class="navbar-item">
-                                    <router-link to="home" class="navbar-item is-size-3">
-                                        <a href="#" class="footer-logo"></a><span class="footer-logo-separator"></span><strong>Open</strong>book
+                                    <router-link :to="'home'" class="navbar-item is-size-3">
+                                        <a href="#" class="footer-logo"></a><span class="footer-logo-separator"></span><span v-html="$t('global.openbook')"></span>
                                     </router-link>
                                 </div>
                             </div>
@@ -25,35 +25,35 @@
                             <div class="column is-narrow">
                                 <ul>
                                     <li>
-                                        <router-link to="home" class="navbar-item" active-class="is-active">Home</router-link>
+                                        <router-link :to="'home'" class="navbar-item" active-class="is-active">{{ $t('header.home') }}</router-link>
                                     </li>
                                     <li>
-                                        <router-link to="about-us" class="navbar-item" active-class="is-active">About us
+                                        <router-link :to="'about-us'" class="navbar-item" active-class="is-active">{{ $t('header.about_us') }}
                                         </router-link>
                                     </li>
                                     <li>
-                                        <router-link to="manifesto" class="navbar-item" active-class="is-active">Manifesto
+                                        <router-link :to="'manifesto'" class="navbar-item" active-class="is-active">{{ $t('header.manifesto') }}
                                         </router-link>
                                     </li>
                                     <li>
-                                        <router-link to="contact-us" class="navbar-item" active-class="is-active">Contact us
+                                        <router-link :to="'contact-us'" class="navbar-item" active-class="is-active">{{ $t('header.contact_us') }}
                                         </router-link>
                                     </li>
                                     <li>
-                                        <router-link to="jobs" class="navbar-item" active-class="is-active">Jobs</router-link>
+                                        <router-link :to="'jobs'" class="navbar-item" active-class="is-active">{{ $t('header.jobs') }}</router-link>
                                     </li>
                                     <li>
-                                        <router-link to="faq" class="navbar-item" active-class="is-active">FAQ</router-link>
+                                        <router-link :to="'faq'" class="navbar-item" active-class="is-active">{{ $t('header.faq') }}</router-link>
                                     </li>
                                 </ul>
                             </div>
                             <div class="column is-narrow">
                                 <ul>
                                     <li>
-                                        <router-link to="vulnerability-report" class="navbar-item" active-class="is-active">Report vulnerability</router-link>
+                                        <router-link :to="'vulnerability-report'" class="navbar-item" active-class="is-active">{{ $t('footer.report_vulnerability') }}</router-link>
                                     </li>
                                     <li>
-                                        <router-link to="press" class="navbar-item" active-class="is-active">Press
+                                        <router-link :to="'press'" class="navbar-item" active-class="is-active">{{ $t('header.press') }}
                                         </router-link>
                                     </li>
                                 </ul>
@@ -71,7 +71,7 @@
                                             </span>
                                         </div>
                                         <div class="column">
-                                            Twitter
+                                            {{ $t('footer.twitter') }}
                                         </div>
                                     </div>
                                 </a>
@@ -83,7 +83,7 @@
                                             </span>
                                         </div>
                                         <div class="column">
-                                            Github
+                                            {{ $t('footer.github') }}
                                         </div>
                                     </div>
                                 </a>
@@ -96,7 +96,7 @@
                                             </span>
                                         </div>
                                         <div class="column">
-                                            Reddit
+                                            {{ $t('footer.reddit') }}
                                         </div>
                                     </div>
                                 </a>
@@ -109,7 +109,7 @@
                                             </span>
                                         </div>
                                         <div class="column">
-                                            Gitter
+                                            {{ $t('footer.gitter') }}
                                         </div>
                                     </div>
                                 </a>
@@ -122,7 +122,7 @@
                                             </span>
                                         </div>
                                         <div class="column">
-                                            LinkedIn
+                                            {{ $t('footer.linked_in') }}
                                         </div>
                                     </div>
                                 </a>
@@ -134,7 +134,7 @@
                                         </div>
                                         <div class="column">
                                             <span>
-                                                Product Hunt
+                                                {{ $t('footer.product_hunt') }}
                                             </span>
                                         </div>
                                     </div>
@@ -146,7 +146,7 @@
                                             <span class="icon"><i class="fab fa-facebook-f"></i></span>
                                         </div>
                                         <div class="column">
-                                            Facebook
+                                            {{ $t('footer.facebook') }}
                                         </div>
                                     </div>
                                 </a>
@@ -163,21 +163,21 @@
                         <div class="level has-padding-2x">
                             <div class="level-left">
                                 <div class="content has-text-centered-mobile">
-                                    © Openbook | <a
+                                    ©  {{ $t('footer.the_ob_organization') }} | <a
                                     href="https://www.iubenda.com/privacy-policy/91224954"
-                                    class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank" rel="noopener noreferrer">Privacy policy</a>
+                                    class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank" rel="noopener noreferrer">{{ $t('footer.privacy_policy') }} </a>
                                 </div>
                             </div>
                             <div class="level-right">
                                 <div class="content made-in-europe">
                             <span>
-                                    Made with
+                                    {{ $t('footer.made_with') }}
                                 </span>
                                     <span class="icon" style="color: #ff0000;">
                                     <i class="fas fa-heart"></i>
                                 </span>
                                     <span>
-                                    in Europe &nbsp;
+                                     {{ $t('footer.in_europe') }}
                                     </span>
                                     <span class="icon is-medium" v-twemoji>🇪🇺</span>
                                 </div>

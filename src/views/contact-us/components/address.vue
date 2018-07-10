@@ -7,8 +7,8 @@
                 </span>
             </div>
             <div class="column is-10">
-                <strong>Name</strong><br/>
-                Openbook B.V.
+                <strong>{{ $t('address.name') }}</strong><br/>
+                {{ $t('address.ob_organization') }}
             </div>
             <div class="column is-2">
                 <span class="icon">
@@ -16,8 +16,8 @@
                 </span>
             </div>
             <div class="column is-10">
-                <strong>Address</strong><br/>
-                Bagijnestraat 25, 2511CK, The Hague, The Netherlands
+                <strong>{{ $t('address.address') }}</strong><br/>
+                {{ $t('address.ob_address') }}
             </div>
             <div class="column is-2">
                 <span class="icon">
@@ -25,9 +25,9 @@
                 </span>
             </div>
             <div class="column is-10">
-                <strong>Telephone</strong><br/>
+                <strong>{{ $t('address.telephone') }} </strong><br/>
                 <a href="tel:+31611604275">
-                    (+31) 611 60 4275
+                    {{ $t('address.telephone_no') }}
                 </a>
             </div>
             <div class="column is-2">
@@ -36,7 +36,7 @@
                 </span>
             </div>
             <div class="column is-10">
-                <strong>Email</strong><br/>
+                <strong>{{ $t('address.email') }}</strong><br/>
                 <a href="mailto:info@open-book.org">
                     info@open-book.org
                 </a>
@@ -47,7 +47,7 @@
                 </span>
             </div>
             <div class="column is-10">
-                <strong>Website</strong><br/>
+                <strong>{{ $t('address.website') }}</strong><br/>
                 <a href="https://www.open-book.org" target="_blank" rel="noopener noreferrer">
                     www.open-book.org
                 </a>

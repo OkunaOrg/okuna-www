@@ -8,10 +8,10 @@
                             <div class="columns is-centered is-vcentered is-mobile" style="height: 100%;">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
-                                            Jobs
+                                        {{ $t('jobs.title') }}
                                     </h1>
                                     <h2 class="title is-size-2 trust-text has-text-centered-mobile">
-                                        Work with us.
+                                        {{ $t('jobs.subtitle') }}
                                     </h2>
                                 </div>
                             </div>
@@ -31,20 +31,17 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <h4>
-                        We are embarking on one of the most exciting digital adventures ever and we are looking for talented people to sail with us!
+                        {{ $t('jobs.exciting_adventure') }}
                     </h4>
                     <p>
-                        We are looking for people with all kinds of skills. Technology, design, marketing, finance, media, you name it.
+                        {{ $t('jobs.all_skills') }}
+                    </p>
+                    <p v-html="$t('jobs.need_your_help')">
+                    </p>
+                    <p v-html="$t('jobs.send_cv')">
                     </p>
                     <p>
-                        If you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> and are talented at what you do, we need your help!
-                    </p>
-                    <p>
-                        Send us your CV to  <a
-                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.
-                    </p>
-                    <p>
-                        We look forward to meeting you !
+                        {{ $t('jobs.look_forward') }}
                     </p>
                 </div>
             </div>
@@ -55,11 +52,11 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                Who will you be working with?
+                                {{ $t('jobs.colleagues') }}
                             </h3>
                         </div>
                         <div class="column">
-                            <router-link to="about-us" class="button is-rainbow is-rounded is-medium">Meet the team</router-link>
+                            <router-link to="about-us" class="button is-rainbow is-rounded is-medium">{{ $t('jobs.meet_the_team') }} </router-link>
                         </div>
                     </div>
                 </div>

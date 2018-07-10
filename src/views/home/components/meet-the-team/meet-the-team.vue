@@ -4,8 +4,8 @@
             <div class="container">
                 <div class="columns is-centered is-vcentered">
                     <div class="column">
-                        <router-link to="about-us" class="button is-rounded is-medium is-rainbow">
-                            Meet the team
+                        <router-link to="about-us" class="button is-rounded is-rounded is-medium">
+                            {{ $t('meet_the_team.title') }}
                         </router-link>
                     </div>
                     <div class="column">
