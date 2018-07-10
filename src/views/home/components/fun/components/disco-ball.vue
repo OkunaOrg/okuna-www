@@ -9,6 +9,9 @@
 
 <style lang="scss">
 
+    // Disco ball from awesome Marty Saetre!
+    // https://codepen.io/msaetre/pen/fDuzC
+
     @-webkit-keyframes rotateDiscoBall {
         0% {-webkit-transform: rotateX(90deg) rotateZ(0deg) rotate(0deg); }
         100% {-webkit-transform: rotateX(90deg) rotateZ(360deg) rotate(0deg); }

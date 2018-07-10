@@ -1,5 +1,5 @@
 <template>
-    <div class>
+    <div class="ghost-container">
         <!-- Generator: Adobe Illustrator 22.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
         <svg class="ghost" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	 viewBox="0 0 127.4 132.7" enable-background="new 0 0 127.4 132.7" xml:space="preserve">
@@ -50,6 +50,9 @@
     // http://stackoverflow.com/users/935361/brian-phillips
     // http://stackoverflow.com/users/2642616/josh-powell
 
+    .ghost-container{
+        max-width: 130px;
+    }
 
     .ghost {
         animation: float 3s ease-out infinite;
