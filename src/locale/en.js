@@ -16,10 +16,9 @@ export const messages = {
             grandma: 'grandma',
             reddit: 'reddit',
             we_are_ob: 'We\'re <strong>Open</strong>book.',
-            kickstarter: 'An open source, zero tracking, zero spying, zero\n' +
-            '                                    ads, ethically designed, easy to migrate to,\n' +
-            '                                    social network <strong>soon on <span\n' +
-            '                                    style="color: #034752;">Kickstarter</span></strong>.',
+            kickstarter: 'The open source, privacy-friendly, fun and honest social\n' +
+            '    network making the world a better place, <strong>now on <span\n' +
+            '    style="color: #034752;">Kickstarter</span></strong>.',
             share: 'Share',
             notify_me: 'Notify me'
         },
@@ -108,7 +107,7 @@ export const messages = {
             joel_title: 'Founder, Chief Executive Officer',
             joel_desc: 'Privacy and security activist, software engineer, digital products designer, open sourcerer, The Next Web Top 500 young talent, human.',
             jaya_title: 'Chief Operating Officer',
-            jaya_desc: 'Globally recognized cyber-security expert, speaker on lawful interception, quantum-computing, counter surveillance and cryptography.',
+            jaya_desc: 'Globally recognized information-security expert, speaker on lawful interception, quantum-computing, counter surveillance and cryptography.',
             phil_title: 'Chief Cryptographer',
             phil_desc: 'Cryptography pioneer, creator of PGP, the most widely used email encryption software in the world, internet hall of fame member, privacy activist.',
             lambrecht_title: 'Chief Marketing Officer',
@@ -130,7 +129,7 @@ export const messages = {
         },
         address: {
             name: 'Name',
-            ob_organization: 'The Openbook Organization',
+            ob_organization: 'Openbook B.V',
             address: 'Address',
             ob_address: 'Bagijnestraat 25, 2511CK, The Hague, The Netherlands',
             telephone: 'Telephone',

@@ -206,7 +206,7 @@
                         2. Privacy and security.
                     </h3>
                     <p>
-                        Given our cyber security background, there is nothing we value more in a product than it's
+                        Given our information security background, there is nothing we value more in a product than it's
                         privacy
                         and security.
                     </p>

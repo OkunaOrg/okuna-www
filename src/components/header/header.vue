@@ -5,19 +5,19 @@
             <div class="container">
                 <div class="navbar-brand">
                     <router-link to="home" class="navbar-item is-size-4 has-text-primary">
-                        <span v-html="$t('global.openbook')"></span>
+                        <a href="#" class="header-logo"></a><span class="header-logo-separator"></span><span v-html="$t('global.openbook')"></span>
                     </router-link>
                     <ob-hamburger></ob-hamburger>
                 </div>
                 <div class="navbar-menu">
                     <div class="navbar-end header-links">
-                        <router-link :to="'home'" class="navbar-item" active-class="is-active">{{ $t('header.home') }}</router-link>
-                        <router-link :to="'about-us'" class="navbar-item" active-class="is-active">{{ $t('header.about_us') }}</router-link>
-                        <router-link :to="'manifesto'" class="navbar-item" active-class="is-active">{{ $t('header.manifesto') }}</router-link>
-                        <router-link :to="'contact-us'" class="navbar-item" active-class="is-active">{{ $t('header.contact_us') }}</router-link>
-                        <router-link :to="'jobs'" class="navbar-item" active-class="is-active">{{ $t('header.jobs') }}</router-link>
-                        <router-link :to="'faq'" class="navbar-item" active-class="is-active">{{ $t('header.faq') }}</router-link>
-                        <router-link :to="'press'" class="navbar-item" active-class="is-active">{{ $t('header.press') }}</router-link>
+                        <router-link :to="'home'" class="navbar-item" active-class="is-active is-active--home">{{ $t('header.home') }}</router-link>
+                        <router-link :to="'about-us'" class="navbar-item" active-class="is-active is-active--about-us">{{ $t('header.about_us') }}</router-link>
+                        <router-link :to="'manifesto'" class="navbar-item" active-class="is-active is-active--manifesto">{{ $t('header.manifesto') }}</router-link>
+                        <router-link :to="'contact-us'" class="navbar-item" active-class="is-active is-active--contact-us">{{ $t('header.contact_us') }}</router-link>
+                        <router-link :to="'jobs'" class="navbar-item" active-class="is-active is-active--jobs">{{ $t('header.jobs') }}</router-link>
+                        <router-link :to="'faq'" class="navbar-item" active-class="is-active is-active--faq">{{ $t('header.faq') }}</router-link>
+                        <router-link :to="'press'" class="navbar-item" active-class="is-active is-active--press">{{ $t('header.press') }}</router-link>
                     </div>
                 </div>
                 <div class="navbar-item select-language is-hidden-mobile">
