@@ -65,7 +65,7 @@
                 centerPadding: '5%',
                 slidesToShow: 3,
                 autoplay: true,
-                autoplaySpeed: 1200,
+                autoplaySpeed: 2500,
                 pauseOnFocus: false,
                 pauseOnHover: false,
                 draggable: false,

@@ -64,7 +64,6 @@
     }
 
     .disco-square {
-        -webkit-transform-style: preserve-3d;
         transform-style: preserve-3d;
         position: absolute;
         top: 50px;
@@ -73,6 +72,7 @@
         height: 6px;
         position: absolute;
         transform: rotateX(90deg) rotateY(0deg) translateZ(0px);
+
     }
 
     #discoBallMiddle {
@@ -80,10 +80,7 @@
         border-radius: 100%;
         background-color: #111;
         position: absolute;
-        background: -webkit-linear-gradient(top, #111, #333);
-        background: -moz-linear-gradient(top, #111, #333);
-        background: linear-gradient(top, #111, #333);
-        -webkit-animation: rotateDiscoBallMiddle 18s linear infinite;
+        background: linear-gradient(to top, #111, #333);
         animation: rotateDiscoBallMiddle 18s linear infinite;
     }
 </style>
