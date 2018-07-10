@@ -44,19 +44,6 @@
 
 <style lang="scss">
 
-
-    ::-moz-selection {
-        background: #0a0a0a;
-        color: #FFF
-    }
-
-    ::selection {
-        background: #0a0a0a;
-        color: #FFF
-    }
-
-
-
     .tekst {
         color: #32413d;
         font-family: 'Lato', arial, sans-serif;
