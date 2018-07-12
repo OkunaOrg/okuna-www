@@ -34,12 +34,12 @@
 </style>
 
 <script>
-    import blackScreenshot from './assets/black.png';
-    import blueScreenshot from './assets/blue.png';
-    import pinkScreenshot from './assets/pink.png';
-    import purpleScreenshot from './assets/purple.png';
-    import yellowScreenshot from './assets/yellow.png';
-    import whiteScreenshot from './assets/white.png';
+    import blackScreenshot from './assets/black-min.png';
+    import blueScreenshot from './assets/blue-min.png';
+    import pinkScreenshot from './assets/pink-min.png';
+    import purpleScreenshot from './assets/purple-min.png';
+    import yellowScreenshot from './assets/yellow-min.png';
+    import whiteScreenshot from './assets/white-min.png';
     import jquery from 'jquery';
 
     export default {
