@@ -8,6 +8,45 @@ export const messages = {
             read_manifesto: 'Read our manifesto',
             featured_in: 'As featured in'
         },
+        honesty : {
+            title: 'Honest',
+            description: 'All the code is open-source, so free for anyone to see, modify and reproduce. No room for unpleasant surprises.'
+        },
+        privacy : {
+            title: 'Privacy-friendly',
+            description: 'We don\'t monitor nor track anything you do. Surf the network with absolute peace of mind!'
+        },
+        secure : {
+            title: 'Secure',
+            description: 'With a tough and strict security policy, we make sure your data doesn\'t fall into the wrong hands.'
+        },
+        easy : {
+            title: 'Easy-peasy',
+            description: 'Simple to use, even more to move into. Just drag-and-drop your old social media archive into Openbook and import all your photos, videos, chats and more!'
+        },
+        fun : {
+            title: 'Fun!',
+            description: 'We\'re bringing back the social in social network, giving interaction with your peers meaning again.'
+        },
+        personal : {
+            title: 'Personal',
+            description: 'Customize the network the way you want. Be different, be yourself!'
+        },
+        good_for_planet : {
+            title: 'Good for the planet',
+            description: 'In partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, we\'ll be giving 30% of our revenue towards projects for education, sanitization, climate change prevention and more.'
+        },
+        quotes : {
+            joel_name: 'Joel Hernández',
+            joel_title: 'Founder of Openbook',
+            joel_quote: 'Openbook is not only an evolutionary step for social networks in every regard, it\'s also a humanitarian project at world scale.',
+            vincent_name: 'Vincent Ruijter',
+            vincent_title: 'Ethical Hacker',
+            vincent_quote: 'With current networks growing bigger and bigger every day, Openbook might be the last real chance to build something different, something ethical, something better.',
+            phil_name: 'Phil Zimmermann',
+            phil_title: 'Privacy expert / Creator of PGP',
+            phil_quote: 'The natural flow of technology tends to move in the direction of making surveillance easier, and the ability of computers to track us doubles every eighteen months. Openbook challenges this.'
+        },
         splash_hero: {
             hello_world: 'Hello <span id="hello-subject">world!</span>',
             world: 'world',
