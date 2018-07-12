@@ -7,6 +7,7 @@
         <ob-easy></ob-easy>
         <ob-fun></ob-fun>
         <ob-personal></ob-personal>
+        <ob-good-for-planet></ob-good-for-planet>
         <section class="hero is-white">
             <div class="hero-body has-text-centered">
                 <div class="container">
@@ -26,14 +27,11 @@
             </div>
         </section>
         <section class="section">
-
-        </section>
-        <ob-meet-the-team></ob-meet-the-team>
-        <section class="section">
             <div class="container">
                 <ob-quotes></ob-quotes>
             </div>
         </section>
+        <ob-meet-the-team></ob-meet-the-team>
         <section class="section">
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
@@ -73,9 +71,11 @@
     import ObSecure from "./components/secure/secure.vue";
     import ObEasy from "./components/easy/easy.vue";
     import ObFun from "./components/fun/fun";
+    import ObGoodForPlanet from "./components/good-for-planet/good-for-planet";
 
     export default {
         components: {
+            ObGoodForPlanet,
             ObFun,
             ObEasy,
             ObSecure,
