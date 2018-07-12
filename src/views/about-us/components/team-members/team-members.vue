@@ -16,6 +16,8 @@
     import basPhoto from './assets/bas-min.jpg';
     import lambrechtPhoto from './assets/lambrecht-min.jpeg';
     import shantanuPhoto from './assets/shantanu-min.jpg';
+    import nathaliePhoto from './assets/nathalie-min.png';
+    import robinPhoto from './assets/robin-min.png';
 
 
     export default {
@@ -100,6 +102,24 @@
                         description: this.$t('team_members.shantanu_desc'),
                     },
                     {
+                        name: 'Nathalie Lokhorst',
+                        position: this.$t('team_members.nathalie_title'),
+                        photo: nathaliePhoto,
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/nathalie-lokhorst-1788069/'
+                        },
+                        description: this.$t('team_members.nathalie_desc')
+                    },
+                    {
+                        name: 'Robin Roosdorp',
+                        position: this.$t('team_members.robin_title'),
+                        photo: robinPhoto,
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/robin-roosdorp/'
+                        },
+                        description: this.$t('team_members.robin_desc')
+                    },
+                    {
                         name: 'Martijn Jansen',
                         position: this.$t('team_members.martijn_title'),
                         photo: martijnPhoto,
@@ -107,7 +127,7 @@
                             linkedin: 'https://www.linkedin.com/in/martijn-jansen-7b0218a/'
                         },
                         description: this.$t('team_members.martijn_desc')
-                    },
+                    }
                 ]
             }
         }

@@ -155,8 +155,12 @@ export const messages = {
             vincent_desc: 'Ethical hacker, reverse-engineer, exploit developer, speaker, does not like the word cyber, cyber expert.',
             bas_title:  'UI/UX Ethical Designer',
             bas_desc: 'Advocate of useful and meaningful products, user experience wizard, worked with numerous international brands, researcher, hardware hacker.',
-            shantanu_title: 'Software Engineer',
+            shantanu_title: 'Product and Engineering',
             shantanu_desc: 'Pragmatic software engineer, product guy, crypto-geek, bot-maker, simplicity advocate.',
+            nathalie_title: 'Project Manager',
+            nathalie_desc: 'Master planner, personification of optimism, want to get things done? Call Nathalie. ',
+            robin_title: 'Communications Officer',
+            robin_desc: 'Content marketing magician, The Next Web top 500, beach lover, hates being disrupted by routine, loves life outside the comfort zone.',
             martijn_title: 'Software Engineer',
             martijn_desc: 'Practical software engineer, JavaScript guru, wearable tech geek, gamer, coolness officer in charge.'
         },
