@@ -12,9 +12,8 @@
                 <div class="column">
                     <div class="columns is-vcentered is-centered">
                         <div class="column is-narrow content is-medium good-for-planet-text">
-                            <h3>Good for the planet</h3>
-                            <p>
-                                In partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, we'll be giving 30% of our revenue towards projects for education, sanitization, climate change prevention and more.
+                            <h3>{{ $t('good_for_planet.title') }}</h3>
+                            <p v-html="$t('good_for_planet.description')">
                             </p>
                         </div>
                     </div>

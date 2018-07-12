@@ -12,9 +12,9 @@
                 <div class="column">
                     <div class="columns is-vcentered is-mobile">
                         <div class="column content is-medium honesty-text">
-                            <h3>Honest</h3>
+                            <h3>{{ $t('honesty.title') }} </h3>
                             <p>
-                                All the code is open-source, so free for anyone to see, modify and reproduce. No room for unpleasant surprises.
+                                {{ $t('honesty.description') }}
                             </p>
                         </div>
                     </div>

@@ -5,9 +5,9 @@
                 <div class="column">
                     <div class="columns is-vcentered is-centered is-height-100">
                         <div class="column is-narrow content is-medium easy-text">
-                            <h3>Easy-peasy</h3>
+                            <h3>{{ $t('easy.title') }}</h3>
                             <p>
-                                Simple to use, even more to move into. Just drag-and-drop your old social media archive into Openbook and import all your photos, videos, chats and more!
+                                {{ $t('easy.description') }}
                             </p>
                         </div>
                     </div>

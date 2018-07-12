@@ -13,12 +13,12 @@
                     <div class="media-content">
                         <div class="content">
                             <p>
-                                <strong>Joel Hernández</strong>
+                                <strong>{{ $t('quotes.joel_name') }}</strong>
                                 <br>
-                                <small class="quote-box-occupation">Founder of Openbook</small>
+                                <small class="quote-box-occupation">{{ $t('quotes.joel_title') }}</small>
                                 <br>
                                 <span class="quote-box-content">
-                                    Openbook is not only an evolutionary step for social networks in every regard, it's also a humanitarian project at world scale.
+                                    {{ $t('quotes.joel_quote') }}
                                 </span>
                             </p>
                         </div>
@@ -39,12 +39,12 @@
                     <div class="media-content">
                         <div class="content">
                             <p>
-                                <strong>Vincent Ruijter</strong>
+                                <strong>{{ $t('quotes.vincent_name') }}</strong>
                                 <br>
-                                <small class="quote-box-occupation">Ethical Hacker</small>
+                                <small class="quote-box-occupation">{{ $t('quotes.vincent_title') }}</small>
                                 <br>
                                 <span class="quote-box-content">
-                                With current networks growing bigger and bigger every day, Openbook might be the last real chance to build something different, something ethical, something better.
+                                    {{ $t('quotes.vincent_quote') }}
                                 </span>
                             </p>
                         </div>
@@ -65,14 +65,15 @@
                     <div class="media-content">
                         <div class="content">
                             <p>
-                                <strong>Phil Zimmermann</strong>
+                                <strong>{{ $t('quotes.phil_name') }}</strong>
                                 <br>
                                 <small class="quote-box-occupation">
-                                    Privacy expert / Creator of PGP
+                                    {{ $t('quotes.phil_title') }}
                                 </small>
                                 <br>
                                 <span class="quote-box-content">
-The natural flow of technology tends to move in the direction of making surveillance easier, and the ability of computers to track us doubles every eighteen months. Openbook challenges this.                                </span>
+                                     {{ $t('quotes.phil_quote') }}
+                                </span>
                             </p>
                         </div>
                     </div>

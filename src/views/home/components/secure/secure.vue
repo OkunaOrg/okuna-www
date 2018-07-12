@@ -13,9 +13,9 @@
                     <div class="column">
                         <div class="columns is-vcentered is-mobile is-height-100">
                             <div class="column content is-medium secure-text">
-                                <h3>Secure</h3>
+                                <h3>{{ $t('secure.title') }}</h3>
                                 <p>
-                                    With a tough and strict security policy, we make sure your data doesn't fall into the wrong hands.
+                                    {{ $t('secure.description') }}
                                 </p>
                             </div>
                         </div>

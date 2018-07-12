@@ -7,9 +7,9 @@
                         <div class="column is-6">
                             <div class="columns is-centered">
                                 <div class="column is-narrow personal-text">
-                                    <h3 class="has-text-shadow">Personal</h3>
+                                    <h3 class="has-text-shadow">{{ $t('personal.title') }}</h3>
                                     <p>
-                                        Customize the network the way you want. Be different, be yourself!
+                                        {{ $t('personal.description') }}
                                     </p>
                                 </div>
                             </div>

@@ -13,10 +13,9 @@
                     <div class="column">
                         <div class="columns is-vcentered is-mobile is-height-100">
                             <div class="column content is-medium fun-text">
-                                <h3>Fun!</h3>
+                                <h3>{{ $t('fun.title') }}</h3>
                                 <p>
-                                    We're bringing back the social in social network, giving interaction with your peers
-                                    meaning again.
+                                    {{ $t('fun.description') }}
                                 </p>
                             </div>
                         </div>
