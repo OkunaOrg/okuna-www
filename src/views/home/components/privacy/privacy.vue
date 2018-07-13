@@ -15,7 +15,7 @@
                 <div class="column has-padding-top-2x-mobile">
                     <div class="columns is-centered is-vcentered is-height-100 is-mobile">
                         <div class="column is-narrow">
-                            <ob-heart></ob-heart>
+                            <ob-ghost></ob-ghost>
                         </div>
                     </div>
                 </div>
@@ -32,16 +32,16 @@
         }
     }
 
-    .privacy-heart {
+    .privacy-ghost {
 
     }
 </style>
 
 <script>
-    import ObHeart from "./components/heart";
+    import ObGhost from "./components/ghost";
 
     export default {
-        components: {ObHeart},
+        components: {ObGhost},
         name: 'ob-privacy'
     }
 </script>

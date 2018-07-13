@@ -93,6 +93,6 @@
 
 <script>
     export default {
-        name: 'ob-heart'
+        name: 'ob-ghost'
     }
 </script>
