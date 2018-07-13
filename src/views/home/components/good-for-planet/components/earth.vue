@@ -6,7 +6,7 @@
 
 <style lang="scss">
     .earth-gif{
-        height: 200px !important;
+        height: 140px !important;
         width: auto !important;
         border-radius: 50%;
     }
@@ -14,7 +14,7 @@
 
 
 <script>
-    import earthGif from './spinningworld.gif';
+    import earthGif from './earth-drawing.png';
     export default {
         name: 'ob-earth',
         data(){

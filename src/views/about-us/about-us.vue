@@ -19,8 +19,8 @@
                         <div class="column about-us-header-gif">
                             <div class="columns is-centered is-vcentered is-mobile padding-bottom-2x-mobile">
                                 <div class="column is-narrow">
-                                    <figure class="image trust-gif">
-                                        <img class="is-rounded is-square trust-gif__img" :src="spinningWorldImg">
+                                    <figure class="image about-us-gif">
+                                        <img class="is-rounded is-square about-us-gif__img" :src="spinningWorldImg">
                                     </figure>
                                 </div>
                             </div>
@@ -152,14 +152,14 @@
         }
     }
 
-    .trust-gif {
+    .about-us-gif {
         position: relative;
         display: flex !important;
         align-items: center;
         justify-content: center;
 
         &__img {
-            max-width: 50%;
+            max-width: 200px;
             height: auto;
         }
     }
@@ -174,7 +174,7 @@
 <script>
     import ObTeamMembers from "./components/team-members/team-members";
     import ObAmbassadors from "./components/ambassadors/ambassadors.vue";
-    import spinningWorldImg from './../home/components/good-for-planet/components/spinningworld.gif';
+    import spinningWorldImg from './../home/components/good-for-planet/components/earth-drawing.png';
 
     export default {
         components: {
