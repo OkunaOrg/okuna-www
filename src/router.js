@@ -18,58 +18,63 @@ const press = () => import('./views/press/press.vue');
 const newsroom = () => import('./views/newsroom/newsroom.vue');
 const vulnerabilityReport = () => import('./views/vulnerability-report/vulnerability-report.vue');
 
+const browserLang = 'en'; //navigator.language.substring(0,2);
 
 const router = new Router({
     mode: 'history',
     routes: [
         {
             path: '/',
-            redirect: `/${navigator.language.substring(0,2)}/home`
+            redirect: `/${browserLang}/home`
         },
         {
             path: '/about-us',
-            redirect: `/${navigator.language.substring(0,2)}/about-us`
+            redirect: `/${browserLang}/about-us`
         },
         {
             path: '/home',
-            redirect: `/${navigator.language.substring(0,2)}/home`
+            redirect: `/${browserLang}/home`
         },
         {
             path: '/contact-us',
-            redirect: `/${navigator.language.substring(0,2)}/contact-us`
+            redirect: `/${browserLang}/contact-us`
         },
         {
             path: '/faq',
-            redirect: `/${navigator.language.substring(0,2)}/faq`
+            redirect: `/${browserLang}/faq`
         },
         {
             path: '/jobs',
-            redirect: `/${navigator.language.substring(0,2)}/jobs`
+            redirect: `/${browserLang}/jobs`
         },
         {
-            path: '/en/manifesto',
-            name: 'manifesto',
-            component: manifesto_en,
-            meta: {
-                title: 'Manifesto | Openbook social network'
-            }
+            path: '/manifesto',
+            redirect: `/${browserLang}/manifesto`
         },
-        {
-            path: '/nl/manifesto',
-            name: 'manifesto',
-            component: manifesto_nl,
-            meta: {
-                title: 'Manifesto | Openbook social network'
-            }
-        },
-        {
-            path: '/es/manifesto',
-            name: 'manifesto',
-            component: manifesto_es,
-            meta: {
-                title: 'Manifesto | Openbook social network'
-            }
-        },
+        // {
+        //     path: '/en/manifesto',
+        //     name: 'manifesto',
+        //     component: manifesto_en,
+        //     meta: {
+        //         title: 'Manifesto | Openbook social network'
+        //     }
+        // },
+        // {
+        //     path: '/nl/manifesto',
+        //     name: 'manifesto',
+        //     component: manifesto_nl,
+        //     meta: {
+        //         title: 'Manifesto | Openbook social network'
+        //     }
+        // },
+        // {
+        //     path: '/es/manifesto',
+        //     name: 'manifesto',
+        //     component: manifesto_es,
+        //     meta: {
+        //         title: 'Manifesto | Openbook social network'
+        //     }
+        // },
         {
             path: '/press',
             redirect: `/${navigator.language.substring(0,2)}/press`
@@ -142,6 +147,15 @@ const router = new Router({
                         title: 'Report vulnerability | Openbook social network'
                     }
                 },
+                // Remove this when enabling localisation
+                {
+                    path: 'manifesto',
+                    name: 'manifesto',
+                    component: manifesto_en,
+                    meta: {
+                        title: 'Manifesto | Openbook social network'
+                    }
+                },
                 // {
                 //     path: '/',
                 //     redirect: `/${navigator.language.substring(0,2)}/home`
@@ -166,7 +180,11 @@ router.beforeEach((to, from, next) => {
     } else if (!locale) {
         locale = navigator.language.substring(0,2);
     }
-    setupi18n.loadLanguageAsync(locale).then(() => next())
+    if (locale !== 'en') {
+        router.replace({name: to.name, params: {locale: 'en'}});
+    } else {
+        setupi18n.loadLanguageAsync(locale).then(() => next())
+    }
 });
 
 export default router;
