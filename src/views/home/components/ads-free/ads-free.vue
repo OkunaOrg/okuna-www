@@ -15,7 +15,7 @@
                 <div class="column has-padding-top-2x-mobile">
                     <div class="columns is-centered is-vcentered is-height-100 is-mobile">
                         <div class="column is-narrow">
-                            <ob-heart></ob-heart>
+                            <ob-sunglasses></ob-sunglasses>
                         </div>
                     </div>
                 </div>
@@ -32,16 +32,13 @@
         }
     }
 
-    .ads-free-heart {
-
-    }
 </style>
 
 <script>
-    import ObHeart from "./components/heart";
+    import ObSunglasses from "./components/sunglasses";
 
     export default {
-        components: {ObHeart},
+        components: {ObSunglasses},
         name: 'ob-ads-free'
     }
 </script>
