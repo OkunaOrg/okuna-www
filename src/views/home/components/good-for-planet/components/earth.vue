@@ -14,7 +14,7 @@
 
 
 <script>
-    import earthGif from './spinningworld.gif';
+    import earthGif from './earth-drawing.png';
     export default {
         name: 'ob-earth',
         data(){
