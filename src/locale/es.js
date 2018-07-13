@@ -55,10 +55,9 @@ export const messages = {
             grandma: 'grandma',
             reddit: 'reddit',
             we_are_ob: 'We\'re <strong>Open</strong>book.',
-            kickstarter: 'An open source, zero tracking, zero spying, zero\n' +
-            '                                    ads, ethically designed, easy to migrate to,\n' +
-            '                                    social network <strong>soon on <span\n' +
-            '                                    style="color: #034752;">Kickstarter</span></strong>.',
+            kickstarter: 'The open source, privacy-friendly, fun and honest social\n' +
+            '    network helping make the world a better place, <strong>soon on <span\n' +
+            '    style="color: #034752;">Kickstarter</span></strong>.',
             share: 'Share',
             notify_me: 'Notify me'
         },
