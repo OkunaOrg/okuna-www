@@ -22,7 +22,7 @@
                                 <a class="button is-rainbow is-rounded is-medium is-size-6-mobile" target="_blank"
                                    rel="noopener noreferrer" href="http://eepurl.com/dvRRmD">
                                     <span class="icon">
-                                        <i class="fab fa-kickstarter-k"></i>
+                                        <i class="fas fa-bell"></i>
                                     </span>
                                     <span>
                                         {{$t('splash_hero.notify_me')}}
