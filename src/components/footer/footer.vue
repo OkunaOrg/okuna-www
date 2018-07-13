@@ -198,7 +198,7 @@
     }
 
     .footer-logo {
-        background-image: url('../assets/openbook-logo.svg');
+        background-image: url('../assets/openbook-logo-new.png');
         background-size: 40px 40px;
         background-repeat: no-repeat;
         background-position: center center;

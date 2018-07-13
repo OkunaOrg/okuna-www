@@ -22,19 +22,19 @@
 								<use xlink:href="#SVGID_3_"  overflow="visible"/>
 							</clipPath>
 							<g clip-path="url(#SVGID_4_)">
-								
+
 									<rect x="-86.7" y="159.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -80.0021 178.9933)" fill="#5BC855" width="525.5" height="53.5"/>
-								
+
 									<rect x="-124.4" y="121.6" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -64.3631 141.2962)" fill="#66CCCC" width="525.5" height="53.5"/>
-								
+
 									<rect x="-48.9" y="197.1" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -95.6581 216.7905)" fill="#C1DC00" width="525.5" height="53.5"/>
-								
+
 									<rect x="-11.1" y="234.9" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -111.3142 254.5875)" fill="#FFDD00" width="525.5" height="53.5"/>
-								
+
 									<rect x="26.7" y="272.7" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -126.9703 292.3846)" fill="#FBBA00" width="525.5" height="53.5"/>
-								
+
 									<rect x="64.5" y="310.5" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -142.6263 330.1817)" fill="#F18700" width="525.5" height="53.5"/>
-								
+
 									<rect x="102.3" y="348.3" transform="matrix(0.7071 -0.7071 0.7071 0.7071 -158.2824 367.9788)" fill="#FF6699" width="525.5" height="53.5"/>
 							</g>
 						</g>
