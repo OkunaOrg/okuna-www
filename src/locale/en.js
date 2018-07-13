@@ -60,7 +60,7 @@ export const messages = {
             reddit: 'reddit',
             we_are_ob: 'We\'re <strong>Open</strong>book.',
             kickstarter: 'The open source, privacy-friendly, fun and honest social\n' +
-            '    network making the world a better place, <strong>now on <span\n' +
+            '    network making the world a better place, <strong>soon on <span\n' +
             '    style="color: #034752;">Kickstarter</span></strong>.',
             share: 'Share',
             notify_me: 'Notify me'
