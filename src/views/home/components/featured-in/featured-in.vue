@@ -35,6 +35,7 @@
     .featured-in {
         .column {
             display: flex;
+            justify-content: center;
         }
     }
 
