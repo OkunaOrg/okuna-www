@@ -179,6 +179,7 @@
                                     <span>
                                      {{ $t('footer.in_europe') }}
                                     </span>
+                                    &nbsp;
                                     <span class="icon is-medium" v-twemoji>🇪🇺</span>
                                 </div>
                             </div>

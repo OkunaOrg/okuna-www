@@ -123,8 +123,8 @@ export const messages = {
             facebook: 'Facebook',
             the_ob_organization: 'The Openbook Organization',
             privacy_policy: 'Privacy Policy',
-            made_with: 'Made with',
-            in_europe: 'in Europe'
+            made_with: 'Made with ',
+            in_europe: ' in Europe'
         },
         about_us: {
             title: 'About us',
