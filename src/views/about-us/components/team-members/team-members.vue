@@ -16,6 +16,8 @@
     import basPhoto from './assets/bas-min.jpg';
     import lambrechtPhoto from './assets/lambrecht-min.jpeg';
     import shantanuPhoto from './assets/shantanu-min.jpg';
+    import nathaliePhoto from './assets/nathalie-min.png';
+    import robinPhoto from './assets/robin-min.png';
 
 
     export default {
@@ -26,7 +28,7 @@
                 teamMembers: [
                     {
                         name: 'Joel Hernández',
-                        position: 'Founder, Chief Executive Officer',
+                        position: this.$t('team_members.joel_title'),
                         photo: joelPhoto,
                         links: {
                             website: 'https://www.lifenautjoe.com',
@@ -35,11 +37,11 @@
                             linkedin: 'https://www.linkedin.com/in/lifenautjoe',
                             twitter: 'https://twitter.com/lifenautjoe'
                         },
-                        description: 'Privacy and security activist, software engineer, digital products designer, open sourcerer, The Next Web Top 500 young talent, human.'
+                        description: this.$t('team_members.joel_desc')
                     },
                     {
                         name: 'Jaya Baloo',
-                        position: 'Chief Operating Officer',
+                        position: this.$t('team_members.jaya_title'),
                         photo: jayaPhoto,
                         links: {
                             website: 'https://singularityuthenetherlands.org/people/jaya-baloo/',
@@ -47,23 +49,23 @@
                             twitter: 'https://twitter.com/jayabaloo?lang=nl'
                         },
                         headline: 'Cyber-security expert',
-                        description: 'Globally recognized cyber-security expert, speaker on lawful interception, quantum-computing, counter surveillance and cryptography.'
+                        description: this.$t('team_members.jaya_desc')
                     },
                     {
                         name: 'Phillip Zimmermann',
-                        position: 'Chief Cryptographer',
+                        position: this.$t('team_members.phil_title'),
                         photo: philPhoto,
                         links: {
                             website: 'https://en.wikipedia.org/wiki/Phil_Zimmermann'
                         },
                         headline: 'Cryptography pioneer',
-                        description: 'Cryptography pioneer, creator of PGP, the most widely used email encryption software in the world, internet hall of fame member, privacy activist.'
+                        description: this.$t('team_members.phil_desc')
                     },
                     {
                         name: 'Lambrecht Wessels',
                         photo: lambrechtPhoto,
-                        position: 'Chief Marketing Officer',
-                        description: 'Security and international relations expert, conflict analyst, peace-builder, media researcher & producer, human rights activist.',
+                        position: this.$t('team_members.lambrecht_title'),
+                        description: this.$t('team_members.lambrecht_desc'),
                         links: {
                             linkedin: 'https://www.linkedin.com/in/lambrechtwessels/',
                             twitter: 'https://twitter.com/lambrechtw?lang=en'
@@ -71,43 +73,61 @@
                     },
                     {
                         name: 'Vincent Ruijter',
-                        position: 'Security Engineer',
+                        position: this.$t('team_members.vincent_title'),
                         photo: vincentPhoto,
                         links: {
                             github: 'https://github.com/evict',
                             linkedin: 'https://www.linkedin.com/in/vincent-ruijter-97783215/',
                             twitter: 'https://twitter.com/_evict'
                         },
-                        description: 'Ethical hacker, reverse-engineer, exploit developer, speaker, does not like the word cyber, cyber expert.'
+                        description:  this.$t('team_members.vincent_desc'),
                     },
                     {
                         name: 'Bas Roemburg',
-                        position: 'UI/UX Ethical Designer',
+                        position: this.$t('team_members.bas_title'),
                         photo: basPhoto,
                         links: {
                             github: 'https://github.com/roemburg'
                         },
-                        description: ' Advocate of useful and meaningful products, user experience wizard, worked with numerous international brands, researcher, hardware hacker.'
+                        description: this.$t('team_members.bas_desc'),
                     },
                     {
                         name: 'Shantanu Tarey',
-                        position: 'Software Engineer',
+                        position: this.$t('team_members.shantanu_title'),
                         photo: shantanuPhoto,
                         links: {
                             linkedin: 'https://www.linkedin.com/in/shantanutarey/',
                             twitter: 'https://twitter.com/shantanutarey'
                         },
-                        description: 'Pragmatic software engineer, product guy, crypto-geek, bot-maker, simplicity advocate.'
+                        description: this.$t('team_members.shantanu_desc'),
+                    },
+                    {
+                        name: 'Nathalie Lokhorst',
+                        position: this.$t('team_members.nathalie_title'),
+                        photo: nathaliePhoto,
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/nathalie-lokhorst-1788069/'
+                        },
+                        description: this.$t('team_members.nathalie_desc')
+                    },
+                    {
+                        name: 'Robin Roosdorp',
+                        position: this.$t('team_members.robin_title'),
+                        photo: robinPhoto,
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/robin-roosdorp/'
+                        },
+                        description: this.$t('team_members.robin_desc')
                     },
                     {
                         name: 'Martijn Jansen',
-                        position: 'Software Engineer',
+                        position: this.$t('team_members.martijn_title'),
                         photo: martijnPhoto,
                         links: {
                             linkedin: 'https://www.linkedin.com/in/martijn-jansen-7b0218a/'
                         },
-                        description: 'Practical software engineer, JavaScript guru, wearable tech geek, gamer, coolness officer in charge.'
-                    },
+                        description: this.$t('team_members.martijn_desc')
+                    }
                 ]
             }
         }

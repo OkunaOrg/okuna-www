@@ -9,7 +9,9 @@
 <script>
     import isaacPhoto from './assets/isaac.jpg';
     import rubenPhoto from './assets/ruben.jpg';
+    import edwinPhoto from './assets/edwin.png';
     import ObAmbassador from './components/ambassador.vue';
+
 
     export default {
         components: {ObAmbassador},
@@ -37,6 +39,16 @@
                             linkedin: 'https://www.linkedin.com/in/rubenvanvreeland/'
                         },
                         description: 'CEO & Co-Founder of BitSensor, cyber-security software.'
+                    },
+                    {
+                        name: 'Edwin van Andel',
+                        photo: edwinPhoto,
+                        links: {
+                            website: 'https://www.zerocopter.nl',
+                            twitter: 'https://twitter.com/yafsec',
+                            linkedin: 'https://www.linkedin.com/in/yafsec/'
+                        },
+                        description: 'CEO at Zerocopter, international speaker, experienced security expert.'
                     }
                 ]
             }

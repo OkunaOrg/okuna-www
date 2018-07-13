@@ -169,7 +169,9 @@
         top: 38px;
         left: 50px;
         border-radius: 6px;
-        background: #690ddc;
+        background: linear-gradient(124deg, #009dac, #5bc855, #c1dc00, #eccd00, #fbba00, #f95ca3);
+        background-size: 1800% 1800%;
+        animation: rainbow 10s ease infinite;
     }
     .dog .ORlaptop .ORscreen::after {
         display: block;
@@ -180,7 +182,9 @@
         top: 21px;
         left: 64px;
         border-radius: 6px;
-        background: #690ddc;
+        background: linear-gradient(124deg, #009dac, #5bc855, #c1dc00, #eccd00, #fbba00, #f95ca3);
+        background-size: 1800% 1800%;
+        animation: rainbow 10s ease infinite;
     }
     .dog .ORlaptop .ORkeyboard {
         height: 12px;

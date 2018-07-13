@@ -30,6 +30,12 @@
     }
 }
 
+.padding-top-4x-mobile {
+    @media(max-width: 768px) {
+        padding-top: 4rem !important;
+    }
+}
+
 img .is-rounded {
     border-radius: 50%;
 }
@@ -47,6 +53,10 @@ img .is-rounded {
     }
 }
 
+.has-text-shadow {
+    //text-shadow: 0px 0px 5px rgba(150, 150, 150, 1);
+}
+
 .is-semi-rounded {
     overflow: hidden;
     border-radius: 5px !important;
@@ -58,6 +68,10 @@ img .is-rounded {
 
 .has-border-bottom-gray {
     border-bottom: solid 1px #d4d4d4;
+}
+
+.has-border-top-gray-light {
+    border-top: solid 1px #fafafa;
 }
 
 .has-border-bottom-gray-lighter {
@@ -108,10 +122,40 @@ $generic-social-media-color: #4f6398;
     color: $generic-social-media-color !important;
 }
 
-.has-text-kickstarter{
+.has-text-kickstarter {
     color: rgb(3, 71, 82) !important;
 }
 
-.is-size-0{
+.is-size-0 {
     font-size: 5rem;
+}
+
+.is-height-100 {
+    height: 100%;
+}
+
+@keyframes background {
+    from {
+        background-position: 0 0%;
+    }
+    to {
+        background-position: 0 -200px;
+    }
+}
+
+.has-text-bubbly {
+    color: #F2F5FE;
+    text-align: center;
+    background: -webkit-linear-gradient(transparent, transparent), url(http://html5book.ru/wp-content/uploads/2016/08/bubbles.png) repeat;
+    background-size: 200px auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    animation: background 10s infinite linear;
+}
+
+.has-reverse-row-order-mobile {
+    @media screen and (max-width: 769px) {
+        flex-direction: column-reverse;
+        display: flex;
+    }
 }

@@ -1,51 +1,38 @@
 <template>
-    <section class="hero is-fullheight hero--splash" id="main">
-        <ob-ocean></ob-ocean>
+    <section class="hero is-medium hero--splash" id="main">
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-centered is-vcentered">
                     <div class="column has-text-centered has-padding-top-2x-mobile">
                         <div class="columns is-centered is-mobile">
                             <div class="column" style="max-width: 520px">
-                                <h1 class="title is-size-2-mobile is-size-1">
-                                    Hello <span id="hello-subject">world!</span>
+                                <h1 class="title is-size-3-mobile is-size-1"
+                                    v-html="$t('splash_hero.hello_world')">
                                 </h1>
-                                <h2 class="subtitle is-size-5-mobile is-size-3">
-                                    We're <strong>Open</strong>book.
+                                <h2 class="subtitle is-size-5-mobile is-size-3"
+                                    v-html="$t('splash_hero.we_are_ob')">
                                 </h2>
-                                <h3 class="is-size-6-mobile">
-                                    An open source, zero tracking, zero spying, zero
-                                    ads, ethically designed, easy to migrate to,
-                                    social network <strong>soon on <span
-                                    style="color: #034752;">Kickstarter</span></strong>.
+                                <h3 class="is-size-6-mobile"
+                                    v-html="$t('splash_hero.kickstarter')">
                                 </h3>
                             </div>
                         </div>
                         <div class="columns is-centered is-mobile">
                             <div class="column is-narrow">
-                                <button class="button is-primary is-outlined is-rounded" @click="onUserWantsToShare()">
-                                    <span class="icon">
-                                        <i class="fas fa-share-alt"></i>
-                                    </span>
-                                    <span>
-                                        Share
-                                    </span>
-                                </button>
-                            </div>
-                            <div class="column is-narrow">
-                                <a class="button is-primary is-rounded" target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dvRRmD">
+                                <a class="button is-rainbow is-rounded is-medium is-size-6-mobile" target="_blank"
+                                   rel="noopener noreferrer" href="http://eepurl.com/dvRRmD">
                                     <span class="icon">
                                         <i class="fas fa-bell"></i>
                                     </span>
                                     <span>
-                                        Notify me
+                                        {{$t('splash_hero.notify_me')}}
                                     </span>
                                 </a>
                             </div>
                         </div>
                     </div>
                     <div class="column splash-browser">
-                        <ob-browser></ob-browser>
+                       <ob-browser></ob-browser>
                     </div>
                 </div>
             </div>
@@ -103,11 +90,11 @@
                 const Typewriter = window['Typewriter'];
 
                 const helloSubjects = [
-                    'world',
-                    'friends',
-                    'family',
-                    'grandma',
-                    'reddit'
+                    this.$i18n.t('splash_hero.world'),
+                    this.$i18n.t('splash_hero.friends'),
+                    this.$i18n.t('splash_hero.family'),
+                    this.$i18n.t('splash_hero.grandma'),
+                    this.$i18n.t('splash_hero.reddit'),
                 ];
 
                 const helloSubject = document.querySelector('#hello-subject');

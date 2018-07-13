@@ -8,10 +8,10 @@
                             <div class="columns is-centered padding-top-2x-mobile">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
-                                        FAQ
+                                        {{ $t('faq.title') }}
                                     </h1>
                                     <h2 class="title is-size-2 faq-text has-text-centered-mobile">
-                                        The frequently asked questions.
+                                        {{ $t('faq.subtitle') }}
                                     </h2>
                                 </div>
                             </div>
@@ -21,7 +21,7 @@
                                 <div class="column is-narrow padding-top-2x-mobile">
                                     <ob-pets/>
                                     <div class="has-text-centered is-size-7">
-                                        Our office dog hard at work.
+                                        {{ $t('faq.office_dog') }}
                                     </div>
                                 </div>
                             </div>
@@ -34,28 +34,28 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <div class="has-text-centered">
-                        <h2 class="title is-3 is-spaced is-margin-top-small">Jump to</h2>
+                        <h2 class="title is-3 is-spaced is-margin-top-small"> {{ $t('faq.office_dog') }} Jump to</h2>
                     </div>
                     <br/>
                     <ul>
                         <li>
                             <a href="#whospaying" v-scroll-to="'#whospaying'">
-                                Who's paying for everything so far?
+                                {{ $t('faq.whos_paying') }}
                             </a>
                         </li>
                         <li>
                             <a href="#willitbedistributed" v-scroll-to="'#willitbedistributed'">
-                                Will it be distributed like diaspora, mastodon, etc?
+                                {{ $t('faq.is_distributed') }}
                             </a>
                         </li>
                         <li>
                             <a href="#whynotnonprofit" v-scroll-to="'#whynotnonprofit'">
-                                Why is Openbook not a non-profit?
+                                {{ $t('faq.why_not_non_profit') }}
                             </a>
                         </li>
                         <li>
                             <a href="#help" v-scroll-to="'#help'">
-                                I want to help right now, what can I do?
+                                {{ $t('faq.want_to_help') }}
                             </a>
                         </li>
                     </ul>
@@ -66,123 +66,117 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <h3 id="whospaying">
-                        Who's paying for everything so far?
+                        {{ $t('faq.whos_paying') }}
                     </h3>
                     <p>
-                        So far we have been completely self funded. However, this has proven to be very hard.
-                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.
+                        {{ $t('faq.whos_paying_ans') }}
                     </p>
                     <p>
-                        As we wanted the project to be driven by people and not capital, we decided to go for crowd-funding.
+                        {{ $t('faq.crowd_funding') }}
                     </p>
                     <P>
-                        We'll be launching our Kickstarter campaign on the 15th of July.
+                        {{ $t('faq.launching_kickstarter') }}
                     </P>
                     <h3 id="willitbedistributed">
-                        Will it be distributed like diaspora, mastodon, etc?
+                        {{ $t('faq.is_distributed') }}
                     </h3>
                     <p>
-                        <strong>TLDR; No, but your data will be fully portable to other Openbook instances.</strong>
+                        <strong>  {{ $t('faq.is_distributed_ans') }} </strong>
                     </p>
                     <p>
-                        We want to give our users absolute control of their data. We want them to be able to see the exact physical location of their data and to be able to ensure its deletion, even when shared with third party applications.
+                        {{ $t('faq.absolute_control') }}
                     </p>
                     <p>
-                        Protocols for interconnection between social networks such as ActivityPub rely on independently distributed networks to accomplish this.
+                        {{ $t('faq.activity_pub') }}
                     </p>
                     <p>
-                        These networks, being independently distributed, make these items impossible to guarantee.
+                        {{ $t('faq.impossible_guarantee') }}
                     </p>
                     <p>
-                        However, if your concern is data portability, all of your data will be downloadable and fully portable to other Openbook instances.
+                        {{ $t('faq.data_portability') }}
                     </p>
                     <p>
                     </p>
                     <p class="is-size-7">
-                        <span>Don't get us wrong though, we have nothing against these networks, in fact, we are amazed by their ingenuity.</span>
+                        <span>  {{ $t('faq.nothing_against_decentralisation') }}</span>
                     </p>
                     <h3 id="whynotnonprofit">
-                        Why is Openbook not a non-profit?
+                        {{ $t('faq.why_not_non_profit') }}
                     </h3>
                     <p>
-                        Making Openbook a for-profit was a hard choice to make.
+                        {{ $t('faq.why_not_non_profit_ans') }}
                     </p>
                     <p>
-                        We check all the non-profits boxes and we love non-profits. We love Wikipedia, the Ghost Foundation, Founders Pledge, Mozilla and many more.
+                        {{ $t('faq.check_all_boxes') }}
                     </p>
                     <p>
-                        However we see the same struggle repeated over and over again. These companies struggle to grow beyond their profitability. These companies struggle to grow to the size and resources needed to compete with for-profit businesses.
+                        {{ $t('faq.same_struggle') }}
                     </p>
                     <p>
-                        When we need to grow exponentially, we need to be able to raise the large amounts of money needed to do so.
+                        {{ $t('faq.need_money') }}
                     </p>
                     <p>
-                        Therefore we are officially a for-profit company.
+                        {{ $t('faq.hence_for_profit') }}
                     </p>
                     <p>
-                        But do note that when we do this, we will make sure the people investing in the company will be people with real interest on the platform, its core values of privacy, security, freedom, openness and its humanitarian nature.
+                        {{ $t('faq.humanitarian') }}
                     </p>
                     <h3 id="help">
-                        I want to help right now, what can I do?
+                        {{ $t('faq.want_to_help') }}
                     </h3>
                     <p>
-                        We're happy and grateful you want to help out!
+                        {{ $t('faq.want_to_help_ans') }}
                     </p>
                     <p>
-                        There are many ways you can help right now.
+                        {{ $t('faq.many_ways') }}
                     </p>
                     <p>
-                        Here are some ideas:
+                        {{ $t('faq.ideas') }}
                     </p>
                     <ul>
                         <li>
-                            <a href="" @click.prevent="onUserWantsToShare">Share the website on social media</a>
+                            <a href="" @click.prevent="onUserWantsToShare"> {{ $t('faq.share_website') }} </a>
                         </li>
                         <li>
-                            Talk to your friends and family about us
+                            {{ $t('faq.talk_to_friends') }}
+                        </li>
+                        <li v-html="$t('faq.improve_website')">
+                        </li>
+                        <li v-html="$t('faq.let_us_know')">
                         </li>
                         <li>
-                            If you're a developer, you can help us <a
-                            href="https://github.com/OpenBookOrg/openbook-org-www"
-                            target="_blank" rel="noopener noreferrer">improve our website</a>.
-                        </li>
-                        <li>
-                            If you have an idea for the network, you can <a href="https://github.com/OpenBookOrg/ideas"
-                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.
-                        </li>
-                        <li>
-                            If you're a public figure and would like to become an ambassador,
-                            <router-link to="contact-us">contact us</router-link>
+                            {{ $t('faq.public_figure') }}
+                            <router-link to="contact-us"> {{ $t('faq.contact_us') }} </router-link>
                             .
                         </li>
                         <li>
-                            If you're looking for a job and believe Openbook would be a great fit for you,
-                            <router-link to="jobs">visit our jobs page</router-link>
+                            {{ $t('faq.looking_for_job') }}
+                            <router-link to="jobs">{{ $t('faq.visit_jobs') }}</router-link>
                             .
                         </li>
                     </ul>
                     <p>
-                        And lastly, if you would like to be even more involved, we're forming a network of volunteers across the world to help us spread the word.
+                        {{ $t('faq.volunteer') }}
                         <br/>
-                        Interested?
-                        <router-link to="contact-us">Contact us</router-link>
+                        {{ $t('faq.interested') }}
+                        <router-link to="contact-us">{{ $t('faq.contact_us_2') }} </router-link>
                         .
                     </p>
                 </div>
             </div>
         </section>
-        <section class="hero is-primary is-bold">
+        <section class="hero is-white">
             <div class="hero-body has-text-centered">
                 <div class="container">
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                Have another question?
+                                {{ $t('faq.more_questions') }}
                             </h3>
                         </div>
                         <div class="column">
-                            <router-link to="contact-us" class="button is-white is-outlined is-rounded is-medium">
-                                Send us a message
+                            <router-link to="contact-us" class="button is-rainbow is-rounded is-medium">
+                                {{ $t('faq.send_us_message') }}
                             </router-link>
                         </div>
                     </div>

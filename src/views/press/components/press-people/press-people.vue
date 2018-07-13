@@ -80,6 +80,13 @@
                         size: '~ 183 KB',
                         previewImg: martijnPreview,
                         filename: 'martijn.jpg'
+                    },
+                    {
+                        name: 'Nathalie Lokhorst, PR',
+                        url: 'https://www.dropbox.com/s/ly23ohabuqrlw54/martijn-software-engineer.jpg?dl=1',
+                        size: '~ 183 KB',
+                        previewImg: martijnPreview,
+                        filename: 'martijn.jpg'
                     }
                 ]
             }

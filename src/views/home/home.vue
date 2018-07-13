@@ -1,36 +1,44 @@
 <template>
     <div class="animated fadeIn">
         <ob-splash-hero></ob-splash-hero>
-        <section class="section">
-            <div class="container">
-                <ob-why-openbook></ob-why-openbook>
-            </div>
-        </section>
-        <section class="hero is-primary is-bold">
+        <ob-honesty></ob-honesty>
+        <ob-privacy></ob-privacy>
+        <ob-secure></ob-secure>
+        <ob-easy></ob-easy>
+        <ob-fun></ob-fun>
+        <ob-personal></ob-personal>
+        <ob-good-for-planet></ob-good-for-planet>
+        <ob-ads-free></ob-ads-free>
+        <ob-count-down></ob-count-down>
+        <section class="hero is-white">
             <div class="hero-body has-text-centered">
                 <div class="container">
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                Want to know more?
+                                {{ $t('home.want_to_know_more') }}
                             </h3>
                         </div>
                         <div class="column">
-                            <router-link to="manifesto" class="button is-white is-outlined is-rounded is-medium">
-                                Read our manifesto
+                            <router-link to="manifesto" class="button is-rainbow is-rounded is-medium">
+                                {{ $t('home.read_manifesto') }}
                             </router-link>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <ob-count-down></ob-count-down>
+        <section class="section">
+            <div class="container">
+                <ob-quotes></ob-quotes>
+            </div>
+        </section>
         <ob-meet-the-team></ob-meet-the-team>
         <section class="section">
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
                     <p class="is-size-5 padding-bottom-3x has-text-grey-light">
-                        As featured in
+                        {{ $t('home.featured_in') }}
                     </p>
                 </div>
                 <ob-featured-on></ob-featured-on>
@@ -53,15 +61,31 @@
 
     import ObCountDown from "./components/count-down/count-down.vue";
     import obBrowser from './components/splash-hero/components/browser.vue'
-    import ObQuotes from "./components/quotes";
+    import ObQuotes from "./components/quotes/quotes";
     import ObWhyOpenbook from "./components/why-openbook";
     import ObOcean from "./components/splash-hero/components/ocean/ocean";
     import ObSplashHero from "./components/splash-hero/splash-hero";
     import ObFeaturedOn from "./components/featured-in/featured-in";
     import ObMeetTheTeam from "./components/meet-the-team/meet-the-team.vue";
+    import ObHonesty from "./components/honesty/honesty.vue";
+    import ObPersonal from "./components/personal/personal.vue";
+    import ObPrivacy from "./components/privacy/privacy.vue";
+    import ObSecure from "./components/secure/secure.vue";
+    import ObEasy from "./components/easy/easy.vue";
+    import ObFun from "./components/fun/fun";
+    import ObGoodForPlanet from "./components/good-for-planet/good-for-planet";
+    import ObAdsFree from "./components/ads-free/ads-free";
 
     export default {
         components: {
+            ObAdsFree,
+            ObGoodForPlanet,
+            ObFun,
+            ObEasy,
+            ObSecure,
+            ObPrivacy,
+            ObPersonal,
+            ObHonesty,
             ObMeetTheTeam,
             ObFeaturedOn,
             ObSplashHero,

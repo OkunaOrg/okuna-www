@@ -1,5 +1,5 @@
 <template>
-    <button class="button is-primary scroll-to-top animated fadeInUp is-rounded" v-scroll-to="'#app'">
+    <button class="button is-rainbow scroll-to-top animated fadeInUp is-rounded" v-scroll-to="'#app'">
         <span class="icon">
             <i class="fas fa-arrow-up"></i>
         </span>
