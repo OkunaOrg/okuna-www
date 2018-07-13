@@ -39,12 +39,12 @@ export const messages = {
         quotes : {
             joel_name: 'Joel Hernández',
             joel_title: 'Founder of Openbook',
-            joel_quote: 'Openbook is not only an evolutionary step for social networks in every regard, it\'s also a humanitarian project at world scale.',
+            joel_quote: 'Openbook is not only an evolutionary step for social networks, it\'s also a humanitarian project at world scale.',
             vincent_name: 'Vincent Ruijter',
             vincent_title: 'Ethical Hacker',
             vincent_quote: 'With current networks growing bigger and bigger every day, Openbook might be the last real chance to build something different, something ethical, something better.',
             phil_name: 'Jaya Baloo',
-            phil_title: 'Cyber-security expert',
+            phil_title: 'Information security expert',
             phil_quote: 'Openbook is a solution for good, a social haven where the user community is positively empowered to share their data securely.'
         },
         splash_hero: {
