@@ -9,6 +9,7 @@
         <ob-personal></ob-personal>
         <ob-good-for-planet></ob-good-for-planet>
         <ob-ads-free></ob-ads-free>
+        <ob-count-down></ob-count-down>
         <section class="hero is-white">
             <div class="hero-body has-text-centered">
                 <div class="container">

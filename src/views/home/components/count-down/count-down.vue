@@ -1,5 +1,5 @@
 <template>
-    <section class="hero is-white is-medium">
+    <section class="hero is-white">
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-centered is-mobile is-multiline">
@@ -40,17 +40,12 @@
                                 <div class="content has-text-centered">
                                     <p class="is-size-4 is-marginless padding-bottom-1x" v-html="$t('count_down.kickstarter_launch')">
                                     </p>
-                                    <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dvRRmD" class="button is-primary is-rounded is-large padding-top-2x">
+                                    <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dvRRmD" class="button is-rainbow is-rounded is-large padding-top-2x">
                                         <span class="icon"><i class="fas fa-bell"></i></span><span>{{ $t('splash_hero.notify_me') }}</span>
                                     </a>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="column is-narrow small-container padding-top-2x">
-                        <figure class="image is-4by3 is-semi-rounded is-shadowed">
-                            <img src="./assets/open-book-multiple-shirts.jpg">
-                        </figure>
                     </div>
                 </div>
             </div>

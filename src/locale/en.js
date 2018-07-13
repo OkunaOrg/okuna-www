@@ -98,16 +98,16 @@ export const messages = {
             minutes: 'minutes',
             seconds: 'seconds',
             kickstarter_launch: 'We will launch our <strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            'campaign <br/> on the <strong>15th of July of 2018</strong>.'
+            'campaign <br/> on the <strong>17th of July of 2018</strong>.'
         },
         meet_the_team: {
             title: 'Meet the team'
         },
         header: {
             home: 'Home',
-            about_us: 'About Us',
+            about_us: 'About us',
             manifesto: 'Manifesto',
-            contact_us: 'Contact Us',
+            contact_us: 'Contact us',
             jobs: 'Jobs',
             faq: 'FAQ',
             press: 'Press'
