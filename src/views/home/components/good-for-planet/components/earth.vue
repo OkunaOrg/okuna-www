@@ -1,24 +1,25 @@
 <template>
     <figure class="image">
-        <img class="dancing-gif" :src="dancingGif">
+        <img class="earth-gif" :src="earthGif">
     </figure>
 </template>
 
 <style lang="scss">
-    .dancing-gif{
+    .earth-gif{
         height: 200px !important;
         width: auto !important;
+        border-radius: 50%;
     }
 </style>
 
 
 <script>
-    import dancingGif from './dancing.gif';
+    import earthGif from './spinningworld.gif';
     export default {
-        name: 'ob-dancing-cactus',
+        name: 'ob-earth',
         data(){
             return {
-                dancingGif
+                earthGif: earthGif
             }
         }
     }

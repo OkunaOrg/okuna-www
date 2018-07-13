@@ -8,6 +8,7 @@
         <ob-fun></ob-fun>
         <ob-personal></ob-personal>
         <ob-good-for-planet></ob-good-for-planet>
+        <ob-ads-free></ob-ads-free>
         <section class="hero is-white">
             <div class="hero-body has-text-centered">
                 <div class="container">
@@ -72,9 +73,11 @@
     import ObEasy from "./components/easy/easy.vue";
     import ObFun from "./components/fun/fun";
     import ObGoodForPlanet from "./components/good-for-planet/good-for-planet";
+    import ObAdsFree from "./components/ads-free/ads-free";
 
     export default {
         components: {
+            ObAdsFree,
             ObGoodForPlanet,
             ObFun,
             ObEasy,

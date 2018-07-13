@@ -10,7 +10,8 @@
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
                                         {{ $t('about_us.title') }}
                                     </h1>
-                                    <h2 class="title is-size-2 trust-text has-text-centered-mobile" v-html="$t('about_us.subtitle')">
+                                    <h2 class="title is-size-2 trust-text has-text-centered-mobile"
+                                        v-html="$t('about_us.subtitle')">
                                     </h2>
                                 </div>
                             </div>
@@ -32,7 +33,8 @@
             <div>
                 <div class="columns is-centered">
                     <div class="column intro-text content">
-                        <p class="is-size-4 has-text-centered small-container padding-bottom-1x" v-html="$t('about_us.description')">
+                        <p class="is-size-4 has-text-centered small-container padding-bottom-1x"
+                           v-html="$t('about_us.description')">
                         </p>
                     </div>
                 </div>
@@ -132,37 +134,37 @@
 
 <style lang="scss">
 
-    .about-us-header-text{
-        @media(max-width: 768px){
+    .about-us-header-text {
+        @media(max-width: 768px) {
             margin-top: 1rem;
         }
     }
 
-    .about-us-header-gif{
-        @media(max-width: 768px){
+    .about-us-header-gif {
+        @media(max-width: 768px) {
             margin-top: 1rem;
         }
     }
 
-    .trust-text{
-        @media (min-width: 768px){
-            max-width:400px;
+    .trust-text {
+        @media (min-width: 768px) {
+            max-width: 400px;
         }
     }
 
-    .trust-gif{
+    .trust-gif {
         position: relative;
         display: flex !important;
         align-items: center;
         justify-content: center;
 
-        &__img{
+        &__img {
             max-width: 50%;
             height: auto;
         }
     }
 
-    .intro-text{
+    .intro-text {
         max-width: 900px;
     }
 
@@ -172,14 +174,14 @@
 <script>
     import ObTeamMembers from "./components/team-members/team-members";
     import ObAmbassadors from "./components/ambassadors/ambassadors.vue";
-    import spinningWorldImg from './assets/spinningworld.gif';
+    import spinningWorldImg from './../home/components/good-for-planet/components/spinningworld.gif';
 
-    export default{
+    export default {
         components: {
             ObAmbassadors,
             ObTeamMembers
         },
-        data(){
+        data() {
             return {
                 spinningWorldImg
             }

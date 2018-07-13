@@ -5,7 +5,7 @@
                 <div class="column has-padding-top-2x-mobile">
                     <div class="columns is-centered is-vcentered is-height-100 is-mobile">
                         <div class="column is-narrow">
-                            <ob-heart></ob-heart>
+                            <ob-earth></ob-earth>
                         </div>
                     </div>
                 </div>
@@ -33,10 +33,11 @@
 </style>
 
 <script>
-    import ObHeart from "./components/heart";
+
+    import ObEarth from "./components/earth";
 
     export default {
-        components: {ObHeart},
+        components: {ObEarth},
         name: 'ob-good-for-planet'
     }
 </script>

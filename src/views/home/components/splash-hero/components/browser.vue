@@ -282,7 +282,7 @@
 
             this.intervalHandle = setInterval(() => {
                 jQuery(timelineComponent).slick('slickPrev');
-            }, 1500);
+            }, 2500);
         },
         destroyed() {
             if (this.intervalHandle) clearInterval(this.intervalHandle);

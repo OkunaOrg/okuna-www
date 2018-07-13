@@ -36,6 +36,10 @@ export const messages = {
             title: 'Good for the planet',
             description: 'In partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, we\'ll be giving 30% of our revenue towards projects for education, sanitization, climate change prevention and more.'
         },
+        ads_free: {
+            title: '100% Ads free',
+            description: 'Our revenue model is not nor ever will be based on advertisement. Enjoy ad-free surfing!'
+        },
         quotes : {
             joel_name: 'Joel Hernández',
             joel_title: 'Founder of Openbook',
