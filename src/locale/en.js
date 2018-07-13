@@ -47,9 +47,9 @@ export const messages = {
             vincent_name: 'Vincent Ruijter',
             vincent_title: 'Ethical Hacker',
             vincent_quote: 'With current networks growing bigger and bigger every day, Openbook might be the last real chance to build something different, something ethical, something better.',
-            phil_name: 'Phil Zimmermann',
-            phil_title: 'Privacy expert / Creator of PGP',
-            phil_quote: 'The natural flow of technology tends to move in the direction of making surveillance easier, and the ability of computers to track us doubles every eighteen months. Openbook challenges this.'
+            phil_name: 'Jaya Baloo',
+            phil_title: 'Cyber-security expert',
+            phil_quote: 'Openbook is a solution for good, a social haven where the user community is positively empowered to share their data securely.'
         },
         splash_hero: {
             hello_world: 'Hello <span id="hello-subject">world!</span>',

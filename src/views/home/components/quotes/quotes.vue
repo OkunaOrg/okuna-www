@@ -99,7 +99,7 @@
 </style>
 
 <script>
-    import philPhoto from './assets/phil-min.jpg';
+    import philPhoto from './assets/jaya-min.png';
     import vincentPhoto from './assets/vincent-min.jpeg';
     import joelPhoto from './assets/joel-min.jpg';
 
