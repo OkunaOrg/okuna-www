@@ -203,7 +203,8 @@
                                     <div class="column">
                                         <b-switch v-model="dataItem.enabled"
                                                   :disabled="dataItem.required"
-                                                  size="is-small">
+                                                  size="is-small"
+                                                  type="is-success">
                                         </b-switch>
                                     </div>
                                 </div>
