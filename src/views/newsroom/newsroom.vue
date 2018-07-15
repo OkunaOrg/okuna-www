@@ -34,6 +34,75 @@
                         Press release: Openbook; Social Network 2.0
                     </h3>
                     <h5 class="has-text-weight-normal">
+                        Tuesday, 17th of July, 2018
+                    </h5>
+
+                    <p>
+                        Press Release Openbook. Kickstarter Campaign 17th of July
+                    </p>
+
+
+                    <h4>
+                        Context:
+                    </h4>
+                    <p>
+                        Openbook's Kickstarter campaign goes live Tuesday the 17th of July
+                        Media resources are available with the press kit at
+                        https://bit.ly/2JqLtrU
+                    </p>
+
+
+                    <h4>
+                        Quoted individuals
+                    </h4>
+                    <ul class="padding-bottom-3x">
+                        <li>
+                            Joel Hernández, Founder of Openbook, Jaya Baloo, Chief Operating Officer.
+                        </li>
+                    </ul>
+                    <h4 class="padding-top-2x">
+                        Openbook; Social Network 2.0
+                    </h4>
+                    <p>
+                        Openbook, based in the Netherlands is a new kind of social network. One that is privacy-friendly, customizable to a large extent, easy to move from existing networks and has a strong focus in fun.
+                    </p>
+
+                    <blockquote>
+                        “One core difference with other social networks is that we put privacy first. We don’t track anything you do or use your data for any other purpose than providing the social networking functionality. We’re also fully transparent about this, all of our code is open-source, so people can see that we do what we say we do. We make the trust our users put in us verifiable.”
+                    </blockquote>
+
+                    <p>
+                        Openbook will include all features one would expect from a social network, plus it allows its users to customise their own profile. “We’re all different and that is something to be celebrated and embraced. Openbook does this by allowing our users to personalise almost everything visual on the network.” Openbook also makes the switch from other social network as easy as possible. “With our simple drag-and-drop tool you can easily transfer the data from your old social networks”. As for the revenue model, it is said to be based on transactions between users.
+                    </p>
+
+                    <blockquote>
+                        “We are really focused on building a better social network than anything that’s out there, not only in terms of security & privacy, but experience as well. Once we achieve that, we want to create a way for transactions to occur between users. This will then be used to create a marketplace for products and later on a marketplace for services. Our revenue model will never be advertisement.”
+                    </blockquote>
+
+                    <p>
+                        The team behind Openbook consists of people who believe in the main values Openbook stands for: honesty, respect for users, togetherness, altruism and fun. It a diverse team full of talented people like internet hall of fame member and cryptography pioneer and creator of PGP Phil Zimmermann, and internationally recognised security experts like Jaya Baloo.
+                    </p>
+
+                    <blockquote>
+                        “We decided to go for crowdfunding because we want the early decisions, the ones that will dictate the future of Openbook to be driven by people, not capital.”
+                    </blockquote>
+
+                    <blockquote>
+                        Jaya adds to Joel’s comments “We are designing a solution for good, a social haven where the user community is positively empowered to share their data securely.”
+                    </blockquote>
+
+                    <p>
+                        Openbook aims to raise 100K in one month time. The money will be used for amongst others further development of Openbook. The Kickstarter campaign can be found at https://open-book.org/kickstarter .
+                    </p>
+                    <p>
+                        If you want to learn more about it or keep up with the developments of Openbook, you can find them online at https://open-book.org or at Twitter @Openbook_org.
+                    </p>
+                </div>
+                <div class="content is-medium">
+                    <h3>
+                        Press release: Openbook; Social Network 2.0
+                    </h3>
+                    <h5 class="has-text-weight-normal">
                         Tuesday, 5th of June, 2018
                     </h5>
 

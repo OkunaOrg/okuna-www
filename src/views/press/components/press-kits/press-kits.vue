@@ -19,7 +19,7 @@
                 pressKits: [
                     {
                         name: 'Press-kit.zip',
-                        url: 'https://www.dropbox.com/s/ptag3v0a4rg7qx5/Press-kit-2.zip?dl=1',
+                        url: 'https://git.open-book.org/Openbook/other/press-kit/-/archive/master/press-kit-master.zip',
                         size: '~ 40 MB',
                         previewImg: zipPreview,
                         filename: 'Press-kit.zip'
