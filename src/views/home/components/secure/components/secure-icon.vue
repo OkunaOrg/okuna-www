@@ -22,7 +22,6 @@
         height: 9rem;
         border-radius: 100%;
         background-color: #e8e8e8;
-        background-image: url(https://pbs.twimg.com/profile_images/581858589700005888/DILA1uYc.jpg);
         background-size: cover;
         animation: face 3s infinite ease;
         position: relative;
