@@ -15,19 +15,19 @@
                                     <div class="columns is-gapless">
                                         <div class="column">
                                             <strong class="is-size-0 is-size-1-mobile has-text-primary">{{ props.days }}</strong><span
-                                            class="is-size-2"> {{ $t('count_down.days') }} </span>
+                                            class="is-size-2"> {{ $tc('count_down.days', props.days) }} </span>
                                         </div>
                                         <div class="column">
                                             <strong class="is-size-0 is-size-1-mobile has-text-primary">{{ props.hours }}</strong><span
-                                            class="is-size-2"> {{ $t('count_down.hours') }} </span>
+                                            class="is-size-2"> {{ $tc('count_down.hours', props.hours) }} </span>
                                         </div>
                                         <div class="column">
                                             <strong class="is-size-0 is-size-1-mobile has-text-primary">{{ props.minutes }}</strong><span
-                                            class="is-size-2"> {{ $t('count_down.minutes') }} </span>
+                                            class="is-size-2"> {{ $tc('count_down.minutes', props.minutes) }} </span>
                                         </div>
                                         <div class="column">
                                             <strong class="is-size-0 is-size-1-mobile has-text-primary">{{ props.seconds }}</strong><span
-                                            class="is-size-2"> {{ $t('count_down.seconds') }} </span>
+                                            class="is-size-2"> {{ $tc('count_down.seconds', props.seconds) }} </span>
                                         </div>
                                     </div>
                                 </template>

@@ -89,10 +89,10 @@ export const messages = {
         count_down: {
             kickstarter: 'Kickstarter',
             campaign_countdown: 'campaign countdown',
-            days: 'days',
-            hours: 'hours',
-            minutes: 'minutes',
-            seconds: 'seconds',
+            days: 'day | days',
+            hours: 'hour | hours',
+            minutes: 'minute | minutes',
+            seconds: 'second | seconds',
             kickstarter_launch: 'We will launch our <strong class="has-text-kickstarter">Kickstarter</strong> ' +
             'campaign <br/> on the <strong>15th of July of 2018</strong>.'
         },
