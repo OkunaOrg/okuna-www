@@ -34,7 +34,7 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <div class="has-text-centered">
-                        <h2 class="title is-3 is-spaced is-margin-top-small"> {{ $t('faq.office_dog') }} Jump to</h2>
+                        <h2 class="title is-3 is-spaced is-margin-top-small"> {{ $t('faq.jump_to') }} </h2>
                     </div>
                     <br/>
                     <ul>
@@ -77,7 +77,7 @@
                     <p>
                         {{ $t('faq.launching_kickstarter') }}
                     </p>
-                    <h3 id="whynotdecentralised">
+                    <h3 id="willitbedistributed">
                         {{ $t('faq.why_not_decentralised') }}
                     </h3>
                     <p v-html="$t('faq.why_not_decentralised_ans')"></p>
