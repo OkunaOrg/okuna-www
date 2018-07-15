@@ -57,7 +57,7 @@
             <div class="hero-footer">
                 <div class="box is-shadowless">
                     <p class="has-text-centered">
-                        <span class="tag is-primary">Reading time</span> &nbsp;&nbsp; 6 minutes
+                        <span class="tag is-rainbow">Reading time</span> &nbsp;&nbsp; 6 minutes
                     </p>
                 </div>
             </div>
@@ -81,58 +81,53 @@
                             </a>
                             <ul>
                                 <li>
-                                    <a href="#openness" v-scroll-to="'#openness'">
-                                        1. Openess.
+                                    <a href="#honest" v-scroll-to="'#honest'">
+                                        1. Honest.
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#privacyandsecurity" v-scroll-to="'#privacyandsecurity'">
-                                        2. Privacy and security.
+                                    <a href="#personal" v-scroll-to="'#personal'">
+                                        2. Personal.
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#privacyfriendly" v-scroll-to="'#privacyfriendly'">
+                                        3. Privacy-friendly and secure.
                                     </a>
                                     <ul>
                                         <li>
-                                            <a href="#datasharing" v-scroll-to="'#datasharing'">
-                                                2.1 Better data sharing with applications.
+                                            <a href="#explicitconsent" v-scroll-to="'#explicitconsent'">
+                                                Explicit and Informed Consent
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#privacyfirst" v-scroll-to="'#privacyfirst'">
-                                                2.2 Privacy as default.
+                                            <a href="#safeapps" v-scroll-to="'#safeapps'">
+                                                Safe Applications
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="#privacyasajourney" v-scroll-to="'#privacyasajourney'">
-                                                2.3 Privacy and security as a journey.
+                                            <a href="#privacydefault" v-scroll-to="'#privacydefault'">
+                                                Privacy by Default
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <a href="#revenuemodel" v-scroll-to="'#revenuemodel'">
-                                        3. A useful and sustainable revenue model.
+                                    <a href="#easy" v-scroll-to="'#easy'">
+                                        4. Easy.
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#ethicaldesign" v-scroll-to="'#ethicaldesign'">
-                                        4. Ethical design.
+                                    <a href="#fun" v-scroll-to="'#fun'">
+                                        5. Fun.
                                     </a>
                                 </li>
                                 <li>
-                                    <a href="#givingback" v-scroll-to="'#givingback'">
-                                        5. Giving back.
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="#migration" v-scroll-to="'#migration'">
-                                        6. Seamless migration.
+                                    <a href="#revenue" v-scroll-to="'#revenue'">
+                                        6. Our Revenue.
                                     </a>
                                 </li>
                             </ul>
-                        </li>
-                        <li>
-                            <a href="#next" v-scroll-to="'#next'">
-                                3. What's next
-                            </a>
                         </li>
                     </ul>
                 </div>
@@ -150,31 +145,22 @@
                     </div>
                     <br/>
                     <p>
-                        <strong>In the year 2018, social networks play a destructive role in our society.</strong>
+                        <strong>Social networks are awesome.</strong>
                     </p>
                     <p>
-                        Meant to connect us, they divide us by reinforcing our personal beliefs, isolating us from the
-                        rest of the world.
+                        They connect us, help us share treasured moments with our loved ones and provide us with funny cat videos.
+
                     </p>
                     <p>
-                        Meant to help us share our treasured moments with our loved ones, they share our information
-                        with questionable third parties which in turn, analyze us, classify us and manipulate us.
+                        Sadly, nowadays social networks aren’t so much about connecting people, instead they are all about making as much money
+                        as possible out of people, no matter the consequences. For example the loss of privacy.
                     </p>
                     <p>
-                        Meant to be a tool for good, they threaten our
-                        freedom, our democracy, our peace, our society.
+                        We want to do better, which is exactly why at Openbook we’re doing things differently.
                     </p>
                     <p>
-                        <strong>Enough is enough.</strong>
-                    </p>
-                    <p>
-                        We gathered a team of extraordinary individuals to make things right, to build a tool for
-                        <strong class="has-text-primary">good</strong>.
-                    </p>
-                    <p>
-                        We set out to build the next generation social network, we set out to build <span
-                        class="has-text-primary"><strong
-                        class="has-text-primary">Open</strong>book</span>.
+                        Openbook will have the great things you’d expect from a social network: chats, posts, groups and events to name a few.
+                        Plus, it will be <strong class="has-text-primary">honest, personal, privacy-friendly, secure and fun ;-)</strong>.
                     </p>
                 </div>
             </div>
@@ -189,52 +175,53 @@
                         <h2 class="title is-3 is-spaced is-margin-top-small">How?</h2>
                         <h4 class="subtitle is-5">How will we create a tool for good?</h4>
                     </div>
-                    <h3 id="openness">1. Openness.</h3>
+                    <h3 id="honest">1. Honest.</h3>
                     <p>
-                        All of our code is and will continue being free and
-                        open for everyone to see, reproduce and contribute to.
+                        All of our code is <strong>open-source.</strong> This means it’s free for everyone to see, reproduce and contribute to.
+                        We’re transparent about how the social network works.
+
                     </p>
                     <p>
-                        No tricks, no gimmicks, no unpleasant surprises.
+                        Additionally, in partnership with FoundersPledge, we’ll be giving <strong>30% of our revenue towards making the world a
+                        better place.</strong> For example, education, climate-change prevention, mental-health and sanitisation.
+                        It’s about time tech-companies benefit everyone.
+
                     </p>
-                    <p>
-                        By doing this we make sure we are bound to our mission.
-                        If we were to ever deviate, we encourage the world to grab the source code and carry on with the
-                        mission.
-                    </p>
-                    <h3 id="privacyandsecurity">
-                        2. Privacy and security.
+                    <h3 id="personal">
+                        2. Personal.
                     </h3>
                     <p>
-                        Given our cyber security background, there is nothing we value more in a product than it's
-                        privacy
-                        and security.
+                        We’re all different and that makes each of us unique and beautiful! We embrace this!
                     </p>
                     <p>
-                        We will embed privacy and security in the core of everything we do.
-                    </p>
-                    <h4 id="datasharing">
-                        2.1 Better data sharing with applications
-                    </h4>
-                    <p>
-                        One of the great benefits of having a social media account these days is being able to use it to
-                        log
-                        into other applications.
+                        On Openbook you will not only be able to personalise your profile, but the entire network itself!
+                        From changing the color of your homepage to adding plugins, you can make it as unique as yourself.
                     </p>
                     <p>
-                        This is done through data sharing. The social network shares the information that the
-                        application
-                        <i>needs</i>
-                        from you.
+                        And if there’s anything you’re missing on Openbook, let us know. We want to build Openbook together.
+                        We will create a special group where we encourage you to help us decide what we build next or what we should improve.
+                        Let’s build the best social network ever!
+
+                    </p>
+                    <h3 id="privacyfriendly">
+                        3. Privacy-friendly and secure
+
+                    </h3>
+                    <p>
+                        This is what drove us to build Openbook. The privacy and security of our users will always be at the core of
+                        everything we do. We don’t track anything you do, neither monetize your information nor share it without your
+                        explicit and informed consent.
+                    </p>
+                    <p>
+                        How does this translate to a real-life scenario?
                     </p>
                     <h5>Example</h5>
                     <p>
                         This is what data sharing normally looks like.
                     </p>
                     <p>
-                        Let's say you find yourself in a cafeteria. You notice there's an open WiFi network and you
-                        connect
-                        to it.
+                        Let’s say you want to connect to a public WiFi hotspot ,
+                        traditionally a window like the one below appears in your computer with the following:
                     </p>
                     <p>
                         The box below appears on your screen.
@@ -244,114 +231,28 @@
                     </p>
                     <ob-generic-data-sharing></ob-generic-data-sharing>
                     <p>
-                        Did you spot the problems?
+                        Congrats! You just shared your personal information with a Wi-fi hotspot!
                     </p>
-                    <h5> Problem #1: What data did you actually share with the application?</h5>
+                    <h5> Do you know what data you just shared with the application?</h5>
                     <p>
-                        Can you name the exact data that was shared with the application?
-                    </p>
-                    <p>
-                        You might say, <i>"well of course, it says clearly public profile, friend list, birthday, likes
-                        and
-                        email address"</i>.
+                        If you hovered over the “i” icon for example, you may have noticed it says:
                     </p>
                     <p>
-                        But what is <i>"public profile"</i>? And did you click/hover the "<i
-                        class="icon is-small fas fa-info-circle"></i>"
-                        icon?
+                        <i>"Your public profile includes name, profile picture, age range, gender, language, country <strong>and other public info.</strong>"</i>
                     </p>
                     <p>
-                        When you do, you'll get some more information.
-                    </p>
-                    <p><i>"Your public profile includes name, profile picture, age, range, gender, language, country
-                        <strong>and other public info</strong>."</i></p>
-                    <p>
-                        Apart from wondering why in the world would a WiFi hotspot need any of these, what qualifies as
-                        <i>"other
-                            public info"</i>?
+                        What qualifies as <i>"other public info"?</i> And why would a WiFi hotspot want all this information from you?
+                        Will it serve you faster Wi-Fi based on your gender or your age? And what’s going to happen with your data once they have it?
                     </p>
                     <p>
-                        <strong>There is never a clear indication of the data being shared.</strong>
+                        People share more of their information that they’re initially aware of and once the data has been shared, there’s no going back.
                     </p>
                     <p>
-                        Unacceptable.
-                    </p>
-                    <h5> Problem #2: Who determines what information the application requires from you?</h5>
-                    <p>
-                        You might be thinking, <i>"what a silly question, the application of course"</i>, they are
-                        providing
-                        a service, they know best.
-                    </p>
-                    <p>
-                        And as it turns out, this is the current case in every social media. Companies register an
-                        application, configure what
-                        information the application "needs" from it's users, and they're done.
-                    </p>
-                    <p>
-                        In a perfect world where all humans are honest and have nothing but good intentions, this would
-                        work.
-                    </p>
-                    <p>
-                        In our world, companies more often than not, abuse this system.
-                    </p>
-                    <p>
-                        And with no supervision whatsoever of the system, they go ahead and request all the information
-                        they
-                        can about you.
-                    </p>
-                    <p>
-                        Be it to truly provide a service or to analyze and sell your data, we will never know. And
-                        really,
-                        it
-                        shouldn't be our responsibility to find out.
-                    </p>
-                    <p>
-                        <strong>Social media companies should be responsible for ensuring applications do not abuse
-                            their
-                            data
-                            sharing systems.</strong>
-                    </p>
-                    <p>All applications requesting access to user data should be examined in depth, by real people, with
-                        the
-                        privacy and security of their users in mind.</p>
-                    <h5> Problem #3: What happens to your information once it leaves the social network?</h5>
-                    <p>
-                        So, you went ahead and hit <i>Continue</i>. What now?
-                    </p>
-                    <p>
-                        Where's the data?
-                    </p>
-                    <p>
-                        What if you were to discover that these WiFi hotspots are owned by your local goverment which is
-                        gathering this
-                        information for mass-surveillance reasons?
-                    </p>
-                    <p>
-                        Could you revoke the access to your data? But most importantly, could you make sure its deleted?
-                    </p>
-                    <p>
-                        The answer is no. Once the data is shared, there's no going back. There are no procedures for
-                        tracking it or deleting it.
-                    </p>
-                    <h5> Our solution</h5>
-                    <p>
-                        These are all clear and very serious problems that no social network as of today has been able
-                        to
-                        address.
-                    </p>
-                    <p>
-                        Perhaps the privacy and security of their users, is not part of their priorities.
-                    </p>
-                    <p>
-                        They are part of ours.
-                    </p>
-                    <p>
-                        Here's our prototype.
+                        Here’s how we’re doing it:
                     </p>
                     <p>
                         Let's say now you downloaded the awesome music app everyone has been recommending to you. As
-                        soon as
-                        you open the app, the box below shows up.
+                        soon as you open the app, the box below shows up.
                     </p>
                     <p>
                         <i>(Go ahead, click around as you would normally)</i>
@@ -363,116 +264,44 @@
                     <p>
                         Here are the most important ones.
                     </p>
+                    <h5 id="explicitconsent">Explicit and informed consent</h5>
                     <p>
-                        <strong>
-                            Explicit and informed consent
-                        </strong>
+                        We make sure it's always crystal clear what is being shared, so no pop-ups or vague descriptions.
+                        You can also inspect it yourself, just to be sure.
                     </p>
+                    <h5 id="safeapps">Safe applications</h5>
                     <p>
-                        Sharing our information is sharing a bit of ourselves. That is why we want to make sure it's
-                        always crystal clear what is being shared.
-                    </p>
-                    <p>We won't hide anything behind pop-ups or behind vague descriptions such as "public
-                        information".</p>
-                    <p>We will be explicit about what information is to be shared and we will give you a way to inspect
-                        it
-                        yourself.
-                    </p>
-                    <p>
-                        We have an inspect shared data button. When activated, it displays the exact data that will be
-                        shared with the application.
-                    </p>
-                    <p>
-                        Information is power!
-                    </p>
-                    <p>
-                        <strong>
-                            Safe applications
-                        </strong>
-                    </p>
-                    <p>
-                        We will introduce the concept of safe applications.
-                    </p>
-                    <p>
-                        These applications will be examined in depth by us.
-                    </p>
-                    <p>
-                        To name a few items, we will make sure that these applications:
+                        All applications will be reviewed by us. We will make sure they:
                     </p>
                     <ul>
                         <li>
-                            Only request the information they need to provide the service.
+                            only request the <strong>needed</strong> information
                         </li>
                         <li>
-                            Know at all times where your data is stored physically and have this information available
-                            to
-                            you.
+                            have the <strong>exact</strong> location of your data available for you, <strong>at all times</strong>
                         </li>
                         <li>
-                            Have provable procedures in place to delete your information from ALL of their systems if
-                            you
-                            were to
-                            revoke the permission.
+                            delete <strong>all</strong> your information if you’d revoke the permission
                         </li>
                         <li>
-                            Will notify us (so we can then notify you) in case of a data breach that might involve your
-                            data and have a contingency plan in place.
+                            have an <strong>emergency plan</strong> in case of a data leak, and will <strong>notify us/you</strong>
+                            immediately if that were to happen
                         </li>
                     </ul>
                     <p>
-                        If an application meets these and our other privacy and security guidelines, a badge will be
-                        shown below their logo.
+                        Once they meet these strict guidelines they will have a badge below their logo. On your personal dashboard you can pinpoint the exact locations of your shared data,
+                        revoke application’s access and best of all, request deletion.
                     </p>
+                    <h5 id="privacydefault">Privacy by default</h5>
                     <p>
-                        We will then create an Applications Overview dashboard where you will be able to pinpoint the
-                        exact
-                        location of your shared data, revoke it's access and best of all, request it's deletion.
+                        All optional data sharing will be disabled by default, and it is up to you if you want to
+                        give that application more of your data instead of the other way around.
                     </p>
-                    <p>
-                        <strong>Goodbye data sharing abuse! Hello control of your data!</strong>
-                    </p>
-                    <p class="is-size-7">
-                        P.D. You will recognize some of these items as <a href="https://www.eugdpr.org/">EU General Data
-                        Protection Regulation (GDPR)</a> policies. We embrace the regulation and aim to be compliant
-                        from
-                        day one.
-                    </p>
-                    <h4 id="privacyfirst"> 2.2 Privacy as default</h4>
-                    <p>
-                        Although we're fans of the <a href="https://en.wikipedia.org/wiki/Do_Not_Track">Do Not Track
-                        initiative</a>, we firmly believe no <i>"Opt-out"</i>
-                        should be necessary for people not to be monitored across the internet.
-                    </p>
-                    <p><strong>Privacy should be a default everywhere.</strong></p>
-                    <p>
-                        That is why, apart from not tracking you anywhere, by default, we will also only share the data
-                        applications must have in order to provide a service.
-                    </p>
-                    <p>
-                        All optional data sharing will be disabled by default <sup class="is-size-7">1</sup>.
-                    </p>
-                    <p>
-                        For example, if an application does not require your friends list to provide a service but would
-                        like to have it, this will be disabled by default.
-                    </p>
-                    <p>
-                        If you want the application to have this information, you can allow this with the flick of a
-                        switch.
-                    </p>
-                    <p>
-                        Your data, your decision.
-                    </p>
-                    <p class="is-size-7">
-                    <span>
-                        [1] Currently, social networks enable all optional shared data by default.
-                    </span>
-                    </p>
-                    <h4 id="privacyasajourney"> 2.3 Privacy and security as a journey.</h4>
                     <p>
                         We will continuously research and develop new ways to improve your privacy and security.
                     </p>
                     <p>
-                        Some examples of the technology we'll be researching and developing
+                        Some examples of the technology we'll be researching and developing:
                     </p>
                     <ul>
                         <li>
@@ -489,241 +318,44 @@
                         </li>
                     </ul>
                     <p>
-                        <strong>The less we know about you, the better.</strong>
+                        <strong>Generally speaking, the less we know about you and the more you know about us, the better.</strong>
+                    </p>
+                    <h3 id="easy">4. Easy.</h3>
+                    <p>
+                        You’ve probably put a tremendous amount of time (and data) into your existing social networks already. We get that.
+                        We wouldn’t want you to lose any friends, cherishable memories or miss out on parties over this.
                     </p>
                     <p>
-                        <strong>The more you know about us, the better.</strong>
+                        Migrating to Openbook will be easy-peasy, with our simple drag-and-drop system.
+                        Just download your data from your old social network<sup>1</sup> and transfer them to Openbook. Shazam!
                     </p>
-                    <p class="is-size-7">
-                        Hello there goverment agencies!
+                    <h3 id="fun">5. Fun.</h3>
+                    <p>Let’s not leave this one out! We’re bringing back social by giving interactions with your friends more meaning.
+                        Think about having levels of adoration and being able to show your enthusiasm more than once on a single post.
+                        And since we don’t track your data, you not only will be free of ads, but we won’t fill in what we think you’d want to see for yourself.
+                        No abracadabra-algorithms! Social networks have an incredible economic potential.
                     </p>
-                    <h4 id="revenuemodel">3. A useful and sustainable revenue model.</h4>
+                    <h3 id="revenue">
+                        6. Our revenue
+                    </h3>
                     <p>
-                        The world is a marketplace, so will <span class="has-text-primary"><strong
-                        class="has-text-primary">Open</strong>book</span>.
-                    </p>
-                    <p>
-                        Our business model is not and will never be advertisement (also known as your personal data).
-                    </p>
-                    <p>
-                        <strong><span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span>
-                            will be a marketplace for peer to peer transactions of products, services and more.</strong>
+                        Our business model is not and will never be advertisements.
                     </p>
                     <p>
-                        For example, you could sell your beloved Star Wars collection on the network in the same way you
-                        could hire someone to walk your dog or djay at your party.
+                        We will have a transparent revenue model based on a generic way for people to securely transact physical and digital goods and services inside the network.
+                        This will be done through an atomic digital unit of value. Although this initially reflected as a marketplace, our ambitions go way beyond that.
                     </p>
                     <p>
-                        Transactions made within the platform will benefit from the privacy and security of the
-                        ecosystem.
+                        Apart from this, we’re also planning to help enterprise customers setting up their own internal,
+                        self-hosted and secure social networks with extra functionality such as projects, identity and access management.
                     </p>
-                    <p>
-                        Apart from this, we will also help enterprise customers set up their own internal, self-hosted and secure social
-                        networks with extra functionality such as project, identity and access management.
-                    </p>
-                    <h4 id="ethicaldesign">4. Ethical design.</h4>
-                    <p>
-                        The more time we spend in social networks, the more ads are shown to us, the more money
-                        social networks make.
-                    </p>
-                    <p>
-                        Therefore, these networks are designed and optimized to keep us the longest time possible
-                        attached
-                        to our screens, pulling us from living the precious moments we were meant to share in the
-                        network.
-                        Oh,the irony.
-                    </p>
-                    <p>
-                        When we finally manage to break away, we get spammed with endless notifications and alerts
-                        trying to pull us back in.
-                    </p>
-                    <blockquote>
-                        "In case you missed this.", "You haven't posted for a while", "See what you were doing 10
-                        years ago", "Old sneakers have been posted for sale near you", X and Y liked this recently", "X
-                        and Y followed Z".
-                    </blockquote>
-                    <p>
-                        Some of them may seem quite innocent, they are not.
-                    </p>
-                    <p>
-                        For example, the "Old sneakers have been posted for sale near you" notification. You might
-                        think, well that's just
-                        a feature of the application. It lets you know when someone is selling something nearby.
-                    </p>
-                    <p>
-                        Have you noticed how many people post items for sale near you? Dozens, perhaps even hundreds.
-                        You don't get notified of every single one of these items.
-                    </p>
-                    <p>
-                        You only receive one of these notifications when these social networks have run out of pretexts
-                        to bring you back to the network.
-                    </p>
-                    <img class="padding-bottom-2x padding-top-2x" :src="memeImg"/>
-                    <p>
-                        This is called <strong class="has-text-evilcorp">unethical design</strong>.
-                    </p>
-                    <p>
-                        It's intrusive, it brings a constant burden to it's users, it's deceitful, it's disrespectful,
-                        it's horrible.
-                    </p>
-                    <p>
-                        In contrast,
-                        <span class="has-text-primary"><strong
-                            class="has-text-primary">Open</strong>book</span> will be ethically designed. Meaning as
-                        useful
-                        as possible and as less
-                        intrusive as possible.
-                    </p>
-                    <p>
-                        Our revenue model does not depend on the time you spend in the network; therefore, we can
-                        freely design towards helping you spend more time in the things that matter, away from the
-                        screen.
-                    </p>
-                    <h4 id="givingback">5. Giving back.</h4>
-                    <p>
-                        Social networks have an incredible economic potential.
-                    </p>
-                    <p>
-                        Facebook itself, made <strong>40.65 billion dollars of revenue</strong> in 2017<sup
-                        class="is-size-7">1</sup>, and the numbers
-                        keep getting higher and higher.
-                    </p>
-                    <p>
-                        What's the use of generating so much revenue if it's not for good?
-                    </p>
-                    <p class="is-size-5">
-                        <strong>At <span class="has-text-primary"><strong
-                            class="has-text-primary">Open</strong>book</span>,
-                            we will give 30% of our revenue towards making the world a better place, now and
-                            forever.</strong>
-                    </p>
-                    <p>
-                        Think about it, let's say we make the same 40 billion dollars, that's 12 billion dollars towards
-                        education, sanitization, treatment of diseases, medical treatment and more.
-                    </p>
-                    <p>
-                        As a reference, UNICEF total global expenses for the year 2016 were $1.8 billion billion dollars
-                        <sup class="is-size-7">2</sup>.
-                    </p>
-                    <p>
-                        <strong>We could change the world.</strong>
-                    </p>
-                    <p class="is-size-7">
-                        We will do this in partnership with <a href="https://founderspledge.com/" target="_blank"
-                                                               rel="noopener noreferrer">FoundersPledge</a>.
-                    </p>
-                    <p class="is-size-7">
-                                  <span>
-                        [1] <a href="http://variety.com/2018/digital/news/facebook-q4-2017-earnings-1202683184/"
-                               target="_blank" rel="noopener noreferrer">Source</a>
-                        [2] <a href="https://www.unicef.org/publicpartnerships/files/2016arr_humanitarianaction(1).pdf"
-                               target="_blank" rel="noopener noreferrer">Source</a>
+                    <span class="is-size-7">
+                        [1] With the new GDPR regulation, social networks must allow it’s users to do so now.
                     </span>
-                    </p>
-                    <h4 id="migration">
-                        6. Seamless migration.
-                    </h4>
-                    <p>
-                        Finally, we, like you, have put a tremendous amount of our time and data into existing social
-                        networks.
-                    </p>
-                    <p>
-                        Hundreds of conversations, friendships, photos, videos, check-ins and more.
-                    </p>
-                    <p>
-                        It would be a shame to start all over again.
-                    </p>
-                    <p>
-                        That is why, we will make sure that, <strong>if the social network you are coming from provides
-                        a
-                        way to
-                        download your data, we will help you migrate it
-                        all to our network, in a couple of steps, painlessly</strong><sup class="is-size-7">1</sup>.
-                    </p>
-                    <p class="is-size-7">
-                    <span>
-                        [1] Most major social networks allow this, and is now part of the GDPR regulation, therefore .
-                    </span>
-                    </p>
                 </div>
             </div>
         </section>
-        <div class="section" id="next">
-            <div class="small-container">
-                <div class="content is-medium">
-                    <div class="has-text-centered">
-                        <div>
-                            <span class="icon is-large" v-twemoji>➡</span>
-                        </div>
-                        <h2 class="title is-3 is-spaced is-margin-top-small">What's next</h2>
-                        <h4 class="subtitle is-5">Where do we go from here?</h4>
-                    </div>
-                    <p>
-                        We are eager to bring <span class="has-text-primary"><strong
-                        class="has-text-primary">Open</strong>book</span> to life. To re-invent the way social media
-                        companies
-                        operate, to claim back our privacy, to build a tool for good, to change the world.
-                    </p>
-                    <p>
-                        It won't be an easy task. Apart from the technical challenges, being the underdogs trying to
-                        redefine a billion dollars industry, we will be fought against in every way possible.
-                    </p>
-                    <p>
-                        We will need all the help we can get.
-                    </p>
-                    <p>
-                        That is why we are currently working on a Kickstarter campaign where everyone will be able to
-                        help us bring the project to life.
-                    </p>
-                    <p class="is-size-5">
-                        <strong>
-                            Awesome perks + helping build something good for society = win.
-                        </strong>
-                    </p>
-                    <h5>
-                        Stay tuned!
-                    </h5>
-                    <div class="columns is-mobile is-multiline padding-top-2x">
-                        <div class="column is-narrow">
-                            <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dvRRmD"
-                               class="button is-primary is-rounded">
-                            <span class="icon">
-                                <i class="fas fa-bell"></i>
-                            </span>
-                                <span>
-                                Subscribe for updates
-                            </span>
-                            </a>
-                        </div>
-                        <div class="column is-narrow">
-                            <a href="https://twitter.com/OpenBook_org" target="_blank" rel="noopener noreferrer"
-                               class="button is-info is-rounded">
-                            <span class="icon">
-                                <i class="fab fa-twitter"></i>
-                            </span>
-                                <span>
-                                <span>
-                                    Follow us on Twitter for updates
-                                </span>
-                        </span>
-                            </a>
-                        </div>
-                        <div class="column is-narrow">
-                            <a href="https://twitter.com/intent/tweet?url=https://open-book.org&hastags=openbook,openbookorg&via=OpenBook_org&text=The open and secure social network coming soon to @kickstarter"
-                               target="_blank" rel="noopener noreferrer" class="button is-info is-outlined is-rounded">
-                            <span class="icon">
-                                <i class="fab fa-twitter"></i>
-                            </span>
-                                <span>
-                            Tweet about us
-                            </span>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <section class="hero is-primary is-bold">
+        <section class="hero is-white">
             <div class="hero-body has-text-centered">
                 <div class="container">
                     <div class="columns is-centered is-vcentered">
@@ -733,7 +365,7 @@
                             </h3>
                         </div>
                         <div class="column">
-                            <router-link to="faq" class="button is-white is-outlined is-rounded is-medium">
+                            <router-link to="faq" class="button is-rainbow is-rounded is-medium">
                                 Visit our FAQ
                             </router-link>
                         </div>

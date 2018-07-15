@@ -1,65 +1,65 @@
 export const messages = {
-    es : {
+    es: {
         global: {
             openbook: '<strong>Open</strong>book'
         },
-        home : {
-            want_to_know_more: 'Want to know more?',
-            read_manifesto: 'Read our manifesto',
-            featured_in: 'As featured in'
+        home: {
+            want_to_know_more: 'Quieres saber más?',
+            read_manifesto: 'Lee nuestro manifesto',
+            featured_in: 'Hemos aparecido en'
         },
-        honesty : {
-            title: 'Honest',
-            description: 'All the code is open-source, so free for anyone to see, modify and reproduce. No room for unpleasant surprises.'
+        honesty: {
+            title: 'Honesta',
+            description: 'Todo el código es de código abierto, como quien dice, es gratis para que cualquiera lo vea, modifique o reproduzca. No hay lugar para sorpresas desagradables.'
         },
-        privacy : {
-            title: 'Privacy-friendly',
-            description: 'We don\'t monitor nor track anything you do. Surf the network with absolute peace of mind!'
+        privacy: {
+            title: 'Amiga de tu privacidad',
+            description: 'No monitoreamos ni rastreamos tu actividad. Navega la red con tranquilidad absoluta!'
         },
-        secure : {
-            title: 'Secure',
-            description: 'With a tough and strict security policy, we make sure your data doesn\'t fall into the wrong hands.'
+        secure: {
+            title: 'Segura',
+            description: 'Con una política de seguridad estricta, nos aseguramos de que tus datos no caigan en manos equivocadas.'
         },
-        easy : {
-            title: 'Easy-peasy',
-            description: 'Simple to use, even more to move into. Just drag-and-drop your old social media archive into Openbook and import all your photos, videos, chats and more!'
+        easy: {
+            title: 'Fácil',
+            description: 'Fácil de usar, aun más simple mudarte! Arrastra el archivo con la información de tu antigua red social e importa todas tus fotos, videos, chats y más!'
         },
-        fun : {
-            title: 'Fun!',
-            description: 'We\'re bringing back the social in social network, giving interaction with your peers meaning again.'
+        fun: {
+            title: '!Divertida!',
+            description: '!Estamos trayendo de vuelta la diversión a las redes sociales! Dandole significado a la interacción con tus amigos!'
         },
-        personal : {
+        personal: {
             title: 'Personal',
-            description: 'Customize the network the way you want. Be different, be yourself!'
+            description: 'Personaliza la red social a tu manera. !Atrevete a ser diferente!'
         },
-        good_for_planet : {
-            title: 'Good for the planet',
-            description: 'In partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, we\'ll be giving 30% of our revenue towards projects for education, sanitization, climate change prevention and more.'
+        good_for_planet: {
+            title: 'Buena para el planeta',
+            description: 'Con ayuda de <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, usaremos 30% de nuestros ingresos hacia proyectos de educación, sanitización, prevención del cambio climático y más.'
         },
-        quotes : {
+        quotes: {
             joel_name: 'Joel Hernández',
-            joel_title: 'Founder of Openbook',
-            joel_quote: 'Openbook is not only an evolutionary step for social networks, it\'s also a humanitarian project at world scale.',
+            joel_title: 'Fundador de Openbook',
+            joel_quote: 'Openbook no es solo un paso adelante en la evolución de las redes sociales, es tambien un proyecto humanitario de escala mundial.',
             vincent_name: 'Vincent Ruijter',
-            vincent_title: 'Ethical Hacker',
-            vincent_quote: 'With current networks growing bigger and bigger every day, Openbook might be the last real chance to build something different, something ethical, something better.',
+            vincent_title: 'Hacker Ético',
+            vincent_quote: 'Con las redes sociales actuales creciendo más y más cada dia, Openbook puede que sea la última oportunidad verdadera de construir algo diferente, algo ético, algo mejor.',
             phil_name: 'Jaya Baloo',
-            phil_title: 'Information security expert',
-            phil_quote: 'Openbook is a solution for good, a social haven where the user community is positively empowered to share their data securely.'
+            phil_title: 'Experta en seguridad de información.',
+            phil_quote: 'Openbook es una solución para bien, un refugio digital donde la comunidad es positivamente impulsada a compartir su información de una manera segura.'
         },
         splash_hero: {
-            hello_world: 'Hello <span id="hello-subject">world!</span>',
-            world: 'world',
-            friends: 'friends',
-            family: 'family',
-            grandma: 'grandma',
+            hello_world: 'Hola <span id="hello-subject">mundo!</span>',
+            world: 'mundo',
+            friends: 'amigos',
+            family: 'familia',
+            grandma: 'abuela',
             reddit: 'reddit',
-            we_are_ob: 'We\'re <strong>Open</strong>book.',
-            kickstarter: 'The open source, privacy-friendly, fun and honest social\n' +
-            '    network helping make the world a better place, <strong>soon on <span\n' +
+            we_are_ob: 'Somos <strong>Open</strong>book.',
+            kickstarter: 'La red social de codigo abierto, que respeta tu privacidad, es divertida, honesta y ayuda a crear mundo mejor para todos.' +
+            ' <strong>Proximamente en <span\n' +
             '    style="color: #034752;">Kickstarter</span></strong>.',
-            share: 'Share',
-            notify_me: 'Notify me'
+            share: 'Compartir',
+            notify_me: 'Recuerdame'
         },
         why_ob: {
             title: 'Why Openbook?',
@@ -88,28 +88,28 @@ export const messages = {
         },
         count_down: {
             kickstarter: 'Kickstarter',
-            campaign_countdown: 'campaign countdown',
-            days: 'days',
-            hours: 'hours',
-            minutes: 'minutes',
-            seconds: 'seconds',
-            kickstarter_launch: 'We will launch our <strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            'campaign <br/> on the <strong>15th of July of 2018</strong>.'
+            campaign_countdown: 'conteo oficial',
+            days: 'dia | dias',
+            hours: 'hora | horas',
+            minutes: 'minuto | minutos',
+            seconds: 'segundo | segundos',
+            kickstarter_launch: 'Lanzaremos nuestra campaña de <strong class="has-text-kickstarter">Kickstarter</strong> ' +
+            '<br/> el <strong>17 de Julio de 2018</strong>.'
         },
         meet_the_team: {
-            title: 'Meet the team'
+            title: 'Conoce al equipo'
         },
         header: {
-            home: 'Home',
-            about_us: 'About Us',
+            home: 'Inicio',
+            about_us: 'Acerca de',
             manifesto: 'Manifesto',
-            contact_us: 'Contact Us',
-            jobs: 'Jobs',
-            faq: 'FAQ',
-            press: 'Press'
+            contact_us: 'Contáctanos',
+            jobs: 'Trabajos',
+            faq: 'Preguntas',
+            press: 'Prensa'
         },
         footer: {
-            report_vulnerability: 'Report Vulnerability',
+            report_vulnerability: 'Reportar Vulnerabilidad',
             twitter: 'Twitter',
             github: 'Github',
             reddit: 'Reddit',
@@ -117,10 +117,10 @@ export const messages = {
             linked_in: 'LinkedIn',
             product_hunt: 'Product Hunt',
             facebook: 'Facebook',
-            the_ob_organization: 'The Openbook Organization',
-            privacy_policy: 'Privacy Policy',
-            made_with: 'Made with',
-            in_europe: 'in Europe'
+            the_ob_organization: 'Openbook',
+            privacy_policy: 'Política de privacidad',
+            made_with: 'Hecho con',
+            in_europe: 'en Europa'
         },
         about_us: {
             title: 'About us',
@@ -153,7 +153,7 @@ export const messages = {
             lambrecht_desc: 'Security and international relations expert, conflict analyst, peace-builder, media researcher & producer, human rights activist.',
             vincent_title: 'Security Engineer',
             vincent_desc: 'Ethical hacker, reverse-engineer, exploit developer, speaker, does not like the word cyber, cyber expert.',
-            bas_title:  'UI/UX Ethical Designer',
+            bas_title: 'UI/UX Ethical Designer',
             bas_desc: 'Advocate of useful and meaningful products, user experience wizard, worked with numerous international brands, researcher, hardware hacker.',
             shantanu_title: 'Software Engineer',
             shantanu_desc: 'Pragmatic software engineer, product guy, crypto-geek, bot-maker, simplicity advocate.',
@@ -204,7 +204,7 @@ export const messages = {
             clear_form: 'Clear form',
             submit: 'Submit'
         },
-        jobs : {
+        jobs: {
             title: 'Jobs',
             subtitle: 'Work with us.',
             exciting_adventure: 'We are embarking on one of the most exciting digital adventures ever and we are looking for talented people to sail with us!',
@@ -212,7 +212,7 @@ export const messages = {
             need_your_help: 'If you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> and are talented at what you do, we need your help!',
             send_cv: 'Send us your CV to  <a\n' +
             '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
-            look_forward : 'We look forward to meeting you !',
+            look_forward: 'We look forward to meeting you !',
             colleagues: 'Who will you be working with?',
             meet_the_team: 'Meet the team'
         },
@@ -225,13 +225,6 @@ export const messages = {
             '                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
             crowd_funding: 'As we wanted the project to be driven by people and not capital, we decided to go for crowd-funding.',
             launching_kickstarter: 'We\'ll be launching our Kickstarter campaign on the 17th of July.',
-            is_distributed: 'Will it be distributed like diaspora, mastodon, etc?',
-            is_distributed_ans: 'TLDR; No, but your data will be fully portable to other Openbook instances.',
-            absolute_control: 'We want to give our users absolute control of their data. We want them to be able to see the exact physical location of their data and to be able to ensure its deletion, even when shared with third party applications.',
-            activity_pub: 'Protocols for interconnection between social networks such as ActivityPub rely on independently distributed networks to accomplish this.',
-            impossible_guarantee: 'These networks, being independently distributed, make these items impossible to guarantee.',
-            data_portability: 'However, if your concern is data portability, all of your data will be downloadable and fully portable to other Openbook instances.',
-            nothing_against_decentralisation: 'Don\'t get us wrong though, we have nothing against these networks, in fact, we are amazed by their ingenuity.',
             why_not_non_profit: 'Why is Openbook not a non-profit?',
             why_not_non_profit_ans: 'Making Openbook a for-profit was a hard choice to make.',
             check_all_boxes: 'We check all the non-profits boxes and we love non-profits. We love Wikipedia, the Ghost Foundation, Founders Pledge, Mozilla and many more.',
@@ -258,7 +251,34 @@ export const messages = {
             interested: 'Interested?',
             contact_us_2: 'Contact us',
             more_questions: 'Have another question?',
-            send_us_message: 'Send us a message'
+            send_us_message: 'Send us a message',
+            why_not_decentralised: 'Why is Openbook not decentralised?',
+            why_not_decentralised_ans: '<p>\n' +
+            '                        Decentralised systems are incredibly complicated. For example rolling out updates (security updates/improvements included),\n' +
+            '                        maintaining cross-version compatibility (for example when rolling out a feature that is by design non-backwards compatible)\n' +
+            '                        and tracking, modifying or deleting user information across the nodes (pretty much impossible to guarantee).\n' +
+            '                    </p>\n' +
+            '\n' +
+            '                    <p>It is a mighty challenge by itself to develop a system that tackles all of these issues. It could take years of research and development.</p>\n' +
+            '\n' +
+            '                        <p>The software giants are growing at an incredible pace, crushing or buying any sign of competition.\n' +
+            '                            Initiatives for social media decentralization in all honesty and sadness, don\'t stand a chance.</p>\n' +
+            '\n' +
+            '                    <p>While they are focusing on building revolutionary technologies and ways to tackle the\n' +
+            '                        decentralisation system problems, the real users of such systems (people with a non-tech background) care little\n' +
+            '                        for that aspect of the product. They care about the experience, the features, the ease of use,\n' +
+            '                        the design. Once these initiatives solve the decentralisation challenges, they will be thousands of light years\n' +
+            '                        away from matching the features the software giants will then have. It would all have been for nothing.</p>\n' +
+            '\n' +
+            '                    <p>We are tackling the problem the other way around. We will use existing technologies to build not only a product ' +
+            'that competes with the software giants but beats them in the aspects that the general public cares about.</p>\n' +
+            '\n' +
+            '                    <p>If we do manage to become the defacto social network (which at that point would already be a\n' +
+            '                        huge improvement over existing ones in regards to transparency, privacy and security), with that amount\n' +
+            '                        of users and public interest, we would then be able to afford the time and the best and brightest minds in tech to \n' +
+            '                        research decentralisation strategies.</p>\n' +
+            '\n' +
+            '                    <p>Imagine if we could invest millions in this! What a difference it would make.</p>'
         },
         press: {
             we: 'We',

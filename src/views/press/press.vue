@@ -54,16 +54,6 @@
                                 {{ $t('press.newsroom') }}
                             </a>
                         </li>
-                        <li>
-                            <a href="#people" v-scroll-to="'#people'">
-                                {{ $t('press.people') }}
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#logos" v-scroll-to="'#logos'">
-                                {{ $t('press.logos') }}
-                            </a>
-                        </li>
                     </ul>
                 </div>
             </div>
@@ -96,26 +86,6 @@
                 </div>
             </div>
         </section>
-        <section class="section" id="people">
-            <div class="small-container">
-                <div class="content is-medium padding-bottom-3x">
-                    <h4>
-                        {{ $t('press.people') }}
-                    </h4>
-                </div>
-                <ob-press-people></ob-press-people>
-            </div>
-        </section>
-        <section class="section" id="logos">
-            <div class="small-container">
-                <div class="content is-medium padding-bottom-3x">
-                    <h4>
-                        {{ $t('press.logos') }}
-                    </h4>
-                </div>
-                <ob-logos></ob-logos>
-            </div>
-        </section>
         <section class="section" id="inquiries">
             <div class="small-container">
                 <div class="content is-medium">
@@ -144,13 +114,9 @@
     import ObNewspaper from "./components/newspaper.vue";
     import ObPressAsset from "./components/press-asset.vue";
     import ObPressKits from "./components/press-kits/press-kits";
-    import ObPressPeople from "./components/press-people/press-people.vue";
-    import ObLogos from "./components/logos/logos.vue";
 
     export default {
         components: {
-            ObLogos,
-            ObPressPeople,
             ObPressKits,
             ObNewspaper,
             ObPressAsset

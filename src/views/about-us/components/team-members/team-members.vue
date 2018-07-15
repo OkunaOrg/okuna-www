@@ -8,16 +8,16 @@
 
 <script>
     import ObTeamMember from "./components/team-member";
-    import joelPhoto from './assets/joel-min.jpg';
-    import jayaPhoto from './assets/jaya-min.png';
-    import martijnPhoto from './assets/martijn-min.jpg';
-    import philPhoto from './assets/phil-min.jpg';
-    import vincentPhoto from './assets/vincent-min.jpeg';
-    import basPhoto from './assets/bas-min.jpg';
-    import lambrechtPhoto from './assets/lambrecht-min.jpeg';
-    import shantanuPhoto from './assets/shantanu-min.jpg';
-    import nathaliePhoto from './assets/nathalie-min.png';
-    import robinPhoto from './assets/robin-min.png';
+    import joelPhoto from './assets/profile-picture-joel-min.png';
+    import jayaPhoto from './assets/profile-picture-jaya-min.png';
+    import martijnPhoto from './assets/profile-picture-martijn-min.jpg';
+    import philPhoto from './assets/profile-picture-phil-min.png';
+    import vincentPhoto from './assets/profile-picture-vincent-min.png';
+    import basPhoto from './assets/profile-picture-bas-min.jpg';
+    import lambrechtPhoto from './assets/profile-picture-lambrecht-min.png';
+    import shantanuPhoto from './assets/profile-picture-shantanu-min.png';
+    import nathaliePhoto from './assets/profile-picture-nathalie-min.png';
+    import robinPhoto from './assets/profile-picture-robin-min.png';
 
 
     export default {
