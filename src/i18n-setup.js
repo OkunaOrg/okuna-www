@@ -6,7 +6,6 @@ import axios from 'axios';
 Vue.use(VueI18n);
 
 const messages = translations.messages;
-console.log(messages);
 export const i18n = new VueI18n({
     locale: 'en', // navigator.language.substring(0,2), // set locale
     fallbackLocale: 'en',
