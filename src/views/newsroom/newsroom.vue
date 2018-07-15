@@ -267,11 +267,9 @@
     import ObPressAsset from "./components/press-asset.vue";
     import ObPressKits from "./components/press-kits/press-kits";
     import ObPressPeople from "./components/press-people/press-people.vue";
-    import ObLogos from "./components/logos/logos.vue";
 
     export default {
         components: {
-            ObLogos,
             ObPressPeople,
             ObPressKits,
             ObNewspaper,
