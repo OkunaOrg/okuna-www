@@ -1,12 +1,12 @@
 <template>
     <div class="columns is-centered is-mobile featured-in">
-        <!--<div class="column">-->
-            <!--<a href="https://www.ft.com/" target="_blank" rel="noopener noreferrer">-->
-                <!--<figure class="image featured-in-img position-top">-->
-                    <!--<img class="is-grayscale" src="./assets/ft-logo.png">-->
-                <!--</figure>-->
-            <!--</a>-->
-        <!--</div>-->
+        <div class="column">
+            <a href="https://www.ft.com/" target="_blank" rel="noopener noreferrer">
+                <figure class="image featured-in-img position-top">
+                    <img class="is-grayscale" src="./assets/ft-logo.png">
+                </figure>
+            </a>
+        </div>
         <div class="column">
             <a href="https://www.greennetproject.org/" target="_blank" rel="noopener noreferrer">
                 <figure class="image featured-in-img">
