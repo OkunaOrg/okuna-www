@@ -225,13 +225,6 @@ export const messages = {
             '                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
             crowd_funding: 'As we wanted the project to be driven by people and not capital, we decided to go for crowd-funding.',
             launching_kickstarter: 'We\'ll be launching our Kickstarter campaign on the 17th of July.',
-            is_distributed: 'Will it be distributed like diaspora, mastodon, etc?',
-            is_distributed_ans: 'TLDR; No, but your data will be fully portable to other Openbook instances.',
-            absolute_control: 'We want to give our users absolute control of their data. We want them to be able to see the exact physical location of their data and to be able to ensure its deletion, even when shared with third party applications.',
-            activity_pub: 'Protocols for interconnection between social networks such as ActivityPub rely on independently distributed networks to accomplish this.',
-            impossible_guarantee: 'These networks, being independently distributed, make these items impossible to guarantee.',
-            data_portability: 'However, if your concern is data portability, all of your data will be downloadable and fully portable to other Openbook instances.',
-            nothing_against_decentralisation: 'Don\'t get us wrong though, we have nothing against these networks, in fact, we are amazed by their ingenuity.',
             why_not_non_profit: 'Why is Openbook not a non-profit?',
             why_not_non_profit_ans: 'Making Openbook a for-profit was a hard choice to make.',
             check_all_boxes: 'We check all the non-profits boxes and we love non-profits. We love Wikipedia, the Ghost Foundation, Founders Pledge, Mozilla and many more.',
@@ -258,7 +251,43 @@ export const messages = {
             interested: 'Interested?',
             contact_us_2: 'Contact us',
             more_questions: 'Have another question?',
-            send_us_message: 'Send us a message'
+            send_us_message: 'Send us a message',
+            why_not_decentralised: 'Why is Openbook not decentralised?',
+            why_not_decentralised_ans: '<p>\n' +
+            '                        Decentralised systems are incredibly complicated. For example rolling out updates (security updates/improvements included),\n' +
+            '                        maintaining cross-version compatibility (for example when rolling out a feature that is by design non-backwards compatible)\n' +
+            '                        and tracking, modifying or deleting user information across the nodes (pretty much impossible to guarantee and\n' +
+            '                        therefore non-GDPR compliant).\n' +
+            '                    </p>\n' +
+            '\n' +
+            '                    <p>It is a mighty challenge of itself to develop a system that tackles all of these issues. It could take years of research and development.</p>\n' +
+            '\n' +
+            '                        <p>Facebook, Google and other giants are growing at an incredible pace, crushing or buying any sign of competition.\n' +
+            '                            The initiatives you mention in all honesty and sadness from our part too, don\'t stand a chance.</p>\n' +
+            '\n' +
+            '                    <p>While they are focusing in coming up with revolutionary technologies and ways to tackle the\n' +
+            '                        decentralisation system problems, the real users of such systems (Youtube and Twitter) care little\n' +
+            '                        for that aspect of the product. They care about the experience, the features, the ease of use,\n' +
+            '                        the design of it. Once they solve the decentralisation issues, they will be thousands of light years\n' +
+            '                        away from matching the features these systems will have then and will all have been for nothing.</p>\n' +
+            '\n' +
+            '                    <p>We are tackling the problem the other way around. We will use existing technologies to build not only a product that competes with the giants but beats them in the aspects that the general public care about. Once we achieve this we will then work hard in making sure we build the most secure, private and perhaps even decentralised platform.</p>\n' +
+            '\n' +
+            '                    <p>If we do manage to become the defacto social network (which at that point would already be a\n' +
+            '                        huge improvement over existing ones in regards to transparency, privacy and security), with that amount\n' +
+            '                        of users and public interest, we would be able to afford the time and the best and brightest minds in tech to come up\n' +
+            '                        with better decentralisation strategies.</p>\n' +
+            '\n' +
+            '                    <p>Imagine if we could invest billions in developing such technology! What a difference would it make.</p>\n' +
+            '\n' +
+            '                        <p>So, there you have it. That\'s the plan.\n' +
+            '                        There\'s a funny risk to our efforts though.. Not posed by Facebook, nor Twitter nor the general public. \n' +
+            '                            We can handle those. The risk we do see is posed by the people that share the same privacy and open internet \n' +
+            '                            values. Ironic I know... Why? Because they might not see what I mentioned above. That there is really no time to try to build \n' +
+            '                            new technology and compete at the same time with the already-giants. We would never catch up.</p>\n' +
+            '                    \n' +
+            '                    <p>If they do not see this, they will discredit us, call us just one more of the pile and being a project \n' +
+            '                        putting so much faith in this community in order to succeed, we will fail.</p>'
         },
         press: {
             we: 'We',

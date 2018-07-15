@@ -74,32 +74,13 @@
                     <p>
                         {{ $t('faq.crowd_funding') }}
                     </p>
-                    <P>
+                    <p>
                         {{ $t('faq.launching_kickstarter') }}
-                    </P>
-                    <h3 id="willitbedistributed">
-                        {{ $t('faq.is_distributed') }}
+                    </p>
+                    <h3 id="whynotdecentralised">
+                        {{ $t('faq.why_not_decentralised') }}
                     </h3>
-                    <p>
-                        <strong>  {{ $t('faq.is_distributed_ans') }} </strong>
-                    </p>
-                    <p>
-                        {{ $t('faq.absolute_control') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.activity_pub') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.impossible_guarantee') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.data_portability') }}
-                    </p>
-                    <p>
-                    </p>
-                    <p class="is-size-7">
-                        <span>  {{ $t('faq.nothing_against_decentralisation') }}</span>
-                    </p>
+                    <p v-html="$t('faq.why_not_decentralised_ans')"></p>
                     <h3 id="whynotnonprofit">
                         {{ $t('faq.why_not_non_profit') }}
                     </h3>
