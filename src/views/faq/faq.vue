@@ -81,6 +81,7 @@
                         {{ $t('faq.why_not_decentralised') }}
                     </h3>
                     <p v-html="$t('faq.why_not_decentralised_ans')"></p>
+
                     <h3 id="whynotnonprofit">
                         {{ $t('faq.why_not_non_profit') }}
                     </h3>

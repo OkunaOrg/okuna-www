@@ -264,38 +264,29 @@ export const messages = {
             why_not_decentralised_ans: '<p>\n' +
             '                        Decentralised systems are incredibly complicated. For example rolling out updates (security updates/improvements included),\n' +
             '                        maintaining cross-version compatibility (for example when rolling out a feature that is by design non-backwards compatible)\n' +
-            '                        and tracking, modifying or deleting user information across the nodes (pretty much impossible to guarantee and\n' +
-            '                        therefore non-GDPR compliant).\n' +
+            '                        and tracking, modifying or deleting user information across the nodes (pretty much impossible to guarantee).\n' +
             '                    </p>\n' +
             '\n' +
-            '                    <p>It is a mighty challenge of itself to develop a system that tackles all of these issues. It could take years of research and development.</p>\n' +
+            '                    <p>It is a mighty challenge by itself to develop a system that tackles all of these issues. It could take years of research and development.</p>\n' +
             '\n' +
-            '                        <p>Facebook, Google and other giants are growing at an incredible pace, crushing or buying any sign of competition.\n' +
-            '                            The initiatives you mention in all honesty and sadness from our part too, don\'t stand a chance.</p>\n' +
+            '                        <p>The software giants are growing at an incredible pace, crushing or buying any sign of competition.\n' +
+            '                            Initiatives for social media decentralization in all honesty and sadness, don\'t stand a chance.</p>\n' +
             '\n' +
-            '                    <p>While they are focusing in coming up with revolutionary technologies and ways to tackle the\n' +
-            '                        decentralisation system problems, the real users of such systems (Youtube and Twitter) care little\n' +
+            '                    <p>While they are focusing on building revolutionary technologies and ways to tackle the\n' +
+            '                        decentralisation system problems, the real users of such systems (people with a non-tech background) care little\n' +
             '                        for that aspect of the product. They care about the experience, the features, the ease of use,\n' +
-            '                        the design of it. Once they solve the decentralisation issues, they will be thousands of light years\n' +
-            '                        away from matching the features these systems will have then and will all have been for nothing.</p>\n' +
+            '                        the design. Once these initiatives solve the decentralisation challenges, they will be thousands of light years\n' +
+            '                        away from matching the features the software giants will then have. It would all have been for nothing.</p>\n' +
             '\n' +
-            '                    <p>We are tackling the problem the other way around. We will use existing technologies to build not only a product that competes with the giants but beats them in the aspects that the general public care about. Once we achieve this we will then work hard in making sure we build the most secure, private and perhaps even decentralised platform.</p>\n' +
+            '                    <p>We are tackling the problem the other way around. We will use existing technologies to build not only a product ' +
+            'that competes with the software giants but beats them in the aspects that the general public cares about.</p>\n' +
             '\n' +
             '                    <p>If we do manage to become the defacto social network (which at that point would already be a\n' +
             '                        huge improvement over existing ones in regards to transparency, privacy and security), with that amount\n' +
-            '                        of users and public interest, we would be able to afford the time and the best and brightest minds in tech to come up\n' +
-            '                        with better decentralisation strategies.</p>\n' +
+            '                        of users and public interest, we would then be able to afford the time and the best and brightest minds in tech to \n' +
+            '                        research decentralisation strategies.</p>\n' +
             '\n' +
-            '                    <p>Imagine if we could invest billions in developing such technology! What a difference would it make.</p>\n' +
-            '\n' +
-            '                        <p>So, there you have it. That\'s the plan.\n' +
-            '                        There\'s a funny risk to our efforts though.. Not posed by Facebook, nor Twitter nor the general public. \n' +
-            '                            We can handle those. The risk we do see is posed by the people that share the same privacy and open internet \n' +
-            '                            values. Ironic I know... Why? Because they might not see what I mentioned above. That there is really no time to try to build \n' +
-            '                            new technology and compete at the same time with the already-giants. We would never catch up.</p>\n' +
-            '                    \n' +
-            '                    <p>If they do not see this, they will discredit us, call us just one more of the pile and being a project \n' +
-            '                        putting so much faith in this community in order to succeed, we will fail.</p>'
+            '                    <p>Imagine if we could invest millions in this! What a difference it would make.</p>'
         },
         press: {
             we: 'We',
