@@ -22,7 +22,7 @@ export const messages = {
         },
         easy: {
             title: 'Fácil',
-            description: 'Fácil de usar, aun más simple mudarte! Arrastra el archivo con la información de tu antigua red social e importa todas tus fotos, videos, chats y más!'
+            description: 'Fácil de usar ¡ Aun más fácil mudarte! Arrastra el archivo con la información de tu antigua red social e importa todas tus fotos, videos, chats y más!'
         },
         fun: {
             title: '!Divertida!',
@@ -35,6 +35,10 @@ export const messages = {
         good_for_planet: {
             title: 'Buena para el planeta',
             description: 'Con ayuda de <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, usaremos 30% de nuestros ingresos hacia proyectos de educación, sanitización, prevención del cambio climático y más.'
+        },
+        ads_free: {
+            title: '100% Libre de anuncios',
+            description: 'Nuestro modelo de ingresos no está ni nunca estará basado en publicidad. ¡Disfruta navegación sin publicidad!'
         },
         quotes: {
             joel_name: 'Joel Hernández',
@@ -55,11 +59,9 @@ export const messages = {
             grandma: 'abuela',
             reddit: 'reddit',
             we_are_ob: 'Somos <strong>Open</strong>book.',
-            kickstarter: 'La red social de codigo abierto, que respeta tu privacidad, es divertida, honesta y ayuda a crear mundo mejor para todos.' +
-            ' <strong>Proximamente en <span\n' +
-            '    style="color: #034752;">Kickstarter</span></strong>.',
+            kickstarter: 'La red social de codigo abierto, que respeta tu privacidad, es divertida, honesta y ayuda a crear mundo mejor para todos.',
             share: 'Compartir',
-            notify_me: 'Recuerdame'
+            notify_me: 'Ahora en Kickstarter'
         },
         count_down: {
             kickstarter: 'Kickstarter',
@@ -68,8 +70,8 @@ export const messages = {
             hours: 'hora | horas',
             minutes: 'minuto | minutos',
             seconds: 'segundo | segundos',
-            kickstarter_launch: 'Lanzaremos nuestra campaña de <strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            '<br/> el <strong>17 de Julio de 2018</strong>.'
+            kickstarter_launch: 'La campaña de <strong class="has-text-kickstarter">Kickstarter</strong> ' +
+            '<br/> termina el <strong>15 de Agosto del 2018</strong>.'
         },
         meet_the_team: {
             title: 'Conoce al equipo'
@@ -278,18 +280,18 @@ export const messages = {
             today_everyday: 'Hoy, mañana y todos los dias despues.',
             hi: 'Hola!',
             any_questions: 'Esperamos que encuentres todo lo que necesitas a continuación.\n' +
-            '                        ​​If you have any questions, would like to schedule an interview or require extra material, feel free to contact Lambrecht Wessels at <a\n' +
+            '                        ​​Si tienes alguna pregunta, deseas programar una entrevista o necesitas material adicional, contacta a Lambrecht Wessels en <a\n' +
             '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">lambrecht@open-book.org</a>.',
-            happy_to_help: 'We’re happy to help.',
-            jump_to: 'Jump to',
-            press_kit: 'Press kit',
-            newsroom: 'Newsroom',
-            people: 'People',
+            happy_to_help: 'Estamos felices de ayudar.',
+            jump_to: 'Brincar a',
+            press_kit: 'Kit de prensa',
+            newsroom: 'Sala de noticias',
+            people: 'Gente',
             logos: 'Logos',
-            includes_everything: 'Includes press releases, manifesto, bios, photos, vector logos, misc images and website photos.',
-            home_press: 'Home to our press releases.',
-            go_to_newsroom: 'Go to newsroom',
-            missing_something: 'Missing something? Contact <a\n' +
+            includes_everything: 'Incluye comunicados de prensa, manifiesto, biografías, fotos, logotipos de vectores e imágenes misceláneas.',
+            home_press: 'Lugar de todos nuestros comunicados de prensa. Próximamente disponibles también en Español.',
+            go_to_newsroom: 'Ir a sala de noticias',
+            missing_something: 'Buscando algo más? Contacta a <a\n' +
             '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">Lambrecht Wessels</a>.'
         }
     }

@@ -51,30 +51,30 @@ const router = new Router({
             path: '/manifesto',
             redirect: `/${browserLang}/manifesto`
         },
-        // {
-        //     path: '/en/manifesto',
-        //     name: 'manifesto',
-        //     component: manifesto_en,
-        //     meta: {
-        //         title: 'Manifesto | Openbook social network'
-        //     }
-        // },
-        // {
-        //     path: '/nl/manifesto',
-        //     name: 'manifesto',
-        //     component: manifesto_nl,
-        //     meta: {
-        //         title: 'Manifesto | Openbook social network'
-        //     }
-        // },
-        // {
-        //     path: '/es/manifesto',
-        //     name: 'manifesto',
-        //     component: manifesto_es,
-        //     meta: {
-        //         title: 'Manifesto | Openbook social network'
-        //     }
-        // },
+       {
+           path: '/en/manifesto',
+           name: 'manifesto',
+           component: manifesto_en,
+           meta: {
+               title: 'Manifesto | Openbook social network'
+           }
+       },
+       {
+           path: '/nl/manifesto',
+           name: 'manifesto',
+           component: manifesto_nl,
+           meta: {
+               title: 'Manifesto | Openbook social network'
+           }
+       },
+       {
+           path: '/es/manifesto',
+           name: 'manifesto',
+           component: manifesto_es,
+           meta: {
+               title: 'Manifesto | Openbook social network'
+           }
+       },
         {
             path: '/press',
             redirect: `/${navigator.language.substring(0,2)}/press`

@@ -18,7 +18,7 @@ export const messages = {
         },
         secure : {
             title: 'Secure',
-            description: 'With a tough and strict security policy, we make sure your data doesn\'t fall into the wrong hands.'
+            description: 'With a tough and strict security policy, we make sure your data doesn\'t fall into the wrong hands. Plus, we have a cryptography pioneer in our team. End-to-end encryption anyone?'
         },
         easy : {
             title: 'Easy-peasy',
@@ -281,7 +281,7 @@ export const messages = {
             '                        <p>The software giants are growing at an incredible pace, crushing or buying any sign of competition.\n' +
             '                            Initiatives for social media decentralization in all honesty and sadness, don\'t stand a chance.</p>\n' +
             '\n' +
-            '                    <p>While they are focusing on building revolutionary technologies and ways to tackle the\n' +
+            '                    <p>While decentralisation initiatives are focusing on building revolutionary technologies and ways to tackle the\n' +
             '                        decentralisation system problems, the real users of such systems (people with a non-tech background) care little\n' +
             '                        for that aspect of the product. They care about the experience, the features, the ease of use,\n' +
             '                        the design. Once these initiatives solve the decentralisation challenges, they will be thousands of light years\n' +

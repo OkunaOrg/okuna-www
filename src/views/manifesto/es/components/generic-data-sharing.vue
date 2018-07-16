@@ -10,12 +10,12 @@
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            Before you can enjoy of our free Wifi Hotspots you must continue with EvilCorp.
+                            Antes de poder disfrutar de nuestros puntos de acceso wifi gratuitos, debes continuar con EvilCorp.
                         </div>
                         <div class="column is-12 has-text-centered">
                             <button class="button is-generic-social-media" @click="goToStep2()">
                                 <span class="icon"><i
-                                    class="fas fa-anchor"></i></span><span>Continue with EvilCorp</span>
+                                    class="fas fa-anchor"></i></span><span>Continuar con EvilCorp</span>
                             </button>
                         </div>
                     </div>
@@ -29,15 +29,16 @@
                         </div>
                         <div class="column is-12 has-text-centered">
                             <div>
-                                <strong>WiFi Hotspots App</strong> will receive:
+                                <strong>La aplicación WiFi Hotspots App</strong> recibirá:
                             </div>
-                            <span> your </span>
+                            <span> tu </span>
                             <span v-for="(dataItem, index) of sharedData" v-if="sharedData.length > 1">
                                 <span v-if="index === (sharedData.length - 1)">
-                                    and
+                                    y
                                 </span>
                                 <span>{{dataItem.name}}</span>
-                                <span v-if="index !== (sharedData.length - 2 ) && index !== (sharedData.length - 1)">,</span>
+                                <span
+                                    v-if="index !== (sharedData.length - 2 ) && index !== (sharedData.length - 1)">,</span>
                                 <span v-if="index === (sharedData.length - 1)">.</span>
                             </span>
                             <span v-else>
@@ -45,7 +46,7 @@
                             </span>
                             <div>
                                 <b-tooltip
-                                    label="Your public profile includes name, profile picture, age range, gender, language, country and other public info."
+                                    label="Tu perfil público incluye nombre, foto de perfil, rango de edad, sexo, idioma, país y otra información pública."
                                     position="is-bottom" type="is-dark" multilined>
                                     <i class="icon is-small fas fa-info-circle info-icon"></i>
                                 </b-tooltip>
@@ -57,18 +58,18 @@
                                     <i class="fas fa-pencil-alt"></i>
                                 </span>
                                 <span>
-                                    Edit this
+                                    Editar
                                 </span>
                             </a>
                         </div>
                         <div class="column is-12 has-text-centered">
                             <button class="button is-generic-social-media is-medium" @click="goToStep4()">
-                                Continue
+                                Continuar
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
                             <a class="is-medium info-icon" @click="goToStep1()">
-                                Cancel
+                                Cancelar
                             </a>
                         </div>
                     </div>
@@ -82,7 +83,7 @@
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <span>Back</span>
+                                        <span>Atrás</span>
                                     </button>
                                 </div>
                             </div>
@@ -115,11 +116,11 @@
                         <div class="column is-12 has-text-centered">
                             <div>
                                 <strong>
-                                    Success
+                                    Éxito
                                 </strong>
                             </div>
                             <span>
-                                The social network has now shared your information with the application.
+                                La red social ha compartido tu información con la aplicación.
                             </span>
                         </div>
                         <div class="column is-12 has-text-centered">
@@ -127,7 +128,7 @@
                                 <span class="icon is-small">
                                     <i class="fas fa-sync-alt"></i>
                                 </span>
-                                <span>  Restart example</span>
+                                <span>Reiniciar ejemplo</span>
                             </button>
                         </div>
                     </div>
@@ -145,7 +146,7 @@
         display: flex !important;
         justify-content: center;
         align-items: center;
-        box-shadow:0 2px 3px hsla(0,0%,4%,.1), 0 0 0 1px hsla(0,0%,4%,.1) !important;
+        box-shadow: 0 2px 3px hsla(0, 0%, 4%, .1), 0 0 0 1px hsla(0, 0%, 4%, .1) !important;
     }
 
     .app-logo {
@@ -171,34 +172,34 @@
                 publicProfileShared: true,
                 availableData: [
                     {
-                        name: 'public profile',
+                        name: 'perfil público',
                         required: true,
                         enabled: true,
-                        description: 'John Doe, profile picture, 33+ years old, male and other public info'
+                        description: 'Juan Doe, foto de perfil, mayor de 33 años, hombre y otra información pública'
                     },
                     {
-                        name: 'friend list',
+                        name: 'lista de amigos',
                         required: false,
                         enabled: true,
-                        description: 'Mike Chowder, Barbara Lamb and 590 others.'
+                        description: 'Miguel Chowder, Barbara Lamb y 590 más.'
                     },
                     {
-                        name: 'birthday',
+                        name: 'cumpleaños',
                         required: false,
                         enabled: true,
-                        description: 'January, 12, 1990'
+                        description: 'Enero, 12, 1990'
                     },
                     {
                         name: 'likes',
                         required: false,
                         enabled: true,
-                        description: 'The Daily Show, NBC and 978 others'
+                        description: 'El Daily Show, NBC y 978 más.'
                     },
                     {
-                        name: 'email address',
+                        name: 'correo',
                         required: false,
                         enabled: true,
-                        description: 'john@doe.com',
+                        description: 'juan@doe.com',
                     },
                 ]
             }
