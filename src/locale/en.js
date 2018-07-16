@@ -167,6 +167,14 @@ export const messages = {
             martijn_title: 'Software Engineer',
             martijn_desc: 'Practical software engineer, JavaScript guru, wearable tech geek, gamer, coolness officer in charge.'
         },
+        ambassadors: {
+            isaac_name: 'Isaac Hernández',
+            isaac_desc: 'Artist, social entrepreneur.',
+            ruben_name: 'Ruben Van Vreeland',
+            ruben_desc: 'CEO & Co-Founder of BitSensor, cyber-security software.',
+            edwin_name: 'Edwin van Andel',
+            edwin_desc: 'CEO at Zerocopter, international speaker, experienced security expert.',
+        },
         contact_us: {
             title: 'Contact us',
             subtitle: 'We want to hear from you.',

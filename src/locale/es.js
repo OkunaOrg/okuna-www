@@ -145,6 +145,14 @@ export const messages = {
             become_ambassadors: 'Quieres ser un embajador?',
             contact_us: 'Contactanos'
         },
+        ambassadors: {
+            isaac_name: 'Isaac Hernández',
+            isaac_desc: 'Artista, emprendedor social.',
+            ruben_name: 'Ruben Van Vreeland',
+            ruben_desc: 'Director ejecutivo de BitSensor, software de ciber-seguridad.',
+            edwin_name: 'Edwin van Andel',
+            edwin_desc: 'Director ejecutivo de Zerocopter, orador internacional, experto en seguridad informática.',
+        },
         team_members: {
             joel_title: 'Fundador, Director Ejecutivo',
             joel_desc: 'Activista de privacidad y seguridad, ingeniero de software, diseñador de productos digitales, colaborador de codigo abierto, humano.',
@@ -165,8 +173,9 @@ export const messages = {
             robin_title: 'Directora de comunicaciones',
             robin_desc: 'Maga del márketing, talento de The Next Web top 500, amante de la playa, odia ser interrumpida por la rutina, ama la vida fuera de la zona de confort.',
             martijn_title: 'Ingeniero de Software',
-            martijn_desc: 'Ingeniero de software práctico, gurú de JavaScript, geek de la tecnología en accesorios, gamer, papá.'
+            martijn_desc: 'Ingeniero de software práctico, gurú de JavaScript, geek de la tecnología en accesorios, gamer, papá.',
         },
+
         contact_us: {
             title: 'Contáctanos',
             subtitle: 'Queremos escuchar de ti.',
