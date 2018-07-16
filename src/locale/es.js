@@ -123,48 +123,55 @@ export const messages = {
             in_europe: 'en Europa'
         },
         about_us: {
-            title: 'About us',
-            subtitle: 'We want to build a tool for <span class="has-text-primary">good</span>.',
+            title: 'Acerca de nosotros',
+            subtitle: 'Queremos crear una herramienta para <span class="has-text-primary">bien</span>.',
             description: '<span class="has-text-primary"><strong\n' +
             '                                class="has-text-primary">Open</strong>book</span> ' +
-            'is an open-source, zero tracking, zero spying, zero advertisement, secure social network ' +
-            'that gives 30% of it\'s revenue towards making the world a better place, now and forever.',
-            description_founded: 'Founded in April 2018 in the international city of peace and justice, The Hague, Openbook is a project to make things right.',
-            description_project: 'A project to redefine social networks, a project to rethink the "free" internet, a project to bring transparency to the internet, a project to claim back our privacy.',
-            description_better_world: '<strong>Openbook is a project to make the world a better place</strong>.',
-            accomplish_how: 'How will we accomplish this?',
-            read_our_manifesto: 'Read our manifesto',
-            humans_behind_ob: 'The humans behind <strong>Open</strong>book',
-            work_with_us: 'Want to work with us?',
-            visit_jobs_page: 'Visit our jobs page',
-            our_ambassadors: ' Our ambassadors',
-            ambassadors_desc: 'People that help us spread the word around and stand for everything we do.',
-            become_ambassadors: 'Want to become an ambassador?',
-            contact_us: 'Contact us'
+            'is an new, privacy-friendly, open-source and awesome social network ' +
+            'giving 30% of it\'s revenue towards making the world a better place, now and forever.',
+            description: '<span class="has-text-primary"><strong\n' +
+            '                                class="has-text-primary">Open</strong>book</span> ' +
+            'es la sorprendente y honesta red social, amiga de tu privacidad de codigo abierto ' +
+            'que ayuda a crear un mundo mejor para todos, por hoy y por siempre.',
+            description_founded: 'Fundada en Abril del 2018 en la ciudad internacional de la paz, La Haya, Openbook nace del deseo de construir una mejor red social.',
+            description_project: 'Una red social que es honesta, que respeta la privacidad de sus usuarios, que ayuda a unirnos como sociedad, que es divertida de usar y finalmente, que es buena para el planeta.',
+            accomplish_how: 'Cómo lograremos esto?',
+            read_our_manifesto: 'Lee nuestro manifesto',
+            humans_behind_ob: 'Los humanos detrás de <strong>Open</strong>book',
+            work_with_us: 'Quieres trabajar con nosotros?',
+            visit_jobs_page: 'Visita nuestros trabajos',
+            our_ambassadors: ' Nuestros embajadores',
+            ambassadors_desc: 'Gente que nos ayuda a dar a conocer la red social y nos apoya en todo lo que hacemos.',
+            become_ambassadors: 'Quieres ser un embajador?',
+            contact_us: 'Contactanos'
         },
         team_members: {
-            joel_title: 'Founder, Chief Executive Officer',
-            joel_desc: 'Privacy and security activist, software engineer, digital products designer, open sourcerer, The Next Web Top 500 young talent, human.',
-            jaya_title: 'Chief Operating Officer',
-            jaya_desc: 'Globally recognized cyber-security expert, speaker on lawful interception, quantum-computing, counter surveillance and cryptography.',
-            phil_title: 'Chief Cryptographer',
-            phil_desc: 'Cryptography pioneer, creator of PGP, the most widely used email encryption software in the world, internet hall of fame member, privacy activist.',
-            lambrecht_title: 'Chief Marketing Officer',
-            lambrecht_desc: 'Security and international relations expert, conflict analyst, peace-builder, media researcher & producer, human rights activist.',
-            vincent_title: 'Security Engineer',
-            vincent_desc: 'Ethical hacker, reverse-engineer, exploit developer, speaker, does not like the word cyber, cyber expert.',
-            bas_title: 'UI/UX Ethical Designer',
-            bas_desc: 'Advocate of useful and meaningful products, user experience wizard, worked with numerous international brands, researcher, hardware hacker.',
-            shantanu_title: 'Software Engineer',
-            shantanu_desc: 'Pragmatic software engineer, product guy, crypto-geek, bot-maker, simplicity advocate.',
-            martijn_title: 'Software Engineer',
-            martijn_desc: 'Practical software engineer, JavaScript guru, wearable tech geek, gamer, coolness officer in charge.'
+            joel_title: 'Fundador, Director Ejecutivo',
+            joel_desc: 'Activista de privacidad y seguridad, ingeniero de software, diseñador de productos digitales, colaborador de codigo abierto, humano.',
+            jaya_title: 'Directora de Operaciones',
+            jaya_desc: 'Experta en seguridad cibernética reconocido mundialmente, conferenciante sobre intercepción legal, computación cuántica, contra-vigilancia y criptografía.',
+            phil_title: 'Director de Criptografía',
+            phil_desc: 'Pionero de la criptografía, creador de PGP, el software de cifrado de correo electrónico más utilizado en el mundo, miembro del Salón de la Fama de Internet, activista de la privacidad.',
+            lambrecht_title: 'Director de Márketing',
+            lambrecht_desc: 'Experto en seguridad y relaciones internacionales, analista de conflictos, constructor de paz, investigador y productor de medios, activista de derechos humanos.',
+            vincent_title: 'Ingeniero de ciber-seguridad',
+            vincent_desc: 'Hacker ético, ingeniero de ingeniería inversa, desarrollador de exploits, orador, no le gusta la palabra cyber, experto en cyber.',
+            bas_title: 'Director de Diseño',
+            bas_desc: 'Activista de productos útiles y significativos, mago de las experiencias digitales, trabajó con numerosas marcas internacionales, investigador, hacker de hardware.',
+            shantanu_title: 'Director de Producto',
+            shantanu_desc: 'Ingeniero de software pragmático con una habilidad especial para crear excelentes productos y experiencias, geek de la criptografía, creador de bots, activista de la simplicidad.',
+            nathalie_title: 'Gerente de proyecto',
+            nathalie_desc: 'Maestra de la planificación, personificación del optimismo, ¿Quiere lograr cosas? Llama a Nathalie.',
+            robin_title: 'Directora de comunicaciones',
+            robin_desc: 'Maga del márketing, talento de The Next Web top 500, amante de la playa, odia ser interrumpida por la rutina, ama la vida fuera de la zona de confort.',
+            martijn_title: 'Ingeniero de Software',
+            martijn_desc: 'Ingeniero de software práctico, gurú de JavaScript, geek de la tecnología en accesorios, gamer, papá.'
         },
         contact_us: {
-            title: 'Contact us',
-            subtitle: 'We want to hear from you.',
-            info: 'Contact information',
-            message: 'Send us a message'
+            title: 'Contáctanos',
+            subtitle: 'Queremos escuchar de ti.',
+            info: 'Información de contacto',
+            message: 'Mandanos un mensaje'
         },
         address: {
             name: 'Name',
@@ -177,12 +184,12 @@ export const messages = {
             website: 'Website'
         },
         message: {
-            subject: 'Subject',
-            reason_placeholder: 'The reason you are contacting us',
-            email_placeholder: 'The email we can reach you at',
+            subject: 'Sujeto',
+            reason_placeholder: 'La razón por la que nos contactas',
+            email_placeholder: 'El email al cual responderte',
             email: 'Email',
-            user_message: 'Message',
-            user_message_placeholder: 'What can we do for you?',
+            user_message: 'Mensaje',
+            user_message_placeholder: 'En que podemos ayudarte?',
             google_recaptcha_title: 'We use <a href="https://www.google.com/recaptcha/intro/v3beta.html" target="_blank"\n' +
             '                                              rel="noopener noreferrer">Google Recaptcha</a>\n' +
             '                                    to prevent the abuse of this form.',

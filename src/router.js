@@ -180,11 +180,7 @@ router.beforeEach((to, from, next) => {
     } else if (!locale) {
         locale = navigator.language.substring(0,2);
     }
-    if (locale !== 'en') {
-        router.replace({name: to.name, params: {locale: 'en'}});
-    } else {
-        setupi18n.loadLanguageAsync(locale).then(() => next())
-    }
+    setupi18n.loadLanguageAsync(locale).then(() => next())
 });
 
 export default router;
