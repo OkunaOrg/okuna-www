@@ -40,7 +40,7 @@
                                 <div class="content has-text-centered">
                                     <p class="is-size-4 is-marginless padding-bottom-1x" v-html="$t('count_down.kickstarter_launch')">
                                     </p>
-                                    <a target="_blank" rel="noopener noreferrer" href="https://open-book.org/kickstarter" class="button is-rainbow is-rounded is-large padding-top-2x">
+                                    <a target="_blank" rel="noopener noreferrer" href="https://www.kickstarter.com/projects/1520156881/openbook-the-honest-open-source-and-awesome-social" class="button is-rainbow is-rounded is-large padding-top-2x">
                                         <span class="icon"><i class="fab fa-kickstarter-k"></i></span><span>{{ $t('splash_hero.notify_me') }}</span>
                                     </a>
                                 </div>
