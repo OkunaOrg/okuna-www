@@ -29,7 +29,6 @@ export function loadLanguageAsync (locale) {
                 return setI18nLanguage(locale);
             });
         }
-        locale = 'en';
         return Promise.resolve(setI18nLanguage(locale));
     }
     return Promise.resolve(locale);

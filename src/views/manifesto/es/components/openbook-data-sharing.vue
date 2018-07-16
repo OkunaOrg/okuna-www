@@ -10,11 +10,11 @@
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            In order to use Songipy you must continue with Openbook.
+                            Para usar Songipy debes continuar con Openbook.
                         </div>
                         <div class="column is-12 has-text-centered">
-                            <button class="button is-primary" @click="goToStep2()">
-                                <span>Continue with <strong>Open</strong>book</span>
+                            <button class="button is-rainbow" @click="goToStep2()">
+                                <span>Continuar con <strong>Open</strong>book</span>
                             </button>
                         </div>
                     </div>
@@ -30,15 +30,15 @@
                             <div>
                                 <i class="fas fa-lock"></i>
                                 <span>
-                                    &nbsp; This application is safe to use.
+                                    &nbsp; La aplicación es segura de usar.
                                 </span>
                             </div>
                             <div class="is-size-7">
-                                It has met our strict privacy and security policies.
+                                Ha cumplido con nuestras estrictas políticas de privacidad y seguridad.
                             </div>
                             <div class="is-size-7">
                                 <a @click="wantsToLearnMoreAboutSecureApps()">
-                                    Learn more
+                                    Leer más
                                 </a>
                             </div>
                         </div>
@@ -46,10 +46,10 @@
                             <div class="section-separator"></div>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            <span>In order to continue, <strong>Songipy</strong> requires your</span>
+                            <span>Para continuar, <strong>Songipy</strong> requiere tu</span>
                             <span v-for="(dataItem, index) of requiredSharedData">
                                 <span v-if="index === (requiredSharedData.length - 1)">
-                                    and
+                                    y
                                 </span>
                                 <span>
                                     {{dataItem.readableName}}
@@ -68,8 +68,8 @@
                             <div class="field">
                                 <b-checkbox size="is-medium" v-model="optionalDataSharingEnabled">
                                     <div class="is-size-7">
-                                        <strong>Optionally</strong>, you would like to share
-                                        <span>your</span>
+                                        <strong>Opcionalmente</strong>, te gustaria compartir
+                                        <span>tu</span>
                                         <span v-if="enabledOptionalSharedData.length === 1">
                                             {{enabledOptionalSharedData[0].readableName}}
                                         </span>
@@ -85,8 +85,8 @@
                             <div class="field">
                                 <b-checkbox size="is-medium" v-model="optionalDataSharingEnabled">
                                     <div class="is-size-7">
-                                        <strong>Optionally</strong>, it would also like to access
-                                        <span>your</span>
+                                        <strong>Opcionalmente</strong>, tambien quiere obtener
+                                        <span>tu</span>
                                         <span v-for="(dataItem, index) of optionalSharedData">
                                 {{ index === optionalSharedData.length - 1 ? 'and ' + dataItem.readableName : dataItem.readableName + ', '
                                             }}
@@ -98,7 +98,7 @@
                         <div class="column is-12 has-text-centered">
                             <button class="button is-outlined is-small" @click="goToStep3()">
                                 <span>
-                                    Edit shared optional data
+                                    Editar datos opcionales compartidos
                                 </span>
                                 <span class="icon">
                                     <i class="fas fa-pencil-alt"></i>
@@ -109,7 +109,7 @@
                             <b-collapse :open.sync="inspectDataOpen">
                                 <button class="button is-transparent is-size-7 is-borderless" slot="trigger">
                                     <span>
-                                        Inspect shared data
+                                        Inspeccionar datos compartidos
                                     </span>
                                     <span class="icon is-small">
                                         <i class="fas fa-angle-down"></i>
@@ -127,13 +127,13 @@
                                             <a v-else-if="dataItem.type === 'list'"
                                                @click="wantsToDisplayListWithName(dataItem.readableName)">
                                                 <span>
-                                                    Open list ↗
+                                                    Abrir lista ↗
                                                 </span>
                                             </a>
                                             <a v-else-if="dataItem.type === 'image'" :href="dataItem.value"
                                                target="_blank" rel="noopener noreferrer">
                                                 <span>
-                                                    Open image ↗
+                                                    Abrir imagen ↗
                                                 </span>
                                             </a>
                                         </p>
@@ -148,12 +148,12 @@
                             <div class="columns is-mobile">
                                 <div class="column is-6">
                                     <button class="button is-outlined is-medium" @click="goToStep1()">
-                                        Cancel
+                                        Cancelar
                                     </button>
                                 </div>
                                 <div class="column is-6">
-                                    <button class="button is-primary is-medium" @click="goToStep4()">
-                                        Continue
+                                    <button class="button is-rainbow is-medium" @click="goToStep4()">
+                                        Continuar
                                     </button>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <span>Back</span>
+                                        <span>Atrás</span>
                                     </button>
                                 </div>
                             </div>
@@ -189,13 +189,13 @@
                                             <a v-else-if="dataItem.type === 'list'"
                                                @click="wantsToDisplayListWithName(dataItem.readableName)">
                                                 <span>
-                                                    Open list ↗
+                                                    Abrir lista ↗
                                                 </span>
                                             </a>
                                             <a v-else-if="dataItem.type === 'image'" :href="dataItem.value"
                                                target="_blank" rel="noopener noreferrer">
                                                 <span>
-                                                    Open image ↗
+                                                    Abrir imagen ↗
                                                 </span>
                                             </a>
                                         </div>
@@ -222,11 +222,11 @@
                         <div class="column is-12 has-text-centered">
                             <div>
                                 <strong>
-                                    Success
+                                    Éxito
                                 </strong>
                             </div>
                             <span>
-                                Openbook has now shared your information with Songipy.
+                                Openbook ha compartido tu información con Songipy.
                             </span>
                         </div>
                         <div class="column is-12 has-text-centered">
@@ -234,7 +234,7 @@
                                 <span class="icon is-small">
                                     <i class="fas fa-sync-alt"></i>
                                 </span>
-                                <span>  Restart prototype</span>
+                                <span>Reiniciar prototipo</span>
                             </button>
                         </div>
                     </div>
@@ -293,72 +293,72 @@
                 inspectDataOpen: false,
                 availableData: [
                     {
-                        readableName: 'name',
-                        name: 'name',
+                        readableName: 'nombre',
+                        name: 'nombre',
                         type: 'text',
-                        value: 'Jules Winnfield',
+                        value: 'Juan Gabriel',
                         required: true,
                         enabled: true
                     },
                     {
-                        readableName: 'email address',
+                        readableName: 'email',
                         name: 'email',
                         type: 'text',
-                        value: 'badmf@pfiction.com',
+                        value: 'juan@gabriel.com',
                         required: true,
                         enabled: true
                     },
                     {
-                        readableName: 'profile picture',
-                        name: 'profile_picture',
+                        readableName: 'foto de perfíl',
+                        name: 'foto_de_perfil',
                         type: 'image',
-                        value: 'https://vignette.wikia.nocookie.net/pulpfiction/images/b/b6/Jules.jpg/revision/latest?cb=20090501131406',
+                        value: 'https://pbs.twimg.com/profile_images/2482125179/h7n47gumvq59uo9ns97l.jpeg',
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'age range',
-                        name: 'age_range',
+                        readableName: 'rango de edad',
+                        name: 'rango_de_edad',
                         type: 'text',
                         value: '35-40',
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'gender',
-                        name: 'gender',
+                        readableName: 'sexo',
+                        name: 'sexo',
                         type: 'text',
-                        value: 'male',
+                        value: 'hombre',
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'language',
-                        name: 'language',
+                        readableName: 'idioma',
+                        name: 'idioma',
                         type: 'text',
                         value: 'en_US',
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'country of birth',
-                        name: 'birthplace_country',
+                        readableName: 'lugar de nacimiento',
+                        name: 'lugar_de_nacimiento',
                         type: 'text',
-                        value: 'US',
+                        value: 'MX',
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'friends',
-                        name: 'friends_list',
+                        readableName: 'amigos',
+                        name: 'lista_de_amigos',
                         type: 'list',
                         value: [],
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'birthday',
-                        name: 'birthday',
+                        readableName: 'cumpleaños',
+                        name: 'cumpleanos',
                         type: 'text',
                         value: '25-3-1997',
                         required: false,
@@ -366,7 +366,7 @@
                     },
                     {
                         readableName: 'likes',
-                        name: 'user_likes',
+                        name: 'likes',
                         type: 'list',
                         value: [],
                         required: false,
@@ -461,9 +461,9 @@
                 this.$dialog.alert({
                     message: `
                         <div class="content">
-                        <p>In the non-prototype version, this will redirect you to a page with detailed information on secure applications.</p>
-                        <p>Brifly put, secure applications are applications that don't abuse the data sharing system, allow the deletion of your data from their systems and know at all times where your data is.</p>
-                        <p>More information about this follows below.</p>
+                        <p>En la versión no prototipo, esto te redirigirá a una página con información detallada sobre aplicaciones seguras.</p>
+                        <p>En pocas palabras, las aplicaciones seguras son aplicaciones que no abusan del sistema de intercambio de datos, permiten la eliminación de tus datos de sus sistemas y saben en todo momento dónde están tus datos.</p>
+                        <p>Más información a continuación.</p>
                         </div>
                     `,
                     confirmText: 'Got it!'

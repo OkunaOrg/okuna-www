@@ -27,6 +27,15 @@
                 </div>
             </div>
         </section>
+        <section class="section">
+            <div class="small-container">
+                <h3>
+                    <strong>Spanish:</strong> Hola! Aun estamos trabajando en hacer todo este material disponible en español.<br/>
+                    <strong>Dutch:</strong> Hoi! Wij werken er nog steeds aan om al dit materiaal in het Nederlands beschikbaar te maken.<br/>
+                    <strong>French:</strong> Bonjour! Nous travaillons actuellement à fournir un traduction complète du site en français.
+                </h3>
+            </div>
+        </section>
         <section class="section" id="TOC">
             <div class="small-container">
                 <div class="content is-medium">

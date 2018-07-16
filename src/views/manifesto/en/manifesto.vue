@@ -308,7 +308,7 @@
                             Cryptographically enforced data sharing policies
                         </li>
                         <li>
-                            End to end encrypted conversations on the browser
+                            End to end encryption, even on the browser
                         </li>
                         <li>
                             Public key cryptography on the browser
@@ -333,7 +333,7 @@
                     <p>Let’s not leave this one out! We’re bringing back social by giving interactions with your friends more meaning.
                         Think about having levels of adoration and being able to show your enthusiasm more than once on a single post.
                         And since we don’t track your data, you not only will be free of ads, but we won’t fill in what we think you’d want to see for yourself.
-                        No abracadabra-algorithms! Social networks have an incredible economic potential.
+                        No abracadabra-algorithms!
                     </p>
                     <h3 id="revenue">
                         6. Our revenue

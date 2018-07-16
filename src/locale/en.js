@@ -18,7 +18,7 @@ export const messages = {
         },
         secure : {
             title: 'Secure',
-            description: 'With a tough and strict security policy, we make sure your data doesn\'t fall into the wrong hands.'
+            description: 'With a tough and strict security policy, we make sure your data doesn\'t fall into the wrong hands. Plus, we have a cryptography pioneer in our team. End-to-end encryption anyone?'
         },
         easy : {
             title: 'Easy-peasy',
@@ -60,10 +60,9 @@ export const messages = {
             reddit: 'reddit',
             we_are_ob: 'We\'re <strong>Open</strong>book.',
             kickstarter: 'The open source, privacy-friendly, fun and honest social\n' +
-            '    network helping make the world a better place, <strong>soon on <span\n' +
-            '    style="color: #034752;">Kickstarter</span></strong>.',
+            '    network helping make the world a better place.',
             share: 'Share',
-            notify_me: 'Notify me'
+            notify_me: 'Now on Kickstarter'
         },
         why_ob: {
             title: 'Why Openbook?',
@@ -97,8 +96,8 @@ export const messages = {
             hours: 'hour | hours',
             minutes: 'minute | minutes',
             seconds: 'second | seconds',
-            kickstarter_launch: 'We will launch our <strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            'campaign <br/> on the <strong>17th of July of 2018</strong>.'
+            kickstarter_launch: '<strong class="has-text-kickstarter">Kickstarter</strong> ' +
+            'campaign ends <br/> on the <strong>15th of August of 2018</strong>.'
         },
         meet_the_team: {
             title: 'Meet the team'
@@ -110,7 +109,8 @@ export const messages = {
             contact_us: 'Contact us',
             jobs: 'Jobs',
             faq: 'FAQ',
-            press: 'Press'
+            press: 'Press',
+            language: 'Language'
         },
         footer: {
             report_vulnerability: 'Report Vulnerability',
@@ -158,14 +158,22 @@ export const messages = {
             vincent_desc: 'Ethical hacker, reverse-engineer, exploit developer, speaker, does not like the word cyber, cyber expert.',
             bas_title:  'UI/UX Ethical Designer',
             bas_desc: 'Advocate of useful and meaningful products, user experience wizard, worked with numerous international brands, researcher, hardware hacker.',
-            shantanu_title: 'Product and Engineering',
-            shantanu_desc: 'Pragmatic software engineer, product guy, crypto-geek, bot-maker, simplicity advocate.',
+            shantanu_title: 'Chief of Product',
+            shantanu_desc: 'Pragmatic software engineer with a knack for building great products and experiences, crypto-geek, bot-maker, simplicity advocate.',
             nathalie_title: 'Project Manager',
             nathalie_desc: 'Master planner, personification of optimism, want to get things done? Call Nathalie. ',
             robin_title: 'Communications Officer',
             robin_desc: 'Content marketing magician, The Next Web top 500, beach lover, hates being disrupted by routine, loves life outside the comfort zone.',
             martijn_title: 'Software Engineer',
             martijn_desc: 'Practical software engineer, JavaScript guru, wearable tech geek, gamer, coolness officer in charge.'
+        },
+        ambassadors: {
+            isaac_name: 'Isaac Hernández',
+            isaac_desc: 'Artist, social entrepreneur.',
+            ruben_name: 'Ruben Van Vreeland',
+            ruben_desc: 'CEO & Co-Founder of BitSensor, cyber-security software.',
+            edwin_name: 'Edwin van Andel',
+            edwin_desc: 'CEO at Zerocopter, international speaker, experienced security expert.',
         },
         contact_us: {
             title: 'Contact us',
@@ -273,7 +281,7 @@ export const messages = {
             '                        <p>The software giants are growing at an incredible pace, crushing or buying any sign of competition.\n' +
             '                            Initiatives for social media decentralization in all honesty and sadness, don\'t stand a chance.</p>\n' +
             '\n' +
-            '                    <p>While they are focusing on building revolutionary technologies and ways to tackle the\n' +
+            '                    <p>While decentralisation initiatives are focusing on building revolutionary technologies and ways to tackle the\n' +
             '                        decentralisation system problems, the real users of such systems (people with a non-tech background) care little\n' +
             '                        for that aspect of the product. They care about the experience, the features, the ease of use,\n' +
             '                        the design. Once these initiatives solve the decentralisation challenges, they will be thousands of light years\n' +

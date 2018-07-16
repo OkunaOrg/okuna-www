@@ -40,8 +40,8 @@
                                 <div class="content has-text-centered">
                                     <p class="is-size-4 is-marginless padding-bottom-1x" v-html="$t('count_down.kickstarter_launch')">
                                     </p>
-                                    <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dvRRmD" class="button is-rainbow is-rounded is-large padding-top-2x">
-                                        <span class="icon"><i class="fas fa-bell"></i></span><span>{{ $t('splash_hero.notify_me') }}</span>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://open-book.org/kickstarter" class="button is-rainbow is-rounded is-large padding-top-2x">
+                                        <span class="icon"><i class="fab fa-kickstarter-k"></i></span><span>{{ $t('splash_hero.notify_me') }}</span>
                                     </a>
                                 </div>
                             </div>
@@ -76,7 +76,7 @@
         },
         data() {
             const now = dayjs();
-            const kickstarterDate = dayjs('2018-7-17');
+            const kickstarterDate = dayjs('2018-8-15');
 
             const timeTillKickstarterDate = kickstarterDate.diff(now);
 

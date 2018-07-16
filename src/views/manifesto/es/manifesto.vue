@@ -11,7 +11,7 @@
                                         Manifesto
                                     </h1>
                                     <h2 class="title is-size-2 manifesto-text has-text-centered-mobile">
-                                        The problem, the solution, the next steps.
+                                        El problema, la solución.
                                     </h2>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
             <div class="hero-footer">
                 <div class="box is-shadowless">
                     <p class="has-text-centered">
-                        <span class="tag is-rainbow">Reading time</span> &nbsp;&nbsp; 6 minutes
+                        <span class="tag is-rainbow">Tiempo de lectura</span> &nbsp;&nbsp; 6 minutos
                     </p>
                 </div>
             </div>
@@ -66,65 +66,65 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <div class="has-text-centered">
-                        <h2 class="title is-3 is-spaced is-margin-top-small">Table of contents</h2>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">Tabla de contenidos</h2>
                     </div>
                     <br/>
                     <ul>
                         <li>
                             <a href="#why" v-scroll-to="'#why'">
-                                Why?
+                                ¿Por qué?
                             </a>
                         </li>
                         <li>
                             <a href="#how" v-scroll-to="'#how'">
-                                How?
+                                ¿Como?
                             </a>
                             <ul>
                                 <li>
                                     <a href="#honest" v-scroll-to="'#honest'">
-                                        1. Honest.
+                                        1. Honestidad.
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#personal" v-scroll-to="'#personal'">
-                                        2. Personal.
+                                        2. Personalización.
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#privacyfriendly" v-scroll-to="'#privacyfriendly'">
-                                        3. Privacy-friendly and secure.
+                                        3. Privacidad y seguridad.
                                     </a>
                                     <ul>
                                         <li>
                                             <a href="#explicitconsent" v-scroll-to="'#explicitconsent'">
-                                                Explicit and Informed Consent
+                                                Permiso explícito e informado
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#safeapps" v-scroll-to="'#safeapps'">
-                                                Safe Applications
+                                                Aplicaciones seguras
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#privacydefault" v-scroll-to="'#privacydefault'">
-                                                Privacy by Default
+                                                Privacidad por defecto
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#easy" v-scroll-to="'#easy'">
-                                        4. Easy.
+                                        4. Fácil de migrar.
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#fun" v-scroll-to="'#fun'">
-                                        5. Fun.
+                                        5. Diversión.
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#revenue" v-scroll-to="'#revenue'">
-                                        6. Our Revenue.
+                                        6. Nuestros ingresos.
                                     </a>
                                 </li>
                             </ul>
@@ -140,27 +140,25 @@
                         <div>
                             <span class="icon is-large" v-twemoji>🤔</span>
                         </div>
-                        <h2 class="title is-3 is-spaced is-margin-top-small">Why?</h2>
-                        <h4 class="subtitle is-5">The reason we're building yet another social network.</h4>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">¿Por qué?</h2>
+                        <h4 class="subtitle is-5">La razón por la que estamos construyendo otra red social.</h4>
                     </div>
                     <br/>
                     <p>
-                        <strong>Social networks are awesome.</strong>
+                        <strong>Las redes sociales son increíbles</strong>
                     </p>
                     <p>
-                        They connect us, help us share treasured moments with our loved ones and provide us with funny cat videos.
-
+                        Nos conectan, nos ayudan a compartir momentos especiales con nuestros seres queridos y nos proporcionan videos de gatos graciosos.
                     </p>
                     <p>
-                        Sadly, nowadays social networks aren’t so much about connecting people, instead they are all about making as much money
-                        as possible out of people, no matter the consequences. For example the loss of privacy.
+                        Lamentablemente, hoy en día las redes sociales no se enfocan mucho conectar a las personas, sino en tratar de hacer tanto dinero como sea posible de las personas, sin importar las consecuencias. Por ejemplo, la pérdida de privacidad.
                     </p>
                     <p>
-                        We want to do better, which is exactly why at Openbook we’re doing things differently.
+                        Queremos hacer un mejor trabajo, por eso en Openbook estamos haciendo las cosas de manera diferente.
                     </p>
                     <p>
-                        Openbook will have the great things you’d expect from a social network: chats, posts, groups and events to name a few.
-                        Plus, it will be <strong class="has-text-primary">honest, personal, privacy-friendly, secure and fun ;-)</strong>.
+                        Openbook tendrá las cosas geniales que esperarías de una red social: chats, publicaciones, grupos y eventos.
+                        Pero aparte de eso tambien será, <strong class="has-text-primary">honesta, personal, amiga de tu privacidad, segura y divertida ;-).</strong>.
                     </p>
                 </div>
             </div>
@@ -172,185 +170,162 @@
                         <div>
                             <span class="icon is-large" v-twemoji>💡</span>
                         </div>
-                        <h2 class="title is-3 is-spaced is-margin-top-small">How?</h2>
-                        <h4 class="subtitle is-5">How will we create a tool for good?</h4>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">¿Como?</h2>
+                        <h4 class="subtitle is-5">Como crearemos una herramienta para bien?</h4>
                     </div>
-                    <h3 id="honest">1. Honest.</h3>
+                    <h3 id="honest">1. Honestidad.</h3>
                     <p>
-                        All of our code is <strong>open-source.</strong> This means it’s free for everyone to see, reproduce and contribute to.
-                        We’re transparent about how the social network works.
-
+                        Todo el codigo de la red social esta abierto, como quien dice, es gratis para que cualquiera lo vea, modifique o reproduzca.
+                        Somos completamente transparentes sobre cómo funciona la red social.
                     </p>
                     <p>
-                        Additionally, in partnership with FoundersPledge, we’ll be giving <strong>30% of our revenue towards making the world a
-                        better place.</strong> For example, education, climate-change prevention, mental-health and sanitisation.
-                        It’s about time tech-companies benefit everyone.
 
+                        Además, en asociación con FoundersPledge, <strong>usaremos el 30% de nuestros ingresos para hacer del mundo un lugar mejor</strong>. Por ejemplo, apoyaremos proyectos de educación, prevención del cambio climático, salud mental y saneamiento.
+                        Ya es hora de que las compañías tecnológicas beneficien a todos.
                     </p>
                     <h3 id="personal">
-                        2. Personal.
+                        2. Personalización.
                     </h3>
                     <p>
-                        We’re all different and that makes each of us unique and beautiful! We embrace this!
+                        ¡Todos somos diferentes y eso hace que cada uno de nosotros sea único y hermoso! ¡En Openbook, celebramos esto!</p>
+                    <p>
+                        ¡En Openbook no solo podrás personalizar tú perfil, sino toda la red social! Desde cambiar el color de tu página de inicio hasta agregar widgets a tu perfil, haz de la red social unica como tú.
                     </p>
                     <p>
-                        On Openbook you will not only be able to personalise your profile, but the entire network itself!
-                        From changing the color of your homepage to adding plugins, you can make it as unique as yourself.
-                    </p>
-                    <p>
-                        And if there’s anything you’re missing on Openbook, let us know. We want to build Openbook together.
-                        We will create a special group where we encourage you to help us decide what we build next or what we should improve.
-                        Let’s build the best social network ever!
-
+                        Y si hay algo que crees que falta en Openbook, cuentanos. Queremos construir Openbook juntos. Crearemos un grupo especial donde esperamos nuestros usuarios nos ayuden a decidir qué construiremos a continuación o qué deberíamos mejorar. ¡Construyamos la mejor red social de todos los tiempos juntos!
                     </p>
                     <h3 id="privacyfriendly">
-                        3. Privacy-friendly and secure
-
+                        3. Privacidad y seguridad
                     </h3>
                     <p>
-                        This is what drove us to build Openbook. The privacy and security of our users will always be at the core of
-                        everything we do. We don’t track anything you do, neither monetize your information nor share it without your
-                        explicit and informed consent.
+                        Esto es lo que nos llevó a construir Openbook. Por ello, la privacidad y seguridad de nuestros usuarios siempre estarán en el centro de todo lo que hacemos. No rastreamos nada de lo que haces, ni monetizamos tu información ni compartimos tu información sin tu permiso explícito e informado.
                     </p>
                     <p>
-                        How does this translate to a real-life scenario?
+                        ¿Cómo se traduce esto a un escenario de la vida real?
                     </p>
-                    <h5>Example</h5>
+                    <h5>Ejemplo</h5>
                     <p>
-                        This is what data sharing normally looks like.
-                    </p>
-                    <p>
-                        Let’s say you want to connect to a public WiFi hotspot ,
-                        traditionally a window like the one below appears in your computer with the following:
+                        Asi es como compartir información tradicionalmente funciona:
                     </p>
                     <p>
-                        The box below appears on your screen.
+                        Digamos que quiere conectarte a un punto de acceso de WiFi público, Tradicionalmente, una ventana como la siguiente aparece en tu computadora con lo siguiente:
                     </p>
                     <p>
-                        <i>(Go ahead, click around as you would normally)</i>
+                        <i>(Adelante, haz clic como lo harías normalmente)</i>
                     </p>
                     <ob-generic-data-sharing></ob-generic-data-sharing>
                     <p>
-                        Congrats! You just shared your personal information with a Wi-fi hotspot!
+                        Felicidades! ¡Acabas de compartir tu información personal con un punto de acceso Wi-Fi!
                     </p>
-                    <h5> Do you know what data you just shared with the application?</h5>
+                    <h5>¿Sabes qué datos acabas de compartir con la aplicación?</h5>
                     <p>
-                        If you hovered over the “i” icon for example, you may have noticed it says:
-                    </p>
-                    <p>
-                        <i>"Your public profile includes name, profile picture, age range, gender, language, country <strong>and other public info.</strong>"</i>
+                        Si pasaste el cursor sobre el ícono "i", habras notado que dice:
                     </p>
                     <p>
-                        What qualifies as <i>"other public info"?</i> And why would a WiFi hotspot want all this information from you?
-                        Will it serve you faster Wi-Fi based on your gender or your age? And what’s going to happen with your data once they have it?
+                        <i>"Tu perfil público incluye nombre, foto de perfil, rango de edad, sexo, idioma, país <strong>y otra información pública.</strong>"</i>
                     </p>
                     <p>
-                        People share more of their information that they’re initially aware of and once the data has been shared, there’s no going back.
+                        ¿Qué califica como <i>"otra información pública"</i>? ¿Y por qué un punto de acceso WiFi quiere toda esta información? ¿Te servirá Wi-Fi más rápido según tu sexo o tu edad? ¿Y qué va a pasar con tus datos una vez que lo compartas?
                     </p>
                     <p>
-                        Here’s how we’re doing it:
+                        Las personas comparten más información de la que son inicialmente conscientes y una vez que comparten los datos, no hay vuelta atrás.
                     </p>
                     <p>
-                        Let's say now you downloaded the awesome music app everyone has been recommending to you. As
-                        soon as you open the app, the box below shows up.
+                        Así es como lo hacemos nosotros:
                     </p>
                     <p>
-                        <i>(Go ahead, click around as you would normally)</i>
+                        Digamos que ahora descargó la increíble aplicación de música que todo el mundo le ha recomendado. Tan pronto como abras la aplicación, aparecerá el siguiente cuadro.
+                    </p>
+                    <p>
+                        <i>(Adelante, haz clic como lo harías normalmente)</i>
                     </p>
                     <ob-openbook-data-sharing></ob-openbook-data-sharing>
                     <p>
-                        Did you spot the differences?
+                        Viste las diferencias?
                     </p>
                     <p>
-                        Here are the most important ones.
+                        Aquí están las más importantes.
                     </p>
-                    <h5 id="explicitconsent">Explicit and informed consent</h5>
+                    <h5 id="explicitconsent">Permiso explícito e informado</h5>
                     <p>
-                        We make sure it's always crystal clear what is being shared, so no pop-ups or vague descriptions.
-                        You can also inspect it yourself, just to be sure.
+                        Nos aseguramos de que siempre quede claro lo que se comparte, por lo que no hay ventanas emergentes ni descripciones vagas. También puede inspeccionar la información tu mismo.
                     </p>
-                    <h5 id="safeapps">Safe applications</h5>
+                    <h5 id="safeapps">Aplicaciones seguras</h5>
                     <p>
-                        All applications will be reviewed by us. We will make sure they:
+                        Todas las aplicaciones serán revisadas por nosotros. Nos aseguraremos de que:
                     </p>
                     <ul>
                         <li>
-                            only request the <strong>needed</strong> information
+                            solo pidan información <strong>realmente necesaria</strong>
                         </li>
                         <li>
-                            have the <strong>exact</strong> location of your data available for you, <strong>at all times</strong>
+                            tengan la ubicación <strong> exacta </strong> de sus datos disponibles <strong>
+                            en todo momento </strong>
                         </li>
                         <li>
-                            delete <strong>all</strong> your information if you’d revoke the permission
+                            eliminen <strong>toda</strong> tu información si revocas el permiso
                         </li>
                         <li>
-                            have an <strong>emergency plan</strong> in case of a data leak, and will <strong>notify us/you</strong>
-                            immediately if that were to happen
+                            tengan un <strong> plan de emergencia </strong>
+                            en caso de una fuga de datos y que nos notifiquen inmediatamente para poder notificarte a ti tambien y tambien ayudar a controlar los daños causados.
                         </li>
                     </ul>
                     <p>
-                        Once they meet these strict guidelines they will have a badge below their logo. On your personal dashboard you can pinpoint the exact locations of your shared data,
-                        revoke application’s access and best of all, request deletion.
+                        Una vez que cumplan con estas estrictas pautas, tendrán una insignia debajo de su logotipo. En tu panel de control personal, podrás ver las ubicaciones exactas de tus datos compartidos, revocar el acceso de las aplicaciónes y lo mejor de todo, solicitar la eliminación de tus datos.
                     </p>
-                    <h5 id="privacydefault">Privacy by default</h5>
+                    <h5 id="privacydefault">Privacidad por defecto</h5>
                     <p>
-                        All optional data sharing will be disabled by default, and it is up to you if you want to
-                        give that application more of your data instead of the other way around.
+                        Todo el intercambio de datos opcionales estara desactivado de manera predeterminada, depende completamente de ti darle más datos de los requeridos a las aplicaciones.
                     </p>
                     <p>
-                        We will continuously research and develop new ways to improve your privacy and security.
-                    </p>
+                        Continuamente investigaremos y desarrollaremos nuevas formas de mejorar tu privacidad y seguridad.                    </p>
                     <p>
-                        Some examples of the technology we'll be researching and developing:
+                        Algunos ejemplos de la tecnología que investigaremos y desarrollaremos:
                     </p>
                     <ul>
                         <li>
-                            Cryptographically enforced data sharing policies
+                            Políticas de intercambio de datos aplicadas criptográficamente
                         </li>
                         <li>
-                            End to end encrypted conversations on the browser
+                            Cifrado de extremo a extremo, incluso en el navegador
                         </li>
                         <li>
-                            Public key cryptography on the browser
+                            Criptografía de clave pública en el navegador
                         </li>
                         <li>
-                            Post-quantum cryptography algorithms and protocols
+                            Algoritmos y protocolos de criptografía post-cuántica
                         </li>
                     </ul>
                     <p>
-                        <strong>Generally speaking, the less we know about you and the more you know about us, the better.</strong>
+                        <strong>En general, cuanto menos sepamos de ti y cuanto más sepas de nosotros, mejor.</strong>
                     </p>
-                    <h3 id="easy">4. Easy.</h3>
+                    <h3 id="easy">4. Fácil de migrar.</h3>
                     <p>
-                        You’ve probably put a tremendous amount of time (and data) into your existing social networks already. We get that.
-                        We wouldn’t want you to lose any friends, cherishable memories or miss out on parties over this.
+                        Probablemente haz dedicado una gran cantidad de tu tiempo a tus redes sociales existentes. Lo entendemos. No queremos que pierdas ningúna amistad, recuerdo o evento.
                     </p>
                     <p>
-                        Migrating to Openbook will be easy-peasy, with our simple drag-and-drop system.
-                        Just download your data from your old social network<sup>1</sup> and transfer them to Openbook. Shazam!
+                        Por eso, la migración a Openbook será fácil, con nuestro sencillo sistema de arrastrar y soltar. Simplemente descargua tus datos de tu antigua red social, arrastralos a Openbook y Shazam! Bienvenido a Openbook.
                     </p>
-                    <h3 id="fun">5. Fun.</h3>
-                    <p>Let’s not leave this one out! We’re bringing back social by giving interactions with your friends more meaning.
-                        Think about having levels of adoration and being able to show your enthusiasm more than once on a single post.
-                        And since we don’t track your data, you not only will be free of ads, but we won’t fill in what we think you’d want to see for yourself.
-                        No abracadabra-algorithms! Social networks have an incredible economic potential.
+                    <h3 id="fun">5. Diversión.</h3>
+                    <p>
+                        ¡No dejemos este punto fuera! Queremos devolverle el significado a las interacciones con tus amigos. Piensa en tener niveles de adoración y poder mostrar tu entusiasmo más de una sola vez por publicación.
+                        Y dado que no rastreamos sus datos, no solo navegaras libre de anuncios, sino que tampoco te serviremos contenido que creemos te gustaría ver. ¡Dile adios a los algoritmos de abracadabra!
                     </p>
                     <h3 id="revenue">
-                        6. Our revenue
+                        6. Nuestros ingresos
                     </h3>
                     <p>
-                        Our business model is not and will never be advertisements.
+                        Nuestro modelo de negocios no es ni nunca será publicidad.
                     </p>
                     <p>
-                        We will have a transparent revenue model based on a generic way for people to securely transact physical and digital goods and services inside the network.
-                        This will be done through an atomic digital unit of value. Although this initially reflected as a marketplace, our ambitions go way beyond that.
+                        Tendremos un modelo de ingresos transparente basado en una forma genérica para que las personas negocien de forma segura bienes y servicios físicos y digitales dentro de la red.
+                        Esto se hará a través de una unidad de valor digital atómica. Aunque esto inicialmente reflejado como un mercado, nuestras ambiciones van más allá de eso.
                     </p>
                     <p>
-                        Apart from this, we’re also planning to help enterprise customers setting up their own internal,
-                        self-hosted and secure social networks with extra functionality such as projects, identity and access management.
+                        Además de esto, también estamos planeando ayudar a empresas a configurar sus propias redes sociales internas, autohospedadas y seguras con funcionalidades adicionales tales como administración de proyectos, identidad y acceso.
                     </p>
                     <span class="is-size-7">
-                        [1] With the new GDPR regulation, social networks must allow it’s users to do so now.
+                        [1] Con la nueva regulación GDPR, las redes sociales deben permitir que sus usuarios descarguen su información.
                     </span>
                 </div>
             </div>
@@ -361,12 +336,12 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                Still have questions?
+                                Todavía tienes preguntas?
                             </h3>
                         </div>
                         <div class="column">
                             <router-link to="faq" class="button is-rainbow is-rounded is-medium">
-                                Visit our FAQ
+                                Visita nuestras preguntas
                             </router-link>
                         </div>
                     </div>
