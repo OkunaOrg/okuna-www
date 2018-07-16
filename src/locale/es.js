@@ -83,7 +83,8 @@ export const messages = {
             contact_us: 'Contáctanos',
             jobs: 'Trabajos',
             faq: 'Preguntas',
-            press: 'Prensa'
+            press: 'Prensa',
+            language: 'Idioma'
         },
         footer: {
             report_vulnerability: 'Reportar Vulnerabilidad',

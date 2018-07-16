@@ -20,9 +20,9 @@
                         <div class="columns is-centered is-mobile">
                             <div class="column is-narrow">
                                 <a class="button is-rainbow is-rounded is-medium is-size-6-mobile" target="_blank"
-                                   rel="noopener noreferrer" href="http://eepurl.com/dvRRmD">
+                                   rel="noopener noreferrer" href="https://open-book.org/kickstarter">
                                     <span class="icon">
-                                        <i class="fas fa-bell"></i>
+                                        <i class="fab fa-kickstarter-k"></i>
                                     </span>
                                     <span>
                                         {{$t('splash_hero.notify_me')}}

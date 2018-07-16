@@ -4,6 +4,8 @@ import home from './views/home/home.vue';
 import root from './views/root.vue';
 import * as setupi18n from './i18n-setup';
 
+const locale = require('browser-locale')();
+
 Vue.use(Router);
 
 // Lazy load everything but home page!
@@ -18,7 +20,7 @@ const press = () => import('./views/press/press.vue');
 const newsroom = () => import('./views/newsroom/newsroom.vue');
 const vulnerabilityReport = () => import('./views/vulnerability-report/vulnerability-report.vue');
 
-const browserLang = 'en'; //navigator.language.substring(0,2);
+const browserLang = (locale || 'en-US').substring(0,2);
 
 const router = new Router({
     mode: 'history',
@@ -51,30 +53,30 @@ const router = new Router({
             path: '/manifesto',
             redirect: `/${browserLang}/manifesto`
         },
-       {
-           path: '/en/manifesto',
-           name: 'manifesto',
-           component: manifesto_en,
-           meta: {
-               title: 'Manifesto | Openbook social network'
-           }
-       },
-       {
-           path: '/nl/manifesto',
-           name: 'manifesto',
-           component: manifesto_nl,
-           meta: {
-               title: 'Manifesto | Openbook social network'
-           }
-       },
-       {
-           path: '/es/manifesto',
-           name: 'manifesto',
-           component: manifesto_es,
-           meta: {
-               title: 'Manifesto | Openbook social network'
-           }
-       },
+        {
+            path: '/en/manifesto',
+            name: 'manifesto',
+            component: manifesto_en,
+            meta: {
+                title: 'Manifesto | Openbook social network'
+            }
+        },
+        // {
+        //     path: '/nl/manifesto',
+        //     name: 'manifesto',
+        //     component: manifesto_nl,
+        //     meta: {
+        //         title: 'Manifesto | Openbook social network'
+        //     }
+        // },
+        {
+            path: '/es/manifesto',
+            name: 'manifesto',
+            component: manifesto_es,
+            meta: {
+                title: 'Manifesto | Openbook social network'
+            }
+        },
         {
             path: '/press',
             redirect: `/${navigator.language.substring(0,2)}/press`
@@ -147,19 +149,10 @@ const router = new Router({
                         title: 'Report vulnerability | Openbook social network'
                     }
                 },
-                // Remove this when enabling localisation
                 {
-                    path: 'manifesto',
-                    name: 'manifesto',
-                    component: manifesto_en,
-                    meta: {
-                        title: 'Manifesto | Openbook social network'
-                    }
-                },
-                // {
-                //     path: '/',
-                //     redirect: `/${navigator.language.substring(0,2)}/home`
-                // }
+                    path: '/',
+                    redirect: `/${navigator.language.substring(0,2)}/home`
+                }
             ]
         },
     ],

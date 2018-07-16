@@ -85,7 +85,7 @@
 
 <style lang="scss">
     .quote-box {
-        min-height: 250px;
+        height: 100%;
     }
 
     .quote-box-occupation {

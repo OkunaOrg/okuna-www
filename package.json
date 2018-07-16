@@ -10,6 +10,7 @@
     "@xkeshi/vue-countdown": "^0.6.0",
     "animate.css": "^3.6.1",
     "axios": "^0.18.0",
+    "browser-locale": "^1.0.3",
     "buefy": "^0.6.5",
     "bulma": "^0.7.1",
     "dayjs": "^1.5.24",
