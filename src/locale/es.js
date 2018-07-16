@@ -55,36 +55,9 @@ export const messages = {
             grandma: 'abuela',
             reddit: 'reddit',
             we_are_ob: 'Somos <strong>Open</strong>book.',
-            kickstarter: 'La red social de codigo abierto, que respeta tu privacidad, es divertida, honesta y ayuda a crear mundo mejor para todos.' +
-            ' <strong>Proximamente en <span\n' +
-            '    style="color: #034752;">Kickstarter</span></strong>.',
+            kickstarter: 'La red social de codigo abierto, que respeta tu privacidad, es divertida, honesta y ayuda a crear mundo mejor para todos.',
             share: 'Compartir',
             notify_me: 'Recuerdame'
-        },
-        why_ob: {
-            title: 'Why Openbook?',
-            subtitle: 'Some of the key things that set us apart from other social networks.',
-            zero_tracking: 'Zero tracking',
-            zero_tracking_desc: 'We will never track you, anywhere, anyhow.',
-            zero_spying: 'Zero spying',
-            zero_spying_desc: 'Be confident your private conversations are truly private.',
-            zero_ads: 'Zero advertisement',
-            zero_ads_desc: 'Advertisement lead to targeted advertisement, which in turn lead to the loss of online privacy. We won\'t have ads.',
-            data_protection: 'Tough data protection',
-            data_protection_desc: 'Third party applications that wish to access your data will have to comply with our strict and tough security policies.',
-            honest: 'Honest',
-            honest_desc: 'All of our code is free and open for everyone to inspect, reproduce and contribute to. No unpleasant surprises.',
-            easy_to_migrate: 'Easy to migrate',
-            easy_to_migrate_desc: 'We will provide tools to migrate all of your existing data to our network.',
-            future_proof: 'Future-proof',
-            future_proof_desc: 'With a solid and useful revenue model based on peer-to-peer transactions, we are in for the long run.',
-            modern_design: 'Modern, beautiful, ethically designed.',
-            modern_design_desc: 'Built with the latest technologies, a keen eye for detail and ethics, you won\'t find anything like it elsewhere.',
-            good_for_planet: 'Good for the planet',
-            good_for_planet_desc: 'In partnership with <a href="https://founderspledge.com/" target="_blank"\n' +
-            '                                                             rel="noopener noreferrer">Founders Pledge</a>\n' +
-            '                                we will give 30% of our revenue towards making the world a better place, now and\n' +
-            '                                    forever.'
         },
         count_down: {
             kickstarter: 'Kickstarter',
@@ -106,7 +79,8 @@ export const messages = {
             contact_us: 'Contáctanos',
             jobs: 'Trabajos',
             faq: 'Preguntas',
-            press: 'Prensa'
+            press: 'Prensa',
+            language: 'Idioma'
         },
         footer: {
             report_vulnerability: 'Reportar Vulnerabilidad',
