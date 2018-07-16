@@ -273,11 +273,11 @@ export const messages = {
             '                    <p>¡Imagina si pudiéramos invertir millones en esto! Qué diferencia haría.</p>'
         },
         press: {
-            we: 'We',
-            press: 'Press',
-            today_everyday: 'Today, and everyday.',
-            hi: 'Hi there!',
-            any_questions: 'We hope you find everything you need below.\n' +
+            we: 'Openbook',
+            press: 'Prensa',
+            today_everyday: 'Hoy, mañana y todos los dias despues.',
+            hi: 'Hola!',
+            any_questions: 'Esperamos que encuentres todo lo que necesitas a continuación.\n' +
             '                        ​​If you have any questions, would like to schedule an interview or require extra material, feel free to contact Lambrecht Wessels at <a\n' +
             '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">lambrecht@open-book.org</a>.',
             happy_to_help: 'We’re happy to help.',
