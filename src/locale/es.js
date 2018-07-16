@@ -214,6 +214,7 @@ export const messages = {
             title: 'Preguntas',
             subtitle: 'Las preguntas frequentes.',
             office_dog: 'Nuestro labrador trabajando.',
+            jump_to: 'Brincar a',
             is_distributed: '¿Por qué Openbook no es descentralizado?',
             whos_paying: '¿Quién está pagando por todo hasta ahora?',
             whos_paying_ans: 'Hasta ahora hemos sido completamente auto-financiados. Sin embargo, esto ha demostrado ser muy difícil.\n' +

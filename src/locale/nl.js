@@ -195,6 +195,7 @@ export const messages = {
             title: 'FAQ',
             subtitle: 'The frequently asked questions.',
             office_dog: 'Our office dog hard at work.',
+            jump_to: 'Jump to',
             whos_paying: 'Who\'s paying for everything so far?',
             whos_paying_ans: 'So far we have been completely self funded. However, this has proven to be very hard.\n' +
             '                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
