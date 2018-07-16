@@ -61,31 +61,6 @@ export const messages = {
             share: 'Compartir',
             notify_me: 'Recuerdame'
         },
-        why_ob: {
-            title: 'Why Openbook?',
-            subtitle: 'Some of the key things that set us apart from other social networks.',
-            zero_tracking: 'Zero tracking',
-            zero_tracking_desc: 'We will never track you, anywhere, anyhow.',
-            zero_spying: 'Zero spying',
-            zero_spying_desc: 'Be confident your private conversations are truly private.',
-            zero_ads: 'Zero advertisement',
-            zero_ads_desc: 'Advertisement lead to targeted advertisement, which in turn lead to the loss of online privacy. We won\'t have ads.',
-            data_protection: 'Tough data protection',
-            data_protection_desc: 'Third party applications that wish to access your data will have to comply with our strict and tough security policies.',
-            honest: 'Honest',
-            honest_desc: 'All of our code is free and open for everyone to inspect, reproduce and contribute to. No unpleasant surprises.',
-            easy_to_migrate: 'Easy to migrate',
-            easy_to_migrate_desc: 'We will provide tools to migrate all of your existing data to our network.',
-            future_proof: 'Future-proof',
-            future_proof_desc: 'With a solid and useful revenue model based on peer-to-peer transactions, we are in for the long run.',
-            modern_design: 'Modern, beautiful, ethically designed.',
-            modern_design_desc: 'Built with the latest technologies, a keen eye for detail and ethics, you won\'t find anything like it elsewhere.',
-            good_for_planet: 'Good for the planet',
-            good_for_planet_desc: 'In partnership with <a href="https://founderspledge.com/" target="_blank"\n' +
-            '                                                             rel="noopener noreferrer">Founders Pledge</a>\n' +
-            '                                we will give 30% of our revenue towards making the world a better place, now and\n' +
-            '                                    forever.'
-        },
         count_down: {
             kickstarter: 'Kickstarter',
             campaign_countdown: 'conteo oficial',
@@ -233,68 +208,69 @@ export const messages = {
             meet_the_team: 'Conoce al equipo'
         },
         faq: {
-            title: 'FAQ',
-            subtitle: 'The frequently asked questions.',
-            office_dog: 'Our office dog hard at work.',
-            whos_paying: 'Who\'s paying for everything so far?',
-            whos_paying_ans: 'So far we have been completely self funded. However, this has proven to be very hard.\n' +
-            '                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
-            crowd_funding: 'As we wanted the project to be driven by people and not capital, we decided to go for crowd-funding.',
-            launching_kickstarter: 'We\'ll be launching our Kickstarter campaign on the 17th of July.',
-            why_not_non_profit: 'Why is Openbook not a non-profit?',
-            why_not_non_profit_ans: 'Making Openbook a for-profit was a hard choice to make.',
-            check_all_boxes: 'We check all the non-profits boxes and we love non-profits. We love Wikipedia, the Ghost Foundation, Founders Pledge, Mozilla and many more.',
-            same_struggle: 'However we see the same struggle repeated over and over again. These companies struggle to grow beyond their profitability. These companies struggle to grow to the size and resources needed to compete with for-profit businesses.',
-            need_money: 'When we need to grow exponentially, we need to be able to raise the large amounts of money needed to do so.',
-            hence_for_profit: 'Therefore we are officially a for-profit company.',
-            humanitarian: 'But do note that when we do this, we will make sure the people investing in the company will be people with real interest on the platform, its core values of privacy, security, freedom, openness and its humanitarian nature.',
-            want_to_help: 'I want to help right now, what can I do?',
-            want_to_help_ans: 'We\'re happy and grateful you want to help out!',
-            many_ways: 'There are many ways you can help right now.',
-            ideas: 'Here are some ideas:',
-            share_website: 'Share the website on social media',
-            talk_to_friends: 'Talk to your friends and family about us',
-            improve_website: 'If you\'re a developer, you can help us <a\n' +
-            '                            href="https://github.com/OpenBookOrg/openbook-org-www"\n' +
-            '                            target="_blank" rel="noopener noreferrer">improve our website</a>.',
-            let_us_know: 'If you have an idea for the network, you can <a href="https://github.com/OpenBookOrg/ideas"\n' +
-            '                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.',
-            public_figure: 'If you\'re a public figure and would like to become an ambassador,',
-            contact_us: 'contact us',
-            looking_for_job: 'If you\'re looking for a job and believe Openbook would be a great fit for you,',
-            visit_jobs: 'visit our jobs page',
-            volunteer: 'And lastly, if you would like to be even more involved, we\'re forming a network of volunteers across the world to help us spread the word.',
-            interested: 'Interested?',
-            contact_us_2: 'Contact us',
-            more_questions: 'Have another question?',
-            send_us_message: 'Send us a message',
-            why_not_decentralised: 'Why is Openbook not decentralised?',
+            title: 'Preguntas',
+            subtitle: 'Las preguntas frequentes.',
+            office_dog: 'Nuestro labrador trabajando.',
+            is_distributed: '¿Por qué Openbook no es descentralizado?',
+            whos_paying: '¿Quién está pagando por todo hasta ahora?',
+            whos_paying_ans: 'Hasta ahora hemos sido completamente auto-financiados. Sin embargo, esto ha demostrado ser muy difícil.\n' +
+            'Dado que la mayoría de nosotros trabajamos a tiempo completo aparte de Openbook, nos llevaría mucho tiempo lanzar la primera versión y, aun así, no podríamos pagar por toda la infraestructura de IT necesaria para competir con las redes sociales establecidas.',
+            crowd_funding: 'Como queríamos que el proyecto fuera impulsado por personas y no por dinero, decidimos recurrir al crowdfunding.',
+            launching_kickstarter: 'Lanzaremos nuestra campaña de Kickstarter el 17 de julio.',
+            why_not_non_profit: '¿Por qué Openbook no es una organización sin fines de lucro?',
+            why_not_non_profit_ans: 'Hacer Openbook con fines de lucro fue una decisión difícil de hacer.',
+            check_all_boxes: 'Tenemos todas las calificaciones de una compañia sin fines de lucro y amamos a las organizaciones sin fines de lucro. Nos encantan las compañias Wikipedia, Ghost Foundation, FoundersPledge, Mozilla y muchas más.',
+            same_struggle: 'Sin embargo, vemos el mismo problema una y otra vez. Estas empresas batallan con crecer más allá de su rentabilidad. Estas empresas batallan con crecer al tamaño y los recursos necesarios para competir con empresas con fines de lucro. Por que? Porque no pueden recibir inversiones.',
+            need_money: 'Cuando necesitemos crecer de manera exponencial, debemos ser capaces de recaudar las grandes sumas de dinero necesarias para hacerlo.',
+            hence_for_profit: 'Por lo tanto, oficialmente somos una empresa con fines de lucro.',
+            humanitarian: 'Pero ten en cuenta que cuando hagamos esto, nos aseguraremos de que las personas que inviertan en la compañía sean personas con un interés real en la plataforma, sus valores centrales de privacidad, seguridad, libertad, codigo abierto y su naturaleza humanitaria.',
+            want_to_help: 'Quiero ayudar ahora, ¿qué puedo hacer?',
+            want_to_help_ans: '¡Estamos felices y agradecidos de que quieras ayudar!',
+            many_ways: 'Hay muchas maneras en que puedes ayudar ahora mismo.',
+            ideas: 'Aquí hay algunas ideas:',
+            share_website: 'Comparte el sitio en tus redes sociales',
+            talk_to_friends: 'Habla con tus amigos y familia acerca de nosotros',
+            improve_website: 'Si eres un desarrollador, nos puedes ayudar a mejorar nuestro sitio en <a\n' +
+            '                            href="http://git.open-book.org/"\n' +
+            '                            target="_blank" rel="noopener noreferrer">Gitlab</a>.',
+            let_us_know: 'Si tienes una idea para la red social, nos puedes <a href="/es/contact-us"\n' +
+            '                                                                            target="_blank" rel="noopener noreferrer">contactar</a>.',
+            public_figure: 'Si eres una figura pública y quieres ser nuestro embajador,',
+            contact_us: 'contáctanos!',
+            looking_for_job: 'Si estás buscando trabajo, eres talentoso y crees en Openbook,',
+            visit_jobs: 'visita nuestra página de trabajos.',
+            volunteer: 'Y, por último, si deseas involucrarte aún más, estamos formando una red de voluntarios por todo el mundo para ayudarnos a difundir Openbook.',
+            interested: 'Interesado?',
+            contact_us_2: 'Contactanos!',
+            more_questions: 'Tienes otra pregunta?',
+            send_us_message: 'Mandanos un mensaje!',
+            why_not_decentralised: '¿Por qué Openbook no es descentralizado?',
             why_not_decentralised_ans: '<p>\n' +
-            '                        Decentralised systems are incredibly complicated. For example rolling out updates (security updates/improvements included),\n' +
-            '                        maintaining cross-version compatibility (for example when rolling out a feature that is by design non-backwards compatible)\n' +
-            '                        and tracking, modifying or deleting user information across the nodes (pretty much impossible to guarantee).\n' +
+            '                        Los sistemas descentralizados son increíblemente complicados. Por ejemplo, implementar actualizaciones (actualizaciones de seguridad / mejoras / nuevas cosas),\n' +
+            '                        mantener compatibilidad de versiones cruzadas (por ejemplo, cuando se implementa una característica que, por diseño, no es compatible con versiones anteriores)\n' +
+            '                        y rastrear, modificar o borrar la información del usuario a través de los nodos (imposible de garantizar).\n' +
             '                    </p>\n' +
             '\n' +
-            '                    <p>It is a mighty challenge by itself to develop a system that tackles all of these issues. It could take years of research and development.</p>\n' +
+            '                    <p>Es un gran desafío en sí mismo desarrollar un sistema que solucione todos estos problemas. Podría llevar años de investigación y desarrollo.</p>\n' +
             '\n' +
-            '                        <p>The software giants are growing at an incredible pace, crushing or buying any sign of competition.\n' +
-            '                            Initiatives for social media decentralization in all honesty and sadness, don\'t stand a chance.</p>\n' +
+            '                        <p>Los gigantes del software están creciendo a un ritmo increíble, aplastando o comprando cualquier signo de competencia.\n' +
+            '                            Iniciativas para la descentralización de las redes sociales con toda honestidad y tristeza, no tienen ninguna posibilidad de ser exitosas.</p>\n' +
             '\n' +
-            '                    <p>While they are focusing on building revolutionary technologies and ways to tackle the\n' +
-            '                        decentralisation system problems, the real users of such systems (people with a non-tech background) care little\n' +
-            '                        for that aspect of the product. They care about the experience, the features, the ease of use,\n' +
-            '                        the design. Once these initiatives solve the decentralisation challenges, they will be thousands of light years\n' +
-            '                        away from matching the features the software giants will then have. It would all have been for nothing.</p>\n' +
+            '                    <p>Mientras se enfocan en construir tecnologías revolucionarias y formas de solucionar los\n' +
+            '                        problemas de sistema descentralizados, los usuarios reales de tales plataformas (gente con un fondo no tecnológico) les interesa poco\n' +
+            '                        ese aspecto del producto. Les importa la experiencia, la funcionalidad, la facilidad de uso,\n' +
+            '                        y el diseño. Cuando estas iniciativas solucionen los desafíos de la descentralización, estaraán a miles de años luz\n' +
+            '                        de la funcionalidad que los gigantes del software tendrán y todo habra sido para nada.</p>\n' +
             '\n' +
-            '                    <p>We are tackling the problem the other way around. We will use existing technologies to build not only a product ' +
-            'that competes with the software giants but beats them in the aspects that the general public cares about.</p>\n' +
+            '                    <p>Estamos abordando el problema al revés. Utilizaremos las tecnologías existentes para construir no solo un producto ' +
+            'que compita con los gigantes del software pero que los supere en los aspectos que le interesan al público en general.</p>\n' +
             '\n' +
-            '                    <p>If we do manage to become the defacto social network (which at that point would already be a\n' +
-            '                        huge improvement over existing ones in regards to transparency, privacy and security), with that amount\n' +
-            '                        of users and public interest, we would then be able to afford the time and the best and brightest minds in tech to \n' +
-            '                        research decentralisation strategies.</p>\n' +
+            '                    <p>Si logramos convertirnos en la red social de facto (que en ese momento ya sería una \n' +
+            '                        gran mejora respecto a las redes social actuales en cuanto a transparencia, privacidad y seguridad), con esa cantidad\n' +
+            '                        de usuarios y de interés público, podríamos permitirnos el tiempo y las mejores y más brillantes mentes en tecnología para\n' +
+            '                        investigar mejores estrategias de descentralización.</p>\n' +
             '\n' +
-            '                    <p>Imagine if we could invest millions in this! What a difference it would make.</p>'
+            '                    <p>¡Imagina si pudiéramos invertir millones en esto! Qué diferencia haría.</p>'
         },
         press: {
             we: 'We',
