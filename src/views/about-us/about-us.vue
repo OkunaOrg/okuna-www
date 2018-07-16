@@ -46,8 +46,6 @@
                         <p class="is-size-5 small-container">
                             {{ $t('about_us.description_project') }}
                         </p>
-                        <p class="is-size-5 small-container" v-html="$t('about_us.description_better_world')">
-                        </p>
                     </div>
                 </div>
             </div>

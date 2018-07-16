@@ -131,11 +131,10 @@ export const messages = {
             subtitle: 'We want to build a tool for <span class="has-text-primary">good</span>.',
             description: '<span class="has-text-primary"><strong\n' +
             '                                class="has-text-primary">Open</strong>book</span> ' +
-            'is an open-source, zero tracking, zero spying, zero advertisement, secure social network ' +
-            'that gives 30% of it\'s revenue towards making the world a better place, now and forever.',
-            description_founded: 'Founded in April 2018 in the international city of peace and justice, The Hague, Openbook is a project to make things right.',
-            description_project: 'A project to redefine social networks, a project to rethink the "free" internet, a project to bring transparency to the internet, a project to claim back our privacy.',
-            description_better_world: '<strong>Openbook is a project to make the world a better place</strong>.',
+            'is an new, privacy-friendly, open-source and awesome social network ' +
+            'giving 30% of it\'s revenue towards making the world a better place, now and forever.',
+            description_founded: 'Founded in April 2018 in the international city of peace and justice, The Hague, Openbook is a project to build a better social network.',
+            description_project: 'A social network that is honest, respects and protects the privacy of it\'s users, brings people together, is fun to use and is good for the planet.',
             accomplish_how: 'How will we accomplish this?',
             read_our_manifesto: 'Read our manifesto',
             humans_behind_ob: 'The humans behind <strong>Open</strong>book',
