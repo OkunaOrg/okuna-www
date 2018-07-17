@@ -128,7 +128,7 @@ export const messages = {
             lambrecht_desc: 'Security and international relations expert, conflict analyst, peace-builder, media researcher & producer, human rights activist.',
             vincent_title: 'Security Engineer',
             vincent_desc: 'Ethical hacker, reverse-engineer, exploit developer, speaker, does not like the word cyber, cyber expert.',
-            bas_title:  'UI/UX Ethical Designer',
+            bas_title:  'Chief of Design',
             bas_desc: 'Advocate of useful and meaningful products, user experience wizard, worked with numerous international brands, researcher, hardware hacker.',
             shantanu_title: 'Software Engineer',
             shantanu_desc: 'Pragmatic software engineer, product guy, crypto-geek, bot-maker, simplicity advocate.',
