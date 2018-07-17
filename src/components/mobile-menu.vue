@@ -228,6 +228,7 @@
                             </div>
                         </router-link>
                         <b-collapse
+                            :open="!isOpen"
                             class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item mobile-language-selection">
                             <div class="columns is-mobile" slot="trigger" slot-scope="props">
                                 <div class="column is-3">
@@ -384,6 +385,10 @@
 
         &--open {
             display: block;
+        }
+
+        .column {
+            padding: 0.65rem;
         }
 
         @media (min-width: 1090px) {

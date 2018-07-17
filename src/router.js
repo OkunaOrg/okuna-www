@@ -5,6 +5,7 @@ import root from './views/root.vue';
 import * as setupi18n from './i18n-setup';
 
 const locale = require('browser-locale')();
+const supportedLocales = ['en', 'es'];
 
 Vue.use(Router);
 
@@ -79,7 +80,7 @@ const router = new Router({
         },
         {
             path: '/press',
-            redirect: `/${navigator.language.substring(0,2)}/press`
+            redirect: `/${browserLang}/press`
         },
         {
             path: '/:locale',
@@ -150,11 +151,15 @@ const router = new Router({
                     }
                 },
                 {
-                    path: '/',
-                    redirect: `/${navigator.language.substring(0,2)}/home`
+                    path: '*',
+                    redirect: `/${browserLang}/home`
                 }
             ]
         },
+        {
+            path: '*',
+            redirect: '/${browserLang}/home'
+        }
     ],
     scrollBehavior() {
         return {
@@ -163,7 +168,6 @@ const router = new Router({
         }
     }
 });
-
 router.beforeEach((to, from, next) => {
     document.title = to.meta.title;
     let locale = to.params.locale;
@@ -171,9 +175,14 @@ router.beforeEach((to, from, next) => {
     if (!locale && to.name === 'manifesto') {
         locale = to.path.split('/')[1];
     } else if (!locale) {
-        locale = navigator.language.substring(0,2);
+        locale = browserLang;
     }
-    setupi18n.loadLanguageAsync(locale).then(() => next())
+    if (supportedLocales.indexOf(locale) === -1) {
+        router.push('/');
+    } else {
+        setupi18n.loadLanguageAsync(locale).then(() => next());
+    }
+
 });
 
 export default router;
