@@ -15,6 +15,7 @@ import './styles/index.scss';
 
 // Load jQuery and it's global plugins
 window['jQuery'] = window['$'] = require('jquery');
+require('default-passive-events');
 require('slick-carousel');
 
 require('script-loader!raven-js/dist/vue/raven.js');
