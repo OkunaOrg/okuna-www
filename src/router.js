@@ -27,7 +27,7 @@ const router = new Router({
     mode: 'history',
     routes: [
         {
-            path: '/',
+            path: '*',
             redirect: `/${browserLang}/home`
         },
         {
@@ -49,6 +49,10 @@ const router = new Router({
         {
             path: '/jobs',
             redirect: `/${browserLang}/jobs`
+        },
+        {
+            path: '/newsroom',
+            redirect: `/${browserLang}/newsroom`
         },
         {
             path: '/manifesto',
@@ -155,10 +159,6 @@ const router = new Router({
                     redirect: `/${browserLang}/home`
                 }
             ]
-        },
-        {
-            path: '*',
-            redirect: '/${browserLang}/home'
         }
     ],
     scrollBehavior() {
@@ -171,14 +171,13 @@ const router = new Router({
 router.beforeEach((to, from, next) => {
     document.title = to.meta.title;
     let locale = to.params.locale;
-
     if (!locale && to.name === 'manifesto') {
         locale = to.path.split('/')[1];
     } else if (!locale) {
         locale = browserLang;
     }
     if (supportedLocales.indexOf(locale) === -1) {
-        router.push('/');
+        next('/en/home');
     } else {
         setupi18n.loadLanguageAsync(locale).then(() => next());
     }
