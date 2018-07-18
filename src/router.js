@@ -12,16 +12,14 @@ Vue.use(Router);
 // Lazy load everything but home page!
 const contactUs = () => import('./views/contact-us/contact-us.vue');
 const aboutUs = () => import('./views/about-us/about-us.vue');
-const manifesto_en = () => import('./views/manifesto/en/manifesto.vue');
-const manifesto_es = () => import('./views/manifesto/es/manifesto.vue');
-const manifesto_nl = () => import('./views/manifesto/nl/manifesto.vue');
+const manifesto = () => import('./views/manifesto/manifesto.vue');
 const faq = () => import('./views/faq/faq.vue');
 const jobs = () => import('./views/jobs/jobs.vue');
 const press = () => import('./views/press/press.vue');
 const newsroom = () => import('./views/newsroom/newsroom.vue');
 const vulnerabilityReport = () => import('./views/vulnerability-report/vulnerability-report.vue');
 
-const browserLang = (locale || 'en-US').substring(0,2);
+const browserLang = (locale || 'en-US').substring(0, 2);
 
 const router = new Router({
     mode: 'history',
@@ -53,30 +51,6 @@ const router = new Router({
         {
             path: '/manifesto',
             redirect: `/${browserLang}/manifesto`
-        },
-        {
-            path: '/en/manifesto',
-            name: 'manifesto',
-            component: manifesto_en,
-            meta: {
-                title: 'Manifesto | Openbook social network'
-            }
-        },
-        // {
-        //     path: '/nl/manifesto',
-        //     name: 'manifesto',
-        //     component: manifesto_nl,
-        //     meta: {
-        //         title: 'Manifesto | Openbook social network'
-        //     }
-        // },
-        {
-            path: '/es/manifesto',
-            name: 'manifesto',
-            component: manifesto_es,
-            meta: {
-                title: 'Manifesto | Openbook social network'
-            }
         },
         {
             path: '/press',
@@ -151,6 +125,14 @@ const router = new Router({
                     }
                 },
                 {
+                    path: 'manifesto',
+                    name: 'manifesto',
+                    component: manifesto,
+                    meta: {
+                        title: 'Manifesto | Openbook social network'
+                    }
+                },
+                {
                     path: '*',
                     redirect: `/${browserLang}/home`
                 }
@@ -170,6 +152,7 @@ const router = new Router({
 });
 router.beforeEach((to, from, next) => {
     document.title = to.meta.title;
+
     let locale = to.params.locale;
 
     if (!locale && to.name === 'manifesto') {
@@ -177,6 +160,7 @@ router.beforeEach((to, from, next) => {
     } else if (!locale) {
         locale = browserLang;
     }
+
     if (supportedLocales.indexOf(locale) === -1) {
         router.push('/');
     } else {
