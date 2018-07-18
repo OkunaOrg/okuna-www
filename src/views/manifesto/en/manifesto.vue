@@ -489,6 +489,7 @@
     import memeImg from './assets/meme.jpg';
 
     export default {
+        name: 'ob-en-manifesto',
         components: {
             obGenericDataSharing,
             obOpenbookDataSharing
