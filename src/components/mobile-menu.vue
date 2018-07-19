@@ -266,10 +266,10 @@
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Español <i class="fas fa-check"></i></div>
                                     </li>
-                                    <!--<li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'nl' }" v-on:click="changeLocale('nl')">-->
-                                        <!--<div class="column"></div>-->
-                                        <!--<div class="column is-two-thirds">Nederlands <i class="fas fa-check"></i></div>-->
-                                    <!--</li>-->
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'nl' }" v-on:click="changeLocale('nl')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Nederlands <i class="fas fa-check"></i></div>
+                                    </li>
                                 </ul>
                             </div>
                         </b-collapse>
