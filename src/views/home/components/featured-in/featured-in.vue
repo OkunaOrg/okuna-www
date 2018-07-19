@@ -2,11 +2,11 @@
     <div>
         <div class="columns is-centered featured-in">
             <div class="column">
-                <a href="https://www.ft.com/content/fb5235e4-8564-11e8-96dd-fa565ec55929"
+                <a href="https://www.telegraph.co.uk/technology/2018/07/16/privacy-activists-launch-tracking-free-rival-facebook/"
                    class="featured-in__logo-wrapper"
                    target="_blank" rel="noopener noreferrer">
-                    <figure class="image featured-in-img position-top">
-                        <img class="is-grayscale" src="./assets/ft-logo.png">
+                    <figure class="image">
+                        <img class="is-grayscale" src="./assets/telegraph-logo.svg">
                     </figure>
                 </a>
             </div>
@@ -16,15 +16,6 @@
                    rel="noopener noreferrer">
                     <figure class="image featured-in-img">
                         <img class="is-grayscale" src="./assets/greennet-logo.png">
-                    </figure>
-                </a>
-            </div>
-            <div class="column">
-                <a href="https://www.telegraph.co.uk/technology/2018/07/16/privacy-activists-launch-tracking-free-rival-facebook/"
-                   class="featured-in__logo-wrapper"
-                   target="_blank" rel="noopener noreferrer">
-                    <figure class="image">
-                        <img class="is-grayscale" src="./assets/telegraph-logo.svg">
                     </figure>
                 </a>
             </div>
