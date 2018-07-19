@@ -4,87 +4,88 @@ export const messages = {
             openbook: '<strong>Open</strong>book'
         },
         home : {
-            want_to_know_more: 'Want to know more?',
-            read_manifesto: 'Read our manifesto',
-            featured_in: 'As featured in'
+            want_to_know_more: 'Wil je meer weten?',
+            read_manifesto: 'Lees ons manifest',
+            featured_in: 'Zoals gezien in'
         },
         honesty : {
-            title: 'Honest',
-            description: 'All the code is open-source, so free for anyone to see, modify and reproduce. No room for unpleasant surprises.'
+            title: 'Eerlijk',
+            description: 'Alle code is open-source, dus voor iedereen vrij in te zien, aan te passen en te reproduceren. Geen onaangename verrassingen.',
         },
         privacy : {
-            title: 'Privacy-friendly',
-            description: 'We don\'t monitor nor track anything you do. Surf the network with absolute peace of mind!'
+            title: 'Privacy vriendelijk',
+            description: 'We monitoren en tracken niets van wat je doet. Surf op het netwerk met absolute gemoedsrust!'
         },
         secure : {
-            title: 'Secure',
-            description: 'With a tough and strict security policy, we make sure your data doesn\'t fall into the wrong hands.'
+            title: 'Veilig',
+            description: 'Met een streng en strikt veiligheidsbeleid, zorgen wij ervoor dat jouw data niet in de verkeerde handen valt.'
         },
         easy : {
-            title: 'Easy-peasy',
-            description: 'Simple to use, even more to move into. Just drag-and-drop your old social media archive into Openbook and import all your photos, videos, chats and more!'
+            title: 'Appeltje-eitje',
+            description: 'Gemakkelijk te gebruiken, nog makkelijker overstappen. Sleep je oude social media archief gewoon direct in Openbook, om al je foto\'s videos, chats en meer, direct te importeren!'
         },
         fun : {
-            title: 'Fun!',
-            description: 'We\'re bringing back the social in social network, giving interaction with your peers meaning again.'
+            title: 'Leuk!',
+            description: 'Wij brengen het sociale aspect, van sociaal netwerk, terug. Geef interactie met je vrienden en familie weer betekenis.'
         },
         personal : {
-            title: 'Personal',
-            description: 'Customize the network the way you want. Be different, be yourself!'
+            title: 'Persoonlijk',
+            description: 'Personaliseer het netwerk zoals jij het wilt. Wees anders, wees jezelf!'
         },
         good_for_planet : {
-            title: 'Good for the planet',
-            description: 'In partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, we\'ll be giving 30% of our revenue towards projects for education, sanitization, climate change prevention and more.'
+            title: 'Goed voor de planeet',
+            description: 'In samenwerking met <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, zullen wij 30% van onze omzet doneren aan projecten voor educatie, sanitisatie, bestrijden van klimaatverandering en meer.'
         },
         quotes : {
             joel_name: 'Joel Hernández',
-            joel_title: 'Founder of Openbook',
-            joel_quote: 'Openbook is not only an evolutionary step for social networks, it\'s also a humanitarian project at world scale.',
+            joel_title: 'Oprichter Openbook',
+            joel_quote: 'Openbook is niet alleen een evolutionaire stap voor sociale netwerken, het is ook een wereldwijd humanitair project.',
             vincent_name: 'Vincent Ruijter',
             vincent_title: 'Ethical Hacker',
-            vincent_quote: 'With current networks growing bigger and bigger every day, Openbook might be the last real chance to build something different, something ethical, something better.',
+            vincent_quote: 'Met de huidige sociale netwerken, die elke dag steeds maar verder groeien, Kan Openbook weleens de enige en laatste kans zijn om iets anders, iets ethisch en iets beter te bouwen.',
             phil_name: 'Jaya Baloo',
-            phil_title: 'Information security expert',
-            phil_quote: 'Openbook is a solution for good, a social haven where the user community is positively empowered to share their data securely.'
+            phil_title: 'Informatie beveilgings expert',
+            phil_quote: 'Openbook is een platform om goed te kunnen doen, een sociaal toevluchtsoord waar de gebruikersgemeenschap aangemoedigd wordt om hun data veilig te delen.'
         },
         splash_hero: {
             hello_world: 'Hello <span id="hello-subject">world!</span>',
-            world: 'world',
-            friends: 'friends',
-            family: 'family',
-            grandma: 'grandma',
+            world: 'wereld',
+            friends: 'vrienden',
+            family: 'familie',
+            grandma: 'oma',
             reddit: 'reddit',
-            we_are_ob: 'We\'re <strong>Open</strong>book.',
-            kickstarter: 'The open source, privacy-friendly, fun and honest social\n' +
-            '    network helping make the world a better place.',
-            share: 'Share',
-            notify_me: 'Notify me'
+            we_are_ob: 'Wij zijn <strong>Open</strong>book.',
+            kickstarter: 'Het open-source, privacy vriendelijke, leuke en eerlijke sociale\n' +
+            '    netwerk dat helpt de wereld beter te maken, <strong>vind ons op<span\n' +
+            '    style="color: #034752;">Kickstarter</span></strong>.',
+            share: 'Deel',
+            notify_me: 'Nu op Kickstarter'
         },
         count_down: {
             kickstarter: 'Kickstarter',
-            campaign_countdown: 'campaign countdown',
-            days: 'day | days',
-            hours: 'hour | hours',
-            minutes: 'minute | minutes',
-            seconds: 'second | seconds',
-            kickstarter_launch: 'We will launch our <strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            'campaign <br/> on the <strong>15th of July of 2018</strong>.'
+            campaign_countdown: 'campagne countdown',
+            days: 'dag | dagen',
+            hours: 'uur | uur',
+            minutes: 'minuut | minuten',
+            seconds: 'seconde | seconden',
+            kickstarter_launch: 'Onze <strong class="has-text-kickstarter">Kickstarter</strong> ' +
+            'campagne verloopt <br/> op <strong>15 augustus 2018</strong>.'
         },
         meet_the_team: {
-            title: 'Meet the team'
+            title: 'Ontmoet het team'
         },
         header: {
-            home: 'Home',
-            about_us: 'About Us',
+            home: 'Startpagina',
+            about_us: 'Over ons',
             manifesto: 'Manifesto',
-            contact_us: 'Contact Us',
-            jobs: 'Jobs',
+            contact_us: 'Neem contact op',
+            jobs: 'Vacatures',
             faq: 'FAQ',
-            press: 'Press',
+            press: 'Pers',
             language: 'Taal'
         },
         footer: {
-            report_vulnerability: 'Report Vulnerability',
+            report_vulnerability: 'Meld kwetsbaarheid',
             twitter: 'Twitter',
             github: 'Github',
             reddit: 'Reddit',
@@ -92,188 +93,188 @@ export const messages = {
             linked_in: 'LinkedIn',
             product_hunt: 'Product Hunt',
             facebook: 'Facebook',
-            the_ob_organization: 'The Openbook Organization',
-            privacy_policy: 'Privacy Policy',
-            made_with: 'Made with',
-            in_europe: 'in Europe'
+            the_ob_organization: 'De Openbook Organisatie',
+            privacy_policy: 'Privacy beleid',
+            made_with: 'Gemaakt met',
+            in_europe: 'in Europa'
         },
         about_us: {
-            title: 'About us',
-            subtitle: 'We want to build a tool for <span class="has-text-primary">good</span>.',
+            title: 'Over ons',
+            subtitle: 'We willen een platform maken dat gebruikt wordt om <span class="has-text-primary">goed</span> te doen.',
             description: '<span class="has-text-primary"><strong\n' +
             '                                class="has-text-primary">Open</strong>book</span> ' +
-            'is an open-source, zero tracking, zero spying, zero advertisement, secure social network ' +
-            'that gives 30% of it\'s revenue towards making the world a better place, now and forever.',
-            description_founded: 'Founded in April 2018 in the international city of peace and justice, The Hague, Openbook is a project to make things right.',
-            description_project: 'A project to redefine social networks, a project to rethink the "free" internet, a project to bring transparency to the internet, a project to claim back our privacy.',
-            description_better_world: '<strong>Openbook is a project to make the world a better place</strong>.',
-            accomplish_how: 'How will we accomplish this?',
-            read_our_manifesto: 'Read our manifesto',
-            humans_behind_ob: 'The humans behind <strong>Open</strong>book',
-            work_with_us: 'Want to work with us?',
-            visit_jobs_page: 'Visit our jobs page',
-            our_ambassadors: ' Our ambassadors',
-            ambassadors_desc: 'People that help us spread the word around and stand for everything we do.',
-            become_ambassadors: 'Want to become an ambassador?',
-            contact_us: 'Contact us'
+            'is een veilig en open-source sociaal netwerk, zonder tracking en advertenties ' +
+            'dat 30% van zijn omzet doneert om de wereld een betere plek te maken, nu en voor altijd.',
+            description_founded: 'Opgericht in april 2018, in de internationale stad van vrede en rechtvaardigheid: Den Haag. Openbook is een project om het goed te maken.',
+            description_project: 'Een project dat sociale netwerken opnieuw zal definiëren, een project om opnieuw te kijken naar het "vrije" internet, een project om het internet transparanter te maken, een project om onze privacy terug te winnen.',
+            description_better_world: '<strong>Openbook is een project om de wereld een betere plek te maken</strong>.',
+            accomplish_how: 'Hoe krijgen wij dit voor elkaar?',
+            read_our_manifesto: 'Lees on manifest',
+            humans_behind_ob: 'De mensen achter <strong>Open</strong>book',
+            work_with_us: 'Wil jij bij ons werken?',
+            visit_jobs_page: 'Bezoek onze vacature pagina',
+            our_ambassadors: ' Onze ambassadeurs',
+            ambassadors_desc: 'Mensen die ons helpen met verspreiden van onze boodschap, en staan voor alles wat wij doen.',
+            become_ambassadors: 'Wil jij onze ambassadeur worden?',
+            contact_us: 'Neem contact met ons op'
         },
         team_members: {
-            joel_title: 'Founder, Chief Executive Officer',
-            joel_desc: 'Privacy and security activist, software engineer, digital products designer, open sourcerer, The Next Web Top 500 young talent, human.',
-            jaya_title: 'Chief Operating Officer',
-            jaya_desc: 'Globally recognized cyber-security expert, speaker on lawful interception, quantum-computing, counter surveillance and cryptography.',
-            phil_title: 'Chief Cryptographer',
-            phil_desc: 'Cryptography pioneer, creator of PGP, the most widely used email encryption software in the world, internet hall of fame member, privacy activist.',
-            lambrecht_title: 'Chief Marketing Officer',
-            lambrecht_desc: 'Security and international relations expert, conflict analyst, peace-builder, media researcher & producer, human rights activist.',
+            joel_title: 'Oprichter, Algemeen Directeur',
+            joel_desc: 'Privacy en security activist, software engineer, digital product designer, open sourcerer, The Next Web Top 500 jong talent, mens.',
+            jaya_title: 'Operationeel Directeur',
+            jaya_desc: 'Wereld beroemde informatie veiligheids expert, spreekt over rechtmatig aftappen, quantum-computing, counter surveillance en cryptografie.',
+            phil_title: 'Directeur Cryptografie',
+            phil_desc: 'Cryptografie pionier, maker van PGP, de meest gebruikte e-mail encryptie software ter wereld, internet hall of fame lid, privacy activist.',
+            lambrecht_title: 'Directeur Marketing',
+            lambrecht_desc: 'Expert in beveiliging en internationale betrekkingen, conflictanalist, vredesopbouwer, media-onderzoeker en producent, mensenrechtenactivist.',
             vincent_title: 'Security Engineer',
-            vincent_desc: 'Ethical hacker, reverse-engineer, exploit developer, speaker, does not like the word cyber, cyber expert.',
-            bas_title:  'Chief of Design',
-            bas_desc: 'Advocate of useful and meaningful products, user experience wizard, worked with numerous international brands, researcher, hardware hacker.',
+            vincent_desc: 'Ethisch hacker, reverse-engineer, exploit-ontwikkelaar, spreker, houdt niet van het woord cyber, cyber-expert.',
+            bas_title:  'UI/UX Ethisch Ontwerper',
+            bas_desc: 'Verdediger van nuttige en betekenisvolle producten, user experience wizard, gewerkt met talloze internationale merken, onderzoeker, hardware-hacker.',
             shantanu_title: 'Software Engineer',
-            shantanu_desc: 'Pragmatic software engineer, product guy, crypto-geek, bot-maker, simplicity advocate.',
+            shantanu_desc: 'Pragmatische software-engineer, productkerel, crypto-geek, bot-maker, eenvoudsverdediger.',
             martijn_title: 'Software Engineer',
-            martijn_desc: 'Practical software engineer, JavaScript guru, wearable tech geek, gamer, coolness officer in charge.'
+            martijn_desc: 'Praktische software-engineer, JavaScript-goeroe, draagbare tech-geek, gamer, coolnessofficier die de leiding heeft.'
         },
         contact_us: {
-            title: 'Contact us',
-            subtitle: 'We want to hear from you.',
-            info: 'Contact information',
-            message: 'Send us a message'
+            title: 'Neem contact met ons op.',
+            subtitle: 'Wij willen van je horen.',
+            info: 'Contact gegevens',
+            message: 'Stuur ons een bericht'
         },
         address: {
-            name: 'Name',
-            ob_organization: 'The Openbook Organization',
-            address: 'Address',
-            ob_address: 'Bagijnestraat 25, 2511CK, The Hague, The Netherlands',
-            telephone: 'Telephone',
+            name: 'Naam',
+            ob_organization: 'De Openbook Organisatie',
+            address: 'Adres',
+            ob_address: 'Bagijnestraat 25, 2511CK, Den Haag , Nederland',
+            telephone: 'Te;efoon',
             telephone_no: '(+31) 611 60 4275',
             email: 'Email',
             website: 'Website'
         },
         message: {
-            subject: 'Subject',
-            reason_placeholder: 'The reason you are contacting us',
-            email_placeholder: 'The email we can reach you at',
-            email: 'Email',
-            user_message: 'Message',
-            user_message_placeholder: 'What can we do for you?',
-            google_recaptcha_title: 'We use <a href="https://www.google.com/recaptcha/intro/v3beta.html" target="_blank"\n' +
+            subject: 'Onderwerp',
+            eason_placeholder: 'De reden dat je contact met ons opneemt',
+            email_placeholder: 'Het e-mail adres waarop we je kunnen bereiken',
+            email: 'E-mail',
+            user_message: 'Bericht',
+            user_message_placeholder: 'Wat kunnen we voor je doen?',
+            google_recaptcha_title: 'Wij gebruiken <a href="https://www.google.com/recaptcha/intro/v3beta.html" target="_blank"\n' +
             '                                              rel="noopener noreferrer">Google Recaptcha</a>\n' +
-            '                                    to prevent the abuse of this form.',
-            recaptcha_info: 'Google collects information about you in order to "verify" you are human.',
-            info_includes: 'This information includes',
-            info_ip_location: 'Your IP, which can be used for determining your location and cross-referencing your identity with other sites you have visited.',
-            info_cookies: 'All cookies placed by Google over the last 6 months.',
-            info_mouse_clicks: 'How many mouse clicks you’ve made (or touches if on a touch device).',
-            info_css: 'The CSS information of the page',
-            info_date: 'The date',
-            info_browser_lang: 'The language of your browser',
-            info_plugins: 'Any plugins you have installed on the browser',
-            info_js: 'The Javascript objects on the page',
-            recaptcha_authorization: 'Do you authorize us to load Google Recaptcha and therefore allow Google to collect this information?',
-            recaptcha_authorization_yes: 'Yes, I authorize you to load Google Recaptcha',
-            or: 'or',
-            recaptcha_authorization_no: 'No, send an e-mail to info@open-book.org',
-            tick_box: 'Please tick this box',
-            clear_form: 'Clear form',
-            submit: 'Submit'
+            '                           om misbruik van dit formulier te voorkomen.',
+            recaptcha_info: 'Google verzameld informatie over jou, om te "verifiëren" dat je een mens bent.',
+            info_includes: 'Deze informatie bevat',
+            info_ip_location: 'Jouw IP adres, wat gebruikt kan worden om jouw locatie te bepalen en je identiteit te achterhalen doormiddel van je eerdere bezochte sites te analyseren.',
+            info_cookies: 'Alle cookies die de afgelopen 6 maanden geplaatst zijn door Google.',
+            info_mouse_clicks: 'Hoeveel keer je met de muis hebt geklikt hebt (of het touchscreen hebt aangeraakt).',
+            info_css: 'De CSS informatie op de pagina',
+            info_date: 'De datum',
+            info_browser_lang: 'De taal van je browser',
+            info_plugins: 'In je browser geïnstalleerde plugins',
+            info_js: 'De JavaScript objecten op de pagina',
+            recaptcha_authorization: 'Geef jij ons toestemming om Google Recaptcha te laden en sta je toe Google deze informatie te verzamelen?',
+            recaptcha_authorization_yes: 'Ja, ik geef toestemming om Google Recaptcha te laden',
+            or: 'of',
+            recaptcha_authorization_no: 'Nee, stuur een e-mail naar info@open-book.org',
+            tick_box: 'Kruis dit vakje aan',
+            clear_form: 'Formulier wissen',
+            submit: 'Verzenden'
         },
         jobs : {
-            title: 'Jobs',
-            subtitle: 'Work with us.',
-            exciting_adventure: 'We are embarking on one of the most exciting digital adventures ever and we are looking for talented people to sail with us!',
-            all_skills: 'We are looking for people with all kinds of skills. Technology, design, marketing, finance, media, you name it.',
-            need_your_help: 'If you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> and are talented at what you do, we need your help!',
-            send_cv: 'Send us your CV to  <a\n' +
+            title: 'Vacatures',
+            subtitle: 'Werk met ons',
+            exciting_adventure: 'We beginnen aan een van de spannendste digitale avonturen ooit en we zijn op zoek naar getalenteerde mensen die met ons mee willen!',
+            all_skills: 'We zijn op zoek naar mensen met allerlei vaardigheden. Technologie, design, marketing, financiën, media, noem maar op.',
+            need_your_help: 'Als je gelooft in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> en je bent goed in wat je doet, dan hebben wij jouw hulp nodig!',
+            send_cv: 'Stuur je CV naar  <a\n' +
             '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
-            look_forward : 'We look forward to meeting you !',
-            colleagues: 'Who will you be working with?',
-            meet_the_team: 'Meet the team'
+            look_forward : 'We kijken ernaar uit om je te ontmoeten!',
+            colleagues: 'Met wie ga je samenwerken?',
+            meet_the_team: 'Ontmoet het team.'
         },
         faq: {
             title: 'FAQ',
-            subtitle: 'The frequently asked questions.',
-            office_dog: 'Our office dog hard at work.',
-            jump_to: 'Jump to',
-            whos_paying: 'Who\'s paying for everything so far?',
-            whos_paying_ans: 'So far we have been completely self funded. However, this has proven to be very hard.\n' +
-            '                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
-            crowd_funding: 'As we wanted the project to be driven by people and not capital, we decided to go for crowd-funding.',
-            launching_kickstarter: 'We\'ll be launching our Kickstarter campaign on the 17th of July.',
-            why_not_non_profit: 'Why is Openbook not a non-profit?',
-            why_not_non_profit_ans: 'Making Openbook a for-profit was a hard choice to make.',
-            check_all_boxes: 'We check all the non-profits boxes and we love non-profits. We love Wikipedia, the Ghost Foundation, Founders Pledge, Mozilla and many more.',
-            same_struggle: 'However we see the same struggle repeated over and over again. These companies struggle to grow beyond their profitability. These companies struggle to grow to the size and resources needed to compete with for-profit businesses.',
-            need_money: 'When we need to grow exponentially, we need to be able to raise the large amounts of money needed to do so.',
-            hence_for_profit: 'Therefore we are officially a for-profit company.',
-            humanitarian: 'But do note that when we do this, we will make sure the people investing in the company will be people with real interest on the platform, its core values of privacy, security, freedom, openness and its humanitarian nature.',
-            want_to_help: 'I want to help right now, what can I do?',
-            want_to_help_ans: 'We\'re happy and grateful you want to help out!',
-            many_ways: 'There are many ways you can help right now.',
-            ideas: 'Here are some ideas:',
-            share_website: 'Share the website on social media',
-            talk_to_friends: 'Talk to your friends and family about us',
-            improve_website: 'If you\'re a developer, you can help us <a\n' +
+            subtitle: 'De meest gestelde vragen.',
+            office_dog: 'Onze kantoorhond hard aan het werk.',
+            jump_to: 'Ga naar',
+            whos_paying: 'Wie heeft alles tot nu toe betaald?',
+            whos_paying_ans: 'Tot nu toe zijn we volledig zelf gefinancieerd. Dit is echter erg moeilijk gebleken.\n' +
+            '                        Met de meesten van ons die fulltime werken, naast Openbook, kan het lang duren voordat we de eerste versie uitbrengen en zelfs dan zouden we de IT-infrastructuur, die nodig is om te concurreren met een van de gevestigde netwerken, niet kunnen betalen.',
+            crowd_funding: 'Omdat we wilden dat het project werd aangedreven door mensen en niet door kapitaal, besloten we om voor crowdfunding te gaan.',
+            launching_kickstarter: 'We lanceren onze Kickstarter-campagne op 17 juli.',
+            why_not_non_profit: 'Waarom is Openbook geen non-profit?',
+            why_not_non_profit_ans: 'Openbook een bedrijf met winstoogmerk maken was een moeilijke keuze.',
+            check_all_boxes: 'Wij vinken alle kruisje van een non-profit aan, en we houden van non-profitorganisaties. We houden van Wikipedia, de Ghost Foundation, Founders Pledge, Mozilla en nog veel meer.',
+            same_struggle: 'We zien echter dezelfde strijd steeds weer herhaald worden. Deze bedrijven hebben moeite om te groeien buiten hun winstgevendheid. Deze bedrijven hebben moeite om te groeien naar de omvang en middelen die nodig zijn om te concurreren met winstgevende bedrijven.',
+            need_money: 'Als we exponentieel willen groeien, moeten we in staat zijn om de grote hoeveelheden geld te verzamelen die nodig zijn om dit te doen.',
+            hence_for_profit: 'Daarom zijn we officieel een bedrijf met winstoogmerk.',
+            humanitarian: 'Maar onthoud dat wanneer wij dit doen, wij ervoor zullen zorgen dat de mensen die investeren in het bedrijf, mensen zijn met echte interesse in ons platform en onze kernwaarden: privacy, veiligheid, vrijheid, openheid en de humanitaire aard.',
+            want_to_help: 'Ik wil nu helpen, wat kan ik doen?',
+            want_to_help_ans: 'We zijn blij en dankbaar dat je wilt helpen!',
+            many_ways: 'Er zijn veel manieren waarop je nu kunt helpen.',
+            ideas: 'Hier zijn enkele ideeën:',
+            share_website: 'Deel deze website op social media.',
+            talk_to_friends: 'Praat over ons met je familie en vrienden',
+            improve_website: 'Als je een ontwikkelaar bent, kan je ons helpen<a\n' +
             '                            href="https://github.com/OpenBookOrg/openbook-org-www"\n' +
-            '                            target="_blank" rel="noopener noreferrer">improve our website</a>.',
-            let_us_know: 'If you have an idea for the network, you can <a href="https://github.com/OpenBookOrg/ideas"\n' +
-            '                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.',
-            public_figure: 'If you\'re a public figure and would like to become an ambassador,',
-            contact_us: 'contact us',
-            looking_for_job: 'If you\'re looking for a job and believe Openbook would be a great fit for you,',
-            visit_jobs: 'visit our jobs page',
-            volunteer: 'And lastly, if you would like to be even more involved, we\'re forming a network of volunteers across the world to help us spread the word.',
-            interested: 'Interested?',
-            contact_us_2: 'Contact us',
-            more_questions: 'Have another question?',
-            send_us_message: 'Send us a message',
-            why_not_decentralised: 'Why is Openbook not decentralised?',
+            '                            target="_blank" rel="noopener noreferrer">verbeter onze website</a>.',
+            let_us_know: 'Als je een idee hebt voor het netwerk, kan je <a href="https://github.com/OpenBookOrg/ideas"\n' +
+            '                                                                            target="_blank" rel="noopener noreferrer">het ons laten weten</a>.',
+            public_figure: 'Als je een publiek figuur bent, en een ambassadeur wilt worden,',
+            contact_us: 'neem contact op',
+            looking_for_job: 'Als je op zoek bent naar een baan en denkt dat Openbook geschikt voor je is.',
+            visit_jobs: 'bezoek onze vacature pagina',
+            volunteer: 'En tot slot, als je nog meer betrokken wilt zijn, we zijn over de hele wereld op zoek naar vrijwilligers die ons willen helpen met het woord verspreiden.',
+            interested: 'Interesse?',
+            contact_us_2: 'Neem contact met ons op',
+            more_questions: 'Nog een vraag?',
+            send_us_message: 'Stuur ons een bericht',
+            why_not_decentralised: 'Waarom is Openbook niet gedecentralizeerd?',
             why_not_decentralised_ans: '<p>\n' +
-            '                        Decentralised systems are incredibly complicated. For example rolling out updates (security updates/improvements included),\n' +
-            '                        maintaining cross-version compatibility (for example when rolling out a feature that is by design non-backwards compatible)\n' +
-            '                        and tracking, modifying or deleting user information across the nodes (pretty much impossible to guarantee).\n' +
+            '                        Gedecentraliseerde systemen zijn ongelooflijk gecompliceerd. Bijvoorbeeld het uitrollen van updates (beveiligingsupdates / verbeteringen inbegrepen), \n' +
+            '                        compatibiliteit met meerdere versies behouden (bijvoorbeeld bij het uitrollen van een functie die niet achterwaarts compatibel is) \n' +
+            '                        en het bijhouden, wijzigen of verwijderen van gebruikersinformatie van de knopen (vrijwel onmogelijk om te garanderen). \n' +
             '                    </p>\n' +
             '\n' +
-            '                    <p>It is a mighty challenge by itself to develop a system that tackles all of these issues. It could take years of research and development.</p>\n' +
+            '                    <p>Het is een enorme uitdaging op zich om een systeem te ontwikkelen dat al deze problemen aanpakt. Het kan jaren van onderzoek en ontwikkeling duren.</p>\n' +
             '\n' +
-            '                        <p>The software giants are growing at an incredible pace, crushing or buying any sign of competition.\n' +
-            '                            Initiatives for social media decentralization in all honesty and sadness, don\'t stand a chance.</p>\n' +
+            '                        <p>De softwarereuzen groeien in een ongelooflijk tempo en verpletteren of kopen elk teken van competitie.\n' +
+            '                            Initiatieven voor decentralisatie van sociale media maken, in alle eerlijkheid, geen schijn van kans. </p>\n' +
             '\n' +
-            '                    <p>While they are focusing on building revolutionary technologies and ways to tackle the\n' +
-            '                        decentralisation system problems, the real users of such systems (people with a non-tech background) care little\n' +
-            '                        for that aspect of the product. They care about the experience, the features, the ease of use,\n' +
-            '                        the design. Once these initiatives solve the decentralisation challenges, they will be thousands of light years\n' +
-            '                        away from matching the features the software giants will then have. It would all have been for nothing.</p>\n' +
+            '                    <p>Terwijl ze zich richten op het bouwen van revolutionaire technologieën en manieren om de\n' +
+            '                        problemen met het decentralisatiesysteem, de echte gebruikers van dergelijke systemen (mensen met een niet-technische achtergrond) zorgen weinig\n' +
+            '                        voor dat aspect van het product. Ze geven om de ervaring, de functies, het gebruiksgemak,\n' +
+            '                        het ontwerp. Zodra deze initiatieven de uitdagingen voor decentralisatie oplossen, zullen ze duizenden lichtjaren\n' +
+            '                        verwijderd zijn van de functies die softwarereuzen dan zullen hebben. Het zou allemaal voor niets zijn geweest.</p>\n' +
             '\n' +
-            '                    <p>We are tackling the problem the other way around. We will use existing technologies to build not only a product ' +
-            'that competes with the software giants but beats them in the aspects that the general public cares about.</p>\n' +
+            '                    <p>We pakken het probleem net andersom aan. We zullen bestaande technologieën gebruiken om niet alleen een product te bouwen ' +
+            'dat concurreert met de softwarereuzen, maar ze verslaat in de aspecten waar het grote publiek om geeft.</p>\n' +
             '\n' +
-            '                    <p>If we do manage to become the defacto social network (which at that point would already be a\n' +
-            '                        huge improvement over existing ones in regards to transparency, privacy and security), with that amount\n' +
-            '                        of users and public interest, we would then be able to afford the time and the best and brightest minds in tech to \n' +
-            '                        research decentralisation strategies.</p>\n' +
+            '                    <p>Als we erin slagen om het defacto sociale netwerk te worden (dat zou op dat moment al een enorme verbetering zijn\n' +
+            '                        ten opzichte van bestaande netwerken met betrekking tot transparantie, privacy en beveiliging), met die hoeveelheid'  +
+            '                        gebruikers en het publieke belang, dan zouden wij tijd en geld hebben om de slimste koppen in tech te kunnen veroorloven om\n' +
+                '                        decentralisatie strategieën te onderzoeken.</p>\n' +
             '\n' +
-            '                    <p>Imagine if we could invest millions in this! What a difference it would make.</p>'
+            '                    <p>Stel je voor dat we hier miljoenen in zouden kunnen investeren! Wat een verschil zou dat maken.</p>',
         },
         press: {
-            we: 'We',
-            press: 'Press',
-            today_everyday: 'Today, and everyday.',
-            hi: 'Hi there!',
-            any_questions: 'We hope you find everything you need below.\n' +
-            '                        ​​If you have any questions, would like to schedule an interview or require extra material, feel free to contact Lambrecht Wessels at <a\n' +
+            we: 'Wij',
+            press: 'Pers',
+            today_everyday: 'Vandaag, en elke dag.',
+            hi: 'Hallo daar!',
+            any_questions: 'We hopen dat je alles hieronder kunt vinden.\n' +
+            '                        ALs je vragen hebt, of een interview wilt plannen, of extra materiaal nodig hebt, neem dan contact op met Lambrecht Wessels via <a\n' +
             '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">lambrecht@open-book.org</a>.',
-            happy_to_help: 'We’re happy to help.',
-            jump_to: 'Jump to',
-            press_kit: 'Press kit',
-            newsroom: 'Newsroom',
-            people: 'People',
+            happy_to_help: 'Wij helpen je graag.',
+            jump_to: 'Navigeer naar',
+            press_kit: 'Persmap',
+            newsroom: 'Redactiekamer',
+            people: 'Mensen',
             logos: 'Logos',
-            includes_everything: 'Includes press releases, manifesto, bios, photos, vector logos, misc images and website photos.',
-            home_press: 'Home to our press releases.',
-            go_to_newsroom: 'Go to newsroom',
-            missing_something: 'Missing something? Contact <a\n' +
+            includes_everything: 'Bevat persberichten, het manifest, biografieën, foto\'s, vector logo\'s, overige afbeeldingen foto\' website.',
+            home_press: 'Pagina van onze pers berichten.',
+            go_to_newsroom: 'Ga naar de redactiekamer',
+            missing_something: 'Mist er iets? Neem contact op met <a\n' +
             '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">Lambrecht Wessels</a>.'
         }
     }
