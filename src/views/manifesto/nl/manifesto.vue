@@ -11,7 +11,7 @@
                                         Manifesto
                                     </h1>
                                     <h2 class="title is-size-2 manifesto-text has-text-centered-mobile">
-                                        The problem, the solution, the next steps.
+                                        Het probleem, de oplossing, de volgende stappen.
                                     </h2>
                                 </div>
                             </div>
@@ -72,59 +72,59 @@
                     <ul>
                         <li>
                             <a href="#why" v-scroll-to="'#why'">
-                                Why?
+                                Waarom?
                             </a>
                         </li>
                         <li>
                             <a href="#how" v-scroll-to="'#how'">
-                                How?
+                                Hoe?
                             </a>
                             <ul>
                                 <li>
                                     <a href="#honest" v-scroll-to="'#honest'">
-                                        1. Honest.
+                                        1. Eerlijk.
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#personal" v-scroll-to="'#personal'">
-                                        2. Personal.
+                                        2. Persoonlijk.
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#privacyfriendly" v-scroll-to="'#privacyfriendly'">
-                                        3. Privacy-friendly and secure.
+                                        3. Privacy-vriendelijk en veilig.
                                     </a>
                                     <ul>
                                         <li>
                                             <a href="#explicitconsent" v-scroll-to="'#explicitconsent'">
-                                                Explicit and Informed Consent
+                                                Expliciete toestemming
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#safeapps" v-scroll-to="'#safeapps'">
-                                                Safe Applications
+                                                Veilige applicaties
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#privacydefault" v-scroll-to="'#privacydefault'">
-                                                Privacy by Default
+                                                Privacy als standaard
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#easy" v-scroll-to="'#easy'">
-                                        4. Easy.
+                                        4. Makkelijk.
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#fun" v-scroll-to="'#fun'">
-                                        5. Fun.
+                                        5. Leuk.
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#revenue" v-scroll-to="'#revenue'">
-                                        6. Our Revenue.
+                                        6. Onze omzet.
                                     </a>
                                 </li>
                             </ul>
@@ -140,27 +140,27 @@
                         <div>
                             <span class="icon is-large" v-twemoji>🤔</span>
                         </div>
-                        <h2 class="title is-3 is-spaced is-margin-top-small">Why?</h2>
-                        <h4 class="subtitle is-5">The reason we're building yet another social network.</h4>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">Waarom?</h2>
+                        <h4 class="subtitle is-5">De reden dat we nog een ander sociaal netwerk aan het bouwen zijn.</h4>
                     </div>
                     <br/>
                     <p>
-                        <strong>Social networks are awesome.</strong>
+                        <strong>Sociale netwerken zijn geweldig.</strong>
                     </p>
                     <p>
-                        They connect us, help us share treasured moments with our loved ones and provide us with funny cat videos.
+                        Ze brengen ons bij elkaar, helpen ons waardevolle momenten te delen met onze favoriete vrienden en zorgen ervoor dat we kattenfilmpjes kunnen kijken.
 
                     </p>
                     <p>
-                        Sadly, nowadays social networks aren’t so much about connecting people, instead they are all about making as much money
-                        as possible out of people, no matter the consequences. For example the loss of privacy.
+                        Helaas zijn sociale netwerken er steeds minder voor het bij elkaar brengen van mensen, maar meer voor het zo veel
+                        mogelijk geld verdienen door hun gebruikers. Ongeacht de consequenties, zoals het verlies van privacy.
                     </p>
                     <p>
-                        We want to do better, which is exactly why at Openbook we’re doing things differently.
+                        Wij willen dit beter doen, en daarom doen we het bij Openbook anders.
                     </p>
                     <p>
-                        Openbook will have the great things you’d expect from a social network: chats, posts, groups and events to name a few.
-                        Plus, it will be <strong class="has-text-primary">honest, personal, privacy-friendly, secure and fun ;-)</strong>.
+                        Openbook heeft precies de dingen die je van een social network zou verwachten: chats, posts, groepen en evenementen om er een paar te noemen.
+                        Daarnaast is het <strong class="has-text-primary">eerlijk, persoonlijk, privacy-vriendelijk, veilig en leuk ;-)</strong>.
                     </p>
                 </div>
             </div>
@@ -172,185 +172,173 @@
                         <div>
                             <span class="icon is-large" v-twemoji>💡</span>
                         </div>
-                        <h2 class="title is-3 is-spaced is-margin-top-small">How?</h2>
-                        <h4 class="subtitle is-5">How will we create a tool for good?</h4>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">Hoe?</h2>
+                        <h4 class="subtitle is-5">Dit is hoe we dat doen:</h4>
                     </div>
-                    <h3 id="honest">1. Honest.</h3>
+                    <h3 id="honest">1. Eerlijk.</h3>
                     <p>
-                        All of our code is <strong>open-source.</strong> This means it’s free for everyone to see, reproduce and contribute to.
-                        We’re transparent about how the social network works.
+                        Al onze code is  <strong>open-source.</strong> Dit betekent dat iedereen het kan zien, reproduceren en er aan kan bijdragen.
+                        Wij zijn transparant over hoe ons sociale netwerk werkt.
 
                     </p>
                     <p>
-                        Additionally, in partnership with FoundersPledge, we’ll be giving <strong>30% of our revenue towards making the world a
-                        better place.</strong> For example, education, climate-change prevention, mental-health and sanitisation.
-                        It’s about time tech-companies benefit everyone.
+                        Daarnaast doneren we, in samenwerking met FoundersPledge, <strong>30% van onze winst aan doelen die de wereld een stukje beter maken.</strong>
+                        Bijvoorbeeld voor educatie, geestelijke gezondheid, het bestrijden van klimaatverandering en
+                        sanitisatie. Het wordt tijd dat iedereen baat heeft bij techbedrijven.
 
                     </p>
                     <h3 id="personal">
-                        2. Personal.
+                        2. Persoonlijk.
                     </h3>
                     <p>
-                        We’re all different and that makes each of us unique and beautiful! We embrace this!
+                        We zijn allemaal anders, en dat maakt ons juist zo mooi! Wij steunen dit volledig.
                     </p>
                     <p>
-                        On Openbook you will not only be able to personalise your profile, but the entire network itself!
-                        From changing the color of your homepage to adding plugins, you can make it as unique as yourself.
-                    </p>
-                    <p>
-                        And if there’s anything you’re missing on Openbook, let us know. We want to build Openbook together.
-                        We will create a special group where we encourage you to help us decide what we build next or what we should improve.
-                        Let’s build the best social network ever!
+                        Op Openbook kun je niet alleen je eigen profiel personaliseren, maar het gehele netwerk.
+                        Van de kleur van je homepage tot het toevoegen van plugins, je kunt het zo uniek maken als jezelf.
 
+                    </p>
+                    <p>
+                        En mocht je iets missen op Openbook, laat het ons dan weten. We willen Openbook samen bouwen.
+                        We zullen een speciale groep maken waar we je aanmoedigen ons te helpen beslissen wat we kunnen
+                        maken of wat we zouden moeten verbeteren. Laten we het beste sociale netwerk ooit maken, samen!
                     </p>
                     <h3 id="privacyfriendly">
-                        3. Privacy-friendly and secure
+                        3. Privacy-vriendelijk en veilig
 
                     </h3>
                     <p>
-                        This is what drove us to build Openbook. The privacy and security of our users will always be at the core of
-                        everything we do. We don’t track anything you do, neither monetize your information nor share it without your
-                        explicit and informed consent.
+                        Dit is wat ons dreef Openbook te bouwen. De privacy en veiligheid van onze gebruikers zullen altijd de kern zijn
+                        van alles wat we doen. We zullen je nooit tracken, geen gebruikersinformatie verkopen en dit nooit delen
+                        zonder jouw expliciete en geïnformeerde toestemming.
                     </p>
                     <p>
-                        How does this translate to a real-life scenario?
+                        Hoe zit dit er uit?
                     </p>
-                    <h5>Example</h5>
+                    <h5>Voorbeld</h5>
                     <p>
-                        This is what data sharing normally looks like.
-                    </p>
-                    <p>
-                        Let’s say you want to connect to a public WiFi hotspot ,
-                        traditionally a window like the one below appears in your computer with the following:
+                        Stel je voor dat je verbinding wilt maken met een publieke Wi-Fi hotspot, waar je gewoonlijk een venster zoals hieronder op je computerscherm krijgt:
                     </p>
                     <p>
-                        The box below appears on your screen.
-                    </p>
-                    <p>
-                        <i>(Go ahead, click around as you would normally)</i>
+                        <i>(Toe maar, klik zoals je normaal gesproken zou doen)</i>
                     </p>
                     <ob-generic-data-sharing></ob-generic-data-sharing>
                     <p>
-                        Congrats! You just shared your personal information with a Wi-fi hotspot!
+                        Gefeliciteerd! Je hebt zojuist je persoonlijke informatie met een Wi-Fi netwerk gedeeld!
                     </p>
-                    <h5> Do you know what data you just shared with the application?</h5>
+                    <h5> Weet je ook welke data je precies hebt gedeeld?</h5>
                     <p>
-                        If you hovered over the “i” icon for example, you may have noticed it says:
-                    </p>
-                    <p>
-                        <i>"Your public profile includes name, profile picture, age range, gender, language, country <strong>and other public info.</strong>"</i>
+                        Als je bijvoorbeeld over het “i” icoontje gaat met je muis, heb je misschien gezien dat die het volgende zegt:
                     </p>
                     <p>
-                        What qualifies as <i>"other public info"?</i> And why would a WiFi hotspot want all this information from you?
-                        Will it serve you faster Wi-Fi based on your gender or your age? And what’s going to happen with your data once they have it?
+                        <i>“Je openbare profiel bevat je naam, profielfoto, leeftijd, geslacht, taal, nationaliteit <strong> en andere publieke informatie”
+                        </strong>"</i>
                     </p>
                     <p>
-                        People share more of their information that they’re initially aware of and once the data has been shared, there’s no going back.
+                        Wat wordt bedoeld met  <i> “andere publieke informatie”?</i> En waarom zou een Wi-Fi hotspot al deze informatie van jou willen?
+                        Zouden je ze snellere Wi-Fi geven gebaseerd op je geslacht of leeftijd? En wat gebeurd er met jouw data als zij dit hebben ontvangen?
                     </p>
                     <p>
-                        Here’s how we’re doing it:
+                        Mensen delen meer van hun informatie dan ze in eerste instantie door hebben, en zodra de data is gedeeld is er geen weg meer terug
                     </p>
                     <p>
-                        Let's say now you downloaded the awesome music app everyone has been recommending to you. As
-                        soon as you open the app, the box below shows up.
+                        Dit is hoe wij het doen:
                     </p>
                     <p>
-                        <i>(Go ahead, click around as you would normally)</i>
+                        <i>(Toe maar, klik zoals je normaal gesproken zou doen)
+                        </i>
                     </p>
                     <ob-openbook-data-sharing></ob-openbook-data-sharing>
                     <p>
-                        Did you spot the differences?
+                        Zie je de verschillen?
                     </p>
                     <p>
-                        Here are the most important ones.
+                        Dit zijn de belangrijkste:
                     </p>
-                    <h5 id="explicitconsent">Explicit and informed consent</h5>
+                    <h5 id="explicitconsent">Expliciete toestemming</h5>
                     <p>
-                        We make sure it's always crystal clear what is being shared, so no pop-ups or vague descriptions.
-                        You can also inspect it yourself, just to be sure.
+                        Wij zorgen dat het altijd kraakhelder is wat er wordt gedeeld, dus geen pop-ups of vage beschrijvingen.
+                        Je kan het ook zelf nog even nakijken, dan weet je het echt zeker.
                     </p>
-                    <h5 id="safeapps">Safe applications</h5>
+                    <h5 id="safeapps">Veilige applicaties</h5>
                     <p>
-                        All applications will be reviewed by us. We will make sure they:
+                        Alle applicaties zullen worden beoordeeld door ons. Wij zullen zorgen dat:
                     </p>
                     <ul>
                         <li>
-                            only request the <strong>needed</strong> information
+                            Ze alleen de <strong>benodigde</strong> informatie aanvragen
                         </li>
                         <li>
-                            have the <strong>exact</strong> location of your data available for you, <strong>at all times</strong>
+                            De <strong>exacte</strong> locatie van jouw data beschikbaar hebben, <strong>ten alle tijden</strong>
                         </li>
                         <li>
-                            delete <strong>all</strong> your information if you’d revoke the permission
+                            <strong>Al</strong> jouw informatie deleten als je de toestemming zou intrekken
                         </li>
                         <li>
-                            have an <strong>emergency plan</strong> in case of a data leak, and will <strong>notify us/you</strong>
-                            immediately if that were to happen
+                            Een <strong>noodplan</strong> klaar hebben in geval van een datalek, en <strong>ons/jou direct op de hoogte brengen</strong> mocht dit gebeuren
                         </li>
                     </ul>
                     <p>
-                        Once they meet these strict guidelines they will have a badge below their logo. On your personal dashboard you can pinpoint the exact locations of your shared data,
-                        revoke application’s access and best of all, request deletion.
+                        Wanneer zij al deze strikte richtlijnen volgen krijgen ze een badge onder hun logo.
+                        Op jouw persoonlijke dashboard kun je precies de locatie vaststellen van jouw gedeelde data, toestemming intrekken en verzoeken de data te verwijderen.
                     </p>
-                    <h5 id="privacydefault">Privacy by default</h5>
+                    <h5 id="privacydefault">Privacy als standaard</h5>
                     <p>
-                        All optional data sharing will be disabled by default, and it is up to you if you want to
-                        give that application more of your data instead of the other way around.
-                    </p>
-                    <p>
-                        We will continuously research and develop new ways to improve your privacy and security.
+                        Alle optionele data gegevens zullen standaard uitgeschakeld zijn, en het is aan jou of je die
+                        applicatie meer van jouw data wilt geven in plaats van andersom.
                     </p>
                     <p>
-                        Some examples of the technology we'll be researching and developing:
+                        We zullen daarbij continu onderzoek doen en nieuwe manieren ontwikkelen om jouw privacy en veiligheid te verbeteren
+                    </p>
+                    <p>
+                        Een paar voorbeelden van de technologie die we onderzoeken en ontwikkelen:
                     </p>
                     <ul>
                         <li>
-                            Cryptographically enforced data sharing policies
+                            Cryptografisch afgedwongen beleid voor het delen van gegevens
                         </li>
                         <li>
-                            End to end encrypted conversations on the browser
+                            End-to-end versleuteling, ook in de browser
                         </li>
                         <li>
-                            Public key cryptography on the browser
+                            Asymmetrische cryptografie in de browser.
                         </li>
                         <li>
-                            Post-quantum cryptography algorithms and protocols
+                            Post-quantum cryptografische algorithmen en protocollen.
                         </li>
                     </ul>
+                    <h3 id="easy">4. Makkelijk.</h3>
                     <p>
-                        <strong>Generally speaking, the less we know about you and the more you know about us, the better.</strong>
-                    </p>
-                    <h3 id="easy">4. Easy.</h3>
-                    <p>
-                        You’ve probably put a tremendous amount of time (and data) into your existing social networks already. We get that.
-                        We wouldn’t want you to lose any friends, cherishable memories or miss out on parties over this.
+                        Je hebt waarschijnlijk heel veel tijd (en data) gestopt in je bestaande sociale netwerken.
+                        Dat begrijpen we helemaal. We zouden niet willen dat je je vrienden, waardevolle herinneringen of feestjes zou moeten missen hierdoor.
                     </p>
                     <p>
-                        Migrating to Openbook will be easy-peasy, with our simple drag-and-drop system.
-                        Just download your data from your old social network<sup>1</sup> and transfer them to Openbook. Shazam!
+                        Migreren naar Openbook zal daarom heel gemakkelijk zijn, met ons simpele drag-and-drop systeem.
+                        Download je data vanuit je oude sociale netwerk<sup>1</sup> en verplaats het naar Openbook. BAM!
                     </p>
-                    <h3 id="fun">5. Fun.</h3>
-                    <p>Let’s not leave this one out! We’re bringing back social by giving interactions with your friends more meaning.
-                        Think about having levels of adoration and being able to show your enthusiasm more than once on a single post.
-                        And since we don’t track your data, you not only will be free of ads, but we won’t fill in what we think you’d want to see for yourself.
-                        No abracadabra-algorithms! Social networks have an incredible economic potential.
+                    <h3 id="fun">5. Leuk.</h3>
+                    <p>Laten we dit vooral niet weg laten! We’re bringing back social door interactie met je vrienden meer betekenis te geven.
+                        Denk bijvoorbeeld aan verschillende niveaus van adoratie en de mogelijkheid je enthousiasme meerdere keren te tonen op
+                        een bepaalde post. En omdat we jouw data niet tracken, zal je niet alleen nooit advertenties te zien krijgen,
+                        maar zullen we ook niet voor je invullen wat wij denken dat je wilt zien. Geen abracadabra-algoritmes!
                     </p>
                     <h3 id="revenue">
-                        6. Our revenue
+                        6. Onze omzet
                     </h3>
                     <p>
-                        Our business model is not and will never be advertisements.
+                        Ons bedrijfsmodel is geen reclame en zal dit ook nooit zijn.
                     </p>
                     <p>
-                        We will have a transparent revenue model based on a generic way for people to securely transact physical and digital goods and services inside the network.
-                        This will be done through an atomic digital unit of value. Although this initially reflected as a marketplace, our ambitions go way beyond that.
+                        We zullen een transparant verdienmodel hebben, gebaseerd op een generieke manier voor mensen om veilig fysieke
+                        en digitale goederen en diensten binnen het netwerk af te handelen. Dit zal door een atomaire digitale waarde-eenheid
+                        mogelijk worden gemaakt. Hoewel dit initieel als een marktplaats tot uiting komt, strekken onze ambities verder dan dat.
                     </p>
                     <p>
-                        Apart from this, we’re also planning to help enterprise customers setting up their own internal,
-                        self-hosted and secure social networks with extra functionality such as projects, identity and access management.
+                        Daarnaast willen we business klanten helpen hun eigen interne, zelf-gehoste en veilige social
+                        netwerk op te zetten, met extra functionaliteiten zoals projecten, identiteits- en toegangsbeheer.
                     </p>
                     <span class="is-size-7">
-                        [1] With the new GDPR regulation, social networks must allow it’s users to do so now.
+                        [1] Met de nieuwe AVG wetgeving zijn sociale netwerken dit verplicht tegenover hun gebruikers.
                     </span>
                 </div>
             </div>
@@ -361,12 +349,12 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                Still have questions?
+                                Vragen?
                             </h3>
                         </div>
                         <div class="column">
                             <router-link to="faq" class="button is-rainbow is-rounded is-medium">
-                                Visit our FAQ
+                                Bezoek onze veelgestelde vragen
                             </router-link>
                         </div>
                     </div>
