@@ -42,13 +42,13 @@ export const messages = {
             joel_quote: 'Openbook is niet alleen een evolutionaire stap voor sociale netwerken, het is ook een wereldwijd humanitair project.',
             vincent_name: 'Vincent Ruijter',
             vincent_title: 'Ethical Hacker',
-            vincent_quote: 'Met de huidige sociale netwerken, die elke dag steeds maar verder groeien, Kan Openbook weleens de enige en laatste kans zijn om iets anders, iets ethisch en iets beter te bouwen.',
+            vincent_quote: 'Met de huidige sociale netwerken, die elke dag steeds maar verder groeien, kan Openbook weleens de enige en laatste kans zijn om iets anders, iets ethisch en iets beter te bouwen.',
             phil_name: 'Jaya Baloo',
             phil_title: 'Informatie beveilgings expert',
             phil_quote: 'Openbook is een platform om goed te kunnen doen, een sociaal toevluchtsoord waar de gebruikersgemeenschap aangemoedigd wordt om hun data veilig te delen.'
         },
         splash_hero: {
-            hello_world: 'Hello <span id="hello-subject">world!</span>',
+            hello_world: 'Hallo <span id="hello-subject">wereld!</span>',
             world: 'wereld',
             friends: 'vrienden',
             family: 'familie',
@@ -56,7 +56,7 @@ export const messages = {
             reddit: 'reddit',
             we_are_ob: 'Wij zijn <strong>Open</strong>book.',
             kickstarter: 'Het open-source, privacy vriendelijke, leuke en eerlijke sociale\n' +
-            '    netwerk dat helpt de wereld beter te maken, <strong>vind ons op<span\n' +
+            '    netwerk dat helpt de wereld beter te maken, <strong>vind ons op <span\n' +
             '    style="color: #034752;">Kickstarter</span></strong>.',
             share: 'Deel',
             notify_me: 'Nu op Kickstarter'
@@ -73,6 +73,10 @@ export const messages = {
         },
         meet_the_team: {
             title: 'Ontmoet het team'
+        },
+        ads_free: {
+            title: '100% Ad free',
+            description: 'Ons verdienmodel zal niet, noch zal het ooit, gebasseerd zijn op advertenties. Geniet van advertentie-vrij surfen!'
         },
         header: {
             home: 'Startpagina',
@@ -144,10 +148,10 @@ export const messages = {
         },
         address: {
             name: 'Naam',
-            ob_organization: 'De Openbook Organisatie',
+            ob_organization: 'Openbook',
             address: 'Adres',
             ob_address: 'Bagijnestraat 25, 2511CK, Den Haag , Nederland',
-            telephone: 'Te;efoon',
+            telephone: 'Telefoon',
             telephone_no: '(+31) 611 60 4275',
             email: 'Email',
             website: 'Website'

@@ -57,7 +57,7 @@
             <div class="hero-footer">
                 <div class="box is-shadowless">
                     <p class="has-text-centered">
-                        <span class="tag is-rainbow">Reading time</span> &nbsp;&nbsp; 6 minutes
+                        <span class="tag is-rainbow">Leestijd</span> &nbsp;&nbsp; 6 minutes
                     </p>
                 </div>
             </div>
@@ -66,7 +66,7 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <div class="has-text-centered">
-                        <h2 class="title is-3 is-spaced is-margin-top-small">Table of contents</h2>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">Inhoudsopgave</h2>
                     </div>
                     <br/>
                     <ul>
@@ -156,10 +156,10 @@
                         mogelijk geld verdienen door hun gebruikers. Ongeacht de consequenties, zoals het verlies van privacy.
                     </p>
                     <p>
-                        Wij willen dit beter doen, en daarom doen we het bij Openbook anders.
+                        Wij willen dit beter doen en daarom doen we het bij Openbook anders.
                     </p>
                     <p>
-                        Openbook heeft precies de dingen die je van een social network zou verwachten: chats, posts, groepen en evenementen om er een paar te noemen.
+                        Openbook heeft precies de dingen die je van een sociaal netwerk zou verwachten: chats, posts, groepen en evenementen om er een paar te noemen.
                         Daarnaast is het <strong class="has-text-primary">eerlijk, persoonlijk, privacy-vriendelijk, veilig en leuk ;-)</strong>.
                     </p>
                 </div>
@@ -204,7 +204,7 @@
                         maken of wat we zouden moeten verbeteren. Laten we het beste sociale netwerk ooit maken, samen!
                     </p>
                     <h3 id="privacyfriendly">
-                        3. Privacy-vriendelijk en veilig
+                        3. Privacy-vriendelijk en veilig.
 
                     </h3>
                     <p>
@@ -215,7 +215,7 @@
                     <p>
                         Hoe zit dit er uit?
                     </p>
-                    <h5>Voorbeld</h5>
+                    <h5>Voorbeeld</h5>
                     <p>
                         Stel je voor dat je verbinding wilt maken met een publieke Wi-Fi hotspot, waar je gewoonlijk een venster zoals hieronder op je computerscherm krijgt:
                     </p>
