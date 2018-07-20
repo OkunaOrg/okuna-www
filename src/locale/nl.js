@@ -214,10 +214,10 @@ export const messages = {
             why_not_non_profit: 'Waarom is Openbook geen non-profit?',
             why_not_non_profit_ans: 'Openbook een bedrijf met winstoogmerk maken was een moeilijke keuze.',
             check_all_boxes: 'Wij vinken alle kruisje van een non-profit aan, en we houden van non-profitorganisaties. We houden van Wikipedia, de Ghost Foundation, Founders Pledge, Mozilla en nog veel meer.',
-            same_struggle: 'We zien echter dezelfde strijd steeds weer herhaald worden. Deze bedrijven hebben moeite om te groeien buiten hun winstgevendheid. Deze bedrijven hebben moeite om te groeien naar de omvang en middelen die nodig zijn om te concurreren met winstgevende bedrijven.',
+            same_struggle: 'We zien echter dezelfde strijd zich steeds weer herhalen. Deze bedrijven hebben moeite om te groeien zonder winstgevendheid. Deze bedrijven hebben moeite om te groeien naar de omvang en middelen die nodig zijn om te concurreren met winstgevende bedrijven.',
             need_money: 'Als we exponentieel willen groeien, moeten we in staat zijn om de grote hoeveelheden geld te verzamelen die nodig zijn om dit te doen.',
             hence_for_profit: 'Daarom zijn we officieel een bedrijf met winstoogmerk.',
-            humanitarian: 'Maar onthoud dat wanneer wij dit doen, wij ervoor zullen zorgen dat de mensen die investeren in het bedrijf, mensen zijn met echte interesse in ons platform en onze kernwaarden: privacy, veiligheid, vrijheid, openheid en de humanitaire aard.',
+            humanitarian: 'Maar onthoud dat wanneer wij dit doen, wij ervoor zullen zorgen dat de mensen die investeren in het bedrijf, mensen zijn met echte interesse in ons platform en onze kernwaarden: privacy, veiligheid, vrijheid, openheid en het ondersteunen van goede doelen.',
             want_to_help: 'Ik wil nu helpen, wat kan ik doen?',
             want_to_help_ans: 'We zijn blij en dankbaar dat je wilt helpen!',
             many_ways: 'Er zijn veel manieren waarop je nu kunt helpen.',
@@ -248,13 +248,13 @@ export const messages = {
             '\n' +
             '                    <p>Het is een enorme uitdaging op zich om een systeem te ontwikkelen dat al deze problemen aanpakt. Het kan jaren van onderzoek en ontwikkeling duren.</p>\n' +
             '\n' +
-            '                        <p>De softwarereuzen groeien in een ongelooflijk tempo en verpletteren of kopen elk teken van competitie.\n' +
+            '                        <p>De softwarereuzen groeien in een ongelooflijk tempo en verpletteren of kopen elk mogelijk concurrerend competent idee op.\n' +
             '                            Initiatieven voor decentralisatie van sociale media maken, in alle eerlijkheid, geen schijn van kans. </p>\n' +
             '\n' +
             '                    <p>Terwijl ze zich richten op het bouwen van revolutionaire technologieën en manieren om de\n' +
-            '                        problemen met het decentralisatiesysteem, de echte gebruikers van dergelijke systemen (mensen met een niet-technische achtergrond) zorgen weinig\n' +
-            '                        voor dat aspect van het product. Ze geven om de ervaring, de functies, het gebruiksgemak,\n' +
-            '                        het ontwerp. Zodra deze initiatieven de uitdagingen voor decentralisatie oplossen, zullen ze duizenden lichtjaren\n' +
+            '                        problemen met het decentralisatiesysteem op te lossen, maken echte gebruikers van dergelijke systemen (mensen met een niet-technische achtergrond) zich weinig weinig\n' +
+            '                        om dat aspect van het product. Ze geven om de ervaring, de functies, het gebruiksgemak en \n' +
+            '                        het ontwerp. Zodra deze initiatieven de uitdagingen voor decentralisatie oplossen, zullen ze vele lichtjaren\n' +
             '                        verwijderd zijn van de functies die softwarereuzen dan zullen hebben. Het zou allemaal voor niets zijn geweest.</p>\n' +
             '\n' +
             '                    <p>We pakken het probleem net andersom aan. We zullen bestaande technologieën gebruiken om niet alleen een product te bouwen ' +
@@ -281,7 +281,7 @@ export const messages = {
             newsroom: 'Redactiekamer',
             people: 'Mensen',
             logos: 'Logos',
-            includes_everything: 'Bevat persberichten, het manifest, biografieën, foto\'s, vector logo\'s, overige afbeeldingen foto\' website.',
+            includes_everything: 'Bevat persberichten, het manifest, biografieën, foto\'s, vector logo\'s, screenshots van de website en overige afbeeldingen.',
             home_press: 'Pagina van onze pers berichten.',
             go_to_newsroom: 'Ga naar de redactiekamer',
             missing_something: 'Mist er iets? Neem contact op met <a\n' +

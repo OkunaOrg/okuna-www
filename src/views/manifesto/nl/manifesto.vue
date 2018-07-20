@@ -57,7 +57,7 @@
             <div class="hero-footer">
                 <div class="box is-shadowless">
                     <p class="has-text-centered">
-                        <span class="tag is-rainbow">Leestijd</span> &nbsp;&nbsp; 6 minutes
+                        <span class="tag is-rainbow">Leestijd</span> &nbsp;&nbsp; 6 minuten
                     </p>
                 </div>
             </div>

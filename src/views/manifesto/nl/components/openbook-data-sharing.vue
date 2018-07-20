@@ -46,10 +46,10 @@
                             <div class="section-separator"></div>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            <span>Om verder te gaan heeft<strong>Songipy</strong> het volgende nodig</span>
+                            <span>Om verder te gaan heeft <strong>Songipy</strong> het volgende nodig</span>
                             <span v-for="(dataItem, index) of requiredSharedData">
                                 <span v-if="index === (requiredSharedData.length - 1)">
-                                    and
+                                    en
                                 </span>
                                 <span>
                                     {{dataItem.readableName}}
@@ -119,7 +119,7 @@
                                     <div class="content is-small">
                                         <p v-for="dataItem of sharedData">
                                             <strong>
-                                                {{ dataItem.name }}:
+                                                {{ dataItem.readableName }}:
                                             </strong>
                                             <span v-if="dataItem.type === 'text'">
                                                 {{dataItem.value}}
@@ -169,7 +169,7 @@
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <span>Back</span>
+                                        <span>Ga terug</span>
                                     </button>
                                 </div>
                             </div>
@@ -180,7 +180,7 @@
                                     <div class="column is-10">
                                         <div class="is-size-6" @click="wantsToToggleItem(dataItem)">
                                             <strong>{{dataItem.readableName}}</strong>
-                                            <span v-if="dataItem.required">(required)</span>
+                                            <span v-if="dataItem.required">(verplicht)</span>
                                         </div>
                                         <div class="is-size-7">
                                          <span v-if="dataItem.type === 'text'">
@@ -195,7 +195,7 @@
                                             <a v-else-if="dataItem.type === 'image'" :href="dataItem.value"
                                                target="_blank" rel="noopener noreferrer">
                                                 <span>
-                                                    Open image ↗
+                                                    Open foto ↗
                                                 </span>
                                             </a>
                                         </div>
@@ -293,31 +293,31 @@
                 inspectDataOpen: false,
                 availableData: [
                     {
-                        readableName: 'name',
+                        readableName: 'naam',
                         name: 'name',
                         type: 'text',
-                        value: 'Jules Winnfield',
+                        value: 'Lee Towjers',
                         required: true,
                         enabled: true
                     },
                     {
-                        readableName: 'email address',
+                        readableName: 'e-mailadres',
                         name: 'email',
                         type: 'text',
-                        value: 'badmf@pfiction.com',
+                        value: 'lee@ttww.com',
                         required: true,
                         enabled: true
                     },
                     {
-                        readableName: 'profile picture',
+                        readableName: 'profielfoto',
                         name: 'profile_picture',
                         type: 'image',
-                        value: 'https://vignette.wikia.nocookie.net/pulpfiction/images/b/b6/Jules.jpg/revision/latest?cb=20090501131406',
+                        value: 'https://upload.wikimedia.org/wikipedia/commons/5/53/Lee_Towers_%282017%29.jpg',
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'age range',
+                        readableName: 'leeftijdscategorie',
                         name: 'age_range',
                         type: 'text',
                         value: '35-40',
@@ -325,31 +325,31 @@
                         enabled: false
                     },
                     {
-                        readableName: 'gender',
+                        readableName: 'geslacht',
                         name: 'gender',
                         type: 'text',
-                        value: 'male',
+                        value: 'man',
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'language',
+                        readableName: 'taal',
                         name: 'language',
                         type: 'text',
-                        value: 'en_US',
+                        value: 'nl_NL',
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'country of birth',
+                        readableName: 'geboorteland',
                         name: 'birthplace_country',
                         type: 'text',
-                        value: 'US',
+                        value: 'NL',
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'friends',
+                        readableName: 'vrienden',
                         name: 'friends_list',
                         type: 'list',
                         value: [],
@@ -357,7 +357,7 @@
                         enabled: false
                     },
                     {
-                        readableName: 'birthday',
+                        readableName: 'geboortedatum',
                         name: 'birthday',
                         type: 'text',
                         value: '25-3-1997',
@@ -365,7 +365,7 @@
                         enabled: false
                     },
                     {
-                        readableName: 'likes',
+                        readableName: 'vind-ik-leuks',
                         name: 'user_likes',
                         type: 'list',
                         value: [],
