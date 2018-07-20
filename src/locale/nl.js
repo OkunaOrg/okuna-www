@@ -48,7 +48,7 @@ export const messages = {
             phil_quote: 'Openbook is een platform om goed te kunnen doen, een sociaal toevluchtsoord waar de gebruikersgemeenschap aangemoedigd wordt om hun data veilig te delen.'
         },
         splash_hero: {
-            hello_world: 'Hallo <span id="hello-subject">wereld!</span>',
+            hello_world: 'Hoi <span id="hello-subject">wereld!</span>',
             world: 'wereld',
             friends: 'vrienden',
             family: 'familie',
@@ -59,7 +59,7 @@ export const messages = {
             '    netwerk dat helpt de wereld beter te maken, <strong>vind ons op <span\n' +
             '    style="color: #034752;">Kickstarter</span></strong>.',
             share: 'Deel',
-            notify_me: 'Nu op Kickstarter'
+            notify_me: 'Steun ons op Kickstarter'
         },
         count_down: {
             kickstarter: 'Kickstarter',
@@ -97,7 +97,7 @@ export const messages = {
             linked_in: 'LinkedIn',
             product_hunt: 'Product Hunt',
             facebook: 'Facebook',
-            the_ob_organization: 'De Openbook Organisatie',
+            the_ob_organization: 'Openbook',
             privacy_policy: 'Privacy beleid',
             made_with: 'Gemaakt met',
             in_europe: 'in Europa'
@@ -107,11 +107,9 @@ export const messages = {
             subtitle: 'We willen een platform maken dat gebruikt wordt om <span class="has-text-primary">goed</span> te doen.',
             description: '<span class="has-text-primary"><strong\n' +
             '                                class="has-text-primary">Open</strong>book</span> ' +
-            'is een veilig en open-source sociaal netwerk, zonder tracking en advertenties ' +
-            'dat 30% van zijn omzet doneert om de wereld een betere plek te maken, nu en voor altijd.',
-            description_founded: 'Opgericht in april 2018, in de internationale stad van vrede en rechtvaardigheid: Den Haag. Openbook is een project om het goed te maken.',
-            description_project: 'Een project dat sociale netwerken opnieuw zal definiëren, een project om opnieuw te kijken naar het "vrije" internet, een project om het internet transparanter te maken, een project om onze privacy terug te winnen.',
-            description_better_world: '<strong>Openbook is een project om de wereld een betere plek te maken</strong>.',
+            'is een nieuw, privacy-vriendelijk, open source en geweldig sociaal netwerk dat 30% van zijn winst investeert in goede doelen om de wereld een betere plek te maken, nu en altijd.',
+            description_founded: 'Opgericht in April 2018 in de internationale stad van vrede en gerechtigheid, Den Haag, is Openboek een project om een beter sociaal netwerk te bouwen.',
+            description_project: 'Een sociaal netwerk dat eerlijk is en zijn gebruikers en hun privacy respecteert, mensen samenbrengt, dat leuk is om te gebruiken en goed is voor de planeet.',
             accomplish_how: 'Hoe krijgen wij dit voor elkaar?',
             read_our_manifesto: 'Lees on manifest',
             humans_behind_ob: 'De mensen achter <strong>Open</strong>book',

@@ -62,7 +62,7 @@ export const messages = {
             kickstarter: 'The open source, privacy-friendly, fun and honest social\n' +
             '    network helping make the world a better place.',
             share: 'Share',
-            notify_me: 'Now on Kickstarter'
+            notify_me: 'Support us on Kickstarter'
         },
         why_ob: {
             title: 'Why Openbook?',

@@ -201,7 +201,7 @@
                     <p>
                         En mocht je iets missen op Openbook, laat het ons dan weten. We willen Openbook samen bouwen.
                         We zullen een speciale groep maken waar we je aanmoedigen ons te helpen beslissen wat we kunnen
-                        maken of wat we zouden moeten verbeteren. Laten we het beste sociale netwerk ooit maken, samen!
+                        maken of wat we zouden moeten verbeteren. Laten we, samen, het beste sociale netwerk ooit maken!
                     </p>
                     <h3 id="privacyfriendly">
                         3. Privacy-vriendelijk en veilig.
@@ -220,7 +220,7 @@
                         Stel je voor dat je verbinding wilt maken met een publieke Wi-Fi hotspot, waar je gewoonlijk een venster zoals hieronder op je computerscherm krijgt:
                     </p>
                     <p>
-                        <i>(Toe maar, klik zoals je normaal gesproken zou doen)</i>
+                        <i>(Doe maar, klik zoals je normaal gesproken zou doen)</i>
                     </p>
                     <ob-generic-data-sharing></ob-generic-data-sharing>
                     <p>
