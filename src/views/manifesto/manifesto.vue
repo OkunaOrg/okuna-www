@@ -1,18 +1,21 @@
 <template>
     <div>
         <ob-es-manifesto v-if="locale==='es'"></ob-es-manifesto>
-        <ob-en-manifesto v-else="locale==='en'"></ob-en-manifesto>
+        <ob-en-manifesto v-if="locale==='en'"></ob-en-manifesto>
+        <ob-nl-manifesto v-else="locale==='nl'"></ob-nl-manifesto>
     </div>
 </template>
 
 <script>
     import ObEsManifesto from "./es/manifesto";
     import ObEnManifesto from "./en/manifesto";
+    import ObNlManifesto from "./nl/manifesto";
 
     export default {
         components: {
             ObEnManifesto,
-            ObEsManifesto
+            ObEsManifesto,
+            ObNlManifesto
         },
         watch: {
             '$route.params.locale': function (locale) {

@@ -15,7 +15,7 @@
                         <div class="column is-12 has-text-centered">
                             <button class="button is-generic-social-media" @click="goToStep2()">
                                 <span class="icon"><i
-                                    class="fas fa-anchor"></i></span><span>Continue with EvilCorp</span>
+                                    class="fas fa-anchor"></i></span><span>Ga verder met EvilCorp</span>
                             </button>
                         </div>
                     </div>
@@ -29,9 +29,9 @@
                         </div>
                         <div class="column is-12 has-text-centered">
                             <div>
-                                <strong>WiFi Hotspots App</strong> will receive:
+                                <strong>WiFi Hotspots-app</strong> ontvangt:
                             </div>
-                            <span> your </span>
+                            <span> je </span>
                             <span v-for="(dataItem, index) of sharedData" v-if="sharedData.length > 1">
                                 <span v-if="index === (sharedData.length - 1)">
                                     and
@@ -57,18 +57,18 @@
                                     <i class="fas fa-pencil-alt"></i>
                                 </span>
                                 <span>
-                                    Edit this
+                                    Wijzig
                                 </span>
                             </a>
                         </div>
                         <div class="column is-12 has-text-centered">
                             <button class="button is-generic-social-media is-medium" @click="goToStep4()">
-                                Continue
+                                Volgende
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
                             <a class="is-medium info-icon" @click="goToStep1()">
-                                Cancel
+                                Verwijderen
                             </a>
                         </div>
                     </div>
@@ -82,7 +82,7 @@
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <span>Back</span>
+                                        <span>Ga Terug</span>
                                     </button>
                                 </div>
                             </div>
@@ -171,34 +171,28 @@
                 publicProfileShared: true,
                 availableData: [
                     {
-                        name: 'public profile',
+                        name: 'openbare profiel',
                         required: true,
                         enabled: true,
-                        description: 'John Doe, profile picture, 33+ years old, male and other public info'
+                        description: 'Vincent Kuijpers, profielfoto, 33+ jaar oud, man en andere openbare informatie'
                     },
                     {
-                        name: 'friend list',
+                        name: 'vriendenlijst',
                         required: false,
                         enabled: true,
-                        description: 'Mike Chowder, Barbara Lamb and 590 others.'
+                        description: 'Jaap Mooij, Martijn Potsma en 590 anderen.'
                     },
                     {
-                        name: 'birthday',
+                        name: 'verjaardag',
                         required: false,
                         enabled: true,
-                        description: 'January, 12, 1990'
+                        description: 'Januari, 12, 1990'
                     },
                     {
-                        name: 'likes',
+                        name: 'e-mailadres',
                         required: false,
                         enabled: true,
-                        description: 'The Daily Show, NBC and 978 others'
-                    },
-                    {
-                        name: 'email address',
-                        required: false,
-                        enabled: true,
-                        description: 'john@doe.com',
+                        description: 'vincent@kuijpers.com',
                     },
                 ]
             }

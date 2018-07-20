@@ -28,7 +28,7 @@
                         </div>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'en' }" v-on:click="changeLocale('en')">English <i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'es' }" v-on:click="changeLocale('es')">Español <i class="fas fa-check"></i></b-dropdown-item>
-                        <!--<b-dropdown-item v-bind:class="{ active: $i18n.locale === 'nl' }" v-on:click="changeLocale('nl')">Nederlands <i class="fas fa-check"></i></b-dropdown-item>-->
+                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'nl' }" v-on:click="changeLocale('nl')">Nederlands <i class="fas fa-check"></i></b-dropdown-item>
                     </b-dropdown>
                 </div>
             </div>
