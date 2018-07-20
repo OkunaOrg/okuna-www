@@ -262,7 +262,7 @@
                     </p>
                     <h5 id="safeapps">Veilige applicaties</h5>
                     <p>
-                        Alle applicaties zullen worden beoordeeld door ons. Wij zullen zorgen dat:
+                        Alle applicaties zullen worden beoordeeld door ons. Wij zullen zorgen dat de applicaties:
                     </p>
                     <ul>
                         <li>

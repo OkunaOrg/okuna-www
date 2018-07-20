@@ -231,7 +231,8 @@ export const messages = {
             contact_us_2: 'Neem contact met ons op',
             more_questions: 'Nog een vraag?',
             send_us_message: 'Stuur ons een bericht',
-            why_not_decentralised: 'Waarom is Openbook niet gedecentralizeerd?',
+            is_distributed: 'Waarom is Openbook niet gedecentraliseerd?',
+            why_not_decentralised: 'Waarom is Openbook niet gedecentraliseerd?',
             why_not_decentralised_ans: '<p>\n' +
             '                        Gedecentraliseerde systemen zijn ongelooflijk gecompliceerd. Bijvoorbeeld het uitrollen van updates (beveiligingsupdates / verbeteringen inbegrepen), \n' +
             '                        compatibiliteit met meerdere versies behouden (bijvoorbeeld bij het uitrollen van een functie die niet achterwaarts compatibel is) \n' +
