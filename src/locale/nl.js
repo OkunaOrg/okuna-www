@@ -123,7 +123,7 @@ export const messages = {
             joel_title: 'Oprichter, Algemeen Directeur',
             joel_desc: 'Privacy en security activist, software engineer, digital product designer, open sourcerer, The Next Web Top 500 jong talent, mens.',
             jaya_title: 'Operationeel Directeur',
-            jaya_desc: 'Wereld beroemde informatie veiligheids expert, spreekt over onrechtmatig aftappen, quantum-computing, counter surveillance en cryptografie.',
+            jaya_desc: 'Wereld beroemde informatie veiligheids expert, spreekt over rechtmatig aftappen, quantum-computing, counter surveillance en cryptografie.',
             phil_title: 'Directeur Cryptografie',
             phil_desc: 'Cryptografie pionier, maker van PGP, de meest gebruikte e-mail encryptie software ter wereld, internet hall of fame lid, privacy activist.',
             lambrecht_title: 'Directeur Marketing',
@@ -192,6 +192,14 @@ export const messages = {
             look_forward : 'We kijken ernaar uit om je te ontmoeten!',
             colleagues: 'Met wie ga je samenwerken?',
             meet_the_team: 'Ontmoet het team.'
+        },
+        ambassadors: {
+            isaac_name: 'Isaac Hernández',
+            isaac_desc: 'Artiest, sociaal entrepreneur.',
+            ruben_name: 'Ruben Van Vreeland',
+            ruben_desc: 'CEO & Co-Founder of BitSensor, cyber-security software.',
+            edwin_name: 'Edwin van Andel',
+            edwin_desc: 'CEO at Zerocopter, internationale spreker, ervaren, security expert.\n',
         },
         faq: {
             title: 'FAQ',
