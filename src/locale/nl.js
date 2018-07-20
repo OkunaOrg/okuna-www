@@ -56,8 +56,7 @@ export const messages = {
             reddit: 'reddit',
             we_are_ob: 'Wij zijn <strong>Open</strong>book.',
             kickstarter: 'Het open-source, privacy vriendelijke, leuke en eerlijke sociale\n' +
-            '    netwerk dat helpt de wereld beter te maken, <strong>vind ons op <span\n' +
-            '    style="color: #034752;">Kickstarter</span></strong>.',
+            '    netwerk dat helpt de wereld beter te maken.',
             share: 'Deel',
             notify_me: 'Steun ons op Kickstarter'
         },
@@ -111,7 +110,7 @@ export const messages = {
             description_founded: 'Opgericht in April 2018 in de internationale stad van vrede en gerechtigheid, Den Haag, is Openboek een project om een beter sociaal netwerk te bouwen.',
             description_project: 'Een sociaal netwerk dat eerlijk is en zijn gebruikers en hun privacy respecteert, mensen samenbrengt, dat leuk is om te gebruiken en goed is voor de planeet.',
             accomplish_how: 'Hoe krijgen wij dit voor elkaar?',
-            read_our_manifesto: 'Lees on manifest',
+            read_our_manifesto: 'Lees ons manifest',
             humans_behind_ob: 'De mensen achter <strong>Open</strong>book',
             work_with_us: 'Wil jij bij ons werken?',
             visit_jobs_page: 'Bezoek onze vacature pagina',
@@ -124,11 +123,11 @@ export const messages = {
             joel_title: 'Oprichter, Algemeen Directeur',
             joel_desc: 'Privacy en security activist, software engineer, digital product designer, open sourcerer, The Next Web Top 500 jong talent, mens.',
             jaya_title: 'Operationeel Directeur',
-            jaya_desc: 'Wereld beroemde informatie veiligheids expert, spreekt over rechtmatig aftappen, quantum-computing, counter surveillance en cryptografie.',
+            jaya_desc: 'Wereld beroemde informatie veiligheids expert, spreekt over onrechtmatig aftappen, quantum-computing, counter surveillance en cryptografie.',
             phil_title: 'Directeur Cryptografie',
             phil_desc: 'Cryptografie pionier, maker van PGP, de meest gebruikte e-mail encryptie software ter wereld, internet hall of fame lid, privacy activist.',
             lambrecht_title: 'Directeur Marketing',
-            lambrecht_desc: 'Expert in beveiliging en internationale betrekkingen, conflictanalist, vredesopbouwer, media-onderzoeker en producent, mensenrechtenactivist.',
+            lambrecht_desc: 'Expert in veiligheid en internationale betrekkingen, conflictanalist, vredesopbouwer, media producent en mensenrechtenactivist.',
             vincent_title: 'Security Engineer',
             vincent_desc: 'Ethisch hacker, reverse-engineer, exploit-ontwikkelaar, spreker, houdt niet van het woord cyber, cyber-expert.',
             bas_title:  'UI/UX Ethisch Ontwerper',
