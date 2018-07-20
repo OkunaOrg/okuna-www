@@ -231,11 +231,11 @@
                         Als je bijvoorbeeld over het “i” icoontje gaat met je muis, heb je misschien gezien dat die het volgende zegt:
                     </p>
                     <p>
-                        <i>“Je openbare profiel bevat je naam, profielfoto, leeftijd, geslacht, taal, nationaliteit <strong> en andere publieke informatie”
+                        <i>“Je openbare profiel bevat je naam, profielfoto, leeftijd, geslacht, taal, nationaliteit <strong> en andere publieke informatie
                         </strong>"</i>
                     </p>
                     <p>
-                        Wat wordt bedoeld met  <i> “andere publieke informatie”?</i> En waarom zou een Wi-Fi hotspot al deze informatie van jou willen?
+                        Wat wordt bedoeld met  <i> “andere publieke informatie”</i>? En waarom zou een Wi-Fi hotspot al deze informatie van jou willen?
                         Zouden je ze snellere Wi-Fi geven gebaseerd op je geslacht of leeftijd? En wat gebeurd er met jouw data als zij dit hebben ontvangen?
                     </p>
                     <p>
@@ -266,7 +266,7 @@
                     </p>
                     <ul>
                         <li>
-                            Ze alleen de <strong>benodigde</strong> informatie aanvragen
+                            De applicaties alleen de <strong>benodigde</strong> informatie aanvragen
                         </li>
                         <li>
                             De <strong>exacte</strong> locatie van jouw data beschikbaar hebben, <strong>ten alle tijden</strong>
@@ -279,7 +279,7 @@
                         </li>
                     </ul>
                     <p>
-                        Wanneer zij al deze strikte richtlijnen volgen krijgen ze een badge onder hun logo.
+                        Wanneer deze applicaties al deze strikte richtlijnen volgen krijgen ze een badge onder hun logo.
                         Op jouw persoonlijke dashboard kun je precies de locatie vaststellen van jouw gedeelde data, toestemming intrekken en verzoeken de data te verwijderen.
                     </p>
                     <h5 id="privacydefault">Privacy als standaard</h5>
@@ -288,7 +288,7 @@
                         applicatie meer van jouw data wilt geven in plaats van andersom.
                     </p>
                     <p>
-                        We zullen daarbij continu onderzoek doen en nieuwe manieren ontwikkelen om jouw privacy en veiligheid te verbeteren
+                        We zullen daarbij continu onderzoek doen en nieuwe manieren ontwikkelen om jouw privacy en veiligheid te verbeteren.
                     </p>
                     <p>
                         Een paar voorbeelden van de technologie die we onderzoeken en ontwikkelen:
@@ -301,10 +301,10 @@
                             End-to-end versleuteling, ook in de browser
                         </li>
                         <li>
-                            Asymmetrische cryptografie in de browser.
+                            Asymmetrische cryptografie in de browser
                         </li>
                         <li>
-                            Post-quantum cryptografische algorithmen en protocollen.
+                            Post-quantum cryptografische algorithmen en protocollen
                         </li>
                     </ul>
                     <h3 id="easy">4. Makkelijk.</h3>
@@ -320,7 +320,7 @@
                     <p>Laten we dit vooral niet weg laten! We’re bringing back social door interactie met je vrienden meer betekenis te geven.
                         Denk bijvoorbeeld aan verschillende niveaus van adoratie en de mogelijkheid je enthousiasme meerdere keren te tonen op
                         een bepaalde post. En omdat we jouw data niet tracken, zal je niet alleen nooit advertenties te zien krijgen,
-                        maar zullen we ook niet voor je invullen wat wij denken dat je wilt zien. Geen abracadabra-algoritmes!
+                        maar zullen we ook niet voor je invullen wat wij denken dat je wilt zien. Geen abracadabra-algoritmen!
                     </p>
                     <h3 id="revenue">
                         6. Onze omzet
