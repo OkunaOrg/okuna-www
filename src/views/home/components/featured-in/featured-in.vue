@@ -122,6 +122,15 @@
                     </figure>
                 </a>
             </div>
+            <div class="column">
+                <a href="https://www.pcprofessionale.it/news/openbook-nuova-alternativa-free-facebook/?cookie-policy-accepted"
+                   class="featured-in__logo-wrapper"
+                   target="_blank" rel="noopener noreferrer">
+                    <figure class="image featured-in-img">
+                        <img class="is-grayscale" src="./assets/pc-professionale-logo.png">
+                    </figure>
+                </a>
+            </div>
         </div>
     </div>
 </template>
