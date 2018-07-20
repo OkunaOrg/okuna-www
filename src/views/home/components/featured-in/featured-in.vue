@@ -44,7 +44,7 @@
                    class="featured-in__logo-wrapper"
                    target="_blank" rel="noopener noreferrer">
                     <figure class="image featured-in-img">
-                        <img class="is-grayscale" src="./assets/neowin-logo.png">
+                        <img class="is-grayscale" src="./assets/neowin.png">
                     </figure>
                 </a>
             </div>
@@ -85,6 +85,44 @@
                 </a>
             </div>
         </div>
+        <div class="columns is-centered featured-in featured-in__small">
+            <div class="column">
+                <a href="http://hu.ign.com/openbook/39910/news/reklammentes-konkurenciat-kaphat-a-facebook"
+                   class="featured-in__logo-wrapper"
+                   target="_blank" rel="noopener noreferrer">
+                    <figure class="image featured-in-img">
+                        <img class="is-grayscale" src="./assets/ign-logo.png">
+                    </figure>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://siliconcanals.nl/news/dutch-startup-launches-facebook-rival-openbook-5-ways-it-can-be-a-big-threat/"
+                   class="featured-in__logo-wrapper"
+                   target="_blank" rel="noopener noreferrer">
+                    <figure class="image">
+                        <img class="is-grayscale" src="./assets/silicon.png">
+                    </figure>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://tweakers.net/nieuws/141045/facebook-alternatief-openbook-richt-zich-op-beschermen-privacy-zonder-tracking.html"
+                   class="featured-in__logo-wrapper"
+                   target="_blank" rel="noopener noreferrer">
+                    <figure class="image featured-in-img">
+                        <img class="is-grayscale" src="./assets/tweakers-logo.png">
+                    </figure>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://www.theinquirer.net/inquirer/news/3035956/openbook-is-like-facebook-but-without-all-the-digital-stealing"
+                   class="featured-in__logo-wrapper"
+                   target="_blank" rel="noopener noreferrer">
+                    <figure class="image featured-in-img">
+                        <img class="is-grayscale" src="./assets/inquirer-logo.png">
+                    </figure>
+                </a>
+            </div>
+        </div>
     </div>
 </template>
 
@@ -105,6 +143,12 @@
 
             &:hover {
                 filter: none;
+            }
+        }
+
+        &__small {
+            .image {
+                max-width: 10em;
             }
         }
     }
