@@ -1,0 +1,146 @@
+{
+    "Manifesto": "Manifesto",
+    "The_proble": "The problem, the solution, the next steps.",
+    "Reading_ti": "Reading time",
+    "Table_of_c": "Table of contents",
+    "Why?": "Why?",
+    "How?": "How?",
+    "1._Honest.": "1. Honest.",
+    "2._Persona": "2. Personal.",
+    "3._Privacy": "3. Privacy-friendly and secure",
+    "Explicit_a": "Explicit and informed consent",
+    "Safe_Appli": "Safe Applications",
+    "Privacy_by": "Privacy by default",
+    "4._Easy.": "4. Easy.",
+    "5._Fun.": "5. Fun.",
+    "6._Our_Rev": "6. Our Revenue.",
+    "The_reason": "The reason we're building yet another social network.",
+    "Social_net": "Social networks are awesome.",
+    "They_conne":
+        "They connect us, help us share treasured moments with our loved ones and provide us with funny cat videos.",
+    "Sadly,_now":
+        "Sadly, nowadays social networks aren’t so much about connecting people, instead they are all about making as much money as possible out of people, no matter the consequences. For example the loss of privacy.",
+    "We_want_to":
+        "We want to do better, which is exactly why at Openbook we’re doing things differently.",
+    "honest,_pe": "honest, personal, privacy-friendly, secure and fun ;-)",
+    "How_will_w": "How will we create a tool for good?",
+    "open-sourc": "open-source.",
+    "30%_of_our": "30% of our revenue towards making the world a better place.",
+    "We’re_all_":
+        "We’re all different and that makes each of us unique and beautiful! We embrace this!",
+    "On_Openboo":
+        "On Openbook you will not only be able to personalise your profile, but the entire network itself! From changing the color of your homepage to adding plugins, you can make it as unique as yourself.",
+    "And_if_the":
+        "And if there’s anything you’re missing on Openbook, let us know. We want to build Openbook together. We will create a special group where we encourage you to help us decide what we build next or what we should improve. Let’s build the best social network ever!",
+    "This_is_wh": "This is what data sharing normally looks like.",
+    "How_does_t": "How does this translate to a real-life scenario?",
+    "Example": "Example",
+    "Let’s_say_":
+        "Let’s say you want to connect to a public WiFi hotspot , traditionally a window like the one below appears in your computer with the following:",
+    "The_box_be": "The box below appears on your screen.",
+    "(Go_ahead,": "(Go ahead, click around as you would normally)",
+    "Before_you":
+        "Before you can enjoy of our free Wifi Hotspots you must continue with EvilCorp.",
+    "Continue_w": "Continue with EvilCorp",
+    "Congrats!_":
+        "Congrats! You just shared your personal information with a Wi-fi hotspot!",
+    "Do_you_kno": "Do you know what data you just shared with the application?",
+    "If_you_hov":
+        "If you hovered over the “i” icon for example, you may have noticed it says:",
+    "and_other_": "and other public info.",
+    "\"other_pub": "\"other public info\"?",
+    "People_sha":
+        "People share more of their information that they’re initially aware of and once the data has been shared, there’s no going back.",
+    "Here’s_how": "Here’s how we’re doing it:",
+    "Let's_say_":
+        "Let's say now you downloaded the awesome music app everyone has been recommending to you. As soon as you open the app, the box below shows up.",
+    "In_order_t": "In order to use Songipy you must continue with Openbook.",
+    "Open": "Open",
+    "Did_you_sp": "Did you spot the differences?",
+    "Here_are_t": "Here are the most important ones.",
+    "We_make_su":
+        "We make sure it's always crystal clear what is being shared, so no pop-ups or vague descriptions. You can also inspect it yourself, just to be sure.",
+    "Safe_appli": "Safe applications",
+    "All_applic":
+        "All applications will be reviewed by us. We will make sure they:",
+    "needed": "needed",
+    "exact": "exact",
+    "at_all_tim": "at all times",
+    "all": "all",
+    "emergency_": "emergency plan",
+    "notify_us/": "notify us/you",
+    "Once_they_":
+        "Once they meet these strict guidelines they will have a badge below their logo. On your personal dashboard you can pinpoint the exact locations of your shared data, revoke application’s access and best of all, request deletion.",
+    "All_option":
+        "All optional data sharing will be disabled by default, and it is up to you if you want to give that application more of your data instead of the other way around.",
+    "We_will_co":
+        "We will continuously research and develop new ways to improve your privacy and security.",
+    "Some_examp":
+        "Some examples of the technology we'll be researching and developing:",
+    "Cryptograp": "Cryptographically enforced data sharing policies",
+    "End_to_end": "End to end encryption, even on the browser",
+    "Public_key": "Public key cryptography on the browser",
+    "Post-quant": "Post-quantum cryptography algorithms and protocols",
+    "Generally_":
+        "Generally speaking, the less we know about you and the more you know about us, the better.",
+    "You’ve_pro":
+        "You’ve probably put a tremendous amount of time (and data) into your existing social networks already. We get that. We wouldn’t want you to lose any friends, cherishable memories or miss out on parties over this.",
+    "Let’s_not_":
+        "Let’s not leave this one out! We’re bringing back social by giving interactions with your friends more meaning. Think about having levels of adoration and being able to show your enthusiasm more than once on a single post. And since we don’t track your data, you not only will be free of ads, but we won’t fill in what we think you’d want to see for yourself. No abracadabra-algorithms!",
+    "6._Our_rev": "6. Our revenue",
+    "Our_busine": "Our business model is not and will never be advertisements.",
+    "We_will_ha":
+        "We will have a transparent revenue model based on a generic way for people to securely transact physical and digital goods and services inside the network. This will be done through an atomic digital unit of value. Although this initially reflected as a marketplace, our ambitions go way beyond that.",
+    "Apart_from":
+        "Apart from this, we’re also planning to help enterprise customers setting up their own internal, self-hosted and secure social networks with extra functionality such as projects, identity and access management.",
+    "[1]_With_t":
+        "[1] With the new GDPR regulation, social networks must allow it’s users to do so now.",
+    "Still_have": "Still have questions?",
+    "Visit_our_": "Visit our FAQ",
+    "WiFi_Hotsp": "WiFi Hotspots App",
+    "your_": "your ",
+    "public_pro": "public profile",
+    ",": ",",
+    "friend_lis": "friend list",
+    "birthday": "birthday",
+    "likes": "likes",
+    "and_": "and ",
+    "email_addr": "email address",
+    "Edit_this": "Edit this",
+    "Continue": "Continue",
+    "Cancel": "Cancel",
+    "Back": "Back",
+    "(required)": "(required)",
+    "John_Doe,_":
+        "John Doe, profile picture, 33+ years old, male and other public info",
+    "Mike_Chowd": "Mike Chowder, Barbara Lamb and 590 others.",
+    "January,_1": "January, 12, 1990",
+    "The_Daily_": "The Daily Show, NBC and 978 others",
+    "john@doe.c": "john@doe.com",
+    "Success": "Success",
+    "The_social":
+        "The social network has now shared your information with the application.",
+    "Restart_ex": "Restart example",
+    " _This_app": "  This application is safe to use.",
+    "It_has_met": "It has met our strict privacy and security policies.",
+    "Learn_more": "Learn more",
+    "Songipy": "Songipy",
+    "name_": "name ",
+    "Optionally": "Optionally",
+    "your": "your",
+    "profile_pi": "profile picture, ",
+    "age_range,": "age range, ",
+    "gender,": "gender,",
+    "language,_": "language, ",
+    "country_of": "country of birth, ",
+    "friends,": "friends,",
+    "birthday,_": "birthday, ",
+    "and_likes": "and likes",
+    "Edit_share": "Edit shared optional data",
+    "Inspect_sh": "Inspect shared data",
+    "Openbook_h":"Openbook has now shared your information with Songipy.",
+    "Restart_pr":"Restart prototype",
+    "Jules_Winn":"Jules Winnfield",
+    "email:_":"email: ",
+    "badmf@pfic":"badmf@pfiction.com"
+}

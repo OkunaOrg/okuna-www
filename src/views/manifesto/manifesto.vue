@@ -1,8 +1,8 @@
 <template>
     <div>
         <ob-es-manifesto v-if="locale==='es'"></ob-es-manifesto>
-        <ob-en-manifesto v-if="locale==='en'"></ob-en-manifesto>
-        <ob-nl-manifesto v-else="locale==='nl'"></ob-nl-manifesto>
+        <ob-en-manifesto v-else-if="locale==='en'"></ob-en-manifesto>
+        <ob-nl-manifesto v-else-if="locale==='nl'"></ob-nl-manifesto>
     </div>
 </template>
 
