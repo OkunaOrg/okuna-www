@@ -222,10 +222,10 @@ export const messages = {
         jobs : {
             title: 'Jobs',
             subtitle: 'Work with us.',
-            exciting_adventure: 'We are embarking on one of the most exciting digital adventures ever and we are looking for talented people to sail with us!',
-            all_skills: 'We are looking for people with all kinds of skills. Technology, design, marketing, finance, media, you name it.',
-            need_your_help: 'If you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> and are talented at what you do, we need your help!',
-            send_cv: 'Send us your CV to  <a\n' +
+            exciting_adventure: 'If our Kickstarter campaign succeeds, we will be embarking on one of the most exciting digital adventures ever and we\'ll be looking for talented people to sail with us!',
+            all_skills: 'We\'ll need people with all kinds of skills. Technology, design, marketing, finance, media, you name it.',
+            need_your_help: 'Do you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> and are talented at what you do?',
+            send_cv: 'Send us your CV and a motivation letter to  <a\n' +
             '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
             look_forward : 'We look forward to meeting you !',
             colleagues: 'Who will you be working with?',

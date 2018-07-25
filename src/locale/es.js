@@ -61,7 +61,7 @@ export const messages = {
             we_are_ob: 'Somos <strong>Open</strong>book.',
             kickstarter: 'La red social de codigo abierto, que respeta tu privacidad, es divertida, honesta y ayuda a crear mundo mejor para todos.',
             share: 'Compartir',
-            notify_me: 'Ahora en Kickstarter'
+            notify_me: 'Apoyanos en Kickstarter'
         },
         count_down: {
             kickstarter: 'Kickstarter',
@@ -201,10 +201,10 @@ export const messages = {
         jobs: {
             title: 'Trabajos',
             subtitle: 'Trabaja con nosotros.',
-            exciting_adventure: '¡Nos embarcamos en una de las aventuras digitales más emocionantes de la historia y estamos buscando personas con talento para navegar con nosotros!',
+            exciting_adventure: 'Si nuestra campaña de Kickstarter es exitosa, nos embarcaremos en una de las aventuras digitales más emocionantes de la historia y estamos buscando personas con talento para navegar con nosotros.',
             all_skills: 'Estamos buscando personas con todo tipo de habilidades. Tecnología, diseño, marketing, finanzas, medios y más.',
-            need_your_help: 'Si crees en <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> y eres talentoso en lo que haces, ¡necesitamos tu ayuda!',
-            send_cv: 'Mandanos tu CV a  <a\n' +
+            need_your_help: 'Si crees en <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> y eres talentoso en lo que haces?',
+            send_cv: 'Mandanos tu CV y una carta de motivación a  <a\n' +
             '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
             look_forward: 'Esperamos pronto hablar contigo!',
             colleagues: 'Con quien trabajarás?',

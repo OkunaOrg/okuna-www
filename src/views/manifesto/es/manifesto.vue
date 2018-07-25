@@ -315,14 +315,13 @@
                         6. Nuestros ingresos
                     </h3>
                     <p>
-                        Nuestro modelo de negocios no es ni nunca será publicidad.
+                        Nuestro modelo de ingresos no es ni nunca será la publicidad.
                     </p>
                     <p>
-                        Tendremos un modelo de ingresos transparente basado en una forma genérica para que las personas negocien de forma segura bienes y servicios físicos y digitales dentro de la red.
-                        Esto se hará a través de una unidad de valor digital atómica. Aunque esto inicialmente reflejado como un mercado, nuestras ambiciones van más allá de eso.
+                        En vez de esto, nuestro modelo de ingresos estara basado en una moneda digital llamada <strong>Tip</strong>. Esta moneda podrá ser usada para comprar y vender bienes y servicios físicos y digitales, apoyar a los creadores de contenido, subscribirte a publicaciones y demás!
                     </p>
                     <p>
-                        Además de esto, también estamos planeando ayudar a empresas a configurar sus propias redes sociales internas, autohospedadas y seguras con funcionalidades adicionales tales como administración de proyectos, identidad y acceso.
+                        Puedes leer más de esto <a href="https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d" rel="noreferrer noopener">en este artículo (En inglés y 6 minutos de lectura aproximadamente.)</a>
                     </p>
                     <span class="is-size-7">
                         [1] Con la nueva regulación GDPR, las redes sociales deben permitir que sus usuarios descarguen su información.
