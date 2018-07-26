@@ -339,15 +339,16 @@
                         6. Our revenue
                     </h3>
                     <p>
-                        Our business model is not and will never be advertisements.
+                        Our revenue model is not and will never be advertisements.
                     </p>
                     <p>
-                        We will have a transparent revenue model based on a generic way for people to securely transact physical and digital goods and services inside the network.
-                        This will be done through an atomic digital unit of value. Although this initially reflected as a marketplace, our ambitions go way beyond that.
+                        Instead, our revenue model will be based on a digital currency called <strong>Tip</strong>. It will be used to buy and sell goods and services, support content creators, subscribe to publishers, buy jacuzzis and more!
                     </p>
                     <p>
-                        Apart from this, we’re also planning to help enterprise customers setting up their own internal,
-                        self-hosted and secure social networks with extra functionality such as projects, identity and access management.
+                        For every Tips transaction made in the network, we will take a small cut. Donations are the exception to this rule, we take nothing then.
+                    </p>
+                    <p>
+                        You can read all about it in <a class="has-text-underlined" href="https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d" rel="noreferrer noopener" target="_blank">this article (6 mins approx. reading time)</a>
                     </p>
                     <span class="is-size-7">
                         [1] With the new GDPR regulation, social networks must allow it’s users to do so now.

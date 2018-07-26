@@ -11,11 +11,20 @@
                 </a>
             </div>
             <div class="column">
-                <a href="https://www.greennetproject.org/" target="_blank"
+                <a href="https://www.sueddeutsche.de/digital/openbook-1.4060625"
+                   class="featured-in__logo-wrapper"
+                   target="_blank" rel="noopener noreferrer">
+                    <figure class="image">
+                        <img class="is-grayscale" src="./assets/sd-logo.png">
+                    </figure>
+                </a>
+            </div>
+            <div class="column">
+                <a href="https://tecnoblog.net/252011/openbook-alternativa-facebook/" target="_blank"
                    class="featured-in__logo-wrapper"
                    rel="noopener noreferrer">
                     <figure class="image featured-in-img">
-                        <img class="is-grayscale" src="./assets/greennet-logo.png">
+                        <img class="is-grayscale" src="./assets/tecnoblog.png">
                     </figure>
                 </a>
             </div>

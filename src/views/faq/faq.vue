@@ -116,7 +116,10 @@
                         {{ $t('faq.ideas') }}
                     </p>
                     <ul>
-                        <li>
+                        <li class="has-text-underlined">
+                            <a href="https://open-book.org/kickstarter" rel="noopener noreferrer" target="_blank"> {{ $t('faq.donate') }} </a>
+                        </li>
+                        <li class="has-text-underlined">
                             <a href="" @click.prevent="onUserWantsToShare"> {{ $t('faq.share_website') }} </a>
                         </li>
                         <li>

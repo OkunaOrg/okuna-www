@@ -38,12 +38,16 @@ export const messages = {
         },
         ads_free: {
             title: '100% Libre de anuncios',
-            description: 'Nuestro modelo de ingresos no está ni nunca estará basado en publicidad. ¡Disfruta navegación sin publicidad!'
+            description: 'Nuestro modelo de ingresos no está ni nunca estará basado en publicidad. ¡Disfruta navegación sin publicidad por siempre!'
+        },
+        currency: {
+            title: 'Modelo de ingresos ético y sostenible',
+            description: 'Nuestro modelo de ingresos se basa en una moneda digital llamada <strong>Tip</strong>. Esta moneda se usa para ayudar a creadores de contenido, suscribirse a editoriales, comprar y vender productos y servicios ¡y más!'
         },
         quotes: {
             joel_name: 'Joel Hernández',
             joel_title: 'Fundador de Openbook',
-            joel_quote: 'Openbook no es solo un paso adelante en la evolución de las redes sociales, es tambien un proyecto humanitario de escala mundial.',
+            joel_quote: 'Me cansé de ser un espectador de los problemas traídos por las redes sociales existentes. Decidí actuar, intentar construir algo diferente, algo mejor.',
             vincent_name: 'Vincent Ruijter',
             vincent_title: 'Hacker Ético',
             vincent_quote: 'Con las redes sociales actuales creciendo más y más cada dia, Openbook puede que sea la última oportunidad verdadera de construir algo diferente, algo ético, algo mejor.',
@@ -61,7 +65,7 @@ export const messages = {
             we_are_ob: 'Somos <strong>Open</strong>book.',
             kickstarter: 'La red social de codigo abierto, que respeta tu privacidad, es divertida, honesta y ayuda a crear mundo mejor para todos.',
             share: 'Compartir',
-            notify_me: 'Ahora en Kickstarter'
+            notify_me: 'Apoyanos en Kickstarter'
         },
         count_down: {
             kickstarter: 'Kickstarter',
@@ -201,10 +205,10 @@ export const messages = {
         jobs: {
             title: 'Trabajos',
             subtitle: 'Trabaja con nosotros.',
-            exciting_adventure: '¡Nos embarcamos en una de las aventuras digitales más emocionantes de la historia y estamos buscando personas con talento para navegar con nosotros!',
+            exciting_adventure: 'Si nuestra campaña de Kickstarter es exitosa, nos embarcaremos en una de las aventuras digitales más emocionantes de la historia y estamos buscando personas con talento para navegar con nosotros.',
             all_skills: 'Estamos buscando personas con todo tipo de habilidades. Tecnología, diseño, marketing, finanzas, medios y más.',
-            need_your_help: 'Si crees en <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> y eres talentoso en lo que haces, ¡necesitamos tu ayuda!',
-            send_cv: 'Mandanos tu CV a  <a\n' +
+            need_your_help: 'Si crees en <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> y eres talentoso en lo que haces?',
+            send_cv: 'Mandanos tu CV y una carta de motivación a  <a\n' +
             '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
             look_forward: 'Esperamos pronto hablar contigo!',
             colleagues: 'Con quien trabajarás?',
@@ -229,6 +233,7 @@ export const messages = {
             hence_for_profit: 'Por lo tanto, oficialmente somos una empresa con fines de lucro.',
             humanitarian: 'Pero ten en cuenta que cuando hagamos esto, nos aseguraremos de que las personas que inviertan en la compañía sean personas con un interés real en la plataforma, sus valores centrales de privacidad, seguridad, libertad, codigo abierto y su naturaleza humanitaria.',
             want_to_help: 'Quiero ayudar ahora, ¿qué puedo hacer?',
+            donate: 'Dona a nuestra campaña de Kickstarter!',
             want_to_help_ans: '¡Estamos felices y agradecidos de que quieras ayudar!',
             many_ways: 'Hay muchas maneras en que puedes ayudar ahora mismo.',
             ideas: 'Aquí hay algunas ideas:',

@@ -39,7 +39,7 @@ export const messages = {
         quotes : {
             joel_name: 'Joel Hernández',
             joel_title: 'Oprichter Openbook',
-            joel_quote: 'Openbook is niet alleen een evolutionaire stap voor sociale netwerken, het is ook een wereldwijd humanitair project.',
+            joel_quote: 'Ik werd het beu om een toeschouwer te zijn van de problemen die door bestaande sociale netwerken worden veroorzaakt. Ik besloot om te handelen, om iets anders, iets beters te gaan bouwen.',
             vincent_name: 'Vincent Ruijter',
             vincent_title: 'Ethical Hacker',
             vincent_quote: 'Met de huidige sociale netwerken, die elke dag steeds maar verder groeien, kan Openbook weleens de enige en laatste kans zijn om iets anders, iets ethisch en iets beter te bouwen.',
@@ -76,6 +76,10 @@ export const messages = {
         ads_free: {
             title: '100% Ad free',
             description: 'Ons verdienmodel zal niet, noch zal het ooit, gebasseerd zijn op advertenties. Geniet van advertentie-vrij surfen!'
+        },
+        currency: {
+            title: 'Ethisch en duurzaam verdienmodel',
+            description: 'Ons inkomstenmodel is gebaseerd op een digitale valuta genaamd <strong>Tip</strong>. Het wordt gebruikt om makers van inhoud te ondersteunen, zich te abonneren op uitgevers, goederen en diensten te kopen en te verkopen en nog veel meer!'
         },
         header: {
             home: 'Startpagina',
@@ -219,6 +223,7 @@ export const messages = {
             hence_for_profit: 'Daarom zijn we officieel een bedrijf met winstoogmerk.',
             humanitarian: 'Maar onthoud dat wanneer wij dit doen, wij ervoor zullen zorgen dat de mensen die investeren in het bedrijf, mensen zijn met echte interesse in ons platform en onze kernwaarden: privacy, veiligheid, vrijheid, openheid en het ondersteunen van goede doelen.',
             want_to_help: 'Ik wil nu helpen, wat kan ik doen?',
+            donate: 'Steun ons op Kickstarter!',
             want_to_help_ans: 'We zijn blij en dankbaar dat je wilt helpen!',
             many_ways: 'Er zijn veel manieren waarop je nu kunt helpen.',
             ideas: 'Hier zijn enkele ideeën:',

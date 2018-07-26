@@ -7,9 +7,9 @@
         <ob-easy></ob-easy>
         <ob-fun></ob-fun>
         <ob-personal></ob-personal>
-        <ob-good-for-planet></ob-good-for-planet>
+        <ob-currency></ob-currency>
         <ob-ads-free></ob-ads-free>
-        <ob-count-down></ob-count-down>
+        <ob-good-for-planet></ob-good-for-planet>
         <section class="hero is-white">
             <div class="hero-body has-text-centered">
                 <div class="container">
@@ -28,6 +28,7 @@
                 </div>
             </div>
         </section>
+        <ob-count-down></ob-count-down>
         <section class="section">
             <div class="container">
                 <ob-quotes></ob-quotes>
@@ -75,9 +76,11 @@
     import ObFun from "./components/fun/fun";
     import ObGoodForPlanet from "./components/good-for-planet/good-for-planet";
     import ObAdsFree from "./components/ads-free/ads-free";
+    import ObCurrency from "./components/currency/currency.vue";
 
     export default {
         components: {
+            ObCurrency,
             ObAdsFree,
             ObGoodForPlanet,
             ObFun,
