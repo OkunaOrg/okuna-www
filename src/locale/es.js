@@ -38,12 +38,16 @@ export const messages = {
         },
         ads_free: {
             title: '100% Libre de anuncios',
-            description: 'Nuestro modelo de ingresos no está ni nunca estará basado en publicidad. ¡Disfruta navegación sin publicidad!'
+            description: 'Nuestro modelo de ingresos no está ni nunca estará basado en publicidad. ¡Disfruta navegación sin publicidad por siempre!'
+        },
+        currency: {
+            title: 'Modelo de ingresos ético y sostenible',
+            description: 'Nuestro modelo de ingresos se basa en una moneda digital llamada <strong>Tip</strong>. Esta moneda se usa para ayudar a creadores de contenido, suscribirse a editoriales, comprar y vender productos y servicios ¡y más!'
         },
         quotes: {
             joel_name: 'Joel Hernández',
             joel_title: 'Fundador de Openbook',
-            joel_quote: 'Openbook no es solo un paso adelante en la evolución de las redes sociales, es tambien un proyecto humanitario de escala mundial.',
+            joel_quote: 'Me cansé de ser un espectador de los problemas traídos por las redes sociales existentes. Decidí actuar, intentar construir algo diferente, algo mejor.',
             vincent_name: 'Vincent Ruijter',
             vincent_title: 'Hacker Ético',
             vincent_quote: 'Con las redes sociales actuales creciendo más y más cada dia, Openbook puede que sea la última oportunidad verdadera de construir algo diferente, algo ético, algo mejor.',
@@ -229,6 +233,7 @@ export const messages = {
             hence_for_profit: 'Por lo tanto, oficialmente somos una empresa con fines de lucro.',
             humanitarian: 'Pero ten en cuenta que cuando hagamos esto, nos aseguraremos de que las personas que inviertan en la compañía sean personas con un interés real en la plataforma, sus valores centrales de privacidad, seguridad, libertad, codigo abierto y su naturaleza humanitaria.',
             want_to_help: 'Quiero ayudar ahora, ¿qué puedo hacer?',
+            donate: 'Dona a nuestra campaña de Kickstarter!',
             want_to_help_ans: '¡Estamos felices y agradecidos de que quieras ayudar!',
             many_ways: 'Hay muchas maneras en que puedes ayudar ahora mismo.',
             ideas: 'Aquí hay algunas ideas:',

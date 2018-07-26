@@ -37,13 +37,17 @@ export const messages = {
             description: 'In partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, we\'ll be giving 30% of our revenue towards projects for education, sanitization, climate change prevention and more.'
         },
         ads_free: {
-            title: '100% Ads free',
-            description: 'Our revenue model is not nor ever will be based on advertisement. Enjoy ad-free surfing!'
+            title: '100% Ad-free',
+            description: 'Our revenue model is not nor ever will be based on advertisement. Enjoy ad-free surfing forever!'
+        },
+        currency: {
+            title: 'Ethical & sustainable revenue model',
+            description: 'Our revenue model is based on a digital currency called <strong>Tip</strong>. It\'s used to support content creators, subscribe to publishers, buy and sell goods and services and more!'
         },
         quotes : {
             joel_name: 'Joel Hernández',
             joel_title: 'Founder of Openbook',
-            joel_quote: 'Openbook is not only an evolutionary step for social networks, it\'s also a humanitarian project at world scale.',
+            joel_quote: 'I grew tired of being an spectator to the problems brought by existing social networks. I decided to act, to try build something different, something better.',
             vincent_name: 'Vincent Ruijter',
             vincent_title: 'Ethical Hacker',
             vincent_quote: 'With current networks growing bigger and bigger every day, Openbook might be the last real chance to build something different, something ethical, something better.',
@@ -254,6 +258,7 @@ export const messages = {
             many_ways: 'There are many ways you can help right now.',
             ideas: 'Here are some ideas:',
             share_website: 'Share the website on social media',
+            donate: 'Donate to our Kickstarter campaign!',
             talk_to_friends: 'Talk to your friends and family about us',
             improve_website: 'If you\'re a developer, you can help us <a\n' +
             '                            href="https://github.com/OpenBookOrg/openbook-org-www"\n' +

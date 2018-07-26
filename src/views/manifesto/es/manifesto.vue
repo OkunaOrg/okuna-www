@@ -321,7 +321,10 @@
                         En vez de esto, nuestro modelo de ingresos estara basado en una moneda digital llamada <strong>Tip</strong>. Esta moneda podrá ser usada para comprar y vender bienes y servicios físicos y digitales, apoyar a los creadores de contenido, subscribirte a publicaciones y demás!
                     </p>
                     <p>
-                        Puedes leer más de esto <a href="https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d" rel="noreferrer noopener">en este artículo (En inglés y 6 minutos de lectura aproximadamente.)</a>
+                        De cada transacción realizada con esta moneda, tomaremos un porcentaje pequeño, donaciones siendo la excepción.
+                    </p>
+                    <p>
+                        Puedes leer más de esto <a href="https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d" rel="noreferrer noopener" class="has-text-underlined" target="_blank">en este artículo (En inglés y 6 minutos de lectura aproximadamente.)</a>
                     </p>
                     <span class="is-size-7">
                         [1] Con la nueva regulación GDPR, las redes sociales deben permitir que sus usuarios descarguen su información.

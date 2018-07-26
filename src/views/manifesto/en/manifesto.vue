@@ -345,7 +345,10 @@
                         Instead, our revenue model will be based on a digital currency called <strong>Tip</strong>. It will be used to buy and sell goods and services, support content creators, subscribe to publishers, buy jacuzzis and more!
                     </p>
                     <p>
-                        You can read all about it in <a href="https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d" rel="noreferrer noopener">this article (6 mins approx. reading time)</a>
+                        For every Tips transaction made in the network, we will take a small cut. Donations are the exception to this rule, we take nothing then.
+                    </p>
+                    <p>
+                        You can read all about it in <a class="has-text-underlined" href="https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d" rel="noreferrer noopener" target="_blank">this article (6 mins approx. reading time)</a>
                     </p>
                     <span class="is-size-7">
                         [1] With the new GDPR regulation, social networks must allow it’s users to do so now.
