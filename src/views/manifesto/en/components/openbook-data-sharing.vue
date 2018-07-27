@@ -10,11 +10,11 @@
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            In order to use Songipy you must continue with Openbook.
+                            {{ $t('manifesto.In_order_t') }}
                         </div>
                         <div class="column is-12 has-text-centered">
                             <button class="button is-rainbow" @click="goToStep2()">
-                                <span>Continue with <strong>Open</strong>book</span>
+                                <span v-html="$t('manifesto.continue_with_ob')"></span>
                             </button>
                         </div>
                     </div>
@@ -30,15 +30,15 @@
                             <div>
                                 <i class="fas fa-lock"></i>
                                 <span>
-                                    &nbsp; This application is safe to use.
+                                    &nbsp; {{ $t('manifesto._This_app') }}
                                 </span>
                             </div>
                             <div class="is-size-7">
-                                It has met our strict privacy and security policies.
+                                {{ $t('manifesto.It_has_met') }}
                             </div>
                             <div class="is-size-7">
                                 <a @click="wantsToLearnMoreAboutSecureApps()">
-                                    Learn more
+                                    {{ $t('manifesto.Learn_more') }}
                                 </a>
                             </div>
                         </div>
@@ -46,10 +46,10 @@
                             <div class="section-separator"></div>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            <span>In order to continue, <strong>Songipy</strong> requires your</span>
+                            <span v-html="$t('manifesto.in_order_to_songipy')"></span>
                             <span v-for="(dataItem, index) of requiredSharedData">
                                 <span v-if="index === (requiredSharedData.length - 1)">
-                                    and
+                                   {{ $t('manifesto.and_') }}
                                 </span>
                                 <span>
                                     {{dataItem.readableName}}
@@ -68,8 +68,8 @@
                             <div class="field">
                                 <b-checkbox size="is-medium" v-model="optionalDataSharingEnabled">
                                     <div class="is-size-7">
-                                        <strong>Optionally</strong>, you would like to share
-                                        <span>your</span>
+                                        <strong>{{ $t('manifesto.Optionally') }}</strong>{{ $t('manifesto.you_would_like') }}
+                                        <span>{{ $t('manifesto.your') }}</span>
                                         <span v-if="enabledOptionalSharedData.length === 1">
                                             {{enabledOptionalSharedData[0].readableName}}
                                         </span>
@@ -85,8 +85,8 @@
                             <div class="field">
                                 <b-checkbox size="is-medium" v-model="optionalDataSharingEnabled">
                                     <div class="is-size-7">
-                                        <strong>Optionally</strong>, it would also like to access
-                                        <span>your</span>
+                                        <strong>{{ $t('manifesto.Optionally') }}</strong>{{ $t('manifesto.it_would_also') }}
+                                        <span>{{ $t('manifesto.your') }}</span>
                                         <span v-for="(dataItem, index) of optionalSharedData">
                                 {{ index === optionalSharedData.length - 1 ? 'and ' + dataItem.readableName : dataItem.readableName + ', '
                                             }}
@@ -98,7 +98,7 @@
                         <div class="column is-12 has-text-centered">
                             <button class="button is-outlined is-small" @click="goToStep3()">
                                 <span>
-                                    Edit shared optional data
+                                     {{ $t('manifesto.Edit_share') }}
                                 </span>
                                 <span class="icon">
                                     <i class="fas fa-pencil-alt"></i>
@@ -109,7 +109,7 @@
                             <b-collapse :open.sync="inspectDataOpen">
                                 <button class="button is-transparent is-size-7 is-borderless" slot="trigger">
                                     <span>
-                                        Inspect shared data
+                                      {{ $t('manifesto.Inspect_sh') }}
                                     </span>
                                     <span class="icon is-small">
                                         <i class="fas fa-angle-down"></i>
@@ -127,13 +127,13 @@
                                             <a v-else-if="dataItem.type === 'list'"
                                                @click="wantsToDisplayListWithName(dataItem.readableName)">
                                                 <span>
-                                                    Open list ↗
+                                                     {{ $t('manifesto.open_list') }} ↗
                                                 </span>
                                             </a>
                                             <a v-else-if="dataItem.type === 'image'" :href="dataItem.value"
                                                target="_blank" rel="noopener noreferrer">
                                                 <span>
-                                                    Open image ↗
+                                                     {{ $t('manifesto.open_image') }} ↗
                                                 </span>
                                             </a>
                                         </p>
@@ -148,12 +148,12 @@
                             <div class="columns is-mobile">
                                 <div class="column is-6">
                                     <button class="button is-outlined is-medium" @click="goToStep1()">
-                                        Cancel
+                                        {{ $t('manifesto.Cancel') }}
                                     </button>
                                 </div>
                                 <div class="column is-6">
                                     <button class="button is-rainbow is-medium" @click="goToStep4()">
-                                        Continue
+                                        {{ $t('manifesto.Continue') }}
                                     </button>
                                 </div>
                             </div>
@@ -169,7 +169,7 @@
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <span>Back</span>
+                                        <span>{{ $t('manifesto.Back') }}</span>
                                     </button>
                                 </div>
                             </div>
@@ -189,13 +189,13 @@
                                             <a v-else-if="dataItem.type === 'list'"
                                                @click="wantsToDisplayListWithName(dataItem.readableName)">
                                                 <span>
-                                                    Open list ↗
+                                                  {{ $t('manifesto.open_list') }} ↗
                                                 </span>
                                             </a>
                                             <a v-else-if="dataItem.type === 'image'" :href="dataItem.value"
                                                target="_blank" rel="noopener noreferrer">
                                                 <span>
-                                                    Open image ↗
+                                                    {{ $t('manifesto.open_image') }} ↗
                                                 </span>
                                             </a>
                                         </div>
@@ -222,11 +222,11 @@
                         <div class="column is-12 has-text-centered">
                             <div>
                                 <strong>
-                                    Success
+                                    {{ $t('manifesto.Success') }}
                                 </strong>
                             </div>
                             <span>
-                                Openbook has now shared your information with Songipy.
+                                {{ $t('manifesto.Openbook_h') }}
                             </span>
                         </div>
                         <div class="column is-12 has-text-centered">
@@ -234,7 +234,7 @@
                                 <span class="icon is-small">
                                     <i class="fas fa-sync-alt"></i>
                                 </span>
-                                <span>  Restart prototype</span>
+                                <span> {{ $t('manifesto.Restart_pr') }}</span>
                             </button>
                         </div>
                     </div>
@@ -293,23 +293,23 @@
                 inspectDataOpen: false,
                 availableData: [
                     {
-                        readableName: 'name',
+                        readableName: this.$t('manifesto.name_'),
                         name: 'name',
                         type: 'text',
-                        value: 'Jules Winnfield',
+                        value: this.$t('manifesto.Jules_Winn'),
                         required: true,
                         enabled: true
                     },
                     {
-                        readableName: 'email address',
+                        readableName: this.$t('manifesto.email_addr'),
                         name: 'email',
                         type: 'text',
-                        value: 'badmf@pfiction.com',
+                        value: this.$t('manifesto.badmf_pfic'),
                         required: true,
                         enabled: true
                     },
                     {
-                        readableName: 'profile picture',
+                        readableName: this.$t('manifesto.profile_pi'),
                         name: 'profile_picture',
                         type: 'image',
                         value: 'https://vignette.wikia.nocookie.net/pulpfiction/images/b/b6/Jules.jpg/revision/latest?cb=20090501131406',
@@ -317,7 +317,7 @@
                         enabled: false
                     },
                     {
-                        readableName: 'age range',
+                        readableName: this.$t('manifesto.age_range'),
                         name: 'age_range',
                         type: 'text',
                         value: '35-40',
@@ -325,31 +325,31 @@
                         enabled: false
                     },
                     {
-                        readableName: 'gender',
+                        readableName: this.$t('manifesto.gender'),
                         name: 'gender',
                         type: 'text',
-                        value: 'male',
+                        value: this.$t('manifesto.male'),
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'language',
+                        readableName: this.$t('manifesto.language'),
                         name: 'language',
                         type: 'text',
-                        value: 'en_US',
+                        value: this.$t('manifesto.language'),
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'country of birth',
+                        readableName: this.$t('manifesto.country_of'),
                         name: 'birthplace_country',
                         type: 'text',
-                        value: 'US',
+                        value: this.$t('manifesto.country_name'),
                         required: false,
                         enabled: false
                     },
                     {
-                        readableName: 'friends',
+                        readableName: this.$t('manifesto.friends'),
                         name: 'friends_list',
                         type: 'list',
                         value: [],
@@ -357,7 +357,7 @@
                         enabled: false
                     },
                     {
-                        readableName: 'birthday',
+                        readableName: this.$t('manifesto.birthday'),
                         name: 'birthday',
                         type: 'text',
                         value: '25-3-1997',
@@ -365,7 +365,7 @@
                         enabled: false
                     },
                     {
-                        readableName: 'likes',
+                        readableName: this.$t('manifesto.likes_'),
                         name: 'user_likes',
                         type: 'list',
                         value: [],
@@ -459,21 +459,15 @@
             },
             wantsToLearnMoreAboutSecureApps() {
                 this.$dialog.alert({
-                    message: `
-                        <div class="content">
-                        <p>In the non-prototype version, this will redirect you to a page with detailed information on secure applications.</p>
-                        <p>Brifly put, secure applications are applications that don't abuse the data sharing system, allow the deletion of your data from their systems and know at all times where your data is.</p>
-                        <p>More information about this follows below.</p>
-                        </div>
-                    `,
-                    confirmText: 'Got it!'
+                    message: this.$t('manifesto.in_the_prototype'),
+                    confirmText:  this.$t('manifesto.got_it')
                 })
             },
             wantsToDisplayListWithName(name) {
-                const message = `In the non-prototype version this would open a list with the full list of your ${name}`;
+                const message = this.$t('message.in_non_prototype', [name]);
                 this.$dialog.alert({
                     message,
-                    confirmText: 'Got it!'
+                    confirmText: this.$t('manifesto.got_it')
                 });
             },
             wantsToToggleItem(dataItem) {

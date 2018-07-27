@@ -10,12 +10,12 @@
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            Before you can enjoy of our free Wifi Hotspots you must continue with EvilCorp.
+                            {{ $t('manifesto.Before_you') }}
                         </div>
                         <div class="column is-12 has-text-centered">
                             <button class="button is-generic-social-media" @click="goToStep2()">
                                 <span class="icon"><i
-                                    class="fas fa-anchor"></i></span><span>Continue with EvilCorp</span>
+                                    class="fas fa-anchor"></i></span><span>{{ $t('manifesto.Continue_w') }}</span>
                             </button>
                         </div>
                     </div>
@@ -28,13 +28,12 @@
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            <div>
-                                <strong>WiFi Hotspots App</strong> will receive:
+                            <div v-html="$t('manifesto.wifi_hotspots_app')">
                             </div>
-                            <span> your </span>
+                            <span> {{ $t('manifesto.your_') }} </span>
                             <span v-for="(dataItem, index) of sharedData" v-if="sharedData.length > 1">
                                 <span v-if="index === (sharedData.length - 1)">
-                                    and
+                                     {{ $t('manifesto.and_') }}
                                 </span>
                                 <span>{{dataItem.name}}</span>
                                 <span v-if="index !== (sharedData.length - 2 ) && index !== (sharedData.length - 1)">,</span>
@@ -57,18 +56,18 @@
                                     <i class="fas fa-pencil-alt"></i>
                                 </span>
                                 <span>
-                                    Edit this
+                                     {{ $t('manifesto.Edit_this') }}
                                 </span>
                             </a>
                         </div>
                         <div class="column is-12 has-text-centered">
                             <button class="button is-generic-social-media is-medium" @click="goToStep4()">
-                                Continue
+                                {{ $t('manifesto.Continue') }}
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
                             <a class="is-medium info-icon" @click="goToStep1()">
-                                Cancel
+                                {{ $t('manifesto.Cancel') }}
                             </a>
                         </div>
                     </div>
@@ -82,7 +81,7 @@
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <span>Back</span>
+                                        <span>{{ $t('manifesto.Back') }}</span>
                                     </button>
                                 </div>
                             </div>
@@ -115,11 +114,11 @@
                         <div class="column is-12 has-text-centered">
                             <div>
                                 <strong>
-                                    Success
+                                    {{ $t('manifesto.Success') }}
                                 </strong>
                             </div>
                             <span>
-                                The social network has now shared your information with the application.
+                                   {{ $t('manifesto.The_social') }}
                             </span>
                         </div>
                         <div class="column is-12 has-text-centered">
@@ -127,7 +126,7 @@
                                 <span class="icon is-small">
                                     <i class="fas fa-sync-alt"></i>
                                 </span>
-                                <span>  Restart example</span>
+                                <span>{{ $t('manifesto.Restart_ex') }}</span>
                             </button>
                         </div>
                     </div>
@@ -171,34 +170,34 @@
                 publicProfileShared: true,
                 availableData: [
                     {
-                        name: 'public profile',
+                        name: this.$t('manifesto.public_pro'),
                         required: true,
                         enabled: true,
-                        description: 'John Doe, profile picture, 33+ years old, male and other public info'
+                        description: this.$t('manifesto.John_Doe')
                     },
                     {
-                        name: 'friend list',
+                        name: this.$t('manifesto.friend_lis'),
                         required: false,
                         enabled: true,
-                        description: 'Mike Chowder, Barbara Lamb and 590 others.'
+                        description: this.$t('manifesto.Mike_Chowd')
                     },
                     {
-                        name: 'birthday',
+                        name: this.$t('manifesto.birthday'),
                         required: false,
                         enabled: true,
-                        description: 'January, 12, 1990'
+                        description: this.$t('manifesto.January_1')
                     },
                     {
-                        name: 'likes',
+                        name: this.$t('manifesto.likes_'),
                         required: false,
                         enabled: true,
-                        description: 'The Daily Show, NBC and 978 others'
+                        description: this.$t('manifesto.The_Daily_')
                     },
                     {
-                        name: 'email address',
+                        name: this.$t('manifesto.email_addr'),
                         required: false,
                         enabled: true,
-                        description: 'john@doe.com',
+                        description: this.$t('manifesto.john_doe_c')
                     },
                 ]
             }

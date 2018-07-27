@@ -130,6 +130,19 @@
                     }
                 ]
             }
+        },
+        methods: {
+            refreshData: () => {
+                console.log('exec');
+                const teamData = this.teamMembers;
+                this.teamMembers = [];
+                setTimeout(() => {this.teamMembers = teamData}, 0);
+            }
+        },
+        watch: {
+            '$i18n.locale':  (n, o) => {
+                console.log('aaa->',n,o);
+            }
         }
     }
 </script>

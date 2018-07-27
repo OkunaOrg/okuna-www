@@ -8,10 +8,10 @@
                             <div class="columns is-centered">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
-                                        Manifesto
+                                        {{ $t('manifesto.Manifesto') }}
                                     </h1>
                                     <h2 class="title is-size-2 manifesto-text has-text-centered-mobile">
-                                        The problem, the solution, the next steps.
+                                        {{ $t('manifesto.The_proble') }}
                                     </h2>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
             <div class="hero-footer">
                 <div class="box is-shadowless">
                     <p class="has-text-centered">
-                        <span class="tag is-rainbow">Reading time</span> &nbsp;&nbsp; 6 minutes
+                        <span class="tag is-rainbow"> {{ $t('manifesto.Reading_ti') }}</span> &nbsp;&nbsp; 6 minutes
                     </p>
                 </div>
             </div>
@@ -66,65 +66,65 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <div class="has-text-centered">
-                        <h2 class="title is-3 is-spaced is-margin-top-small">Table of contents</h2>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">{{ $t('manifesto.Table_of_c') }}</h2>
                     </div>
                     <br/>
                     <ul>
                         <li>
                             <a href="#why" v-scroll-to="'#why'">
-                                Why?
+                                {{ $t('manifesto.Why__') }}
                             </a>
                         </li>
                         <li>
                             <a href="#how" v-scroll-to="'#how'">
-                                How?
+                                {{ $t('manifesto.How__') }}
                             </a>
                             <ul>
                                 <li>
                                     <a href="#honest" v-scroll-to="'#honest'">
-                                        1. Honest.
+                                        {{ $t('manifesto._Honest') }}
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#personal" v-scroll-to="'#personal'">
-                                        2. Personal.
+                                        {{ $t('manifesto._Persona') }}
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#privacyfriendly" v-scroll-to="'#privacyfriendly'">
-                                        3. Privacy-friendly and secure.
+                                        {{ $t('manifesto._Privacy') }}
                                     </a>
                                     <ul>
                                         <li>
                                             <a href="#explicitconsent" v-scroll-to="'#explicitconsent'">
-                                                Explicit and Informed Consent
+                                                {{ $t('manifesto.Explicit_a') }}
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#safeapps" v-scroll-to="'#safeapps'">
-                                                Safe Applications
+                                                {{ $t('manifesto.Safe_Appli') }}
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#privacydefault" v-scroll-to="'#privacydefault'">
-                                                Privacy by Default
+                                                {{ $t('manifesto.Privacy_by') }}
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#easy" v-scroll-to="'#easy'">
-                                        4. Easy.
+                                     {{ $t('manifesto._Easy') }}
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#fun" v-scroll-to="'#fun'">
-                                        5. Fun.
+                                      {{ $t('manifesto._Fun') }}
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#revenue" v-scroll-to="'#revenue'">
-                                        6. Our Revenue.
+                                        {{ $t('manifesto._Our_Rev') }}
                                     </a>
                                 </li>
                             </ul>
@@ -140,27 +140,24 @@
                         <div>
                             <span class="icon is-large" v-twemoji>🤔</span>
                         </div>
-                        <h2 class="title is-3 is-spaced is-margin-top-small">Why?</h2>
-                        <h4 class="subtitle is-5">The reason we're building yet another social network.</h4>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">{{ $t('manifesto.Why__') }} </h2>
+                        <h4 class="subtitle is-5"> {{ $t('manifesto.The_reason') }}</h4>
                     </div>
                     <br/>
                     <p>
-                        <strong>Social networks are awesome.</strong>
+                        <strong> {{ $t('manifesto.Social_net') }}</strong>
                     </p>
                     <p>
-                        They connect us, help us share treasured moments with our loved ones and provide us with funny cat videos.
-
+                        {{ $t('manifesto.They_conne') }}
                     </p>
                     <p>
-                        Sadly, nowadays social networks aren’t so much about connecting people, instead they are all about making as much money
-                        as possible out of people, no matter the consequences. For example the loss of privacy.
+                        {{ $t('manifesto.Sadly_now') }}
                     </p>
                     <p>
-                        We want to do better, which is exactly why at Openbook we’re doing things differently.
+                        {{ $t('manifesto.We_want_to') }}
                     </p>
                     <p>
-                        Openbook will have the great things you’d expect from a social network: chats, posts, groups and events to name a few.
-                        Plus, it will be <strong class="has-text-primary">honest, personal, privacy-friendly, secure and fun ;-)</strong>.
+                        {{ $t('manifesto.Openbook_will_have') }} <strong class="has-text-primary"> {{ $t('manifesto.honest_pe') }}</strong>.
                     </p>
                 </div>
             </div>
@@ -172,186 +169,166 @@
                         <div>
                             <span class="icon is-large" v-twemoji>💡</span>
                         </div>
-                        <h2 class="title is-3 is-spaced is-margin-top-small">How?</h2>
-                        <h4 class="subtitle is-5">How will we create a tool for good?</h4>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">{{ $t('manifesto.How__') }}</h2>
+                        <h4 class="subtitle is-5">{{ $t('manifesto.How_will_w') }}</h4>
                     </div>
-                    <h3 id="honest">1. Honest.</h3>
+                    <h3 id="honest">{{ $t('manifesto._Honest') }}</h3>
                     <p>
-                        All of our code is <strong>open-source.</strong> This means it’s free for everyone to see, reproduce and contribute to.
-                        We’re transparent about how the social network works.
+                        {{ $t('manifesto.all_of_our_code') }} <strong> {{ $t('manifesto.open_sourc') }}</strong> {{ $t('manifesto.this_means_') }}
 
                     </p>
                     <p>
-                        Additionally, in partnership with FoundersPledge, we’ll be giving <strong>30% of our revenue towards making the world a
-                        better place.</strong> For example, education, climate-change prevention, mental-health and sanitisation.
-                        It’s about time tech-companies benefit everyone.
+                        {{ $t('manifesto.additionally') }}  <strong> {{ $t('manifesto._of_our') }}</strong>
+                        {{ $t('manifesto.for_example') }}
 
                     </p>
                     <h3 id="personal">
-                        2. Personal.
+                        {{ $t('manifesto._Persona') }}
                     </h3>
                     <p>
-                        We’re all different and that makes each of us unique and beautiful! We embrace this!
+                        {{ $t('manifesto.Were_all_') }}
                     </p>
                     <p>
-                        On Openbook you will not only be able to personalise your profile, but the entire network itself!
-                        From changing the color of your homepage to adding plugins, you can make it as unique as yourself.
+                        {{ $t('manifesto.On_Openboo') }}
                     </p>
                     <p>
-                        And if there’s anything you’re missing on Openbook, let us know. We want to build Openbook together.
-                        We will create a special group where we encourage you to help us decide what we build next or what we should improve.
-                        Let’s build the best social network ever!
-
+                        {{ $t('manifesto.And_if_the') }}
                     </p>
                     <h3 id="privacyfriendly">
-                        3. Privacy-friendly and secure
-
+                        {{ $t('manifesto._Privacy') }}
                     </h3>
                     <p>
-                        This is what drove us to build Openbook. The privacy and security of our users will always be at the core of
-                        everything we do. We don’t track anything you do, neither monetize your information nor share it without your
-                        explicit and informed consent.
+                        {{ $t('manifesto.this_is_what_drove') }}
                     </p>
                     <p>
-                        How does this translate to a real-life scenario?
+                        {{ $t('manifesto.How_does_t') }}
                     </p>
-                    <h5>Example</h5>
+                    <h5> {{ $t('manifesto.Example') }}</h5>
                     <p>
-                        This is what data sharing normally looks like.
-                    </p>
-                    <p>
-                        Let’s say you want to connect to a public WiFi hotspot ,
-                        traditionally a window like the one below appears in your computer with the following:
+                        {{ $t('manifesto.This_is_wh') }}
                     </p>
                     <p>
-                        The box below appears on your screen.
+                        {{ $t('manifesto.Lets_say_') }}
+
                     </p>
                     <p>
-                        <i>(Go ahead, click around as you would normally)</i>
+                        {{ $t('manifesto.The_box_be') }}
+
+                    </p>
+                    <p>
+                        <i>{{ $t('manifesto.Go_ahead') }}</i>
                     </p>
                     <ob-generic-data-sharing></ob-generic-data-sharing>
                     <p>
-                        Congrats! You just shared your personal information with a Wi-fi hotspot!
+                        {{ $t('manifesto.Congrats') }}
+
                     </p>
-                    <h5> Do you know what data you just shared with the application?</h5>
+                    <h5> {{ $t('manifesto.Do_you_kno') }}</h5>
                     <p>
-                        If you hovered over the “i” icon for example, you may have noticed it says:
-                    </p>
-                    <p>
-                        <i>"Your public profile includes name, profile picture, age range, gender, language, country <strong>and other public info.</strong>"</i>
+                        {{ $t('manifesto.If_you_hov') }}
                     </p>
                     <p>
-                        What qualifies as <i>"other public info"?</i> And why would a WiFi hotspot want all this information from you?
-                        Will it serve you faster Wi-Fi based on your gender or your age? And what’s going to happen with your data once they have it?
+                        {{ $t('manifesto.your_public_profile') }} <i> <strong>{{ $t('manifesto.other_pub') }}</strong>"</i>
                     </p>
                     <p>
-                        People share more of their information that they’re initially aware of and once the data has been shared, there’s no going back.
+                        {{ $t('manifesto.what_qualifies') }} <i> {{ $t('manifesto.other_public_info') }}</i>  {{ $t('manifesto.and_why_wifi') }}
                     </p>
                     <p>
-                        Here’s how we’re doing it:
+                        {{ $t('manifesto.People_sha') }}
                     </p>
                     <p>
-                        Let's say now you downloaded the awesome music app everyone has been recommending to you. As
-                        soon as you open the app, the box below shows up.
+                        {{ $t('manifesto.Heres_how') }}
                     </p>
                     <p>
-                        <i>(Go ahead, click around as you would normally)</i>
+                        {{ $t('manifesto.Lets_say_2') }}
+
+                    </p>
+                    <p>
+                        <i>{{ $t('manifesto.Go_ahead') }}</i>
                     </p>
                     <ob-openbook-data-sharing></ob-openbook-data-sharing>
                     <p>
-                        Did you spot the differences?
+                        {{ $t('manifesto.Did_you_sp') }}
                     </p>
                     <p>
-                        Here are the most important ones.
+                        {{ $t('manifesto.Here_are_t') }}
+
+
                     </p>
-                    <h5 id="explicitconsent">Explicit and informed consent</h5>
+                    <h5 id="explicitconsent">{{ $t('manifesto.explicit_n_informd') }}</h5>
                     <p>
-                        We make sure it's always crystal clear what is being shared, so no pop-ups or vague descriptions.
-                        You can also inspect it yourself, just to be sure.
+                        {{ $t('manifesto.We_make_su') }}
                     </p>
-                    <h5 id="safeapps">Safe applications</h5>
+                    <h5 id="safeapps"> {{ $t('manifesto.Safe_appli') }}</h5>
                     <p>
-                        All applications will be reviewed by us. We will make sure they:
+                        {{ $t('manifesto.All_applic') }}
+
                     </p>
                     <ul>
-                        <li>
-                            only request the <strong>needed</strong> information
+                        <li v-html="$t('manifesto.only_request_the')">
                         </li>
-                        <li>
-                            have the <strong>exact</strong> location of your data available for you, <strong>at all times</strong>
+                        <li v-html="$t('manifesto.have_the_exact')">
                         </li>
-                        <li>
-                            delete <strong>all</strong> your information if you’d revoke the permission
+                        <li v-html="$t('manifesto.delete_all_your')">
                         </li>
-                        <li>
-                            have an <strong>emergency plan</strong> in case of a data leak, and will <strong>notify us/you</strong>
-                            immediately if that were to happen
+                        <li v-html="$t('manifesto.have_an_emergency')">
                         </li>
                     </ul>
                     <p>
-                        Once they meet these strict guidelines they will have a badge below their logo. On your personal dashboard you can pinpoint the exact locations of your shared data,
-                        revoke application’s access and best of all, request deletion.
+                        {{ $t('manifesto.Once_they_') }}
                     </p>
-                    <h5 id="privacydefault">Privacy by default</h5>
+                    <h5 id="privacydefault">{{ $t('manifesto.Privacy_by') }}</h5>
                     <p>
-                        All optional data sharing will be disabled by default, and it is up to you if you want to
-                        give that application more of your data instead of the other way around.
+                        {{ $t('manifesto.All_option') }}
                     </p>
                     <p>
-                        We will continuously research and develop new ways to improve your privacy and security.
+                        {{ $t('manifesto.We_will_co') }}
                     </p>
                     <p>
-                        Some examples of the technology we'll be researching and developing:
+                        {{ $t('manifesto.Some_examp') }}
                     </p>
                     <ul>
                         <li>
-                            Cryptographically enforced data sharing policies
+                            {{ $t('manifesto.Cryptograp') }}
                         </li>
                         <li>
-                            End to end encryption, even on the browser
+                            {{ $t('manifesto.End_to_end') }}
                         </li>
                         <li>
-                            Public key cryptography on the browser
+                            {{ $t('manifesto.Public_key') }}
                         </li>
                         <li>
-                            Post-quantum cryptography algorithms and protocols
+                            {{ $t('manifesto.Post_quant') }}
                         </li>
                     </ul>
                     <p>
-                        <strong>Generally speaking, the less we know about you and the more you know about us, the better.</strong>
+                        <strong>{{ $t('manifesto.Generally_') }}</strong>
                     </p>
-                    <h3 id="easy">4. Easy.</h3>
+                    <h3 id="easy">  {{ $t('manifesto._Easy') }}</h3>
                     <p>
-                        You’ve probably put a tremendous amount of time (and data) into your existing social networks already. We get that.
-                        We wouldn’t want you to lose any friends, cherishable memories or miss out on parties over this.
+                        {{ $t('manifesto.Youve_pro') }}
                     </p>
+                    <p v-html="$t('manifesto.migrating_to_ob')"></p>
+                    <h3 id="fun">{{ $t('manifesto._Fun') }}</h3>
                     <p>
-                        Migrating to Openbook will be easy-peasy, with our simple drag-and-drop system.
-                        Just download your data from your old social network<sup>1</sup> and transfer them to Openbook. Shazam!
-                    </p>
-                    <h3 id="fun">5. Fun.</h3>
-                    <p>Let’s not leave this one out! We’re bringing back social by giving interactions with your friends more meaning.
-                        Think about having levels of adoration and being able to show your enthusiasm more than once on a single post.
-                        And since we don’t track your data, you not only will be free of ads, but we won’t fill in what we think you’d want to see for yourself.
-                        No abracadabra-algorithms!
+                        {{ $t('manifesto.Lets_not_') }}
+
                     </p>
                     <h3 id="revenue">
-                        6. Our revenue
+                        {{ $t('manifesto._Our_Rev') }}
                     </h3>
                     <p>
-                        Our revenue model is not and will never be advertisements.
+                        {{ $t('manifesto.Our_busine') }}
+                    </p>
+                    <p v-html=" $t('manifesto.instead_our_revenue')">
                     </p>
                     <p>
-                        Instead, our revenue model will be based on a digital currency called <strong>Tip</strong>. It will be used to buy and sell goods and services, support content creators, subscribe to publishers, buy jacuzzis and more!
+                        {{ $t('manifesto.for_every_transaction') }}
                     </p>
-                    <p>
-                        For every Tips transaction made in the network, we will take a small cut. Donations are the exception to this rule, we take nothing then.
-                    </p>
-                    <p>
-                        You can read all about it in <a class="has-text-underlined" href="https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d" rel="noreferrer noopener" target="_blank">this article (6 mins approx. reading time)</a>
+                    <p v-html="$t('manifesto.you_can_read_it')">
                     </p>
                     <span class="is-size-7">
-                        [1] With the new GDPR regulation, social networks must allow it’s users to do so now.
+                        {{ $t('manifesto._With_t') }}
                     </span>
                 </div>
             </div>
@@ -362,12 +339,12 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                Still have questions?
+                                {{ $t('manifesto.Still_have') }}
                             </h3>
                         </div>
                         <div class="column">
                             <router-link to="faq" class="button is-rainbow is-rounded is-medium">
-                                Visit our FAQ
+                                {{ $t('manifesto.Visit_our_') }}
                             </router-link>
                         </div>
                     </div>
