@@ -181,7 +181,6 @@
 </style>
 
 <script>
-    import ObSocialShare from "@/components/social-share/social-share";
     import ObPets from "./components/pets";
 
     export default {
@@ -192,9 +191,9 @@
                 this.openShareModal();
             },
             openShareModal() {
-                this.$modal.open({
+               /* this.$modal.open({
                     component: ObSocialShare
-                })
+                })*/
             }
         }
     }
