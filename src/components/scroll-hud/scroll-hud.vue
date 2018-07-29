@@ -1,5 +1,6 @@
 <template>
     <div v-show="visible" class="scroll-hud">
+        <ob-social-sharer></ob-social-sharer>
         <ob-scroll-to-top></ob-scroll-to-top>
     </div>
 </template>
@@ -17,9 +18,11 @@
     import debounce from 'lodash.debounce';
 
     import ObScrollToTop from "./components/scroll-to-top.vue";
+    import ObSocialSharer from './components/social-sharer/social-sharer.vue';
 
     export default {
         components: {
+            ObSocialSharer,
             ObScrollToTop
         },
         name: 'ob-scroll-hud',

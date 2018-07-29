@@ -1,38 +1,38 @@
 export const messages = {
-    en : {
+    en: {
         global: {
             openbook: '<strong>Open</strong>book'
         },
-        home : {
+        home: {
             want_to_know_more: 'Want to know more?',
             read_manifesto: 'Read our manifesto',
             featured_in: 'As featured in'
         },
-        honesty : {
+        honesty: {
             title: 'Honest',
             description: 'All the code is open-source, so free for anyone to see, modify and reproduce. No room for unpleasant surprises.'
         },
-        privacy : {
+        privacy: {
             title: 'Privacy-friendly',
             description: 'We don\'t monitor nor track anything you do. Surf the network with absolute peace of mind!'
         },
-        secure : {
+        secure: {
             title: 'Secure',
             description: 'With a tough and strict security policy, we make sure your data doesn\'t fall into the wrong hands. Plus, we have a cryptography pioneer in our team. End-to-end encryption anyone?'
         },
-        easy : {
+        easy: {
             title: 'Easy-peasy',
             description: 'Simple to use, even more to move into. Just drag-and-drop your old social media archive into Openbook and import all your photos, videos, chats and more!'
         },
-        fun : {
+        fun: {
             title: 'Fun!',
             description: 'We\'re bringing back the social in social network, giving interaction with your peers meaning again.'
         },
-        personal : {
+        personal: {
             title: 'Personal',
             description: 'Customize the network the way you want. Be different, be yourself!'
         },
-        good_for_planet : {
+        good_for_planet: {
             title: 'Good for the planet',
             description: 'In partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, we\'ll be giving 30% of our revenue towards projects for education, sanitization, climate change prevention and more.'
         },
@@ -44,7 +44,7 @@ export const messages = {
             title: 'Ethical & sustainable revenue model',
             description: 'Our revenue model is based on a digital currency called <strong>Tip</strong>. It\'s used to support content creators, subscribe to publishers, buy and sell goods and services and more!'
         },
-        quotes : {
+        quotes: {
             joel_name: 'Joel Hernández',
             joel_title: 'Founder of Openbook',
             joel_quote: 'I grew tired of being an spectator to the problems brought by existing social networks. I decided to act, to try build something different, something better.',
@@ -150,25 +150,25 @@ export const messages = {
             contact_us: 'Contact us'
         },
         team_members: {
-            joel_title: 'Founder, Chief Executive Officer',
+            joel_title: 'Founder, Chief Disruptor',
             joel_desc: 'Privacy and security activist, software engineer, digital products designer, open sourcerer, The Next Web Top 500 young talent, human.',
-            jaya_title: 'Chief Operating Officer',
+            jaya_title: 'Executive Sensei',
             jaya_desc: 'Globally recognized information-security expert, speaker on lawful interception, quantum-computing, counter surveillance and cryptography.',
-            phil_title: 'Chief Cryptographer',
+            phil_title: 'Cryptography Wizard',
             phil_desc: 'Cryptography pioneer, creator of PGP, the most widely used email encryption software in the world, internet hall of fame member, privacy activist.',
-            lambrecht_title: 'Chief Marketing Officer',
+            lambrecht_title: 'Media Maestro',
             lambrecht_desc: 'Security and international relations expert, conflict analyst, peace-builder, media researcher & producer, human rights activist.',
-            vincent_title: 'Security Engineer',
+            vincent_title: 'Hacker-in-residence',
             vincent_desc: 'Ethical hacker, reverse-engineer, exploit developer, speaker, does not like the word cyber, cyber expert.',
-            bas_title:  'Chief of Design',
+            bas_title: 'Senior Concept Exorcist',
             bas_desc: 'Advocate of useful and meaningful products, user experience wizard, worked with numerous international brands, researcher, hardware hacker.',
-            shantanu_title: 'Chief of Product',
+            shantanu_title: 'Digital Sorcerer',
             shantanu_desc: 'Pragmatic software engineer with a knack for building great products and experiences, crypto-geek, bot-maker, simplicity advocate.',
-            nathalie_title: 'Project Manager',
+            nathalie_title: 'Master Catalyst',
             nathalie_desc: 'Master planner, personification of optimism, want to get things done? Call Nathalie. ',
-            robin_title: 'Chief Communications Officer',
-            robin_desc: 'Content marketing magician, The Next Web top 500, beach lover, hates being disrupted by routine, loves life outside the comfort zone.',
-            martijn_title: 'Software Engineer',
+            robin_title: 'Brand Warrior',
+            robin_desc: 'Content marketing magician, The Next Web Top 500 young talent, beach lover, hates being disrupted by routine, loves life outside the comfort zone.',
+            martijn_title: 'Software Ninjaneer',
             martijn_desc: 'Practical software engineer, JavaScript guru, wearable tech geek, gamer, coolness officer in charge.'
         },
         ambassadors: {
@@ -223,7 +223,7 @@ export const messages = {
             clear_form: 'Clear form',
             submit: 'Submit'
         },
-        jobs : {
+        jobs: {
             title: 'Jobs',
             subtitle: 'Work with us.',
             exciting_adventure: 'If our Kickstarter campaign succeeds, we will be embarking on one of the most exciting digital adventures ever and we\'ll be looking for talented people to sail with us!',
@@ -231,7 +231,7 @@ export const messages = {
             need_your_help: 'Do you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> and are talented at what you do?',
             send_cv: 'Send us your CV and a motivation letter to  <a\n' +
             '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
-            look_forward : 'We look forward to meeting you !',
+            look_forward: 'We look forward to meeting you !',
             colleagues: 'Who will you be working with?',
             meet_the_team: 'Meet the team'
         },
@@ -241,7 +241,7 @@ export const messages = {
             office_dog: 'Our office dog hard at work.',
             jump_to: 'Jump to',
             whos_paying: 'Who\'s paying for everything so far?',
-            is_distributed: 'Why is Openbook not decentralised?',
+            is_distributed: 'Will Openbook be decentralised?',
             whos_paying_ans: 'So far we have been completely self funded. However, this has proven to be very hard.\n' +
             '                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
             crowd_funding: 'As we wanted the project to be driven by people and not capital, we decided to go for crowd-funding.',
@@ -274,33 +274,8 @@ export const messages = {
             contact_us_2: 'Contact us',
             more_questions: 'Have another question?',
             send_us_message: 'Send us a message',
-            why_not_decentralised: 'Why is Openbook not decentralised?',
-            why_not_decentralised_ans: '<p>\n' +
-            '                        Decentralised systems are incredibly complicated. For example rolling out updates (security updates/improvements included),\n' +
-            '                        maintaining cross-version compatibility (for example when rolling out a feature that is by design non-backwards compatible)\n' +
-            '                        and tracking, modifying or deleting user information across the nodes (pretty much impossible to guarantee).\n' +
-            '                    </p>\n' +
-            '\n' +
-            '                    <p>It is a mighty challenge by itself to develop a system that tackles all of these issues. It could take years of research and development.</p>\n' +
-            '\n' +
-            '                        <p>The software giants are growing at an incredible pace, crushing or buying any sign of competition.\n' +
-            '                            Initiatives for social media decentralization in all honesty and sadness, don\'t stand a chance.</p>\n' +
-            '\n' +
-            '                    <p>While decentralisation initiatives are focusing on building revolutionary technologies and ways to tackle the\n' +
-            '                        decentralisation system problems, the real users of such systems (people with a non-tech background) care little\n' +
-            '                        for that aspect of the product. They care about the experience, the features, the ease of use,\n' +
-            '                        the design. Once these initiatives solve the decentralisation challenges, they will be thousands of light years\n' +
-            '                        away from matching the features the software giants will then have. It would all have been for nothing.</p>\n' +
-            '\n' +
-            '                    <p>We are tackling the problem the other way around. We will use existing technologies to build not only a product ' +
-            'that competes with the software giants but beats them in the aspects that the general public cares about.</p>\n' +
-            '\n' +
-            '                    <p>If we do manage to become the defacto social network (which at that point would already be a\n' +
-            '                        huge improvement over existing ones in regards to transparency, privacy and security), with that amount\n' +
-            '                        of users and public interest, we would then be able to afford the time and the best and brightest minds in tech to \n' +
-            '                        research decentralisation strategies.</p>\n' +
-            '\n' +
-            '                    <p>Imagine if we could invest millions in this! What a difference it would make.</p>'
+            why_not_decentralised: 'Will Openbook be decentralised?',
+            why_not_decentralised_ans: '<p>We want to get there eventually. We’re looking into <a href="https://solid.mit.edu/" target="_blank" rel="noopener noreferrer">Solid MIT approach</a> (The one from Tim Berners Lee) and we’re very pleased with it so far. </p> <p>Our first versions will however be centralised. </p> <p>We do this because it’s then easier to focus on innovating in the product features and overall user experience. These things will determine whether we’ll reach the user base necessary to take on existing social networks. </p> <p>If we succeed at this, sky’s the limit into what we can do in regards to decentralisation!</p>'
         },
         press: {
             we: 'We',

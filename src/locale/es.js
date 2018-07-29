@@ -136,25 +136,25 @@ export const messages = {
             edwin_desc: 'Director ejecutivo de Zerocopter, orador internacional, experto en seguridad informática.',
         },
         team_members: {
-            joel_title: 'Fundador, Director Ejecutivo',
-            joel_desc: 'Activista de privacidad y seguridad, ingeniero de software, diseñador de productos digitales, colaborador de codigo abierto, humano.',
-            jaya_title: 'Directora de Operaciones',
+            joel_title: 'Fundador, Director de innovación',
+            joel_desc: 'Activista de privacidad y seguridad, ingeniero de software, diseñador de productos digitales, colaborador de codigo abierto, The Next Web Top 500 Young Talent, humano.',
+            jaya_title: 'Sensei Ejecutiva',
             jaya_desc: 'Experta en seguridad cibernética reconocido mundialmente, conferenciante sobre intercepción legal, computación cuántica, contra-vigilancia y criptografía.',
-            phil_title: 'Director de Criptografía',
+            phil_title: 'Mago de la Criptografía',
             phil_desc: 'Pionero de la criptografía, creador de PGP, el software de cifrado de correo electrónico más utilizado en el mundo, miembro del Salón de la Fama de Internet, activista de la privacidad.',
-            lambrecht_title: 'Director de Márketing',
+            lambrecht_title: 'Maestro de Media',
             lambrecht_desc: 'Experto en seguridad y relaciones internacionales, analista de conflictos, constructor de paz, investigador y productor de medios, activista de derechos humanos.',
-            vincent_title: 'Ingeniero de ciber-seguridad',
+            vincent_title: 'Hacker de la casa',
             vincent_desc: 'Hacker ético, ingeniero de ingeniería inversa, desarrollador de exploits, orador, no le gusta la palabra cyber, experto en cyber.',
-            bas_title: 'Director de Diseño',
+            bas_title: 'Exorcista de Conceptos',
             bas_desc: 'Activista de productos útiles y significativos, mago de las experiencias digitales, trabajó con numerosas marcas internacionales, investigador, hacker de hardware.',
-            shantanu_title: 'Director de Producto',
+            shantanu_title: 'Mago Digital',
             shantanu_desc: 'Ingeniero de software pragmático con una habilidad especial para crear excelentes productos y experiencias, geek de la criptografía, creador de bots, activista de la simplicidad.',
-            nathalie_title: 'Gerente de proyecto',
+            nathalie_title: 'Maestra Catalizadora',
             nathalie_desc: 'Maestra de la planificación, personificación del optimismo, ¿Quiere lograr cosas? Llama a Nathalie.',
-            robin_title: 'Directora de comunicaciones',
-            robin_desc: 'Maga del márketing, talento de The Next Web top 500, amante de la playa, odia ser interrumpida por la rutina, ama la vida fuera de la zona de confort.',
-            martijn_title: 'Ingeniero de Software',
+            robin_title: 'Guerrera de la imagen',
+            robin_desc: 'Maga del márketing, The Next Web Top 500 Young Talent, amante de la playa, odia ser interrumpida por la rutina, ama la vida fuera de la zona de confort.',
+            martijn_title: 'Ninja del software',
             martijn_desc: 'Ingeniero de software práctico, gurú de JavaScript, geek de la tecnología en accesorios, gamer, papá.',
         },
 
@@ -253,33 +253,8 @@ export const messages = {
             contact_us_2: 'Contactanos!',
             more_questions: 'Tienes otra pregunta?',
             send_us_message: 'Mandanos un mensaje!',
-            why_not_decentralised: '¿Por qué Openbook no es descentralizado?',
-            why_not_decentralised_ans: '<p>\n' +
-            '                        Los sistemas descentralizados son increíblemente complicados. Por ejemplo, implementar actualizaciones (actualizaciones de seguridad / mejoras / nuevas cosas),\n' +
-            '                        mantener compatibilidad de versiones cruzadas (por ejemplo, cuando se implementa una característica que, por diseño, no es compatible con versiones anteriores)\n' +
-            '                        y rastrear, modificar o borrar la información del usuario a través de los nodos (imposible de garantizar).\n' +
-            '                    </p>\n' +
-            '\n' +
-            '                    <p>Es un gran desafío en sí mismo desarrollar un sistema que solucione todos estos problemas. Podría llevar años de investigación y desarrollo.</p>\n' +
-            '\n' +
-            '                        <p>Los gigantes del software están creciendo a un ritmo increíble, aplastando o comprando cualquier signo de competencia.\n' +
-            '                            Iniciativas para la descentralización de las redes sociales con toda honestidad y tristeza, no tienen ninguna posibilidad de ser exitosas.</p>\n' +
-            '\n' +
-            '                    <p>Mientras se enfocan en construir tecnologías revolucionarias y formas de solucionar los\n' +
-            '                        problemas de sistema descentralizados, los usuarios reales de tales plataformas (gente con un fondo no tecnológico) les interesa poco\n' +
-            '                        ese aspecto del producto. Les importa la experiencia, la funcionalidad, la facilidad de uso,\n' +
-            '                        y el diseño. Cuando estas iniciativas solucionen los desafíos de la descentralización, estaraán a miles de años luz\n' +
-            '                        de la funcionalidad que los gigantes del software tendrán y todo habra sido para nada.</p>\n' +
-            '\n' +
-            '                    <p>Estamos abordando el problema al revés. Utilizaremos las tecnologías existentes para construir no solo un producto ' +
-            'que compita con los gigantes del software pero que los supere en los aspectos que le interesan al público en general.</p>\n' +
-            '\n' +
-            '                    <p>Si logramos convertirnos en la red social de facto (que en ese momento ya sería una \n' +
-            '                        gran mejora respecto a las redes social actuales en cuanto a transparencia, privacidad y seguridad), con esa cantidad\n' +
-            '                        de usuarios y de interés público, podríamos permitirnos el tiempo y las mejores y más brillantes mentes en tecnología para\n' +
-            '                        investigar mejores estrategias de descentralización.</p>\n' +
-            '\n' +
-            '                    <p>¡Imagina si pudiéramos invertir millones en esto! Qué diferencia haría.</p>'
+            why_not_decentralised: '¿Openbook será descentralizada?',
+            why_not_decentralised_ans: '<p>Queremos llegar allí eventualmente. Estamos estudiando el trabajo de <a href="https://solid.mit.edu/" target="_blank" rel="noopener noreferrer">Solid MIT</a> (El proyecto de Tim Berners Lee) y nos está gustando hasta ahora. </p> <p>Sin embargo, nuestras primeras versiones estarán centralizadas. </p> <p>Hacemos esto porque así es más fácil enfocarsnos en innovar en las características del producto y en la experiencia general del usuario. Estas son las cosas que determinarán si alcanzaremos la base de usuarios necesaria para competir con las redes sociales existentes.</p> <p>¡Si tenemos éxito en esto, el cielo es el límite en lo que podemos hacer con respecto a la descentralización!</p>'
         },
         press: {
             we: 'Openbook',

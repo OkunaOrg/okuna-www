@@ -1,42 +1,42 @@
 export const messages = {
-    nl : {
+    nl: {
         global: {
             openbook: '<strong>Open</strong>book'
         },
-        home : {
+        home: {
             want_to_know_more: 'Wil je meer weten?',
             read_manifesto: 'Lees ons manifest',
             featured_in: 'Zoals gezien in'
         },
-        honesty : {
+        honesty: {
             title: 'Eerlijk',
             description: 'Alle code is open-source, dus voor iedereen vrij in te zien, aan te passen en te reproduceren. Geen onaangename verrassingen.',
         },
-        privacy : {
+        privacy: {
             title: 'Privacy vriendelijk',
             description: 'We monitoren en tracken niets van wat je doet. Surf op het netwerk met absolute gemoedsrust!'
         },
-        secure : {
+        secure: {
             title: 'Veilig',
             description: 'Met een streng en strikt veiligheidsbeleid, zorgen wij ervoor dat jouw data niet in de verkeerde handen valt.'
         },
-        easy : {
+        easy: {
             title: 'Appeltje-eitje',
             description: 'Gemakkelijk te gebruiken, nog makkelijker overstappen. Sleep je oude social media archief gewoon direct in Openbook, om al je foto\'s videos, chats en meer, direct te importeren!'
         },
-        fun : {
+        fun: {
             title: 'Leuk!',
             description: 'Wij brengen het sociale aspect, van sociaal netwerk, terug. Geef interactie met je vrienden en familie weer betekenis.'
         },
-        personal : {
+        personal: {
             title: 'Persoonlijk',
             description: 'Personaliseer het netwerk zoals jij het wilt. Wees anders, wees jezelf!'
         },
-        good_for_planet : {
+        good_for_planet: {
             title: 'Goed voor de planeet',
             description: 'In samenwerking met <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, zullen wij 30% van onze omzet doneren aan projecten voor educatie, sanitisatie, bestrijden van klimaatverandering en meer.'
         },
-        quotes : {
+        quotes: {
             joel_name: 'Joel Hernández',
             joel_title: 'Oprichter Openbook',
             joel_quote: 'Ik werd het beu om een toeschouwer te zijn van de problemen die door bestaande sociale netwerken worden veroorzaakt. Ik besloot om te handelen, om iets anders, iets beters te gaan bouwen.',
@@ -134,7 +134,7 @@ export const messages = {
             lambrecht_desc: 'Expert in veiligheid en internationale betrekkingen, conflictanalist, vredesopbouwer, media producent en mensenrechtenactivist.',
             vincent_title: 'Security Engineer',
             vincent_desc: 'Ethisch hacker, reverse-engineer, exploit-ontwikkelaar, spreker, houdt niet van het woord cyber, cyber-expert.',
-            bas_title:  'UI/UX Ethisch Ontwerper',
+            bas_title: 'UI/UX Ethisch Ontwerper',
             bas_desc: 'Verdediger van nuttige en betekenisvolle producten, user experience wizard, gewerkt met talloze internationale merken, onderzoeker, hardware-hacker.',
             shantanu_title: 'Software Engineer',
             shantanu_desc: 'Pragmatische software-engineer, productkerel, crypto-geek, bot-maker, eenvoudsverdediger.',
@@ -185,7 +185,7 @@ export const messages = {
             clear_form: 'Formulier wissen',
             submit: 'Verzenden'
         },
-        jobs : {
+        jobs: {
             title: 'Vacatures',
             subtitle: 'Werk met ons',
             exciting_adventure: 'We beginnen aan een van de spannendste digitale avonturen ooit en we zijn op zoek naar getalenteerde mensen die met ons mee willen!',
@@ -193,7 +193,7 @@ export const messages = {
             need_your_help: 'Als je gelooft in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> en je bent goed in wat je doet, dan hebben wij jouw hulp nodig!',
             send_cv: 'Stuur je CV naar  <a\n' +
             '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
-            look_forward : 'We kijken ernaar uit om je te ontmoeten!',
+            look_forward: 'We kijken ernaar uit om je te ontmoeten!',
             colleagues: 'Met wie ga je samenwerken?',
             meet_the_team: 'Ontmoet het team.'
         },
@@ -243,34 +243,9 @@ export const messages = {
             contact_us_2: 'Neem contact met ons op',
             more_questions: 'Nog een vraag?',
             send_us_message: 'Stuur ons een bericht',
-            is_distributed: 'Waarom is Openbook niet gedecentraliseerd?',
-            why_not_decentralised: 'Waarom is Openbook niet gedecentraliseerd?',
-            why_not_decentralised_ans: '<p>\n' +
-            '                        Gedecentraliseerde systemen zijn ongelooflijk gecompliceerd. Bijvoorbeeld het uitrollen van updates (beveiligingsupdates / verbeteringen inbegrepen), \n' +
-            '                        compatibiliteit met meerdere versies behouden (bijvoorbeeld bij het uitrollen van een functie die niet achterwaarts compatibel is) \n' +
-            '                        en het bijhouden, wijzigen of verwijderen van gebruikersinformatie van de knopen (vrijwel onmogelijk om te garanderen). \n' +
-            '                    </p>\n' +
-            '\n' +
-            '                    <p>Het is een enorme uitdaging op zich om een systeem te ontwikkelen dat al deze problemen aanpakt. Het kan jaren van onderzoek en ontwikkeling duren.</p>\n' +
-            '\n' +
-            '                        <p>De softwarereuzen groeien in een ongelooflijk tempo en verpletteren of kopen elk mogelijk concurrerend competent idee op.\n' +
-            '                            Initiatieven voor decentralisatie van sociale media maken, in alle eerlijkheid, geen schijn van kans. </p>\n' +
-            '\n' +
-            '                    <p>Terwijl ze zich richten op het bouwen van revolutionaire technologieën en manieren om de\n' +
-            '                        problemen met het decentralisatiesysteem op te lossen, maken echte gebruikers van dergelijke systemen (mensen met een niet-technische achtergrond) zich weinig weinig\n' +
-            '                        om dat aspect van het product. Ze geven om de ervaring, de functies, het gebruiksgemak en \n' +
-            '                        het ontwerp. Zodra deze initiatieven de uitdagingen voor decentralisatie oplossen, zullen ze vele lichtjaren\n' +
-            '                        verwijderd zijn van de functies die softwarereuzen dan zullen hebben. Het zou allemaal voor niets zijn geweest.</p>\n' +
-            '\n' +
-            '                    <p>We pakken het probleem net andersom aan. We zullen bestaande technologieën gebruiken om niet alleen een product te bouwen ' +
-            'dat concurreert met de softwarereuzen, maar ze verslaat in de aspecten waar het grote publiek om geeft.</p>\n' +
-            '\n' +
-            '                    <p>Als we erin slagen om het defacto sociale netwerk te worden (dat zou op dat moment al een enorme verbetering zijn\n' +
-            '                        ten opzichte van bestaande netwerken met betrekking tot transparantie, privacy en beveiliging), met die hoeveelheid'  +
-            '                        gebruikers en het publieke belang, dan zouden wij tijd en geld hebben om de slimste koppen in tech te kunnen veroorloven om\n' +
-                '                        decentralisatie strategieën te onderzoeken.</p>\n' +
-            '\n' +
-            '                    <p>Stel je voor dat we hier miljoenen in zouden kunnen investeren! Wat een verschil zou dat maken.</p>',
+            is_distributed: 'Zal Openbook gedecentraliseerd zijn?',
+            why_not_decentralised: 'Zal Openbook gedecentraliseerd zijn?',
+            why_not_decentralised_ans: '<p>Uiteindelijk willen wij daar komen. We kijken naar de aanpak van <a href="https://solid.mit.edu/" target="_blank" rel="noopener noreferrer">Solid MIT</a> (van Tim Berners Lee) en we zijn er tot nu toe erg blij mee. </p> <p>Onze eerste versies, zullen echter gecentralizeerd zijn. </p> <p>Wij zullen dit doen om dat het dan gemakkelijker is om de focus te leggen op de innovatie van functionaliteiten, en de gebruikers ervaring van ons platform. Uitendelijk zal dit de doorslag geven of wij genoeg gebruikers krijgen om de strijd aan te gaan met bestaande social media.</p> <p>Als wij hierin slagen dan zijn de mogelijkheden, met betrekking tot decentralisatie, eindeloos!</p>'
         },
         press: {
             we: 'Wij',

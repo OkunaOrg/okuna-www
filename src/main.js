@@ -2,7 +2,7 @@ import Vue from 'vue'
 import Buefy from 'buefy'
 import VueScrollTo from 'vue-scrollto';
 import VeeValidate from 'vee-validate';
-
+import SocialSharing from 'vue-social-sharing';
 
 import App from './App.vue'
 import router from './router'
@@ -38,6 +38,8 @@ Raven.config('https://2bc7c06c27df4f2f9a612cfdd8548a72@sentry.io/1212325').insta
 
 
 Raven.context(function () {
+    Vue.use(SocialSharing);
+
     Vue.use(Buefy, {
         defaultIconPack: 'fa'
     });

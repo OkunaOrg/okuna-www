@@ -181,19 +181,20 @@
 </style>
 
 <script>
-    import ObSocialShare from "@/components/social-share/social-share";
     import ObPets from "./components/pets";
+    import ObSocialSharerModal from "../../components/scroll-hud/components/social-sharer/components/social-sharer-modal.vue";
 
     export default {
-        components: {ObPets},
+        components: {
+            ObPets},
         name: 'ob-faq',
         methods: {
             onUserWantsToShare() {
                 this.openShareModal();
             },
             openShareModal() {
-                this.$modal.open({
-                    component: ObSocialShare
+               this.$modal.open({
+                    component: ObSocialSharerModal
                 })
             }
         }
