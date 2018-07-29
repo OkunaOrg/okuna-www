@@ -275,7 +275,7 @@ export const messages = {
             more_questions: 'Have another question?',
             send_us_message: 'Send us a message',
             why_not_decentralised: 'Will Openbook be decentralised?',
-            why_not_decentralised_ans: '<p>We want to get there eventually. We’re looking into <a href="https://solid.mit.edu/" target="_blank" rel="noopener noreferrer">Solid MIT approach</a> (The one from Tim Berners Lee) and we’re very pleased with it so far. </p> <p>Our first versions will however be centralised. </p> <p>We do this because it’s then easier to focus on innovating in the product features and overall user experience. These things will determine wether we’ll reach the user base necessary to take on existing social networks. </p> <p>If we succeed at this, sky’s the limit into what we can do in regards to decentralisation!</p>'
+            why_not_decentralised_ans: '<p>We want to get there eventually. We’re looking into <a href="https://solid.mit.edu/" target="_blank" rel="noopener noreferrer">Solid MIT approach</a> (The one from Tim Berners Lee) and we’re very pleased with it so far. </p> <p>Our first versions will however be centralised. </p> <p>We do this because it’s then easier to focus on innovating in the product features and overall user experience. These things will determine whether we’ll reach the user base necessary to take on existing social networks. </p> <p>If we succeed at this, sky’s the limit into what we can do in regards to decentralisation!</p>'
         },
         press: {
             we: 'We',
