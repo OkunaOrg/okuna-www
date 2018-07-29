@@ -4,7 +4,8 @@ export default {
     bind(element) {
         element.innerHTML = twemoji.parse(element.innerHTML,{
             folder: 'svg',
-            ext: '.svg'
+            ext: '.svg',
+            base: '/'
         });
     }
 }

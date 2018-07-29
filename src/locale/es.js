@@ -256,6 +256,14 @@ export const messages = {
             why_not_decentralised: '¿Openbook será descentralizada?',
             why_not_decentralised_ans: '<p>Queremos llegar allí eventualmente. Estamos estudiando el trabajo de <a href="https://solid.mit.edu/" target="_blank" rel="noopener noreferrer">Solid MIT</a> (El proyecto de Tim Berners Lee) y nos está gustando hasta ahora. </p> <p>Sin embargo, nuestras primeras versiones estarán centralizadas. </p> <p>Hacemos esto porque así es más fácil enfocarsnos en innovar en las características del producto y en la experiencia general del usuario. Estas son las cosas que determinarán si alcanzaremos la base de usuarios necesaria para competir con las redes sociales existentes.</p> <p>¡Si tenemos éxito en esto, el cielo es el límite en lo que podemos hacer con respecto a la descentralización!</p>'
         },
+        hud: {
+            share: 'Compartir',
+            share_fb: 'Compartir en Facebook',
+            share_twitter: 'Compartir en Twitter',
+            share_email: 'Enviar por e-mail',
+            share_linkedin: 'Compartir en LinkedIn',
+            share_wa: 'Compartir en Whatsapp'
+        },
         press: {
             we: 'Openbook',
             press: 'Prensa',

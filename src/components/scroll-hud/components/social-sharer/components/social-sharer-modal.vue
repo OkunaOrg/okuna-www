@@ -14,7 +14,7 @@
                             <i class="fab fa-twitter"></i>
                         </span>
                         <span>
-                                Share on Twitter
+                                {{ $t('hud.share_twitter') }}
                         </span>
                     </button>
                 </network>
@@ -24,7 +24,7 @@
                             <i class="fab fa-facebook-f"></i>
                         </span>
                         <span>
-                                Share on Facebook
+                                {{ $t('hud.share_fb') }}
                         </span>
                     </button>
                 </network>
@@ -34,7 +34,7 @@
                             <i class="fab fa-linkedin-in"></i>
                         </span>
                         <span>
-                                Share on LinkedIn
+                                {{ $t('hud.share_linkedin') }}
                         </span>
                     </button>
                 </network>
@@ -44,7 +44,7 @@
                             <i class="fab fa-whatsapp"></i>
                         </span>
                         <span>
-                                Share on Whatsapp
+                                {{ $t('hud.share_wa') }}
                         </span>
                     </button>
                 </network>
@@ -54,7 +54,7 @@
                             <i class="fa fa-envelope"></i>
                         </span>
                         <span>
-                                Send e-mail
+                                {{ $t('hud.share_email') }}
                         </span>
                     </button>
                 </network>

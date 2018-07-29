@@ -130,6 +130,14 @@ export const messages = {
             made_with: 'Made with ',
             in_europe: ' in Europe'
         },
+        hud: {
+            share: 'Share',
+            share_fb: 'Share on Facebook',
+            share_twitter: 'Share on Twitter',
+            share_email: 'Send e-mail',
+            share_linkedin: 'Share on LinkedIn',
+            share_wa: 'Share on Whatsapp'
+        },
         about_us: {
             title: 'About us',
             subtitle: 'We want to build a tool for <span class="has-text-primary">good</span>.',
