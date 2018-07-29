@@ -5,7 +5,7 @@
             <i class="fas fa-share-alt"></i>
         </span>
             <span>
-            Share
+            {{ $t('hud.share') }}
         </span>
         </button>
     </div>
@@ -37,6 +37,7 @@
             },
             openShareModal() {
                 this.$modal.open({
+                    parent: this,
                     component: obSocialSharerModal
                 })
             }
