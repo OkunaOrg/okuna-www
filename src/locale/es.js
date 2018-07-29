@@ -253,33 +253,8 @@ export const messages = {
             contact_us_2: 'Contactanos!',
             more_questions: 'Tienes otra pregunta?',
             send_us_message: 'Mandanos un mensaje!',
-            why_not_decentralised: '¿Por qué Openbook no es descentralizado?',
-            why_not_decentralised_ans: '<p>\n' +
-            '                        Los sistemas descentralizados son increíblemente complicados. Por ejemplo, implementar actualizaciones (actualizaciones de seguridad / mejoras / nuevas cosas),\n' +
-            '                        mantener compatibilidad de versiones cruzadas (por ejemplo, cuando se implementa una característica que, por diseño, no es compatible con versiones anteriores)\n' +
-            '                        y rastrear, modificar o borrar la información del usuario a través de los nodos (imposible de garantizar).\n' +
-            '                    </p>\n' +
-            '\n' +
-            '                    <p>Es un gran desafío en sí mismo desarrollar un sistema que solucione todos estos problemas. Podría llevar años de investigación y desarrollo.</p>\n' +
-            '\n' +
-            '                        <p>Los gigantes del software están creciendo a un ritmo increíble, aplastando o comprando cualquier signo de competencia.\n' +
-            '                            Iniciativas para la descentralización de las redes sociales con toda honestidad y tristeza, no tienen ninguna posibilidad de ser exitosas.</p>\n' +
-            '\n' +
-            '                    <p>Mientras se enfocan en construir tecnologías revolucionarias y formas de solucionar los\n' +
-            '                        problemas de sistema descentralizados, los usuarios reales de tales plataformas (gente con un fondo no tecnológico) les interesa poco\n' +
-            '                        ese aspecto del producto. Les importa la experiencia, la funcionalidad, la facilidad de uso,\n' +
-            '                        y el diseño. Cuando estas iniciativas solucionen los desafíos de la descentralización, estaraán a miles de años luz\n' +
-            '                        de la funcionalidad que los gigantes del software tendrán y todo habra sido para nada.</p>\n' +
-            '\n' +
-            '                    <p>Estamos abordando el problema al revés. Utilizaremos las tecnologías existentes para construir no solo un producto ' +
-            'que compita con los gigantes del software pero que los supere en los aspectos que le interesan al público en general.</p>\n' +
-            '\n' +
-            '                    <p>Si logramos convertirnos en la red social de facto (que en ese momento ya sería una \n' +
-            '                        gran mejora respecto a las redes social actuales en cuanto a transparencia, privacidad y seguridad), con esa cantidad\n' +
-            '                        de usuarios y de interés público, podríamos permitirnos el tiempo y las mejores y más brillantes mentes en tecnología para\n' +
-            '                        investigar mejores estrategias de descentralización.</p>\n' +
-            '\n' +
-            '                    <p>¡Imagina si pudiéramos invertir millones en esto! Qué diferencia haría.</p>'
+            why_not_decentralised: '¿Openbook será descentralizada?',
+            why_not_decentralised_ans: '<p>Queremos llegar allí eventualmente. Estamos estudiando el trabajo de <a href="https://solid.mit.edu/" target="_blank" rel="noopener noreferrer">Solid MIT</a> (El proyecto de Tim Berners Lee) y nos está gustando hasta ahora. </p> <p>Sin embargo, nuestras primeras versiones estarán centralizadas. </p> <p>Hacemos esto porque así es más fácil enfocarsnos en innovar en las características del producto y en la experiencia general del usuario. Estas son las cosas que determinarán si alcanzaremos la base de usuarios necesaria para competir con las redes sociales existentes.</p> <p>¡Si tenemos éxito en esto, el cielo es el límite en lo que podemos hacer con respecto a la descentralización!</p>'
         },
         press: {
             we: 'Openbook',
