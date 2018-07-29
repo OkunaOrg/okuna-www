@@ -31,7 +31,6 @@
                         position: this.$t('team_members.joel_title'),
                         photo: joelPhoto,
                         links: {
-                            website: 'https://www.lifenautjoe.com',
                             github: 'https://github.com/lifenautjoe',
                             instagram: 'https://instagram.com/lifenautjoe',
                             linkedin: 'https://www.linkedin.com/in/lifenautjoe',
