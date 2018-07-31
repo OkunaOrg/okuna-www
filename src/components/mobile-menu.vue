@@ -379,6 +379,10 @@
 </template>
 
 <style lang="scss">
+    .html-overflow-hidden {
+        overflow: hidden;
+    }
+
     .mobile-menu {
         overflow: hidden;
         z-index: 999;
@@ -397,6 +401,12 @@
 
         .column {
             padding: 0.65rem;
+        }
+
+        .hero-body {
+            .container {
+                height: 400px;
+            }
         }
 
         @media (min-width: 1090px) {
@@ -488,6 +498,7 @@
         },
         methods: {
             onWantsToOpenMenu() {
+                document.getElementsByTagName('html')[0].className += ' html-overflow-hidden';
                 this.openMenu();
             },
             onWantsToCloseMenu() {
@@ -497,6 +508,7 @@
                 this.isOpen = true;
             },
             closeMenu() {
+                document.getElementsByTagName('html')[0].className = 'fontawesome-i2svg-active fontawesome-i2svg-complete';
                 this.isOpen = false;
             },
             changeLocale(locale) {
