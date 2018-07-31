@@ -37,6 +37,10 @@ export const messages = {
             description:
                 'Szabd személyre a hálózatot, úgy ahogy akarod. Légy különb, légy önmagad!'
         },
+        currency: {
+            title: 'Etikai és fenntartható bevételi modell',
+            description: 'Bevételi modellünk a <strong> Tip </strong> nevű digitális pénznemre épül. Használják a tartalomkészítők támogatását, a kiadók feliratkozását, az áruk és szolgáltatások megvásárlását és eladását, és így tovább!'
+        },
         good_for_planet: {
             title: 'Jó a bolygó számára',
             description:
@@ -466,26 +470,27 @@ export const messages = {
             additionally: 'Ezenkívül, a FoundersPledge-el való partnerkapcsolatunk által,',
             this_is_what_drove: 'Ez vezetett minket az Openbook létrehozásához. A felhasználóink adatainak védelme és biztonsága minig is a dolgunk középpontjában fog állni. Nem fogjuk nyomon követni tevékenységeidet és nem fogjuk bevételszerzésre használni vagy megosztani az adataidat a te kifejezett és tájékozott beleegyezésed nélkül.',
             your_public_profile: '\'A nyilvános profilod a következőket tartalmazza: név, profilkép, korosztály, nem, nyelv, ország és',
-            explicit_n_informd: '',
-            only_request_the: '',
-            have_the_exact: '',
-            delete_all_your: '',
-            have_an_emergency: '',
-            instead_our_revenue: '',
-            migrating_to_ob: '',
-            for_every_transaction: '',
-            you_can_read_it: '',
-            wifi_hotspots_app: '',
-            continue_with_ob: '',
-            in_order_to_songipy: '',
-            you_would_like: '',
-            it_would_also: '',
-            open_image: '',
-            open_list: '',
-            male: '',
-            got_it: '',
-            in_the_prototype: '',
-            in_non_prototype: ''
+            explicit_n_informd: 'Közvetlen és tájékoztatott beleegyezés',
+            only_request_the: 'csak a <strong>szükséges</strong> adatokat kérje',
+            have_the_exact: '<strong>mindig</strong> biztosítsa számodra az adataid <strong>pontos</strong> helyét',
+            delete_all_your: 'törölje az <strong>összes<\\/strong> adatodat ha visszavonod az engedélyt',
+            have_an_emergency: 'legyen egy <strong>vészhelyzeti terve</strong> adatvesztés esetén és <strong>értesítsen minket/téged</strong> amint az megtörténik',
+            instead_our_revenue: 'Ehelyett a bevételi modellünk egy digitális pénznemre, a <strong>Tip</strong>re épül. Ezeket fel lehet használni javak és szolgáltatások vásárlására és eladására, tartalomkészítők támogatására, kiadókra való feliratkozásra, jacuzzik megvásárlására, stb!',
+            migrating_to_ob: 'Az Openbook-ra való áttérés pofonegyszerű a drag-and-drop rendszerünknek köszönhetően. Csak töltsd le az adataidat a régi közösségi hálózatról<sup>1</sup> és hozd át az Openbook-ra. Shazam!',
+            for_every_transaction: 'A hálózaton belül folytatott összes Tips tranzakció során egy kis rész felénk fog menni. Az adományok kivételt képeznek, ott semmit sem veszünk el.',
+            you_can_read_it: 'Erről többet olvashatsz <a class="has-text-underlined" href="https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d" rel="noreferrer noopener" target="_blank">ebben a cikkben (~6 perc olvasási idő)</a>',
+            wifi_hotspots_app: '<strong>WiFi Hotspots App</strong> megkapja:',
+            continue_with_ob: 'Folytatás az <strong>Open</strong>book-kal',
+            in_order_to_songipy: 'A folytatáshoz, a <strong>Songipy</strong> alkalmazásnak szükége lesz a következőkre:',
+            you_would_like: ', meg szeretnél osztani',
+            it_would_also: ', szeretne a következőkhöz is hozzáférni:',
+            open_image: 'Kép megnyitása',
+            open_list: 'Lista megnyitása',
+            male: 'férfi',
+            got_it: 'Értettem!',
+            in_the_prototype: '<div class="content">\n<p>A nem-prototípus verzióban ez át fog irányítani egy oldalra, ahol több részletet találhatsz a biztonságos alkalmazásokról.</p>\n<p>Röviden, a biztonságos alkalmazások olyan alkalmazások, amelyek nem élnek vissza az adatmegosztási rendszerrel, megengedik, hogy kérvényezd az adataid törlését a rendszerükből és mindig tudják, hol vannak az adataid.</p>\n<p>Erről további információkat az alábbiakban olvashatsz.</p></div>',
+            in_non_prototype: 'A nem-prototípus verzióban ez meg fog nyitni egy teljes listát a következő adataiddal: {0}',
+            and_why_wifi: 'És miért is lenne szüksége egy WiFi hotspotnak ezekre a személyes adatokra? Gyorsabb WiFi-t fog nyújtani a nemet vagy korod alapján? És mi fog történni majd az adataiddal miután a birtokukba kerültek?'
         }
     }
 }

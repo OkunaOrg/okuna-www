@@ -32,6 +32,10 @@ export const messages = {
             title: 'Personnel',
             description: 'Personnaliser le reseau à votre façon. Soyez différent, soyez vous-même!'
         },
+        currency: {
+            title: 'Modèle de revenu éthique et durable',
+            description: 'Notre modèle de revenus repose sur une devise numérique appelée <strong> Conseil </strong>. Il est utilisé pour soutenir les créateurs de contenu, s\'abonner aux éditeurs, acheter et vendre des biens et services et plus encore!'
+        },
         good_for_planet : {
             title: 'Bon pour la planète',
             description: 'En partenariat avec <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, nous allons transmettre 30% de notre revenu vers des projets pour l\'éducation, désinfection, la prévention du réchauffement climatique et plus encore.'
@@ -109,7 +113,8 @@ export const messages = {
             contact_us: 'Contactez-nous',
             jobs: 'Offres d\'emploi',
             faq: 'FAQ',
-            press: 'Presse'
+            press: 'Presse',
+            language: 'Langue'
         },
         footer: {
             report_vulnerability: 'Signaler une vulnerablité',
@@ -451,7 +456,7 @@ export const messages = {
             got_it: 'Compris !',
             in_the_prototype: '<div class=\'content\'>\n<p>Dans la version non-prototype, cela vous redirigera vers une page contenant des informations détaillées sur les applications sécurisées.<\/p>\n<p>En bref, les applications sécurisées sont des applications qui n\'abusent pas du système de partage de données, permettent la suppression de vos données de leurs systèmes et savent à tout moment où se trouvent vos données.</p>\n<p>Plus d\'informations à ce sujet ci-dessous.</p></div>',
             in_non_prototype: 'Dans la version non-prototype, cela ouvrirait une liste avec la liste complète de vos {0}.',
-            and_why_wifi: ''
+            and_why_wifi: 'Et pourquoi un hotspot Wi-Fi voudrait-il recevoir toutes ces informations de votre part ? Sera-t-il plus rapide en fonction de votre sexe ou de votre âge ? Et qu\'adviendra-t-il de vos données une fois qu\'ils les auront ?'
         }
     }
 };
