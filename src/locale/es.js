@@ -262,7 +262,10 @@ export const messages = {
             share_twitter: 'Compartir en Twitter',
             share_email: 'Enviar por e-mail',
             share_linkedin: 'Compartir en LinkedIn',
-            share_wa: 'Compartir en Whatsapp'
+            share_wa: 'Compartir en Whatsapp',
+            share_title: 'Openbook. La red social honesta, transparente, divertida y sin anuncios!',
+            share_description: 'La red social honesta, transparente, divertida y sin anuncios!',
+            share_quote: 'Checa y apoya Openbook! La red social en Kickstarter para contruir una una nueva red social honesta, divertida y transparente. Es tiempo! http://kck.st/2zLovw7'
         },
         press: {
             we: 'Openbook',
