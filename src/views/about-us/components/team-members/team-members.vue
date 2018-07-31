@@ -11,9 +11,9 @@
     import joelPhoto from './assets/profile-picture-joel-min.png';
     import jayaPhoto from './assets/profile-picture-jaya-min.png';
     import martijnPhoto from './assets/profile-picture-martijn-min.jpg';
-    import philPhoto from './assets/profile-picture-phil-min.png';
+    import philPhoto from './assets/phil-website-min.jpg';
     import vincentPhoto from './assets/profile-picture-vincent-min.png';
-    import basPhoto from './assets/profile-picture-bas-min.jpg';
+    import basPhoto from './assets/bas-website-min.png';
     import lambrechtPhoto from './assets/profile-picture-lambrecht-min.png';
     import shantanuPhoto from './assets/profile-picture-shantanu-min.png';
     import nathaliePhoto from './assets/profile-picture-nathalie-min.png';
@@ -31,7 +31,6 @@
                         position: this.$t('team_members.joel_title'),
                         photo: joelPhoto,
                         links: {
-                            website: 'https://www.lifenautjoe.com',
                             github: 'https://github.com/lifenautjoe',
                             instagram: 'https://instagram.com/lifenautjoe',
                             linkedin: 'https://www.linkedin.com/in/lifenautjoe',

@@ -135,7 +135,8 @@
             },
             changeLocale(locale) {
                 const path = this.$router.currentRoute.path.split('/')[2];
-                this.$router.push(`/${locale}/${path}`);
+                // Temporal fix, $router.go doesn't work for some reason.
+                window.location.href = `/${locale}/${path}`;
             }
         }
     }

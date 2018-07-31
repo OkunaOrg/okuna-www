@@ -2,9 +2,10 @@ import twemoji from 'twemoji';
 
 export default {
     bind(element) {
-        element.innerHTML = twemoji.parse(element.innerHTML,{
+        element.innerHTML = twemoji.parse(element.innerText,{
             folder: 'svg',
-            ext: '.svg'
+            ext: '.svg',
+            base: '/'
         });
     }
 }
