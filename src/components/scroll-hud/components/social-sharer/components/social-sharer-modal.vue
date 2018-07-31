@@ -1,9 +1,9 @@
 <template>
     <div>
         <social-sharing url="https://open-book.org/"
-                        title="Openbook. The honest, transparent and awesome social network!"
-                        description="The honest, transparent and awesome social network!"
-                        quote="Check out and support Openbook! The Kickstarter project to build a new, honest, fun and transparent social network! It's time! http://kck.st/2zLovw7"
+                        :title="$t('hud.share_title')"
+                        :description="$t('hud.share_description')"
+                        :quote="$t('hud.share_quote')"
                         hashtags="openbook,socialnetwork,privacy"
                         twitter-user="Openbook_org"
                         inline-template>
