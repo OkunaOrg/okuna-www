@@ -18,7 +18,7 @@ export const messages = {
         },
         secure: {
             title: 'Veilig door het ontwerp',
-            description: 'De meeste teamleden hebben een informatie beveiligings achtergrond. Veiligheid, zit vanaf net begin, ingebakken in de netwerk.'
+            description: 'De meeste teamleden hebben een achtergrond in informatiebeveiliging. Veiligheid zit vanaf het begin bij ons ingebakken.'
         },
         easy: {
             title: 'Appeltje-eitje',

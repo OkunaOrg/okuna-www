@@ -19,8 +19,7 @@ export const messages = {
         },
         secure: {
             title: 'Biztonságos',
-            description:
-                'Kemény és szigorú biztonsági irányelveinkkel biztosítani tudjuk, hogy az adataid sose kerülnek rossz kezekbe. Ráadásul egy kriptográfiai pionír is van a csapatunkban. End-to-end titkosítást, valaki?'
+            description: 'A csapat tagjainak többsége információbiztonsági kontextusból származik. A biztonságot a kezdetektől fogva biztonságossá tettük.'
         },
         easy: {
             title: 'Gyerekjáték',

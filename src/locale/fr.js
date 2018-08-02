@@ -18,14 +18,14 @@ export const messages = {
         },
         secure : {
             title: 'Sécurisé par la conception',
-            description: 'La plupart des membres de notre équipe proviennent d\'un contexte de sécurité de l\'information. Nous mettons la sécurité dès le départ.'
+            description: 'La plupart des membres de notre équipe viennent du domaine de la sécurité informatique. La sécurité est mise en œuvre dès le début.'
         },
         easy : {
             title: 'Un jeu d\'enfant',
             description: 'Simple à l\'utilisation et ouvert à la migration. Faites glisser les archives de vos anciens réseaux sociaux et déposez-les sur Openbook pour importer toutes vos photos, vidéos, conversations et plus encore!'
         },
         fun : {
-            title: 'Fun!',
+            title: 'Amusement!',
             description: 'Nous remettons en valeur l\'aspect social d\'un réseau social et nous attachons de nouveau de l\'importance aux interactions entre vous et vos proches.'
         },
         personal : {
@@ -56,14 +56,14 @@ export const messages = {
             phil_quote: 'Openbook est une solution pour le bien; un refuge social où la communauté d\'utilisateurs est positivement habilitée à partager données et informations de façon sécurisée.'
         },
         splash_hero: {
-            hello_world: 'Hello <span id="hello-subject">world!</span>',
-            world: 'monde',
-            friends: 'amis',
-            family: 'famile',
+            hello_world: 'Bonjour <span id="hello-subject">le monde!</span>',
+            world: 'le monde',
+            friends: 'les amis',
+            family: 'la famille',
             grandma: 'grand-mère',
-            reddit: 'reddit',
+            reddit: 'le reddit',
             we_are_ob: 'Nous sommes <strong>Open</strong>book.',
-            kickstarter: 'Le réseau social open source, respecteux de la vie privée, fun et honnête\n' +
+            kickstarter: 'Le réseau social open source, respectueux de la vie privée, amusement et honnête\n' +
             '    qui contribue à rendre le monde meilleur</strong>.',
             share: 'Partagez',
             notify_me: 'Soutenez-nous sur Kickstarter'
@@ -326,7 +326,7 @@ export const messages = {
             Safe_Appli: 'Applications sécurisées',
             Privacy_by: 'Confidentialité par défaut',
             _Easy: '4. Facile.',
-            _Fun: '5. Fun.',
+            _Fun: '5. Amusement.',
             _Our_Rev: '6. Nos revenus.',
             The_reason: 'La raison pour laquelle nous construisons encore un autre réseau social.',
             Social_net: 'Les réseaux sociaux sont géniaux.',
