@@ -17,8 +17,8 @@ export const messages = {
             description: 'Nous ne surveillons et ne suivons aucune de vos activités. Surfez le réseau en paix d\'esprit.'
         },
         secure : {
-            title: 'Securisé',
-            description: 'Nous assurons la protection de vos données avec notre politique de sécurité stricte et sévère, pour pas qu\'elles ne tombent entre de mauvaises mains.'
+            title: 'Sécurisé par la conception',
+            description: 'La plupart des membres de notre équipe proviennent d\'un contexte de sécurité de l\'information. Nous mettons la sécurité dès le départ.'
         },
         easy : {
             title: 'Un jeu d\'enfant',

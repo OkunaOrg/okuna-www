@@ -17,8 +17,8 @@ export const messages = {
             description: 'We don\'t monitor nor track anything you do. Surf the network with absolute peace of mind!'
         },
         secure: {
-            title: 'Secure',
-            description: 'With a tough and strict security policy, we make sure your data doesn\'t fall into the wrong hands. Plus, we have a cryptography pioneer in our team. End-to-end encryption anyone?'
+            title: 'Secure by design',
+            description: 'Most of our team members come from an information security background. We are baking in security, right from the start.'
         },
         easy: {
             title: 'Easy-peasy',
