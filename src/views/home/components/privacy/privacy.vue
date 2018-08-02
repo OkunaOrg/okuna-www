@@ -1,7 +1,7 @@
 <template>
     <section class="section">
         <div class="container">
-            <div class="columns">
+            <div class="columns is-height-100">
                 <div class="column">
                     <div class="columns is-vcentered is-centered">
                         <div class="column is-narrow content is-medium privacy-text">
