@@ -2,7 +2,7 @@
     <section class="section">
         <div>
             <div class="container">
-                <div class="columns has-reverse-row-order-mobile">
+                <div class="columns has-reverse-row-order-mobile is-height-100">
                     <div class="column">
                         <div class="columns is-centered is-vcentered is-height-100 is-mobile padding-top-4x-mobile">
                             <div class="column is-narrow">

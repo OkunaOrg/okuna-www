@@ -17,8 +17,8 @@ export const messages = {
             description: 'We monitoren en tracken niets van wat je doet. Surf op het netwerk met absolute gemoedsrust!'
         },
         secure: {
-            title: 'Veilig',
-            description: 'Met een streng en strikt veiligheidsbeleid, zorgen wij ervoor dat jouw data niet in de verkeerde handen valt.'
+            title: 'Veilig door het ontwerp',
+            description: 'De meeste teamleden hebben een achtergrond in informatiebeveiliging. Veiligheid zit vanaf het begin bij ons ingebakken.'
         },
         easy: {
             title: 'Appeltje-eitje',

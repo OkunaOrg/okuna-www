@@ -1,7 +1,7 @@
 <template>
     <section class="section">
         <div class="container">
-            <div class="columns has-reverse-row-order-mobile">
+            <div class="columns has-reverse-row-order-mobile is-height-100">
                 <div class="column padding-top-4x-mobile">
                     <div class="columns is-centered is-vcentered is-height-100 is-mobile">
                         <div class="column is-narrow">
