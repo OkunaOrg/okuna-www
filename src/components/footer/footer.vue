@@ -79,7 +79,7 @@
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">
-                                                <i class="fab fa-github"></i>
+                                                <i class="fab fa-gitlab"></i>
                                             </span>
                                         </div>
                                         <div class="column">
