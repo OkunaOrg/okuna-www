@@ -251,9 +251,9 @@ export const messages = {
             share_website: 'Partagez le site sur les réseaux sociaux',
             talk_to_friends: 'Parlez de nous avec vos amis et votre famille',
             improve_website: 'Si vous êtes un développeur, vous pouvez nous aider à<a\n' +
-            '                            href="https://github.com/OpenBookOrg/openbook-org-www"\n' +
+            '                            href="https://git.open-book.org/"\n' +
             '                            target="_blank" rel="noopener noreferrer">améliorer notre site web</a>.',
-            let_us_know: 'Si vous avez une idée pour le réseau, vous pouvez <a href="https://github.com/OpenBookOrg/ideas"\n' +
+            let_us_know: 'Si vous avez une idée pour le réseau, vous pouvez <a href="/fr/contact-us"\n' +
             '                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.',
             public_figure: 'Si vous êtes un personnage public et que vous souhaitez devenir un ambassadeur',
             contact_us: 'contactez-nous',

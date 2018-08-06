@@ -75,7 +75,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://github.com/OpenBookOrg" class="is-flex is-vcentered" target="_blank" rel="noopener noreferrer">
+                                <a href="https://git.open-book.org" class="is-flex is-vcentered" target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">

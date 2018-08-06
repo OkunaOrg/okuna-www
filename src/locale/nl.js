@@ -230,9 +230,9 @@ export const messages = {
             share_website: 'Deel deze website op social media.',
             talk_to_friends: 'Praat over ons met je familie en vrienden',
             improve_website: 'Als je een ontwikkelaar bent, kan je ons helpen<a\n' +
-            '                            href="https://github.com/OpenBookOrg/openbook-org-www"\n' +
+            '                            href="https://git.open-book.org"\n' +
             '                            target="_blank" rel="noopener noreferrer">verbeter onze website</a>.',
-            let_us_know: 'Als je een idee hebt voor het netwerk, kan je <a href="https://github.com/OpenBookOrg/ideas"\n' +
+            let_us_know: 'Als je een idee hebt voor het netwerk, kan je <a href="/nl/contact-us"\n' +
             '                                                                            target="_blank" rel="noopener noreferrer">het ons laten weten</a>.',
             public_figure: 'Als je een publiek figuur bent, en een ambassadeur wilt worden,',
             contact_us: 'neem contact op',

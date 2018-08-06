@@ -303,7 +303,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://github.com/OpenBookOrg" class="is-flex is-vcentered"
+                                        <a href="https://git.open-book.org" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">

@@ -138,8 +138,8 @@ export const messages = {
             share_linkedin: 'Share on LinkedIn',
             share_wa: 'Share on Whatsapp',
             share_title: 'Openbook. The honest, transparent and awesome social network!',
-            share_description: 'Het eerlijke, transparante en geweldige sociale netwerk!',
-            share_quote: 'Het is tijd! Bekijk en steun Openbook!  Het Kickstarter-project om een nieuw, eerlijk, leuk en transparant sociaal netwerk te bouwen! http://kck.st/2zLovw7',
+            share_description: 'Openbook. The honest, transparent and awesome social network!',
+            share_quote: 'It\'s time! View and support Openbook! The Kickstarter project to build a new, honest, fun and transparent social network! http://kck.st/2zLovw7',
         },
         about_us: {
             title: 'About us',
@@ -272,9 +272,9 @@ export const messages = {
             donate: 'Donate to our Kickstarter campaign!',
             talk_to_friends: 'Talk to your friends and family about us',
             improve_website: 'If you\'re a developer, you can help us <a\n' +
-            '                            href="https://github.com/OpenBookOrg/openbook-org-www"\n' +
+            '                            href="https://git.open-book.org/"\n' +
             '                            target="_blank" rel="noopener noreferrer">improve our website</a>.',
-            let_us_know: 'If you have an idea for the network, you can <a href="https://github.com/OpenBookOrg/ideas"\n' +
+            let_us_know: 'If you have an idea for the network, you can <a href="/en/contact-us"\n' +
             '                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.',
             public_figure: 'If you\'re a public figure and would like to become an ambassador,',
             contact_us: 'contact us',

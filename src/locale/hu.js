@@ -307,9 +307,9 @@ export const messages = {
             share_website: 'Oszd meg a weboldalunkat a közösségi hálózatokon',
             talk_to_friends: 'Beszélj rólunk a családi és baráti körödben',
             improve_website:
-                'Ha fejlesztő vagy, segíthetsz a <a\n                            href=\'https://github.com/OpenBookOrg/openbook-org-www\'\n                            target=\'_blank\' rel=\'noopener noreferrer\'>weboldalunk jobbá tételében</a>.',
+                'Ha fejlesztő vagy, segíthetsz a <a\n                            href=\'https://git.open-book.org\'\n                            target=\'_blank\' rel=\'noopener noreferrer\'>weboldalunk jobbá tételében</a>.',
             let_us_know:
-                'Ha valamilyen ötleted van a hálózattal kapcsolatosan, <a href=\'https://github.com/OpenBookOrg/ideas\'\n                                                                            target=\'_blank\' rel=\'noopener noreferrer\'>oszd meg velünk</a>.',
+                'Ha valamilyen ötleted van a hálózattal kapcsolatosan, <a href=\'/hu/contact-us\'\n                                                                            target=\'_blank\' rel=\'noopener noreferrer\'>oszd meg velünk</a>.',
             public_figure:
                 'Ha egy híres személyiség vagy és nagykövet szeretnél lenni,',
             contact_us: 'lépj velünk kapcsolatba',
