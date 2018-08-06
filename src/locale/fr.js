@@ -254,7 +254,7 @@ export const messages = {
             '                            href="https://git.open-book.org/"\n' +
             '                            target="_blank" rel="noopener noreferrer">améliorer notre site web</a>.',
             let_us_know: 'Si vous avez une idée pour le réseau, vous pouvez <a href="/fr/contact-us"\n' +
-            '                                                                            target="_blank" rel="noopener noreferrer">nous le faire savoir.</a>.',
+            '                                                                            target="_blank" rel="noopener noreferrer">nous le faire savoir.</a>',
             public_figure: 'Si vous êtes un personnage public et que vous souhaitez devenir un ambassadeur',
             contact_us: 'contactez-nous',
             looking_for_job: 'Si vous cherchez un emploi et que vous croyez qu\'Openbook vous conviendrait parfaitement',
