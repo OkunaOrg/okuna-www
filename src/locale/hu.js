@@ -426,7 +426,7 @@ export const messages = {
             public_pro: 'nyilvános profil',
             friend_lis: 'ismerőslista',
             birthday: 'születésnap,',
-            likes: 'kedvelések',
+            likes_: 'kedvelések',
             and_: 'és',
             email_addr: 'e-mail cím',
             Edit_this: 'Szerkesztés',

@@ -392,7 +392,7 @@ export const messages = {
             public_pro: 'profil public',
             friend_lis: 'liste d\'amis',
             birthday: 'date de naissance,',
-            likes: 'likes',
+            likes_: 'likes',
             and_: 'et ',
             email_addr: 'adresse e-mail',
             Edit_this: 'Modifier ceci',
