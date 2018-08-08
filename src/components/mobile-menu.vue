@@ -278,6 +278,14 @@
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Français <i class="fas fa-check"></i></div>
                                     </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'de' }" v-on:click="changeLocale('de')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Deutsch <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'no' }" v-on:click="changeLocale('no')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Norsk <i class="fas fa-check"></i></div>
+                                    </li>
                                 </ul>
                             </div>
                         </b-collapse>
