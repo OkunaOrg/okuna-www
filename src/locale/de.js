@@ -10,15 +10,15 @@ export const messages = {
         },
         "honesty": {
             "title": "Ehrlich",
-            "description": "Der gesamte Quellcode ist frei verfügbar, sodass jeder ihn sehen, ändern und reproduzieren kann. Kein Platz für unangenehme Überraschungen."
+            "description": "Der gesamte Quellcode ist frei verfügbar, so dass jeder ihn sehen, ändern und reproduzieren kann. Kein Platz für unangenehme Überraschungen."
         },
         "privacy": {
             "title": "Datenschutzfreundlich",
-            "description": "Wir überwachen und verfolgen nichts, was du tust. Surfe beruhight in unserem Netzwerk!"
+            "description": "Wir überwachen und verfolgen nichts, was du tust. Surfe beruhigt in unserem Netzwerk!"
         },
         "secure": {
             "title": "Sicher",
-            "description": "Mit strikten Sicherheitsrichtlinien stellen wir sicher, dass deine Daten nicht in falsche Hände gelangen. Ausserdem haben wir einen Kryptographie-Pionier in unserem Team. Hat jemand nach End-to-End Verschlüsselung gefragt?"
+            "description": "Mit strikten Sicherheitsrichtlinien stellen wir sicher, dass deine Daten nicht in falsche Hände gelangen. Außerdem haben wir einen Kryptographie-Pionier in unserem Team. Hat jemand nach End-to-End Verschlüsselung gefragt?"
         },
         "easy": {
             "title": "Kinderleicht",
@@ -26,7 +26,7 @@ export const messages = {
         },
         "fun": {
             "title": "Spaß!",
-            "description": "Wir bringen das Soziale zurück ins soziale Netzwerk und geben dem Austausch mit Gleichgesinnten wieder einen Sinn."
+            "description": "Wir bringen das Soziale zurück ins Soziale Netzwerk und geben dem Austausch mit deinen Freunden und deiner Familie wieder einen Sinn."
         },
         "personal": {
             "title": "Persönlich",
@@ -38,32 +38,32 @@ export const messages = {
         },
         "ads_free": {
             "title": "100% werbefrei",
-            "description": "Unser Erlösmodell basiert nicht auf Werbung und wird es auch nie. Geniesse werbefreies Surfen für immer!"
+            "description": "Unser Geschäftsmodell basiert nicht auf Werbung und wird es auch nie. Geniesse werbefreies Surfen für immer!"
         },
         "currency": {
-            "title": "Ethisches und nachhaltiges Erlösmodell",
-            "description": "Unser Erlösmodell basiert auf einer digitalen Währung namens <strong>Tip<\/strong> . Es wird verwendet, um Content-Ersteller zu unterstützen, Publisher zu abonnieren, Waren und Dienstleistungen zu kaufen und zu verkaufen und vieles mehr!"
+            "title": "Ethisches und nachhaltiges Geschäftsmodell",
+            "description": "Unser Geschäftsmodell basiert auf einer digitalen Währung namens <strong>Tip<\/strong> . Sie wird verwendet, um Ersteller von Inhalten zu unterstützen, Publikationen zu abonnieren, Waren und Dienstleistungen zu kaufen und zu verkaufen und vieles mehr!"
         },
         "quotes": {
             "joel_name": "Joel Hernández",
             "joel_title": "Gründer von Openbook",
-            "joel_quote": "Ich war es leid, ein Zuschauer der Probleme zu sein, die die bestehenden sozialen Netzwerke mit sich brachten. Ich beschloss zu handeln, etwas anderes aufzubauen, etwas Besseres.",
+            "joel_quote": "Ich war es leid mir immer nur die Probleme anzusehen, die die bestehenden Sozialen Netzwerke mit sich brachten. Ich beschloss zu handeln, etwas anderes aufzubauen, etwas Besseres.",
             "vincent_name": "Vincent Ruijter",
             "vincent_title": "Ethischer Hacker",
             "vincent_quote": "Mit den aktuellen Netzwerken, die jeden Tag größer und größer werden, könnte Openbook die letzte echte Chance sein, etwas anderes zu bauen, etwas Ethisches, etwas Besseres.",
             "phil_name": "Jaya Baloo",
             "phil_title": "Experte für Informationssicherheit",
-            "phil_quote": "Openbook ist eine Lösung für das Gute, eine soziale Oase, in der die Benutzergemeinschaft positiv dazu ermächtigt ist, ihre Daten sicher auszutauschen."
+            "phil_quote": "Openbook ist eine Lösung für das Gute, eine soziale Oase, in der die Benutzergemeinschaft positiv dazu ermächtigt ist ihre Daten sicher auszutauschen."
         },
         "splash_hero": {
-            "hello_world": "Hallo, <span id=\"hello-subject\">Welt!<\/span>",
+            "hello_world": "Hallo <span id=\"hello-subject\">Welt!<\/span>",
             "world": "Welt",
             "friends": "Freunde",
             "family": "Familie",
             "grandma": "Oma",
             "reddit": "Reddit",
             "we_are_ob": "Wir sind <strong>Open<\/strong>book.",
-            "kickstarter": "Das Open-Source, datenschutzfreundliche, spassige und ehrliche soziale Netzwerk, das hilft, die Welt zu einem besseren Ort zu machen.",
+            "kickstarter": "Das open-source, datenschutzfreundliche, spassige und ehrliche soziale Netzwerk, das hilft, die Welt zu einem besseren Ort zu machen.",
             "share": "Teilen",
             "notify_me": "Unterstütze uns auf Kickstarter"
         },
@@ -81,11 +81,11 @@ export const messages = {
             "honest": "Ehrlich",
             "honest_desc": "Unser gesamter Quellcode ist frei und offen verfügbar für jeden, um ihn zu inspizieren, zu reproduzieren und zu ihm beizutragen. Keine unangenehmen Überraschungen.",
             "easy_to_migrate": "Einfach zu migrieren",
-            "easy_to_migrate_desc": "Wir stellen Ihnen Tools zur Verfügung, mit denen Sie alle Ihre bestehenden Daten in unser Netzwerk migrieren können.",
+            "easy_to_migrate_desc": "Wir stellen dir Tools zur Verfügung, mit denen du alle deine bestehenden Daten in unser Netzwerk migrieren kannst.",
             "future_proof": "Zukunftssicher",
-            "future_proof_desc": "Mit einem soliden und nützlichen Erlösmodell, das auf Peer-to-Peer-Transaktionen basiert, sind wir auf lange Sicht auf dem richtigen Weg.",
+            "future_proof_desc": "Mit einem soliden und nützlichen Geschäftsmodell, das auf Peer-to-Peer-Transaktionen basiert, sind wir auf lange Sicht auf dem richtigen Weg.",
             "modern_design": "Modern, schick, ethisch gestaltet.",
-            "modern_design_desc": "Aufgebaut mit den neuesten Technologien und einem Auge für Details und Ethik wie du es nirgendwo anders finden wirst.",
+            "modern_design_desc": "Gemacht mit den neuesten Technologien und einem Auge für Details und Ethik, wie du es nirgendwo anders finden wirst.",
             "good_for_planet": "Gut für den Planeten",
             "good_for_planet_desc": "In Zusammenarbeit mit <a href=\"https:\/\/founderspledge.com\/\" target=\"_blank\" rel=\"noreferrer noopener\">FoundersPledge<\/a> werden wir 30% unserer Einnahmen darin investieren, die Welt zu einem besseren Ort zu machen, jetzt und für immer."
         },
@@ -121,7 +121,7 @@ export const messages = {
             "product_hunt": "Product Hunt",
             "facebook": "Facebook",
             "the_ob_organization": "Die Openbook-Organisation",
-            "privacy_policy": "Datenschutz-Bestimmungen",
+            "privacy_policy": "Datenschutzerklärung",
             "made_with": "Gemacht mit",
             "in_europe": "in Europa"
         },
@@ -132,14 +132,14 @@ export const messages = {
             "share_email": "E-Mail senden",
             "share_linkedin": "Auf LinkedIn teilen",
             "share_wa": "Auf Whatsapp teilen",
-            "share_title": "Openbook. Das ehrliche, transparente und geniale soziale Netzwerk!",
-            "share_description": "Das ehrliche, transparente und fantastische soziale Netzwerk!",
-            "share_quote": "Es ist soweit! Openbook ansehen und unterstützen!  Das Kickstarter-Projekt zum Aufbau eines neuen, fairen, unterhaltsamen und transparenten sozialen Netzwerks. http:\/\/kck.st\/2zLovw7"
+            "share_title": "Openbook. Das ehrliche, transparente und großartige soziale Netzwerk!",
+            "share_description": "Das ehrliche, transparente und großartige soziale Netzwerk!",
+            "share_quote": "Es ist soweit! Openbook ansehen und unterstützen!  Das Kickstarter-Projekt zum Aufbau eines neuen, ehrlichen, spassigen und transparenten sozialen Netzwerks. http:\/\/kck.st\/2zLovw7"
         },
         "about_us": {
             "title": "Über uns",
-            "subtitle": "Wir wollen ein Werkzeug für <span class=\"has-text-primary\"> das Gute <\/span> erstellen.",
-            "description": "<span class=\"has-text-primary\"><strong class=\"has-text-primary\">Open<\/strong>book<\/span> ist ein neues, datenschutzfreundliches, Open-Source und geniales Netzwerk, das 30% seiner Einkünfte dafür ausgibt, die Welt zu einem besseren Ort zu machen, jetzt und für immer.",
+            "subtitle": "Wir wollen eine Plattform, die verwendet wird um  <span class=\"has-text-primary\"> Gutes <\/span> zu tun.",
+            "description": "<span class=\"has-text-primary\"><strong class=\"has-text-primary\">Open<\/strong>book<\/span> ist ein neues, datenschutzfreundliches, open-source und großartiges Netzwerk, das 30% seiner Einnahmen dafür ausgibt, die Welt zu einem besseren Ort zu machen, jetzt und für immer.",
             "description_founded": "Das im April 2018 in der internationalen Stadt des Friedens und der Gerechtigkeit, Den Haag, gegründete Openbook ist ein Projekt zum Aufbau eines besseren sozialen Netzwerks.",
             "description_project": "Ein soziales Netzwerk, das ehrlich ist, das die Privatsphäre seiner Benutzer respektiert und schützt, das die Menschen zusammenbringt, das Spaß macht  und gut für den Planeten ist,",
             "accomplish_how": "Wie erreichen wir das?",
@@ -156,7 +156,7 @@ export const messages = {
             "joel_title": "Gründer, Chief Disruptor",
             "joel_desc": "Aktivist für Datenschutz und Sicherheit, Software-Ingenieur, Digitaler Produktdesigner, Open Sourcer, The Next Web Top 500 junges Talent, Mensch.",
             "jaya_title": "Executive Sensei",
-            "jaya_desc": "Weltweit anerkannter Experte für Informationssicherheit, Referent für rechtmäßige Überwachung, Quantum-Computing, Überwachung und Kryptographie.",
+            "jaya_desc": "Weltweit anerkannte Expertin für Informationssicherheit, Referentin für rechtmäßige Überwachung, Quantum-Computing, Überwachung und Kryptographie.",
             "phil_title": "Kryptografie-Zauberer",
             "phil_desc": "Kryptographie-Pionier, Schöpfer von PGP, der meistgenutzten Email-Verschlüsselungssoftware der Welt, Internet-Hall of Fame Mitglied, Datenschutzaktivist.",
             "lambrecht_title": "Medien-Maestro",
@@ -195,14 +195,14 @@ export const messages = {
             "ob_address": "Bagijnestraat 25, 2511CK, The Hague, The Netherlands",
             "telephone": "Telefon",
             "telephone_no": "(+31) 611 60 4275",
-            "email": "Email",
+            "email": "E-Mail",
             "website": "Website"
         },
         "message": {
             "subject": "Thema",
             "reason_placeholder": "Der Grund, warum du uns kontaktierst",
-            "email_placeholder": "Die Email, unter der wir dich erreichen können",
-            "email": "Email",
+            "email_placeholder": "Die E-Mail, unter der wir dich erreichen können",
+            "email": "E-Mail",
             "user_message": "Nachricht",
             "user_message_placeholder": "Was können wir für dich tun?",
             "google_recaptcha_title": "Wir verwenden <a href=\"https:\/\/www.google.com\/recaptcha\/intro\/v3beta.html\" target=\"_blank\" rel=\"noopener noreferrer\">Google Recaptcha<\/a> um den Missbrauch dieses Formulars zu verhindern.",
@@ -219,7 +219,7 @@ export const messages = {
             "recaptcha_authorization": "Erlaubst du uns Google Recaptcha zu laden und erlaubst du somit Google diese Informationen zu sammeln?",
             "recaptcha_authorization_yes": "Ja, ich erlaube Google Recaptcha zu laden.",
             "or": "oder",
-            "recaptcha_authorization_no": "Nein, sende eine Email an info@open-book.org",
+            "recaptcha_authorization_no": "Nein, sende eine E-Mail an info@open-book.org",
             "tick_box": "Bitte kreuze dieses Feld an",
             "clear_form": "Formular leeren",
             "submit": "Abschicken"
@@ -229,7 +229,7 @@ export const messages = {
             "subtitle": "Arbeite mit uns.",
             "exciting_adventure": "Wenn unsere Kickstarter-Kampagne erfolgreich ist, werden wir uns auf eines der aufregendsten digitalen Abenteuer aller Zeiten begeben und wir werden nach talentierten Leuten suchen, die mit uns segeln!",
             "all_skills": "Wir brauchen Leute mit allen möglichen Fähigkeiten. Technologie, Design, Marketing, Finanzen, Medien, etc.",
-            "need_your_help": "Glaubst du an <span class=\"has-text-primary\"><strong class=\"has-text-primary\">Open<\/strong>book<\/span> und bist talentiert in was Du tust?",
+            "need_your_help": "Glaubst du an <span class=\"has-text-primary\"><strong class=\"has-text-primary\">Open<\/strong>book<\/span> und bist talentiert in was du tust?",
             "send_cv": "Sende uns deinen Lebenslauf und Motivationsschreiben an <a href=\"mailto:jobs@open-book.org?subject=Job%20Application\">jobs@open-book.org<\/a>.",
             "look_forward": "Wir freuen uns auf dich!",
             "colleagues": "Mit wem wirst du zusammenarbeiten?",
@@ -268,7 +268,7 @@ export const messages = {
             "volunteer": "Und schließlich, wenn du dich noch mehr engagieren möchtest, bilden wir ein Netzwerk von Freiwilligen auf der ganzen Welt, die uns helfen, das Wort zu verbreiten.",
             "interested": "Interessiert?",
             "contact_us_2": "Nimm mit uns Kontakt auf",
-            "more_questions": "Hast du noch eine Frage?",
+            "more_questions": "Hast du noch Fragen?",
             "send_us_message": "Schick uns eine Nachricht",
             "why_not_decentralised": "Wird Openbook dezentralisiert sein?",
             "why_not_decentralised_ans": "<p> Wir wollen irgendwann dort hinkommen. Wir untersuchen dafür den<a href=\"https:\/\/solid.mit.edu\/\" target=\"_blank\" rel=\"noopener noreferrer\"> Solid MIT-Ansatz <\/a> (der von Tim Berners Lee) und wir sind bisher sehr zufrieden damit. <\/p> <p> Unsere ersten Versionen werden jedoch zentralisiert sein. <\/p> <p> Wir machen das, weil es dann einfacher ist, sich auf die Produktfunktionen und die Benutzererfahrung zu konzentrieren. Diese Dinge werden bestimmen, ob wir die notwendige Benutzerbasis erreichen werden, die notwendig ist, um gegenüber existierenden sozialen Netzwerken zu bestehen. <\/p> <p> Und wenn uns das gelingt, sind die Möglichkeiten in Sachen Dezentralisierung endlos! <\/p>"
@@ -286,7 +286,7 @@ export const messages = {
             "people": "Menschen",
             "logos": "Logos",
             "includes_everything": "Enthält Pressemitteilungen, Manifest, Bios, Fotos, Vektorlogos, verschiedene Bilder und Website-Fotos.",
-            "home_press": "Hier finden Sie unsere Pressemitteilungen.",
+            "home_press": "Hier findest du unsere Pressemitteilungen.",
             "go_to_newsroom": "Gehe zum Nachrichtenbereich",
             "missing_something": "Vermisst du etwas? Nimm Kontakt auf mit <a\n                        href=\"mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=\">Lambrecht Wessels<\/a>."
         },
@@ -318,18 +318,18 @@ export const messages = {
             "open_sourc": "Open-Source.",
             "this_means_": "Das bedeutet, dass es sich jeder ansehen, reproduzieren und auch dazu beitragen kann. Wir sind also transparent, wie das soziale Netzwerk funktioniert.",
             "additionally": "In Zusammenarbeit mit FoundersPledge geben wir außerdem",
-            "_of_our": "30% unseres Erlöses, um die Welt zu verbessern.",
+            "_of_our": "30% unserer Einnahmen, um die Welt zu verbessern.",
             "for_example": "Zum Beispiel Bildung, die Bekämpfung der Klimaveränderung, psychische Gesundheit und Sanitisation - es ist an der Zeit, dass Technologieunternehmen allen zugute kommen.",
             "Were_all_": "Wir sind alle verschieden und das macht jeden von uns einzigartig und schön! Das begrüßen wir!",
             "On_Openboo": "Auf Openbook kannst du nicht nur dein Profil personalisieren, sondern das gesamte Netzwerk selbst! Vom Ändern der Farbe deiner Homepage bis hin zum Hinzufügen von Plugins kannst du es so einzigartig machen wie dich selbst.",
             "And_if_the": "Und wenn du etwas bei Openbook vermisst, lass es uns wissen. Wir wollen Openbook gemeinsam aufbauen. Wir werden eine spezielle Gruppe bilden, in der wir dich ermutigen, uns bei der Entscheidung zu helfen, was wir als Nächstes machen oder was wir verbessern sollten. Lasst uns das beste soziale Netzwerk aller Zeiten aufbauen!",
             "this_is_what_drove": "Das hat uns dazu gebracht Openbook aufzubauen. Die Privatsphäre und Sicherheit unserer Nutzer steht bei allem, was wir tun, immer im Mittelpunkt. Wir verfolgen nicht was du tust, machen aus deinen Informationen kein Geld und geben sie nicht ohne deine ausdrückliche und informierte Zustimmung weiter.",
-            "How_does_t": "Wie sieht das in dann in einem echten Fall aus?",
+            "How_does_t": "Wie sieht das in einem echten Fall aus?",
             "Example": "Beispiel",
             "This_is_wh": "So sieht die gemeinsame Nutzung von Daten normalerweise aus.",
             "Lets_say_": "Angenommen, du möchtest eine Verbindung zu einem öffentlichen WiFi-Hotspot herstellen. In der Regel erscheint auf deinem Computer ein Fenster wie das folgende:",
             "The_box_be": "Das folgende Feld erscheint auf deinem Bildschirm.",
-            "Go_ahead": "(Mach mal, klick einfach so, wie du es sonst auch machen würdest)",
+            "Go_ahead": "(Mach mal, klick einfach genau so, wie du es sonst auch machen würdest)",
             "Before_you": "Bevor du unsere kostenlosen Wifi-Hotspots nutzen kannst, musst du mit EvilCorp fortfahren.",
             "Continue_w": "Weiter mit EvilCorp",
             "Congrats": "Herzlichen Glückwunsch! Du hast gerade deine persönlichen Daten mit einem WiFi-Hotspot geteilt!",
@@ -361,10 +361,10 @@ export const messages = {
             "notify_us": "benachrichtigen uns\/dich",
             "have_the_exact": "dir den <strong>genauen<\/strong> Aufbewahrungsort deiner Daten nennen können, <strong>jederzeit<\/strong>",
             "delete_all_your": "<strong>alle<\/strong> deine Informationen löschen, wenn du deine Einwilligung  widerrufst",
-            "have_an_emergency": "einen <strong>Notfallplan<\/strong> für den Fall eines Datenlecks haben, und dass sie  <strong>uns\/dich sofort benachrichtigen<\/strong> wenn es passieren sollte",
-            "Once_they_": "Sobald sie diese strengen Richtlinien erfüllen, bekommen sie einen Badge unter ihr Logo. Auf deinem persönlichen Dashboard kannst du den genauen Speicherort deiner geteilten Daten bestimmen, den Zugriff auf die Anwendung widerrufen und vor allem die Löschung beantragen.",
+            "have_an_emergency": "einen <strong>Notfallplan<\/strong> für den Fall eines Datenlecks haben, und dass sie  <strong>uns\/dich sofort benachrichtigen<\/strong>, wenn es passieren sollte",
+            "Once_they_": "Sobald sie diese strengen Richtlinien erfüllen, bekommen sie einen Badge unter ihr Logo. Auf deinem persönlichen Dashboard kannst du den genauen Speicherort deiner geteilten Daten feststellen, den Zugriff auf die Anwendung widerrufen und vor allem die Löschung beantragen.",
             "All_option": "Alle optionalen Datenfreigaben werden standardmäßig deaktiviert, und es liegt an dir, ob du dieser Anwendung mehr von deinen Daten geben willst, anstatt umgekehrt.",
-            "We_will_co": "Wir erforschen und entwickeln ständig neue Wege, um Ihre Privatsphäre und Sicherheit zu verbessern.",
+            "We_will_co": "Wir erforschen und entwickeln ständig neue Wege, um deine Privatsphäre und Sicherheit zu verbessern.",
             "Some_examp": "Einige Beispiele für die Technologie, die wir erforschen und entwickeln werden:",
             "Cryptograp": "Richtlinien für die kryptographisch erzwungene gemeinsame Nutzung von Daten",
             "End_to_end": "End-to-End-Verschlüsselung, auch im Browser",
@@ -372,12 +372,12 @@ export const messages = {
             "Post_quant": "Post-Quantum-Kryptographie-Algorithmen und Protokolle",
             "Generally_": "Generell gilt: Je weniger wir über dich wissen und je mehr du über uns weißt, desto besser.",
             "Youve_pro": "Du hast wahrscheinlich schon sehr viel Zeit (und Daten) in deine bestehenden sozialen Netzwerke gesteckt. Das ist uns klar. Wir möchten nicht, dass du Freunde oder  Erinnerungen verlierst oder Partys verpasst.",
-            "migrating_to_ob": "Die Migration zu Openbook wird mit unserem einfachen Drag-and-Drop-System ganz einfach: Laden Sie einfach Ihre Daten aus Ihrem alten sozialen Netzwerk herunter <sup>1<\/sup> und übertragen Sie sie auf Openbook. Shazam!",
+            "migrating_to_ob": "Die Migration zu Openbook wird mit unserem einfachen Drag-and-Drop-System ganz einfach: Lade einfach deine Daten aus deinem alten sozialen Netzwerk herunter <sup>1<\/sup> und übertrage sie auf Openbook. Shazam!",
             "Lets_not_": "Und lasst uns einen Punkt nicht vergessen! Wir bringen das Soziale zurück, indem wir den Interaktionen mit deinen Freunden mehr Bedeutung geben. Stell dir verschiedene Level der Bewunderung vor oder die Möglichkeit deinen Enthusiasmus mehr als einmal auf einen einzigen Beitrag zeigen zu können. Und da wir deine Daten nicht verfolgen, wirst du nicht nur werbefrei sein, sondern wir suchen auch nicht aus, was du unserer Meinung nach sehen solltest. Keine Abrakadabra-Algorithmen!",
             "_Our_rev": "Unsere Einnahmen",
-            "Our_busine": "Unser Erlösmodell basiert nicht auf Werbung und wird es auch nie.",
-            "We_will_ha": "Wir werden ein transparentes Einnahmenmodell haben, das auf einer allgemeinen Methode basiert, mit der Menschen physische und digitale Waren und Dienstleistungen innerhalb des Netzwerks sicher abwickeln können. Dies geschieht über eine atomare digitale Werteinheit. Obwohl sich das zunächst wie ein Marktplatz widerspiegelt, gehen unsere Ambitionen weit darüber hinaus.",
-            "instead_our_revenue": "Stattdessen basiert unser Einnahmenmodell auf einer digitalen Währung namens <strong>Tip<\/strong>. Es wird verwendet, um Waren und Dienstleistungen zu kaufen und zu verkaufen, Content-Ersteller zu unterstützen, Verlage zu abonnieren, Whirlpools zu kaufen und mehr!",
+            "Our_busine": "Unser Geschäftsmodell basiert nicht auf Werbung und wird es auch nie.",
+            "We_will_ha": "Wir werden ein transparentes Geschäftsmodell haben, das auf einer allgemeinen Methode basiert, mit der Menschen physische und digitale Waren und Dienstleistungen innerhalb des Netzwerks sicher abwickeln können. Dies geschieht über eine atomare digitale Werteinheit. Obwohl sich das zunächst wie ein Marktplatz widerspiegelt, gehen unsere Ambitionen weit darüber hinaus.",
+            "instead_our_revenue": "Stattdessen basiert unser Geschäftsmodell auf einer digitalen Währung namens <strong>Tip<\/strong>. Es wird verwendet, um Waren und Dienstleistungen zu kaufen und zu verkaufen, Content-Ersteller zu unterstützen, Publikationen zu abonnieren, Whirlpools zu kaufen und mehr!",
             "for_every_transaction": "Für jede Tips-Transaktion im Netzwerk behalten wir einen kleinen Anteil ein. Eine Ausnahme von dieser Regel sind allerdings Spenden, da nehmen wir nichts.",
             "you_can_read_it": "Du kannst alles darüber in <a class=\"has-text-underlined\" href=\"https:\/\/medium.com\/openbook-org\/so-how-will-openbook-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\">diesem Artikel lesen (ca. 6 Min. Lesezeit)<\/a>",
             "Apart_from": "Darüber hinaus planen wir, Unternehmenskunden beim Aufbau eigener interner, selbst gehosteter und sicherer sozialer Netzwerke mit zusätzlichen Funktionen wie Projekt-, Identitäts- und Zugriffsmanagement zu unterstützen.",
@@ -392,7 +392,7 @@ export const messages = {
             "birthday": "Geburtstag,",
             "likes_": "Likes",
             "and_": "und",
-            "email_addr": "Email-Adresse",
+            "email_addr": "E-Mail-Adresse",
             "Edit_this": "Bearbeite dies",
             "Continue": "Weiter",
             "Cancel": "Abbrechen",
@@ -430,14 +430,14 @@ export const messages = {
             "open_list": "Liste öffnen",
             "open_image": "Bild öffnen",
             "Jules_Winn": "Jules Winnfield",
-            "email": "Email:",
+            "email": "E-Mail",
             "male": "männlich",
             "locale": "en_US",
             "country_name": "US",
             "badmf_pfic": "badmf@pfiction.com",
             "in_the_prototype": "<div class=\"content\"> \n <p> In der Nicht-Prototypversion werden Sie auf eine Seite mit detaillierten Informationen zu sicheren Anwendungen weitergeleitet. <\/p> \n <p> Bei den sicheren Anwendungen handelt es sich um Anwendungen, die das Datenfreigabesystem nicht missbrauchen, die Löschung deiner Daten von ihren Systemen zulassen und jederzeit wissen, wo sich deine Daten befinden. <\/p> \n <p> Weitere Informationen hierzu findest du weiter unten. <\/p> <\/div>",
             "got_it": "Verstanden!",
-            "in_non_prototype": "In der Non-Prototyp-Version würde dies eine Liste mit der vollständigen Liste deiner {0} öffnen"
+            "in_non_prototype": "In der Non-Prototyp-Version würde dies eine Liste mit der vollständigen Liste deiner {0} öffnen",
         }
-    }
+    },
 }

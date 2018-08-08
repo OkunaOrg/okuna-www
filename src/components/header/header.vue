@@ -31,7 +31,7 @@
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'nl' }" v-on:click="changeLocale('nl')">Nederlands <i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'hu' }" v-on:click="changeLocale('hu')">Magyar<i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'fr' }" v-on:click="changeLocale('fr')">Français<i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'de' }" v-on:click="changeLocale('de')">Deutsche<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'de' }" v-on:click="changeLocale('de')">Deutsch<i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'no' }" v-on:click="changeLocale('no')">Norsk<i class="fas fa-check"></i></b-dropdown-item>
                     </b-dropdown>
                 </div>
@@ -132,7 +132,7 @@
                     case 'es': return 'Español';
                     case 'hu': return 'Magyar';
                     case 'fr': return 'Français';
-                    case 'de': return 'Deutsche';
+                    case 'de': return 'Deutsch';
                     case 'no': return 'Norsk';
                     default : return 'English'
                 }
