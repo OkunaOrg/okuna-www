@@ -118,7 +118,7 @@ export const messages = {
         footer: {
             report_vulnerability: 'Signaler une vulnerablité',
             twitter: 'Twitter',
-            github: 'Github',
+            github: 'Gitlab',
             reddit: 'Reddit',
             gitter: 'Gitter',
             linked_in: 'LinkedIn',
@@ -251,10 +251,10 @@ export const messages = {
             share_website: 'Partagez le site sur les réseaux sociaux',
             talk_to_friends: 'Parlez de nous avec vos amis et votre famille',
             improve_website: 'Si vous êtes un développeur, vous pouvez nous aider à<a\n' +
-            '                            href="https://github.com/OpenBookOrg/openbook-org-www"\n' +
+            '                            href="https://git.open-book.org/"\n' +
             '                            target="_blank" rel="noopener noreferrer">améliorer notre site web</a>.',
-            let_us_know: 'Si vous avez une idée pour le réseau, vous pouvez <a href="https://github.com/OpenBookOrg/ideas"\n' +
-            '                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.',
+            let_us_know: 'Si vous avez une idée pour le réseau, vous pouvez <a href="/fr/contact-us"\n' +
+            '                                                                            target="_blank" rel="noopener noreferrer">nous le faire savoir.</a>',
             public_figure: 'Si vous êtes un personnage public et que vous souhaitez devenir un ambassadeur',
             contact_us: 'contactez-nous',
             looking_for_job: 'Si vous cherchez un emploi et que vous croyez qu\'Openbook vous conviendrait parfaitement',
@@ -392,7 +392,7 @@ export const messages = {
             public_pro: 'profil public',
             friend_lis: 'liste d\'amis',
             birthday: 'date de naissance,',
-            likes: 'likes',
+            likes_: 'likes',
             and_: 'et ',
             email_addr: 'adresse e-mail',
             Edit_this: 'Modifier ceci',

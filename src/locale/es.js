@@ -93,7 +93,7 @@ export const messages = {
         footer: {
             report_vulnerability: 'Reportar Vulnerabilidad',
             twitter: 'Twitter',
-            github: 'Github',
+            github: 'Gitlab',
             reddit: 'Reddit',
             gitter: 'Gitter',
             linked_in: 'LinkedIn',
