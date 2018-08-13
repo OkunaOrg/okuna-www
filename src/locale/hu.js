@@ -73,9 +73,9 @@ export const messages = {
             reddit: 'reddit',
             we_are_ob: 'Mi vagyunk az <strong>Open</strong>book.',
             kickstarter:
-                'A nyílt forráskódú, magánéletbarát, szórakoztató és őszinte közösségi hálózat, mely segít a világ jobbá tételében.',
+                'A nyílt forráskódú, magánéletbarát, szórakoztató és őszinte közösségi hálózat, mely segít a világ jobbá tételében. <strong class="has-text-kickstarter"> Hamarosan az Kickstarter!</strong>',
             share: 'Megosztás',
-            notify_me: 'Támogass minket Kickstateren'
+            notify_me: 'Értesítsen'
         },
         why_ob: {
             title: 'Miért az Openbook?',
@@ -116,7 +116,7 @@ export const messages = {
             minutes: 'perc | perc',
             seconds: 'másodperc | másodperc',
             kickstarter_launch:
-                'A <strong class=\'has-text-kickstarter\'>Kickstarter</strong> kampány véget ér <br/> <strong>2018. augusztus 15</strong>-én.'
+                'A <strong class=\'has-text-kickstarter\'>Kickstarter</strong> kampány <strong>2018. augusztus {1}-én kezdődik {0}-kor</strong>.'
         },
         meet_the_team: {
             title: 'Ismerd meg a csapatot'

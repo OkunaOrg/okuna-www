@@ -38,9 +38,9 @@
                         <div class="columns is-centered is-mobile">
                             <div class="column container-small">
                                 <div class="content has-text-centered">
-                                    <p class="is-size-4 is-marginless padding-bottom-1x" v-html="$t('count_down.kickstarter_launch')">
+                                    <p class="is-size-4 is-marginless padding-bottom-1x" v-html="$t('count_down.kickstarter_launch', [localTime, localDate])">
                                     </p>
-                                    <a target="_blank" rel="noopener noreferrer" href="https://www.kickstarter.com/projects/1520156881/openbook-the-honest-open-source-and-awesome-social" class="button is-rainbow is-rounded is-large padding-top-2x">
+                                    <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dDZIpf" class="button is-rainbow is-rounded is-large padding-top-2x">
                                         <span class="icon"><i class="fab fa-kickstarter-k"></i></span><span>{{ $t('splash_hero.notify_me') }}</span>
                                     </a>
                                 </div>
@@ -66,8 +66,6 @@
 <script>
 
     import VueCountdown from '@xkeshi/vue-countdown'
-    import dayjs from 'dayjs';
-
 
     export default {
         name: 'ob-count-down',
@@ -75,15 +73,29 @@
             countdown: VueCountdown
         },
         data() {
-            const now = dayjs();
-            const kickstarterDate = dayjs('2018-8-15');
+            const now = new Date();
+            // Calculate GMT date from current timezone
+            const gmtDate = new Date(now.valueOf() + now.getTimezoneOffset() * 60 * 1000);
+            // Calculate current NL time which is GMT+2 in summer, so add 2 hours = 120 minutes
+            const nlDate =  new Date(gmtDate.valueOf() + 120 * 60 * 1000);
+            const kickstarterDate = new Date(2018, 7, 19, 19, 0, 0, 0);  // Sunday August 19th, 19:00 in NL
 
-            const timeTillKickstarterDate = kickstarterDate.diff(now);
+            const countdownDate = kickstarterDate - nlDate;
 
-            const countdownDate = timeTillKickstarterDate.valueOf();
+            // The following calculates NL 7pm into users time zone.
+            const gmtKickstarterDate = new Date(kickstarterDate.valueOf() - (120 * 60 * 1000));
+            const localKickstarterDate = new Date(gmtKickstarterDate.valueOf() - (now.getTimezoneOffset() * 60 * 1000));
+
+            const localDate = localKickstarterDate.getDate();
+            const localMinutes = localKickstarterDate.getMinutes() > 0 ? localKickstarterDate.getMinutes() : '00';
+            const localHours = localKickstarterDate.getHours() > 9 ? localKickstarterDate.getHours() : `0${localKickstarterDate.getHours()}`;
+
+            const localTime = `${localHours}:${localMinutes}`;
 
             return {
-                countdownDate
+                countdownDate,
+                localTime,
+                localDate
             };
         },
     }

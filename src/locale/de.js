@@ -63,9 +63,9 @@ export const messages = {
             "grandma": "Oma",
             "reddit": "Reddit",
             "we_are_ob": "Wir sind <strong>Open<\/strong>book.",
-            "kickstarter": "Das open-source, datenschutzfreundliche, spassige und ehrliche soziale Netzwerk, das hilft, die Welt zu einem besseren Ort zu machen.",
+            "kickstarter": "Das open-source, datenschutzfreundliche, spassige und ehrliche soziale Netzwerk, das hilft, die Welt zu einem besseren Ort zu machen. <strong class=\"has-text-kickstarter\"> Bald am Kickstarter!</strong>",
             "share": "Teilen",
-            "notify_me": "Unterstütze uns auf Kickstarter"
+            "notify_me": "Benachrichtige mich"
         },
         "why_ob": {
             "title": "Warum Openbook?",
@@ -96,7 +96,7 @@ export const messages = {
             "hours": "Stunde | Stunden",
             "minutes": "Minute | Minuten",
             "seconds": "Sekunde | Sekunden",
-            "kickstarter_launch": "<strong class=\"has-text-kickstarter\">Kickstarter<\/strong>-Kampagne endet <br\/> am <strong>15. August 2018<\/strong>."
+            "kickstarter_launch": "Unsere <strong class=\"has-text-kickstarter\">Kickstarter<\/strong>-Kampagne beginnt <br\/> am <strong>{1}. August 2018 um {0} uhr<\/strong>."
         },
         "meet_the_team": {
             "title": "Lerne das Team kennen"

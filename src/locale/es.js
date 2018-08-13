@@ -63,9 +63,9 @@ export const messages = {
             grandma: 'abuela',
             reddit: 'reddit',
             we_are_ob: 'Somos <strong>Open</strong>book.',
-            kickstarter: 'La red social de codigo abierto, que respeta tu privacidad, es divertida, honesta y ayuda a crear mundo mejor para todos.',
+            kickstarter: 'La red social de codigo abierto, que respeta tu privacidad, es divertida, honesta y ayuda a crear mundo mejor para todos.<strong class="has-text-kickstarter"> Proximamente en Kickstarter!</strong>',
             share: 'Compartir',
-            notify_me: 'Apoyanos en Kickstarter'
+            notify_me: 'Recuardame'
         },
         count_down: {
             kickstarter: 'Kickstarter',
@@ -74,8 +74,8 @@ export const messages = {
             hours: 'hora | horas',
             minutes: 'minuto | minutos',
             seconds: 'segundo | segundos',
-            kickstarter_launch: 'La campaña de <strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            '<br/> termina el <strong>15 de Agosto del 2018</strong>.'
+            kickstarter_launch: 'Comienza la campaña de ' +
+            '<strong class="has-text-kickstarter">Kickstarter</strong> el </br> <strong>{1} de Agosto del 2018 a las {0}</strong>.'
         },
         meet_the_team: {
             title: 'Conoce al equipo'

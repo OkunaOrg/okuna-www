@@ -64,9 +64,9 @@ export const messages = {
             reddit: 'reddit',
             we_are_ob: 'We\'re <strong>Open</strong>book.',
             kickstarter: 'The open source, privacy-friendly, fun and honest social\n' +
-            '    network helping make the world a better place.',
+            '    network helping make the world a better place. <strong class="has-text-kickstarter">Soon on Kickstarter!</strong> ',
             share: 'Share',
-            notify_me: 'Support us on Kickstarter'
+            notify_me: 'Notify me'
         },
         why_ob: {
             title: 'Why Openbook?',
@@ -101,7 +101,7 @@ export const messages = {
             minutes: 'minute | minutes',
             seconds: 'second | seconds',
             kickstarter_launch: '<strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            'campaign ends <br/> on the <strong>15th of August of 2018</strong>.'
+            'campaign starts <br/>on the<strong> {1}th August of 2018 at {0}</strong>.'
         },
         meet_the_team: {
             title: 'Meet the team'

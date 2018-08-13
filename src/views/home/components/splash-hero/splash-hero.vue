@@ -20,7 +20,7 @@
                         <div class="columns is-centered is-mobile">
                             <div class="column is-narrow">
                                 <a class="button is-rainbow is-rounded is-medium is-size-6-mobile" target="_blank"
-                                   rel="noopener noreferrer" href="https://www.kickstarter.com/projects/1520156881/openbook-the-honest-open-source-and-awesome-social">
+                                   rel="noopener noreferrer" href="http://eepurl.com/dDZIpf">
                                     <span class="icon">
                                         <i class="fab fa-kickstarter-k"></i>
                                     </span>
