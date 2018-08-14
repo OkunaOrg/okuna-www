@@ -38,7 +38,7 @@ export const messages = {
         },
         good_for_planet : {
             title: 'Bon pour la planète',
-            description: 'En partenariat avec <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, nous allons transmettre 30% de notre revenu vers des projets pour l\'éducation, désinfection, la prévention du réchauffement climatique et plus encore.'
+            description: 'En partenariat avec <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, nous allons transmettre 30% de notre bénéfices vers des projets pour l\'éducation, désinfection, la prévention du réchauffement climatique et plus encore.'
         },
         ads_free: {
             title: '100% sans pubs',
@@ -90,7 +90,7 @@ export const messages = {
             good_for_planet: 'Bon pour la planète',
             good_for_planet_desc: 'En partenariat avec <a href="https://founderspledge.com/" target="_blank"\n' +
             '                                                             rel="noopener noreferrer">Founders Pledge</a>\n' +
-            '                                nous donnerons 30% de nos revenus pour rendre le monde meilleur, maintenant et\n' +
+            '                                nous donnerons 30% de nos bénéfices pour rendre le monde meilleur, maintenant et\n' +
             '                                    pour toujours.'
         },
         count_down: {
@@ -135,7 +135,7 @@ export const messages = {
             description: '<span class="has-text-primary"><strong\n' +
             '                                class="has-text-primary">Open</strong>book</span> ' +
             'est un nouveau réseau social génial et respectueux de la vie privée ' +
-            'qui donne 30% de ses revenus pour un monde meilleur, maintenant et pour toujours.',
+            'qui donne 30% de ses bénéfices pour un monde meilleur, maintenant et pour toujours.',
             description_founded: 'Fondé en avril 2018 à La Haye, la ville internationale de la paix et de la justice, Openbook est un projet qui vise à construire un meilleur réseau social.',
             description_project: 'Un réseau social qui est honnête, respecte et protège la vie privée des utilisateurs, rassemble les gens, est fun à utiliser et est bon pour la planète.',
             accomplish_how: 'Comment allons-nous accomplir cela?',
@@ -336,7 +336,7 @@ export const messages = {
             honest_pe: 'honnête, personnel, respectueux de la vie privée, sécurisé et amusant ;-)',
             How_will_w: 'Comment créer un outil pour le bien ?',
             open_sourc: 'open-source.',
-            _of_our: '30 % de nos revenus pour rendre le monde meilleur.',
+            _of_our: '30 % de nos bénéfices pour rendre le monde meilleur.',
             Were_all_: 'Nous sommes tous différents et cela nous rend tous uniques et beaux ! Nous respectons ça !',
             On_Openboo: 'Sur Openbook, vous pourrez non seulement personnaliser votre profil, mais aussi l\'ensemble du réseau ! Qu\'il s\'agisse de changer la couleur de votre page d\'accueil ou d\'ajouter des plugins, vous pouvez la rendre aussi unique que vous.',
             And_if_the: 'Et s\'il vous manque quelque chose sur Openbook, faites-le nous savoir. Nous voulons construire Openbook ensemble. Nous allons créer un groupe spécial où nous vous encourageons à nous aider à décider ce que nous allons construire ou ce que nous devons améliorer. Construisons le meilleur réseau social de tous les temps !',

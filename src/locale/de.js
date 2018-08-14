@@ -34,7 +34,7 @@ export const messages = {
         },
         "good_for_planet": {
             "title": "Gut für den Planeten",
-            "description": "In Zusammenarbeit mit <a href=\"https:\/\/founderspledge.com\/\" rel=\"noreferrer noopener\">FoundersPledge<\/a> werden wir 30% unserer Einnahmen für Projekte in Bereichen wie Bildung, Sanitanisierung und Klimawandelprävention spenden."
+            "description": "In Zusammenarbeit mit <a href=\"https:\/\/founderspledge.com\/\" rel=\"noreferrer noopener\">FoundersPledge<\/a> werden wir 30% unserer Profite für Projekte in Bereichen wie Bildung, Sanitanisierung und Klimawandelprävention spenden."
         },
         "ads_free": {
             "title": "100% werbefrei",
@@ -87,7 +87,7 @@ export const messages = {
             "modern_design": "Modern, schick, ethisch gestaltet.",
             "modern_design_desc": "Gemacht mit den neuesten Technologien und einem Auge für Details und Ethik, wie du es nirgendwo anders finden wirst.",
             "good_for_planet": "Gut für den Planeten",
-            "good_for_planet_desc": "In Zusammenarbeit mit <a href=\"https:\/\/founderspledge.com\/\" target=\"_blank\" rel=\"noreferrer noopener\">FoundersPledge<\/a> werden wir 30% unserer Einnahmen darin investieren, die Welt zu einem besseren Ort zu machen, jetzt und für immer."
+            "good_for_planet_desc": "In Zusammenarbeit mit <a href=\"https:\/\/founderspledge.com\/\" target=\"_blank\" rel=\"noreferrer noopener\">FoundersPledge<\/a> werden wir 30% unserer Profite darin investieren, die Welt zu einem besseren Ort zu machen, jetzt und für immer."
         },
         "count_down": {
             "kickstarter": "Kickstarter",
@@ -132,14 +132,14 @@ export const messages = {
             "share_email": "E-Mail senden",
             "share_linkedin": "Auf LinkedIn teilen",
             "share_wa": "Auf Whatsapp teilen",
-            "share_title": "Openbook. Das ehrliche, transparente und großartige soziale Netzwerk!",
+            "share_title": "Openbook. Das ehrliche, transparente und großartige soziale Netzwerk jetzt auf Kickstarter!",
             "share_description": "Das ehrliche, transparente und großartige soziale Netzwerk!",
-            "share_quote": "Es ist soweit! Openbook ansehen und unterstützen!  Das Kickstarter-Projekt zum Aufbau eines neuen, ehrlichen, spassigen und transparenten sozialen Netzwerks. http:\/\/kck.st\/2zLovw7"
+            "share_quote": "Es ist soweit! Openbook ansehen und unterstützen!  Das Kickstarter-Projekt zum Aufbau eines neuen, ehrlichen, spassigen und transparenten sozialen Netzwerks. https:\/\/open-book.org\/kickstarter"
         },
         "about_us": {
             "title": "Über uns",
             "subtitle": "Wir wollen eine Plattform, die verwendet wird um  <span class=\"has-text-primary\"> Gutes <\/span> zu tun.",
-            "description": "<span class=\"has-text-primary\"><strong class=\"has-text-primary\">Open<\/strong>book<\/span> ist ein neues, datenschutzfreundliches, open-source und großartiges Netzwerk, das 30% seiner Einnahmen dafür ausgibt, die Welt zu einem besseren Ort zu machen, jetzt und für immer.",
+            "description": "<span class=\"has-text-primary\"><strong class=\"has-text-primary\">Open<\/strong>book<\/span> ist ein neues, datenschutzfreundliches, open-source und großartiges Netzwerk, das 30% seiner Profite dafür ausgibt, die Welt zu einem besseren Ort zu machen, jetzt und für immer.",
             "description_founded": "Das im April 2018 in der internationalen Stadt des Friedens und der Gerechtigkeit, Den Haag, gegründete Openbook ist ein Projekt zum Aufbau eines besseren sozialen Netzwerks.",
             "description_project": "Ein soziales Netzwerk, das ehrlich ist, das die Privatsphäre seiner Benutzer respektiert und schützt, das die Menschen zusammenbringt, das Spaß macht  und gut für den Planeten ist,",
             "accomplish_how": "Wie erreichen wir das?",
@@ -318,7 +318,7 @@ export const messages = {
             "open_sourc": "Open-Source.",
             "this_means_": "Das bedeutet, dass es sich jeder ansehen, reproduzieren und auch dazu beitragen kann. Wir sind also transparent, wie das soziale Netzwerk funktioniert.",
             "additionally": "In Zusammenarbeit mit FoundersPledge geben wir außerdem",
-            "_of_our": "30% unserer Einnahmen, um die Welt zu verbessern.",
+            "_of_our": "30% unserer Profite, um die Welt zu verbessern.",
             "for_example": "Zum Beispiel Bildung, die Bekämpfung der Klimaveränderung, psychische Gesundheit und Sanitisation - es ist an der Zeit, dass Technologieunternehmen allen zugute kommen.",
             "Were_all_": "Wir sind alle verschieden und das macht jeden von uns einzigartig und schön! Das begrüßen wir!",
             "On_Openboo": "Auf Openbook kannst du nicht nur dein Profil personalisieren, sondern das gesamte Netzwerk selbst! Vom Ändern der Farbe deiner Homepage bis hin zum Hinzufügen von Plugins kannst du es so einzigartig machen wie dich selbst.",

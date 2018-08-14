@@ -34,7 +34,7 @@ export const messages = {
         },
         good_for_planet: {
             title: 'Goed voor de planeet',
-            description: 'In samenwerking met <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, zullen wij 30% van onze omzet doneren aan projecten voor educatie, sanitisatie, bestrijden van klimaatverandering en meer.'
+            description: 'In samenwerking met <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, zullen wij 30% van onze winst doneren aan projecten voor educatie, sanitisatie, bestrijden van klimaatverandering en meer.'
         },
         quotes: {
             joel_name: 'Joel Hernández',
@@ -254,9 +254,9 @@ export const messages = {
             share_email: 'Email deze pagina',
             share_linkedin: 'Delen op LinkedIn',
             share_wa: 'Delen op Whatsapp',
-            share_title: 'Openbook. Het eerlijke, transparante en geweldige sociale netwerk!',
-            share_description: 'La red social honesta, transparente, divertida y sin anuncios!',
-            share_quote: 'Checa y apoya Openbook! La red social en Kickstarter para contruir una una nueva red social honesta, divertida y transparente. Es tiempo! http://kck.st/2zLovw7'
+            share_title: 'Openbook. Het eerlijke, transparante en geweldige sociale netwerk nu op Kickstarter!',
+            share_description: 'Openbook. Het eerlijke, transparante en geweldige sociale netwerk!',
+            share_quote: 'Het is tijd! Bekijk en steun Openbook! Het Kickstarter-project om een nieuw, eerlijk, leuk en transparant sociaal netwerk te bouwen! https://open-book.org/kickstarter'
         },
         press: {
             we: 'Wij',

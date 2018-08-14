@@ -65,7 +65,7 @@ export const messages = {
             we_are_ob: 'Somos <strong>Open</strong>book.',
             kickstarter: 'La red social de codigo abierto, que respeta tu privacidad, es divertida, honesta y ayuda a crear mundo mejor para todos.<strong class="has-text-kickstarter"> Proximamente en Kickstarter!</strong>',
             share: 'Compartir',
-            notify_me: 'Recuardame'
+            notify_me: 'Recuerdame'
         },
         count_down: {
             kickstarter: 'Kickstarter',
@@ -110,7 +110,7 @@ export const messages = {
             description: '<span class="has-text-primary"><strong\n' +
             '                                class="has-text-primary">Open</strong>book</span> ' +
             'is an new, privacy-friendly, open-source and awesome social network ' +
-            'giving 30% of it\'s revenue towards making the world a better place, now and forever.',
+            'giving 30% of it\'s profit towards making the world a better place, now and forever.',
             description: '<span class="has-text-primary"><strong\n' +
             '                                class="has-text-primary">Open</strong>book</span> ' +
             'es la sorprendente y honesta red social, amiga de tu privacidad de codigo abierto ' +
@@ -265,7 +265,7 @@ export const messages = {
             share_wa: 'Compartir en Whatsapp',
             share_title: 'Openbook. La red social honesta, transparente, divertida y sin anuncios!',
             share_description: 'La red social honesta, transparente, divertida y sin anuncios!',
-            share_quote: 'Checa y apoya Openbook! La red social en Kickstarter para contruir una una nueva red social honesta, divertida y transparente. Es tiempo! http://kck.st/2zLovw7'
+            share_quote: 'Checa y apoya Openbook! La red social en Kickstarter para contruir una una nueva red social honesta, divertida y transparente. Es tiempo! https://open-book.org/kickstarter'
         },
         press: {
             we: 'Openbook',
