@@ -18,6 +18,10 @@
     padding: 2rem !important;
 }
 
+.has-margin-2x{
+    margin: 2rem !important;
+}
+
 .padding-bottom-2x-mobile {
     @media(max-width: 768px) {
         margin-bottom: 2rem !important;
@@ -162,4 +166,86 @@ $generic-social-media-color: #4f6398;
         flex-direction: column-reverse;
         display: flex;
     }
+}
+
+
+.is-rainbow {
+    background: linear-gradient(124deg, #009dac, #5bc855, #c1dc00, #eccd00, #fbba00, #f95ca3);
+    border: none;
+    background-size: 1800% 1800%;
+    color: white !important;
+    font-weight: bold;
+    overflow: hidden;
+    animation: rainbow 10s ease infinite;
+}
+
+.is-rainbow-text {
+    border: none;
+    background: white;
+    font-weight: bold;
+    overflow: hidden;
+    animation: color-change 10s ease infinite;
+}
+
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-moz-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@-o-keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+@keyframes rainbow {
+    0%{background-position:0% 82%}
+    50%{background-position:100% 19%}
+    100%{background-position:0% 82%}
+}
+
+
+@-webkit-keyframes color-change {
+    0% { color: #009dac; }
+    20% { color: #5bc855; }
+    40% { color: #c1dc00; }
+    50% { color: #eccd00; }
+    80% { color:  #fbba00; }
+    100% { color: #f95ca3; }
+}
+@-moz-keyframes color-change {
+    0% { color: #009dac; }
+    20% { color: #5bc855; }
+    40% { color: #c1dc00; }
+    50% { color: #eccd00; }
+    80% { color:  #fbba00; }
+    100% { color: #f95ca3; }
+}
+@-ms-keyframes color-change {
+    0% { color: #009dac; }
+    20% { color: #5bc855; }
+    40% { color: #c1dc00; }
+    50% { color: #eccd00; }
+    80% { color:  #fbba00; }
+    100% { color: #f95ca3; }
+}
+@-o-keyframes color-change {
+    0% { color: #009dac; }
+    20% { color: #5bc855; }
+    40% { color: #c1dc00; }
+    50% { color: #eccd00; }
+    80% { color:  #fbba00; }
+    100% { color: #f95ca3; }
+}
+@keyframes color-change {
+    0% { color: #009dac; }
+    20% { color: #5bc855; }
+    40% { color: #c1dc00; }
+    50% { color: #eccd00; }
+    80% { color:  #fbba00; }
+    100% { color: #f95ca3; }
 }

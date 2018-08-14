@@ -28,7 +28,7 @@
                 </div>
             </div>
         </section>
-        <ob-count-down></ob-count-down>
+        <ob-kickstarter :is-medium="true"></ob-kickstarter>
         <section class="section">
             <div class="container">
                 <ob-quotes></ob-quotes>
@@ -60,7 +60,6 @@
 
 <script>
 
-    import ObCountDown from "./components/count-down/count-down.vue";
     import obBrowser from './components/splash-hero/components/browser.vue'
     import ObQuotes from "./components/quotes/quotes";
     import ObWhyOpenbook from "./components/why-openbook";
@@ -77,9 +76,11 @@
     import ObGoodForPlanet from "./components/good-for-planet/good-for-planet";
     import ObAdsFree from "./components/ads-free/ads-free";
     import ObCurrency from "./components/currency/currency.vue";
+    import ObKickstarter from "../kickstarter/kickstarter.vue";
 
     export default {
         components: {
+            ObKickstarter,
             ObCurrency,
             ObAdsFree,
             ObGoodForPlanet,
@@ -95,7 +96,6 @@
             ObOcean,
             ObWhyOpenbook,
             ObQuotes,
-            ObCountDown,
             obBrowser
         }
     }

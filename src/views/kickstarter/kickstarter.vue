@@ -1,57 +1,80 @@
 <template>
-    <div class="animated fadeIn kickstarter-bg">
-        <section class="hero is-large">
-            <div class="hero-body">
-                <div class="container has-padding-2x">
-                    <div class="column is-12">
-                        <div class="has-text-centered">
-                            <countdown :time="countdownDate">
-                                <template slot-scope="props">
-                                    <div class="columns is-gapless">
-                                        <div class="column" v-on:mouseover="isActive = true">
-                                            <strong v-bind:class="[{ 'is-rainbow-text': isActive }]"
-                                                    class="is-size-0 is-size-1-mobile has-text-primary">{{ props.days }}</strong><p
-                                            class="is-size-2"> {{ $tc('count_down.days', props.days) }} </p>
-                                        </div>
-                                        <div class="column" v-on:mouseover="isActive2 = true">
-                                            <strong v-bind:class="[{ 'is-rainbow-text': isActive2 }]"
-                                                class="is-size-0 is-size-1-mobile has-text-primary">{{ props.hours }}</strong><p
-                                            class="is-size-2"> {{ $tc('count_down.hours', props.hours) }} </p>
-                                        </div>
-                                        <div class="column" v-on:mouseover="isActive3 = true">
-                                            <strong  v-bind:class="[{ 'is-rainbow-text': isActive3 }]"
-                                                class="is-size-0 is-size-1-mobile has-text-primary">{{ props.minutes }}</strong><p
-                                            class="is-size-2"> {{ $tc('count_down.minutes', props.minutes) }} </p>
-                                        </div>
-                                        <div class="column" v-on:mouseover="isActive4 = true">
-                                            <strong  v-bind:class="[{ 'is-rainbow-text': isActive4 }]"
-                                                class="is-size-0 is-size-1-mobile has-text-primary">{{ props.seconds }}</strong><p
-                                            class="is-size-2"> {{ $tc('count_down.seconds', props.seconds) }} </p>
-                                        </div>
-                                    </div>
-                                </template>
-                            </countdown>
+    <section class="hero kickstarter-bg" v-bind:class="{ 'is-medium': isMedium, 'is-large': isLarge }">
+        <div class="hero-body">
+            <div class="container has-padding-top-2x-mobile">
+                <div class="box">
+                    <div class="columns is-multiline">
+                        <div class="column is-12 content has-text-centered padding-top-2x">
+                            <h1>
+                                <span class="has-text-kickstarter"> {{ $t('count_down.kickstarter') }}</span> <span
+                                class="has-text-grey-dark">{{ $t('count_down.campaign_countdown') }}</span>
+                            </h1>
                         </div>
-                    </div>
-                    <div class="column is-12">
-                        <div class="columns is-centered is-mobile">
-                            <div class="column container-small">
-                                <div class="content has-text-centered">
-                                    <p class="is-size-4 is-marginless padding-bottom-1x" v-html="$t('count_down.kickstarter_launch', [localTime, localDate])">
-                                    </p>
-                                    <div>
-                                        <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dDZIpf"
-                                           class="animated button rubberBand is-rounded is-large padding-top-2x">
-                                            <span class="icon"><i class="fab fa-kickstarter-k"></i></span><span>{{ $t('splash_hero.notify_me') }}</span>
-                                        </a>
-                                        <button class="button animated rubberBand is-large is-rounded padding-top-2x share-button" @click="onUserWantsToShare()">
+                        <div class="column is-12">
+                            <div class="has-text-centered">
+                                <countdown :time="countdownDate">
+                                    <template slot-scope="props">
+                                        <div class="columns is-gapless">
+                                            <div class="column">
+                                                <strong
+                                                    class="is-size-0 is-size-1-mobile has-text-primary is-rainbow-text">{{ props.days
+                                                    }}</strong>
+                                                <p
+                                                    class="is-size-2"> {{ $tc('count_down.days', props.days) }} </p>
+                                            </div>
+                                            <div class="column">
+                                                <strong
+                                                    class="is-size-0 is-size-1-mobile has-text-primary is-rainbow-text">{{ props.hours
+                                                    }}</strong>
+                                                <p
+                                                    class="is-size-2"> {{ $tc('count_down.hours', props.hours) }} </p>
+                                            </div>
+                                            <div class="column">
+                                                <strong
+                                                    class="is-size-0 is-size-1-mobile has-text-primary is-rainbow-text">{{ props.minutes
+                                                    }}</strong>
+                                                <p
+                                                    class="is-size-2"> {{ $tc('count_down.minutes', props.minutes)
+                                                    }} </p>
+                                            </div>
+                                            <div class="column">
+                                                <strong
+                                                    class="is-size-0 is-size-1-mobile has-text-primary is-rainbow-text">{{ props.seconds
+                                                    }}</strong>
+                                                <p
+                                                    class="is-size-2"> {{ $tc('count_down.seconds', props.seconds)
+                                                    }} </p>
+                                            </div>
+                                        </div>
+                                    </template>
+                                </countdown>
+                            </div>
+                        </div>
+                        <div class="column is-12">
+                            <div class="columns is-centered is-mobile">
+                                <div class="column container-small">
+                                    <div class="content has-text-centered">
+                                        <p class="is-size-4 is-marginless padding-bottom-1x"
+                                           v-html="$t('count_down.kickstarter_launch', [localTime, localDate])">
+                                        </p>
+                                        <div>
+                                            <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dDZIpf"
+                                               class="animated button rubberBand is-rounded is-large is-rainbow has-margin-2x">
+                                                <span class="icon"><i
+                                                    class="fab fa-kickstarter-k"></i></span><span>{{ $t('splash_hero.notify_me')
+                                                }}</span>
+                                            </a>
+                                            <button
+                                                class="button is-large is-rounded share-button has-margin-2x"
+                                                @click="onUserWantsToShare()">
                                         <span class="icon">
                                             <i class="fas fa-share-alt"></i>
                                         </span>
-                                            <span>
+                                                <span>
                                             {{ $t('hud.share') }}
                                         </span>
-                                        </button>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -59,33 +82,14 @@
                     </div>
                 </div>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
 </template>
 
 <style lang="scss">
     .kickstarter-bg {
-        background: url('./assets/kickstarter_bg.jpg') no-repeat 0 0;
-        background-size: 100%;
-
-        .container {
-            background: white;
-            @media (min-width: 768px) {
-                width: 100%;
-            }
-        }
-
-        .button.rubberBand {
-            background: #fbba00;
-            color: #fff;
-            border: white;
-            font-weight: bold;
-            margin-right: 1em;
-
-            &.share-button {
-                background: #5dc7d8;
-            }
-        }
+        background: url('./assets/iphones-min.png') no-repeat center center fixed;
+        background-size: cover;
     }
 
 </style>
@@ -110,12 +114,16 @@
                 })
             }
         },
+        props: {
+            isMedium: false,
+            isLarge: false
+        },
         data() {
             const now = new Date();
             // Calculate GMT date from current timezone
             const gmtDate = new Date(now.valueOf() + now.getTimezoneOffset() * 60 * 1000);
             // Calculate current NL time which is GMT+2 in summer, so add 2 hours = 120 minutes
-            const nlDate =  new Date(gmtDate.valueOf() + 120 * 60 * 1000);
+            const nlDate = new Date(gmtDate.valueOf() + 120 * 60 * 1000);
             const kickstarterDate = new Date(2018, 7, 19, 19, 0, 0, 0);  // Sunday August 19th, 19:00 in NL
 
             const countdownDate = kickstarterDate - nlDate;
@@ -133,11 +141,7 @@
             return {
                 countdownDate,
                 localTime,
-                localDate,
-                isActive: false,
-                isActive2: false,
-                isActive3: false,
-                isActive4: false
+                localDate
             };
         },
     }

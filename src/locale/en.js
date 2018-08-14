@@ -100,7 +100,7 @@ export const messages = {
             hours: 'hour | hours',
             minutes: 'minute | minutes',
             seconds: 'second | seconds',
-            kickstarter_launch: '<strong class="has-text-kickstarter">Kickstarter</strong> ' +
+            kickstarter_launch: 'Our <strong class="has-text-kickstarter">Kickstarter</strong> ' +
             'campaign starts <br/>on the<strong> {1}th August of 2018 at {0}</strong>.'
         },
         meet_the_team: {

@@ -141,6 +141,9 @@ const router = new Router({
                     path: 'kickstarter',
                     name: 'kickstarter',
                     component: kickstarter,
+                    props:{
+                        isLarge: true
+                    },
                     meta: {
                         title: 'Kickstarter | Openbook social network'
                     }
