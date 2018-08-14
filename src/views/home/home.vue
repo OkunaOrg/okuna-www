@@ -60,10 +60,8 @@
 
 <script>
 
-    import obBrowser from './components/splash-hero/components/browser.vue'
     import ObQuotes from "./components/quotes/quotes";
     import ObWhyOpenbook from "./components/why-openbook";
-    import ObOcean from "./components/splash-hero/components/ocean/ocean";
     import ObSplashHero from "./components/splash-hero/splash-hero";
     import ObFeaturedOn from "./components/featured-in/featured-in";
     import ObMeetTheTeam from "./components/meet-the-team/meet-the-team.vue";
@@ -93,10 +91,8 @@
             ObMeetTheTeam,
             ObFeaturedOn,
             ObSplashHero,
-            ObOcean,
             ObWhyOpenbook,
             ObQuotes,
-            obBrowser
         }
     }
 </script>

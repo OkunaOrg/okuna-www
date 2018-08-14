@@ -3,7 +3,7 @@
         <div class="hero-body">
             <div class="container">
                 <div class="columns is-centered is-vcentered">
-                    <div class="column has-text-centered has-padding-top-2x-mobile">
+                    <div class="column has-text-centered has-padding-top-2x-mobile has-background-white is-z-2 has-position-relative">
                         <div class="columns is-centered is-mobile">
                             <div class="column" style="max-width: 520px">
                                 <h1 class="title is-size-3-mobile is-size-1"
@@ -31,8 +31,10 @@
                             </div>
                         </div>
                     </div>
-                    <div class="column splash-browser">
-                       <ob-browser></ob-browser>
+                    <div class="column splash-browser is-z-1 has-position-relative">
+                        <figure class="image animated fadeInDown">
+                            <img :src="laptopsImage">
+                        </figure>
                     </div>
                 </div>
             </div>
@@ -67,21 +69,20 @@
 <script>
 
     require('./scripts/typewriter.exec.js');
-
-    import ObBrowser from "./components/browser";
-    import ObOcean from "./components/ocean/ocean";
+    import laptopsImage from './assets/dropping-laptop-xs-min.png';
 
     export default {
-        components: {
-            ObOcean,
-            ObBrowser
-        },
         name: 'ob-splash-hero',
         mounted() {
             this.initHello();
         },
         destroyed() {
             this.typewriter.stop();
+        },
+        data(){
+          return {
+              laptopsImage
+          }
         },
         methods: {
             initHello() {
