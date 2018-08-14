@@ -163,7 +163,7 @@ export const messages = {
         team_members: {
             joel_title: 'Founder, Chief Disruptor',
             joel_desc: 'Privacy and security activist, software engineer, digital products designer, open sourcerer, The Next Web Top 500 young talent, human.',
-            jaya_title: 'Executive Sensei',
+            jaya_title: 'Operations Sensei',
             jaya_desc: 'Globally recognized information-security expert, speaker on lawful interception, quantum-computing, counter surveillance and cryptography.',
             phil_title: 'Cryptography Wizard',
             phil_desc: 'Cryptography pioneer, creator of PGP, the most widely used email encryption software in the world, internet hall of fame member, privacy activist.',
