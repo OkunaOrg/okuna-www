@@ -180,7 +180,7 @@
                     </p>
                     <p>
 
-                        Además, en asociación con FoundersPledge, <strong>usaremos el 30% de nuestros ingresos para hacer del mundo un lugar mejor</strong>. Por ejemplo, apoyaremos proyectos de educación, prevención del cambio climático, salud mental y saneamiento.
+                        Además, en asociación con FoundersPledge, <strong>usaremos el 30% de nuestros ganancias para hacer del mundo un lugar mejor</strong>. Por ejemplo, apoyaremos proyectos de educación, prevención del cambio climático, salud mental y saneamiento.
                         Ya es hora de que las compañías tecnológicas beneficien a todos.
                     </p>
                     <h3 id="personal">
