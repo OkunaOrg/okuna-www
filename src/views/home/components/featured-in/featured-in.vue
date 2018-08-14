@@ -2,6 +2,15 @@
     <div>
         <div class="columns is-centered featured-in">
             <div class="column">
+                <a href="https://techcrunch.com/2018/08/11/openbook-is-the-latest-dream-of-a-digital-life-beyond-facebook/"
+                   class="featured-in__logo-wrapper"
+                   target="_blank" rel="noopener noreferrer">
+                    <figure class="image">
+                        <img class="is-grayscale" src="./assets/tc-logo.png">
+                    </figure>
+                </a>
+            </div>
+            <div class="column">
                 <a href="https://www.telegraph.co.uk/technology/2018/07/16/privacy-activists-launch-tracking-free-rival-facebook/"
                    class="featured-in__logo-wrapper"
                    target="_blank" rel="noopener noreferrer">
@@ -16,15 +25,6 @@
                    target="_blank" rel="noopener noreferrer">
                     <figure class="image">
                         <img class="is-grayscale" src="./assets/sd-logo.png">
-                    </figure>
-                </a>
-            </div>
-            <div class="column">
-                <a href="https://tecnoblog.net/252011/openbook-alternativa-facebook/" target="_blank"
-                   class="featured-in__logo-wrapper"
-                   rel="noopener noreferrer">
-                    <figure class="image featured-in-img">
-                        <img class="is-grayscale" src="./assets/tecnoblog.png">
                     </figure>
                 </a>
             </div>
@@ -58,6 +58,15 @@
                 </a>
             </div>
             <div class="column">
+                <a href="https://tecnoblog.net/252011/openbook-alternativa-facebook/" target="_blank"
+                   class="featured-in__logo-wrapper"
+                   rel="noopener noreferrer">
+                    <figure class="image featured-in-img">
+                        <img class="is-grayscale" src="./assets/tecnoblog.png">
+                    </figure>
+                </a>
+            </div>
+            <div class="column">
                 <a href="https://www.presse-citron.net/openbook-un-anti-facebook-open-source-et-sans-pistage-des-utilisateurs/"
                    class="featured-in__logo-wrapper"
                    target="_blank" rel="noopener noreferrer">
@@ -81,15 +90,6 @@
                    target="_blank" rel="noopener noreferrer">
                     <figure class="image featured-in-img">
                         <img class="is-grayscale" src="./assets/computer_idee-logo.png">
-                    </figure>
-                </a>
-            </div>
-            <div class="column">
-                <a href="https://www.lesechos.fr/tech-medias/hightech/0301984319323-openbook-le-nouveau-reseau-social-qui-veut-proteger-la-vie-privee-des-utilisateurs-2192484.php"
-                   class="featured-in__logo-wrapper"
-                   target="_blank" rel="noopener noreferrer">
-                    <figure class="image featured-in-img">
-                        <img class="is-grayscale" src="./assets/logo-lesechos-logo.svg">
                     </figure>
                 </a>
             </div>
@@ -132,6 +132,15 @@
                 </a>
             </div>
             <div class="column">
+                <a href="https://www.lesechos.fr/tech-medias/hightech/0301984319323-openbook-le-nouveau-reseau-social-qui-veut-proteger-la-vie-privee-des-utilisateurs-2192484.php"
+                   class="featured-in__logo-wrapper"
+                   target="_blank" rel="noopener noreferrer">
+                    <figure class="image featured-in-img">
+                        <img class="is-grayscale" src="./assets/logo-lesechos-logo.svg">
+                    </figure>
+                </a>
+            </div>
+            <div class="column">
                 <a href="https://www.pcprofessionale.it/news/openbook-nuova-alternativa-free-facebook/?cookie-policy-accepted"
                    class="featured-in__logo-wrapper"
                    target="_blank" rel="noopener noreferrer">
@@ -150,7 +159,7 @@
         .column {
             display: flex;
             justify-content: center;
-            min-width: 20%;
+            min-width: 17%;
 
             @media screen and (max-width: 769px) {
                 min-height: 6em;
