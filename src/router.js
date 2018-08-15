@@ -62,6 +62,10 @@ const router = new Router({
             redirect: `/${browserLang}/press`
         },
         {
+            path: '/kickstarter',
+            redirect: `/${browserLang}/kickstarter`
+        },
+        {
             path: '/:locale',
             component: root,
             children: [
