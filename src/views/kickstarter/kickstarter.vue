@@ -58,7 +58,7 @@
                                            v-html="$t('count_down.kickstarter_launch', [localTime, localDate])">
                                         </p>
                                         <div>
-                                            <a target="_blank" rel="noopener noreferrer" href="http://eepurl.com/dDZIpf"
+                                            <a target="_blank" rel="noopener noreferrer" href="https://open-book.org/kickstarter"
                                                class="animated button rubberBand is-rounded is-large is-rainbow has-margin-2x">
                                                 <span class="icon"><i
                                                     class="fab fa-kickstarter-k"></i></span><span>{{ $t('splash_hero.notify_me')
@@ -124,7 +124,7 @@
             const gmtDate = new Date(now.valueOf() + now.getTimezoneOffset() * 60 * 1000);
             // Calculate current NL time which is GMT+2 in summer, so add 2 hours = 120 minutes
             const nlDate = new Date(gmtDate.valueOf() + 120 * 60 * 1000);
-            const kickstarterDate = new Date(2018, 7, 19, 19, 0, 0, 0);  // Sunday August 19th, 19:00 in NL
+            const kickstarterDate = new Date(2018, 8, 7, 19, 0, 0, 0);  // September7th, 19:00 in NL
 
             const countdownDate = kickstarterDate - nlDate;
 
