@@ -43,7 +43,7 @@ export const messages = {
         good_for_planet: {
             title: 'Jó a bolygó számára',
             description:
-                'A <a href=\'https://founderspledge.com/\' rel=\'noreferrer noopener\'>FoundersPledge</a>-el való partnerségünkkel bevételünk 30%-át oktatás, fertőtlenítés, éghajlatváltozás-megelőzés, stb. projekteknek adományozzuk.'
+                'A <a href=\'https://founderspledge.com/\' rel=\'noreferrer noopener\'>FoundersPledge</a>-el való partnerségünkkel nyereségének 30%-át oktatás, fertőtlenítés, éghajlatváltozás-megelőzés, stb. projekteknek adományozzuk.'
         },
         ads_free: {
             title: '100% reklámmentes',
@@ -106,7 +106,7 @@ export const messages = {
                 'A legmodernebb technologiákra építve, valamint nagy odafigyeléssel a részletekre és etikákra, ilyesmit nem találsz máshol.',
             good_for_planet: 'Jó a bolygó számára',
             good_for_planet_desc:
-                'A <a href=\'https://founderspledge.com/\' target=\'_blank\'\n                                                             rel=\'noopener noreferrer\'>Founders Pledge-el</a>\n                                való partnerkapcsolatunkkal, bevételünk 30%-át jótékony célokra szenteljük, most és\n                                    mindörökké.'
+                'A <a href=\'https://founderspledge.com/\' target=\'_blank\'\n                                                             rel=\'noopener noreferrer\'>Founders Pledge-el</a>\n                                való partnerkapcsolatunkkal, nyereségének 30%-át jótékony célokra szenteljük, most és\n                                    mindörökké.'
         },
         count_down: {
             kickstarter: 'Kickstarter',
@@ -116,7 +116,7 @@ export const messages = {
             minutes: 'perc | perc',
             seconds: 'másodperc | másodperc',
             kickstarter_launch:
-                'A <strong class=\'has-text-kickstarter\'>Kickstarter</strong> kampány véget ér <br/> <strong>2018. augusztus 15</strong>-én.'
+                'A <strong class=\'has-text-kickstarter\'>Kickstarter</strong> kampány véget ér <br/>  <strong>2018. szeptember {1}-én, {0}-kor</strong>.'
         },
         meet_the_team: {
             title: 'Ismerd meg a csapatot'
@@ -150,7 +150,7 @@ export const messages = {
             subtitle:
                 'Szeretnénk egy <span class=\'has-text-primary\'>jóra törekvő</span> eszközt létrehozni.',
             description:
-                'Az <span class=\'has-text-primary\'><strong\n                                class=\'has-text-primary\'>Open</strong>book</span> egy új, adatvédelem-központú, nyílt forráskódú és menő közösségi hálózat, mely bevételének 30%-át a világ jobbá tételére szenteli.',
+                'Az <span class=\'has-text-primary\'><strong class=\'has-text-primary\'>Open</strong>book</span> egy új, adatvédelem-központú, nyílt forráskódú és menő közösségi hálózat, mely nyereségének 30%-át a világ jobbá tételére szenteli.',
             description_founded:
                 'Az Openbook egy olyan projekt, mely a béke és igazságosság nemzetközi városában, Hágában jött létre 2018 áprilisában és egy jobb közösségi hálózat megalkotását tűzi ki célul.',
             description_project:
@@ -370,7 +370,7 @@ export const messages = {
             honest_pe: 'őszinte, személyes, magánéletbarát, biztonságos és szórakoztató lesz ;-)',
             How_will_w: 'Hogyan fogunk egy jó érdekű eszközt létrehozni?',
             open_sourc: 'nyílt forráskódú.',
-            _of_our: 'bevételünk 30%-át jótékony célokra használjuk fel.',
+            _of_our: 'nyereségének 30%-át jótékony célokra használjuk fel.',
             Were_all_: 'Mindannyian különbözőek vagyunk, és ez tesz minket egyedivé és gyönyörűvé! Mi támogatjuk ezt!',
             On_Openboo: 'Az Openbook-on nemcsak a saját profilodat szabhatod személyre, de a teljes hálózatot! A főoldalad színeinek megváltoztatásától pluginok hozzáadásáig, olyan egyedivé teheted a hálózatot, mint amilyen te vagy!',
             And_if_the: 'És ha bármit is hiányolsz az Openbook-on, szólj nekünk. Szeretnénk, ha együtt fejlesztenénk az Openbook-ot. Létre fogunk hozni egy különleges csoportot, ahová bátran segíthetsz neünk eldönteni, mi legyen a következő dolog, amin dolgozzunk és hogy min javítsunk. Építsük együtt a legeslegjobb közösségi hálózatot!',

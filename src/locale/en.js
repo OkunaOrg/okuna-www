@@ -34,7 +34,7 @@ export const messages = {
         },
         good_for_planet: {
             title: 'Good for the planet',
-            description: 'In partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, we\'ll be giving 30% of our revenue towards projects for education, sanitization, climate change prevention and more.'
+            description: 'In partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, we\'ll be giving 30% of our profits towards projects for education, sanitization, climate change prevention and more.'
         },
         ads_free: {
             title: '100% Ad-free',
@@ -64,7 +64,7 @@ export const messages = {
             reddit: 'reddit',
             we_are_ob: 'We\'re <strong>Open</strong>book.',
             kickstarter: 'The open source, privacy-friendly, fun and honest social\n' +
-            '    network helping make the world a better place.',
+            '    network helping make the world a better place. ',
             share: 'Share',
             notify_me: 'Support us on Kickstarter'
         },
@@ -90,7 +90,7 @@ export const messages = {
             good_for_planet: 'Good for the planet',
             good_for_planet_desc: 'In partnership with <a href="https://founderspledge.com/" target="_blank"\n' +
             '                                                             rel="noopener noreferrer">Founders Pledge</a>\n' +
-            '                                we will give 30% of our revenue towards making the world a better place, now and\n' +
+            '                                we will give 30% of our profit towards making the world a better place, now and\n' +
             '                                    forever.'
         },
         count_down: {
@@ -100,8 +100,8 @@ export const messages = {
             hours: 'hour | hours',
             minutes: 'minute | minutes',
             seconds: 'second | seconds',
-            kickstarter_launch: '<strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            'campaign ends <br/> on the <strong>15th of August of 2018</strong>.'
+            kickstarter_launch: 'Our <strong class="has-text-kickstarter">Kickstarter</strong> ' +
+            'campaign ends <br/>on the<strong> {1}th of September 2018 at {0}</strong>.'
         },
         meet_the_team: {
             title: 'Meet the team'
@@ -137,9 +137,9 @@ export const messages = {
             share_email: 'Send e-mail',
             share_linkedin: 'Share on LinkedIn',
             share_wa: 'Share on Whatsapp',
-            share_title: 'Openbook. The honest, transparent and awesome social network!',
+            share_title: 'Openbook. The honest, transparent and awesome social network now on Kickstarter!',
             share_description: 'Openbook. The honest, transparent and awesome social network!',
-            share_quote: 'It\'s time! View and support Openbook! The Kickstarter project to build a new, honest, fun and transparent social network! http://kck.st/2zLovw7',
+            share_quote: 'It\'s time! View and support Openbook! The Kickstarter project to build a new, honest, fun and transparent social network! https://open-book.org/kickstarter',
         },
         about_us: {
             title: 'About us',
@@ -147,7 +147,7 @@ export const messages = {
             description: '<span class="has-text-primary"><strong\n' +
             '                                class="has-text-primary">Open</strong>book</span> ' +
             'is an new, privacy-friendly, open-source and awesome social network ' +
-            'giving 30% of it\'s revenue towards making the world a better place, now and forever.',
+            'giving 30% of it\'s profit towards making the world a better place, now and forever.',
             description_founded: 'Founded in April 2018 in the international city of peace and justice, The Hague, Openbook is a project to build a better social network.',
             description_project: 'A social network that is honest, respects and protects the privacy of it\'s users, brings people together, is fun to use and is good for the planet.',
             accomplish_how: 'How will we accomplish this?',
@@ -336,7 +336,7 @@ export const messages = {
             open_sourc: "open-source.",
             this_means_: "This means it’s free for everyone to see, reproduce and contribute to.We’re transparent about how the social network works.",
             additionally: "Additionally, in partnership with FoundersPledge, we’ll be giving",
-            _of_our: "30% of our revenue towards making the world a better place.",
+            _of_our: "30% of our profit towards making the world a better place.",
             for_example: "For example, education, climate-change prevention, mental-health and sanitisation.It’s about time tech-companies benefit everyone.",
             Were_all_: "We’re all different and that makes each of us unique and beautiful! We embrace this!",
             On_Openboo: "On Openbook you will not only be able to personalise your profile, but the entire network itself! From changing the color of your homepage to adding plugins, you can make it as unique as yourself.",

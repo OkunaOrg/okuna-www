@@ -34,7 +34,7 @@ export const messages = {
         },
         good_for_planet: {
             title: 'Buena para el planeta',
-            description: 'Con ayuda de <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, usaremos 30% de nuestros ingresos hacia proyectos de educación, sanitización, prevención del cambio climático y más.'
+            description: 'Con ayuda de <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, usaremos 30% de nuestros ganancias hacia proyectos de educación, sanitización, prevención del cambio climático y más.'
         },
         ads_free: {
             title: '100% Libre de anuncios',
@@ -74,8 +74,8 @@ export const messages = {
             hours: 'hora | horas',
             minutes: 'minuto | minutos',
             seconds: 'segundo | segundos',
-            kickstarter_launch: 'La campaña de <strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            '<br/> termina el <strong>15 de Agosto del 2018</strong>.'
+            kickstarter_launch: 'La campaña de ' +
+            '<strong class="has-text-kickstarter">Kickstarter</strong> termina el </br> <strong>{1} de septiembre de 2018 a las {0}</strong>.'
         },
         meet_the_team: {
             title: 'Conoce al equipo'
@@ -109,12 +109,8 @@ export const messages = {
             subtitle: 'Queremos crear una herramienta para <span class="has-text-primary">bien</span>.',
             description: '<span class="has-text-primary"><strong\n' +
             '                                class="has-text-primary">Open</strong>book</span> ' +
-            'is an new, privacy-friendly, open-source and awesome social network ' +
-            'giving 30% of it\'s revenue towards making the world a better place, now and forever.',
-            description: '<span class="has-text-primary"><strong\n' +
-            '                                class="has-text-primary">Open</strong>book</span> ' +
             'es la sorprendente y honesta red social, amiga de tu privacidad de codigo abierto ' +
-            'que ayuda a crear un mundo mejor para todos, por hoy y por siempre.',
+            'que ayuda a crear un mundo mejor para todos, que proporciona el 30% de sus ganancias para hacer del mundo un lugar mejor, ahora y para siempre.',
             description_founded: 'Fundada en Abril del 2018 en la ciudad internacional de la paz, La Haya, Openbook nace del deseo de construir una mejor red social.',
             description_project: 'Una red social que es honesta, que respeta la privacidad de sus usuarios, que ayuda a unirnos como sociedad, que es divertida de usar y finalmente, que es buena para el planeta.',
             accomplish_how: 'Cómo lograremos esto?',
@@ -265,7 +261,7 @@ export const messages = {
             share_wa: 'Compartir en Whatsapp',
             share_title: 'Openbook. La red social honesta, transparente, divertida y sin anuncios!',
             share_description: 'La red social honesta, transparente, divertida y sin anuncios!',
-            share_quote: 'Checa y apoya Openbook! La red social en Kickstarter para contruir una una nueva red social honesta, divertida y transparente. Es tiempo! http://kck.st/2zLovw7'
+            share_quote: 'Checa y apoya Openbook! La red social en Kickstarter para contruir una una nueva red social honesta, divertida y transparente. Es tiempo! https://open-book.org/kickstarter'
         },
         press: {
             we: 'Openbook',

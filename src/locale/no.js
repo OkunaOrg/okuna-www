@@ -34,7 +34,7 @@ export const messages = {
         },
         "good_for_planet": {
             "title": "Bra for Planeten",
-            "description": "I samarbeid med <a href=\"https:\/\/founderspledge.com\/\" rel=\"noreferrer noopener\"> FoundersPledge <\/a> , gir vi 30% av inntektene til prosjekter for utdanning, sanitær, forebygging av klimaforebygging og mer."
+            "description": "I samarbeid med <a href=\"https:\/\/founderspledge.com\/\" rel=\"noreferrer noopener\"> FoundersPledge <\/a> , gir vi 30% av fortjenesten til prosjekter for utdanning, sanitær, forebygging av klimaforebygging og mer."
         },
         "ads_free": {
             "title": "100% Reklame fri",
@@ -87,7 +87,7 @@ export const messages = {
             "modern_design": "Moderne, vakker, etisk designet",
             "modern_design_desc": "Bygget med de nyeste teknologier, et godt øye for detaljer og etikk, vil du ikke finne noe lignende andre steder.",
             "good_for_planet": "Bra for Planeten",
-            "good_for_planet_desc": "I samarbeid med <a href=\"https:\/\/founderspledge.com\/\" target=\"_blank\" rel=\"noopener noreferrer\"> Founders Pledge <\/a> \n Vi vil gi 30% av inntektene våre mot å gjøre verden til et bedre sted, nå og \n for alltid."
+            "good_for_planet_desc": "I samarbeid med <a href=\"https:\/\/founderspledge.com\/\" target=\"_blank\" rel=\"noopener noreferrer\"> Founders Pledge <\/a> \n Vi vil gi 30% av fortjenesten våre mot å gjøre verden til et bedre sted, nå og \n for alltid."
         },
         "count_down": {
             "kickstarter": "Kickstarter",
@@ -96,7 +96,7 @@ export const messages = {
             "hours": "time | timer",
             "minutes": "minutt | minutter",
             "seconds": "sekund | sekunder",
-            "kickstarter_launch": "<strong class=\"has-text-kickstarter\"> Kickstarter <\/strong> kampanjen avsluttes <br\/> på <strong> 15. august 2018 <\/strong> ."
+            "kickstarter_launch": "<strong class=\"has-text-kickstarter\"> Kickstarter<\/strong> kampanjen avsluttes <br\/> på <strong> {1}. september 2018 kl {0} <\/strong> ."
         },
         "meet_the_team": {
             "title": "Møt gruppen"
@@ -134,12 +134,12 @@ export const messages = {
             "share_wa": "Del på Whatsapp",
             "share_title": "Openbook. Den ærlig, transparent og det fantastiske sosiale nettverk!",
             "share_description": "Det ærlige, transparent og fantastiske sosiale nettverk!",
-            "share_quote": "Det er på tide! Se og støtte Openbook! Kickstarter-prosjektet for å bygge et nytt, ærlig, morsomt og transparent sosiale nettverk! http:\/\/kck.st\/2zLovw7"
+            "share_quote": "Det er på tide! Se og støtte Openbook! Kickstarter-prosjektet for å bygge et nytt, ærlig, morsomt og transparent sosiale nettverk! https://open-book.org/kickstarter"
         },
         "about_us": {
             "title": "Om oss",
             "subtitle": "Vi vil bygge et verktøy for <span class=\"has-text-primary\"> godt <\/span> .",
-            "description": "<span class=\"has-text-primary\"> <strong class=\"has-text-primary\"> Open <\/strong> book <\/span> er et nytt, privatlivsvennlig, åpen kildekode og fantastisk sosialt nettverk som gir 30% av omsetningen til å gjøre verden til et bedre sted, nå og foralltid.",
+            "description": "<span class=\"has-text-primary\"> <strong class=\"has-text-primary\"> Open <\/strong> book <\/span> er et nytt, privatlivsvennlig, åpen kildekode og fantastisk sosialt nettverk som gir 30% av fortjenesten til å gjøre verden til et bedre sted, nå og foralltid.",
             "description_founded": "Grunnlagt i April 2018 i den internasjonale byen for fred og rettferdighet, Haag, Openbook er et prosjekt for å bygge bedre sosiale nettverk.",
             "description_project": "Et sosialt nettverk som er ærlig, respekterer og beskytter personvernet til brukerne, bringer mennesker sammen, er morsomt å bruke og er bra for planeten.",
             "accomplish_how": "Hvordan skal vi oppnå dette?",
@@ -318,7 +318,7 @@ export const messages = {
             "open_sourc": "åpen kildekode.",
             "this_means_": "Dette betyr at det er gratis for alle å se, reprodusere og bidra til. Vi er transparente om hvordan det sosiale nettverket fungerer.",
             "additionally": "I tillegg, i samarbeid med FoundersPledge, vil vi gi",
-            "_of_our": "30% av inntektene våre mot å gjøre verden til et bedre sted.",
+            "_of_our": "30% av fortjenesten våre mot å gjøre verden til et bedre sted.",
             "for_example": "For eksempel utdanning, forebygging av klimaforandring, mental helse og sanitering. Det er på tide at teknologibedrifter drar nytte av alle.",
             "Were_all_": "Vi er alle forskjellige, og det gjør hver av oss unik og vakker! Vi omfavner dette!",
             "On_Openboo": "På Openbook vil du ikke bare kunne tilpasse profilen din, men hele nettverket selv! Fra å endre fargen på hjemmesiden din for å legge til plugins, kan du gjøre det så unikt som deg selv.",

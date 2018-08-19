@@ -1,6 +1,6 @@
 <template>
     <div>
-        <social-sharing url="https://open-book.org/"
+        <social-sharing url="https://open-book.org/kickstarter"
                         :title="$t('hud.share_title')"
                         :description="$t('hud.share_description')"
                         :quote="$t('hud.share_quote')"
