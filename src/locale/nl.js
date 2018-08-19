@@ -56,7 +56,7 @@ export const messages = {
             reddit: 'reddit',
             we_are_ob: 'Wij zijn <strong>Open</strong>book.',
             kickstarter: 'Het open-source, privacy vriendelijke, leuke en eerlijke sociale\n' +
-            '    netwerk dat helpt de wereld beter te maken.<strong class="has-text-kickstarter"> Binnenkort op Kickstarter!</strong>',
+            '    netwerk dat helpt de wereld beter te maken.',
             share: 'Deel',
             notify_me: 'Steun ons op Kickstarter'
         },
@@ -68,7 +68,7 @@ export const messages = {
             minutes: 'minuut | minuten',
             seconds: 'seconde | seconden',
             kickstarter_launch: 'Onze <strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            'campagne start <br/> op <strong>{1} augustus 2018 om {0} uur</strong>.'
+            'campagne verloopt <br/> op <strong>{1} september 2018 om {0} uur</strong>.'
         },
         meet_the_team: {
             title: 'Ontmoet het team'
