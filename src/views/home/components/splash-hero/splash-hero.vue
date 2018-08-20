@@ -20,7 +20,7 @@
                         <div class="columns is-centered is-mobile">
                             <div class="column is-narrow">
                                 <a class="button is-rainbow is-rounded is-medium is-size-6-mobile" target="_blank"
-                                   rel="noopener noreferrer" href="https://open-book.org/kickstarter">
+                                   rel="noopener noreferrer" href="https://open-book.org/kickstarter?v=2">
                                     <span class="icon">
                                         <i class="fab fa-kickstarter-k"></i>
                                     </span>

@@ -58,7 +58,7 @@
                                            v-html="$t('count_down.kickstarter_launch', [localTime, localDate])">
                                         </p>
                                         <div>
-                                            <a target="_blank" rel="noopener noreferrer" href="https://open-book.org/kickstarter"
+                                            <a target="_blank" rel="noopener noreferrer" href="https://open-book.org/kickstarter?v=2"
                                                class="animated button rubberBand is-rounded is-large is-rainbow has-margin-2x">
                                                 <span class="icon"><i
                                                     class="fab fa-kickstarter-k"></i></span><span>{{ $t('splash_hero.notify_me')
