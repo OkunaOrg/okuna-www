@@ -10,6 +10,7 @@
     import isaacPhoto from './assets/isaac.jpg';
     import rubenPhoto from './assets/ruben.jpg';
     import edwinPhoto from './assets/edwin.png';
+    import chrisPhoto from './assets/chris.png';
     import ObAmbassador from './components/ambassador.vue';
 
 
@@ -49,6 +50,17 @@
                             linkedin: 'https://www.linkedin.com/in/yafsec/'
                         },
                         description: this.$t('ambassadors.edwin_desc'),
+                    },
+                    {
+                        name: this.$t('ambassadors.chris_name'),
+                        photo: chrisPhoto,
+                        links: {
+                            website: 'https://www.chrisduke.tv',
+                            twitter: 'https://twitter.com/chrisduketv',
+                            instagram: 'https://www.instagram.com/chrisduketv',
+                            facebook: 'https://www.facebook.com/chrisduketv/'
+                        },
+                        description: this.$t('ambassadors.chris_desc'),
                     }
                 ]
             }

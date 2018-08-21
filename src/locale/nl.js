@@ -204,6 +204,8 @@ export const messages = {
             ruben_desc: 'CEO & Co-Founder of BitSensor, cyber-security software.',
             edwin_name: 'Edwin van Andel',
             edwin_desc: 'CEO at Zerocopter, internationale spreker, ervaren, security expert.\n',
+            chris_name: 'Chris Duke',
+            chris_desc: 'Host & Executive Producer, Motorz TV'
         },
         faq: {
             title: 'FAQ',

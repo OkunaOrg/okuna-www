@@ -170,6 +170,18 @@ export const messages = {
             martijn_title: 'Ingénieur logiciel',
             martijn_desc: 'Ingénieur logiciel pratique, gourou JavaScript, geek de technologie portable, gamer, responsable du coolness.'
         },
+        ambassadors: {
+            isaac_name: 'Isaac Hernández',
+            isaac_desc: 'Művész, szociális vállalkozó.',
+            ruben_name: 'Ruben Van Vreeland',
+            ruben_desc:
+                'A BitSensor számítógépes biztonsági szoftver vezérigazgatója és társalapítója.',
+            edwin_name: 'Edwin van Andel',
+            edwin_desc:
+                'A Zerocopter vezérigazgatója, nemzetközi beszélő, tapasztalt biztonsági szakértő.',
+            chris_name: 'Chris Duke',
+            chris_desc: 'Host & Executive Producer, Motorz TV'
+        },
         contact_us: {
             title: 'Contactez-nous',
             subtitle: 'Nous voulons vous entendre',
