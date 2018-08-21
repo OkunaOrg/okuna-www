@@ -117,15 +117,6 @@
                             linkedin: 'https://www.linkedin.com/in/robin-roosdorp/'
                         },
                         description: this.$t('team_members.robin_desc')
-                    },
-                    {
-                        name: 'Martijn Jansen',
-                        position: this.$t('team_members.martijn_title'),
-                        photo: martijnPhoto,
-                        links: {
-                            linkedin: 'https://www.linkedin.com/in/martijn-jansen-7b0218a/'
-                        },
-                        description: this.$t('team_members.martijn_desc')
                     }
                 ]
             }

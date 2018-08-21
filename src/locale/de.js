@@ -180,7 +180,9 @@ export const messages = {
             "ruben_name": "Ruben Van Vreeland",
             "ruben_desc": "CEO & Mitbegründer von BitSensor, Cyber-Security-Software.",
             "edwin_name": "Edwin van Andel",
-            "edwin_desc": "CEO bei Zerocopter, internationaler Sprecher, erfahrener Sicherheitsexperte."
+            "edwin_desc": "CEO bei Zerocopter, internationaler Sprecher, erfahrener Sicherheitsexperte.",
+            "chris_name": "Chris Duke",
+            "chris_desc": "Host & Executive Producer, Motorz TV"
         },
         "contact_us": {
             "title": "Nimm mit uns Kontakt auf",

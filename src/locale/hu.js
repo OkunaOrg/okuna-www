@@ -206,7 +206,9 @@ export const messages = {
                 'A BitSensor számítógépes biztonsági szoftver vezérigazgatója és társalapítója.',
             edwin_name: 'Edwin van Andel',
             edwin_desc:
-                'A Zerocopter vezérigazgatója, nemzetközi beszélő, tapasztalt biztonsági szakértő.'
+                'A Zerocopter vezérigazgatója, nemzetközi beszélő, tapasztalt biztonsági szakértő.',
+            chris_name: 'Chris Duke',
+            chris_desc: 'Host & Executive Producer, Motorz TV'
         },
         contact_us: {
             title: 'Lépj velünk kapcsolatba',

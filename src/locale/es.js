@@ -130,6 +130,8 @@ export const messages = {
             ruben_desc: 'Director ejecutivo de BitSensor, software de ciber-seguridad.',
             edwin_name: 'Edwin van Andel',
             edwin_desc: 'Director ejecutivo de Zerocopter, orador internacional, experto en seguridad informática.',
+            chris_name: 'Chris Duke',
+            chris_desc: 'Host & Executive Producer, Motorz TV'
         },
         team_members: {
             joel_title: 'Fundador, Director de innovación',

@@ -180,7 +180,9 @@ export const messages = {
             "ruben_name": "Ruben Van Vreeland",
             "ruben_desc": "Administrerende direktør og del-gründer av BitSensor, nettverkssikkerhetsprogramvare.",
             "edwin_name": "Edwin van Andel",
-            "edwin_desc": "Administrerende direktør i Zerocopter, internasjonal foredragsholder, erfarene sikkerhetsekspert."
+            "edwin_desc": "Administrerende direktør i Zerocopter, internasjonal foredragsholder, erfarene sikkerhetsekspert.",
+            "chris_name": "Chris Duke",
+            "chris_desc": "Host & Executive Producer, Motorz TV"
         },
         "contact_us": {
             "title": "Kontakt oss",
