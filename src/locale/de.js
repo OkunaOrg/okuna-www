@@ -96,7 +96,7 @@ export const messages = {
             "hours": "Stunde | Stunden",
             "minutes": "Minute | Minuten",
             "seconds": "Sekunde | Sekunden",
-            "kickstarter_launch": "Unsere <strong class=\"has-text-kickstarter\">Kickstarter<\/strong>-Kampagne endet <br\/> am <strong>{1}. September 2018 um {0} uhr<\/strong>."
+            "kickstarter_launch": "Unsere <strong class=\"has-text-kickstarter\">Kickstarter<\/strong>-Kampagne endet <br\/> am <strong>{1}. September 2018 um {0} Uhr<\/strong>."
         },
         "meet_the_team": {
             "title": "Lerne das Team kennen"
