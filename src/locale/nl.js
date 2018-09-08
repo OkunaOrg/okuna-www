@@ -58,17 +58,17 @@ export const messages = {
             kickstarter: 'Het open-source, privacy vriendelijke, leuke en eerlijke sociale\n' +
             '    netwerk dat helpt de wereld beter te maken.',
             share: 'Deel',
-            notify_me: 'Steun ons op Kickstarter'
+            notify_me: 'Steun ons'
         },
         count_down: {
-            kickstarter: 'Kickstarter',
-            campaign_countdown: 'campagne countdown',
+            kickstarter: 'Openbook',
+            campaign_countdown: 'countdown',
             days: 'dag | dagen',
             hours: 'uur | uur',
             minutes: 'minuut | minuten',
             seconds: 'seconde | seconden',
-            kickstarter_launch: 'Onze <strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            'campagne verloopt <br/> op <strong>{1} september 2018 om {0} uur</strong>.'
+            kickstarter_launch: 'Onze <strong class="has-text-kickstarter">alpha</strong> ' +
+            'start <br/> op <strong>{0} maart 2019</strong>.'
         },
         meet_the_team: {
             title: 'Ontmoet het team'
@@ -256,9 +256,9 @@ export const messages = {
             share_email: 'Email deze pagina',
             share_linkedin: 'Delen op LinkedIn',
             share_wa: 'Delen op Whatsapp',
-            share_title: 'Openbook. Het eerlijke, transparante en geweldige sociale netwerk nu op Kickstarter!',
+            share_title: 'Openbook. Het eerlijke, transparante en geweldige sociale netwerk!',
             share_description: 'Openbook. Het eerlijke, transparante en geweldige sociale netwerk!',
-            share_quote: 'Het is tijd! Bekijk en steun Openbook! Het Kickstarter-project om een nieuw, eerlijk, leuk en transparant sociaal netwerk te bouwen! https://open-book.org/kickstarter'
+            share_quote: 'Bekijk en steun Openbook! Een nieuw, eerlijk, leuk en transparant sociaal netwerk! https://open-book.org/support-us'
         },
         press: {
             we: 'Wij',

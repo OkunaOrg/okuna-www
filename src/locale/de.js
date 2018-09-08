@@ -65,7 +65,7 @@ export const messages = {
             "we_are_ob": "Wir sind <strong>Open<\/strong>book.",
             "kickstarter": "Das open-source, datenschutzfreundliche, spassige und ehrliche soziale Netzwerk, das hilft, die Welt zu einem besseren Ort zu machen.",
             "share": "Teilen",
-            "notify_me": "Unterstütze uns auf Kickstarter"
+            "notify_me": "Unterstütze uns"
         },
         "why_ob": {
             "title": "Warum Openbook?",
@@ -90,13 +90,13 @@ export const messages = {
             "good_for_planet_desc": "In Zusammenarbeit mit <a href=\"https:\/\/founderspledge.com\/\" target=\"_blank\" rel=\"noreferrer noopener\">FoundersPledge<\/a> werden wir 30% unserer Profite darin investieren, die Welt zu einem besseren Ort zu machen, jetzt und für immer."
         },
         "count_down": {
-            "kickstarter": "Kickstarter",
-            "campaign_countdown": "Kampagnen-Countdown",
+            "kickstarter": "Openbook",
+            "campaign_countdown": "starten countdown",
             "days": "Tag | Tage",
             "hours": "Stunde | Stunden",
             "minutes": "Minute | Minuten",
             "seconds": "Sekunde | Sekunden",
-            "kickstarter_launch": "Unsere <strong class=\"has-text-kickstarter\">Kickstarter<\/strong>-Kampagne endet <br\/> am <strong>{1}. September 2018 um {0} Uhr<\/strong>."
+            "kickstarter_launch": "Unsere <strong class=\"has-text-kickstarter\">alpha<\/strong> beginnt <br\/> am <strong>{0}. March 2019<\/strong>."
         },
         "meet_the_team": {
             "title": "Lerne das Team kennen"
@@ -132,7 +132,7 @@ export const messages = {
             "share_email": "E-Mail senden",
             "share_linkedin": "Auf LinkedIn teilen",
             "share_wa": "Auf Whatsapp teilen",
-            "share_title": "Openbook. Das ehrliche, transparente und großartige soziale Netzwerk jetzt auf Kickstarter!",
+            "share_title": "Openbook. Das ehrliche, transparente und großartige soziale Netzwerk!",
             "share_description": "Das ehrliche, transparente und großartige soziale Netzwerk!",
             "share_quote": "Es ist soweit! Openbook ansehen und unterstützen!  Das Kickstarter-Projekt zum Aufbau eines neuen, ehrlichen, spassigen und transparenten sozialen Netzwerks. https:\/\/open-book.org\/kickstarter"
         },

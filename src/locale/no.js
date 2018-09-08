@@ -10,7 +10,7 @@ export const messages = {
         },
         "honesty": {
             "title": "Ærlig",
-            "description": "Alt av koder er åpen kildekode, så hvem som helst kan see, endre og reprodusere. ikke noe rom for ubehaglige overraskelser"
+            "description": "Alt av koder er åpen kildekode, så hvem som helst kan se, endre og reprodusere. ikke noe rom for ubehaglige overraskelser"
         },
         "privacy": {
             "title": "Personvern-vennlig",
@@ -65,7 +65,7 @@ export const messages = {
             "we_are_ob": "Vi er <strong>Open<\/strong>book.",
             "kickstarter": "The open source, privatlivsvennlig, morsom og ærlig sosial nettverk som bidrar til å gjøre verden til et bedre sted.",
             "share": "Del",
-            "notify_me": "Støtt oss på Kickstarter"
+            "notify_me": "Støtt oss"
         },
         "why_ob": {
             "title": "Hvorfor Openbook",
@@ -90,13 +90,13 @@ export const messages = {
             "good_for_planet_desc": "I samarbeid med <a href=\"https:\/\/founderspledge.com\/\" target=\"_blank\" rel=\"noopener noreferrer\"> Founders Pledge <\/a> \n Vi vil gi 30% av fortjenesten våre mot å gjøre verden til et bedre sted, nå og \n for alltid."
         },
         "count_down": {
-            "kickstarter": "Kickstarter",
-            "campaign_countdown": "kampanje nedtelling",
+            "kickstarter": "Openbook",
+            "campaign_countdown": " nedtelling",
             "days": "dag | dager",
             "hours": "time | timer",
             "minutes": "minutt | minutter",
             "seconds": "sekund | sekunder",
-            "kickstarter_launch": "<strong class=\"has-text-kickstarter\"> Kickstarter<\/strong> kampanjen avsluttes <br\/> på <strong> {1}. september 2018 kl {0} <\/strong> ."
+            "kickstarter_launch": "Vår <strong class=\"has-text-kickstarter\">Alpha<\/strong> starter <br\/> på <strong> {0}. mars 2019 <\/strong> ."
         },
         "meet_the_team": {
             "title": "Møt gruppen"
@@ -134,7 +134,7 @@ export const messages = {
             "share_wa": "Del på Whatsapp",
             "share_title": "Openbook. Den ærlig, transparent og det fantastiske sosiale nettverk!",
             "share_description": "Det ærlige, transparent og fantastiske sosiale nettverk!",
-            "share_quote": "Det er på tide! Se og støtte Openbook! Kickstarter-prosjektet for å bygge et nytt, ærlig, morsomt og transparent sosiale nettverk! https://open-book.org/kickstarter"
+            "share_quote": "Se og støtte Openbook! Å bygge et nytt, ærlig, morsomt og transparent sosiale nettverk! https://open-book.org/support-us"
         },
         "about_us": {
             "title": "Om oss",

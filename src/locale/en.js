@@ -66,7 +66,7 @@ export const messages = {
             kickstarter: 'The open source, privacy-friendly, fun and honest social\n' +
             '    network helping make the world a better place. ',
             share: 'Share',
-            notify_me: 'Support us on Kickstarter'
+            notify_me: 'Support us'
         },
         why_ob: {
             title: 'Why Openbook?',
@@ -94,14 +94,14 @@ export const messages = {
             '                                    forever.'
         },
         count_down: {
-            kickstarter: 'Kickstarter',
-            campaign_countdown: 'campaign countdown',
+            kickstarter: 'Openbook',
+            campaign_countdown: 'launch countdown',
             days: 'day | days',
             hours: 'hour | hours',
             minutes: 'minute | minutes',
             seconds: 'second | seconds',
-            kickstarter_launch: 'Our <strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            'campaign ends <br/>on the<strong> {1}th of September 2018 at {0}</strong>.'
+            kickstarter_launch: 'Openbook <strong class="has-text-kickstarter">alpha</strong> ' +
+            'begins <br/>on the<strong> {0}th of March 2019</strong>.'
         },
         meet_the_team: {
             title: 'Meet the team'
@@ -137,9 +137,9 @@ export const messages = {
             share_email: 'Send e-mail',
             share_linkedin: 'Share on LinkedIn',
             share_wa: 'Share on Whatsapp',
-            share_title: 'Openbook. The honest, transparent and awesome social network now on Kickstarter!',
+            share_title: 'Openbook. The honest, transparent and awesome social network!',
             share_description: 'Openbook. The honest, transparent and awesome social network!',
-            share_quote: 'It\'s time! View and support Openbook! The Kickstarter project to build a new, honest, fun and transparent social network! https://open-book.org/kickstarter',
+            share_quote: 'View and support Openbook to help build a new, honest, fun and transparent social network! https://open-book.org/support-us',
         },
         about_us: {
             title: 'About us',

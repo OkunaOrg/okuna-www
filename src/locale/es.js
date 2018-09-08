@@ -65,17 +65,17 @@ export const messages = {
             we_are_ob: 'Somos <strong>Open</strong>book.',
             kickstarter: 'La red social de codigo abierto, que respeta tu privacidad, es divertida, honesta y ayuda a crear mundo mejor para todos.',
             share: 'Compartir',
-            notify_me: 'Apoyanos en Kickstarter'
+            notify_me: 'Apoyanos'
         },
         count_down: {
-            kickstarter: 'Kickstarter',
+            kickstarter: 'Openbook',
             campaign_countdown: 'conteo oficial',
             days: 'dia | dias',
             hours: 'hora | horas',
             minutes: 'minuto | minutos',
             seconds: 'segundo | segundos',
-            kickstarter_launch: 'La campaña de ' +
-            '<strong class="has-text-kickstarter">Kickstarter</strong> termina el </br> <strong>{1} de septiembre de 2018 a las {0}</strong>.'
+            kickstarter_launch: 'Comienza la Openbook ' +
+            '<strong class="has-text-kickstarter">alpha </strong> el </br> <strong>{0} de marzo 2019</strong>.'
         },
         meet_the_team: {
             title: 'Conoce al equipo'
@@ -263,7 +263,7 @@ export const messages = {
             share_wa: 'Compartir en Whatsapp',
             share_title: 'Openbook. La red social honesta, transparente, divertida y sin anuncios!',
             share_description: 'La red social honesta, transparente, divertida y sin anuncios!',
-            share_quote: 'Checa y apoya Openbook! La red social en Kickstarter para contruir una una nueva red social honesta, divertida y transparente. Es tiempo! https://open-book.org/kickstarter'
+            share_quote: 'Checa y apoya Openbook! La red social en Kickstarter para contruir una una nueva red social honesta, divertida y transparente. Es tiempo! https://open-book.org/support-us'
         },
         press: {
             we: 'Openbook',
