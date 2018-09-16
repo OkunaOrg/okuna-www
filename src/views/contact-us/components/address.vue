@@ -21,17 +21,6 @@
             </div>
             <div class="column is-2">
                 <span class="icon">
-                    <i class="fas fa-phone"></i>
-                </span>
-            </div>
-            <div class="column is-10">
-                <strong>{{ $t('address.telephone') }} </strong><br/>
-                <a href="tel:+31611604275">
-                    {{ $t('address.telephone_no') }}
-                </a>
-            </div>
-            <div class="column is-2">
-                <span class="icon">
                     <i class="fas fa-envelope"></i>
                 </span>
             </div>
