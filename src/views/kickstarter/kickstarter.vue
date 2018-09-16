@@ -124,7 +124,7 @@
             const gmtDate = new Date(now.valueOf() + now.getTimezoneOffset() * 60 * 1000);
             // Calculate current NL time which is GMT+2 in summer, so add 2 hours = 120 minutes
             const nlDate = new Date(gmtDate.valueOf() + 120 * 60 * 1000);
-            const kickstarterDate = new Date(2018, 8, 7, 19, 0, 0, 0);  // September7th, 19:00 in NL
+            const kickstarterDate = new Date(2019, 2, 15, 0, 0, 0, 0);  // September7th, 19:00 in NL
 
             const countdownDate = kickstarterDate - nlDate;
 

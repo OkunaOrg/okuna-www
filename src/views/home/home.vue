@@ -28,6 +28,7 @@
                 </div>
             </div>
         </section>
+        <ob-subscribe></ob-subscribe>
         <ob-kickstarter :is-medium="true"></ob-kickstarter>
         <section class="section">
             <div class="container">
@@ -75,9 +76,11 @@
     import ObAdsFree from "./components/ads-free/ads-free";
     import ObCurrency from "./components/currency/currency.vue";
     import ObKickstarter from "../kickstarter/kickstarter.vue";
+    import ObSubscribe from "./components/subscribe/subscribe";
 
     export default {
         components: {
+            ObSubscribe,
             ObKickstarter,
             ObCurrency,
             ObAdsFree,
