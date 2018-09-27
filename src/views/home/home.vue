@@ -28,8 +28,6 @@
                 </div>
             </div>
         </section>
-        <ob-subscribe></ob-subscribe>
-        <ob-kickstarter :is-medium="true"></ob-kickstarter>
         <section class="section">
             <div class="container">
                 <ob-quotes></ob-quotes>

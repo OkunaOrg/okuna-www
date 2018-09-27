@@ -63,8 +63,8 @@ export const messages = {
             grandma: 'grandma',
             reddit: 'reddit',
             we_are_ob: 'We\'re <strong>Open</strong>book.',
-            kickstarter: 'The open source, privacy-friendly, fun and honest social\n' +
-            '    network helping make the world a better place. ',
+            kickstarter: 'The privacy-friendly, fun and honest social\n' +
+            '    network helping make the world a better place. Missed our Kickstarter? Don\'t miss the waitlist! Limited spots available',
             share: 'Share',
             notify_me: 'Support us on Kickstarter'
         },
