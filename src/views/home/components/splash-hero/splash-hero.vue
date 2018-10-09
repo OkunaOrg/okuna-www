@@ -29,7 +29,7 @@
                             <div class="column">
                                 <p v-bind:class="{'submitted': emailSendClicked}">
                                     <span class="input-email is-rainbow" v-bind:class="{'success': subscribeSuccessful}">
-                                        <input class="input-field" type="email" placeholder="Email" v-bind:disabled="emailSendClicked">
+                                        <input class="input-field" type="email" placeholder="Email" v-model="email" v-bind:disabled="emailSendClicked">
                                         <span></span>
                                     </span>
                                     <button class="join-waitlist is-rainbow" @click="sendEmail()" v-bind:class="{'success': subscribeSuccessful}">
@@ -38,7 +38,8 @@
                                         <span class="animated fadeIn" v-show="subscribeSuccessful"><i class="fas fa-check"></i></span>
                                     </button>
                                 </p>
-                                <span class="success-message" v-show="subscribeSuccessful">Congratulations! You're 28 on the waitlist.</span>
+                                <span class="has-text-danger" v-show="errorEmail">{{errorEmail}}</span>
+                                <span class="success-message" v-show="subscribeSuccessful">Congratulations! You're {{count}} on the waitlist.</span>
                             </div>
                         </div>
                     </div>
@@ -192,7 +193,9 @@
     require('./scripts/typewriter.exec.js');
     import blackMockupImage from './assets/black-mock-min.png';
     import whiteMockupImage from './assets/white-mock-min.png';
+    import axios from 'axios';
 
+    const MAILCHIMP_SUBSCRIBE_URL = process.env.VUE_APP_MAILCHIMP_SUBSCRIBE_URL;
     export default {
         name: 'ob-splash-hero',
         mounted() {
@@ -205,6 +208,9 @@
           return {
               emailSendClicked : false,
               subscribeSuccessful : false,
+              email: '',
+              errorEmail: '',
+              count: 0,
               blackMockupImage,
               whiteMockupImage
           }
@@ -240,10 +246,20 @@
             },
             sendEmail() {
                 this.emailSendClicked = true;
-                console.log('clicked...');
-                setTimeout(() => {
+                axios.post(MAILCHIMP_SUBSCRIBE_URL, {
+                    email: this.email
+                })
+                .then((resp) => {
                     this.subscribeSuccessful = true;
-                }, 2000);
+                    this.errorEmail = '';
+                    this.count = resp.data.count;
+                })
+                .catch((error) => {
+                    if (error.response.status === 400) this.errorEmail = error.response.data.email[0];
+                    if (error.response.status === 500) this.errorEmail = 'Oops..something went wrong. Try again!';
+                    console.error(error);
+                    this.emailSendClicked = false;
+                });
             }
         }
     }
