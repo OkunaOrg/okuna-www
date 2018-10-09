@@ -63,8 +63,7 @@ export const messages = {
             grandma: 'grandma',
             reddit: 'reddit',
             we_are_ob: 'We\'re <strong>Open</strong>book.',
-            kickstarter: 'The open source, privacy-friendly, fun and honest social\n' +
-            '    network helping make the world a better place. ',
+            kickstarter: 'The social network that serves people, not the other way around.',
             share: 'Share',
             notify_me: 'Support us'
         },
@@ -143,16 +142,13 @@ export const messages = {
         },
         about_us: {
             title: 'About us',
-            subtitle: 'We want to build a tool for <span class="has-text-primary">good</span>.',
-            description: '<span class="has-text-primary"><strong\n' +
-            '                                class="has-text-primary">Open</strong>book</span> ' +
-            'is an new, privacy-friendly, open-source and awesome social network ' +
-            'giving 30% of it\'s profit towards making the world a better place, now and forever.',
-            description_founded: 'Founded in April 2018 in the international city of peace and justice, The Hague, Openbook is a project to build a better social network.',
-            description_project: 'A social network that is honest, respects and protects the privacy of it\'s users, brings people together, is fun to use and is good for the planet.',
-            accomplish_how: 'How will we accomplish this?',
+            subtitle: 'We want to build tech for <span class="has-text-primary">good</span>.',
+            description: 'We\'re engineers, designers, hackers, artists, peace activists and volunteers from all across the globe <strong>working together towards a future where technology is built to serve people and not the other way around</strong>.',
+            description_founded: 'We do this by building technologies with humanity\'s best qualities at their core. Kindness, compassion, tolerance, charity, empathy and cooperation to name a few.',
+            description_project: 'We\'re currently building a social network: <strong>Open</strong>book.',
+            accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
-            humans_behind_ob: 'The humans behind <strong>Open</strong>book',
+            humans_behind_ob: 'The people',
             work_with_us: 'Want to work with us?',
             visit_jobs_page: 'Visit our jobs page',
             our_ambassadors: ' Our ambassadors',

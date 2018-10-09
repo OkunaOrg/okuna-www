@@ -33,18 +33,17 @@
             <div>
                 <div class="columns is-centered">
                     <div class="column intro-text content">
-                        <p class="is-size-4 has-text-centered small-container padding-bottom-1x"
+                        <p class="is-size-4 small-container padding-bottom-1x"
                            v-html="$t('about_us.description')">
                         </p>
                     </div>
                 </div>
                 <div class="columns">
-                    <div class="column intro-text content small-container">
+                    <div class="column intro-text content small-container is-paddingless">
                         <p class="is-size-5 small-container">
                             {{ $t('about_us.description_founded') }}
                         </p>
-                        <p class="is-size-5 small-container">
-                            {{ $t('about_us.description_project') }}
+                        <p class="is-size-5 small-container" v-html="$t('about_us.description_project')">
                         </p>
                     </div>
                 </div>
