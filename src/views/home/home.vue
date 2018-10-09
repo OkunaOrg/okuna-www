@@ -28,7 +28,6 @@
                 </div>
             </div>
         </section>
-        <ob-kickstarter :is-medium="true"></ob-kickstarter>
         <section class="section">
             <div class="container">
                 <ob-quotes></ob-quotes>
@@ -74,11 +73,9 @@
     import ObGoodForPlanet from "./components/good-for-planet/good-for-planet";
     import ObAdsFree from "./components/ads-free/ads-free";
     import ObCurrency from "./components/currency/currency.vue";
-    import ObKickstarter from "../kickstarter/kickstarter.vue";
 
     export default {
         components: {
-            ObKickstarter,
             ObCurrency,
             ObAdsFree,
             ObGoodForPlanet,
