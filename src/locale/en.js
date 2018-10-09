@@ -143,9 +143,9 @@ export const messages = {
         about_us: {
             title: 'About us',
             subtitle: 'We want to build tech for <span class="has-text-primary">good</span>.',
-            description: 'We\'re engineers, designers, hackers, artists, peace activists and volunteers from all across the globe <strong>working together towards a future where technology is built to serve people and not the other way around</strong>.',
-            description_founded: 'We do this by building technologies with humanity\'s best qualities at their core. Kindness, compassion, tolerance, charity, empathy and cooperation to name a few.',
-            description_project: 'We\'re currently building a social network: <strong>Open</strong>book.',
+            description: 'We\'re engineers, designers, ethical hackers, artists, peace activists and volunteers from all across the globe <strong>working together towards a future where technology is built to serve people and not the other way around</strong>.',
+            description_founded: 'We do this by building products and services with humanity\'s best qualities at their core. Kindness, compassion, tolerance, charity, empathy and cooperation to name a few.',
+            description_project: 'We\'re currently building <strong>Open</strong>book. A social network that is honest, respects and protects the privacy of it\'s users, brings people together, is fun to use and does good for our planet and it\'s inhabitants.',
             accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
             humans_behind_ob: 'The people',

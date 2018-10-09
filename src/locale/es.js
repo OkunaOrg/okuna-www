@@ -106,14 +106,11 @@ export const messages = {
         },
         about_us: {
             title: 'Acerca de nosotros',
-            subtitle: 'Queremos crear una herramienta para <span class="has-text-primary">bien</span>.',
-            description: '<span class="has-text-primary"><strong\n' +
-            '                                class="has-text-primary">Open</strong>book</span> ' +
-            'es la sorprendente y honesta red social, amiga de tu privacidad de codigo abierto ' +
-            'que ayuda a crear un mundo mejor para todos, que proporciona el 30% de sus ganancias para hacer del mundo un lugar mejor, ahora y para siempre.',
-            description_founded: 'Fundada en Abril del 2018 en la ciudad internacional de la paz, La Haya, Openbook nace del deseo de construir una mejor red social.',
-            description_project: 'Una red social que es honesta, que respeta la privacidad de sus usuarios, que ayuda a unirnos como sociedad, que es divertida de usar y finalmente, que es buena para el planeta.',
-            accomplish_how: 'Cómo lograremos esto?',
+            subtitle: 'Queremos crear tecnología para <span class="has-text-primary">bien</span>.',
+            description: 'Somos ingenieros, diseñadores, hackers éticos, artistas, activistas por la paz y voluntarios de todo el mundo que trabajamos juntos hacia un futuro en el que la tecnología se construye para servir a las personas y no al revés.',
+            description_founded: 'Hacemos esto construyendo productos y servicios con las mejores cualidades humanas en su núcleo. Amabilidad, compasión, tolerancia, caridad, empatía y cooperación, por nombrar algunas.',
+            description_project: 'Actualmente estamos construyendo <strong>Open</strong>book. Una red social que es honesta, que respeta la privacidad de las personas, que ayuda a unirnos como sociedad, que es divertida de usar y finalmente, que es buena para nuestro planeta y sus inhabitantes.',
+            accomplish_how: 'Por qué una red social?',
             read_our_manifesto: 'Lee nuestro manifesto',
             humans_behind_ob: 'Los humanos detrás de <strong>Open</strong>book',
             work_with_us: 'Quieres trabajar con nosotros?',
