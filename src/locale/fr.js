@@ -66,7 +66,7 @@ export const messages = {
             kickstarter: 'Le réseau social open source, respectueux de la vie privée, amusement et honnête\n' +
             '    qui contribue à rendre le monde meilleur.',
             share: 'Partagez',
-            notify_me: 'Soutenez-nous sur Kickstarter'
+            notify_me: 'Soutenez-nous'
         },
         why_ob: {
             title: 'Pourquoi Openbook?',
@@ -94,13 +94,13 @@ export const messages = {
             '                                    pour toujours.'
         },
         count_down: {
-            kickstarter: 'Kickstarter',
+            kickstarter: 'Openbook',
             campaign_countdown: 'compte à rebours',
             days: 'jour | jours',
             hours: 'heure | heures',
             minutes: 'minute | minutes',
             seconds: 'seconde | secondes',
-            kickstarter_launch: 'La campagne <strong class="has-text-kickstarter">Kickstarter</strong> se termine le </br> <strong>{1} septembre 2018 à {0}</strong>'
+            kickstarter_launch: 'La alpha <strong class="has-text-kickstarter">Openbook</strong> commence le </br> <strong>{0} mars 2019</strong>'
         },
         meet_the_team: {
             title: 'Rencontrez l\'équipe'

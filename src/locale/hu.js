@@ -75,7 +75,7 @@ export const messages = {
             kickstarter:
                 'A nyílt forráskódú, magánéletbarát, szórakoztató és őszinte közösségi hálózat, mely segít a világ jobbá tételében.',
             share: 'Megosztás',
-            notify_me: 'Támogass minket Kickstateren'
+            notify_me: 'Támogass minket'
         },
         why_ob: {
             title: 'Miért az Openbook?',
@@ -109,14 +109,14 @@ export const messages = {
                 'A <a href=\'https://founderspledge.com/\' target=\'_blank\'\n                                                             rel=\'noopener noreferrer\'>Founders Pledge-el</a>\n                                való partnerkapcsolatunkkal, nyereségének 30%-át jótékony célokra szenteljük, most és\n                                    mindörökké.'
         },
         count_down: {
-            kickstarter: 'Kickstarter',
-            campaign_countdown: 'kampány visszaszámlálás',
+            kickstarter: 'Openbook',
+            campaign_countdown: 'visszaszámlálás',
             days: 'nap | nap',
             hours: 'óra | óra',
             minutes: 'perc | perc',
             seconds: 'másodperc | másodperc',
             kickstarter_launch:
-                'A <strong class=\'has-text-kickstarter\'>Kickstarter</strong> kampány véget ér <br/>  <strong>2018. szeptember {1}-én, {0}-kor</strong>.'
+                'Az Openbook <strong class=\'has-text-kickstarter\'>alfa 2019. március {0}-én indul</strong>.'
         },
         meet_the_team: {
             title: 'Ismerd meg a csapatot'
