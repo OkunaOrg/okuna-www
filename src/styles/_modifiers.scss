@@ -112,6 +112,12 @@ img .is-rounded {
     }
 }
 
+.has-padding-bottom-1x-mobile {
+    @media(max-width: 768px) {
+        padding-bottom: 1rem !important;
+    }
+}
+
 .has-text-underlined{
     text-decoration: underline;
 }

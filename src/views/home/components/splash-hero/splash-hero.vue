@@ -1,6 +1,6 @@
 <template>
     <section class="hero is-medium hero--splash" id="main">
-        <div class="hero-body">
+        <div class="hero-body has-padding-bottom-1x-mobile">
             <div class="container">
                 <div class="columns is-centered is-vcentered">
                     <div class="column splash-browser has-position-relative">
@@ -27,7 +27,7 @@
                         </div>
                         <div class="columns is-centered is-mobile">
                             <div class="column">
-                                <p v-bind:class="{'submitted': emailSendClicked}">
+                                <p class="email-container" v-bind:class="{'submitted': emailSendClicked}">
                                     <span class="input-email is-rainbow" v-bind:class="{'success': subscribeSuccessful}">
                                         <input class="input-field" type="email" placeholder="Email" v-model="email" v-bind:disabled="emailSendClicked">
                                         <span></span>
@@ -38,8 +38,8 @@
                                         <span class="animated fadeIn" v-show="subscribeSuccessful"><i class="fas fa-check"></i></span>
                                     </button>
                                 </p>
-                                <span class="has-text-danger" v-show="errorEmail">{{errorEmail}}</span>
-                                <span class="success-message" v-show="subscribeSuccessful">Congratulations! You're {{count}} on the waitlist.</span>
+                                <span class="error-message has-text-danger" v-show="errorEmail">{{errorEmail}}</span>
+                                <span class="success-message" v-show="subscribeSuccessful">Congratulations! You're number {{count}} on the waitlist.</span>
                             </div>
                         </div>
                     </div>
@@ -62,7 +62,7 @@
     .splash-browser {
         margin-top: 1rem;
         @media(max-width: 770px) {
-            max-height: 30vh;
+            max-height: 45vh;
         }
     }
 
@@ -83,6 +83,12 @@
     .success-message {
         margin-top: 1em;
         font-weight: bold;
+        display: inline-block;
+    }
+
+    .error-message {
+        display: inline-block;
+        margin-top: 1em;
     }
 
     .submitted {
@@ -98,20 +104,24 @@
     .join-waitlist {
         border-radius: 50%;
         background: #f95ca3;
-        position: relative;
-        right: 8%;
+        position: absolute;
+        right: 20%;
+        top: 2px;
         z-index: 2;
         width: 40px;
         height: 40px;
-        top: -1px;
         border: none;
         color: white;
         cursor: pointer;
         outline: none;
         transition: right 1s;
 
+        @media(max-width: 768px) {
+            right: 10%;
+        }
+
         &.success {
-            right: 27%;
+            right: 46%;
         }
 
         .fa-spinner, .fa-check {
@@ -130,6 +140,15 @@
         }
     }
 
+    .email-container {
+        position: relative;
+        padding: 0 20%;
+
+        @media(max-width: 768px) {
+            padding: 0 10%;
+        }
+    }
+
     .input-email {
         position:relative;
         overflow: visible !important;
@@ -138,7 +157,7 @@
         display: inline-block;
         border-radius: 9999em;
         line-height: 0.5em;
-        width: 50%;
+        width: 100%;
         transition: opacity 1s;
 
         *:not(span) {
