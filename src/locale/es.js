@@ -219,7 +219,7 @@ export const messages = {
             whos_paying_ans: 'Hasta ahora hemos sido completamente auto-financiados. Sin embargo, esto ha demostrado ser muy difícil.\n' +
             'Dado que la mayoría de nosotros trabajamos a tiempo completo aparte de Openbook, nos llevaría mucho tiempo lanzar la primera versión y, aun así, no podríamos pagar por toda la infraestructura de IT necesaria para competir con las redes sociales establecidas.',
             crowd_funding: 'Como queríamos que el proyecto fuera impulsado por personas y no por dinero, decidimos recurrir al crowdfunding.',
-            launching_kickstarter: 'Lanzaremos nuestra campaña de Kickstarter el 17 de julio.',
+            launching_kickstarter: '¡Recibimos fondos de Kickstarter con éxito el 7 de septiembre de 2018 a las 18:34!',
             why_not_non_profit: '¿Por qué Openbook no es una organización sin fines de lucro?',
             why_not_non_profit_ans: 'Hacer Openbook con fines de lucro fue una decisión difícil de hacer.',
             check_all_boxes: 'Tenemos todas las calificaciones de una compañia sin fines de lucro y amamos a las organizaciones sin fines de lucro. Nos encantan las compañias Wikipedia, Ghost Foundation, FoundersPledge, Mozilla y muchas más.',
@@ -228,14 +228,14 @@ export const messages = {
             hence_for_profit: 'Por lo tanto, oficialmente somos una empresa con fines de lucro.',
             humanitarian: 'Pero ten en cuenta que cuando hagamos esto, nos aseguraremos de que las personas que inviertan en la compañía sean personas con un interés real en la plataforma, sus valores centrales de privacidad, seguridad, libertad, codigo abierto y su naturaleza humanitaria.',
             want_to_help: 'Quiero ayudar ahora, ¿qué puedo hacer?',
-            donate: 'Dona a nuestra campaña de Kickstarter!',
+            donate: 'Dona en IndieGogo!',
             want_to_help_ans: '¡Estamos felices y agradecidos de que quieras ayudar!',
             many_ways: 'Hay muchas maneras en que puedes ayudar ahora mismo.',
             ideas: 'Aquí hay algunas ideas:',
             share_website: 'Comparte el sitio en tus redes sociales',
             talk_to_friends: 'Habla con tus amigos y familia acerca de nosotros',
             improve_website: 'Si eres un desarrollador, nos puedes ayudar a mejorar nuestro sitio en <a\n' +
-            '                            href="http://git.open-book.org/"\n' +
+            '                            href="https://github.com/OpenbookOrg"' +
             '                            target="_blank" rel="noopener noreferrer">Github</a>.',
             let_us_know: 'Si tienes una idea para la red social, nos puedes <a href="/es/contact-us"\n' +
             '                                                                            target="_blank" rel="noopener noreferrer">contactar</a>.',

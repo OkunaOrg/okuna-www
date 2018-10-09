@@ -254,7 +254,7 @@ export const messages = {
             whos_paying_ans: 'So far we have been completely self funded. However, this has proven to be very hard.\n' +
             '                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
             crowd_funding: 'As we wanted the project to be driven by people and not capital, we decided to go for crowd-funding.',
-            launching_kickstarter: 'We\'ll be launching our Kickstarter campaign on the 17th of July.',
+            launching_kickstarter: 'We got successfully funded on the 7th of September 2018 at 18:34!',
             why_not_non_profit: 'Why is Openbook not a non-profit?',
             why_not_non_profit_ans: 'Making Openbook a for-profit was a hard choice to make.',
             check_all_boxes: 'We check all the non-profits boxes and we love non-profits. We love Wikipedia, the Ghost Foundation, Founders Pledge, Mozilla and many more.',
@@ -267,10 +267,10 @@ export const messages = {
             many_ways: 'There are many ways you can help right now.',
             ideas: 'Here are some ideas:',
             share_website: 'Share the website on social media',
-            donate: 'Donate to our Kickstarter campaign!',
+            donate: 'Donate in IndieGogo!',
             talk_to_friends: 'Talk to your friends and family about us',
             improve_website: 'If you\'re a developer, you can help us <a\n' +
-            '                            href="https://git.open-book.org/"\n' +
+            '                            href="https://github.com/OpenbookOrg"\n' +
             '                            target="_blank" rel="noopener noreferrer">improve our website</a>.',
             let_us_know: 'If you have an idea for the network, you can <a href="/en/contact-us"\n' +
             '                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.',
