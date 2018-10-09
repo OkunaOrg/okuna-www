@@ -18,11 +18,11 @@
             return {
                 pressKits: [
                     {
-                        name: 'Press-kit.zip',
-                        url: 'https://git.open-book.org/Openbook/other/press-kit/-/archive/master/press-kit-master.zip',
-                        size: '~ 40 MB',
+                        name: 'press-kit.zip',
+                        url: 'https://showcase.dropbox.com/collection/items/download?padId=pmx9lNzdy1vAJff2RfNdH&collectionItemId=Vokfd4KcqegajepkUAjk',
+                        size: '~ 150 MB',
                         previewImg: zipPreview,
-                        filename: 'Press-kit.zip'
+                        filename: 'press-kit.zip'
                     }
                 ]
             }
