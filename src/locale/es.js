@@ -93,7 +93,7 @@ export const messages = {
         footer: {
             report_vulnerability: 'Reportar Vulnerabilidad',
             twitter: 'Twitter',
-            github: 'Gitlab',
+            github: 'Github',
             reddit: 'Reddit',
             gitter: 'Gitter',
             linked_in: 'LinkedIn',
@@ -239,7 +239,7 @@ export const messages = {
             talk_to_friends: 'Habla con tus amigos y familia acerca de nosotros',
             improve_website: 'Si eres un desarrollador, nos puedes ayudar a mejorar nuestro sitio en <a\n' +
             '                            href="http://git.open-book.org/"\n' +
-            '                            target="_blank" rel="noopener noreferrer">Gitlab</a>.',
+            '                            target="_blank" rel="noopener noreferrer">Github</a>.',
             let_us_know: 'Si tienes una idea para la red social, nos puedes <a href="/es/contact-us"\n' +
             '                                                                            target="_blank" rel="noopener noreferrer">contactar</a>.',
             public_figure: 'Si eres una figura pública y quieres ser nuestro embajador,',

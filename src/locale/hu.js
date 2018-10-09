@@ -134,7 +134,7 @@ export const messages = {
         footer: {
             report_vulnerability: 'Biztonsági rés jelentése',
             twitter: 'Twitter',
-            github: 'Gitlab',
+            github: 'Github',
             reddit: 'Reddit',
             gitter: 'Gitter',
             linked_in: 'LinkedIn',
