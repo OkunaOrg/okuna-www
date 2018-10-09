@@ -5,7 +5,7 @@
                 <div class="columns is-centered is-vcentered">
                     <div class="column has-text-centered has-padding-top-2x-mobile has-background-white is-z-2 has-position-relative">
                         <div class="columns is-centered is-mobile">
-                            <div class="column" style="max-width: 520px">
+                            <div class="column" style="max-width: 377px">
                                 <h1 class="title is-size-3-mobile is-size-1"
                                     v-html="$t('splash_hero.hello_world')">
                                 </h1>
