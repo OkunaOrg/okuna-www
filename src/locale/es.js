@@ -63,7 +63,7 @@ export const messages = {
             grandma: 'abuela',
             reddit: 'reddit',
             we_are_ob: 'Somos <strong>Open</strong>book.',
-            kickstarter: 'La red social de codigo abierto, que respeta tu privacidad, es divertida, honesta y ayuda a crear mundo mejor para todos.',
+            kickstarter: 'Una red social construida para servir a las personas, no al revés.',
             share: 'Compartir',
             notify_me: 'Apoyanos'
         },
@@ -107,7 +107,7 @@ export const messages = {
         about_us: {
             title: 'Acerca de nosotros',
             subtitle: 'Queremos crear tecnología para <span class="has-text-primary">bien</span>.',
-            description: 'Somos ingenieros, diseñadores, hackers éticos, artistas, activistas por la paz y voluntarios de todo el mundo que trabajamos juntos hacia un futuro en el que la tecnología se construye para servir a las personas y no al revés.',
+            description: 'Somos ingenieros, diseñadores, hackers éticos, artistas, activistas por la paz y voluntarios de todo el mundo <strong>trabajando juntos hacia un futuro en el que la tecnología se construye para servir a las personas y no al revés</strong>.',
             description_founded: 'Hacemos esto construyendo productos y servicios con las mejores cualidades humanas en su núcleo. Amabilidad, compasión, tolerancia, caridad, empatía y cooperación, por nombrar algunas.',
             description_project: 'Actualmente estamos construyendo <strong>Open</strong>book. Una red social que es honesta, que respeta la privacidad de las personas, que ayuda a unirnos como sociedad, que es divertida de usar y finalmente, que es buena para nuestro planeta y sus inhabitantes.',
             accomplish_how: 'Por qué una red social?',
@@ -200,9 +200,9 @@ export const messages = {
         jobs: {
             title: 'Trabajos',
             subtitle: 'Trabaja con nosotros.',
-            exciting_adventure: 'Si nuestra campaña de Kickstarter es exitosa, nos embarcaremos en una de las aventuras digitales más emocionantes de la historia y estamos buscando personas con talento para navegar con nosotros.',
-            all_skills: 'Estamos buscando personas con todo tipo de habilidades. Tecnología, diseño, marketing, finanzas, medios y más.',
-            need_your_help: 'Si crees en <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> y eres talentoso en lo que haces?',
+            exciting_adventure: 'Nos hemos embarcado en una de las aventuras digitales más emocionantes en la historia del internet y estamos buscando personas talentosas y apasionadas para navegar con nosotros.',
+            all_skills: 'Tecnología, diseño, marketing, finanzas, medios y más.',
+            need_your_help: 'Crees en <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span>, un mejor futuro para las redes sociales y el mundo en general?',
             send_cv: 'Mandanos tu CV y una carta de motivación a  <a\n' +
             '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
             look_forward: 'Esperamos pronto hablar contigo!',

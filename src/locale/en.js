@@ -63,7 +63,7 @@ export const messages = {
             grandma: 'grandma',
             reddit: 'reddit',
             we_are_ob: 'We\'re <strong>Open</strong>book.',
-            kickstarter: 'The social network that serves people, not the other way around.',
+            kickstarter: 'A social network built to serve people, not the other way around.',
             share: 'Share',
             notify_me: 'Support us'
         },
@@ -235,9 +235,9 @@ export const messages = {
         jobs: {
             title: 'Jobs',
             subtitle: 'Work with us.',
-            exciting_adventure: 'If our Kickstarter campaign succeeds, we will be embarking on one of the most exciting digital adventures ever and we\'ll be looking for talented people to sail with us!',
-            all_skills: 'We\'ll need people with all kinds of skills. Technology, design, marketing, finance, media, you name it.',
-            need_your_help: 'Do you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> and are talented at what you do?',
+            exciting_adventure: 'We have embarked on one of the most exciting adventures for the digital world and we\'re looking for talented and passionate people to sail with us!',
+            all_skills: 'Technology, design, marketing, finance, media, you name it.',
+            need_your_help: 'Do you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span>, a better future for social networks and humanity as a whole?',
             send_cv: 'Send us your CV and a motivation letter to  <a\n' +
             '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
             look_forward: 'We look forward to meeting you !',
