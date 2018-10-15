@@ -5,7 +5,6 @@
         <ob-privacy></ob-privacy>
         <ob-secure></ob-secure>
         <ob-easy></ob-easy>
-        <ob-fun></ob-fun>
         <ob-personal></ob-personal>
         <ob-currency></ob-currency>
         <ob-ads-free></ob-ads-free>

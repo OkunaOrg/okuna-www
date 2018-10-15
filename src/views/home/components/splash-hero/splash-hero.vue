@@ -9,10 +9,10 @@
                                 <h1 class="title is-size-3-mobile is-size-1"
                                     v-html="$t('splash_hero.hello_world')">
                                 </h1>
-                                <h2 class="subtitle is-size-5-mobile is-size-3"
+                                <h2 class="is-size-5-mobile is-size-3"
                                     v-html="$t('splash_hero.we_are_ob')">
                                 </h2>
-                                <h3 class="is-size-6-mobile"
+                                <h3 class="is-size-4 is-size-5-mobile"
                                     v-html="$t('splash_hero.kickstarter')">
                                 </h3>
                             </div>

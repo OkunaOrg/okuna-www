@@ -10,35 +10,36 @@ export const messages = {
         },
         honesty: {
             title: 'Honest',
-            description: 'All the code is open-source, so free for anyone to see, modify and reproduce. No room for unpleasant surprises.'
+            description: 'The code for Openbook will be open-source, meaning free for anyone to inspect, modify, contribute and use.'
         },
         privacy: {
             title: 'Privacy-friendly',
-            description: 'We don\'t monitor nor track anything you do. Surf the network with absolute peace of mind!'
+            description: 'We firmly believe privacy is a fundamental human right. We dont\'t track nor monitor you.'
         },
         secure: {
             title: 'Secure by design',
-            description: 'Most of our team members come from an information security background. We are baking in security, right from the start.'
+            description: 'We come from an information security background. We are baking in security, right from the start.'
         },
         easy: {
             title: 'Easy-peasy',
-            description: 'Simple to use, even more to move into. Just drag-and-drop your old social media archive into Openbook and import all your photos, videos, chats and more!'
+            description: 'We want everyone to be able to use Openbook. That\'s why we\'re making it easy to move your information from other social networks.'
         },
         fun: {
             title: 'Fun!',
-            description: 'We\'re bringing back the social in social network, giving interaction with your peers meaning again.'
+            description: 'Because our lives are short and brittle, we\'re desining Openbook to be a fun and enjoyable experience for everyone.'
         },
         personal: {
-            title: 'Personal',
-            description: 'Customize the network the way you want. Be different, be yourself!'
+            title: 'Customisable',
+            description: 'Because we\'re all different and that\'s something to embrace and celebrate.'
         },
         good_for_planet: {
             title: 'Good for the planet',
-            description: 'In partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, we\'ll be giving 30% of our profits towards projects for education, sanitization, climate change prevention and more.'
+            description: 'We believe in a better world for everyone. That\'s why we\'re giving 30% of our profits towards making the world a better place, now and ' +
+            '                                    forever in partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>.'
         },
         ads_free: {
             title: '100% Ad-free',
-            description: 'Our revenue model is not nor ever will be based on advertisement. Enjoy ad-free surfing forever!'
+            description: 'Benefits of a revenue model free of advertisement? Ad-free surfing!'
         },
         currency: {
             title: 'Ethical & sustainable revenue model',
@@ -62,10 +63,10 @@ export const messages = {
             family: 'family',
             grandma: 'grandma',
             reddit: 'reddit',
-            we_are_ob: 'We\'re <strong>Open</strong>book.',
-            kickstarter: 'A social network built to serve people, not the other way around.',
+            we_are_ob: 'I\'m <strong>Open</strong>book.',
+            kickstarter: 'A social network for a <strong>better tomorrow.</strong>',
             share: 'Share',
-            notify_me: 'Support us'
+            notify_me: 'Support me'
         },
         why_ob: {
             title: 'Why Openbook?',
@@ -87,9 +88,7 @@ export const messages = {
             modern_design: 'Modern, beautiful, ethically designed.',
             modern_design_desc: 'Built with the latest technologies, a keen eye for detail and ethics, you won\'t find anything like it elsewhere.',
             good_for_planet: 'Good for the planet',
-            good_for_planet_desc: 'In partnership with <a href="https://founderspledge.com/" target="_blank"\n' +
-            '                                                             rel="noopener noreferrer">Founders Pledge</a>\n' +
-            '                                we will give 30% of our profit towards making the world a better place, now and\n' +
+            good_for_planet_desc: 'We believe in a better world for everyone. That\'s why we\'re giving 30% of our profits towards making the world a better place, now and\n' +
             '                                    forever.'
         },
         count_down: {
@@ -142,10 +141,10 @@ export const messages = {
         },
         about_us: {
             title: 'About us',
-            subtitle: 'We want to build tech for <span class="has-text-primary">good</span>.',
-            description: 'We\'re engineers, designers, ethical hackers, artists, peace activists and volunteers from all across the globe <strong>working together towards a future where technology is built to serve people and not the other way around</strong>.',
-            description_founded: 'We do this by building products and services with humanity\'s best qualities at their core. Kindness, compassion, tolerance, charity, empathy and cooperation to name a few.',
-            description_project: 'We\'re currently building <strong>Open</strong>book. A social network that is honest, respects and protects the privacy of it\'s users, brings people together, is fun to use and does good for our planet and it\'s inhabitants.',
+            subtitle: 'Technology for a <span class="has-text-primary">better tomorrow</span>.',
+            description: '<strong>We want to build technology to serve people, not the other way around</strong>.',
+            description_founded: 'We do this by designing our products and services with humanity\'s best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at their core.',
+            description_project: '<strong>Open</strong>book is our first creation. A social network that is honest, respects and protects the privacy of it\'s users, brings people together, is fun to use and does good for our planet and it\'s inhabitants.',
             accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
             humans_behind_ob: 'The people',
@@ -311,8 +310,8 @@ export const messages = {
             The_proble: "The problem, the solution, the next steps.",
             Reading_ti: "Reading time",
             Table_of_c: "Table of contents",
-            Why__ : "Why?",
-            How__ : "How?",
+            Why__: "Why?",
+            How__: "How?",
             _Honest: "1. Honest.",
             _Persona: "2. Personal.",
             _Privacy: "3. Privacy-friendly and secure",
@@ -422,7 +421,7 @@ export const messages = {
             Success: "Success",
             The_social: "The social network has now shared your information with the application.",
             Restart_ex: "Restart example",
-             _This_app: "  This application is safe to use.",
+            _This_app: "  This application is safe to use.",
             It_has_met: "It has met our strict privacy and security policies.",
             Learn_more: "Learn more",
             Songipy: "Songipy",
@@ -442,11 +441,11 @@ export const messages = {
             and_likes: "and likes",
             Edit_share: "Edit shared optional data",
             Inspect_sh: "Inspect shared data",
-            Openbook_h:"Openbook has now shared your information with Songipy.",
-            Restart_pr:"Restart prototype",
+            Openbook_h: "Openbook has now shared your information with Songipy.",
+            Restart_pr: "Restart prototype",
             open_list: "Open list",
             open_image: "Open image",
-            Jules_Winn:"Jules Winnfield",
+            Jules_Winn: "Jules Winnfield",
             email: "email: ",
             male: "male",
             locale: "en_US",
