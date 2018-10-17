@@ -22,7 +22,7 @@
                                 <a class="button is-rainbow is-rounded is-medium is-size-6-mobile" target="_blank"
                                    rel="noopener noreferrer" href="https://www.indiegogo.com/projects/openbook-it-s-time-for-a-better-social-network#/">
                                     <span class="icon">
-                                        <i class="fas fa-euro-sign"></i>
+                                        <i class="fas fa-heart"></i>
                                     </span>
                                     <span>
                                         {{$t('splash_hero.notify_me')}}
