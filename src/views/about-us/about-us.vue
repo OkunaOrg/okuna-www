@@ -45,6 +45,10 @@
                         </p>
                         <p class="is-size-5 small-container" v-html="$t('about_us.description_project')">
                         </p>
+                        <p class="is-size-5 small-container" v-html="$t('about_us.description_funded')">
+                        </p>
+                        <p class="is-size-5 small-container" v-html="$t('about_us.description_release')">
+                        </p>
                     </div>
                 </div>
             </div>

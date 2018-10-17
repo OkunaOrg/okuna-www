@@ -10,11 +10,11 @@ export const messages = {
         },
         honesty: {
             title: 'Honest',
-            description: 'The code for Openbook will be open-source, meaning free for anyone to inspect, modify, contribute and use.'
+            description: 'The code is open-source, meaning free for anyone to inspect, modify, contribute and use.'
         },
         privacy: {
             title: 'Privacy-friendly',
-            description: 'We firmly believe privacy is a fundamental human right. We dont\'t track nor monitor you.'
+            description: 'We believe privacy is a fundamental human right. We dont track nor monitor your activity.'
         },
         secure: {
             title: 'Secure by design',
@@ -22,7 +22,7 @@ export const messages = {
         },
         easy: {
             title: 'Easy-peasy',
-            description: 'We want everyone to be able to use Openbook. That\'s why we\'re making it easy to move your information from other social networks.'
+            description: 'We want to make the transition as smooth as possible. That\'s why we\'re creating tools to import your information from other social networks.'
         },
         fun: {
             title: 'Fun!',
@@ -63,7 +63,7 @@ export const messages = {
             family: 'family',
             grandma: 'grandma',
             reddit: 'reddit',
-            we_are_ob: 'I\'m <strong>Open</strong>book.',
+            we_are_ob: 'We\'re <strong>Open</strong>book.',
             kickstarter: 'A social network for a <strong>better tomorrow.</strong>',
             share: 'Share',
             notify_me: 'Support me'
@@ -145,6 +145,8 @@ export const messages = {
             description: '<strong>We want to build technology to serve people, not the other way around</strong>.',
             description_founded: 'We do this by designing our products and services with humanity\'s best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at their core.',
             description_project: '<strong>Open</strong>book is our first creation. A social network that is honest, respects and protects the privacy of it\'s users, brings people together, is fun to use and does good for our planet and it\'s inhabitants.',
+            description_funded: 'The project was successfully crowd-funded September 2018 through a <a href="https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">Kickstarter Campaign</a>.',
+            description_release: 'We will release <strong>Open</strong>book to the world March 2019.',
             accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
             humans_behind_ob: 'The people',
