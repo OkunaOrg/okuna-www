@@ -48,13 +48,13 @@ export const messages = {
         quotes: {
             joel_name: 'Joel Hernández',
             joel_title: 'Founder of Openbook',
-            joel_quote: 'I grew tired of being an spectator to the problems brought by existing social networks. I decided to act, to try build something different, something better.',
+            joel_quote: 'We\'re at a breaking point. We need to stop building products for users and start building products for people. To put humanity at the core of everything we build.',
             vincent_name: 'Vincent Ruijter',
             vincent_title: 'Ethical Hacker',
-            vincent_quote: 'With current networks growing bigger and bigger every day, Openbook might be the last real chance to build something different, something ethical, something better.',
-            phil_name: 'Jaya Baloo',
-            phil_title: 'Information security expert',
-            phil_quote: 'Openbook is a solution for good, a social haven where the user community is positively empowered to share their data securely.'
+            vincent_quote: 'Openbook might be the last real chance to build something different, something ethical, something better.',
+            phil_name: 'Phil Zimmermann',
+            phil_title: 'Internet hall of fame member',
+            phil_quote: 'Openbook holds hope for the future, a social network where we are not victims of its revenue model.'
         },
         splash_hero: {
             hello_world: 'Hello <span id="hello-subject">world!</span>',
