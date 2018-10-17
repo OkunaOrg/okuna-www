@@ -21,20 +21,6 @@
                         <router-link :to="'press'" class="navbar-item" active-class="is-active is-active--press">{{ $t('header.press') }}</router-link>
                     </div>
                 </div>
-                <div class="navbar-item select-language is-hidden-mobile">
-                    <b-dropdown>
-                        <div class="current-language" slot="trigger">
-                            <span >{{getCurrentLang($i18n.locale)}} <i class="fas fa-angle-down"></i></span>
-                        </div>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'en' }" v-on:click="changeLocale('en')">English <i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'es' }" v-on:click="changeLocale('es')">Español <i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'nl' }" v-on:click="changeLocale('nl')">Nederlands <i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'hu' }" v-on:click="changeLocale('hu')">Magyar<i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'fr' }" v-on:click="changeLocale('fr')">Français<i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'de' }" v-on:click="changeLocale('de')">Deutsch<i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'no' }" v-on:click="changeLocale('no')">Norsk<i class="fas fa-check"></i></b-dropdown-item>
-                    </b-dropdown>
-                </div>
             </div>
         </nav>
     </header>

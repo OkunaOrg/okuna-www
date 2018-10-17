@@ -4,6 +4,7 @@
             <div class="columns is-mobile is-multiline">
                 <div class="content is-medium column is-12 padding-bottom-3x">
                     <div class="columns">
+                        <div class="column is-6"></div>
                         <div class="column is-6">
                             <div class="columns is-centered">
                                 <div class="column is-narrow personal-text">

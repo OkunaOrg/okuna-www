@@ -82,15 +82,6 @@
                         description:  this.$t('team_members.vincent_desc'),
                     },
                     {
-                        name: 'Bas Roemburg',
-                        position: this.$t('team_members.bas_title'),
-                        photo: basPhoto,
-                        links: {
-                            github: 'https://github.com/roemburg'
-                        },
-                        description: this.$t('team_members.bas_desc'),
-                    },
-                    {
                         name: 'Shantanu Tarey',
                         position: this.$t('team_members.shantanu_title'),
                         photo: shantanuPhoto,
