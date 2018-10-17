@@ -227,68 +227,6 @@
                                 </div>
                             </div>
                         </router-link>
-                        <b-collapse
-                            :open="!isOpen"
-                            class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item mobile-language-selection">
-                            <div class="columns is-mobile" slot="trigger" slot-scope="props">
-                                <div class="column is-3">
-                                    <div class="columns is-mobile is-centered is-vcentered">
-                                        <div class="column is-narrow">
-                                            <span class="icon">
-                                                <i class="fas fa-language"></i>
-                                            </span>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="column">
-                                    <div class="columns is-mobile">
-                                        <div class="column">
-                                            <span>{{ $t('header.language') }}</span>
-                                        </div>
-                                        <div class="column is-4">
-                                            <div class="columns is-mobile is-centered is-vcentered">
-                                                <div class="column is-narrow">
-                                                    <span v-show="props.open === false"><i class="fas fa-chevron-right mobile-menu-item__chevron"></i></span>
-                                                    <span v-show="props.open === true"><i class="fas fa-chevron-down mobile-menu-item__chevron"></i></span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card-content">
-                                <ul class="content">
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'en' }" v-on:click="changeLocale('en')">
-                                        <div class="column"></div>
-                                        <div class="column is-two-thirds">English <i class="fas fa-check"></i></div>
-                                    </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'es' }" v-on:click="changeLocale('es')">
-                                        <div class="column"></div>
-                                        <div class="column is-two-thirds">Español <i class="fas fa-check"></i></div>
-                                    </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'nl' }" v-on:click="changeLocale('nl')">
-                                        <div class="column"></div>
-                                        <div class="column is-two-thirds">Nederlands <i class="fas fa-check"></i></div>
-                                    </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'hu' }" v-on:click="changeLocale('hu')">
-                                        <div class="column"></div>
-                                        <div class="column is-two-thirds">Magyar <i class="fas fa-check"></i></div>
-                                    </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'fr' }" v-on:click="changeLocale('fr')">
-                                        <div class="column"></div>
-                                        <div class="column is-two-thirds">Français <i class="fas fa-check"></i></div>
-                                    </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'de' }" v-on:click="changeLocale('de')">
-                                        <div class="column"></div>
-                                        <div class="column is-two-thirds">Deutsch <i class="fas fa-check"></i></div>
-                                    </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'no' }" v-on:click="changeLocale('no')">
-                                        <div class="column"></div>
-                                        <div class="column is-two-thirds">Norsk <i class="fas fa-check"></i></div>
-                                    </li>
-                                </ul>
-                            </div>
-                        </b-collapse>
                     </div>
                 </div>
             </div>
