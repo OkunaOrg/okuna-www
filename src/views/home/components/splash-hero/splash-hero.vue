@@ -13,18 +13,31 @@
                     </div>
                     <div class="column has-text-centered has-padding-top-2x-mobile has-background-white is-z-2 has-position-relative">
                         <div class="columns is-centered is-mobile">
-                            <div class="column" style="max-width: 520px">
+                            <div class="column" style="max-width: 377px">
                                 <h1 class="title is-size-3-mobile is-size-1"
                                     v-html="$t('splash_hero.hello_world')">
                                 </h1>
-                                <h2 class="subtitle is-size-5-mobile is-size-3"
+                                <h2 class="is-size-5-mobile is-size-3"
                                     v-html="$t('splash_hero.we_are_ob')">
                                 </h2>
-                                <h3 class="is-size-6-mobile"
+                                <h3 class="is-size-4 is-size-5-mobile"
                                     v-html="$t('splash_hero.kickstarter')">
                                 </h3>
                             </div>
                         </div>
+                        <!--<div class="columns is-centered is-mobile">-->
+                            <!--<div class="column is-narrow">-->
+                                <!--<a class="button is-rainbow is-rounded is-medium is-size-6-mobile" target="_blank"-->
+                                   <!--rel="noopener noreferrer" href="https://www.indiegogo.com/projects/openbook-it-s-time-for-a-better-social-network#/">-->
+                                    <!--<span class="icon">-->
+                                        <!--<i class="fas fa-heart"></i>-->
+                                    <!--</span>-->
+                                    <!--<span>-->
+                                        <!--{{$t('splash_hero.notify_me')}}-->
+                                    <!--</span>-->
+                                <!--</a>-->
+                            <!--</div>-->
+                        <!--</div>-->
                         <div class="columns is-centered is-mobile">
                             <div class="column">
                                 <p class="email-container" v-bind:class="{'submitted': emailSendClicked}">

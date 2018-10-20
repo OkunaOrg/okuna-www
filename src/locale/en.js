@@ -10,35 +10,36 @@ export const messages = {
         },
         honesty: {
             title: 'Honest',
-            description: 'All the code is open-source, so free for anyone to see, modify and reproduce. No room for unpleasant surprises.'
+            description: 'The code is open-source, meaning free for anyone to inspect, modify, contribute and use.'
         },
         privacy: {
             title: 'Privacy-friendly',
-            description: 'We don\'t monitor nor track anything you do. Surf the network with absolute peace of mind!'
+            description: 'We believe privacy is a fundamental human right. We dont track nor monitor your activity.'
         },
         secure: {
             title: 'Secure by design',
-            description: 'Most of our team members come from an information security background. We are baking in security, right from the start.'
+            description: 'We come from an information security background. We are baking in security, right from the start.'
         },
         easy: {
             title: 'Easy-peasy',
-            description: 'Simple to use, even more to move into. Just drag-and-drop your old social media archive into Openbook and import all your photos, videos, chats and more!'
+            description: 'We want to make the transition as smooth as possible. That\'s why we\'re creating tools to import your information from other social networks.'
         },
         fun: {
             title: 'Fun!',
-            description: 'We\'re bringing back the social in social network, giving interaction with your peers meaning again.'
+            description: 'Because our lives are short and brittle, we\'re desining Openbook to be a fun and enjoyable experience for everyone.'
         },
         personal: {
-            title: 'Personal',
-            description: 'Customize the network the way you want. Be different, be yourself!'
+            title: 'Customisable',
+            description: 'Because we\'re all different and that\'s something to embrace and celebrate.'
         },
         good_for_planet: {
             title: 'Good for the planet',
-            description: 'In partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>, we\'ll be giving 30% of our profits towards projects for education, sanitization, climate change prevention and more.'
+            description: 'We believe in a better world for everyone. That\'s why we\'re giving 30% of our profits towards making the world a better place, now and ' +
+            '                                    forever in partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>.'
         },
         ads_free: {
             title: '100% Ad-free',
-            description: 'Our revenue model is not nor ever will be based on advertisement. Enjoy ad-free surfing forever!'
+            description: 'Benefits of a revenue model free of advertisement? Ad-free surfing!'
         },
         currency: {
             title: 'Ethical & sustainable revenue model',
@@ -47,13 +48,13 @@ export const messages = {
         quotes: {
             joel_name: 'Joel Hernández',
             joel_title: 'Founder of Openbook',
-            joel_quote: 'I grew tired of being an spectator to the problems brought by existing social networks. I decided to act, to try build something different, something better.',
+            joel_quote: 'We\'re at a breaking point. We need to stop building products for users and start building products for people. To put humanity at the core of everything we build.',
             vincent_name: 'Vincent Ruijter',
             vincent_title: 'Ethical Hacker',
-            vincent_quote: 'With current networks growing bigger and bigger every day, Openbook might be the last real chance to build something different, something ethical, something better.',
-            phil_name: 'Jaya Baloo',
-            phil_title: 'Information security expert',
-            phil_quote: 'Openbook is a solution for good, a social haven where the user community is positively empowered to share their data securely.'
+            vincent_quote: 'Openbook might be the last real chance to build something different, something ethical, something better.',
+            phil_name: 'Phil Zimmermann',
+            phil_title: 'Internet hall of fame member',
+            phil_quote: 'Openbook holds hope for the future, a social network where we are not victims of its revenue model.'
         },
         splash_hero: {
             hello_world: 'Hello <span id="hello-subject">world!</span>',
@@ -63,10 +64,9 @@ export const messages = {
             grandma: 'grandma',
             reddit: 'reddit',
             we_are_ob: 'We\'re <strong>Open</strong>book.',
-            kickstarter: 'The privacy-friendly, fun and honest social\n' +
-            '    network helping make the world a better place. Missed our Kickstarter? Don\'t miss the waitlist! Limited spots available',
+            kickstarter: 'A social network for a <strong>better tomorrow.</strong>',
             share: 'Share',
-            notify_me: 'Support us on Kickstarter'
+            notify_me: 'Support us'
         },
         why_ob: {
             title: 'Why Openbook?',
@@ -88,20 +88,18 @@ export const messages = {
             modern_design: 'Modern, beautiful, ethically designed.',
             modern_design_desc: 'Built with the latest technologies, a keen eye for detail and ethics, you won\'t find anything like it elsewhere.',
             good_for_planet: 'Good for the planet',
-            good_for_planet_desc: 'In partnership with <a href="https://founderspledge.com/" target="_blank"\n' +
-            '                                                             rel="noopener noreferrer">Founders Pledge</a>\n' +
-            '                                we will give 30% of our profit towards making the world a better place, now and\n' +
+            good_for_planet_desc: 'We believe in a better world for everyone. That\'s why we\'re giving 30% of our profits towards making the world a better place, now and\n' +
             '                                    forever.'
         },
         count_down: {
-            kickstarter: 'Kickstarter',
-            campaign_countdown: 'campaign countdown',
+            kickstarter: 'Openbook',
+            campaign_countdown: 'launch countdown',
             days: 'day | days',
             hours: 'hour | hours',
             minutes: 'minute | minutes',
             seconds: 'second | seconds',
-            kickstarter_launch: 'Our <strong class="has-text-kickstarter">Kickstarter</strong> ' +
-            'campaign ends <br/>on the<strong> {1}th of September 2018 at {0}</strong>.'
+            kickstarter_launch: 'Openbook <strong class="has-text-kickstarter">alpha</strong> ' +
+            'begins <br/>on the<strong> {0}th of March 2019</strong>.'
         },
         meet_the_team: {
             title: 'Meet the team'
@@ -119,13 +117,13 @@ export const messages = {
         footer: {
             report_vulnerability: 'Report Vulnerability',
             twitter: 'Twitter',
-            github: 'Gitlab',
+            github: 'Github',
             reddit: 'Reddit',
             gitter: 'Gitter',
             linked_in: 'LinkedIn',
             product_hunt: 'Product Hunt',
             facebook: 'Facebook',
-            the_ob_organization: 'The Openbook Organization',
+            the_ob_organization: 'Openbook',
             privacy_policy: 'Privacy Policy',
             made_with: 'Made with ',
             in_europe: ' in Europe'
@@ -137,22 +135,21 @@ export const messages = {
             share_email: 'Send e-mail',
             share_linkedin: 'Share on LinkedIn',
             share_wa: 'Share on Whatsapp',
-            share_title: 'Openbook. The honest, transparent and awesome social network now on Kickstarter!',
+            share_title: 'Openbook. The honest, transparent and awesome social network!',
             share_description: 'Openbook. The honest, transparent and awesome social network!',
-            share_quote: 'It\'s time! View and support Openbook! The Kickstarter project to build a new, honest, fun and transparent social network! https://open-book.org/kickstarter',
+            share_quote: 'View and support Openbook to help build a new, honest, fun and transparent social network! https://open-book.org/support-us',
         },
         about_us: {
             title: 'About us',
-            subtitle: 'We want to build a tool for <span class="has-text-primary">good</span>.',
-            description: '<span class="has-text-primary"><strong\n' +
-            '                                class="has-text-primary">Open</strong>book</span> ' +
-            'is an new, privacy-friendly, open-source and awesome social network ' +
-            'giving 30% of it\'s profit towards making the world a better place, now and forever.',
-            description_founded: 'Founded in April 2018 in the international city of peace and justice, The Hague, Openbook is a project to build a better social network.',
-            description_project: 'A social network that is honest, respects and protects the privacy of it\'s users, brings people together, is fun to use and is good for the planet.',
-            accomplish_how: 'How will we accomplish this?',
+            subtitle: 'Technology for a <span class="has-text-primary">better tomorrow</span>.',
+            description: '<strong>We want to build technology to serve people, not the other way around</strong>.',
+            description_founded: 'We do this by designing our products and services with humanity\'s best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at their core.',
+            description_project: '<strong>Open</strong>book is our first creation. A social network that is honest, respects and protects the privacy of its users, brings people together, is fun to use and does good for our planet and its inhabitants.',
+            description_funded: 'The project was successfully crowd-funded September 2018 through a <a href="https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">Kickstarter Campaign</a>.',
+            description_release: 'We will release <strong>Open</strong>book to the world March 2019.',
+            accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
-            humans_behind_ob: 'The humans behind <strong>Open</strong>book',
+            humans_behind_ob: 'The people',
             work_with_us: 'Want to work with us?',
             visit_jobs_page: 'Visit our jobs page',
             our_ambassadors: ' Our ambassadors',
@@ -202,7 +199,7 @@ export const messages = {
             name: 'Name',
             ob_organization: 'Openbook B.V',
             address: 'Address',
-            ob_address: 'Bagijnestraat 25, 2511CK, The Hague, The Netherlands',
+            ob_address: 'The Hague Tech, The Hague, The Netherlands',
             telephone: 'Telephone',
             telephone_no: '(+31) 611 60 4275',
             email: 'Email',
@@ -239,9 +236,9 @@ export const messages = {
         jobs: {
             title: 'Jobs',
             subtitle: 'Work with us.',
-            exciting_adventure: 'If our Kickstarter campaign succeeds, we will be embarking on one of the most exciting digital adventures ever and we\'ll be looking for talented people to sail with us!',
-            all_skills: 'We\'ll need people with all kinds of skills. Technology, design, marketing, finance, media, you name it.',
-            need_your_help: 'Do you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span> and are talented at what you do?',
+            exciting_adventure: 'We have embarked on one of the most exciting adventures for the digital world and we\'re looking for talented and passionate people to sail with us!',
+            all_skills: 'Technology, design, marketing, finance, media, you name it.',
+            need_your_help: 'Do you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span>, a better future for social networks and humanity as a whole?',
             send_cv: 'Send us your CV and a motivation letter to  <a\n' +
             '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
             look_forward: 'We look forward to meeting you !',
@@ -258,7 +255,7 @@ export const messages = {
             whos_paying_ans: 'So far we have been completely self funded. However, this has proven to be very hard.\n' +
             '                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
             crowd_funding: 'As we wanted the project to be driven by people and not capital, we decided to go for crowd-funding.',
-            launching_kickstarter: 'We\'ll be launching our Kickstarter campaign on the 17th of July.',
+            launching_kickstarter: 'We got successfully funded on the 7th of September 2018 at 18:34!',
             why_not_non_profit: 'Why is Openbook not a non-profit?',
             why_not_non_profit_ans: 'Making Openbook a for-profit was a hard choice to make.',
             check_all_boxes: 'We check all the non-profits boxes and we love non-profits. We love Wikipedia, the Ghost Foundation, Founders Pledge, Mozilla and many more.',
@@ -271,10 +268,10 @@ export const messages = {
             many_ways: 'There are many ways you can help right now.',
             ideas: 'Here are some ideas:',
             share_website: 'Share the website on social media',
-            donate: 'Donate to our Kickstarter campaign!',
+            donate: 'Donate in IndieGogo!',
             talk_to_friends: 'Talk to your friends and family about us',
             improve_website: 'If you\'re a developer, you can help us <a\n' +
-            '                            href="https://git.open-book.org/"\n' +
+            '                            href="https://github.com/OpenbookOrg"\n' +
             '                            target="_blank" rel="noopener noreferrer">improve our website</a>.',
             let_us_know: 'If you have an idea for the network, you can <a href="/en/contact-us"\n' +
             '                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.',
@@ -315,35 +312,33 @@ export const messages = {
             The_proble: "The problem, the solution, the next steps.",
             Reading_ti: "Reading time",
             Table_of_c: "Table of contents",
-            Why__ : "Why?",
-            How__ : "How?",
+            Why__: "Why?",
+            How__: "How?",
             _Honest: "1. Honest.",
-            _Persona: "2. Personal.",
+            _Persona: "2. Customisable.",
             _Privacy: "3. Privacy-friendly and secure",
             Explicit_a: "Explicit and informed consent",
             Safe_Appli: "Safe Applications",
             Privacy_by: "Privacy by default",
-            _Easy: "4. Easy.",
-            _Fun: "5. Fun.",
-            _Our_Rev: "6. Our Revenue.",
+            _Easy: "4. Easy-peasy.",
+            _Fun: "5. Research.",
+            _Our_Rev: "6. Clean revenue.",
             The_reason: "The reason we're building yet another social network.",
             Social_net: "Social networks are awesome.",
             They_conne: "They connect us, help us share treasured moments with our loved ones and provide us with funny cat videos.",
             Sadly_now: "Sadly, nowadays social networks aren’t so much about connecting people, instead they are all about making as much money as possible out of people, no matter the consequences. For example the loss of privacy.",
             We_want_to: "We want to do better, which is exactly why at Openbook we’re doing things differently.",
-            Openbook_will_have: "Openbook will have the great things you’d expect from a social network: chats, posts, groups and events to name a few. Plus, it will be",
-            honest_pe: "honest, personal, privacy-friendly, secure and fun ;-)",
-            How_will_w: "How will we create a tool for good?",
+            Openbook_will_have: "We're designing a social network with with humanity's best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at its core",
+            honest_pe: "A social network for a better tomorrow.",
+            How_will_w: "How are we creating a social network for a better tomorrow?",
             all_of_our_code: "All of our code is",
             open_sourc: "open-source.",
-            this_means_: "This means it’s free for everyone to see, reproduce and contribute to.We’re transparent about how the social network works.",
-            additionally: "Additionally, in partnership with FoundersPledge, we’ll be giving",
-            _of_our: "30% of our profit towards making the world a better place.",
-            for_example: "For example, education, climate-change prevention, mental-health and sanitisation.It’s about time tech-companies benefit everyone.",
-            Were_all_: "We’re all different and that makes each of us unique and beautiful! We embrace this!",
-            On_Openboo: "On Openbook you will not only be able to personalise your profile, but the entire network itself! From changing the color of your homepage to adding plugins, you can make it as unique as yourself.",
-            And_if_the: "And if there’s anything you’re missing on Openbook, let us know. We want to build Openbook together. We will create a special group where we encourage you to help us decide what we build next or what we should improve. Let’s build the best social network ever!",
-            this_is_what_drove: "This is what drove us to build Openbook. The privacy and security of our users will always be at the core of everything we do. We don’t track anything you do, neither monetize your information nor share it without your explicit and informed consent.",
+            this_means_: "This means it’s free for everyone to see, reproduce and contribute to. We’re transparent about how the social network works.",
+            additionally: "We also believe in a better world for everyone. That's why we'll be giving <strong>30% of our profits towards making the world a better place</strong>, now and forever in partnership with <a href=\"https://founderspledge.com/\" rel=\"noreferrer noopener\">FoundersPledge</a>.",
+            Were_all_: "Because we're all different and that's something to embrace and celebrate.",
+            On_Openboo: "You'll be able to craft an experience suited just for you. From changing the color of your timeline, adding cool extra widgets in your profile to choosing how you want to see content in your timeline, we want Openbook to feel familiar, friendly and cozy to you. Just like home.",
+            And_if_the: "And if there’s anything you’re missing on Openbook, let us know. We want to build Openbook together. We will create a special group where we encourage you to help us decide what we build next or what we should improve. Let’s build the best social experience ever, together.",
+            this_is_what_drove: "This is what initially drove us to build Openbook. The privacy and security of our users will always be at the core of everything we do. We don’t track anything you do, neither monetize your information nor share it without your explicit and informed consent.",
             How_does_t: "How does this translate to a real-life scenario?",
             Example: "Example",
             This_is_wh: "This is what data sharing normally looks like.",
@@ -369,7 +364,7 @@ export const messages = {
             Did_you_sp: "Did you spot the differences?",
             Here_are_t: "Here are the most important ones.",
             explicit_n_informd: "Explicit and informed consent",
-            We_make_su: "We make sure it's always crystal clear what is being shared, so no pop-ups or vague descriptions. You can also inspect it yourself, just to be sure.",
+            We_make_su: "We make sure its always crystal clear what is being shared, so no pop-ups or vague descriptions. You can also inspect it yourself, just to be sure.",
             Safe_appli: "Safe applications",
             All_applic: "All applications will be reviewed by us. We will make sure they:",
             only_request_the: "only request the <strong>needed</strong> information",
@@ -391,14 +386,17 @@ export const messages = {
             Public_key: "Public key cryptography on the browser",
             Post_quant: "Post-quantum cryptography algorithms and protocols",
             Generally_: "Generally speaking, the less we know about you and the more you know about us, the better.",
-            Youve_pro: "You’ve probably put a tremendous amount of time (and data) into your existing social networks already. We get that. We wouldn’t want you to lose any friends, cherishable memories or miss out on parties over this.",
-            migrating_to_ob: "Migrating to Openbook will be easy-peasy, with our simple drag-and-drop system.Just download your data from your old social network<sup>1</sup> and transfer them to Openbook. Shazam!",
-            Lets_not_: "Let’s not leave this one out! We’re bringing back social by giving interactions with your friends more meaning. Think about having levels of adoration and being able to show your enthusiasm more than once on a single post. And since we don’t track your data, you not only will be free of ads, but we won’t fill in what we think you’d want to see for yourself. No abracadabra-algorithms!",
-            _Our_rev: "6. Our revenue",
-            Our_busine: "Our business model is not and will never be advertisements.",
+            Youve_pro: "You’ve probably put a tremendous amount of time (and data) into your existing social networks already. We aim to make the transition as smooth as possible.",
+            migrating_to_ob: "That's why we'll be building tools to import your data from existing social networks.<sup>1</sup>. Think no more than 3 steps.",
+            Lets_not_: "While the intial drive for Openbook was building a privacy-friendly social network, the complications of existing social networks span to numerous other subjects. Fear of missing out, digital social status, discrimination, digital mobbing, censorship and more.",
+            Research: "There's a lot of research on the subjects, unfortunately until now only a few players had the power to do something with it. Not anymore.",
+            Research_Embrace: "We're designing the platform with existing research in mind and experimenting with radical new concepts to tackle some of the previously mentioned issues.",
+            Research_Solution : "We can't promise our solutions will work, we can however promise that aided by research and open-dialogue, we'll keep trying until they do.",
+            _Our_rev: "6. Clean revenue.",
+            Our_busine: "Our business model is not and will never be advertisement.",
             We_will_ha: "We will have a transparent revenue model based on a generic way for people to securely transact physical and digital goods and services inside the network. This will be done through an atomic digital unit of value. Although this initially reflected as a marketplace, our ambitions go way beyond that.",
-            instead_our_revenue: "Instead, our revenue model will be based on a digital currency called <strong>Tip</strong>. It will be used to buy and sell goods and services, support content creators, subscribe to publishers, buy jacuzzis and more!",
-            for_every_transaction: "For every Tips transaction made in the network, we will take a small cut. Donations are the exception to this rule, we take nothing then.",
+            instead_our_revenue: "Our revenue model will be based on a digital currency called <strong>Tip</strong>. It will be used to buy and sell goods and services, support content creators, subscribe to publishers and more.",
+            for_every_transaction: "For every Tips transaction made in the network, we will take a small cut.",
             you_can_read_it: "You can read all about it in <a class=\"has-text-underlined\" href=\"https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\">this article (6 mins approx. reading time)</a>",
             Apart_from: "Apart from this, we’re also planning to help enterprise customers setting up their own internal, self-hosted and secure social networks with extra functionality such as projects, identity and access management.",
             _With_t: "[1] With the new GDPR regulation, social networks must allow it’s users to do so now.",
@@ -426,7 +424,7 @@ export const messages = {
             Success: "Success",
             The_social: "The social network has now shared your information with the application.",
             Restart_ex: "Restart example",
-             _This_app: "  This application is safe to use.",
+            _This_app: "  This application is safe to use.",
             It_has_met: "It has met our strict privacy and security policies.",
             Learn_more: "Learn more",
             Songipy: "Songipy",
@@ -446,11 +444,11 @@ export const messages = {
             and_likes: "and likes",
             Edit_share: "Edit shared optional data",
             Inspect_sh: "Inspect shared data",
-            Openbook_h:"Openbook has now shared your information with Songipy.",
-            Restart_pr:"Restart prototype",
+            Openbook_h: "Openbook has now shared your information with Songipy.",
+            Restart_pr: "Restart prototype",
             open_list: "Open list",
             open_image: "Open image",
-            Jules_Winn:"Jules Winnfield",
+            Jules_Winn: "Jules Winnfield",
             email: "email: ",
             male: "male",
             locale: "en_US",

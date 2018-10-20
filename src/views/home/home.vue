@@ -5,7 +5,6 @@
         <ob-privacy></ob-privacy>
         <ob-secure></ob-secure>
         <ob-easy></ob-easy>
-        <ob-fun></ob-fun>
         <ob-personal></ob-personal>
         <ob-currency></ob-currency>
         <ob-ads-free></ob-ads-free>
@@ -73,13 +72,9 @@
     import ObGoodForPlanet from "./components/good-for-planet/good-for-planet";
     import ObAdsFree from "./components/ads-free/ads-free";
     import ObCurrency from "./components/currency/currency.vue";
-    import ObKickstarter from "../kickstarter/kickstarter.vue";
-    import ObSubscribe from "./components/subscribe/subscribe";
 
     export default {
         components: {
-            ObSubscribe,
-            ObKickstarter,
             ObCurrency,
             ObAdsFree,
             ObGoodForPlanet,

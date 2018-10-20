@@ -1,6 +1,6 @@
-<img alt="Open book logo" src="https://i.snag.gy/conKBO.jpg" width="200">
+<img alt="Open book logo" src="https://snag.gy/yWbLr1.jpg" width="200">
 
-![Human Friendly](https://img.shields.io/badge/human-friendly-brightgreen.svg) ![Privacy](https://img.shields.io/badge/privacy-first-690ddc.svg) [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/openbook-org/Lobby?source=orgpage)
+![Human Friendly](https://img.shields.io/badge/human-friendly-brightgreen.svg) ![Privacy](https://img.shields.io/badge/privacy-first-690ddc.svg)
 
 Code of the all new [www.open-book.org](https://www.open-book.org).
 
