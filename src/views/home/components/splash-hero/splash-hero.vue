@@ -1,6 +1,6 @@
 <template>
     <section class="hero is-medium hero--splash" id="main">
-        <div class="hero-body has-padding-bottom-2x-mobile">
+        <div class="hero-body has-padding-bottom-1x-mobile">
             <div class="container">
                 <div class="columns is-centered is-vcentered">
                     <div class="column splash-browser has-position-relative">
@@ -13,39 +13,29 @@
                     </div>
                     <div class="column has-text-centered has-padding-top-2x-mobile has-background-white is-z-2 has-position-relative">
                         <div class="columns is-centered is-mobile">
-                            <div class="column" style="max-width: 377px">
-                                <h1 class="title is-size-3-mobile is-size-1"
+                            <div class="column" style="max-width: 520px">
+                                <h1 class="is-size-3-mobile is-size-1 has-text-weight-bold"
                                     v-html="$t('splash_hero.hello_world')">
                                 </h1>
-                                <h2 class="is-size-5-mobile is-size-3"
+                                <h3 class="is-size-5"
                                     v-html="$t('splash_hero.we_are_ob')">
-                                </h2>
-                                <h3 class="is-size-4 is-size-5-mobile"
+                                </h3>
+                                <h3 class="is-size-5"
                                     v-html="$t('splash_hero.kickstarter')">
                                 </h3>
+                                <h4 class="padding-top-2x is-size-4 has-text-weight-bold">
+                                    <span class="icon is-small" v-twemoji>🚀</span> Join the beta.
+                                </h4>
+                                <p>
+                                    <span>Launching early 2019.</span>
+                                </p>
                             </div>
-                        </div>
-                        <div class="columns is-centered is-mobile">
-                            <div class="column is-narrow">
-                                <a class="button is-rainbow is-rounded is-medium is-size-6-mobile" target="_blank"
-                                   rel="noopener noreferrer" href="https://www.indiegogo.com/projects/openbook-it-s-time-for-a-better-social-network#/">
-                                    <span class="icon">
-                                        <i class="fas fa-heart"></i>
-                                    </span>
-                                    <span>
-                                        {{$t('splash_hero.notify_me')}}
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="column is-centered is-mobile is-bold">
-                            Join the waitlist! Limited spots available
                         </div>
                         <div class="columns is-centered is-mobile">
                             <div class="column">
                                 <p class="email-container" v-bind:class="{'submitted': emailSendClicked}">
                                     <span class="input-email is-rainbow" v-bind:class="{'success': subscribeSuccessful}">
-                                        <input class="input-field" type="email" placeholder="Email" v-model="email" v-bind:disabled="emailSendClicked">
+                                        <input class="input-field" type="email" placeholder="your@email.com" v-model="email" v-bind:disabled="emailSendClicked">
                                         <span></span>
                                     </span>
                                     <button class="join-waitlist is-rainbow" @click="sendEmail()" v-bind:class="{'success': subscribeSuccessful}">
@@ -54,8 +44,8 @@
                                         <span class="animated fadeIn" v-show="subscribeSuccessful"><i class="fas fa-check"></i></span>
                                     </button>
                                 </p>
-                                <span class="error-message has-text-danger" v-show="errorEmail">{{errorEmail}}</span>
-                                <span class="success-message" v-show="subscribeSuccessful">Congratulations! You're number {{count}} on the waitlist.</span>
+                                <span class="error-message has-text-danger is-size-7" v-show="errorEmail">{{errorEmail}}</span>
+                                <span class="success-message" v-show="subscribeSuccessful"><span class="icon is-small" v-twemoji>🎉</span>&nbsp;&nbsp;Hooray! You're number {{count}} on our waitlist.</span>
                             </div>
                         </div>
                     </div>
@@ -110,11 +100,6 @@
     .submitted {
         .join-waitlist {
             top: 2px;
-
-            .fadeIn {
-                position: relative;
-                top: 2px;
-            }
         };
 
         .input-email {
@@ -180,6 +165,10 @@
         line-height: 0.5em;
         width: 100%;
         transition: opacity 1s;
+
+        input{
+            text-align: center;
+        }
 
         *:not(span) {
             position: relative;
@@ -296,7 +285,7 @@
                 })
                 .catch((error) => {
                     if (error.response.status === 400) this.errorEmail = error.response.data.email[0];
-                    if (error.response.status === 500 || error.response.status === 404) this.errorEmail = 'Oops..something went wrong. Try again!';
+                    if (error.response.status === 500) this.errorEmail = 'We\'re experiencing server issues. Please try again in a few minutes.';
                     this.emailSendClicked = false;
                 });
             }
