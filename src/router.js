@@ -5,7 +5,7 @@ import root from './views/root.vue';
 import * as setupi18n from './i18n-setup';
 
 const locale = require('browser-locale')();
-const supportedLocales = ['en', 'es', 'nl', 'hu', 'fr', 'de', 'no'];
+const supportedLocales = ['en'];
 
 Vue.use(Router);
 
@@ -17,7 +17,6 @@ const faq = () => import('./views/faq/faq.vue');
 const jobs = () => import('./views/jobs/jobs.vue');
 const press = () => import('./views/press/press.vue');
 const newsroom = () => import('./views/newsroom/newsroom.vue');
-const kickstarter = () => import('./views/kickstarter/kickstarter.vue');
 const vulnerabilityReport = () => import('./views/vulnerability-report/vulnerability-report.vue');
 
 const browserLang = (locale || 'en-US').substring(0, 2);
@@ -139,17 +138,6 @@ const router = new Router({
                     component: manifesto,
                     meta: {
                         title: 'Manifesto | Openbook social network'
-                    }
-                },
-                {
-                    path: 'kickstarter',
-                    name: 'kickstarter',
-                    component: kickstarter,
-                    props:{
-                        isLarge: true
-                    },
-                    meta: {
-                        title: 'Kickstarter | Openbook social network'
                     }
                 },
                 {

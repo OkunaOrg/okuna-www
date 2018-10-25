@@ -157,7 +157,10 @@
                         {{ $t('manifesto.We_want_to') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.Openbook_will_have') }} <strong class="has-text-primary"> {{ $t('manifesto.honest_pe') }}</strong>.
+                        {{ $t('manifesto.Openbook_will_have') }}.
+                    </p>
+                    <p>
+                        <strong class="has-text-primary"> {{ $t('manifesto.honest_pe') }}</strong>
                     </p>
                 </div>
             </div>
@@ -177,10 +180,7 @@
                         {{ $t('manifesto.all_of_our_code') }} <strong> {{ $t('manifesto.open_sourc') }}</strong> {{ $t('manifesto.this_means_') }}
 
                     </p>
-                    <p>
-                        {{ $t('manifesto.additionally') }}  <strong> {{ $t('manifesto._of_our') }}</strong>
-                        {{ $t('manifesto.for_example') }}
-
+                    <p v-html="$t('manifesto.additionally')">
                     </p>
                     <h3 id="personal">
                         {{ $t('manifesto._Persona') }}
@@ -312,7 +312,15 @@
                     <h3 id="fun">{{ $t('manifesto._Fun') }}</h3>
                     <p>
                         {{ $t('manifesto.Lets_not_') }}
-
+                    </p>
+                    <p>
+                        {{ $t('manifesto.Research') }}
+                    </p>
+                    <p>
+                        {{ $t('manifesto.Research_Embrace') }}
+                    </p>
+                    <p>
+                        {{ $t('manifesto.Research_Solution') }}
                     </p>
                     <h3 id="revenue">
                         {{ $t('manifesto._Our_Rev') }}
