@@ -285,8 +285,7 @@
                 })
                 .catch((error) => {
                     if (error.response.status === 400) this.errorEmail = error.response.data.email[0];
-                    if (error.response.status === 500) this.errorEmail = 'Oops..something went wrong. Try again!';
-                    console.error(error);
+                    if (error.response.status === 500) this.errorEmail = 'We\'re experiencing problems with our servers. Please try again in a few minutes.';
                     this.emailSendClicked = false;
                 });
             }
