@@ -44,8 +44,8 @@
                                         <span class="animated fadeIn" v-show="subscribeSuccessful"><i class="fas fa-check"></i></span>
                                     </button>
                                 </p>
-                                <span class="error-message has-text-danger" v-show="errorEmail">{{errorEmail}}</span>
-                                <span class="success-message" v-show="subscribeSuccessful">Congratulations! You're number {{count}} on the waitlist.</span>
+                                <span class="error-message has-text-danger is-size-7" v-show="errorEmail">{{errorEmail}}</span>
+                                <span class="success-message" v-show="subscribeSuccessful"><span class="icon is-small" v-twemoji>🎉</span>&nbsp;&nbsp;Hooray! You're number {{count}} on our waitlist.</span>
                             </div>
                         </div>
                     </div>
@@ -285,7 +285,7 @@
                 })
                 .catch((error) => {
                     if (error.response.status === 400) this.errorEmail = error.response.data.email[0];
-                    if (error.response.status === 500) this.errorEmail = 'We\'re experiencing problems with our servers. Please try again in a few minutes.';
+                    if (error.response.status === 500) this.errorEmail = 'We\'re experiencing server issues. Please try again in a few minutes.';
                     this.emailSendClicked = false;
                 });
             }
