@@ -118,6 +118,12 @@ img .is-rounded {
     }
 }
 
+.has-padding-bottom-2x-mobile {
+    @media(max-width: 768px) {
+        padding-bottom: 2rem !important;
+    }
+}
+
 .has-text-underlined{
     text-decoration: underline;
 }
@@ -130,6 +136,10 @@ img .is-rounded {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.is-bold {
+    font-weight: bold;
 }
 
 // limit line length to ~45 characters

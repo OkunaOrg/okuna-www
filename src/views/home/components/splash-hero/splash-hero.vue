@@ -1,6 +1,6 @@
 <template>
     <section class="hero is-medium hero--splash" id="main">
-        <div class="hero-body has-padding-bottom-1x-mobile">
+        <div class="hero-body has-padding-bottom-2x-mobile">
             <div class="container">
                 <div class="columns is-centered is-vcentered">
                     <div class="column splash-browser has-position-relative">
@@ -25,19 +25,22 @@
                                 </h3>
                             </div>
                         </div>
-                        <!--<div class="columns is-centered is-mobile">-->
-                            <!--<div class="column is-narrow">-->
-                                <!--<a class="button is-rainbow is-rounded is-medium is-size-6-mobile" target="_blank"-->
-                                   <!--rel="noopener noreferrer" href="https://www.indiegogo.com/projects/openbook-it-s-time-for-a-better-social-network#/">-->
-                                    <!--<span class="icon">-->
-                                        <!--<i class="fas fa-heart"></i>-->
-                                    <!--</span>-->
-                                    <!--<span>-->
-                                        <!--{{$t('splash_hero.notify_me')}}-->
-                                    <!--</span>-->
-                                <!--</a>-->
-                            <!--</div>-->
-                        <!--</div>-->
+                        <div class="columns is-centered is-mobile">
+                            <div class="column is-narrow">
+                                <a class="button is-rainbow is-rounded is-medium is-size-6-mobile" target="_blank"
+                                   rel="noopener noreferrer" href="https://www.indiegogo.com/projects/openbook-it-s-time-for-a-better-social-network#/">
+                                    <span class="icon">
+                                        <i class="fas fa-heart"></i>
+                                    </span>
+                                    <span>
+                                        {{$t('splash_hero.notify_me')}}
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="column is-centered is-mobile is-bold">
+                            Join the waitlist! Limited spots available
+                        </div>
                         <div class="columns is-centered is-mobile">
                             <div class="column">
                                 <p class="email-container" v-bind:class="{'submitted': emailSendClicked}">
@@ -107,6 +110,11 @@
     .submitted {
         .join-waitlist {
             top: 2px;
+
+            .fadeIn {
+                position: relative;
+                top: 2px;
+            }
         };
 
         .input-email {
@@ -288,8 +296,7 @@
                 })
                 .catch((error) => {
                     if (error.response.status === 400) this.errorEmail = error.response.data.email[0];
-                    if (error.response.status === 500) this.errorEmail = 'Oops..something went wrong. Try again!';
-                    console.error(error);
+                    if (error.response.status === 500 || error.response.status === 404) this.errorEmail = 'Oops..something went wrong. Try again!';
                     this.emailSendClicked = false;
                 });
             }
