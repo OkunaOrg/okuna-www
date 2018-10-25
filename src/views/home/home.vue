@@ -73,13 +73,11 @@
     import ObGoodForPlanet from "./components/good-for-planet/good-for-planet";
     import ObAdsFree from "./components/ads-free/ads-free";
     import ObCurrency from "./components/currency/currency.vue";
-    import ObKickstarter from "../kickstarter/kickstarter.vue";
     import ObSubscribe from "./components/subscribe/subscribe";
 
     export default {
         components: {
             ObSubscribe,
-            ObKickstarter,
             ObCurrency,
             ObAdsFree,
             ObGoodForPlanet,

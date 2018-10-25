@@ -14,22 +14,28 @@
                     <div class="column has-text-centered has-padding-top-2x-mobile has-background-white is-z-2 has-position-relative">
                         <div class="columns is-centered is-mobile">
                             <div class="column" style="max-width: 520px">
-                                <h1 class="title is-size-3-mobile is-size-1"
+                                <h1 class="is-size-3-mobile is-size-1 has-text-weight-bold"
                                     v-html="$t('splash_hero.hello_world')">
                                 </h1>
-                                <h2 class="subtitle is-size-5-mobile is-size-3"
+                                <h3 class="is-size-5"
                                     v-html="$t('splash_hero.we_are_ob')">
-                                </h2>
-                                <h3 class="is-size-6-mobile"
+                                </h3>
+                                <h3 class="is-size-5"
                                     v-html="$t('splash_hero.kickstarter')">
                                 </h3>
+                                <h4 class="padding-top-2x is-size-4 has-text-weight-bold">
+                                    <span class="icon is-small" v-twemoji>🚀</span> Join the beta.
+                                </h4>
+                                <p>
+                                    <span>Launching early 2019.</span>
+                                </p>
                             </div>
                         </div>
                         <div class="columns is-centered is-mobile">
                             <div class="column">
                                 <p class="email-container" v-bind:class="{'submitted': emailSendClicked}">
                                     <span class="input-email is-rainbow" v-bind:class="{'success': subscribeSuccessful}">
-                                        <input class="input-field" type="email" placeholder="Email" v-model="email" v-bind:disabled="emailSendClicked">
+                                        <input class="input-field" type="email" placeholder="your@email.com" v-model="email" v-bind:disabled="emailSendClicked">
                                         <span></span>
                                     </span>
                                     <button class="join-waitlist is-rainbow" @click="sendEmail()" v-bind:class="{'success': subscribeSuccessful}">
@@ -159,6 +165,10 @@
         line-height: 0.5em;
         width: 100%;
         transition: opacity 1s;
+
+        input{
+            text-align: center;
+        }
 
         *:not(span) {
             position: relative;
