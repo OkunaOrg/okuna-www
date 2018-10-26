@@ -6,7 +6,6 @@
                     <div class="column">
                         <div class="columns is-centered is-vcentered is-height-100 is-mobile padding-top-4x-mobile">
                             <div class="column is-narrow">
-                                <ob-disco-ball></ob-disco-ball>
                             </div>
                         </div>
                     </div>
@@ -41,10 +40,9 @@
 
 <script>
 
-    import ObDiscoBall from "./components/disco-ball";
+
 
     export default {
-        components: {ObDiscoBall},
         name: 'ob-fun'
     }
 </script>
