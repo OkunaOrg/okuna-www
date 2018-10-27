@@ -33,22 +33,27 @@
                         </div>
                         <div class="columns is-centered is-mobile">
                             <div class="column">
-                                <p class="email-container" v-bind:class="{'submitted': emailSendClicked}">
+                                <form @submit.prevent="sendEmail" novalidate>
+                                    <p class="email-container" v-bind:class="{'submitted': emailSendClicked}">
                                     <span class="input-email is-rainbow" v-bind:class="{'success': subscribeSuccessful}">
-                                        <input class="input-field" type="email"
-                                               @keyup.enter="sendEmail()"
+                                        <input class="input-field"
+                                               name="email"
+                                               type="email"
+                                               v-validate="'required|email'"
                                                placeholder="your@email.com" v-model="email"
                                                v-bind:disabled="emailSendClicked">
                                         <span></span>
                                     </span>
-                                    <button class="join-waitlist is-rainbow" @click="sendEmail()" v-bind:class="{'success': subscribeSuccessful}">
-                                        <span v-show="!emailSendClicked"><i class="fas fa-paper-plane"></i></span>
-                                        <span v-show="emailSendClicked && !subscribeSuccessful"><i class="fas fa-spinner is-loading"></i></span>
-                                        <span class="animated fadeIn" v-show="subscribeSuccessful"><i class="fas fa-check"></i></span>
-                                    </button>
-                                </p>
-                                <span class="error-message has-text-danger is-size-7" v-show="errorEmail"><span class="icon is-small is-valign-top" v-twemoji> 😕 </span>&nbsp;&nbsp;{{errorEmail}}</span>
-                                <span class="success-message" v-show="subscribeSuccessful"><span class="icon is-small" v-twemoji>🎉</span>&nbsp;&nbsp;Hooray! You're number {{count + 1}} on our waitlist.</span>
+                                        <button class="join-waitlist is-rainbow" type="submit" v-bind:class="{'success': subscribeSuccessful}">
+                                            <span v-show="!emailSendClicked"><i class="fas fa-paper-plane"></i></span>
+                                            <span v-show="emailSendClicked && !subscribeSuccessful"><i class="fas fa-spinner is-loading"></i></span>
+                                            <span class="animated fadeIn" v-show="subscribeSuccessful"><i class="fas fa-check"></i></span>
+                                        </button>
+                                    </p>
+                                    <span v-show="fields.email && fields.email.touched && errors.has('email')" class="error-message has-text-danger is-size-7"><span class="icon is-small is-valign-top" v-twemoji> 😕 </span>&nbsp;&nbsp; {{ errors.first('email') }}</span>
+                                    <span class="error-message has-text-danger is-size-7" v-show="errorEmail"><span class="icon is-small is-valign-top" v-twemoji> 😕 </span>&nbsp;&nbsp;{{errorEmail}}</span>
+                                    <span class="success-message" v-show="subscribeSuccessful"><span class="icon is-small" v-twemoji>🎉</span>&nbsp;&nbsp;Hooray! You're number {{count + 1}} on our waitlist.</span>
+                                </form>
                             </div>
                         </div>
                     </div>
@@ -283,23 +288,41 @@
                 typewriter.start();
 
             },
-            sendEmail() {
-                this.emailSendClicked = true;
+            postToMailChimp() {
                 axios.post(MAILCHIMP_SUBSCRIBE_URL, {
                     email: this.email
                 })
-                .then((resp) => {
-                    this.subscribeSuccessful = true;
-                    this.errorEmail = '';
-                    this.count = resp.data.count;
-                })
-                .catch((error) => {
-                    if (error.response && error.response.status === 400) {
-                        this.errorEmail = error.response.data.email[0];
-                    } else  {
-                        this.errorEmail = 'We\'re experiencing server issues. Please try again in a few minutes.';
+                    .then((resp) => {
+                        this.subscribeSuccessful = true;
+                        this.errorEmail = '';
+                        this.count = resp.data.count;
+                    })
+                    .catch((error) => {
+                        if (error.response && error.response.status === 400) {
+                            this.errorEmail = error.response.data.email[0];
+                        } else  {
+                            this.errorEmail = 'We\'re experiencing server issues. Please try again in a few minutes.';
+                        }
+                        this.emailSendClicked = false;
+                    });
+            },
+            validateAll() {
+                return this.$validator.validateAll().then((result) => {
+                    this.touchAll();
+                    return result;
+                });
+            },
+            touchAll() {
+                return Object.keys(this.fields).every(field => {
+                    return this.fields[field].touched = true;
+                });
+            },
+            sendEmail() {
+                this.validateAll().then((result) => {
+                    if (result) {
+                        this.emailSendClicked = true;
+                        this.postToMailChimp();
                     }
-                    this.emailSendClicked = false;
                 });
             }
         }
