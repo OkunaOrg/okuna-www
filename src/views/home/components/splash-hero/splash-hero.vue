@@ -108,6 +108,10 @@
     .submitted {
         .join-waitlist {
             top: 2px;
+
+            @media(max-width: 768px) {
+                top: 4px;
+            }
         };
 
         .input-email {
@@ -132,6 +136,7 @@
 
         @media(max-width: 768px) {
             right: 10%;
+            top: 2px;
         }
 
         &.success {
@@ -142,6 +147,10 @@
             font-size: 1.3em;
             position: relative;
             top: 1px;
+
+            @media(max-width: 768px) {
+                left: -1px;
+            }
         }
 
         .fa-paper-plane {
@@ -152,7 +161,7 @@
         &:hover {
             top: 2px;
             .fa-paper-plane {
-                font-size: 1.3em;
+                font-size: 1em;
             }
         }
 
