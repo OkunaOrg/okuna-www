@@ -35,7 +35,10 @@
                             <div class="column">
                                 <p class="email-container" v-bind:class="{'submitted': emailSendClicked}">
                                     <span class="input-email is-rainbow" v-bind:class="{'success': subscribeSuccessful}">
-                                        <input class="input-field" type="email" placeholder="your@email.com" v-model="email" v-bind:disabled="emailSendClicked">
+                                        <input class="input-field" type="email"
+                                               @keyup.enter="sendEmail()"
+                                               placeholder="your@email.com" v-model="email"
+                                               v-bind:disabled="emailSendClicked">
                                         <span></span>
                                     </span>
                                     <button class="join-waitlist is-rainbow" @click="sendEmail()" v-bind:class="{'success': subscribeSuccessful}">
