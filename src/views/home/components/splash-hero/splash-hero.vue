@@ -45,7 +45,7 @@
                                     </button>
                                 </p>
                                 <span class="error-message has-text-danger is-size-7" v-show="errorEmail"><span class="icon is-small is-valign-top" v-twemoji> 😕 </span>&nbsp;&nbsp;{{errorEmail}}</span>
-                                <span class="success-message" v-show="subscribeSuccessful"><span class="icon is-small" v-twemoji>🎉</span>&nbsp;&nbsp;Hooray! You're number {{count}} on our waitlist.</span>
+                                <span class="success-message" v-show="subscribeSuccessful"><span class="icon is-small" v-twemoji>🎉</span>&nbsp;&nbsp;Hooray! You're number {{count + 1}} on our waitlist.</span>
                             </div>
                         </div>
                     </div>
