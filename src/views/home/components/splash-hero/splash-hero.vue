@@ -135,8 +135,8 @@
         transition: right 1s;
 
         @media(max-width: 768px) {
-            right: 10%;
-            top: 2px;
+            right: 11%;
+            top: 4px;
         }
 
         &.success {
@@ -149,13 +149,17 @@
             top: 1px;
 
             @media(max-width: 768px) {
-                left: -1px;
+                left: -5px;
             }
         }
 
         .fa-paper-plane {
             position: relative;
             left: -1px;
+
+            @media(max-width: 768px) {
+                left: -5px;
+            }
         }
 
         &:hover {
