@@ -328,7 +328,7 @@ export const messages = {
             They_conne: "They connect us, help us share treasured moments with our loved ones and provide us with funny cat videos.",
             Sadly_now: "Sadly, nowadays social networks aren’t so much about connecting people, instead they are all about making as much money as possible out of people, no matter the consequences. For example the loss of privacy.",
             We_want_to: "We want to do better, which is exactly why at Openbook we’re doing things differently.",
-            Openbook_will_have: "We're designing a social network with with humanity's best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at its core",
+            Openbook_will_have: "We're designing a social network with humanity's best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at its core",
             honest_pe: "A social network for a better tomorrow.",
             How_will_w: "How are we creating a social network for a better tomorrow?",
             all_of_our_code: "All of our code is",
