@@ -149,7 +149,7 @@
             top: 1px;
 
             @media(max-width: 768px) {
-                left: -5px;
+                left: -6px;
             }
         }
 
@@ -166,6 +166,16 @@
             top: 2px;
             .fa-paper-plane {
                 font-size: 1em;
+            }
+
+            @media(max-width: 768px) {
+                top: 4px;
+            }
+
+            .fa-spinner, .fa-check {
+                @media(max-width: 768px) {
+                    left: -6px;
+                }
             }
         }
 
