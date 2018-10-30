@@ -7,7 +7,8 @@
                     <div class="container">
                         <div class="navbar-brand">
                             <a class="navbar-item is-size-4" href="https://open-book.org">
-                                <a href="#" class="header-logo"></a><span class="header-logo-separator"></span><strong>Open</strong>book
+                                <a href="#" class="header-logo"></a>
+                                <span class="header-logo-separator"></span><span v-html="$t('global.sircle')" class="has-text-circular"></span>
                             </a>
                             <div class="navbar-close navbar-item">
                                 <button class="button is-outlined is-borderless navbar-close__button has-text-primary"
