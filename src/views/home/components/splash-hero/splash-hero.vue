@@ -17,12 +17,13 @@
                                 <h1 class="is-size-3-mobile is-size-1 has-text-weight-bold"
                                     v-html="$t('splash_hero.hello_world')">
                                 </h1>
-                                <h3 class="is-size-5"
+                                <p class="is-size-5 padding-top-1x"
                                     v-html="$t('splash_hero.we_are_ob')">
-                                </h3>
-                                <h3 class="is-size-5"
+                                </p>
+                                <p class="is-size-5"
                                     v-html="$t('splash_hero.kickstarter')">
-                                </h3>
+                                </p>
+                                <sub>Formerly <strong>Open</strong>book</sub>
                                 <h4 class="padding-top-2x is-size-4 has-text-weight-bold">
                                     <span class="icon is-small" v-twemoji>🚀</span> Join the beta.
                                 </h4>

@@ -7,12 +7,33 @@
     url('/fonts/nunito-sans-v3-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
     url('/fonts/nunito-sans-v3-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
+
 /* nunito-sans-700 - latin */
 @font-face {
     font-family: 'Nunito Sans';
     font-style: normal;
-    font-weight: 700;
+    font-weight: 600;
     src: local('Nunito Sans Bold'), local('NunitoSans-Bold'),
-    url('/fonts/nunito-sans-v3-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url('/fonts/nunito-sans-v3-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    url('/fonts/nunito-sans-v3-latin-600.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('/fonts/nunito-sans-v3-latin-600.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* visbyRoundCF-sans-regular - latin */
+@font-face {
+    font-family: 'VisbyRoundCF';
+    font-style: normal;
+    font-weight: 400;
+    src: local('VisbyRoundCF Regular'), local('VisbyRoundCF-Regular'),
+    url('/fonts/VisbyRoundCF-Regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('/fonts/VisbyRoundCF-Regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
+/* visbyRoundCF-sans-700 - latin */
+@font-face {
+    font-family: 'VisbyRoundCF';
+    font-style: normal;
+    font-weight: 700;
+    src: local('VisbyRoundCF Bold'), local('VisbyRoundCF-Bold'),
+    url('/fonts/VisbyRoundCF-Bold.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url('/fonts/VisbyRoundCF-Bold.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }

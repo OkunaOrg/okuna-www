@@ -6,7 +6,7 @@
                 <div class="navbar-brand">
                     <router-link to="home" class="navbar-item is-size-4 has-text-primary">
                         <a href="#" class="header-logo"></a>
-                        <span class="header-logo-separator"></span><span v-html="$t('global.openbook')"></span>
+                        <span class="header-logo-separator"></span><span v-html="$t('global.sircle')" class="has-text-circular"></span>
                     </router-link>
                     <ob-hamburger></ob-hamburger>
                 </div>
@@ -28,7 +28,7 @@
 
 <style lang="scss">
     .header-logo {
-        background-image: url('../assets/openbook-logo-new.png');
+        background-image: url('../assets/sircle-logo-new.png');
         background-size: 30px 30px;
         background-repeat: no-repeat;
         background-position: center center;

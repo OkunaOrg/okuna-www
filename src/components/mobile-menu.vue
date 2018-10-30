@@ -237,7 +237,7 @@
                             <div class="column is-12">
                                 <div class="columns is-mobile is-vcentered">
                                     <div class="column">
-                                        <a href="https://twitter.com/Openbook_org" class="is-flex is-vcentered"
+                                        <a href="https://twitter.com/Sircle_org" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -249,7 +249,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://github.com/OpenbookOrg" class="is-flex is-vcentered"
+                                        <a href="https://github.com/SircleOrg" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -261,7 +261,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://www.reddit.com/user/openbook_org" class="is-flex is-vcentered"
+                                        <a href="https://www.reddit.com/user/sircle_org" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -273,7 +273,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://gitter.im/openbook-org/Lobby" class="is-flex is-vcentered"
+                                        <a href="https://gitter.im/sircle-org/Lobby" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -285,7 +285,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://www.producthunt.com/posts/openbook" class="is-flex is-vcentered"
+                                        <a href="https://www.producthunt.com/posts/sircle" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -295,7 +295,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://www.linkedin.com/openbookorg/" class="is-flex is-vcentered"
+                                        <a href="https://www.linkedin.com/sircleorg/" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -305,7 +305,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://www.facebook.com/openbookorg/" class="is-flex is-vcentered"
+                                        <a href="https://www.facebook.com/sircleorg/" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">

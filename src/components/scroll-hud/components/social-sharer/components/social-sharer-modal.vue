@@ -4,8 +4,8 @@
                         :title="$t('hud.share_title')"
                         :description="$t('hud.share_description')"
                         :quote="$t('hud.share_quote')"
-                        hashtags="openbook,socialnetwork,privacy"
-                        twitter-user="Openbook_org"
+                        hashtags="sircle,socialnetwork,privacy"
+                        twitter-user="Sircle_org"
                         inline-template>
             <div class="columns is-mobile is-multiline">
                 <network network="twitter" class="column is-12 social-sharing-item">

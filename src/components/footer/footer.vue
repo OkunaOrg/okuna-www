@@ -8,7 +8,7 @@
                             <div class="navbar-brand">
                                 <div class="navbar-item">
                                     <router-link :to="'home'" class="navbar-item is-size-3">
-                                        <a href="#" class="footer-logo"></a><span class="footer-logo-separator"></span><span v-html="$t('global.openbook')"></span>
+                                        <a href="#" class="footer-logo"></a><span class="footer-logo-separator"></span><h3 v-html="$t('global.sircle')"></h3>
                                     </router-link>
                                 </div>
                             </div>
@@ -63,7 +63,7 @@
                     <div class="level-right">
                         <ul>
                             <li>
-                                <a href="https://twitter.com/Openbook_org" class="is-flex is-vcentered" target="_blank" rel="noopener noreferrer">
+                                <a href="https://twitter.com/Sircle_org" class="is-flex is-vcentered" target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">
@@ -75,7 +75,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://github.com/OpenbookOrg" class="is-flex is-vcentered" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/SircleOrg" class="is-flex is-vcentered" target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">
@@ -87,7 +87,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://www.reddit.com/user/openbook_org" class="is-flex is-vcentered"
+                                <a href="https://www.reddit.com/user/sircle_org" class="is-flex is-vcentered"
                                    target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
@@ -100,7 +100,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://gitter.im/openbook-org/Lobby" class="is-flex is-vcentered"
+                                <a href="https://gitter.im/sircle-org/Lobby" class="is-flex is-vcentered"
                                    target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
@@ -113,7 +113,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://www.linkedin.com/company/openbook-org/" class="is-flex is-vcentered"
+                                <a href="https://www.linkedin.com/company/sircle-org/" class="is-flex is-vcentered"
                                    target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
@@ -126,7 +126,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://www.producthunt.com/posts/openbook" class="is-flex is-vcentered"
+                                <a href="https://www.producthunt.com/posts/sircle" class="is-flex is-vcentered"
                                    target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column is-narrow">
@@ -139,7 +139,7 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://www.facebook.com/openbookorg/" class="is-flex is-vcentered"
+                                <a href="https://www.facebook.com/sircleorg/" class="is-flex is-vcentered"
                                    target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
@@ -199,7 +199,7 @@
     }
 
     .footer-logo {
-        background-image: url('../assets/openbook-logo-new.png');
+        background-image: url('../assets/sircle-logo-new.png');
         background-size: 40px 40px;
         background-repeat: no-repeat;
         background-position: center center;

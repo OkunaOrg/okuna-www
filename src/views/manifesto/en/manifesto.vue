@@ -157,7 +157,7 @@
                         {{ $t('manifesto.We_want_to') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.Openbook_will_have') }}.
+                        {{ $t('manifesto.Sircle_will_have') }}.
                     </p>
                     <p>
                         <strong class="has-text-primary"> {{ $t('manifesto.honest_pe') }}</strong>
@@ -246,7 +246,7 @@
                     <p>
                         <i>{{ $t('manifesto.Go_ahead') }}</i>
                     </p>
-                    <ob-openbook-data-sharing></ob-openbook-data-sharing>
+                    <ob-sircle-data-sharing></ob-sircle-data-sharing>
                     <p>
                         {{ $t('manifesto.Did_you_sp') }}
                     </p>
@@ -471,14 +471,14 @@
 
 <script>
     import obGenericDataSharing from './components/generic-data-sharing.vue';
-    import obOpenbookDataSharing from './components/openbook-data-sharing.vue';
+    import obSircleDataSharing from './components/sircle-data-sharing';
     import memeImg from './assets/meme.jpg';
 
     export default {
         name: 'ob-en-manifesto',
         components: {
             obGenericDataSharing,
-            obOpenbookDataSharing
+            obSircleDataSharing
         },
         data() {
             return {
