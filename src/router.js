@@ -73,7 +73,7 @@ const router = new Router({
                     name: 'home',
                     component: home,
                     meta: {
-                        title: 'Home | Sircle social network'
+                        title: 'Home | Sircle'
                     }
                 },
                 {
@@ -81,7 +81,7 @@ const router = new Router({
                     name: 'about-us',
                     component: aboutUs,
                     meta: {
-                        title: 'About us | Sircle social network'
+                        title: 'About us | Sircle'
                     }
                 },
                 {
@@ -89,7 +89,7 @@ const router = new Router({
                     name: 'contact-us',
                     component: contactUs,
                     meta: {
-                        title: 'Contact us | Sircle social network'
+                        title: 'Contact us | Sircle'
                     }
                 },
                 {
@@ -97,7 +97,7 @@ const router = new Router({
                     name: 'faq',
                     component: faq,
                     meta: {
-                        title: 'FAQ | Sircle social network'
+                        title: 'FAQ | Sircle'
                     }
                 },
                 {
@@ -105,7 +105,7 @@ const router = new Router({
                     name: 'jobs',
                     component: jobs,
                     meta: {
-                        title: 'Jobs | Sircle social network'
+                        title: 'Jobs | Sircle'
                     }
                 },
                 {
@@ -113,7 +113,7 @@ const router = new Router({
                     name: 'press',
                     component: press,
                     meta: {
-                        title: 'Press | Sircle social network'
+                        title: 'Press | Sircle'
                     }
                 },
                 {
@@ -121,7 +121,7 @@ const router = new Router({
                     name: 'newsroom',
                     component: newsroom,
                     meta: {
-                        title: 'Newsroom | Sircle social network'
+                        title: 'Newsroom | Sircle'
                     }
                 },
                 {
@@ -129,7 +129,7 @@ const router = new Router({
                     name: 'vulnerability-report',
                     component: vulnerabilityReport,
                     meta: {
-                        title: 'Report vulnerability | Sircle social network'
+                        title: 'Report vulnerability | Sircle'
                     }
                 },
                 {
@@ -137,7 +137,7 @@ const router = new Router({
                     name: 'manifesto',
                     component: manifesto,
                     meta: {
-                        title: 'Manifesto | Sircle social network'
+                        title: 'Manifesto | Sircle'
                     }
                 },
                 {

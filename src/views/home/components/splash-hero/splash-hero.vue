@@ -23,7 +23,7 @@
                                 <p class="is-size-5"
                                     v-html="$t('splash_hero.kickstarter')">
                                 </p>
-                                <sub>Formerly <strong>Open</strong>book</sub>
+                                <sub>( Formerly <strong>Open</strong>book )</sub>
                                 <h4 class="padding-top-2x is-size-4 has-text-weight-bold">
                                     <span class="icon is-small" v-twemoji>🚀</span> Join the beta.
                                 </h4>
@@ -259,8 +259,8 @@
 <script>
 
     require('./scripts/typewriter.exec.js');
-    import blackMockupImage from './assets/black-mock-min.png';
-    import whiteMockupImage from './assets/white-mock-min.png';
+    import blackMockupImage from './assets/black-min.png';
+    import whiteMockupImage from './assets/white-min.png';
     import axios from 'axios';
 
     const MAILCHIMP_SUBSCRIBE_URL = process.env.VUE_APP_MAILCHIMP_SUBSCRIBE_URL;

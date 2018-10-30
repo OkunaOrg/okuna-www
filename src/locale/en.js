@@ -1,7 +1,7 @@
 export const messages = {
     en: {
         global: {
-            sircle: '<strong>Sircle</strong>'
+            sircle: '<strong style="color: #4a4a4a;">Sircle</strong>'
         },
         home: {
             want_to_know_more: 'Want to know more?',
