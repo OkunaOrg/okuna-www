@@ -23,7 +23,6 @@
                                 <p class="is-size-5"
                                     v-html="$t('splash_hero.kickstarter')">
                                 </p>
-                                <sub>( Formerly <strong>Open</strong>book )</sub>
                                 <div class="has-padding-2x">
                                     <button class="button is-rainbow is-rounded" v-scroll-to="'#beta-signup'">
                                         <span class="icon">

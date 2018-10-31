@@ -1,7 +1,7 @@
 export const messages = {
     en: {
         global: {
-            sircle: '<strong style="color: #4a4a4a;">Sircle</strong>'
+            openbook: '<span style="color: #4a4a4a;"><strong>Open</strong>book</span>'
         },
         home: {
             want_to_know_more: 'Want to know more?',
@@ -26,7 +26,7 @@ export const messages = {
         },
         fun: {
             title: 'Fun!',
-            description: 'Because our lives are short and brittle, we\'re desining Sircle to be a fun and enjoyable experience for everyone.'
+            description: 'Because our lives are short and brittle, we\'re desining Openbook to be a fun and enjoyable experience for everyone.'
         },
         personal: {
             title: 'Customisable',
@@ -47,14 +47,14 @@ export const messages = {
         },
         quotes: {
             joel_name: 'Joel Hernández',
-            joel_title: 'Founder of Sircle',
+            joel_title: 'Founder of Openbook',
             joel_quote: 'We\'re at a breaking point. We need to stop building products for users and start building products for people. To put humanity at the core of everything we build.',
             vincent_name: 'Vincent Ruijter',
             vincent_title: 'Ethical Hacker',
-            vincent_quote: 'Sircle might be the last real chance to build something different, something ethical, something better.',
+            vincent_quote: 'Openbook might be the last real chance to build something different, something ethical, something better.',
             phil_name: 'Phil Zimmermann',
             phil_title: 'Internet hall of fame member',
-            phil_quote: 'Sircle holds hope for the future, a social network where we are not victims of its revenue model.'
+            phil_quote: 'Openbook holds hope for the future, a social network where we are not victims of its revenue model.'
         },
         splash_hero: {
             hello_world: 'Hello <span id="hello-subject">world!</span>',
@@ -63,13 +63,13 @@ export const messages = {
             family: 'family',
             grandma: 'grandma',
             reddit: 'reddit',
-            we_are_ob: 'We\'re <strong class="has-text-circular">Sircle</strong>.',
+            we_are_ob: 'We\'re <strong class="has-text-circular">Open</strong>book.',
             kickstarter: 'A social network for a <strong>better tomorrow.</strong>',
             share: 'Share',
             notify_me: 'Support us'
         },
         why_ob: {
-            title: 'Why Sircle?',
+            title: 'Why Openbook?',
             subtitle: 'Some of the key things that set us apart from other social networks.',
             zero_tracking: 'Zero tracking',
             zero_tracking_desc: 'We will never track you, anywhere, anyhow.',
@@ -92,13 +92,13 @@ export const messages = {
                 '                                    forever.'
         },
         count_down: {
-            kickstarter: 'Sircle',
+            kickstarter: 'Openbook',
             campaign_countdown: 'launch countdown',
             days: 'day | days',
             hours: 'hour | hours',
             minutes: 'minute | minutes',
             seconds: 'second | seconds',
-            kickstarter_launch: 'Sircle <strong class="has-text-kickstarter">alpha</strong> ' +
+            kickstarter_launch: 'Openbook <strong class="has-text-kickstarter">alpha</strong> ' +
                 'begins <br/>on the<strong> {0}th of March 2019</strong>.'
         },
         meet_the_team: {
@@ -123,7 +123,7 @@ export const messages = {
             linked_in: 'LinkedIn',
             product_hunt: 'Product Hunt',
             facebook: 'Facebook',
-            the_ob_organization: 'Sircle',
+            the_ob_organization: 'Openbook',
             privacy_policy: 'Privacy Policy',
             made_with: 'Made with ',
             in_europe: ' in Europe'
@@ -135,18 +135,18 @@ export const messages = {
             share_email: 'Send e-mail',
             share_linkedin: 'Share on LinkedIn',
             share_wa: 'Share on Whatsapp',
-            share_title: 'Sircle. The honest, transparent and awesome social network!',
-            share_description: 'Sircle. The honest, transparent and awesome social network!',
-            share_quote: 'View and support Sircle to help build a new, honest, fun and transparent social network! https://open-book.org/support-us',
+            share_title: 'Openbook. The honest, transparent and awesome social network!',
+            share_description: 'Openbook. The honest, transparent and awesome social network!',
+            share_quote: 'View and support Openbook to help build a new, honest, fun and transparent social network! https://open-book.org/support-us',
         },
         about_us: {
             title: 'About us',
             subtitle: 'Technology for a <span class="has-text-primary">better tomorrow</span>.',
             description: '<strong>We want to build technology to serve people, not the other way around</strong>.',
             description_founded: 'We do this by designing our products and services with humanity\'s best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at their core.',
-            description_project: '<strong>Sircle</strong> is our first creation. A social network that is honest, respects and protects the privacy of its users, brings people together, is fun to use and does good for our planet and its inhabitants.',
-            description_funded: 'The project was successfully crowd-funded September 2018 through a <a href="https://www.kickstarter.com/projects/1520156881/sircle-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">Kickstarter Campaign</a>.',
-            description_release: 'We will release <strong>Sircle</strong> to the world March 2019.',
+            description_project: '<strong>Openbook</strong> is our first creation. A social network that is honest, respects and protects the privacy of its users, brings people together, is fun to use and does good for our planet and its inhabitants.',
+            description_funded: 'The project was successfully crowd-funded September 2018 through a <a href="https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">Kickstarter Campaign</a>.',
+            description_release: 'We will release <strong>Openbook</strong> to the world March 2019.',
             accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
             humans_behind_ob: 'The people',
@@ -197,7 +197,7 @@ export const messages = {
         },
         address: {
             name: 'Name',
-            ob_organization: 'Sircle B.V',
+            ob_organization: 'Openbook B.V',
             address: 'Address',
             ob_address: 'The Hague Tech, The Hague, The Netherlands',
             telephone: 'Telephone',
@@ -238,7 +238,7 @@ export const messages = {
             subtitle: 'Work with us.',
             exciting_adventure: 'We have embarked on one of the most exciting adventures for the digital world and we\'re looking for talented and passionate people to sail with us!',
             all_skills: 'Technology, design, marketing, finance, media, you name it.',
-            need_your_help: 'Do you believe in <span class="has-text-primary"><strong class="has-text-primary">Sircle</strong></span>, a better future for social networks and humanity as a whole?',
+            need_your_help: 'Do you believe in <span class="has-text-primary"><strong class="has-text-primary">Openbook</strong></span>, a better future for social networks and humanity as a whole?',
             send_cv: 'Send us your CV and a motivation letter to  <a\n' +
                 '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
             look_forward: 'We look forward to meeting you !',
@@ -251,13 +251,13 @@ export const messages = {
             office_dog: 'Our office dog hard at work.',
             jump_to: 'Jump to',
             whos_paying: 'Who\'s paying for everything so far?',
-            is_distributed: 'Will Sircle be decentralised?',
+            is_distributed: 'Will Openbook be decentralised?',
             whos_paying_ans: 'So far we have been completely self funded. However, this has proven to be very hard.\n' +
-                '                        With most of us working full-time jobs apart from Sircle, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
+                '                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
             crowd_funding: 'As we wanted the project to be driven by people and not capital, we decided to go for crowd-funding.',
             launching_kickstarter: 'We got successfully funded on the 7th of September 2018 at 18:34!',
-            why_not_non_profit: 'Why is Sircle not a non-profit?',
-            why_not_non_profit_ans: 'Making Sircle a for-profit was a hard choice to make.',
+            why_not_non_profit: 'Why is Openbook not a non-profit?',
+            why_not_non_profit_ans: 'Making Openbook a for-profit was a hard choice to make.',
             check_all_boxes: 'We check all the non-profits boxes and we love non-profits. We love Wikipedia, the Ghost Foundation, Founders Pledge, Mozilla and many more.',
             same_struggle: 'However we see the same struggle repeated over and over again. These companies struggle to grow beyond their profitability. These companies struggle to grow to the size and resources needed to compete with for-profit businesses.',
             need_money: 'When we need to grow exponentially, we need to be able to raise the large amounts of money needed to do so.',
@@ -271,20 +271,20 @@ export const messages = {
             donate: 'Donate in IndieGogo!',
             talk_to_friends: 'Talk to your friends and family about us',
             improve_website: 'If you\'re a developer, you can help us <a\n' +
-                '                            href="https://github.com/SircleOrg"\n' +
+                '                            href="https://github.com/OpenbookOrg"\n' +
                 '                            target="_blank" rel="noopener noreferrer">improve our website</a>.',
             let_us_know: 'If you have an idea for the network, you can <a href="/en/contact-us"\n' +
                 '                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.',
             public_figure: 'If you\'re a public figure and would like to become an ambassador,',
             contact_us: 'contact us',
-            looking_for_job: 'If you\'re looking for a job and believe Sircle would be a great fit for you,',
+            looking_for_job: 'If you\'re looking for a job and believe Openbook would be a great fit for you,',
             visit_jobs: 'visit our jobs page',
             volunteer: 'And lastly, if you would like to be even more involved, we\'re forming a network of volunteers across the world to help us spread the word.',
             interested: 'Interested?',
             contact_us_2: 'Contact us',
             more_questions: 'Have another question?',
             send_us_message: 'Send us a message',
-            why_not_decentralised: 'Will Sircle be decentralised?',
+            why_not_decentralised: 'Will Openbook be decentralised?',
             why_not_decentralised_ans: '<p>We want to get there eventually. We’re looking into <a href="https://solid.mit.edu/" target="_blank" rel="noopener noreferrer">Solid MIT approach</a> (The one from Tim Berners Lee) and we’re very pleased with it so far. </p> <p>Our first versions will however be centralised. </p> <p>We do this because it’s then easier to focus on innovating in the product features and overall user experience. These things will determine whether we’ll reach the user base necessary to take on existing social networks. </p> <p>If we succeed at this, sky’s the limit into what we can do in regards to decentralisation!</p>'
         },
         press: {
@@ -327,8 +327,8 @@ export const messages = {
             Social_net: "Social networks are awesome.",
             They_conne: "They connect us, help us share treasured moments with our loved ones and provide us with funny cat videos.",
             Sadly_now: "Sadly, nowadays social networks aren’t so much about connecting people, instead they are all about making as much money as possible out of people, no matter the consequences. For example the loss of privacy.",
-            We_want_to: "We want to do better, which is exactly why at Sircle we’re doing things differently.",
-            Sircle_will_have: "We're designing a social network with humanity's best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at its core",
+            We_want_to: "We want to do better, which is exactly why at Openbook we’re doing things differently.",
+            Openbook_will_have: "We're designing a social network with humanity's best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at its core",
             honest_pe: "A social network for a better tomorrow.",
             How_will_w: "How are we creating a social network for a better tomorrow?",
             all_of_our_code: "All of our code is",
@@ -336,9 +336,9 @@ export const messages = {
             this_means_: "This means it’s free for everyone to see, reproduce and contribute to. We’re transparent about how the social network works.",
             additionally: "We also believe in a better world for everyone. That's why we'll be giving <strong>30% of our profits towards making the world a better place</strong>, now and forever in partnership with <a href=\"https://founderspledge.com/\" rel=\"noreferrer noopener\">FoundersPledge</a>.",
             Were_all_: "Because we're all different and that's something to embrace and celebrate.",
-            On_Openboo: "You'll be able to craft an experience suited just for you. From changing the color of your timeline, adding cool extra widgets in your profile to choosing how you want to see content in your timeline, we want Sircle to feel familiar, friendly and cozy to you. Just like home.",
-            And_if_the: "And if there’s anything you’re missing on Sircle, let us know. We want to build Sircle together. We will create a special group where we encourage you to help us decide what we build next or what we should improve. Let’s build the best social experience ever, together.",
-            this_is_what_drove: "This is what initially drove us to build Sircle. The privacy and security of our users will always be at the core of everything we do. We don’t track anything you do, neither monetize your information nor share it without your explicit and informed consent.",
+            On_Openboo: "You'll be able to craft an experience suited just for you. From changing the color of your timeline, adding cool extra widgets in your profile to choosing how you want to see content in your timeline, we want Openbook to feel familiar, friendly and cozy to you. Just like home.",
+            And_if_the: "And if there’s anything you’re missing on Openbook, let us know. We want to build Openbook together. We will create a special group where we encourage you to help us decide what we build next or what we should improve. Let’s build the best social experience ever, together.",
+            this_is_what_drove: "This is what initially drove us to build Openbook. The privacy and security of our users will always be at the core of everything we do. We don’t track anything you do, neither monetize your information nor share it without your explicit and informed consent.",
             How_does_t: "How does this translate to a real-life scenario?",
             Example: "Example",
             This_is_wh: "This is what data sharing normally looks like.",
@@ -358,8 +358,8 @@ export const messages = {
             People_sha: "People share more of their information that they’re initially aware of and once the data has been shared, there’s no going back.",
             Heres_how: "Here’s how we’re doing it:",
             Lets_say_2: "Let's say now you downloaded the awesome music app everyone has been recommending to you. As soon as you open the app, the box below shows up.",
-            In_order_t: "In order to use Songipy you must continue with Sircle.",
-            continue_with_ob: "Continue with <strong>Sircle</strong>",
+            In_order_t: "In order to use Songipy you must continue with Openbook.",
+            continue_with_ob: "Continue with <strong>Openbook</strong>",
             Did_you_sp: "Did you spot the differences?",
             Here_are_t: "Here are the most important ones.",
             explicit_n_informd: "Explicit and informed consent",
@@ -387,7 +387,7 @@ export const messages = {
             Generally_: "Generally speaking, the less we know about you and the more you know about us, the better.",
             Youve_pro: "You’ve probably put a tremendous amount of time (and data) into your existing social networks already. We aim to make the transition as smooth as possible.",
             migrating_to_ob: "That's why we'll be building tools to import your data from existing social networks.<sup>1</sup>. Think no more than 3 steps.",
-            Lets_not_: "While the intial drive for Sircle was building a privacy-friendly social network, the complications of existing social networks span to numerous other subjects. Fear of missing out, digital social status, discrimination, digital mobbing, censorship and more.",
+            Lets_not_: "While the intial drive for Openbook was building a privacy-friendly social network, the complications of existing social networks span to numerous other subjects. Fear of missing out, digital social status, discrimination, digital mobbing, censorship and more.",
             Research: "There's a lot of research on the subjects, unfortunately until now only a few players had the power to do something with it. Not anymore.",
             Research_Embrace: "We're designing the platform with existing research in mind and experimenting with radical new concepts to tackle some of the previously mentioned issues.",
             Research_Solution: "We can't promise our solutions will work, we can however promise that aided by research and open-dialogue, we'll keep trying until they do.",
@@ -396,7 +396,7 @@ export const messages = {
             We_will_ha: "We will have a transparent revenue model based on a generic way for people to securely transact physical and digital goods and services inside the network. This will be done through an atomic digital unit of value. Although this initially reflected as a marketplace, our ambitions go way beyond that.",
             instead_our_revenue: "Our revenue model will be based on a digital currency called <strong>Tip</strong>. It will be used to buy and sell goods and services, support content creators, subscribe to publishers and more.",
             for_every_transaction: "For every Tips transaction made in the network, we will take a small cut.",
-            you_can_read_it: "You can read all about it in <a class=\"has-text-underlined\" href=\"https://medium.com/sircle-org/so-how-will-sircle-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\">this article (6 mins approx. reading time)</a>",
+            you_can_read_it: "You can read all about it in <a class=\"has-text-underlined\" href=\"https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\">this article (6 mins approx. reading time)</a>",
             Apart_from: "Apart from this, we’re also planning to help enterprise customers setting up their own internal, self-hosted and secure social networks with extra functionality such as projects, identity and access management.",
             _With_t: "[1] With the new GDPR regulation, social networks must allow it’s users to do so now.",
             Still_have: "Still have questions?",
@@ -443,7 +443,7 @@ export const messages = {
             and_likes: "and likes",
             Edit_share: "Edit shared optional data",
             Inspect_sh: "Inspect shared data",
-            Sircle_h: "Sircle has now shared your information with Songipy.",
+            Openbook_h: "Openbook has now shared your information with Songipy.",
             Restart_pr: "Restart prototype",
             open_list: "Open list",
             open_image: "Open image",

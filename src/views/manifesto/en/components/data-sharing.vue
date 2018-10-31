@@ -226,7 +226,7 @@
                                 </strong>
                             </div>
                             <span>
-                                {{ $t('manifesto.Sircle_h') }}
+                                {{ $t('manifesto.Openbook_h') }}
                             </span>
                         </div>
                         <div class="column is-12 has-text-centered">
@@ -284,7 +284,7 @@
 <script>
 
     export default {
-        name: 'ob-sircle-data-sharing',
+        name: 'ob-openbook-data-sharing',
         data() {
             return {
                 stepNumber: 1,
@@ -412,7 +412,7 @@
         },
         methods: {
             /**
-             * The step where users are asked to proceed with Sircle
+             * The step where users are asked to proceed with Openbook
              */
             goToStep1() {
                 this.stepNumber = 1;

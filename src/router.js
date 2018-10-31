@@ -73,7 +73,7 @@ const router = new Router({
                     name: 'home',
                     component: home,
                     meta: {
-                        title: 'Home | Sircle'
+                        title: 'Home | Openbook'
                     }
                 },
                 {
@@ -81,7 +81,7 @@ const router = new Router({
                     name: 'about-us',
                     component: aboutUs,
                     meta: {
-                        title: 'About us | Sircle'
+                        title: 'About us | Openbook'
                     }
                 },
                 {
@@ -89,7 +89,7 @@ const router = new Router({
                     name: 'contact-us',
                     component: contactUs,
                     meta: {
-                        title: 'Contact us | Sircle'
+                        title: 'Contact us | Openbook'
                     }
                 },
                 {
@@ -97,7 +97,7 @@ const router = new Router({
                     name: 'faq',
                     component: faq,
                     meta: {
-                        title: 'FAQ | Sircle'
+                        title: 'FAQ | Openbook'
                     }
                 },
                 {
@@ -105,7 +105,7 @@ const router = new Router({
                     name: 'jobs',
                     component: jobs,
                     meta: {
-                        title: 'Jobs | Sircle'
+                        title: 'Jobs | Openbook'
                     }
                 },
                 {
@@ -113,7 +113,7 @@ const router = new Router({
                     name: 'press',
                     component: press,
                     meta: {
-                        title: 'Press | Sircle'
+                        title: 'Press | Openbook'
                     }
                 },
                 {
@@ -121,7 +121,7 @@ const router = new Router({
                     name: 'newsroom',
                     component: newsroom,
                     meta: {
-                        title: 'Newsroom | Sircle'
+                        title: 'Newsroom | Openbook'
                     }
                 },
                 {
@@ -129,7 +129,7 @@ const router = new Router({
                     name: 'vulnerability-report',
                     component: vulnerabilityReport,
                     meta: {
-                        title: 'Report vulnerability | Sircle'
+                        title: 'Report vulnerability | Openbook'
                     }
                 },
                 {
@@ -137,7 +137,7 @@ const router = new Router({
                     name: 'manifesto',
                     component: manifesto,
                     meta: {
-                        title: 'Manifesto | Sircle'
+                        title: 'Manifesto | Openbook'
                     }
                 },
                 {

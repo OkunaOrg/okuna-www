@@ -44,18 +44,18 @@ Examples of contributions we love include:
 
 #### Code of Conduct
 
-Please read and follow our [Code of Conduct](https://git.open-book.org/Sircle/sircle-org/sircle-org-frontend/sircle-org-frontend-vue/blob/master/CODE_OF_CONDUCT.md).
+Please read and follow our [Code of Conduct](https://git.open-book.org/Openbook/openbook-org/openbook-org-frontend/openbook-org-frontend-vue/blob/master/CODE_OF_CONDUCT.md).
 
 #### License
 
 Every contribution accepted is licensed under [AGPL v3.0](http://www.gnu.org/licenses/agpl-3.0.html) or any later version.
 You must be careful to not include any code that can not be licensed under this license.
 
-Please read carefully [our license](https://git.open-book.org/Sircle/sircle-org/sircle-org-frontend/sircle-org-frontend-vue/blob/master/LICENSE.txt) and ask us if you have any questions.
+Please read carefully [our license](https://git.open-book.org/Openbook/openbook-org/openbook-org-frontend/openbook-org-frontend-vue/blob/master/LICENSE.txt) and ask us if you have any questions.
 
 #### Other issues
 
-We have a [keybase public channel](https://keybase.io/team/sircleorg.public) where you can talk to us!
+We have a [keybase public channel](https://keybase.io/team/openbookorg.public) where you can talk to us!
 
 #### Git commit message conventions
 
@@ -70,7 +70,7 @@ If you're using git in your command line, you can download the handy tool [gitmo
 Clone the repository
 
 ```sh
-git clone git@git.open-book.org:Sircle/sircle-org/sircle-org-frontend/sircle-org-frontend-vue.git
+git clone git@git.open-book.org:Openbook/openbook-org/openbook-org-frontend/openbook-org-frontend-vue.git
 ```
 
 Install the dependencies

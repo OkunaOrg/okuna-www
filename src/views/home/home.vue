@@ -60,7 +60,6 @@
 <script>
 
     import ObQuotes from "./components/quotes/quotes";
-    import ObWhySircle from "./components/why-sircle";
     import ObSplashHero from "./components/splash-hero/splash-hero";
     import ObFeaturedOn from "./components/featured-in/featured-in";
     import ObMeetTheTeam from "./components/meet-the-team/meet-the-team.vue";
@@ -92,7 +91,6 @@
             ObMeetTheTeam,
             ObFeaturedOn,
             ObSplashHero,
-            ObWhySircle,
             ObQuotes,
         }
     }

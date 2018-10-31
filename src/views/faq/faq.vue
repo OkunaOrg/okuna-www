@@ -117,7 +117,7 @@
                     </p>
                     <ul>
                         <li class="has-text-underlined">
-                            <a href="https://www.indiegogo.com/projects/sircle-it-s-time-for-a-better-social-network#/" rel="noopener noreferrer" target="_blank"> {{ $t('faq.donate') }} </a>
+                            <a href="https://www.indiegogo.com/projects/openbook-it-s-time-for-a-better-social-network#/" rel="noopener noreferrer" target="_blank"> {{ $t('faq.donate') }} </a>
                         </li>
                         <li class="has-text-underlined">
                             <a href="" @click.prevent="onUserWantsToShare"> {{ $t('faq.share_website') }} </a>
