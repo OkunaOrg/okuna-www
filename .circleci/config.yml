@@ -34,7 +34,7 @@ jobs:
         - deploy:
               name: Deploy to AWS
               command: |
-                  aws s3 sync ./dist s3://$AWS_BUCKET --delete
+                  aws s3 sync ./dist s3://$AWS_BUCKET --delete --no-progress
 
 workflows:
     version: 2
