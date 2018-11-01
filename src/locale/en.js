@@ -1,7 +1,7 @@
 export const messages = {
     en: {
         global: {
-            openbook: '<strong>Open</strong>book'
+            openbook: '<span style="color: #4a4a4a;"><strong>Open</strong>book</span>'
         },
         home: {
             want_to_know_more: 'Want to know more?',
@@ -35,7 +35,7 @@ export const messages = {
         good_for_planet: {
             title: 'Good for the planet',
             description: 'We believe in a better world for everyone. That\'s why we\'re giving 30% of our profits towards making the world a better place, now and ' +
-            '                                    forever in partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>.'
+                '                                    forever in partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>.'
         },
         ads_free: {
             title: '100% Ad-free',
@@ -63,7 +63,7 @@ export const messages = {
             family: 'family',
             grandma: 'grandma',
             reddit: 'reddit',
-            we_are_ob: 'We\'re <strong>Open</strong>book.',
+            we_are_ob: 'We\'re <strong class="has-text-circular">Open</strong>book.',
             kickstarter: 'A social network for a <strong>better tomorrow.</strong>',
             share: 'Share',
             notify_me: 'Support us'
@@ -89,7 +89,7 @@ export const messages = {
             modern_design_desc: 'Built with the latest technologies, a keen eye for detail and ethics, you won\'t find anything like it elsewhere.',
             good_for_planet: 'Good for the planet',
             good_for_planet_desc: 'We believe in a better world for everyone. That\'s why we\'re giving 30% of our profits towards making the world a better place, now and\n' +
-            '                                    forever.'
+                '                                    forever.'
         },
         count_down: {
             kickstarter: 'Openbook',
@@ -99,7 +99,7 @@ export const messages = {
             minutes: 'minute | minutes',
             seconds: 'second | seconds',
             kickstarter_launch: 'Openbook <strong class="has-text-kickstarter">alpha</strong> ' +
-            'begins <br/>on the<strong> {0}th of March 2019</strong>.'
+                'begins <br/>on the<strong> {0}th of March 2019</strong>.'
         },
         meet_the_team: {
             title: 'Meet the team'
@@ -144,9 +144,9 @@ export const messages = {
             subtitle: 'Technology for a <span class="has-text-primary">better tomorrow</span>.',
             description: '<strong>We want to build technology to serve people, not the other way around</strong>.',
             description_founded: 'We do this by designing our products and services with humanity\'s best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at their core.',
-            description_project: '<strong>Open</strong>book is our first creation. A social network that is honest, respects and protects the privacy of its users, brings people together, is fun to use and does good for our planet and its inhabitants.',
+            description_project: '<strong>Openbook</strong> is our first creation. A social network that is honest, respects and protects the privacy of its users, brings people together, is fun to use and does good for our planet and its inhabitants.',
             description_funded: 'The project was successfully crowd-funded September 2018 through a <a href="https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">Kickstarter Campaign</a>.',
-            description_release: 'We will release <strong>Open</strong>book to the world March 2019.',
+            description_release: 'We will release <strong>Openbook</strong> to the world March 2019.',
             accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
             humans_behind_ob: 'The people',
@@ -213,8 +213,8 @@ export const messages = {
             user_message: 'Message',
             user_message_placeholder: 'What can we do for you?',
             google_recaptcha_title: 'We use <a href="https://www.google.com/recaptcha/intro/v3beta.html" target="_blank"\n' +
-            '                                              rel="noopener noreferrer">Google Recaptcha</a>\n' +
-            '                                    to prevent the abuse of this form.',
+                '                                              rel="noopener noreferrer">Google Recaptcha</a>\n' +
+                '                                    to prevent the abuse of this form.',
             recaptcha_info: 'Google collects information about you in order to "verify" you are human.',
             info_includes: 'This information includes',
             info_ip_location: 'Your IP, which can be used for determining your location and cross-referencing your identity with other sites you have visited.',
@@ -238,9 +238,9 @@ export const messages = {
             subtitle: 'Work with us.',
             exciting_adventure: 'We have embarked on one of the most exciting adventures for the digital world and we\'re looking for talented and passionate people to sail with us!',
             all_skills: 'Technology, design, marketing, finance, media, you name it.',
-            need_your_help: 'Do you believe in <span class="has-text-primary"><strong class="has-text-primary">Open</strong>book</span>, a better future for social networks and humanity as a whole?',
+            need_your_help: 'Do you believe in <span class="has-text-primary"><strong class="has-text-primary">Openbook</strong></span>, a better future for social networks and humanity as a whole?',
             send_cv: 'Send us your CV and a motivation letter to  <a\n' +
-            '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
+                '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
             look_forward: 'We look forward to meeting you !',
             colleagues: 'Who will you be working with?',
             meet_the_team: 'Meet the team'
@@ -253,7 +253,7 @@ export const messages = {
             whos_paying: 'Who\'s paying for everything so far?',
             is_distributed: 'Will Openbook be decentralised?',
             whos_paying_ans: 'So far we have been completely self funded. However, this has proven to be very hard.\n' +
-            '                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
+                '                        With most of us working full-time jobs apart from Openbook, it could take us long time till we release the first version and even then, we would not be able to afford the IT infrastructure needed to compete with any of the established networks.',
             crowd_funding: 'As we wanted the project to be driven by people and not capital, we decided to go for crowd-funding.',
             launching_kickstarter: 'We got successfully funded on the 7th of September 2018 at 18:34!',
             why_not_non_profit: 'Why is Openbook not a non-profit?',
@@ -271,10 +271,10 @@ export const messages = {
             donate: 'Donate in IndieGogo!',
             talk_to_friends: 'Talk to your friends and family about us',
             improve_website: 'If you\'re a developer, you can help us <a\n' +
-            '                            href="https://github.com/OpenbookOrg"\n' +
-            '                            target="_blank" rel="noopener noreferrer">improve our website</a>.',
+                '                            href="https://github.com/OpenbookOrg"\n' +
+                '                            target="_blank" rel="noopener noreferrer">improve our website</a>.',
             let_us_know: 'If you have an idea for the network, you can <a href="/en/contact-us"\n' +
-            '                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.',
+                '                                                                            target="_blank" rel="noopener noreferrer">let us know</a>.',
             public_figure: 'If you\'re a public figure and would like to become an ambassador,',
             contact_us: 'contact us',
             looking_for_job: 'If you\'re looking for a job and believe Openbook would be a great fit for you,',
@@ -293,8 +293,8 @@ export const messages = {
             today_everyday: 'Today, and everyday.',
             hi: 'Hi there!',
             any_questions: 'We hope you find everything you need below.\n' +
-            '                        ​​If you have any questions, would like to schedule an interview or require extra material, feel free to contact Lambrecht Wessels at <a\n' +
-            '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">lambrecht@open-book.org</a>.',
+                '                        ​​If you have any questions, would like to schedule an interview or require extra material, feel free to contact Lambrecht Wessels at <a\n' +
+                '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">lambrecht@open-book.org</a>.',
             happy_to_help: 'We’re happy to help.',
             jump_to: 'Jump to',
             press_kit: 'Press kit',
@@ -305,7 +305,7 @@ export const messages = {
             home_press: 'Home to our press releases.',
             go_to_newsroom: 'Go to newsroom',
             missing_something: 'Missing something? Contact <a\n' +
-            '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">Lambrecht Wessels</a>.'
+                '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">Lambrecht Wessels</a>.'
         },
         manifesto: {
             Manifesto: "Manifesto",
@@ -359,8 +359,7 @@ export const messages = {
             Heres_how: "Here’s how we’re doing it:",
             Lets_say_2: "Let's say now you downloaded the awesome music app everyone has been recommending to you. As soon as you open the app, the box below shows up.",
             In_order_t: "In order to use Songipy you must continue with Openbook.",
-            continue_with_ob: "Continue with <strong>Open</strong>book",
-            Open: "Open",
+            continue_with_ob: "Continue with <strong>Openbook</strong>",
             Did_you_sp: "Did you spot the differences?",
             Here_are_t: "Here are the most important ones.",
             explicit_n_informd: "Explicit and informed consent",
@@ -391,7 +390,7 @@ export const messages = {
             Lets_not_: "While the intial drive for Openbook was building a privacy-friendly social network, the complications of existing social networks span to numerous other subjects. Fear of missing out, digital social status, discrimination, digital mobbing, censorship and more.",
             Research: "There's a lot of research on the subjects, unfortunately until now only a few players had the power to do something with it. Not anymore.",
             Research_Embrace: "We're designing the platform with existing research in mind and experimenting with radical new concepts to tackle some of the previously mentioned issues.",
-            Research_Solution : "We can't promise our solutions will work, we can however promise that aided by research and open-dialogue, we'll keep trying until they do.",
+            Research_Solution: "We can't promise our solutions will work, we can however promise that aided by research and open-dialogue, we'll keep trying until they do.",
             _Our_rev: "6. Clean revenue.",
             Our_busine: "Our business model is not and will never be advertisement.",
             We_will_ha: "We will have a transparent revenue model based on a generic way for people to securely transact physical and digital goods and services inside the network. This will be done through an atomic digital unit of value. Although this initially reflected as a marketplace, our ambitions go way beyond that.",
@@ -455,9 +454,9 @@ export const messages = {
             country_name: 'US',
             badmf_pfic: "badmf@pfiction.com",
             in_the_prototype: '<div class="content">\n ' +
-            '                       <p>In the non-prototype version, this will redirect you to a page with detailed information on secure applications.</p>\n' +
-            '                        <p>Brifly put, secure applications are applications that don\'t abuse the data sharing system, allow the deletion of your data from their systems and know at all times where your data is.</p>\n' +
-            '                        <p>More information about this follows below.</p></div>',
+                '                       <p>In the non-prototype version, this will redirect you to a page with detailed information on secure applications.</p>\n' +
+                '                        <p>Brifly put, secure applications are applications that don\'t abuse the data sharing system, allow the deletion of your data from their systems and know at all times where your data is.</p>\n' +
+                '                        <p>More information about this follows below.</p></div>',
             got_it: 'Got it!',
             in_non_prototype: "In the non-prototype version this would open a list with the full list of your {0}"
         }

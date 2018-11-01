@@ -9,6 +9,7 @@
         <ob-currency></ob-currency>
         <ob-ads-free></ob-ads-free>
         <ob-good-for-planet></ob-good-for-planet>
+        <ob-signup id="beta-signup"></ob-signup>
         <section class="hero is-white">
             <div class="hero-body has-text-centered">
                 <div class="container">
@@ -59,7 +60,6 @@
 <script>
 
     import ObQuotes from "./components/quotes/quotes";
-    import ObWhyOpenbook from "./components/why-openbook";
     import ObSplashHero from "./components/splash-hero/splash-hero";
     import ObFeaturedOn from "./components/featured-in/featured-in";
     import ObMeetTheTeam from "./components/meet-the-team/meet-the-team.vue";
@@ -73,9 +73,11 @@
     import ObAdsFree from "./components/ads-free/ads-free";
     import ObCurrency from "./components/currency/currency.vue";
     import ObSubscribe from "./components/subscribe/subscribe";
+    import ObSignup from "./components/beta-signup/beta-signup";
 
     export default {
         components: {
+            ObSignup,
             ObSubscribe,
             ObCurrency,
             ObAdsFree,
@@ -89,7 +91,6 @@
             ObMeetTheTeam,
             ObFeaturedOn,
             ObSplashHero,
-            ObWhyOpenbook,
             ObQuotes,
         }
     }

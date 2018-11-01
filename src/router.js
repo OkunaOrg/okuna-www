@@ -12,7 +12,7 @@ Vue.use(Router);
 // Lazy load everything but home page!
 const contactUs = () => import('./views/contact-us/contact-us.vue');
 const aboutUs = () => import('./views/about-us/about-us.vue');
-const manifesto = () => import('./views/manifesto/manifesto.vue');
+const manifesto = () => import('./views/manifesto/en/manifesto.vue');
 const faq = () => import('./views/faq/faq.vue');
 const jobs = () => import('./views/jobs/jobs.vue');
 const press = () => import('./views/press/press.vue');
@@ -73,7 +73,7 @@ const router = new Router({
                     name: 'home',
                     component: home,
                     meta: {
-                        title: 'Home | Openbook social network'
+                        title: 'Home | Openbook'
                     }
                 },
                 {
@@ -81,7 +81,7 @@ const router = new Router({
                     name: 'about-us',
                     component: aboutUs,
                     meta: {
-                        title: 'About us | Openbook social network'
+                        title: 'About us | Openbook'
                     }
                 },
                 {
@@ -89,7 +89,7 @@ const router = new Router({
                     name: 'contact-us',
                     component: contactUs,
                     meta: {
-                        title: 'Contact us | Openbook social network'
+                        title: 'Contact us | Openbook'
                     }
                 },
                 {
@@ -97,7 +97,7 @@ const router = new Router({
                     name: 'faq',
                     component: faq,
                     meta: {
-                        title: 'FAQ | Openbook social network'
+                        title: 'FAQ | Openbook'
                     }
                 },
                 {
@@ -105,7 +105,7 @@ const router = new Router({
                     name: 'jobs',
                     component: jobs,
                     meta: {
-                        title: 'Jobs | Openbook social network'
+                        title: 'Jobs | Openbook'
                     }
                 },
                 {
@@ -113,7 +113,7 @@ const router = new Router({
                     name: 'press',
                     component: press,
                     meta: {
-                        title: 'Press | Openbook social network'
+                        title: 'Press | Openbook'
                     }
                 },
                 {
@@ -121,7 +121,7 @@ const router = new Router({
                     name: 'newsroom',
                     component: newsroom,
                     meta: {
-                        title: 'Newsroom | Openbook social network'
+                        title: 'Newsroom | Openbook'
                     }
                 },
                 {
@@ -129,7 +129,7 @@ const router = new Router({
                     name: 'vulnerability-report',
                     component: vulnerabilityReport,
                     meta: {
-                        title: 'Report vulnerability | Openbook social network'
+                        title: 'Report vulnerability | Openbook'
                     }
                 },
                 {
@@ -137,7 +137,7 @@ const router = new Router({
                     name: 'manifesto',
                     component: manifesto,
                     meta: {
-                        title: 'Manifesto | Openbook social network'
+                        title: 'Manifesto | Openbook'
                     }
                 },
                 {

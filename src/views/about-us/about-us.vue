@@ -33,9 +33,9 @@
             <div>
                 <div class="columns is-centered">
                     <div class="column intro-text content">
-                        <p class="is-size-4 small-container padding-bottom-1x"
+                        <h3 class="is-size-4 small-container padding-bottom-1x"
                            v-html="$t('about_us.description')">
-                        </p>
+                        </h3>
                     </div>
                 </div>
                 <div class="columns">
@@ -74,8 +74,8 @@
         <section class="section">
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
-                    <p class="is-size-3 padding-bottom-3x" v-html="$t('about_us.humans_behind_ob')">
-                    </p>
+                    <h4 class="is-size-3 padding-bottom-3x" v-html="$t('about_us.humans_behind_ob')">
+                    </h4>
                 </div>
                 <ob-team-members/>
             </div>

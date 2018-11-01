@@ -471,7 +471,7 @@
 
 <script>
     import obGenericDataSharing from './components/generic-data-sharing.vue';
-    import obOpenbookDataSharing from './components/openbook-data-sharing.vue';
+    import obOpenbookDataSharing from './components/data-sharing';
     import memeImg from './assets/meme.jpg';
 
     export default {

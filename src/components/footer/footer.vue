@@ -8,7 +8,7 @@
                             <div class="navbar-brand">
                                 <div class="navbar-item">
                                     <router-link :to="'home'" class="navbar-item is-size-3">
-                                        <a href="#" class="footer-logo"></a><span class="footer-logo-separator"></span><span v-html="$t('global.openbook')"></span>
+                                        <a href="#" class="footer-logo"></a><span class="footer-logo-separator"></span><h3 v-html="$t('global.openbook')"></h3>
                                     </router-link>
                                 </div>
                             </div>
@@ -199,7 +199,7 @@
     }
 
     .footer-logo {
-        background-image: url('../assets/openbook-logo-new.png');
+        background-image: url('../assets/logo.png');
         background-size: 40px 40px;
         background-repeat: no-repeat;
         background-position: center center;
