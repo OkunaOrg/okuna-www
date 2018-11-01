@@ -10,14 +10,37 @@ jobs:
               name: Install dependencies
               command: npm install
         - run:
+              name: Test
+              command: npm test
+    deploy:
+        docker:
+        - image: circleci/node:latest
+        working_directory: ~/repo
+        steps:
+        - checkout
+        - run:
+              name: Install dependencies
+              command: npm install
+        - run:
+              name: install AWS CLI
+              command: |
+                  apk add --update python python-dev py-pip build-base
+                  pip install awscli
+        - run:
               name: Build dist
               command: npm run build
         - deploy:
               name: Deploy to AWS
               command: |
-                  if [ "${CIRCLE_BRANCH}" = "master" ]; then
-                    aws s3 sync dist \
-                    s3://$AWS_BUCKET --delete
-                  else
-                    echo "Not master branch, dry run only"
-                  fi
+                  aws s3 sync ./dist s3://$AWS_BUCKET --delete
+
+workflows:
+    version: 2
+    build:
+        jobs:
+        - build
+        - deploy:
+              filters:
+                  branches:
+                      only:
+                      - master
