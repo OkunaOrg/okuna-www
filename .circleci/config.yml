@@ -22,10 +22,12 @@ jobs:
               name: Install dependencies
               command: npm install
         - run:
-              name: install AWS CLI
+              name: Installing deployment dependencies
+              working_directory: /
               command: |
-                  apk add --update python python-dev py-pip build-base
-                  pip install awscli
+                  sudo apt-get -y -qq update
+                  sudo apt-get install python-pip python-dev build-essential
+                  sudo pip install awscli
         - run:
               name: Build dist
               command: npm run build
