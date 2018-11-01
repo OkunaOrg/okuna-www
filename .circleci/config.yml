@@ -1,0 +1,23 @@
+version: 2
+jobs:
+    build:
+        docker:
+        - image: circleci/node:latest
+        working_directory: ~/repo
+        steps:
+        - checkout
+        - run:
+              name: Install dependencies
+              command: npm install
+        - run:
+              name: Build dist
+              command: npm run build
+        - deploy:
+              name: Deploy to AWS
+              command: |
+                  if [ "${CIRCLE_BRANCH}" = "master" ]; then
+                    aws s3 sync dist \
+                    s3://$AWS_BUCKET --delete
+                  else
+                    echo "Not master branch, dry run only"
+                  fi
