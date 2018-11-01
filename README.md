@@ -1,8 +1,8 @@
 <img alt="Open book logo" src="https://snag.gy/yWbLr1.jpg" width="200">
 
-![Human Friendly](https://img.shields.io/badge/human-friendly-brightgreen.svg) ![Privacy](https://img.shields.io/badge/privacy-first-690ddc.svg)
+[![CircleCI](https://circleci.com/gh/OpenbookOrg/openbook-org-www.svg?style=svg)](https://circleci.com/gh/OpenbookOrg/openbook-org-www) [![gitmoji badge](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://github.com/carloscuesta/gitmoji)
 
-Code of the all new [www.open-book.org](https://www.open-book.org).
+The code for [open-book.org](https://open-book.org).
 
 ## Table of contents
 
