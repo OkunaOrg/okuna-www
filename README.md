@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/OpenbookOrg/openbook-org-www.svg?style=svg)](https://circleci.com/gh/OpenbookOrg/openbook-org-www) [![gitmoji badge](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://github.com/carloscuesta/gitmoji)
 
-The code for [open-book.org](https://open-book.org).
+The code for [openbook.social](https://openbook.social).
 
 ## Table of contents
 
@@ -51,11 +51,7 @@ Please read and follow our [Code of Conduct](https://git.open-book.org/Openbook/
 Every contribution accepted is licensed under [AGPL v3.0](http://www.gnu.org/licenses/agpl-3.0.html) or any later version.
 You must be careful to not include any code that can not be licensed under this license.
 
-Please read carefully [our license](https://git.open-book.org/Openbook/openbook-org/openbook-org-frontend/openbook-org-frontend-vue/blob/master/LICENSE.txt) and ask us if you have any questions.
-
-#### Other issues
-
-We have a [keybase public channel](https://keybase.io/team/openbookorg.public) where you can talk to us!
+Please read carefully [our license](https://github.com/OpenbookOrg/openbook-org-www/raw/master/LICENSE.txt) and ask us if you have any questions.
 
 #### Git commit message conventions
 
