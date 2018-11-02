@@ -44,7 +44,7 @@ Examples of contributions we love include:
 
 #### Code of Conduct
 
-Please read and follow our [Code of Conduct](https://git.open-book.org/Openbook/openbook-org/openbook-org-frontend/openbook-org-frontend-vue/blob/master/CODE_OF_CONDUCT.md).
+Please read and follow our [Code of Conduct](https://github.com/OpenbookOrg/openbook-org-www/blob/master/CODE_OF_CONDUCT.md).
 
 #### License
 
@@ -66,7 +66,7 @@ If you're using git in your command line, you can download the handy tool [gitmo
 Clone the repository
 
 ```sh
-git clone git@git.open-book.org:Openbook/openbook-org/openbook-org-frontend/openbook-org-frontend-vue.git
+git clone git@github.com:OpenbookOrg/openbook-org-www.git
 ```
 
 Install the dependencies

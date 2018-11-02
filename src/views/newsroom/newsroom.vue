@@ -104,7 +104,7 @@
                         Openbook aims to raise 100K in one month time. The money will be used for amongst others further development of Openbook. The Kickstarter campaign can be found at https://open-book.org/kickstarter .
                     </p>
                     <p>
-                        If you want to learn more about it or keep up with the developments of Openbook, you can find them online at https://open-book.org or at Twitter @OpenbookSocial.
+                        If you want to learn more about it or keep up with the developments of Openbook, you can find them online at https://openbook.social or at Twitter @OpenbookSocial.
                     </p>
                 </div>
                 <div class="content is-medium">
@@ -240,7 +240,7 @@
 
                     <p>
                         If you want to learn more about it or keep up with the developments of Openbook, you can find them
-                        online at https://open-book.org or at Twitter @OpenbookSocial.
+                        online at https://openbook.social or at Twitter @OpenbookSocial.
                     </p>
                 </div>
             </div>

@@ -37,8 +37,8 @@
             </div>
             <div class="column is-10">
                 <strong>{{ $t('address.website') }}</strong><br/>
-                <a href="https://www.open-book.org" target="_blank" rel="noopener noreferrer">
-                    www.open-book.org
+                <a href="https://www.openbook.social" target="_blank" rel="noopener noreferrer">
+                    www.openbook.social
                 </a>
             </div>
         </div>

@@ -1,11 +1,11 @@
 <template>
     <div>
-        <social-sharing url="https://open-book.org/support-us"
+        <social-sharing url="https://www.openbook.social"
                         :title="$t('hud.share_title')"
                         :description="$t('hud.share_description')"
                         :quote="$t('hud.share_quote')"
                         hashtags="openbook,socialnetwork,privacy"
-                        twitter-user="Openbook_org"
+                        twitter-user="OpenbookSocial"
                         inline-template>
             <div class="columns is-mobile is-multiline">
                 <network network="twitter" class="column is-12 social-sharing-item">

@@ -135,9 +135,9 @@ export const messages = {
             share_email: 'Send e-mail',
             share_linkedin: 'Share on LinkedIn',
             share_wa: 'Share on Whatsapp',
-            share_title: 'Openbook. The honest, transparent and awesome social network!',
-            share_description: 'Openbook. The honest, transparent and awesome social network!',
-            share_quote: 'View and support Openbook to help build a new, honest, fun and transparent social network! https://open-book.org/support-us',
+            share_title: 'Openbook. A social network for a better future.',
+            share_description: 'Honest, personal, privacy-friendly and ethically sustained.',
+            share_quote: 'Join the revolution! Coming early 2019.',
         },
         about_us: {
             title: 'About us',
