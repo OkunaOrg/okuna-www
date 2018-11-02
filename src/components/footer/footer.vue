@@ -63,7 +63,7 @@
                     <div class="level-right">
                         <ul>
                             <li>
-                                <a href="https://twitter.com/Openbook_org" class="is-flex is-vcentered" target="_blank" rel="noopener noreferrer">
+                                <a href="https://twitter.com/OpenbookSocial" class="is-flex is-vcentered" target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">

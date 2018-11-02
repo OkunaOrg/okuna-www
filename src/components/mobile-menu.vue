@@ -6,7 +6,7 @@
                 <header class="navbar">
                     <div class="container">
                         <div class="navbar-brand">
-                            <a class="navbar-item is-size-4" href="https://open-book.org">
+                            <a class="navbar-item is-size-4" href="https://www.openbook.social">
                                 <a href="#" class="header-logo"></a>
                                 <span class="header-logo-separator"></span><span v-html="$t('global.openbook')" class="has-text-circular"></span>
                             </a>
@@ -238,7 +238,7 @@
                             <div class="column is-12">
                                 <div class="columns is-mobile is-vcentered">
                                     <div class="column">
-                                        <a href="https://twitter.com/Openbook_org" class="is-flex is-vcentered"
+                                        <a href="https://twitter.com/OpenbookSocial" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
