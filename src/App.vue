@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" v-bind:class="{'is-android': isAndroid}">
         <ob-mobile-menu></ob-mobile-menu>
         <ob-header></ob-header>
         <router-view/>
@@ -19,7 +19,18 @@
     import obHeader from './components/header/header.vue';
     import obMobileMenu from './components/mobile-menu.vue';
     import ObScrollHud from "./components/scroll-hud/scroll-hud.vue";
+
     export default {
+        data() {
+            return {
+                isAndroid: false
+            }
+        },
+        mounted() {
+            if (navigator.userAgent.match(/Android/i)) {
+                this.isAndroid = true;
+            }
+        },
         components: {
             ObScrollHud,
             obMobileMenu,

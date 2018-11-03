@@ -76,6 +76,28 @@
         max-width: 500px;
     }
 
+    .is-android {
+        .join-waitlist {
+            @media(max-width: 768px) {
+                right: 10%;
+                top: 2px !important;
+            }
+
+            .fa-paper-plane, .fa-paper-plane:focus {
+                @media(max-width: 768px) {
+                    left: -2px;
+                }
+            }
+
+            .fa-check, .fa-spinner, .fa-check:focus, .fa-spinner:focus {
+                @media(max-width: 768px) {
+                    left: 0 !important;
+                }
+            }
+
+        }
+    }
+
     .join-waitlist {
         border-radius: 50%;
         background: #f95ca3;
