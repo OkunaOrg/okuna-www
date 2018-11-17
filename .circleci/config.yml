@@ -12,6 +12,9 @@ jobs:
         - run:
               name: Test
               command: npm test
+        - run:
+              name: Security check
+              command: npm audit
     deploy:
         docker:
         - image: circleci/node:latest
