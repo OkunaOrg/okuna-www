@@ -306,7 +306,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://www.facebook.com/openbookorg/" class="is-flex is-vcentered"
+                                        <a href="https://www.facebook.com/openbooksocial/" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
