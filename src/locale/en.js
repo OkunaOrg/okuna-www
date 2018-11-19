@@ -392,7 +392,7 @@ export const messages = {
             Research_Embrace: "We're designing the platform with existing research in mind and experimenting with radical new concepts to tackle some of the previously mentioned issues.",
             Research_Solution: "We can't promise our solutions will work, we can however promise that aided by research and open-dialogue, we'll keep trying until they do.",
             _Our_rev: "6. Clean revenue.",
-            Our_busine: "Our business model is not and will never be advertisement.",
+            Our_busine: "Our business model is not and will never be advertisement. Ever.",
             We_will_ha: "We will have a transparent revenue model based on a generic way for people to securely transact physical and digital goods and services inside the network. This will be done through an atomic digital unit of value. Although this initially reflected as a marketplace, our ambitions go way beyond that.",
             instead_our_revenue: "Our revenue model will be based on a digital currency called <strong>Tip</strong>. It will be used to buy and sell goods and services, support content creators, subscribe to publishers and more.",
             for_every_transaction: "For every Tips transaction made in the network, we will take a small cut.",
