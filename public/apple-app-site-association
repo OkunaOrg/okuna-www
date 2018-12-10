@@ -1,13 +1,11 @@
 {
-  "applinks": {
-    "apps": [],
-    "details": [
-      {
-        "appID": “GAR7B57RXU.social.openbook.app",
-        "paths": [
-          "*"
-        ]
-      }
-    ]
-  }
+	"applinks": {
+		"apps": [],
+		"details": [{
+			"appID": "GAR7B57RXU.social.openbook.app",
+			"paths": [
+				"*"
+			]
+		}]
+	}
 }
