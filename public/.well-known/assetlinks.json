@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "android_app",
+            "package_name": "social.openbook.applinks",
+            "sha256_cert_fingerprints": [
+                "0F:16:37:B1:70:AE:44:89:09:DC:A1:C8:19:56:17:26:E5:9B:32:53:69:89:8E:92:25:A4:01:7C:5D:49:BD:10"
+            ]
+        }
+    }
+]
