@@ -9,28 +9,28 @@ export const messages = {
             featured_in: 'As featured in'
         },
         honesty: {
-            title: 'Honest',
-            description: 'The code is open-source, meaning free for anyone to inspect, modify, contribute and use.'
+            title: 'Transparent',
+            description: 'All of the code powering the network is open-source, meaning open for anyone to see. No room for abracadabra algorithms!'
         },
         privacy: {
             title: 'Privacy-friendly',
-            description: 'We believe privacy is a fundamental human right. We dont track nor monitor your activity.'
+            description: 'Surf with peace-of-mind. We\'re firm believers privacy is a fundamental human right. We don\'t track nor monitor your activity.'
         },
         secure: {
             title: 'Secure by design',
             description: 'We come from an information security background. We are baking in security, right from the start.'
         },
         easy: {
-            title: 'Easy-peasy',
-            description: 'We want to make the transition as smooth as possible. That\'s why we\'re creating tools to import your information from other social networks.'
+            title: 'Jump right in',
+            description: 'Coming from another social network? We\'re building tools so you can import your data into Openbook in a few simple steps!'
         },
         fun: {
-            title: 'Fun!',
-            description: 'Because our lives are short and brittle, we\'re desining Openbook to be a fun and enjoyable experience for everyone.'
+            title: 'More ways to express yourself',
+            description: 'We humans are emotional beings. Find more ways to express your digital self with our increasing reactions library!'
         },
         personal: {
-            title: 'Customisable',
-            description: 'Because we\'re all different and that\'s something to embrace and celebrate.'
+            title: 'Personal',
+            description: 'With private social circles, themes and custom reactions, make Openbook your own personal network.'
         },
         good_for_planet: {
             title: 'Good for the planet',
@@ -38,12 +38,12 @@ export const messages = {
                 '                                    forever in partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>.'
         },
         ads_free: {
-            title: '100% Ad-free',
-            description: 'Benefits of a revenue model free of advertisement? Ad-free surfing!'
+            title: 'Ad-free transparent revenue model',
+            description: 'Openbook will always be free for everyone to enjoy. However if you want to support our cause or simply want to access exclusive post reactions, themes and early features? Get Openbook Gold for €4.99 per month!'
         },
         currency: {
-            title: 'Ethical & sustainable revenue model',
-            description: 'Our revenue model is based on a digital currency called <strong>Tip</strong>. It\'s used to support content creators, subscribe to publishers, buy and sell goods and services and more!'
+            title: 'The future? Tips.',
+            description: 'We\'re also working on a digital currency called <strong>Tip</strong> to be used as a way to support your favourite video-maker, subscribe to newspapers, pay for services and more!'
         },
         quotes: {
             joel_name: 'Joel Hernández',

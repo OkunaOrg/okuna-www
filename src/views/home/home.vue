@@ -1,13 +1,13 @@
 <template>
     <div class="animated fadeIn">
         <ob-splash-hero></ob-splash-hero>
-        <ob-honesty></ob-honesty>
         <ob-privacy></ob-privacy>
+        <ob-personal></ob-personal>
+        <ob-honesty></ob-honesty>
         <ob-secure></ob-secure>
         <ob-easy></ob-easy>
-        <ob-personal></ob-personal>
-        <ob-currency></ob-currency>
         <ob-ads-free></ob-ads-free>
+        <ob-currency></ob-currency>
         <ob-good-for-planet></ob-good-for-planet>
         <ob-signup id="beta-signup"></ob-signup>
         <section class="hero is-white">
