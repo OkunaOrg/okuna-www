@@ -1,21 +1,21 @@
 <template>
     <section class="section">
         <div class="container">
-            <div class="columns has-reverse-row-order-mobile">
+            <div class="columns">
                 <div class="column">
                     <div class="columns is-vcentered is-centered is-height-100 is-mobile">
-                        <div class="column is-narrow">
-                            <ob-dancing-cactus></ob-dancing-cactus>
-                        </div>
-                    </div>
-                </div>
-                <div class="column padding-top-2x-mobile">
-                    <div class="columns is-centered is-vcentered is-height-100 is-mobile">
                         <div class="column content is-medium easy-text">
                             <h3>{{ $t('easy.title') }}</h3>
                             <p>
                                 {{ $t('easy.description') }}
                             </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="column padding-top-2x-mobile">
+                    <div class="columns is-centered is-vcentered is-height-100 is-mobile">
+                        <div class="column is-narrow">
+                            <ob-dancing-cactus></ob-dancing-cactus>
                         </div>
                     </div>
                 </div>

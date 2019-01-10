@@ -21,7 +21,7 @@ export const messages = {
             description: 'We come from an information security background. We are baking in security, right from the start.'
         },
         easy: {
-            title: 'Jump right in',
+            title: 'Easy to join',
             description: 'Coming from another social network? We\'re building tools so you can import your data into Openbook in a few simple steps!'
         },
         fun: {
