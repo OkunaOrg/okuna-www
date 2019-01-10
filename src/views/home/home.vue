@@ -9,6 +9,7 @@
         <ob-ads-free></ob-ads-free>
         <ob-currency></ob-currency>
         <ob-good-for-planet></ob-good-for-planet>
+        <ob-community></ob-community>
         <ob-signup id="beta-signup"></ob-signup>
         <section class="hero is-white">
             <div class="hero-body has-text-centered">
@@ -74,9 +75,11 @@
     import ObCurrency from "./components/currency/currency.vue";
     import ObSubscribe from "./components/subscribe/subscribe";
     import ObSignup from "./components/beta-signup/beta-signup";
+    import ObCommunity from "./components/community/community";
 
     export default {
         components: {
+            ObCommunity,
             ObSignup,
             ObSubscribe,
             ObCurrency,

@@ -30,20 +30,23 @@ export const messages = {
         },
         personal: {
             title: 'Personal',
-            description: 'With our circles, themes and custom reactions features, make Openbook your own personal network!'
+            description: 'With our circles, themes and custom reactions features you can make <span class="has-text-circular"><strong>Open</strong>book</span> your own personal network!'
+        },
+        community: {
+            title: 'Community backed',
+            description: 'With <strong>1900+</strong> backers and volunteers, <span class="has-text-circular"><strong>Open</strong>book</span> is more than a social network, <strong>it\'s a movement</strong>.'
         },
         good_for_planet: {
             title: 'Good for the planet',
-            description: 'We believe in a better world for everyone. That\'s why we\'re giving 30% of our profits towards making the world a better place, now and ' +
-                '                                    forever in partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>.'
+            description: 'We believe in a better world for everyone. That\'s why we\'ll be giving 30% of our profits towards making the world a better place, in partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>.'
         },
         ads_free: {
             title: '100% Ad-free revenue model',
             description: 'Our revenue model is an optional subscription called Openbook Gold which grants people access to more themes, reactions and customisation options.'
         },
         currency: {
-            title: 'The future? Tips.',
-            description: 'We\'re also working on a digital currency called <strong>Tip</strong> to be used as a way to support your favourite video-maker, subscribe to newspapers, pay for services and more!'
+            title: 'With an eye on the future',
+            description: 'We\'re also working on a digital currency called <strong>Tip</strong> to be used as a way to support your favourite video-maker, subscribe to newspapers, pay for services and more.'
         },
         quotes: {
             joel_name: 'Joel Hernández',
