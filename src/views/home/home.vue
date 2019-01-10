@@ -7,9 +7,8 @@
         <ob-secure></ob-secure>
         <ob-easy></ob-easy>
         <ob-ads-free></ob-ads-free>
-        <ob-currency></ob-currency>
-        <ob-good-for-planet></ob-good-for-planet>
         <ob-community></ob-community>
+        <ob-good-for-planet></ob-good-for-planet>
         <ob-signup id="beta-signup"></ob-signup>
         <section class="hero is-white">
             <div class="hero-body has-text-centered">
@@ -72,7 +71,6 @@
     import ObFun from "./components/fun/fun";
     import ObGoodForPlanet from "./components/good-for-planet/good-for-planet";
     import ObAdsFree from "./components/ads-free/ads-free";
-    import ObCurrency from "./components/currency/currency.vue";
     import ObSubscribe from "./components/subscribe/subscribe";
     import ObSignup from "./components/beta-signup/beta-signup";
     import ObCommunity from "./components/community/community";
@@ -82,7 +80,6 @@
             ObCommunity,
             ObSignup,
             ObSubscribe,
-            ObCurrency,
             ObAdsFree,
             ObGoodForPlanet,
             ObFun,
