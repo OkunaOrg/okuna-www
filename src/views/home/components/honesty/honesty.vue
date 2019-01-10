@@ -10,7 +10,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="columns is-vcentered is-mobile">
+                    <div class="columns is-centered is-vcentered is-height-100 is-mobile">
                         <div class="column content is-medium honesty-text">
                             <h3>{{ $t('honesty.title') }} </h3>
                             <p>

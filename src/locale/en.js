@@ -30,7 +30,7 @@ export const messages = {
         },
         personal: {
             title: 'Personal',
-            description: 'With private social circles, themes and custom reactions, make Openbook your own personal network.'
+            description: 'With our circles, themes and custom reactions features, make Openbook your own personal network!'
         },
         good_for_planet: {
             title: 'Good for the planet',
@@ -38,8 +38,8 @@ export const messages = {
                 '                                    forever in partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>.'
         },
         ads_free: {
-            title: 'Ad-free transparent revenue model',
-            description: 'Openbook will always be free for everyone to enjoy. However if you want to support our cause or simply want to access exclusive post reactions, themes and early features? Get Openbook Gold for €4.99 per month!'
+            title: '100% Ad-free revenue model',
+            description: 'Our revenue model is an optional subscription called Openbook Gold which grants people access to more themes, reactions and customisation options.'
         },
         currency: {
             title: 'The future? Tips.',
