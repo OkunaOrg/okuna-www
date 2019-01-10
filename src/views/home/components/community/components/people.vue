@@ -13,7 +13,7 @@
 
 
 <script>
-    import peopleGif from './community.png';
+    import peopleGif from './community-min.png';
     export default {
         name: 'ob-people',
         data(){

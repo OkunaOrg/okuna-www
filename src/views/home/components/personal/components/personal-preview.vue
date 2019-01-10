@@ -11,7 +11,7 @@
 
 
 <script>
-    import image from './preview-black.png';
+    import image from './preview-black-min.png';
 
     export default {
         name: 'ob-personal-preview',

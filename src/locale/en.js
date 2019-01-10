@@ -30,7 +30,7 @@ export const messages = {
         },
         personal: {
             title: 'Personal',
-            description: 'With our circles, themes and custom reactions features you can make <span class="has-text-circular"><strong>Open</strong>book</span> your own personal network!'
+            description: 'With social circles, lists, custom reactions and themes, make <span class="has-text-circular"><strong>Open</strong>book</span> your own personal network!'
         },
         community: {
             title: 'Community backed',
@@ -42,11 +42,11 @@ export const messages = {
         },
         ads_free: {
             title: '100% Ad-free revenue model',
-            description: 'Our revenue model is an optional subscription called Openbook Gold which grants people access to more themes, reactions and customisation options.'
+            description: 'Our revenue model is an optional subscription called <span class="has-text-circular"><strong>Open</strong>book Gold</span> offering access to more reactions, themes and customization options.'
         },
         currency: {
-            title: 'With an eye on the future',
-            description: 'We\'re also working on a digital currency called <strong>Tip</strong> to be used as a way to support your favourite video-maker, subscribe to newspapers, pay for services and more.'
+            title: 'A digital currency',
+            description: 'We\'re also working on a digital currency called <strong>Tip</strong> to be used as a way to support your favourite video-maker, subscribe to publishers, pay for services and more.'
         },
         quotes: {
             joel_name: 'Joel Hernández',
