@@ -4,10 +4,9 @@
             <div class="columns is-height-100">
                 <div class="column">
                     <div class="columns is-centered is-vcentered is-height-100 is-mobile">
-                        <div class="column content is-medium honesty-text">
-                            <h3>{{ $t('honesty.title') }} </h3>
-                            <p>
-                                {{ $t('honesty.description') }}
+                        <div class="column content is-medium community-text">
+                            <h3>{{ $t('community.title') }} </h3>
+                            <p v-html="$t('community.description')">
                             </p>
                         </div>
                     </div>
@@ -15,7 +14,7 @@
                 <div class="column">
                     <div class="columns is-centered is-vcentered is-height-100 is-mobile has-padding-top-2x-mobile">
                         <div class="column is-narrow">
-                            <ob-heart></ob-heart>
+                            <ob-people></ob-people>
                         </div>
                     </div>
                 </div>
@@ -26,23 +25,23 @@
 
 <style lang="scss">
 
-    .honesty-text {
+    .community-text {
         @media (min-width: 768px) {
             max-width: 400px;
         }
     }
 
-    .honesty-heart {
+    .community-people {
 
     }
 </style>
 
 <script>
-    import ObHeart from "./components/heart";
+    import ObPeople from "./components/people";
 
     export default {
-        components: {ObHeart},
-        name: 'ob-honesty'
+        components: {ObPeople},
+        name: 'ob-community'
     }
 </script>
 

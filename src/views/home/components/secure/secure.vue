@@ -2,16 +2,16 @@
     <section class="section">
         <div>
             <div class="container">
-                <div class="columns has-reverse-row-order-mobile is-height-100">
+                <div class="columns is-height-100 has-reverse-row-order-mobile">
                     <div class="column">
-                        <div class="columns is-centered is-vcentered is-height-100 is-mobile padding-top-4x-mobile">
+                        <div class="columns is-vcentered is-centered is-height-100 is-mobile has-padding-top-2x-mobile">
                             <div class="column is-narrow">
                                 <ob-secure-icon></ob-secure-icon>
                             </div>
                         </div>
                     </div>
                     <div class="column">
-                        <div class="columns is-vcentered is-mobile is-height-100">
+                        <div class="columns is-centered is-vcentered is-height-100 is-mobile">
                             <div class="column content is-medium secure-text">
                                 <h3>{{ $t('secure.title') }}</h3>
                                 <p>
@@ -34,7 +34,7 @@
         }
     }
 
-    .secure-heart{
+    .secure-heart {
 
     }
 </style>
@@ -46,7 +46,8 @@
     export default {
         components: {
             ObSecureIcon,
-            ObCuteRobot},
+            ObCuteRobot
+        },
         name: 'ob-secure'
     }
 </script>
