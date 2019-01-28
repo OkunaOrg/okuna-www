@@ -10,11 +10,10 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="columns is-vcentered is-centered">
-                        <div class="column is-narrow content is-medium ads-free-text">
+                    <div class="columns is-vcentered is-centered is-mobile">
+                        <div class="column content is-medium ads-free-text">
                             <h3>{{ $t('ads_free.title') }}</h3>
-                            <p>
-                                {{ $t('ads_free.description') }}
+                            <p v-html="$t('ads_free.description')">
                             </p>
                         </div>
                     </div>

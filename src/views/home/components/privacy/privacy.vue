@@ -6,8 +6,7 @@
                     <div class="columns is-vcentered is-centered">
                         <div class="column is-narrow content is-medium privacy-text">
                             <h3>{{ $t('privacy.title') }}</h3>
-                            <p>
-                                {{ $t('privacy.description') }}
+                            <p v-html="$t('privacy.description')">
                             </p>
                         </div>
                     </div>

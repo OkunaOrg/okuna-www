@@ -9,41 +9,44 @@ export const messages = {
             featured_in: 'As featured in'
         },
         honesty: {
-            title: 'Honest',
-            description: 'The code is open-source, meaning free for anyone to inspect, modify, contribute and use.'
+            title: 'Transparent',
+            description: 'All of the code powering the network is open-source, meaning open for anyone to see. No room for abracadabra algorithms!'
         },
         privacy: {
             title: 'Privacy-friendly',
-            description: 'We believe privacy is a fundamental human right. We dont track nor monitor your activity.'
+            description: 'Surf with peace-of-mind. We\'re firm believers privacy is a fundamental human right. We don\'t track nor monitor your activity.'
         },
         secure: {
             title: 'Secure by design',
             description: 'We come from an information security background. We are baking in security, right from the start.'
         },
         easy: {
-            title: 'Easy-peasy',
-            description: 'We want to make the transition as smooth as possible. That\'s why we\'re creating tools to import your information from other social networks.'
+            title: 'Easy to join',
+            description: 'Coming from another social network? We\'re building tools so you can import your data into Openbook in a few simple steps!'
         },
         fun: {
-            title: 'Fun!',
-            description: 'Because our lives are short and brittle, we\'re desining Openbook to be a fun and enjoyable experience for everyone.'
+            title: 'More ways to express yourself',
+            description: 'We humans are emotional beings. Find more ways to express your digital self with our increasing reactions library!'
         },
         personal: {
-            title: 'Customisable',
-            description: 'Because we\'re all different and that\'s something to embrace and celebrate.'
+            title: 'Personal',
+            description: 'With social circles, lists, custom reactions and themes, make <span class="has-text-circular"><strong>Open</strong>book</span> your own personal network!'
+        },
+        community: {
+            title: 'Community backed',
+            description: 'With <strong>1900+</strong> backers and volunteers, <span class="has-text-circular"><strong>Open</strong>book</span> is more than a social network, <strong>it\'s a movement</strong>.'
         },
         good_for_planet: {
             title: 'Good for the planet',
-            description: 'We believe in a better world for everyone. That\'s why we\'re giving 30% of our profits towards making the world a better place, now and ' +
-                '                                    forever in partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>.'
+            description: 'We believe in a better world for everyone. That\'s why we\'ll be giving 30% of our profits towards making the world a better place, in partnership with <a href="https://founderspledge.com/" rel="noreferrer noopener">FoundersPledge</a>.'
         },
         ads_free: {
-            title: '100% Ad-free',
-            description: 'Benefits of a revenue model free of advertisement? Ad-free surfing!'
+            title: '100% Ad-free revenue model',
+            description: 'Our revenue model is an optional subscription called <span class="has-text-circular"><strong>Open</strong>book Gold</span> offering access to more reactions, themes and customization options.'
         },
         currency: {
-            title: 'Ethical & sustainable revenue model',
-            description: 'Our revenue model is based on a digital currency called <strong>Tip</strong>. It\'s used to support content creators, subscribe to publishers, buy and sell goods and services and more!'
+            title: 'A digital currency',
+            description: 'We\'re also working on a digital currency called <strong>Tip</strong> to be used as a way to support your favourite video-maker, subscribe to publishers, pay for services and more.'
         },
         quotes: {
             joel_name: 'Joel Hernández',
@@ -142,11 +145,11 @@ export const messages = {
         about_us: {
             title: 'About us',
             subtitle: 'Technology for a <span class="has-text-primary">better tomorrow</span>.',
-            description: '<strong>We want to build technology to serve people, not the other way around</strong>.',
-            description_founded: 'We do this by designing our products and services with humanity\'s best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at their core.',
-            description_project: '<strong>Openbook</strong> is our first creation. A social network that is honest, respects and protects the privacy of its users, brings people together, is fun to use and does good for our planet and its inhabitants.',
+            description: '<strong>We\'re on a mission to build human-centric, responsible, sustainable and fair technology for a more prosperous tomorrow.</strong>',
+            description_founded: 'We bring our mission to life by designing our products and services with humanity\'s best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at their core.',
+            description_project: '<span class="has-text-circular"><strong>Open</strong>book</span>  is our first creation.',
             description_funded: 'The project was successfully crowd-funded September 2018 through a <a href="https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">Kickstarter Campaign</a>.',
-            description_release: 'We will release <strong>Openbook</strong> to the world March 2019.',
+            description_release: 'We will release <span class="has-text-circular"><strong>Open</strong>book</span>  to the world March 2019.',
             accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
             humans_behind_ob: 'The people',
@@ -259,8 +262,8 @@ export const messages = {
             why_not_non_profit: 'Why is Openbook not a non-profit?',
             why_not_non_profit_ans: 'Making Openbook a for-profit was a hard choice to make.',
             check_all_boxes: 'We check all the non-profits boxes and we love non-profits. We love Wikipedia, the Ghost Foundation, Founders Pledge, Mozilla and many more.',
-            same_struggle: 'However we see the same struggle repeated over and over again. These companies struggle to grow beyond their profitability. These companies struggle to grow to the size and resources needed to compete with for-profit businesses.',
-            need_money: 'When we need to grow exponentially, we need to be able to raise the large amounts of money needed to do so.',
+            same_struggle: 'However we see the same struggle repeated over and over again. These companies struggle to grow to the size and resources needed to compete with for-profit businesses.',
+            need_money: 'When we need to grow, we need to be able to to raise the money needed to do so.',
             hence_for_profit: 'Therefore we are officially a for-profit company.',
             humanitarian: 'But do note that when we do this, we will make sure the people investing in the company will be people with real interest on the platform, its core values of privacy, security, freedom, openness and its humanitarian nature.',
             want_to_help: 'I want to help right now, what can I do?',
@@ -394,9 +397,9 @@ export const messages = {
             _Our_rev: "6. Clean revenue.",
             Our_busine: "Our business model is not and will never be advertisement. Ever.",
             We_will_ha: "We will have a transparent revenue model based on a generic way for people to securely transact physical and digital goods and services inside the network. This will be done through an atomic digital unit of value. Although this initially reflected as a marketplace, our ambitions go way beyond that.",
-            instead_our_revenue: "Our revenue model will be based on a digital currency called <strong>Tip</strong>. It will be used to buy and sell goods and services, support content creators, subscribe to publishers and more.",
-            for_every_transaction: "For every Tips transaction made in the network, we will take a small cut.",
-            you_can_read_it: "You can read all about it in <a class=\"has-text-underlined\" href=\"https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\">this article (6 mins approx. reading time)</a>",
+            instead_our_revenue: "Our revenue model is an optional subscription called <span class=\"has-text-circular\"><strong>Open</strong>book Gold</span> offering access to more reactions, themes and customization options.",
+            for_every_transaction: "In the future, we\'ll also introduce a digital currency used to support content creators, subscribe to publishers, buy and sell goods and services and more.",
+            you_can_read_it: "You can read all about this currency in <a class=\"has-text-underlined\" href=\"https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\">this article (6 mins approx. reading time)</a>",
             Apart_from: "Apart from this, we’re also planning to help enterprise customers setting up their own internal, self-hosted and secure social networks with extra functionality such as projects, identity and access management.",
             _With_t: "[1] With the new GDPR regulation, social networks must allow it’s users to do so now.",
             Still_have: "Still have questions?",
