@@ -3,7 +3,7 @@
     "apps": [],
     "details": [
       {
-        "appID": “GAR7B57RXU.social.openbook.app",
+        "appID": "GAR7B57RXU.social.openbook.app",
         "paths": [
           "api/auth"
         ]
