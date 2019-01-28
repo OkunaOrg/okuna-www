@@ -1,11 +1,13 @@
 {
-	"applinks": {
-		"apps": [],
-		"details": [{
-			"appID": "GAR7B57RXU.social.openbook.app",
-			"paths": [
-				"/api/auth/email/verify"
-			]
-		}]
-	}
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": “GAR7B57RXU.social.openbook.app",
+        "paths": [
+          "api/auth"
+        ]
+      }
+    ]
+  }
 }
