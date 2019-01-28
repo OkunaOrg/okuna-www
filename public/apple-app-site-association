@@ -5,8 +5,7 @@
       {
         "appID": "GAR7B57RXU.social.openbook.app",
         "paths": [
-          "api/auth/email/verify",
-          "api/auth/invite"
+          "api/auth"
         ]
       }
     ]
