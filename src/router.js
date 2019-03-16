@@ -18,6 +18,7 @@ const jobs = () => import('./views/jobs/jobs.vue');
 const press = () => import('./views/press/press.vue');
 const newsroom = () => import('./views/newsroom/newsroom.vue');
 const vulnerabilityReport = () => import('./views/vulnerability-report/vulnerability-report.vue');
+const getApp = () => import('./views/get-app/get-app.vue');
 
 const browserLang = (locale || 'en-US').substring(0, 2);
 
@@ -59,6 +60,10 @@ const router = new Router({
         {
             path: '/press',
             redirect: `/${browserLang}/press`
+        },
+        {
+            path: '/getapp',
+            redirect: `/${browserLang}/getapp`
         },
         {
             path: '/kickstarter',
@@ -114,6 +119,14 @@ const router = new Router({
                     component: press,
                     meta: {
                         title: 'Press | Openbook'
+                    }
+                },
+                {
+                    path: 'getapp',
+                    name: 'getapp',
+                    component: getApp,
+                    meta: {
+                        title: 'Get App Link | Openbook'
                     }
                 },
                 {
