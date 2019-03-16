@@ -78,7 +78,6 @@
         methods: {
             generateLink() {
                 this.generatedLink = this.link;
-                console.log(this.generatedLink);
             }
         }
     }
