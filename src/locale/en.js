@@ -65,7 +65,7 @@ export const messages = {
             friends: 'friends',
             family: 'family',
             grandma: 'grandma',
-            reddit: 'reddit',
+            reddit: 'Google+',
             we_are_ob: 'We\'re <strong class="has-text-circular">Open</strong>book.',
             kickstarter: 'A social network for a <strong>better tomorrow.</strong>',
             share: 'Share',
