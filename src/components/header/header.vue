@@ -6,19 +6,33 @@
                 <div class="navbar-brand">
                     <router-link to="home" class="navbar-item is-size-4 has-text-primary">
                         <a href="#" class="header-logo"></a>
-                        <span class="header-logo-separator"></span><span v-html="$t('global.openbook')" class="has-text-circular"></span>
+                        <span class="header-logo-separator"></span><span v-html="$t('global.openbook')"
+                                                                         class="has-text-circular"></span>
                     </router-link>
                     <ob-hamburger></ob-hamburger>
                 </div>
                 <div class="navbar-menu">
                     <div class="navbar-end header-links">
-                        <router-link :to="'home'" class="navbar-item" active-class="is-active is-active--home">{{ $t('header.home') }}</router-link>
-                        <router-link :to="'about-us'" class="navbar-item" active-class="is-active is-active--about-us">{{ $t('header.about_us') }}</router-link>
-                        <router-link :to="'manifesto'" class="navbar-item" active-class="is-active is-active--manifesto">{{ $t('header.manifesto') }}</router-link>
-                        <router-link :to="'contact-us'" class="navbar-item" active-class="is-active is-active--contact-us">{{ $t('header.contact_us') }}</router-link>
-                        <router-link :to="'jobs'" class="navbar-item" active-class="is-active is-active--jobs">{{ $t('header.jobs') }}</router-link>
-                        <router-link :to="'faq'" class="navbar-item" active-class="is-active is-active--faq">{{ $t('header.faq') }}</router-link>
-                        <router-link :to="'press'" class="navbar-item" active-class="is-active is-active--press">{{ $t('header.press') }}</router-link>
+                        <router-link :to="'home'" class="navbar-item" active-class="is-active is-active--home">{{
+                            $t('header.home') }}
+                        </router-link>
+                        <router-link :to="'about-us'" class="navbar-item" active-class="is-active is-active--about-us">
+                            {{ $t('header.about_us') }}
+                        </router-link>
+                        <router-link :to="'manifesto'" class="navbar-item"
+                                     active-class="is-active is-active--manifesto">{{ $t('header.manifesto') }}
+                        </router-link>
+                        <router-link :to="'contact-us'" class="navbar-item"
+                                     active-class="is-active is-active--contact-us">{{ $t('header.contact_us') }}
+                        </router-link>
+                        <router-link :to="'jobs'" class="navbar-item" active-class="is-active is-active--jobs">{{
+                            $t('header.jobs') }}
+                        </router-link>
+                        <router-link :to="'faq'" class="navbar-item" active-class="is-active is-active--faq">{{
+                            $t('header.faq') }}
+                        </router-link>
+                        <a href="https://medium.com/openbook-org" rel="noopener noreferrer" class="navbar-item" target="_blank"
+                        >{{ $t('header.blog') }}</a>
                     </div>
                 </div>
             </div>
@@ -36,7 +50,7 @@
         height: 40px;
     }
 
-    .header-logo-separator{
+    .header-logo-separator {
         width: 1px;
         height: 25px;
         background: #fafafa;
@@ -112,15 +126,23 @@
         },
         methods: {
             getCurrentLang(locale) {
-                switch(locale) {
-                    case 'en': return 'English';
-                    case 'nl': return 'Nederlands';
-                    case 'es': return 'Español';
-                    case 'hu': return 'Magyar';
-                    case 'fr': return 'Français';
-                    case 'de': return 'Deutsch';
-                    case 'no': return 'Norsk';
-                    default : return 'English'
+                switch (locale) {
+                    case 'en':
+                        return 'English';
+                    case 'nl':
+                        return 'Nederlands';
+                    case 'es':
+                        return 'Español';
+                    case 'hu':
+                        return 'Magyar';
+                    case 'fr':
+                        return 'Français';
+                    case 'de':
+                        return 'Deutsch';
+                    case 'no':
+                        return 'Norsk';
+                    default :
+                        return 'English'
                 }
             },
             changeLocale(locale) {
