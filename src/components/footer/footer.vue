@@ -52,10 +52,6 @@
                                     <li>
                                         <router-link :to="'vulnerability-report'" class="navbar-item" active-class="is-active">{{ $t('footer.report_vulnerability') }}</router-link>
                                     </li>
-                                    <li>
-                                        <router-link :to="'press'" class="navbar-item" active-class="is-active">{{ $t('header.press') }}
-                                        </router-link>
-                                    </li>
                                 </ul>
                             </div>
                         </div>

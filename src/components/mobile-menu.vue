@@ -8,7 +8,8 @@
                         <div class="navbar-brand">
                             <a class="navbar-item is-size-4" href="https://www.openbook.social">
                                 <a href="#" class="header-logo"></a>
-                                <span class="header-logo-separator"></span><span v-html="$t('global.openbook')" class="has-text-circular"></span>
+                                <span class="header-logo-separator"></span><span v-html="$t('global.openbook')"
+                                                                                 class="has-text-circular"></span>
                             </a>
                             <div class="navbar-close navbar-item">
                                 <button class="button is-outlined is-borderless navbar-close__button has-text-primary"
@@ -200,8 +201,8 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link :to="'press'" active-class="mobile-menu-item--active"
-                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
+                        <a href="https://medium.com/openbook-org" rel="noopener noreferrer" target="_blank"
+                           class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
                                     <div class="columns is-mobile is-centered is-vcentered">
@@ -215,7 +216,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>{{ $t('header.press') }}</span>
+                                            <span>{{ $t('header.blog') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
@@ -227,7 +228,7 @@
                                     </div>
                                 </div>
                             </div>
-                        </router-link>
+                        </a>
                     </div>
                 </div>
             </div>
@@ -286,7 +287,8 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://www.producthunt.com/posts/openbook" class="is-flex is-vcentered"
+                                        <a href="https://www.producthunt.com/posts/openbook"
+                                           class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -337,8 +339,8 @@
         top: 0;
         left: 0;
         right: 0;
-        min-height:100%;
-        height:auto;
+        min-height: 100%;
+        height: auto;
         background: #fafafa;
         display: none;
 
@@ -396,6 +398,7 @@
     .mobile-language-selection {
         .card-content {
             padding: 0.5rem;
+
             .columns {
                 margin: 0;
             }
@@ -438,8 +441,8 @@
         destroyed() {
             this.removeAllEvents();
         },
-        watch:{
-            $route (){
+        watch: {
+            $route() {
                 this.closeMenu();
             }
         },

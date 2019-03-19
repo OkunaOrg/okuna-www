@@ -33,7 +33,7 @@ export const messages = {
             description: 'With social circles, lists, custom reactions and themes, make <span class="has-text-circular"><strong>Open</strong>book</span> your own personal network!'
         },
         community: {
-            title: 'Community backed',
+            title: 'Community driven',
             description: 'With <strong>1900+</strong> backers and volunteers, <span class="has-text-circular"><strong>Open</strong>book</span> is more than a social network, <strong>it\'s a movement</strong>.'
         },
         good_for_planet: {
@@ -115,7 +115,8 @@ export const messages = {
             jobs: 'Jobs',
             faq: 'FAQ',
             press: 'Press',
-            language: 'Language'
+            language: 'Language',
+            blog: 'Blog'
         },
         footer: {
             report_vulnerability: 'Report Vulnerability',
@@ -149,7 +150,7 @@ export const messages = {
             description_founded: 'We bring our mission to life by designing our products and services with humanity\'s best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at their core.',
             description_project: '<span class="has-text-circular"><strong>Open</strong>book</span>  is our first creation.',
             description_funded: 'The project was successfully crowd-funded September 2018 through a <a href="https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">Kickstarter Campaign</a>.',
-            description_release: 'We will release <span class="has-text-circular"><strong>Open</strong>book</span>  to the world March 2019.',
+            description_release: '<span class="has-text-circular"><strong>Open</strong>book</span> is currently in closed alpha testing with 1000+ users and beta will be available mid 2019.',
             accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
             humans_behind_ob: 'The people',
