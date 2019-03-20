@@ -90,9 +90,9 @@
                             </h3>
                         </div>
                         <div class="column">
-                            <a href="#" class="button is-rainbow is-rounded is-medium">
+                            <router-link :to="'jobs'" class="button is-rainbow is-rounded is-medium">
                                 {{ $t('about_us.visit_jobs_page') }}
-                            </a>
+                            </router-link>
                         </div>
                     </div>
                 </div>
