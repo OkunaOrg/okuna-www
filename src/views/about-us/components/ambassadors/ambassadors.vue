@@ -11,6 +11,7 @@
     import rubenPhoto from './assets/ruben.jpg';
     import edwinPhoto from './assets/edwin.png';
     import chrisPhoto from './assets/chris.png';
+    import ashwinPhoto from './assets/ashwin.png';
     import ObAmbassador from './components/ambassador.vue';
 
 
@@ -61,6 +62,15 @@
                             facebook: 'https://www.facebook.com/chrisduketv/'
                         },
                         description: this.$t('ambassadors.chris_desc'),
+                    },
+                    {
+                        name: 'Ashwin Krishnan',
+                        photo: ashwinPhoto,
+                        links: {
+                            website: 'https://ashwinkrishnan.me/',
+                            linkedin: 'https://www.linkedin.com/in/ashwinkrishnan/'
+                        },
+                        description: 'COO of UberKnowledge, tech ethicist, writer, podcast host, speaker.',
                     }
                 ]
             }
