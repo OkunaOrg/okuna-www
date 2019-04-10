@@ -4,7 +4,7 @@
             <div class="content">
                 <h2 class="is-size-3"><span class="icon" v-twemoji>🚀</span> Join the revolution!</h2>
                 <p class="is-size-4">
-                    Beta coming early 2019.
+                    Beta coming mid 2019.
                 </p>
             </div>
 
