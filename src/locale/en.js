@@ -141,7 +141,7 @@ export const messages = {
             share_wa: 'Share on Whatsapp',
             share_title: 'Openbook. A social network for a better future.',
             share_description: 'Honest, personal, privacy-friendly and ethically sustained.',
-            share_quote: 'Join the revolution! Coming early 2019.',
+            share_quote: 'Join the revolution! Coming mid 2019.',
         },
         about_us: {
             title: 'About us',
@@ -150,7 +150,7 @@ export const messages = {
             description_founded: 'We bring our mission to life by designing our products and services with humanity\'s best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at their core.',
             description_project: '<span class="has-text-circular"><strong>Open</strong>book</span>  is our first creation.',
             description_funded: 'The project was successfully crowd-funded September 2018 through a <a href="https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">Kickstarter Campaign</a>.',
-            description_release: '<span class="has-text-circular"><strong>Open</strong>book</span> is currently in closed alpha testing with 1000+ users and beta will be available mid 2019.',
+            description_release: '<span class="has-text-circular"><strong>Open</strong>book</span> is currently in closed alpha testing with 2000+ users and beta will be available mid 2019.',
             accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
             humans_behind_ob: 'The people',

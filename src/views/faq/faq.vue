@@ -117,6 +117,9 @@
                     </p>
                     <ul>
                         <li class="has-text-underlined">
+                            <a href="https://www.patreon.com/openbooksocial" rel="noopener noreferrer" target="_blank"> Become our monthly patron!</a>
+                        </li>
+                        <li class="has-text-underlined">
                             <a href="https://www.indiegogo.com/projects/openbook-it-s-time-for-a-better-social-network#/" rel="noopener noreferrer" target="_blank"> {{ $t('faq.donate') }} </a>
                         </li>
                         <li class="has-text-underlined">

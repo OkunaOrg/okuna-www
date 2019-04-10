@@ -51,7 +51,7 @@
                         description: this.$t('team_members.jaya_desc')
                     },
                     {
-                        name: 'Phillip Zimmermann',
+                        name: 'Philip Zimmermann',
                         position: this.$t('team_members.phil_title'),
                         photo: philPhoto,
                         links: {
