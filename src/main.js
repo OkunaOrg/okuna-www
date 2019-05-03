@@ -34,7 +34,7 @@ const Raven = window['Raven'] || {
     }
 };
 
-Raven.config('https://2bc7c06c27df4f2f9a612cfdd8548a72@sentry.io/1212325').install();
+Raven.config('https://e5a6200cf851482cabf0d4ba7ff8bc60@sentry.openbook.social/2').install();
 
 
 Raven.context(function () {
