@@ -229,6 +229,34 @@
                                 </div>
                             </div>
                         </a>
+                        <a href="https://shwca.se/openbooksocial" rel="noopener noreferrer" target="_blank"
+                           class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
+                            <div class="columns is-mobile">
+                                <div class="column is-3">
+                                    <div class="columns is-mobile is-centered is-vcentered">
+                                        <div class="column is-narrow">
+                                            <span class="icon">
+                                                <i class="fas fa-newspaper"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span>Press</span>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="columns is-mobile is-centered is-vcentered">
+                                                <div class="column is-narrow">
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
