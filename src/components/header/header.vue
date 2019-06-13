@@ -33,6 +33,8 @@
                         </router-link>
                         <a href="https://medium.com/openbook-org" rel="noopener noreferrer" class="navbar-item" target="_blank"
                         >{{ $t('header.blog') }}</a>
+                        <a href="https://shwca.se/openbooksocial" rel="noopener noreferrer" class="navbar-item" target="_blank"
+                        >Press</a>
                     </div>
                 </div>
             </div>

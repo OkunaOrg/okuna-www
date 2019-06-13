@@ -8,7 +8,8 @@
                             <div class="navbar-brand">
                                 <div class="navbar-item">
                                     <router-link :to="'home'" class="navbar-item is-size-3">
-                                        <a href="#" class="footer-logo"></a><span class="footer-logo-separator"></span><h3 v-html="$t('global.openbook')"></h3>
+                                        <a href="#" class="footer-logo"></a><span class="footer-logo-separator"></span>
+                                        <h3 v-html="$t('global.openbook')"></h3>
                                     </router-link>
                                 </div>
                             </div>
@@ -25,32 +26,48 @@
                             <div class="column is-narrow">
                                 <ul>
                                     <li>
-                                        <router-link :to="'home'" class="navbar-item" active-class="is-active">{{ $t('header.home') }}</router-link>
-                                    </li>
-                                    <li>
-                                        <router-link :to="'about-us'" class="navbar-item" active-class="is-active">{{ $t('header.about_us') }}
+                                        <router-link :to="'home'" class="navbar-item" active-class="is-active">{{
+                                            $t('header.home') }}
                                         </router-link>
                                     </li>
                                     <li>
-                                        <router-link :to="'manifesto'" class="navbar-item" active-class="is-active">{{ $t('header.manifesto') }}
+                                        <router-link :to="'about-us'" class="navbar-item" active-class="is-active">{{
+                                            $t('header.about_us') }}
                                         </router-link>
                                     </li>
                                     <li>
-                                        <router-link :to="'contact-us'" class="navbar-item" active-class="is-active">{{ $t('header.contact_us') }}
+                                        <router-link :to="'manifesto'" class="navbar-item" active-class="is-active">{{
+                                            $t('header.manifesto') }}
                                         </router-link>
                                     </li>
                                     <li>
-                                        <router-link :to="'jobs'" class="navbar-item" active-class="is-active">{{ $t('header.jobs') }}</router-link>
+                                        <router-link :to="'contact-us'" class="navbar-item" active-class="is-active">{{
+                                            $t('header.contact_us') }}
+                                        </router-link>
                                     </li>
                                     <li>
-                                        <router-link :to="'faq'" class="navbar-item" active-class="is-active">{{ $t('header.faq') }}</router-link>
+                                        <router-link :to="'jobs'" class="navbar-item" active-class="is-active">{{
+                                            $t('header.jobs') }}
+                                        </router-link>
+                                    </li>
+                                    <li>
+                                        <router-link :to="'faq'" class="navbar-item" active-class="is-active">{{
+                                            $t('header.faq') }}
+                                        </router-link>
                                     </li>
                                 </ul>
                             </div>
                             <div class="column is-narrow">
                                 <ul>
                                     <li>
-                                        <router-link :to="'vulnerability-report'" class="navbar-item" active-class="is-active">{{ $t('footer.report_vulnerability') }}</router-link>
+                                        <router-link :to="'vulnerability-report'" class="navbar-item"
+                                                     active-class="is-active">{{ $t('footer.report_vulnerability') }}
+                                        </router-link>
+                                    </li>
+                                    <li>
+                                        <a href="https://shwca.se/openbooksocial" rel="noopener noreferrer"
+                                           class="navbar-item" target="_blank"
+                                        >Press</a>
                                     </li>
                                 </ul>
                             </div>
@@ -59,7 +76,8 @@
                     <div class="level-right">
                         <ul>
                             <li>
-                                <a href="https://twitter.com/OpenbookSocial" class="is-flex is-vcentered" target="_blank" rel="noopener noreferrer">
+                                <a href="https://twitter.com/OpenbookSocial" class="is-flex is-vcentered"
+                                   target="_blank" rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">
@@ -71,7 +89,8 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://github.com/OpenbookOrg" class="is-flex is-vcentered" target="_blank" rel="noopener noreferrer">
+                                <a href="https://github.com/OpenbookOrg" class="is-flex is-vcentered" target="_blank"
+                                   rel="noopener noreferrer">
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span class="icon">
@@ -159,9 +178,10 @@
                         <div class="level has-padding-2x">
                             <div class="level-left">
                                 <div class="content has-text-centered-mobile">
-                                    ©  {{ $t('footer.the_ob_organization') }} | <a
+                                    © {{ $t('footer.the_ob_organization') }} | <a
                                     href="https://www.iubenda.com/privacy-policy/91224954"
-                                    class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank" rel="noopener noreferrer">{{ $t('footer.privacy_policy') }} </a>
+                                    class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank"
+                                    rel="noopener noreferrer">{{ $t('footer.privacy_policy') }} </a>
                                 </div>
                             </div>
                             <div class="level-right">
@@ -203,7 +223,7 @@
         height: 40px;
     }
 
-    .footer-logo-separator{
+    .footer-logo-separator {
         width: 1px;
         height: 25px;
         background: #fafafa;
@@ -213,6 +233,5 @@
 </style>
 
 <script>
-    export default{
-    }
+    export default {}
 </script>
