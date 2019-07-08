@@ -13,15 +13,12 @@
                     </div>
                     <div class="column has-text-centered has-padding-top-2x-mobile has-background-white is-z-2 has-position-relative">
                         <div class="columns is-centered is-mobile">
-                            <div class="column" style="max-width: 520px">
+                            <div class="column" style="max-width: 450px">
                                 <h1 class="is-size-3-mobile is-size-1 has-text-weight-bold"
                                     v-html="$t('splash_hero.hello_world')">
                                 </h1>
                                 <p class="is-size-4 padding-top-1x"
                                     v-html="$t('splash_hero.we_are_ob')">
-                                </p>
-                                <p class="is-size-5"
-                                    v-html="$t('splash_hero.kickstarter')">
                                 </p>
                                 <div class="has-padding-2x">
                                     <button class="button is-rainbow is-rounded" v-scroll-to="'#beta-signup'">
@@ -104,7 +101,6 @@
                     this.$i18n.t('splash_hero.friends'),
                     this.$i18n.t('splash_hero.family'),
                     this.$i18n.t('splash_hero.grandma'),
-                    this.$i18n.t('splash_hero.reddit'),
                 ];
 
                 const helloSubject = document.querySelector('#hello-subject');

@@ -49,11 +49,6 @@
                             </a>
                         </li>
                         <li>
-                            <a href="#whynotnonprofit" v-scroll-to="'#whynotnonprofit'">
-                                {{ $t('faq.why_not_non_profit') }}
-                            </a>
-                        </li>
-                        <li>
                             <a href="#help" v-scroll-to="'#help'">
                                 {{ $t('faq.want_to_help') }}
                             </a>
@@ -71,38 +66,10 @@
                     <p>
                         {{ $t('faq.whos_paying_ans') }}
                     </p>
-                    <p>
-                        {{ $t('faq.crowd_funding') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.launching_kickstarter') }}
-                    </p>
                     <h3 id="willitbedistributed">
                         {{ $t('faq.why_not_decentralised') }}
                     </h3>
                     <p v-html="$t('faq.why_not_decentralised_ans')"></p>
-
-                    <h3 id="whynotnonprofit">
-                        {{ $t('faq.why_not_non_profit') }}
-                    </h3>
-                    <p>
-                        {{ $t('faq.why_not_non_profit_ans') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.check_all_boxes') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.same_struggle') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.need_money') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.hence_for_profit') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.humanitarian') }}
-                    </p>
                     <h3 id="help">
                         {{ $t('faq.want_to_help') }}
                     </h3>
@@ -137,19 +104,7 @@
                             <router-link to="contact-us"> {{ $t('faq.contact_us') }} </router-link>
                             .
                         </li>
-                        <li>
-                            {{ $t('faq.looking_for_job') }}
-                            <router-link to="jobs">{{ $t('faq.visit_jobs') }}</router-link>
-                            .
-                        </li>
                     </ul>
-                    <p>
-                        {{ $t('faq.volunteer') }}
-                        <br/>
-                        {{ $t('faq.interested') }}
-                        <router-link to="contact-us">{{ $t('faq.contact_us_2') }} </router-link>
-                        .
-                    </p>
                 </div>
             </div>
         </section>

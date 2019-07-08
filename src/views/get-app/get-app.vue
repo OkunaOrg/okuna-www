@@ -17,7 +17,7 @@
             <section class="section">
                 <div class="columns is-centered">
                     <p class="is-size-5 has-text-centered has-padding-bottom-1x-mobile">
-                        Paste it in the box below. Make sure it starts with https://openbook.social...
+                        Paste it in the box below. Make sure it starts with https://Okuna.social...
                     </p>
                 </div>
                 <div class="columns has-padding-1x is-centered">

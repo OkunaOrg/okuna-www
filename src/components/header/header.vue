@@ -6,7 +6,7 @@
                 <div class="navbar-brand">
                     <router-link to="home" class="navbar-item is-size-4 has-text-primary">
                         <a href="#" class="header-logo"></a>
-                        <span class="header-logo-separator"></span><span v-html="$t('global.openbook')"
+                        <span class="header-logo-separator"></span><span v-html="$t('global.okuna')"
                                                                          class="has-text-circular"></span>
                     </router-link>
                     <ob-hamburger></ob-hamburger>
@@ -24,9 +24,6 @@
                         </router-link>
                         <router-link :to="'contact-us'" class="navbar-item"
                                      active-class="is-active is-active--contact-us">{{ $t('header.contact_us') }}
-                        </router-link>
-                        <router-link :to="'jobs'" class="navbar-item" active-class="is-active is-active--jobs">{{
-                            $t('header.jobs') }}
                         </router-link>
                         <router-link :to="'faq'" class="navbar-item" active-class="is-active is-active--faq">{{
                             $t('header.faq') }}
