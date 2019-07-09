@@ -34,7 +34,7 @@ export const messages = {
         },
         community: {
             title: 'Community oriented',
-            description: 'Discover interests & meet make friends by joining one of the 2,500+ existing communities available or create and grow your own!'
+            description: 'Discover interests & people by joining one of the 2,500+ existing communities available or create and grow your own!'
         },
         good_for_planet: {
             title: 'For a better tomorrow',
