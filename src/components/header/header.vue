@@ -28,6 +28,9 @@
                         <router-link :to="'faq'" class="navbar-item" active-class="is-active is-active--faq">{{
                             $t('header.faq') }}
                         </router-link>
+                        <router-link :to="'angel'" class="navbar-item" active-class="is-active is-active--angel">{{
+                            $t('header.angel') }}
+                        </router-link>
                         <a href="https://medium.com/openbook-org" rel="noopener noreferrer" class="navbar-item" target="_blank"
                         >{{ $t('header.blog') }}</a>
                         <a href="https://shwca.se/openbooksocial" rel="noopener noreferrer" class="navbar-item" target="_blank"
@@ -77,7 +80,7 @@
                 color: #980df9 !important;
             }
 
-            &--jobs {
+            &--angel {
                 color: #6ace8f !important;
             }
 

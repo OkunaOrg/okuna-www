@@ -6,7 +6,7 @@
                 <header class="navbar">
                     <div class="container">
                         <div class="navbar-brand">
-                            <a class="navbar-item is-size-4" href="https://www.Okuna.social">
+                            <a class="navbar-item is-size-4" href="https://www.okuna.io">
                                 <a href="#" class="header-logo"></a>
                                 <span class="header-logo-separator"></span><span v-html="$t('global.okuna')"
                                                                                  class="has-text-circular"></span>
@@ -131,6 +131,35 @@
                                     <div class="columns is-mobile">
                                         <div class="column">
                                             <span>{{ $t('header.contact_us') }}</span>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="columns is-mobile is-centered is-vcentered">
+                                                <div class="column is-narrow">
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </router-link>
+                        <router-link :to="'angel'" active-class="mobile-menu-item--active"
+                                     class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
+                            <div class="columns is-mobile">
+                                <div class="column is-3">
+                                    <div class="columns is-mobile is-centered is-vcentered">
+                                        <div class="column is-narrow">
+                                            <span class="icon">
+                                                <i class="fas fa-star"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span>{{ $t('header.angel') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">

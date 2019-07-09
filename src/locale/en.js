@@ -41,8 +41,8 @@ export const messages = {
             description: 'Apart from donating a percentage of our profits <a href="https://founderspledge.com/research" rel="noreferrer noopener">towards worthy causes</a>, we are also legally committed to being a positive influence on society and the environment.'
         },
         ads_free: {
-            title: 'Simple and ethical business model.',
-            description: 'Our revenue model is an optional subscription offering access to extra reactions, animated avatars, themes and more.'
+            title: 'Ethically sustained',
+            description: 'The network is sustained through an optional subscription offering access to extra reactions, animated avatars, themes and more.'
         },
         currency: {
             title: 'A digital currency',
@@ -114,7 +114,8 @@ export const messages = {
             faq: 'FAQ',
             press: 'Press',
             language: 'Language',
-            blog: 'Blog'
+            blog: 'Blog',
+            angel: 'Angel',
         },
         footer: {
             report_vulnerability: 'Report Vulnerability',
@@ -148,7 +149,7 @@ export const messages = {
             description_founded: 'We bring our mission to life by designing our products and services with humanity\'s best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at their core.',
             description_project: '<span class="has-text-circular">Okuna</span>  is our first creation.',
             description_funded: 'The project was successfully crowd-funded September 2018 through a <a href="https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">Kickstarter Campaign</a>.',
-            description_release: '<span class="has-text-circular">Okuna</span> is currently in closed alpha testing with 3,500+ users and beta will be available mid 2019.',
+            description_release: '<strong><span class="has-text-circular">Okuna</span> is currently in closed alpha testing with 3,500+ users and beta will be available mid 2019.</strong>',
             accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
             humans_behind_ob: 'The people',
@@ -201,7 +202,7 @@ export const messages = {
             name: 'Name',
             ob_organization: 'Okuna B.V',
             address: 'Address',
-            ob_address: 'The Hague Tech, The Hague, The Netherlands',
+            ob_address: 'Apollo 14, The Hague, The Netherlands',
             telephone: 'Telephone',
             telephone_no: '(+31) 611 60 4275',
             email: 'Email',
@@ -230,7 +231,7 @@ export const messages = {
             recaptcha_authorization: 'Do you authorize us to load Google Recaptcha and therefore allow Google to collect this information?',
             recaptcha_authorization_yes: 'Yes, I authorize you to load Google Recaptcha',
             or: 'or',
-            recaptcha_authorization_no: 'No, send an e-mail to info@open-book.org',
+            recaptcha_authorization_no: 'No, send an e-mail to info@okuna.org',
             tick_box: 'Please tick this box',
             clear_form: 'Clear form',
             submit: 'Submit'
@@ -246,6 +247,14 @@ export const messages = {
             look_forward: 'We look forward to meeting you !',
             colleagues: 'Who will you be working with?',
             meet_the_team: 'Meet the team'
+        },
+        angel: {
+            title: 'Social impact',
+            subtitle: 'Become our angel',
+            description_title: 'Be the change you want to see in the world.',
+            description: 'We\'re looking for an Angel investor and mentor to join the team.',
+            description2: 'Want to help build an ethical, friendly and secure social media platform for a brighter tomorrow?',
+            description3: '<strong> Send us an e-mail at <a href="mailto:angel@okuna.io?subject=Angel">angel@okuna.io</a></strong>',
         },
         faq: {
             title: 'FAQ',

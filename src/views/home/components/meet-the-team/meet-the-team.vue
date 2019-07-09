@@ -30,7 +30,8 @@
     import teamImage2 from './assets/jaya-min.png';
     import teamImage3 from './assets/phil-min.jpg';
     import teamImage4 from './assets/vincent-min.jpeg';
-    import teamImage5 from './assets/lambrecht-min.jpeg';
+    import teamImage5 from './assets/robin-min.png';
+    import teamImage6 from './assets/nathalie-min.png';
 
     export default{
         name: 'ob-meet-the-team',
@@ -41,7 +42,8 @@
                     teamImage4,
                     teamImage2,
                     teamImage3,
-                    teamImage1
+                    teamImage1,
+                    teamImage6
                 ]
             }
         }

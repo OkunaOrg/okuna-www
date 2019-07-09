@@ -1,6 +1,6 @@
 <template>
     <div>
-        <social-sharing url="https://www.Okuna.social"
+        <social-sharing url="https://www.okuna.io"
                         :title="$t('hud.share_title')"
                         :description="$t('hud.share_description')"
                         :quote="$t('hud.share_quote')"

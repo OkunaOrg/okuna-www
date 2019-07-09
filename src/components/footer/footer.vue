@@ -46,6 +46,11 @@
                                         </router-link>
                                     </li>
                                     <li>
+                                        <router-link :to="'angel'" class="navbar-item" active-class="is-active">{{
+                                            $t('header.angel') }}
+                                        </router-link>
+                                    </li>
+                                    <li>
                                         <router-link :to="'faq'" class="navbar-item" active-class="is-active">{{
                                             $t('header.faq') }}
                                         </router-link>

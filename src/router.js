@@ -14,7 +14,7 @@ const contactUs = () => import('./views/contact-us/contact-us.vue');
 const aboutUs = () => import('./views/about-us/about-us.vue');
 const manifesto = () => import('./views/manifesto/en/manifesto.vue');
 const faq = () => import('./views/faq/faq.vue');
-const jobs = () => import('./views/jobs/jobs.vue');
+const angel = () => import('./views/angel/angel.vue');
 const vulnerabilityReport = () => import('./views/vulnerability-report/vulnerability-report.vue');
 const getApp = () => import('./views/get-app/get-app.vue');
 
@@ -93,6 +93,14 @@ const router = new Router({
                     component: faq,
                     meta: {
                         title: 'FAQ | Okuna'
+                    }
+                },
+                {
+                    path: 'angel',
+                    name: 'angel',
+                    component: angel,
+                    meta: {
+                        title: 'Angel | Okuna'
                     }
                 },
                 {
