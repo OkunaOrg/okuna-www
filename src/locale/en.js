@@ -261,7 +261,7 @@ export const messages = {
             jump_to: 'Jump to',
             whos_paying: 'Who\'s paying for everything so far?',
             is_distributed: 'Will Okuna be decentralised?',
-            whos_paying_ans: 'The project got successfully crowd-funded on September 2018 and has been running on those funds ever since together with support from our patrons.',
+            whos_paying_ans: 'The project was successfully crowd-funded on September 2018 and has been running on those funds ever since together with support from our patrons.',
             want_to_help: 'I want to help right now, what can I do?',
             want_to_help_ans: 'We\'re happy and grateful you want to help out!',
             many_ways: 'There are many ways you can help right now.',
