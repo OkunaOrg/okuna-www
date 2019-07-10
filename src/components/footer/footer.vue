@@ -9,7 +9,7 @@
                                 <div class="navbar-item">
                                     <router-link :to="'home'" class="navbar-item is-size-3">
                                         <a href="#" class="footer-logo"></a><span class="footer-logo-separator"></span>
-                                        <h3 v-html="$t('global.okuna')"></h3>
+                                        <h3 v-html="$t('global.okuna')" class="has-text-logo" style="padding-top: 9px"></h3>
                                     </router-link>
                                 </div>
                             </div>
@@ -217,6 +217,7 @@
         height: 25px;
         background: #fafafa;
         margin-right: 8px;
+        margin-left: 8px;
     }
 
 </style>

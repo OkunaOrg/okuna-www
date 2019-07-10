@@ -1,7 +1,7 @@
 export const messages = {
     en: {
         global: {
-            okuna: '<span style="color: #4a4a4a;"><strong>Okuna</strong></span>'
+            okuna: 'Okuna'
         },
         home: {
             want_to_know_more: 'Want to know more?',
@@ -65,7 +65,7 @@ export const messages = {
             friends: 'friends',
             family: 'family',
             grandma: 'grandma',
-            we_are_ob: 'We\'re <strong class="has-text-circular">Okuna</strong>, a brighter social network.',
+            we_are_ob: 'We\'re <strong class="has-text-logo is-size-5">Okuna</strong>, a brighter social network.',
             share: 'Share',
             notify_me: 'Support us'
         },
@@ -145,11 +145,9 @@ export const messages = {
         about_us: {
             title: 'About us',
             subtitle: 'Technology for a <span class="has-text-primary">better tomorrow</span>.',
-            description: '<strong>We\'re on a mission to build human-centric, responsible, sustainable and fair technology for a more prosperous tomorrow.</strong>',
-            description_founded: 'We bring our mission to life by designing our products and services with humanity\'s best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at their core.',
-            description_project: '<span class="has-text-circular">Okuna</span>  is our first creation.',
-            description_funded: 'The project was successfully crowd-funded September 2018 through a <a href="https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">Kickstarter Campaign</a>.',
-            description_release: '<strong><span class="has-text-circular">Okuna</span> is currently in closed alpha testing with 3,500+ users and beta will be available mid 2019.</strong>',
+            description: 'We\'re a team of engineers, designers, hackers, activists and information-security experts building human-centric, responsible, sustainable and fair technology for a more prosperous tomorrow.',
+            description_founded: 'We do this by putting humanity\'s best qualities such as kindness, compassion, tolerance, empathy and cooperation at the core of everything we do.',
+            description_funded: 'We successfully <a href="https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">crowd-funded</a> <span class="has-text-circular">Okuna</span> on September 2018 through and is currently in alpha testing with 3,500+ members.',
             accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
             humans_behind_ob: 'The people',

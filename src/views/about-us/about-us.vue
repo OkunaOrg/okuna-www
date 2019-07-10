@@ -33,9 +33,9 @@
             <div>
                 <div class="columns is-centered">
                     <div class="column intro-text content">
-                        <h3 class="is-size-4 small-container padding-bottom-1x"
+                        <p class="is-size-4 small-container padding-bottom-1x"
                            v-html="$t('about_us.description')">
-                        </h3>
+                        </p>
                     </div>
                 </div>
                 <div class="columns">
@@ -43,11 +43,7 @@
                         <p class="is-size-5 small-container">
                             {{ $t('about_us.description_founded') }}
                         </p>
-                        <p class="is-size-5 small-container" v-html="$t('about_us.description_project')">
-                        </p>
                         <p class="is-size-5 small-container" v-html="$t('about_us.description_funded')">
-                        </p>
-                        <p class="is-size-5 small-container" v-html="$t('about_us.description_release')">
                         </p>
                     </div>
                 </div>
