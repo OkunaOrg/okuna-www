@@ -51,7 +51,7 @@ export const messages = {
         quotes: {
             joel_name: 'Joel Hernández',
             joel_title: 'Founder of Okuna',
-            joel_quote: 'We\'re at a breaking point. We need to stop building products for users and start building products for people. To put humanity at the core of everything we build.',
+            joel_quote: 'I envision a world of kind, open, accountable and respectful technology. Okuna is the social network of that world.',
             vincent_name: 'Vincent Ruijter',
             vincent_title: 'Ethical Hacker',
             vincent_quote: 'Okuna might be the last real chance to build something different, something ethical, something better.',
@@ -159,7 +159,7 @@ export const messages = {
             contact_us: 'Contact us'
         },
         team_members: {
-            joel_title: 'Founder, Chief Disruptor',
+            joel_title: 'Founder & Chief',
             joel_desc: 'Privacy and security activist, software engineer, digital products designer, open sourcerer, The Next Web Top 500 young talent, human.',
             jaya_title: 'Operations Sensei',
             jaya_desc: 'Globally recognized information-security expert, speaker on lawful interception, quantum-computing, counter surveillance and cryptography.',
