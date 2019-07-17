@@ -6,9 +6,9 @@
                 <header class="navbar">
                     <div class="container">
                         <div class="navbar-brand">
-                            <a class="navbar-item is-size-4" href="https://www.openbook.social">
+                            <a class="navbar-item is-size-4" href="https://www.okuna.io">
                                 <a href="#" class="header-logo"></a>
-                                <span class="header-logo-separator"></span><span v-html="$t('global.openbook')"
+                                <span class="header-logo-separator"></span><span v-html="$t('global.okuna')"
                                                                                  class="has-text-circular"></span>
                             </a>
                             <div class="navbar-close navbar-item">
@@ -144,7 +144,7 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link :to="'jobs'" active-class="mobile-menu-item--active"
+                        <router-link :to="'angel'" active-class="mobile-menu-item--active"
                                      class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
@@ -159,7 +159,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>{{ $t('header.jobs') }}</span>
+                                            <span>{{ $t('header.angel') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">

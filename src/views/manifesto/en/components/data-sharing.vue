@@ -226,7 +226,7 @@
                                 </strong>
                             </div>
                             <span>
-                                {{ $t('manifesto.Openbook_h') }}
+                                {{ $t('manifesto.Okuna_h') }}
                             </span>
                         </div>
                         <div class="column is-12 has-text-centered">

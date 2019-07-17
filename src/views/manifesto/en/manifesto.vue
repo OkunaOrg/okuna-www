@@ -157,7 +157,7 @@
                         {{ $t('manifesto.We_want_to') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.Openbook_will_have') }}.
+                        {{ $t('manifesto.Okuna_will_have') }}.
                     </p>
                     <p>
                         <strong class="has-text-primary"> {{ $t('manifesto.honest_pe') }}</strong>

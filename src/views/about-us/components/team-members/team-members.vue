@@ -61,14 +61,14 @@
                         description: this.$t('team_members.phil_desc')
                     },
                     {
-                        name: 'Lambrecht Wessels',
-                        photo: lambrechtPhoto,
-                        position: this.$t('team_members.lambrecht_title'),
-                        description: this.$t('team_members.lambrecht_desc'),
+                        name: 'Shantanu Tarey',
+                        position: this.$t('team_members.shantanu_title'),
+                        photo: shantanuPhoto,
                         links: {
-                            linkedin: 'https://www.linkedin.com/in/lambrechtwessels/',
-                            twitter: 'https://twitter.com/lambrechtw?lang=en'
-                        }
+                            linkedin: 'https://www.linkedin.com/in/shantanutarey/',
+                            twitter: 'https://twitter.com/shantanutarey'
+                        },
+                        description: this.$t('team_members.shantanu_desc'),
                     },
                     {
                         name: 'Vincent Ruijter',
@@ -80,16 +80,6 @@
                             twitter: 'https://twitter.com/_evict'
                         },
                         description:  this.$t('team_members.vincent_desc'),
-                    },
-                    {
-                        name: 'Shantanu Tarey',
-                        position: this.$t('team_members.shantanu_title'),
-                        photo: shantanuPhoto,
-                        links: {
-                            linkedin: 'https://www.linkedin.com/in/shantanutarey/',
-                            twitter: 'https://twitter.com/shantanutarey'
-                        },
-                        description: this.$t('team_members.shantanu_desc'),
                     },
                     {
                         name: 'Nathalie Lokhorst',
@@ -108,7 +98,17 @@
                             linkedin: 'https://www.linkedin.com/in/robin-roosdorp/'
                         },
                         description: this.$t('team_members.robin_desc')
-                    }
+                    },
+                    {
+                        name: 'Lambrecht Wessels',
+                        photo: lambrechtPhoto,
+                        position: this.$t('team_members.lambrecht_title'),
+                        description: this.$t('team_members.lambrecht_desc'),
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/lambrechtwessels/',
+                            twitter: 'https://twitter.com/lambrechtw?lang=en'
+                        }
+                    },
                 ]
             }
         },

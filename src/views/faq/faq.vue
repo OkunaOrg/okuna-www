@@ -39,6 +39,16 @@
                     <br/>
                     <ul>
                         <li>
+                            <a href="#name" v-scroll-to="'#name'">
+                                What's with the name?
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#openbook" v-scroll-to="'#openbook'">
+                                Were you called Openbook before?
+                            </a>
+                        </li>
+                        <li>
                             <a href="#whospaying" v-scroll-to="'#whospaying'">
                                 {{ $t('faq.whos_paying') }}
                             </a>
@@ -46,11 +56,6 @@
                         <li>
                             <a href="#willitbedistributed" v-scroll-to="'#willitbedistributed'">
                                 {{ $t('faq.is_distributed') }}
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#whynotnonprofit" v-scroll-to="'#whynotnonprofit'">
-                                {{ $t('faq.why_not_non_profit') }}
                             </a>
                         </li>
                         <li>
@@ -65,43 +70,31 @@
         <section class="section" id="faq">
             <div class="small-container">
                 <div class="content is-medium">
+                    <h3 id="name">
+                        What's with the name?
+                    </h3>
+                    <p>
+                        The name comes from <a href="https://en.wikipedia.org/wiki/Esperanto" rel="nofollow noreferrer">Esperanto's</a>
+                        word for together: <strong>kune</strong>.
+                    </p>
+                    <h3 id="openbook">
+                        Were you called Openbook before?
+                    </h3>
+                    <p>
+                        Yes, until certain company sent their lawyers in regards to the word <i>Book</i>.
+                    </p>
                     <h3 id="whospaying">
                         {{ $t('faq.whos_paying') }}
                     </h3>
                     <p>
                         {{ $t('faq.whos_paying_ans') }}
                     </p>
-                    <p>
-                        {{ $t('faq.crowd_funding') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.launching_kickstarter') }}
-                    </p>
                     <h3 id="willitbedistributed">
                         {{ $t('faq.why_not_decentralised') }}
                     </h3>
-                    <p v-html="$t('faq.why_not_decentralised_ans')"></p>
-
-                    <h3 id="whynotnonprofit">
-                        {{ $t('faq.why_not_non_profit') }}
-                    </h3>
                     <p>
-                        {{ $t('faq.why_not_non_profit_ans') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.check_all_boxes') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.same_struggle') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.need_money') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.hence_for_profit') }}
-                    </p>
-                    <p>
-                        {{ $t('faq.humanitarian') }}
+                        Building a federated login system which allows self-hosted instances to hook into the
+                        main network while being able to operate by themselves is in our roadmap.
                     </p>
                     <h3 id="help">
                         {{ $t('faq.want_to_help') }}
@@ -117,10 +110,12 @@
                     </p>
                     <ul>
                         <li class="has-text-underlined">
-                            <a href="https://www.patreon.com/openbooksocial" rel="noopener noreferrer" target="_blank"> Become our monthly patron!</a>
+                            <a href="https://www.patreon.com/openbooksocial" rel="noopener noreferrer" target="_blank">
+                                Become our monthly patron!</a>
                         </li>
                         <li class="has-text-underlined">
-                            <a href="https://www.indiegogo.com/projects/openbook-it-s-time-for-a-better-social-network#/" rel="noopener noreferrer" target="_blank"> {{ $t('faq.donate') }} </a>
+                            <a href="https://www.indiegogo.com/projects/openbook-it-s-time-for-a-better-social-network#/"
+                               rel="noopener noreferrer" target="_blank"> {{ $t('faq.donate') }} </a>
                         </li>
                         <li class="has-text-underlined">
                             <a href="" @click.prevent="onUserWantsToShare"> {{ $t('faq.share_website') }} </a>
@@ -134,22 +129,10 @@
                         </li>
                         <li>
                             {{ $t('faq.public_figure') }}
-                            <router-link to="contact-us"> {{ $t('faq.contact_us') }} </router-link>
-                            .
-                        </li>
-                        <li>
-                            {{ $t('faq.looking_for_job') }}
-                            <router-link to="jobs">{{ $t('faq.visit_jobs') }}</router-link>
+                            <router-link to="contact-us"> {{ $t('faq.contact_us') }}</router-link>
                             .
                         </li>
                     </ul>
-                    <p>
-                        {{ $t('faq.volunteer') }}
-                        <br/>
-                        {{ $t('faq.interested') }}
-                        <router-link to="contact-us">{{ $t('faq.contact_us_2') }} </router-link>
-                        .
-                    </p>
                 </div>
             </div>
         </section>
@@ -185,18 +168,20 @@
 
 <script>
     import ObPets from "./components/pets";
-    import ObSocialSharerModal from "../../components/scroll-hud/components/social-sharer/components/social-sharer-modal.vue";
+    import ObSocialSharerModal
+        from "../../components/scroll-hud/components/social-sharer/components/social-sharer-modal.vue";
 
     export default {
         components: {
-            ObPets},
+            ObPets
+        },
         name: 'ob-faq',
         methods: {
             onUserWantsToShare() {
                 this.openShareModal();
             },
             openShareModal() {
-               this.$modal.open({
+                this.$modal.open({
                     component: ObSocialSharerModal
                 })
             }

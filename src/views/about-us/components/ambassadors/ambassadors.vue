@@ -8,7 +8,6 @@
 
 <script>
     import isaacPhoto from './assets/isaac.jpg';
-    import rubenPhoto from './assets/ruben.jpg';
     import edwinPhoto from './assets/edwin.png';
     import chrisPhoto from './assets/chris.png';
     import ashwinPhoto from './assets/ashwin.png';
@@ -31,16 +30,6 @@
                             facebook: 'https://www.facebook.com/IsaacHernandezOficial/'
                         },
                         description: this.$t('ambassadors.isaac_desc'),
-                    },
-                    {
-                        name: this.$t('ambassadors.ruben_name'),
-                        photo: rubenPhoto,
-                        links: {
-                            website: 'https://bitsensor.io',
-                            twitter: 'https://twitter.com/EnableBitSensor',
-                            linkedin: 'https://www.linkedin.com/in/rubenvanvreeland/'
-                        },
-                        description: this.$t('ambassadors.ruben_desc'),
                     },
                     {
                         name: this.$t('ambassadors.edwin_name'),

@@ -14,7 +14,7 @@ const contactUs = () => import('./views/contact-us/contact-us.vue');
 const aboutUs = () => import('./views/about-us/about-us.vue');
 const manifesto = () => import('./views/manifesto/en/manifesto.vue');
 const faq = () => import('./views/faq/faq.vue');
-const jobs = () => import('./views/jobs/jobs.vue');
+const angel = () => import('./views/angel/angel.vue');
 const vulnerabilityReport = () => import('./views/vulnerability-report/vulnerability-report.vue');
 const getApp = () => import('./views/get-app/get-app.vue');
 
@@ -68,7 +68,7 @@ const router = new Router({
                     name: 'home',
                     component: home,
                     meta: {
-                        title: 'Home | Openbook'
+                        title: 'Home | Okuna'
                     }
                 },
                 {
@@ -76,7 +76,7 @@ const router = new Router({
                     name: 'about-us',
                     component: aboutUs,
                     meta: {
-                        title: 'About us | Openbook'
+                        title: 'About us | Okuna'
                     }
                 },
                 {
@@ -84,7 +84,7 @@ const router = new Router({
                     name: 'contact-us',
                     component: contactUs,
                     meta: {
-                        title: 'Contact us | Openbook'
+                        title: 'Contact us | Okuna'
                     }
                 },
                 {
@@ -92,15 +92,15 @@ const router = new Router({
                     name: 'faq',
                     component: faq,
                     meta: {
-                        title: 'FAQ | Openbook'
+                        title: 'FAQ | Okuna'
                     }
                 },
                 {
-                    path: 'jobs',
-                    name: 'jobs',
-                    component: jobs,
+                    path: 'angel',
+                    name: 'angel',
+                    component: angel,
                     meta: {
-                        title: 'Jobs | Openbook'
+                        title: 'Angel | Okuna'
                     }
                 },
                 {
@@ -108,7 +108,7 @@ const router = new Router({
                     name: 'getapp',
                     component: getApp,
                     meta: {
-                        title: 'Get App Link | Openbook'
+                        title: 'Get App Link | Okuna'
                     }
                 },
                 {
@@ -116,7 +116,7 @@ const router = new Router({
                     name: 'vulnerability-report',
                     component: vulnerabilityReport,
                     meta: {
-                        title: 'Report vulnerability | Openbook'
+                        title: 'Report vulnerability | Okuna'
                     }
                 },
                 {
@@ -124,7 +124,7 @@ const router = new Router({
                     name: 'manifesto',
                     component: manifesto,
                     meta: {
-                        title: 'Manifesto | Openbook'
+                        title: 'Manifesto | Okuna'
                     }
                 },
                 {

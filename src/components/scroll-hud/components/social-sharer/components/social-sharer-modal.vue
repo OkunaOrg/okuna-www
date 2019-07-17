@@ -1,11 +1,11 @@
 <template>
     <div>
-        <social-sharing url="https://www.openbook.social"
+        <social-sharing url="https://www.okuna.io"
                         :title="$t('hud.share_title')"
                         :description="$t('hud.share_description')"
                         :quote="$t('hud.share_quote')"
-                        hashtags="openbook,socialnetwork,privacy"
-                        twitter-user="OpenbookSocial"
+                        hashtags="Okuna,socialnetwork,privacy"
+                        twitter-user="OkunaSocial"
                         inline-template>
             <div class="columns is-mobile is-multiline">
                 <network network="twitter" class="column is-12 social-sharing-item">

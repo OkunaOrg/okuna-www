@@ -26,8 +26,8 @@
             </div>
             <div class="column is-10">
                 <strong>{{ $t('address.email') }}</strong><br/>
-                <a href="mailto:info@open-book.org">
-                    info@open-book.org
+                <a href="mailto:info@okuna.io">
+                    info@okuna.io
                 </a>
             </div>
             <div class="column is-2">
@@ -37,8 +37,8 @@
             </div>
             <div class="column is-10">
                 <strong>{{ $t('address.website') }}</strong><br/>
-                <a href="https://www.openbook.social" target="_blank" rel="noopener noreferrer">
-                    www.openbook.social
+                <a href="https://www.okuna.io" target="_blank" rel="noopener noreferrer">
+                    www.okuna.io
                 </a>
             </div>
         </div>

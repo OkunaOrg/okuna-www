@@ -9,7 +9,7 @@
                                 <div class="navbar-item">
                                     <router-link :to="'home'" class="navbar-item is-size-3">
                                         <a href="#" class="footer-logo"></a><span class="footer-logo-separator"></span>
-                                        <h3 v-html="$t('global.openbook')"></h3>
+                                        <h3 v-html="$t('global.okuna')" class="has-text-logo" style="padding-top: 9px"></h3>
                                     </router-link>
                                 </div>
                             </div>
@@ -46,8 +46,8 @@
                                         </router-link>
                                     </li>
                                     <li>
-                                        <router-link :to="'jobs'" class="navbar-item" active-class="is-active">{{
-                                            $t('header.jobs') }}
+                                        <router-link :to="'angel'" class="navbar-item" active-class="is-active">{{
+                                            $t('header.angel') }}
                                         </router-link>
                                     </li>
                                     <li>
@@ -154,17 +154,6 @@
                                         </div>
                                     </div>
                                 </a>
-                                <a href="https://www.facebook.com/openbooksocial/" class="is-flex is-vcentered"
-                                   target="_blank" rel="noopener noreferrer">
-                                    <div class="columns is-mobile">
-                                        <div class="column">
-                                            <span class="icon"><i class="fab fa-facebook-f"></i></span>
-                                        </div>
-                                        <div class="column">
-                                            {{ $t('footer.facebook') }}
-                                        </div>
-                                    </div>
-                                </a>
                             </li>
                         </ul>
                     </div>
@@ -178,7 +167,7 @@
                         <div class="level has-padding-2x">
                             <div class="level-left">
                                 <div class="content has-text-centered-mobile">
-                                    © {{ $t('footer.the_ob_organization') }} | <a
+                                    {{ $t('footer.the_ob_organization') }} ™️ | <a
                                     href="https://www.iubenda.com/privacy-policy/91224954"
                                     class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank"
                                     rel="noopener noreferrer">{{ $t('footer.privacy_policy') }} </a>
@@ -228,6 +217,7 @@
         height: 25px;
         background: #fafafa;
         margin-right: 8px;
+        margin-left: 8px;
     }
 
 </style>

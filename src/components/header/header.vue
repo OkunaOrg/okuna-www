@@ -6,8 +6,9 @@
                 <div class="navbar-brand">
                     <router-link to="home" class="navbar-item is-size-4 has-text-primary">
                         <a href="#" class="header-logo"></a>
-                        <span class="header-logo-separator"></span><span v-html="$t('global.openbook')"
-                                                                         class="has-text-circular"></span>
+                        <span class="header-logo-separator"></span>
+                        <span v-html="$t('global.okuna')"
+                              class="has-text-logo is-size-5" style="padding-top: 5px"></span>
                     </router-link>
                     <ob-hamburger></ob-hamburger>
                 </div>
@@ -25,15 +26,17 @@
                         <router-link :to="'contact-us'" class="navbar-item"
                                      active-class="is-active is-active--contact-us">{{ $t('header.contact_us') }}
                         </router-link>
-                        <router-link :to="'jobs'" class="navbar-item" active-class="is-active is-active--jobs">{{
-                            $t('header.jobs') }}
-                        </router-link>
                         <router-link :to="'faq'" class="navbar-item" active-class="is-active is-active--faq">{{
                             $t('header.faq') }}
                         </router-link>
-                        <a href="https://medium.com/openbook-org" rel="noopener noreferrer" class="navbar-item" target="_blank"
+                        <router-link :to="'angel'" class="navbar-item" active-class="is-active is-active--angel">{{
+                            $t('header.angel') }}
+                        </router-link>
+                        <a href="https://medium.com/openbook-org" rel="noopener noreferrer" class="navbar-item"
+                           target="_blank"
                         >{{ $t('header.blog') }}</a>
-                        <a href="https://shwca.se/openbooksocial" rel="noopener noreferrer" class="navbar-item" target="_blank"
+                        <a href="https://shwca.se/openbooksocial" rel="noopener noreferrer" class="navbar-item"
+                           target="_blank"
                         >Press</a>
                     </div>
                 </div>
@@ -80,7 +83,7 @@
                 color: #980df9 !important;
             }
 
-            &--jobs {
+            &--angel {
                 color: #6ace8f !important;
             }
 
