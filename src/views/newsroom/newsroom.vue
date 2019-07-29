@@ -250,7 +250,7 @@
                 <div class="content is-medium">
                     <p>
                         Missing something? Contact <a
-                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">Lambrecht Wessels</a>.
+                        href="mailto:joel@okuna.io?subject=Press%20inquiry&body=">Joel Hernandez</a>.
                     </p>
                 </div>
             </div>
