@@ -201,7 +201,7 @@
                                 </div>
                             </div>
                         </router-link>
-                        <a href="https://medium.com/openbook-org" rel="noopener noreferrer" target="_blank"
+                        <a href="https://medium.com/okuna" rel="noopener noreferrer" target="_blank"
                            class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
@@ -229,7 +229,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="https://shwca.se/openbooksocial" rel="noopener noreferrer" target="_blank"
+                        <a href="https://shwca.se/okuna" rel="noopener noreferrer" target="_blank"
                            class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
@@ -267,7 +267,7 @@
                             <div class="column is-12">
                                 <div class="columns is-mobile is-vcentered">
                                     <div class="column">
-                                        <a href="https://twitter.com/OpenbookSocial" class="is-flex is-vcentered"
+                                        <a href="https://twitter.com/OkunaSocial" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -279,7 +279,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://github.com/OpenbookOrg" class="is-flex is-vcentered"
+                                        <a href="https://github.com/OkunaOrg" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -291,31 +291,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://www.reddit.com/user/openbook_org" class="is-flex is-vcentered"
-                                           target="_blank" rel="noopener noreferrer">
-                                            <div class="columns is-mobile">
-                                                <div class="column">
-                                            <span class="icon">
-                                                <i class="fab fa-reddit-alien"></i>
-                                            </span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="column">
-                                        <a href="https://gitter.im/openbook-org/Lobby" class="is-flex is-vcentered"
-                                           target="_blank" rel="noopener noreferrer">
-                                            <div class="columns is-mobile">
-                                                <div class="column">
-                                            <span class="icon">
-                                                <i class="fab fa-gitter"></i>
-                                            </span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="column">
-                                        <a href="https://www.producthunt.com/posts/openbook"
+                                        <a href="https://www.producthunt.com/posts/okuna/"
                                            class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
@@ -326,7 +302,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://www.linkedin.com/openbookorg/" class="is-flex is-vcentered"
+                                        <a href="https://www.linkedin.com/okuna/" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -336,7 +312,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://www.facebook.com/openbooksocial/" class="is-flex is-vcentered"
+                                        <a href="https://www.facebook.com/okunasocial/" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
