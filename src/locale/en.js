@@ -229,7 +229,7 @@ export const messages = {
             recaptcha_authorization: 'Do you authorize us to load Google Recaptcha and therefore allow Google to collect this information?',
             recaptcha_authorization_yes: 'Yes, I authorize you to load Google Recaptcha',
             or: 'or',
-            recaptcha_authorization_no: 'No, send an e-mail to info@okuna.org',
+            recaptcha_authorization_no: 'No, send an e-mail to info@okuna.io',
             tick_box: 'Please tick this box',
             clear_form: 'Clear form',
             submit: 'Submit'
@@ -241,7 +241,7 @@ export const messages = {
             all_skills: 'Technology, design, marketing, finance, media, you name it.',
             need_your_help: 'Do you believe in <span class="has-text-primary"><strong class="has-text-primary">Okuna</strong></span>, a better future for social networks and humanity as a whole?',
             send_cv: 'Send us your CV and a motivation letter to  <a\n' +
-                '                        href="mailto:jobs@open-book.org?subject=Job%20Application">jobs@open-book.org</a>.',
+                '                        href="mailto:joel@okuna.io?subject=Job%20Application">joel@okuna.io</a>.',
             look_forward: 'We look forward to meeting you !',
             colleagues: 'Who will you be working with?',
             meet_the_team: 'Meet the team'
@@ -252,7 +252,7 @@ export const messages = {
             description_title: 'Be the change you want to see in the world.',
             description: 'We\'re looking for an Angel investor and mentor to join the team.',
             description2: 'Want to help build an ethical, friendly and secure social media platform for a brighter tomorrow?',
-            description3: '<strong> Send us an e-mail at <a href="mailto:angel@okuna.io?subject=Angel">angel@okuna.io</a></strong>',
+            description3: '<strong> Send us an e-mail at <a href="mailto:joel@okuna.io?subject=Angel">joel@okuna.io</a></strong>',
         },
         faq: {
             title: 'FAQ',
@@ -293,7 +293,7 @@ export const messages = {
             hi: 'Hi there!',
             any_questions: 'We hope you find everything you need below.\n' +
                 '                        ​​If you have any questions, would like to schedule an interview or require extra material, feel free to contact Lambrecht Wessels at <a\n' +
-                '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">lambrecht@open-book.org</a>.',
+                '                        href="mailto:joel@okuna.io?subject=Press%20inquiry&body=">joel@okuna.io</a>.',
             happy_to_help: 'We’re happy to help.',
             jump_to: 'Jump to',
             press_kit: 'Press kit',
@@ -304,7 +304,7 @@ export const messages = {
             home_press: 'Home to our press releases.',
             go_to_newsroom: 'Go to newsroom',
             missing_something: 'Missing something? Contact <a\n' +
-                '                        href="mailto:lambrecht@open-book.org?subject=Press%20inquiry&body=">Lambrecht Wessels</a>.'
+                '                        href="mailto:joel@okuna.io?subject=Press%20inquiry&body=">Joel Hernandez</a>.'
         },
         manifesto: {
             Manifesto: "Manifesto",
