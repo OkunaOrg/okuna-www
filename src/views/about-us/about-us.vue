@@ -33,7 +33,7 @@
             <div>
                 <div class="columns is-centered">
                     <div class="column intro-text content">
-                        <p class="is-size-4 small-container padding-bottom-1x"
+                        <p class="is-size-4 small-container padding-bottom-1x has-text-weight-bold"
                            v-html="$t('about_us.description')">
                         </p>
                     </div>
@@ -74,24 +74,6 @@
                     </h4>
                 </div>
                 <ob-team-members/>
-            </div>
-        </section>
-        <section class="hero is-white">
-            <div class="hero-body has-text-centered">
-                <div class="container">
-                    <div class="columns is-centered is-vcentered">
-                        <div class="column">
-                            <h3 class="title is-size-4">
-                                {{ $t('about_us.work_with_us') }}
-                            </h3>
-                        </div>
-                        <div class="column">
-                            <router-link :to="'jobs'" class="button is-rainbow is-rounded is-medium">
-                                {{ $t('about_us.visit_jobs_page') }}
-                            </router-link>
-                        </div>
-                    </div>
-                </div>
             </div>
         </section>
         <section class="section">
