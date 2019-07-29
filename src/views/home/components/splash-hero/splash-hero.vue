@@ -3,31 +3,24 @@
         <div class="hero-body has-padding-bottom-1x-mobile">
             <div class="container">
                 <div class="columns is-centered is-vcentered">
-                    <div class="column splash-browser has-position-relative">
-                        <figure class="has-position-absolute animated fadeInDown is-z-2 front-mockup">
-                            <img :src="whiteMockupImage">
-                        </figure>
-                        <figure class="has-position-relative animated fadeInLeft is-z-1 back-mockup">
-                            <img :src="blackMockupImage">
-                        </figure>
-                    </div>
                     <div
                         class="column has-text-centered has-padding-top-2x-mobile has-background-white is-z-2 has-position-relative">
                         <div class="columns is-centered is-mobile">
-                            <div class="column" style="max-width: 450px">
-                                <h1 class="is-size-3-mobile is-size-1 has-text-weight-bold"
-                                    v-html="$t('splash_hero.hello_world')">
+                            <div class="column content" style="max-width: 450px">
+                                <h1 class="is-size-3-mobile is-size-1" style="font-weight: normal !important;">
+                                    <strong>Open</strong>book is now <strong class="has-text-logo">Okuna</strong>.
                                 </h1>
-                                <p class="is-size-4 padding-top-1x"
-                                   v-html="$t('splash_hero.we_are_ob')">
+                                <h2>Why?</h2>
+                                <p>
+                                    <a href="https://euipo.europa.eu/eSearch/#details/trademarks/018075708" rel="noopener noreferrer" class="has-text-underlined" target="_blank">Because as it turns out, Facebook owns the word Book.</a>
                                 </p>
                                 <div class="has-padding-2x">
-                                    <button class="button is-rainbow is-rounded" v-scroll-to="'#beta-signup'">
+                                    <a href="https://www.okuna.io" rel="noopener noreferrer" class="button is-rainbow is-rounded">
                                         <span class="icon">
-                                            <i class="fas fa-heart"></i>
+                                            <i class="fas fa-link"></i>
                                         </span>
-                                        <span>Sign up for beta</span>
-                                    </button>
+                                        <span>Go to okuna.io</span>
+                                    </a>
                                 </div>
                             </div>
                         </div>
@@ -82,10 +75,10 @@
     export default {
         name: 'ob-splash-hero',
         mounted() {
-            this.initHello();
+            //this.initHello();
         },
         destroyed() {
-            this.typewriter.stop();
+            //this.typewriter.stop();
         },
         data() {
             return {
@@ -94,31 +87,8 @@
             }
         },
         methods: {
-            initHello() {
+            startRedirect() {
                 // This library should have been added in main.js
-                const Typewriter = window['Typewriter'];
-
-                const helloSubjects = [
-                    this.$i18n.t('splash_hero.world'),
-                    this.$i18n.t('splash_hero.friends'),
-                    this.$i18n.t('splash_hero.family'),
-                    this.$i18n.t('splash_hero.grandma'),
-                ];
-
-                const helloSubject = document.querySelector('#hello-subject');
-
-                const typewriter = this.typewriter = new Typewriter(helloSubject, {
-                    loop: true
-                });
-
-                helloSubjects.forEach((helloSubject) => {
-                    const helloSubjectText = `${helloSubject}!`;
-                    typewriter.typeString(helloSubjectText)
-                        .pauseFor(2500)
-                        .deleteAll();
-                });
-
-                typewriter.start();
 
             }
         }

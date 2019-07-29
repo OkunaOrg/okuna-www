@@ -72,62 +72,6 @@ const router = new Router({
                     }
                 },
                 {
-                    path: 'about-us',
-                    name: 'about-us',
-                    component: aboutUs,
-                    meta: {
-                        title: 'About us | Okuna'
-                    }
-                },
-                {
-                    path: 'contact-us',
-                    name: 'contact-us',
-                    component: contactUs,
-                    meta: {
-                        title: 'Contact us | Okuna'
-                    }
-                },
-                {
-                    path: 'faq',
-                    name: 'faq',
-                    component: faq,
-                    meta: {
-                        title: 'FAQ | Okuna'
-                    }
-                },
-                {
-                    path: 'angel',
-                    name: 'angel',
-                    component: angel,
-                    meta: {
-                        title: 'Angel | Okuna'
-                    }
-                },
-                {
-                    path: 'getapp',
-                    name: 'getapp',
-                    component: getApp,
-                    meta: {
-                        title: 'Get App Link | Okuna'
-                    }
-                },
-                {
-                    path: 'vulnerability-report',
-                    name: 'vulnerability-report',
-                    component: vulnerabilityReport,
-                    meta: {
-                        title: 'Report vulnerability | Okuna'
-                    }
-                },
-                {
-                    path: 'manifesto',
-                    name: 'manifesto',
-                    component: manifesto,
-                    meta: {
-                        title: 'Manifesto | Okuna'
-                    }
-                },
-                {
                     path: '*',
                     redirect: `/${browserLang}/home`
                 }

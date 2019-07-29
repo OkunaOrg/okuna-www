@@ -1,10 +1,6 @@
 <template>
     <div id="app" v-bind:class="{'is-android': isAndroid}">
-        <ob-mobile-menu></ob-mobile-menu>
-        <ob-header></ob-header>
         <router-view/>
-        <ob-footer></ob-footer>
-        <ob-scroll-hud></ob-scroll-hud>
     </div>
 </template>
 

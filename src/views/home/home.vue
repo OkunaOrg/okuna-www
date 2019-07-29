@@ -1,49 +1,6 @@
 <template>
     <div class="animated fadeIn">
         <ob-splash-hero></ob-splash-hero>
-        <ob-privacy></ob-privacy>
-        <ob-personal></ob-personal>
-        <ob-honesty></ob-honesty>
-        <ob-secure></ob-secure>
-        <ob-easy></ob-easy>
-        <ob-ads-free></ob-ads-free>
-        <ob-community></ob-community>
-        <ob-good-for-planet></ob-good-for-planet>
-        <ob-signup id="beta-signup"></ob-signup>
-        <section class="hero is-white">
-            <div class="hero-body has-text-centered">
-                <div class="container">
-                    <div class="columns is-centered is-vcentered">
-                        <div class="column">
-                            <h3 class="title is-size-4">
-                                {{ $t('home.want_to_know_more') }}
-                            </h3>
-                        </div>
-                        <div class="column">
-                            <router-link to="manifesto" class="button is-rainbow is-rounded is-medium">
-                                {{ $t('home.read_manifesto') }}
-                            </router-link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="section">
-            <div class="container">
-                <ob-quotes></ob-quotes>
-            </div>
-        </section>
-        <ob-meet-the-team></ob-meet-the-team>
-        <section class="section">
-            <div class="container">
-                <div class="content has-text-centered padding-bottom-2x">
-                    <p class="is-size-5 padding-bottom-3x has-text-grey-light">
-                        {{ $t('home.featured_in') }}
-                    </p>
-                </div>
-                <ob-featured-on></ob-featured-on>
-            </div>
-        </section>
     </div>
 </template>
 
