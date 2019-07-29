@@ -42,7 +42,7 @@ export const messages = {
         },
         ads_free: {
             title: 'Ethically sustained',
-            description: 'The network is sustained through an optional subscription offering access to extra reactions, animated avatars, themes and more.'
+            description: 'The network is sustained through an optional subscription offering access to extra reactions, animated avatars, themes and more. Absolutely zero ads and monetisation of personal information.'
         },
         currency: {
             title: 'A digital currency',
@@ -65,7 +65,7 @@ export const messages = {
             friends: 'friends',
             family: 'family',
             grandma: 'grandma',
-            we_are_ob: 'We\'re <strong class="has-text-logo is-size-5">Okuna</strong>, a brighter social network.',
+            we_are_ob: 'We\'re <strong class="has-text-logo is-size-5">Okuna</strong>, an ethical social network for a brighter tomorrow.',
             share: 'Share',
             notify_me: 'Support us'
         },
@@ -147,7 +147,7 @@ export const messages = {
             subtitle: 'Technology for a <span class="has-text-primary">better tomorrow</span>.',
             description: 'We\'re a team of engineers, designers, hackers, activists and information-security experts building human-centric, responsible, sustainable and fair technology for a more prosperous tomorrow.',
             description_founded: 'We do this by putting humanity\'s best qualities such as kindness, compassion, tolerance, empathy and cooperation at the core of everything we do.',
-            description_funded: 'We successfully <a href="https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">crowd-funded</a> <span class="has-text-circular">Okuna</span> on September 2018 through and is currently in alpha testing with 3,500+ members.',
+            description_funded: 'We successfully <a class="has-text-underlined" href="https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne" rel="noopener noreferrer">crowd-funded</a> <span class="has-text-logo">Okuna</span> on September 2018 and is currently in alpha testing with 3,500+ members.',
             accomplish_how: 'Why a social network?',
             read_our_manifesto: 'Read our manifesto',
             humans_behind_ob: 'The people',
