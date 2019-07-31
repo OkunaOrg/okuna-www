@@ -1,0 +1,161 @@
+{
+  "manifesto": {
+    "common": {
+      "reading_time": "Reading time",
+      "reading_time_minutes": "minutes"
+    },
+    "titles": {
+      "main": "Manifesto",
+      "toc": "Table of Contents",
+      "why": "Why?",
+      "how": "How?",
+      "honest": "1. Honest.",
+      "customizable": "2. Customisable.",
+      "secure": "3. Privacy-friendly and secure",
+      "explicit_consent": "Explicit and informed consent",
+      "safe_apps": "Safe applications",
+      "privacy_by_default": "Privacy by default",
+      "easy": "4. Easy-peasy.",
+      "research": "5. Research.",
+      "revenue": "6. Clean revenue."
+    },
+    "subtitles": {
+      "main": "The problem, the solution, the next steps.",
+      "the_reason": "The reason we're building yet another social network.",
+      "how_are_we_creating": "How are we creating a social network for a better tomorrow?"
+    },
+    "why": {
+      "awesome": "Social networks are awesome.",
+      "they_connect": "They connect us, help us share treasured moments with our loved ones and provide us with funny cat videos.",
+      "sadly_nowadays": "Sadly, nowadays social networks aren’t so much about connecting people, instead they are all about making as much money as possible out of people, no matter the consequences. For example the loss of privacy.",
+      "we_want_to_do_better": "We want to do better, which is exactly why at Okuna we’re doing things differently.",
+      "we_are_designing": "We're designing a social network with humanity's best qualities such as kindness, compassion, tolerance, charity, empathy and cooperation at its core.",
+      "a_brighter_social_network": "A brighter social network."
+    },
+    "how": {
+      "open_source": "All of our code is <strong>open-source</strong>. This means it’s free for everyone to see, reproduce and contribute to. We’re transparent about how the social network works.",
+      "30_percent": "We also believe in a better world for everyone. That's why we'll be giving <strong>30% of our profits towards making the world a better place</strong>, now and forever in partnership with <a href=\"https://founderspledge.com/\" rel=\"noreferrer noopener\">FoundersPledge</a>.",
+      "we_are_different": "Because we're all different and that's something to embrace and celebrate.",
+      "just_like_home": "You'll be able to craft an experience suited just for you. From changing the color of your timeline, adding cool extra widgets in your profile to choosing how you want to see content in your timeline, we want Okuna to feel familiar, friendly and cozy to you. Just like home.",
+      "build_Okuna_together": "And if there’s anything you’re missing on Okuna, let us know. We want to build Okuna together. We will create a special group where we encourage you to help us decide what we build next or what we should improve. Let’s build the best social experience ever, together.",
+      "privacy_and_security": "This is what initially drove us to build Okuna. The privacy and security of our users will always be at the core of everything we do. We don’t track anything you do, neither monetize your information nor share it without your explicit and informed consent.",
+      "how_does_this_translate": "How does this translate to a real-life scenario?",
+      "crystal_clear": "We make sure its always crystal clear what is being shared, so no pop-ups or vague descriptions. You can also inspect it yourself, just to be sure.",
+      "will_be_reviewed": "All applications will be reviewed by us. We will make sure they:",
+      "apps_will": {
+        "only_request": "only request the <strong>needed</strong> information",
+        "exact_location_of_data": "have the <strong>exact</strong> location of your data available for you, <strong>at all times</strong>",
+        "delete": "delete <strong>all</strong> your information if you’d revoke the permission",
+        "emergency_plan": "have an <strong>emergency plan</strong> in case of a data leak, and will <strong>notify us/you</strong> immediately if that were to happen"
+      },
+      "once_they_meet": "Once they meet these strict guidelines they will have a badge below their logo. On your personal dashboard you can pinpoint the exact locations of your shared data, revoke application’s access and best of all, request deletion.",
+      "optional_disabled_by_default": "All optional data sharing will be disabled by default, and it is up to you if you want to give that application more of your data instead of the other way around.",
+      "we_will_research": "We will continuously research and develop new ways to improve your privacy and security.",
+      "technologies": "Some examples of the technology we'll be researching and developing:",
+      "technologies_list": {
+        "crypto_enforced": "Cryptographically enforced data sharing policies",
+        "e2e": "End to end encryption, even on the browser",
+        "public_key_crypto": "Public key cryptography on the browser",
+        "crypto_algo": "Post-quantum cryptography algorithms and protocols"
+      },
+      "generally_speaking": "Generally speaking, the less we know about you and the more you know about us, the better.",
+      "smooth_transition": "You’ve probably put a tremendous amount of time (and data) into your existing social networks already. We aim to make the transition as smooth as possible.",
+      "import_your_data": "That's why we'll be building tools to import your data from existing social networks<sup>1</sup>. Think no more than 3 steps.",
+      "research_1": "While the intial drive for Okuna was building a privacy-friendly social network, the complications of existing social networks span to numerous other subjects. Fear of missing out, digital social status, discrimination, digital mobbing, censorship and more.",
+      "research_2": "There's a lot of research on the subjects, unfortunately until now only a few players had the power to do something with it. Not anymore.",
+      "research_3": "We're designing the platform with existing research in mind and experimenting with radical new concepts to tackle some of the previously mentioned issues.",
+      "research_4": "We can't promise our solutions will work, we can however promise that aided by research and open-dialogue, we'll keep trying until they do.",
+      "no_ads": "Our business model is not and will never be advertisement. Ever.",
+      "okuna_gold": "Our revenue model is an optional subscription called <span class=\"has-text-circular\"><strong>Okuna</strong> Gold</span> offering access to more reactions, themes and customization options.",
+      "digital_currency": "In the future, we'll also introduce a digital currency used to support content creators, subscribe to publishers, buy and sell goods and services and more.",
+      "currency_article": "You can read all about this currency in <a class=\"has-text-underlined\" href=\"https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\">this article (6 mins approx. reading time)</a>"
+    },
+    "examples": {
+      "common": {
+        "btn_continue": "Continue",
+        "btn_cancel": "Cancel",
+        "btn_back": "Back",
+        "btn_got_it": "Got it!",
+        "required": "(required)",
+        "success": "Success",
+        "last_item": " and",
+        "open_list": "Open list",
+        "open_image": "Open image"
+      },
+      "title": "Example",
+      "normally": "This is what data sharing normally looks like.",
+      "public_wifi": "Let’s say you want to connect to a public WiFi hotspot , traditionally a window like the one below appears in your computer with the following:",
+      "box_below": "The box below appears on your screen.",
+      "click": "(Go ahead, click around as you would normally)",
+      "can_receive_following_data": {
+        "public_profile": "public profile",
+        "friend_list": "friend list",
+        "friends": "friends",
+        "birthday": "birthday",
+        "likes": "likes",
+        "email": "email address",
+        "name": "name",
+        "profile_picture": "profile picture",
+        "age_range": "age range",
+        "gender": "gender",
+        "language": "language",
+        "country": "country",
+        "country_of_birth": "country of birth",
+        "other": "other public info"
+      },
+      "evilcorp": {
+        "before_you_can_enjoy": "Before you can enjoy of our free Wifi Hotspots you must continue with EvilCorp.",
+        "continue": "Continue with EvilCorp",
+        "will_receive": "<strong>WiFi Hotspots App</strong> will receive:",
+        "will_receive_list": "your {requested_data}.",
+        "public_profile_includes": "Your public profile includes: {public_info}.",
+        "edit": "Edit this",
+        "shared_the_info": "The social network has now shared your information with the application.",
+        "restart": "Restart example",
+        "descriptions": {
+          "public_profile": "John Doe, profile picture, 33+ years old, male and other public info",
+          "friend_list": "Mike Chowder, Barbara Lamb and 590 others.",
+          "birthday": "January, 12, 1990",
+          "likes": "The Daily Show, NBC and 978 others",
+          "email_address": "john@doe.com"
+        }
+      },
+      "congrats": "Congrats! You just shared your personal information with a WiFi hotspot!",
+      "do_you_know": "Do you know what data you just shared with the application?",
+      "hovered_icon": "If you hovered over the “i” icon for example, you may have noticed it says:",
+      "quote": "\"Your public profile includes name, profile picture, age range, gender, language, country and <i><strong>\"other public info\"</i></strong>?\"",
+      "what_qualifies": "What qualifies as <i>\"other public info\"</i>? And why would a WiFi hotspot want all this information from you? Will it serve you faster WiFi based on your gender or your age? And what’s going to happen with your data once they have it?",
+      "people_share": "People share more of their information that they’re initially aware of and once the data has been shared, there’s no going back.",
+      "how_we_do_it": "Here’s how we’re doing it:",
+      "awesome_music_app": "Let's say now you downloaded the awesome music app everyone has been recommending to you. As soon as you open the app, the box below shows up.",
+      "songipy": {
+        "prompt": "In order to use Songipy you must continue with Okuna.",
+        "continue": "Continue with Okuna",
+        "safe_to_use": "This application is safe to use.",
+        "strict_policy": "It has met our strict privacy and security policies.",
+        "learn_more": "Learn more",
+        "in_order_to_continue": "In order to continue, <strong>Songipy</strong> requires your {required_data}.",
+        "optionally": "<strong>Optionally</strong>, it would also like to access your {optional_data}.",
+        "edit_optional_data": "Edit shared optional data",
+        "inspect": "Inspect shared data",
+        "descriptions": {
+          "name": "Jules Winnfield",
+          "email": "badmf@pfiction.com",
+          "gender": "male",
+          "language": "English",
+          "country": "US",
+          "birthday": "25-3-1997"
+        },
+        "okuna_has_shared": "Okuna has now shared your information with Songipy.",
+        "restart": "Restart prototype",
+        "safe_app_modal": "<div class=\"content\"><p>In the non-prototype version, this will redirect you to a page with detailed information on secure applications.</p><p>Brifly put, secure applications are applications that don't abuse the data sharing system, allow the deletion of your data from their systems and know at all times where your data is.</p><p>More information about this follows below.</p></div>",
+        "list_modal": "In the non-prototype version this would open a list with the full list of your {data_name}."
+      },
+      "did_you_spot": "Did you spot the differences?",
+      "most_important_ones": "Here are the most important ones."
+    },
+    "gdpr_footnote": "[1] With the new GDPR regulation, social networks must allow it’s users to do so now.",
+    "still_have_questions": "Still have questions?",
+    "visit_faq": "Visit our FAQ"
+  }
+}
