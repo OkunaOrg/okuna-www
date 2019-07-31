@@ -8,10 +8,10 @@
                             <div class="columns is-centered">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
-                                        {{ $t('manifesto.Manifesto') }}
+                                        {{ $t('manifesto.titles.main') }}
                                     </h1>
                                     <h2 class="title is-size-2 manifesto-text has-text-centered-mobile">
-                                        {{ $t('manifesto.The_proble') }}
+                                        {{ $t('manifesto.subtitles.main') }}
                                     </h2>
                                 </div>
                             </div>
@@ -57,7 +57,7 @@
             <div class="hero-footer">
                 <div class="box is-shadowless">
                     <p class="has-text-centered">
-                        <span class="tag is-rainbow"> {{ $t('manifesto.Reading_ti') }}</span> &nbsp;&nbsp; 6 minutes
+                        <span class="tag is-rainbow"> {{ $t('manifesto.common.reading_time') }}</span> &nbsp;&nbsp; 6 {{ $t('manifesto.common.reading_time_minutes') }}
                     </p>
                 </div>
             </div>
@@ -66,65 +66,65 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <div class="has-text-centered">
-                        <h2 class="title is-3 is-spaced is-margin-top-small">{{ $t('manifesto.Table_of_c') }}</h2>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">{{ $t('manifesto.titles.toc') }}</h2>
                     </div>
                     <br/>
                     <ul>
                         <li>
                             <a href="#why" v-scroll-to="'#why'">
-                                {{ $t('manifesto.Why__') }}
+                                {{ $t('manifesto.titles.why') }}
                             </a>
                         </li>
                         <li>
                             <a href="#how" v-scroll-to="'#how'">
-                                {{ $t('manifesto.How__') }}
+                                {{ $t('manifesto.titles.how') }}
                             </a>
                             <ul>
                                 <li>
                                     <a href="#honest" v-scroll-to="'#honest'">
-                                        {{ $t('manifesto._Honest') }}
+                                        {{ $t('manifesto.titles.honest') }}
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#personal" v-scroll-to="'#personal'">
-                                        {{ $t('manifesto._Persona') }}
+                                        {{ $t('manifesto.titles.customizable') }}
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#privacyfriendly" v-scroll-to="'#privacyfriendly'">
-                                        {{ $t('manifesto._Privacy') }}
+                                        {{ $t('manifesto.titles.secure') }}
                                     </a>
                                     <ul>
                                         <li>
                                             <a href="#explicitconsent" v-scroll-to="'#explicitconsent'">
-                                                {{ $t('manifesto.Explicit_a') }}
+                                                {{ $t('manifesto.titles.explicit_consent') }}
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#safeapps" v-scroll-to="'#safeapps'">
-                                                {{ $t('manifesto.Safe_Appli') }}
+                                                {{ $t('manifesto.titles.safe_apps') }}
                                             </a>
                                         </li>
                                         <li>
                                             <a href="#privacydefault" v-scroll-to="'#privacydefault'">
-                                                {{ $t('manifesto.Privacy_by') }}
+                                                {{ $t('manifesto.titles.privacy_by_default') }}
                                             </a>
                                         </li>
                                     </ul>
                                 </li>
                                 <li>
                                     <a href="#easy" v-scroll-to="'#easy'">
-                                     {{ $t('manifesto._Easy') }}
+                                     {{ $t('manifesto.titles.easy') }}
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#fun" v-scroll-to="'#fun'">
-                                      {{ $t('manifesto._Fun') }}
+                                      {{ $t('manifesto.titles.research') }}
                                     </a>
                                 </li>
                                 <li>
                                     <a href="#revenue" v-scroll-to="'#revenue'">
-                                        {{ $t('manifesto._Our_Rev') }}
+                                        {{ $t('manifesto.titles.revenue') }}
                                     </a>
                                 </li>
                             </ul>
@@ -140,27 +140,27 @@
                         <div>
                             <span class="icon is-large" v-twemoji>🤔</span>
                         </div>
-                        <h2 class="title is-3 is-spaced is-margin-top-small">{{ $t('manifesto.Why__') }} </h2>
-                        <h4 class="subtitle is-5"> {{ $t('manifesto.The_reason') }}</h4>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">{{ $t('manifesto.titles.why') }} </h2>
+                        <h4 class="subtitle is-5"> {{ $t('manifesto.subtitles.the_reason') }}</h4>
                     </div>
                     <br/>
                     <p>
-                        <strong> {{ $t('manifesto.Social_net') }}</strong>
+                        <strong> {{ $t('manifesto.why.awesome') }}</strong>
                     </p>
                     <p>
-                        {{ $t('manifesto.They_conne') }}
+                        {{ $t('manifesto.why.they_connect') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.Sadly_now') }}
+                        {{ $t('manifesto.why.sadly_nowadays') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.We_want_to') }}
+                        {{ $t('manifesto.why.we_want_to_do_better') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.Okuna_will_have') }}.
+                        {{ $t('manifesto.why.we_are_designing') }}.
                     </p>
                     <p>
-                        <strong class="has-text-primary"> {{ $t('manifesto.honest_pe') }}</strong>
+                        <strong class="has-text-primary"> {{ $t('manifesto.why.a_brighter_social_network') }}</strong>
                     </p>
                 </div>
             </div>
@@ -172,171 +172,164 @@
                         <div>
                             <span class="icon is-large" v-twemoji>💡</span>
                         </div>
-                        <h2 class="title is-3 is-spaced is-margin-top-small">{{ $t('manifesto.How__') }}</h2>
-                        <h4 class="subtitle is-5">{{ $t('manifesto.How_will_w') }}</h4>
+                        <h2 class="title is-3 is-spaced is-margin-top-small">{{ $t('manifesto.titles.how') }}</h2>
+                        <h4 class="subtitle is-5">{{ $t('manifesto.subtitles.how_are_we_creating') }}</h4>
                     </div>
-                    <h3 id="honest">{{ $t('manifesto._Honest') }}</h3>
-                    <p>
-                        {{ $t('manifesto.all_of_our_code') }} <strong> {{ $t('manifesto.open_sourc') }}</strong> {{ $t('manifesto.this_means_') }}
-
-                    </p>
-                    <p v-html="$t('manifesto.additionally')">
+                    <h3 id="honest">{{ $t('manifesto.titles.honest') }}</h3>
+                    <p v-html="$t('manifesto.how.open_source')"></p>
+                    <p v-html="$t('manifesto.how.30_percent')">
                     </p>
                     <h3 id="personal">
-                        {{ $t('manifesto._Persona') }}
+                        {{ $t('manifesto.titles.customizable') }}
                     </h3>
                     <p>
-                        {{ $t('manifesto.Were_all_') }}
+                        {{ $t('manifesto.how.we_are_different') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.On_Openboo') }}
+                        {{ $t('manifesto.how.just_like_home') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.And_if_the') }}
+                        {{ $t('manifesto.how.build_Okuna_together') }}
                     </p>
                     <h3 id="privacyfriendly">
-                        {{ $t('manifesto._Privacy') }}
+                        {{ $t('manifesto.titles.secure') }}
                     </h3>
                     <p>
-                        {{ $t('manifesto.this_is_what_drove') }}
+                        {{ $t('manifesto.how.privacy_and_security') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.How_does_t') }}
+                        {{ $t('manifesto.how.how_does_this_translate') }}
                     </p>
-                    <h5> {{ $t('manifesto.Example') }}</h5>
+                    <h5> {{ $t('manifesto.examples.title') }}</h5>
                     <p>
-                        {{ $t('manifesto.This_is_wh') }}
+                        {{ $t('manifesto.examples.normally') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.Lets_say_') }}
+                        {{ $t('manifesto.examples.public_wifi') }}
 
                     </p>
                     <p>
-                        {{ $t('manifesto.The_box_be') }}
+                        {{ $t('manifesto.examples.box_below') }}
 
                     </p>
                     <p>
-                        <i>{{ $t('manifesto.Go_ahead') }}</i>
+                        <i>{{ $t('manifesto.examples.click') }}</i>
                     </p>
                     <ob-generic-data-sharing></ob-generic-data-sharing>
                     <p>
-                        {{ $t('manifesto.Congrats') }}
+                        {{ $t('manifesto.examples.congrats') }}
 
                     </p>
-                    <h5> {{ $t('manifesto.Do_you_kno') }}</h5>
+                    <h5> {{ $t('manifesto.examples.do_you_know') }}</h5>
                     <p>
-                        {{ $t('manifesto.If_you_hov') }}
+                        {{ $t('manifesto.examples.hovered_icon') }}
+                    </p>
+                    <p v-html="$t('manifesto.examples.quote')"></p>
+                    <p v-html="$t('manifesto.examples.what_qualifies')"></p>
+                    <p>
+                        {{ $t('manifesto.examples.people_share') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.your_public_profile') }} <i> <strong>{{ $t('manifesto.other_pub') }}</strong>"</i>
+                        {{ $t('manifesto.examples.how_we_do_it') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.what_qualifies') }} <i> {{ $t('manifesto.other_public_info') }}</i>  {{ $t('manifesto.and_why_wifi') }}
-                    </p>
-                    <p>
-                        {{ $t('manifesto.People_sha') }}
-                    </p>
-                    <p>
-                        {{ $t('manifesto.Heres_how') }}
-                    </p>
-                    <p>
-                        {{ $t('manifesto.Lets_say_2') }}
+                        {{ $t('manifesto.examples.awesome_music_app') }}
 
                     </p>
                     <p>
-                        <i>{{ $t('manifesto.Go_ahead') }}</i>
+                        <i>{{ $t('manifesto.examples.click') }}</i>
                     </p>
                     <ob-openbook-data-sharing></ob-openbook-data-sharing>
                     <p>
-                        {{ $t('manifesto.Did_you_sp') }}
+                        {{ $t('manifesto.examples.did_you_spot') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.Here_are_t') }}
+                        {{ $t('manifesto.examples.most_important_ones') }}
 
 
                     </p>
-                    <h5 id="explicitconsent">{{ $t('manifesto.explicit_n_informd') }}</h5>
+                    <h5 id="explicitconsent">{{ $t('manifesto.titles.explicit_consent') }}</h5>
                     <p>
-                        {{ $t('manifesto.We_make_su') }}
+                        {{ $t('manifesto.how.crystal_clear') }}
                     </p>
-                    <h5 id="safeapps"> {{ $t('manifesto.Safe_appli') }}</h5>
+                    <h5 id="safeapps"> {{ $t('manifesto.titles.safe_apps') }}</h5>
                     <p>
-                        {{ $t('manifesto.All_applic') }}
+                        {{ $t('manifesto.how.will_be_reviewed') }}
 
                     </p>
                     <ul>
-                        <li v-html="$t('manifesto.only_request_the')">
+                        <li v-html="$t('manifesto.how.apps_will.only_request')">
                         </li>
-                        <li v-html="$t('manifesto.have_the_exact')">
+                        <li v-html="$t('manifesto.how.apps_will.exact_location_of_data')">
                         </li>
-                        <li v-html="$t('manifesto.delete_all_your')">
+                        <li v-html="$t('manifesto.how.apps_will.delete')">
                         </li>
-                        <li v-html="$t('manifesto.have_an_emergency')">
+                        <li v-html="$t('manifesto.how.apps_will.emergency_plan')">
                         </li>
                     </ul>
                     <p>
-                        {{ $t('manifesto.Once_they_') }}
+                        {{ $t('manifesto.how.once_they_meet') }}
                     </p>
-                    <h5 id="privacydefault">{{ $t('manifesto.Privacy_by') }}</h5>
+                    <h5 id="privacydefault">{{ $t('manifesto.titles.privacy_by_default') }}</h5>
                     <p>
-                        {{ $t('manifesto.All_option') }}
-                    </p>
-                    <p>
-                        {{ $t('manifesto.We_will_co') }}
+                        {{ $t('manifesto.how.optional_disabled_by_default') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.Some_examp') }}
+                        {{ $t('manifesto.how.we_will_research') }}
+                    </p>
+                    <p>
+                        {{ $t('manifesto.how.technologies') }}
                     </p>
                     <ul>
                         <li>
-                            {{ $t('manifesto.Cryptograp') }}
+                            {{ $t('manifesto.how.technologies_list.crypto_enforced') }}
                         </li>
                         <li>
-                            {{ $t('manifesto.End_to_end') }}
+                            {{ $t('manifesto.how.technologies_list.e2e') }}
                         </li>
                         <li>
-                            {{ $t('manifesto.Public_key') }}
+                            {{ $t('manifesto.how.technologies_list.public_key_crypto') }}
                         </li>
                         <li>
-                            {{ $t('manifesto.Post_quant') }}
+                            {{ $t('manifesto.how.technologies_list.crypto_algo') }}
                         </li>
                     </ul>
                     <p>
-                        <strong>{{ $t('manifesto.Generally_') }}</strong>
+                        <strong>{{ $t('manifesto.how.generally_speaking') }}</strong>
                     </p>
-                    <h3 id="easy">  {{ $t('manifesto._Easy') }}</h3>
+                    <h3 id="easy">  {{ $t('manifesto.titles.easy') }}</h3>
                     <p>
-                        {{ $t('manifesto.Youve_pro') }}
+                        {{ $t('manifesto.how.smooth_transition') }}
                     </p>
-                    <p v-html="$t('manifesto.migrating_to_ob')"></p>
-                    <h3 id="fun">{{ $t('manifesto._Fun') }}</h3>
+                    <p v-html="$t('manifesto.how.import_your_data')"></p>
+                    <h3 id="fun">{{ $t('manifesto.titles.research') }}</h3>
                     <p>
-                        {{ $t('manifesto.Lets_not_') }}
-                    </p>
-                    <p>
-                        {{ $t('manifesto.Research') }}
+                        {{ $t('manifesto.how.research_1') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.Research_Embrace') }}
+                        {{ $t('manifesto.how.research_2') }}
                     </p>
                     <p>
-                        {{ $t('manifesto.Research_Solution') }}
+                        {{ $t('manifesto.how.research_3') }}
+                    </p>
+                    <p>
+                        {{ $t('manifesto.how.research_4') }}
                     </p>
                     <h3 id="revenue">
-                        {{ $t('manifesto._Our_Rev') }}
+                        {{ $t('manifesto.titles.revenue') }}
                     </h3>
                     <p>
-                        {{ $t('manifesto.Our_busine') }}
+                        {{ $t('manifesto.how.no_ads') }}
                     </p>
-                    <p v-html=" $t('manifesto.instead_our_revenue')">
+                    <p v-html=" $t('manifesto.how.okuna_gold')">
                     </p>
                     <p>
-                        {{ $t('manifesto.for_every_transaction') }}
+                        {{ $t('manifesto.how.digital_currency') }}
                     </p>
-                    <p v-html="$t('manifesto.you_can_read_it')">
+                    <p v-html="$t('manifesto.how.currency_article')">
                     </p>
                     <span class="is-size-7">
-                        {{ $t('manifesto._With_t') }}
+                        {{ $t('manifesto.gdpr_footnote') }}
                     </span>
                 </div>
             </div>
@@ -347,12 +340,12 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                {{ $t('manifesto.Still_have') }}
+                                {{ $t('manifesto.still_have_questions') }}
                             </h3>
                         </div>
                         <div class="column">
                             <router-link to="faq" class="button is-rainbow is-rounded is-medium">
-                                {{ $t('manifesto.Visit_our_') }}
+                                {{ $t('manifesto.visit_faq') }}
                             </router-link>
                         </div>
                     </div>
