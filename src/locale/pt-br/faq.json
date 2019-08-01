@@ -1,0 +1,31 @@
+{
+    "faq": {
+        "title": "FAQ",
+        "subtitle": "As perguntas mais frequentes.",
+        "office_dog": "Nosso escritório trabalha duro no trabalho.",
+        "jump_to": "Pule para",
+        "whos_paying": "Quem está pagando por tudo até agora?",
+        "is_distributed": "Okuna será descentralizado?",
+        "whos_paying_ans": "O projeto foi financiado pelo público com sucesso em setembro de 2018 e funciona com esses fundos desde então, juntamente com o apoio de nossos patrons.",
+        "want_to_help": "Eu quero ajudar agora, o que posso fazer?",
+        "want_to_help_ans": "Estamos felizes e gratos por você querer ajudar!",
+        "many_ways": "Há muitas maneiras que você pode ajudar agora.",
+        "ideas": "Aqui estão algumas idéias:",
+        "share_website": "Compartilhar o site em redes sociais",
+        "donate": "Doe no IndieGogo!",
+        "talk_to_friends": "Fale com seus amigos e familiares sobre nós",
+        "improve_website": "Se você é um desenvolvedor, pode nos ajudar a  <a\n                            href=\"https://github.com/OkunaOrg\"\n                            target=\"_blank\" rel=\"noopener noreferrer\">melhorar nosso site</a>.",
+        "let_us_know": "Se você tem uma ideia para a rede, pode <a href=\"/aindanaosei/contact-us\"\n                                                                            target=\"_blank\" rel=\"noopener noreferrer\">nos informar.</a>.",
+        "public_figure": "Se você é uma figura pública e gostaria de se tornar um embaixador,",
+        "contact_us": "contate-nos",
+        "looking_for_job": "Se você está procurando emprego e acredita que Okuna seria uma ótima opção para você,",
+        "visit_jobs": "visite nossa página de empregos",
+        "volunteer": "E, finalmente, se você gostaria de estar ainda mais envolvido, estamos formando uma rede de voluntários em todo o mundo para nos ajudar a espalhar a palavra.",
+        "interested": "Interessado?",
+        "contact_us_2": "Contate-nos",
+        "more_questions": "Tem outra pergunta?",
+        "send_us_message": "Envie-nos uma mensagem",
+        "why_not_decentralised": "Será que Okuna será descentralizada?",
+        "why_not_decentralised_ans": "<p>Queremos chegar lá eventualmente. Estamos analisando a abordagem do <a href=\"https://solid.mit.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">Solid MIT</a> (a do Tim Berners Lee) e estamos muito satisfeitos com isso até agora. </p> <p>Nossas primeiras versões, no entanto, serão centralizadas. </p> <p>Fazemos isso porque é mais fácil se concentrar em inovar nos recursos do produto e na experiência geral do usuário. Essas coisas determinarão se alcançaremos a base de membros necessária para enfrentar as redes sociais existentes. </p> <p>Se tivermos sucesso, o céu é o limite para o que podemos fazer em relação à descentralização.</p>"
+    }
+}

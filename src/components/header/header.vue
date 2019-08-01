@@ -40,6 +40,18 @@
                         >Press</a>
                     </div>
                 </div>
+                <div class="navbar-item select-language is-hidden-mobile">
+                    <b-dropdown>
+                        <div class="current-language" slot="trigger">
+                            <span >{{getCurrentLang($i18n.locale)}} <i class="fas fa-angle-down"></i></span>
+                        </div>
+                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'en' }" v-on:click="changeLocale('en')">English <i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'de' }" v-on:click="changeLocale('de')">Deutsch<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'fr' }" v-on:click="changeLocale('fr')">Français<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'hu' }" v-on:click="changeLocale('hu')">Magyar<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'pt-br' }" v-on:click="changeLocale('pt-br')">Português (Brasil)<i class="fas fa-check"></i></b-dropdown-item>
+                    </b-dropdown>
+                </div>
             </div>
         </nav>
     </header>
@@ -136,6 +148,8 @@
                         return 'English';
                     case 'nl':
                         return 'Nederlands';
+                    case 'gr':
+                        return 'Ελληνικά';
                     case 'es':
                         return 'Español';
                     case 'hu':
@@ -146,14 +160,15 @@
                         return 'Deutsch';
                     case 'no':
                         return 'Norsk';
+                    case 'pt-br':
+                        return 'Português (Brasil)'
                     default :
                         return 'English'
                 }
             },
             changeLocale(locale) {
                 const path = this.$router.currentRoute.path.split('/')[2];
-                // Temporal fix, $router.go doesn't work for some reason.
-                window.location.href = `/${locale}/${path}`;
+                this.$router.push(`/${locale}/${path}`);
             }
         }
     }

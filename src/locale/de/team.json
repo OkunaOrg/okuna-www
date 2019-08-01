@@ -1,0 +1,34 @@
+{
+    "team_members": {
+        "joel_title": "Gründer & Chef",
+        "joel_desc": "Aktivistin für Datenschutz und Sicherheit, Softwareentwicklerin, Designerin von digitalen Produkten, Open Sourcerer, The Next Web Top 500 junge Talente, Mensch.",
+        "jaya_title": "Operations Sensei",
+        "jaya_desc": "Weltweit anerkannter Experte für Informationssicherheit, Redner zum Thema rechtmäßiges Abfangen, Quanten-Computing, Gegenüberwachung und Kryptographie.",
+        "phil_title": "Kryptographie Zauberer",
+        "phil_desc": "Kryptographie-Pionier, Erfinder von PGP, der am weitesten verbreiteten E-Mail-Verschlüsselungssoftware der Welt, Internet Hall of Fame Mitglied, Datenschutzaktivist.",
+        "lambrecht_title": "Medien Maestro",
+        "lambrecht_desc": "Experte für Sicherheit und internationale Beziehungen, Konfliktanalytiker, Friedensstifter, Medienforscher und -produzent, Menschenrechtsaktivist.",
+        "vincent_title": "Hacker in Residenz",
+        "vincent_desc": "Ethischer Hacker, Reverse-Engineer, Exploit-Entwickler, Sprecher, mag das Wort Cyber nicht, Cyber-Experte.",
+        "bas_title": "Senior Konzept Exorzist",
+        "bas_desc": "Verfechter nützlicher und sinnvoller Produkte, Zauberer für Benutzererfahrung, Zusammenarbeit mit zahlreichen internationalen Marken, Forscher, Hardware-Hacker.",
+        "shantanu_title": "Digitaler Zauberer",
+        "shantanu_desc": "Pragmatischer Softwareentwickler mit einem Gespür für die Entwicklung großartiger Produkte und Erfahrungen, Krypto-Geek, Bot-Hersteller, Befürworter der Einfachheit.",
+        "nathalie_title": "Hauptkatalysator",
+        "nathalie_desc": "Meisterplaner, Personifizierung des Optimismus, willst du etwas erreichen? Ruf Nathalie an. ",
+        "robin_title": "Marken-Krieger",
+        "robin_desc": "Magierin für Content-Marketing, The Next Web Top 500 junge Talente, Strandliebhaber, hasst es, durch Routine gestört zu werden, liebt das Leben außerhalb der Komfortzone.",
+        "martijn_title": "Software Ninjaneer",
+        "martijn_desc": "Praktischer Softwareentwickler, JavaScript-Guru, Wearable Tech Geek, Gamer, verantwortlicher Coolness Officer."
+    },
+    "ambassadors": {
+        "isaac_name": "Isaac Hernández",
+        "isaac_desc": "Künstler, Sozialunternehmer.",
+        "ruben_name": "Ruben Van Vreeland",
+        "ruben_desc": "CEO & Mitbegründer von BitSensor, Cybersicherheitssoftware.",
+        "edwin_name": "Edwin van Andel",
+        "edwin_desc": "CEO bei Zerocopter, internationaler Sprecher, erfahrener Sicherheitsexperte.",
+        "chris_name": "Chris Duke",
+        "chris_desc": "Moderator & ausführender Produzent, Motorz TV"
+    }
+}

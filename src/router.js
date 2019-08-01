@@ -5,7 +5,7 @@ import root from './views/root.vue';
 import * as setupi18n from './i18n-setup';
 
 const locale = require('browser-locale')();
-const supportedLocales = ['en'];
+const supportedLocales = ['en', 'de', 'fr', 'hu', 'pt-br'];
 
 Vue.use(Router);
 
