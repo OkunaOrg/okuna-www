@@ -182,7 +182,8 @@
             },
             openShareModal() {
                 this.$modal.open({
-                    component: ObSocialSharerModal
+                    component: ObSocialSharerModal,
+                    parent: this
                 })
             }
         }
