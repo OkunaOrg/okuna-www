@@ -1,0 +1,13 @@
+{
+    "jobs": {
+        "title": "Állásajánlatok",
+        "subtitle": "Dolgozz velünk!",
+        "exciting_adventure": "A digitális világ egyik legizgalmasabb kalandján evezünk és szeretnénk tehetséges és odaadó emberekkel együtt hajózni!",
+        "all_skills": "Technológia, design, marketing, pénzügyek, média, és még sok más.",
+        "need_your_help": "Hiszel az <span class=\"has-text-primary\"><strong class=\"has-text-primary\">Okunában</strong></span>, a közösségi hálózatok jobb jövőjében és az emberiségben?",
+        "send_cv": "Küldd el nekünk az önéletrajzodat a <a\n                        href=\"mailto:joel@okuna.io?subject=Job%20Application\">joel@okuna.io</a> címre.",
+        "look_forward": "Örömmel várjuk a közös találkozást!",
+        "colleagues": "Kikkel fogsz együtt dolgozni?",
+        "meet_the_team": "Ismerd meg a csapatot"
+    }
+}

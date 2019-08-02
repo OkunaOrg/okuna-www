@@ -1,0 +1,44 @@
+{
+    "contact_us": {
+        "title": "Contate-nos",
+        "subtitle": "Nós queremos ouvir de você.",
+        "info": "Informação de contato",
+        "message": "Envie-nos uma mensagem"
+    },
+    "address": {
+        "name": "Nome",
+        "ob_organization": "Okuna B.V",
+        "address": "Endereço",
+        "ob_address": "Apollo 14, The Hague, Países Baixos",
+        "telephone": "Telefone",
+        "telephone_no": "(+31) 611 60 4275",
+        "email": "Email",
+        "website": "Website"
+    },
+    "message": {
+        "subject": "Assunto",
+        "reason_placeholder": "A razão pela qual você está nos contatando",
+        "email_placeholder": "O e-mail para que podemos entrar em contato com você",
+        "email": "Email",
+        "user_message": "Mensagem",
+        "user_message_placeholder": "O que podemos fazer por você?",
+        "google_recaptcha_title": "Usamos <a href=\"https://www.google.com/recaptcha/intro/v3beta.html\" target=\"_blank\"\n                                              rel=\"noopener noreferrer\">Google Recaptcha</a>\n                                    para evitar o abuso deste formulário.",
+        "recaptcha_info": "O Google coleta informações sobre você para \"verificar\" que você é humano.",
+        "info_includes": "Esta informação inclui",
+        "info_ip_location": "Seu IP, que pode ser usado para determinar sua localização e cruzar sua identidade com outros sites que você visitou.",
+        "info_cookies": "Todos os cookies colocados pelo Google nos últimos 6 meses.",
+        "info_mouse_clicks": "Quantos cliques do mouse você fez (ou toca se estiver em um dispositivo de toque).",
+        "info_css": "As informações do CSS da página",
+        "info_date": "A data",
+        "info_browser_lang": "O idioma do seu navegador",
+        "info_plugins": "Todos os plugins que você instalou no navegador",
+        "info_js": "Os objetos Javascript na página",
+        "recaptcha_authorization": "Você nos autoriza a carregar o Google Recaptcha e, portanto, permitir que o Google colete essas informações?",
+        "recaptcha_authorization_yes": "Sim, autorizo você a carregar o Google Recaptcha",
+        "or": "ou",
+        "recaptcha_authorization_no": "Não, envie um e-mail para info@okuna.io",
+        "tick_box": "Por favor, marque esta caixa",
+        "clear_form": "Limpar formulário",
+        "submit": "Enviar"
+    }
+}

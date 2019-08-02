@@ -1,0 +1,44 @@
+{
+    "contact_us": {
+        "title": "Schreib uns",
+        "subtitle": "Wir freuen uns von dir zu hören.",
+        "info": "Kontaktdaten",
+        "message": "Sende uns eine Nachricht"
+    },
+    "address": {
+        "name": "Name",
+        "ob_organization": "Okuna B.V",
+        "address": "Adresse",
+        "ob_address": "Apollo 14, Den Haag, Niederlande",
+        "telephone": "Telefon",
+        "telephone_no": "(+31) 611 60 4275",
+        "email": "E-Mail",
+        "website": "Webseite"
+    },
+    "message": {
+        "subject": "Betreff",
+        "reason_placeholder": "Der Grund für deine Kontaktaufnahme",
+        "email_placeholder": "Die E-Mail, unter der wir dich erreichen können",
+        "email": "E-Mail",
+        "user_message": "Nachricht",
+        "user_message_placeholder": "Was können wir für dich tun?",
+        "google_recaptcha_title": "Wir verwenden <a href=\"https://www.google.com/recaptcha/intro/v3beta.html\" target=\"_blank\"\n                                              rel=\"noopener noreferrer\">Google Recaptcha</a>, um den Missbrauch dieses Formulars zu verhindern.",
+        "recaptcha_info": "Google sammelt Informationen über dich, um zu \"überprüfen\", ob du ein Mensch bist.",
+        "info_includes": "Zu diesen Informationen gehören",
+        "info_ip_location": "Deine IP-Adresse, die zur Bestimmung deines Standorts und zum Abgleich deiner Identität mit anderen von dir besuchten Websites verwendet werden kann.",
+        "info_cookies": "Alle von Google in den letzten 6 Monaten gesetzten Cookies.",
+        "info_mouse_clicks": "Wie viele Mausklicks du gemacht hast (oder Berührungen, wenn es sich um ein Touchgerät handelt).",
+        "info_css": "Die CSS-Informationen der Seite",
+        "info_date": "Das Datum",
+        "info_browser_lang": "Die Sprache deines Browsers",
+        "info_plugins": "Alle Plugins, die du im Browser installiert hast",
+        "info_js": "Die Javascript-Objekte auf der Seite",
+        "recaptcha_authorization": "Willst du uns ermächtigen, Google Recaptcha zu laden, und Google gestatten, diese Informationen zu sammeln?",
+        "recaptcha_authorization_yes": "Ja, ich autorisiere euch, Google Recaptcha zu laden",
+        "or": "oder",
+        "recaptcha_authorization_no": "Nein, eine E-Mail an info@okuna.io senden",
+        "tick_box": "Bitte kreuze dieses Kästchen an",
+        "clear_form": "Formular leeren",
+        "submit": "Senden"
+    }
+}

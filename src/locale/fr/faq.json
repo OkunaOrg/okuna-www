@@ -1,0 +1,31 @@
+{
+    "faq": {
+        "title": "FAQ",
+        "subtitle": "Les questions fréquemment posées.",
+        "office_dog": "Notre chien de bureau travaille dur.",
+        "jump_to": "Aller à",
+        "whos_paying": "Qui paie pour tout jusqu'à présent ?",
+        "is_distributed": "Okuna sera-t-il décentralisé ?",
+        "whos_paying_ans": "Le projet a été financé participativement avec succès en septembre 2018 et fonctionne à partir de ces fonds depuis, avec le support de nos contributeurs.trices sur Patreon.",
+        "want_to_help": "Je veux aider maintenant, que puis-je faire?",
+        "want_to_help_ans": "Nous sommes heureux.ses et reconnaissant.e.s que vous voulez nous aider !",
+        "many_ways": "Vous pouvez nous aider de nombreuses façons en ce moment.",
+        "ideas": "Voici quelques idées :",
+        "share_website": "Partager le site web sur les médias sociaux",
+        "donate": "Faire un don sur IndieGogo !",
+        "talk_to_friends": "Parlez à vos ami.e.s et à votre famille à propos de nous",
+        "improve_website": "Si vous êtes un.e développeur.e, vous pouvez nous aider <a\n                            href=\"https://github.com/OkunaOrg\"\n                            target=\"_blank\" rel=\"noopener noreferrer\">à améliorer notre site web</a>.",
+        "let_us_know": "Si vous avez une idée pour notre réseau, vous pouvez <a href=\"/en/contact-us\"\n                                                                            target=\"_blank\" rel=\"noopener noreferrer\">nous en faire part</a>.",
+        "public_figure": "Si vous êtes un personnage public et que vous souhaitez devenir ambassadeur.drice,",
+        "contact_us": "contactez-nous",
+        "looking_for_job": "Si vous cherchez un emploi et pensez qu'Okuna serait un bon endroit pour vous,",
+        "visit_jobs": "visitez notre page de carrières",
+        "volunteer": "Enfin, si vous souhaitez être encore plus impliqué.e, nous formons un réseau de bénévoles à travers le monde pour nous aider à parler d'Okuna aux gens.",
+        "interested": "Intéressé.e ?",
+        "contact_us_2": "Contactez-nous",
+        "more_questions": "Avez-vous une autre question?",
+        "send_us_message": "Envoyez-nous un message",
+        "why_not_decentralised": "Okuna sera-t-il décentralisé ?",
+        "why_not_decentralised_ans": "<p>Nous voulons y parvenir éventuellement. Nous observons l'approche <a href=\"https://solid.mit.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">Solid MIT</a> (celle de Tim Berners Lee) et nous en sommes vraiment ravi.e.s jusqu'à présent. </p> <p>Nos premières versions seront cependant centralisées. </p> <p>Nous faisons ceci parce que c'est plujs facile de se concentrer à améliorer les fonctionnalités du produit et l'expérience globale de l'utilisateur.trice. Ces choses vont déterminer si nous allons atteindre le nombre de membres nécessaire pour rivaliser avec les réseaux sociaux existants. </p> <p>Si nous résussissons, le ciel est la limite dans de ce que nous pouvons faire à propos de la décentralisation.</p>"
+    }
+}

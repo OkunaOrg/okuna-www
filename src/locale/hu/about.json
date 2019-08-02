@@ -1,0 +1,18 @@
+{
+    "about_us": {
+        "title": "Rólunk",
+        "subtitle": "Technológia a <span class=\"has-text-primary\">jobb jövő</span> érdekében.",
+        "description": "Mi egy mérnökökből, designerekből, hackerekből, aktivistákból és információbiztonsági szakértőkből álló csapat vagyunk, kik emberközpontú, felelősségteljes, fenntartható és igazságos technológiákat fejlesztenek egy jobb jövő érdekében.",
+        "description_founded": "Ezt úgy tesszük, hogy az emberiség legjobb jellemzőit helyezzük minden tevékenységünk középpontjában - a jószívűséget, toleranciát, empátiát és együttműködést.",
+        "description_funded": "2018. szeptemberében sikeresen fejeződött be <a class=\"has-text-underlined\" href=\"https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne\" rel=\"noopener noreferrer\">Kickstarter projektünk</a>, az <span class=\"has-text-logo\">Okuna</span> pedig jelenleg alfa-tesztelési időszakban van több, mint 3500 taggal.",
+        "accomplish_how": "Miért egy közösségi hálózat?",
+        "read_our_manifesto": "Olvasd el a nyilatkozatunkat",
+        "humans_behind_ob": "Az emberek",
+        "work_with_us": "Szeretnél velünk dolgozni?",
+        "visit_jobs_page": "Tekintsd meg állásainkat",
+        "our_ambassadors": " Nagyköveteink",
+        "ambassadors_desc": "Emberek akik segítenek terjeszteni a hírt rólunk és velünk tartanak bármit is teszünk.",
+        "become_ambassadors": "Szeretnél nagykövet lenni?",
+        "contact_us": "Írj nekünk"
+    }
+}

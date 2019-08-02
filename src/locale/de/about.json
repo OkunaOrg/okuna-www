@@ -1,0 +1,18 @@
+{
+    "about_us": {
+        "title": "Über uns",
+        "subtitle": "Technologie für eine <span class=\"has-text-primary\">bessere Zukunft</span>.",
+        "description": "Wir sind ein Team von Ingenieuren, Designern, Hackern, Aktivisten und Experten für Informationssicherheit, die menschenorientierte, verantwortungsbewusste, nachhaltige und faire Technologien für eine erfolgreichere Zukunft entwickeln.",
+        "description_founded": "Wir tun dies, indem wir die besten Qualitäten der Menschheit wie Freundlichkeit, Mitgefühl, Toleranz, Empathie und Kooperation in den Mittelpunkt unseres Handelns stellen.",
+        "description_funded": "Wir haben <span class=\"has-text-logo\">Okuna</span> im September 2018 erfolgreich mit <a class=\"has-text-underlined\" href=\"https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne\" rel=\"noopener noreferrer\">Crowdfunding</a> finanziert und befinden uns derzeit mit über 3.500 Mitgliedern im Alpha-Test.",
+        "accomplish_how": "Warum ein soziales Netzwerk?",
+        "read_our_manifesto": "Lies unser Manifest",
+        "humans_behind_ob": "Das Team",
+        "work_with_us": "Möchtest du mit uns zusammenarbeiten?",
+        "visit_jobs_page": "Besuche unsere Jobseite",
+        "our_ambassadors": " Unsere Botschafter",
+        "ambassadors_desc": "Menschen, die uns helfen, das Wort zu verbreiten und für alles stehen, was wir tun.",
+        "become_ambassadors": "Möchtest du ein Botschafter werden?",
+        "contact_us": "Schreib uns"
+    }
+}

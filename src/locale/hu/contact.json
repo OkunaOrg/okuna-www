@@ -1,0 +1,44 @@
+{
+    "contact_us": {
+        "title": "Kapcsolat",
+        "subtitle": "Hallani akarunk felőled.",
+        "info": "Elérhetőségi adatok",
+        "message": "Küldj nekünk egy üzenetet"
+    },
+    "address": {
+        "name": "Név",
+        "ob_organization": "Okuna B.V",
+        "address": "Cím",
+        "ob_address": "Apollo 14, Hága, Hollandia",
+        "telephone": "Telefon",
+        "telephone_no": "(+31) 611 60 4275",
+        "email": "E-mail cím",
+        "website": "Weboldal"
+    },
+    "message": {
+        "subject": "Tárgy",
+        "reason_placeholder": "A kapcsolatfelvétel oka",
+        "email_placeholder": "Az e-mail cím, melyen elérhetünk",
+        "email": "E-mail cím",
+        "user_message": "Üzenet",
+        "user_message_placeholder": "Mit tehetünk érted?",
+        "google_recaptcha_title": "<a href=\"https://www.google.com/recaptcha/intro/v3beta.html\" target=\"_blank\"\n                                              rel=\"noopener noreferrer\">Google Recaptcha</a>-t\n                                    használunk, hogy elkerüljük az űrlappal való visszaéléseket.",
+        "recaptcha_info": "A Google információkat gyűjt rólad, hogy ellenőrizze, hogy te valóban egy ember vagy.",
+        "info_includes": "Ez az információ a következőket tartalmazza",
+        "info_ip_location": "Az IP-címed, mely alapján meg lehet határozni a helységedet és hivatkozni az identitásodra más általad meglátogatott oldalakon.",
+        "info_cookies": "Minden olyan cookie (süti), melyet a Google a gépedre helyezett az utóbbi 6 hónapban.",
+        "info_mouse_clicks": "Hányszor kattintottál (vagy koppintottál, mobileszközök esetén).",
+        "info_css": "Az oldal CSS információja",
+        "info_date": "A dátum",
+        "info_browser_lang": "A böngésződ nyelve",
+        "info_plugins": "Bármilyen telepített böngésző-plugin",
+        "info_js": "Az oldalon levő JavaScript objektumok",
+        "recaptcha_authorization": "Engedélyezed nekünk, hogy betöltsük a Google Recaptcha-t, így megadva a Google-nak a lehetőséget, hogy beszerezze az előbb felsorolt információkat?",
+        "recaptcha_authorization_yes": "Igen, engedélyezem a Google Recaptcha-t",
+        "or": "vagy",
+        "recaptcha_authorization_no": "Nem, e-mailt küldök az info@okuna.io címre",
+        "tick_box": "Kérünk, jelöld be ezt a jelölőnégyzetet",
+        "clear_form": "Űrlap törlése",
+        "submit": "Küldés"
+    }
+}

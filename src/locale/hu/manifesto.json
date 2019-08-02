@@ -1,0 +1,161 @@
+{
+  "manifesto": {
+    "common": {
+      "reading_time": "Olvasási idő:",
+      "reading_time_minutes": "perc"
+    },
+    "titles": {
+      "main": "Nyilatkozat",
+      "toc": "Tartalomjegyzék",
+      "why": "Miért?",
+      "how": "Hogyan?",
+      "honest": "1. Őszinte.",
+      "customizable": "2. Testreszabható.",
+      "secure": "3. Magánéletbarát és biztonságos",
+      "explicit_consent": "Kifejezett és tájékozott beleegyezés",
+      "safe_apps": "Biztonságos alkalmazások",
+      "privacy_by_default": "Magánélet a középpontban",
+      "easy": "4. Pofonegyszerű.",
+      "research": "5. Kutatás.",
+      "revenue": "6. Tiszta bevétel."
+    },
+    "subtitles": {
+      "main": "A probléma, a megoldás, a következő lépések.",
+      "the_reason": "Az ok arra, hogy egy új közösségi hálózatot hozunk létre.",
+      "how_are_we_creating": "Hogyan hozzuk létre a szebb jövő közösségi hálózatát?"
+    },
+    "why": {
+      "awesome": "A közösségi hálózatok nagyszerűek.",
+      "they_connect": "Egyesítenek minket, segítenek megosztani legjobb élményeinket a szeretteinkkel és vicces macskás videókat kínálnak nekünk.",
+      "sadly_nowadays": "Sajnos manapság a közösségi hálózatok már nem az emberek egyesítéséről szólnak, hanem inkább arról, hogy minél több pénzt tudjanak csinálni az emberekből, a következményektől függetlenül - például a magánélet elvesztése.",
+      "we_want_to_do_better": "Mi szeretnénk jobbat tenni, éppen ezért az Okunánál másképp járulunk hozzá a dolgokhoz.",
+      "we_are_designing": "Mi egy olyan közösségi hálózatot szeretnénk létrehozni, mely az emberek legjobb tulajdonságain alapszik - kedvesség, együttérzés, tolerancia, jótékonyság, empátia, együttműködés.",
+      "a_brighter_social_network": "Egy etikus közösségi hálózat egy szebb jövőért."
+    },
+    "how": {
+      "open_source": "Az Okuna <strong>nyílt forráskódú</strong>. Ez azt jelenti, hogy mindenki által szabadon megtekinthető, reprodukálható és hozzájárulható. Átlátszóak vagyunk azzal kapcsolatban, hogy hogyan működik a közösségi hálózat.",
+      "30_percent": "Hiszünk egy jobb világban. Éppen ezért adományozzuk <strong>bevételünk 30%-át a világ jobbá tételének</strong>, most és örökre, a <a href=\"https://founderspledge.com/\" rel=\"noreferrer noopener\">FoundersPledge</a>-el való partnerségünk keretén belül.",
+      "we_are_different": "Mert mindannyian mások vagyunk és ezt szeretnénk átkarolni és megünnepelni.",
+      "just_like_home": "Megalkothatod azt az élményt, mely a legjobban ír le téged. Az idővonalad színének testreszabásától, menő extra widgetek a profilodhoz való hozzáadásán át, egészen addig, hogy kiválaszthatod, hogyan akarod látni a tartalmat az idővonaladon, szeretnénk, hogy az Okuna barátságos és kényelmes körülményeket biztosítson számodra. Mint otthon.",
+      "build_Okuna_together": "Hiányolsz valamit az Okunán? Tudasd velünk! Szeretnénk együtt megalkotni az Okunát. Létre fogunk hozni egy különleges csoportot, ahol te is meghatározhatod, min dolgozzunk vagy mit tehetnénk jobbá. Együtt megalkotjuk a legjobb online közösségi élményt.",
+      "privacy_and_security": "Ez az ami eredetileg indított el minket arra, hogy létrehozzuk az Okunát. A felhasználóink magánélete és biztonsága mindig a figyelmünk középpontjában fog állni. Nem követjük, mit csinálsz, nem értékesítjük az adataidat és nem is osztjuk meg másokkal a közvetlen és tájékozott beleegyezésed nélkül.",
+      "how_does_this_translate": "Hogy lehet ezt elképzelni egy valós példán keresztül?",
+      "crystal_clear": "Szeretnénk hogy mindig teljesen világos legyen, mit osztasz meg - nincs helye az előugró ablakoknak és félrevezető leírásoknak. És hogy teljesen biztos legyél benne, mit osztasz meg, a megosztott információkat te is elemezheted.",
+      "will_be_reviewed": "Minden alkalmazást személyesen ellenőrzünk. Biztosítjuk, hogy:",
+      "apps_will": {
+        "only_request": "csak a <strong>szükséges</strong> információkat kérik",
+        "exact_location_of_data": "<strong>mindig</strong> elérhető lesz számodra az adataid <strong>pontos</strong> helye",
+        "delete": "törlik az <strong>összes</strong> adatodat, ha visszavonod az engedélyeket",
+        "emergency_plan": "rendelkeznek egy <strong>vészhelyzeti tervvel</strong> adatszivárgás esetén és <strong>értesítenek minket/téged</strong> azonnal, ha ilyesmi történik"
+      },
+      "once_they_meet": "Amint megfeleltek ezeknek a szigorú követelményeknek, egy jelvén lesz a logójuk alatt. A személyes vezérlőpultodban megtekintheted a megosztott adataid pontos helyét, visszavonhatod az alkalmazás hozzáférését, és - a legjobb - kérheted az adataid törlését.",
+      "optional_disabled_by_default": "Minden opcionális adat megosztása alapértelmezetten ki lesz kapcsolva és csak rajtad fog állni az, hogy azok közül mely adatokat szeretnéd megosztani az alkalmazással. Nem fordítva.",
+      "we_will_research": "Folyamatosan kutatunk és fejlesztünk új módszereket arra, hogy a magánéletedet és biztonságodat jobbá tegyük.",
+      "technologies": "Néhány példa a technológiákra, melyben kutatásokat végzünk és fejlesztünk:",
+      "technologies_list": {
+        "crypto_enforced": "Kriptográfiailag végrehajtott adatmegosztási irányelvek",
+        "e2e": "End-to-end titkosítás, még a böngészőn belül is",
+        "public_key_crypto": "Public key kriptográfia a böngészőn belül",
+        "crypto_algo": "Post-kvantum kriptográfiai algoritmusok és protokollok"
+      },
+      "generally_speaking": "Általánosan beszélve, minél kevesebbet tudunk meg rólad és minél többet tudsz te meg rólunk, annál jobb.",
+      "smooth_transition": "Bizonyára rengeteg időt (és adatot) fektettél bele a meglévő közösségi profiljaidba. Szeretnénk minél gördülékenyebbé tenni a váltást.",
+      "import_your_data": "Éppen ezért hozunk létre eszközöket, melyek segítségével a létező közösségi hálózataidról importálhatod adataidat<sup>1</sup>. Csak 3 egyszerű lépés.",
+      "research_1": "Míg az Okuna elsődéleges indítványozója egy magánéletbarát közösségi hálózat létrehozása volt, a meglévő közösségi hálózatok bonyolultságai tovább fokozódnak: a kimaradástól való félelem, a digitális társadalmi rang, diszrkimináció, digitális nyomulás, cenzúra és sok más.",
+      "research_2": "Számos kutatás van ezeken a dolgokon, de sajnos eddig csak néhányan rendelkeztek az erővel, hogy tegyenek is valamit. Eddig.",
+      "research_3": "Platformunkat a már létező kutatásokat figyelembe véve hozzuk létre, valamint új alapvető koncepciókat fejlesztünk ki, hogy az előbb felsorolt problémákat orvosoljuk.",
+      "research_4": "Nem ígérhetjük, hogy a megoldásaink működni fognak, de azt megigérhetjük, hogy kutatásokon és nyílt párbeszéden keresztül addig próbálkozunk amig működni fognak.",
+      "no_ads": "Az üzleti modellünk sosem fog hirdetéseken alapulni. Soha.",
+      "okuna_gold": "A bevételi modellünk egy opcionális feliratkozási lehetőség, melyet <span class=\"has-text-circular\"><strong>Okuna</strong> Gold</span> néven kereszteltünk. Segítségével több reakcióhoz, témákhoz és testreszabási opcióhoz lesz hozzáférésed.",
+      "digital_currency": "A jövőben szeretnénk bevezetni egy digitális pénznemet is, mely által támogathatóak a tartalomkészítők, fel lehet iratkozni kiadókra, termékeket és szolgáltatásokat lehet vásárolni, stb.",
+      "currency_article": "Többet olvashatsz pénznemünkről <a class=\"has-text-underlined\" href=\"https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\">ebben a cikkben (olvasási idő: kb. 6 perc)</a>"
+    },
+    "examples": {
+      "common": {
+        "btn_continue": "Folytatás",
+        "btn_cancel": "Mégse",
+        "btn_back": "Vissza",
+        "btn_got_it": "Értem!",
+        "required": "(szükséges)",
+        "success": "Siker",
+        "last_item": " és",
+        "open_list": "Lista megnyitása",
+        "open_image": "Kép megnyítása"
+      },
+      "title": "Példa",
+      "normally": "Így néz ki egy hagyományos adatmegosztás.",
+      "public_wifi": "Tételezzük fel, hogy egy nyilvános WiFi hálózathoz szeretnél csatlakozni. Szembenézhetsz egy, az alábbihoz hasonló ablakkal a számítógépeden:",
+      "box_below": "Az alábbi ablak jelenik meg a képernyődön.",
+      "click": "(Kattints nyugodtan, ahogy azt normálisan tennéd)",
+      "can_receive_following_data": {
+        "public_profile": "nyilvános profil",
+        "friend_list": "barátlista",
+        "friends": "barátok",
+        "birthday": "születésnap",
+        "likes": "kedvelések",
+        "email": "e-mail cím",
+        "name": "név",
+        "profile_picture": "profilkép",
+        "age_range": "korosztál",
+        "gender": "nem",
+        "language": "nyelv",
+        "country": "ország",
+        "country_of_birth": "születési ország",
+        "other": "egyéb nyilvános információ"
+      },
+      "evilcorp": {
+        "before_you_can_enjoy": "Mielőtt csatlakozhatnál ingyenes WiFi hálózatunkhoz, be kell jelentkezned az EvilCorp alkalmazással.",
+        "continue": "Folytatás ezzel: EvilCorp",
+        "will_receive": "<strong>WiFi Hotspots App</strong> megkapja az alábbi adataidat:",
+        "will_receive_list": "{requested_data}.",
+        "public_profile_includes": "A nyilvános profilod az alábbiakat tartalmazza: {public_info}.",
+        "edit": "Módosítás",
+        "shared_the_info": "A közösségi hálózat megosztta az adataidat az alkalmazással.",
+        "restart": "Példa megismétlése",
+        "descriptions": {
+          "public_profile": "Kovács János, profilkép, 33+ éves, férfi és egyéb nyilvános információ",
+          "friend_list": "Keresztes Mihály, Nagy György és további 590 személy.",
+          "birthday": "1990. január 12.",
+          "likes": "HVG, OTP bank és további 978 oldal",
+          "email_address": "kovacs@janos.com"
+        }
+      },
+      "congrats": "Gratulálunk! Megosztottad a személyes adataidat a WiFi hálózattal!",
+      "do_you_know": "De tisztában vagy azzal, hogy miket osztottál meg az alkalmazással?",
+      "hovered_icon": "Ha rámutattál az \"i\" ikonra, észrevehetted, hogy ezt írja:",
+      "quote": "\"A nyilvános profilod az alábbiakat tartalmazza: név, profilkép, korosztály, nyelv, ország és <i><strong>\"egyéb nyilvános információ\"</i></strong>?\"",
+      "what_qualifies": "Mit is takar az <i>\"egyéb nyilvános információ\"</i>? És miért lenne szüksége egy WiFi hálózatnak mindezekre az adatokra? Gyorsabb WiFi kapcsolatot biztosít a nemed vagy évkorod alapján? És mi történik az adataiddal amint az hozzájuk kerül?",
+      "people_share": "Az emberek többet osztanak meg a személyes adataik közül, mint amennyire számítanak, és amint az adatok meg lettek osztva, nincs visszaút.",
+      "how_we_do_it": "Mi így csináljuk:",
+      "awesome_music_app": "Tételezzük fel, hogy letöltöttél egy menő zenealkalmazást, melyet mindenki ajánlott neked. Ahogy megnyitod az alkalmazást, az alábbi ablak jelenik meg.",
+      "songipy": {
+        "prompt": "A Songipy használatához be kell lépned az Okuna fiókoddal.",
+        "continue": "Folytatás az Okunával",
+        "safe_to_use": "Ez az alkalmazás biztonságos és használható.",
+        "strict_policy": "Eleget tett a szigorú adatvédelmi és biztonsági irányelveinknek.",
+        "learn_more": "Tudj meg többet",
+        "in_order_to_continue": "A folytatáshoz, a <strong>Songipy</strong> alkalmazásnak szüksége van az alábbiakra: {required_data}.",
+        "optionally": "<strong>Opcionálisan</strong>, szeretne hozzáférni a következő adatokhoz is: {optional_data}.",
+        "edit_optional_data": "Megosztott opcionális adatok módosítása",
+        "inspect": "Megosztott adatok vizsgálása",
+        "descriptions": {
+          "name": "Nagy Károly",
+          "email": "nagykaroly@emailcimem.hu",
+          "gender": "férfi",
+          "language": "magyar",
+          "country": "Magyarország",
+          "birthday": "1997/03/25"
+        },
+        "okuna_has_shared": "Az Okuna megosztotta az adataidat a Songipy alkalmazással.",
+        "restart": "Prototípus újraindítása",
+        "safe_app_modal": "<div class=\"content\"><p>A nem-prototípus verzióban át leszel irányítva egy oldalra, ahol részletesen el vannak magyarázva a biztonságos alkalmazások.</p><p>Röviden összefoglalva ezek olyan alkalmazások, melyek nem élnek vissza az adatmegosztási rendszerrel, megadják a lehetőséget, hogy töröld az adataidat a rendszerükből és tudtodra adják mindig, hogy hol tartozkódnak az adataid.</p><p>Erről az alábbiakban több információt tudhatsz meg.</p></div>",
+        "list_modal": "A nem-prototípus verzióban ez megnyitja a fiókodhoz tartozó {data_name} listáját."
+      },
+      "did_you_spot": "Észrevetted a különbségeket?",
+      "most_important_ones": "Íme a legfontosabbak."
+    },
+    "gdpr_footnote": "[1] Az új GDPR szabályozásoknak köszönhetően a közöségi hálózatok kötelezettek arra, hogy megadják ennek lehetőségét a felhasználóiknak.",
+    "still_have_questions": "További kérdéseid vannak?",
+    "visit_faq": "Tekintsd meg a GYIK-et"
+  }
+}
