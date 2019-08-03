@@ -40,12 +40,12 @@
                     <ul>
                         <li>
                             <a href="#name" v-scroll-to="'#name'">
-                                What's with the name?
+                                {{ $t('faq.name') }}
                             </a>
                         </li>
                         <li>
                             <a href="#openbook" v-scroll-to="'#openbook'">
-                                Were you called Openbook before?
+                                {{ $t('faq.openbook') }}
                             </a>
                         </li>
                         <li>
@@ -71,18 +71,13 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <h3 id="name">
-                        What's with the name?
+                        {{ $t('faq.name') }}
                     </h3>
-                    <p>
-                        The name comes from <a href="https://en.wikipedia.org/wiki/Esperanto" rel="nofollow noreferrer">Esperanto's</a>
-                        word for together: <strong>kune</strong>.
-                    </p>
+                    <p v-html="$t('faq.name_ans')"></p>
                     <h3 id="openbook">
-                        Were you called Openbook before?
+                        {{ $t('faq.openbook') }}
                     </h3>
-                    <p>
-                        Yes, until certain company sent their lawyers in regards to the word <i>Book</i>.
-                    </p>
+                    <p v-html="$t('faq.openbook_ans')"></p>
                     <h3 id="whospaying">
                         {{ $t('faq.whos_paying') }}
                     </h3>
@@ -93,8 +88,7 @@
                         {{ $t('faq.why_not_decentralised') }}
                     </h3>
                     <p>
-                        Building a federated login system which allows self-hosted instances to hook into the
-                        main network while being able to operate by themselves is in our roadmap.
+                        {{ $t('faq.why_not_decentralised_ans') }}
                     </p>
                     <h3 id="help">
                         {{ $t('faq.want_to_help') }}
@@ -111,7 +105,7 @@
                     <ul>
                         <li class="has-text-underlined">
                             <a href="https://www.patreon.com/openbooksocial" rel="noopener noreferrer" target="_blank">
-                                Become our monthly patron!</a>
+                                {{ $t('faq.patreon') }}</a>
                         </li>
                         <li class="has-text-underlined">
                             <a href="https://www.indiegogo.com/projects/openbook-it-s-time-for-a-better-social-network#/"

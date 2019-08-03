@@ -4,6 +4,10 @@
         "subtitle": "The frequently asked questions.",
         "office_dog": "Our office dog hard at work.",
         "jump_to": "Jump to",
+        "name": "What's with the name?",
+        "name_ans": "The name comes from <a href=\"https://en.wikipedia.org/wiki/Esperanto\" rel=\"nofollow noreferrer\">Esperanto's</a> word for together: <strong>kune</strong>.",
+        "openbook": "Were you called Openbook before?",
+        "openbook_ans": "Yes, until certain company sent their lawyers in regards to the word <i>book</i>.",
         "whos_paying": "Who's paying for everything so far?",
         "is_distributed": "Will Okuna be decentralised?",
         "whos_paying_ans": "The project was successfully crowd-funded on September 2018 and has been running on those funds ever since together with support from our patrons.",
@@ -12,6 +16,7 @@
         "many_ways": "There are many ways you can help right now.",
         "ideas": "Here are some ideas:",
         "share_website": "Share the website on social media",
+        "patreon": "Become our monthly patron!",
         "donate": "Donate in IndieGogo!",
         "talk_to_friends": "Talk to your friends and family about us",
         "improve_website": "If you're a developer, you can help us <a\n                            href=\"https://github.com/OkunaOrg\"\n                            target=\"_blank\" rel=\"noopener noreferrer\">improve our website</a>.",
@@ -26,6 +31,6 @@
         "more_questions": "Have another question?",
         "send_us_message": "Send us a message",
         "why_not_decentralised": "Will Okuna be decentralised?",
-        "why_not_decentralised_ans": "<p>We want to get there eventually. We’re looking into <a href=\"https://solid.mit.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">Solid MIT approach</a> (The one from Tim Berners Lee) and we’re very pleased with it so far. </p> <p>Our first versions will however be centralised. </p> <p>We do this because it’s then easier to focus on innovating in the product features and overall user experience. These things will determine whether we’ll reach the member base necessary to take on existing social networks. </p> <p>If we succeed, sky’s the limit into what we can do in regards to decentralisation.</p>"
+        "why_not_decentralised_ans": "Building a federated login system which allows self-hosted instances to hook into the main network while being able to operate by themselves is in our roadmap."
     }
 }

@@ -37,7 +37,7 @@
                         >{{ $t('header.blog') }}</a>
                         <a href="https://shwca.se/okuna" rel="noopener noreferrer" class="navbar-item"
                            target="_blank"
-                        >Press</a>
+                        >{{ $t('header.press') }}</a>
                     </div>
                 </div>
                 <div class="navbar-item select-language is-hidden-mobile">

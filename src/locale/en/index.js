@@ -8,6 +8,7 @@ import jobs from './jobs';
 import manifesto from './manifesto';
 import press from './press';
 import team from './team';
+import vulnerability from './vulnerability';
 
 export const messages = {
   en: {
@@ -20,6 +21,7 @@ export const messages = {
     ...angel,
     ...press,
     ...contact,
-    ...manifesto
+    ...manifesto,
+    ...vulnerability
   }
 };
