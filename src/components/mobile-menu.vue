@@ -244,7 +244,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>Press</span>
+                                            <span>{{ $t('header.press') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">

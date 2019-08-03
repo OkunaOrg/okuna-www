@@ -67,12 +67,12 @@
                                     <li>
                                         <a href="https://medium.com/okuna" rel="noopener noreferrer"
                                            class="navbar-item" target="_blank"
-                                        >Blog</a>
+                                        >{{ $t('header.blog') }}</a>
                                     </li>
                                     <li>
                                         <a href="https://shwca.se/okuna" rel="noopener noreferrer"
                                            class="navbar-item" target="_blank"
-                                        >Press</a>
+                                        >{{ $t('header.press') }}</a>
                                     </li>
                                 </ul>
                             </div>

@@ -53,13 +53,13 @@
                         description: this.$t('ambassadors.chris_desc'),
                     },
                     {
-                        name: 'Ashwin Krishnan',
+                        name: this.$t('ambassadors.ashwin_name'),
                         photo: ashwinPhoto,
                         links: {
                             website: 'https://ashwinkrishnan.me/',
                             linkedin: 'https://www.linkedin.com/in/ashwinkrishnan/'
                         },
-                        description: 'COO of UberKnowledge, tech ethicist, writer, podcast host, speaker.',
+                        description: this.$t('ambassadors.ashwin_desc')
                     }
                 ]
             }

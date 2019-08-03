@@ -26,7 +26,7 @@
                                         <span class="icon">
                                             <i class="fas fa-heart"></i>
                                         </span>
-                                        <span>Sign up for beta</span>
+                                        <span>{{ $t('home.signup_button') }}</span>
                                     </button>
                                 </div>
                             </div>
