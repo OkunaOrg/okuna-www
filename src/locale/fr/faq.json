@@ -4,6 +4,10 @@
         "subtitle": "Les questions fréquemment posées.",
         "office_dog": "Notre chien de bureau travaille dur.",
         "jump_to": "Aller à",
+        "name": "What's with the name?",
+        "name_ans": "The name comes from <a href=\"https://en.wikipedia.org/wiki/Esperanto\" rel=\"nofollow noreferrer\">Esperanto's</a> word for together: <strong>kune</strong>.",
+        "openbook": "Were you called Openbook before?",
+        "openbook_ans": "Yes, until certain company sent their lawyers in regards to the word <i>book</i>.",
         "whos_paying": "Qui paie pour tout jusqu'à présent ?",
         "is_distributed": "Okuna sera-t-il décentralisé ?",
         "whos_paying_ans": "Le projet a été financé participativement avec succès en septembre 2018 et fonctionne à partir de ces fonds depuis, avec le support de nos contributeurs.trices sur Patreon.",
@@ -12,6 +16,7 @@
         "many_ways": "Vous pouvez nous aider de nombreuses façons en ce moment.",
         "ideas": "Voici quelques idées :",
         "share_website": "Partager le site web sur les médias sociaux",
+        "patreon": "Become our monthly patron!",
         "donate": "Faire un don sur IndieGogo !",
         "talk_to_friends": "Parlez à vos ami.e.s et à votre famille à propos de nous",
         "improve_website": "Si vous êtes un.e développeur.e, vous pouvez nous aider <a\n                            href=\"https://github.com/OkunaOrg\"\n                            target=\"_blank\" rel=\"noopener noreferrer\">à améliorer notre site web</a>.",
@@ -26,6 +31,6 @@
         "more_questions": "Avez-vous une autre question?",
         "send_us_message": "Envoyez-nous un message",
         "why_not_decentralised": "Okuna sera-t-il décentralisé ?",
-        "why_not_decentralised_ans": "<p>Nous voulons y parvenir éventuellement. Nous observons l'approche <a href=\"https://solid.mit.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">Solid MIT</a> (celle de Tim Berners Lee) et nous en sommes vraiment ravi.e.s jusqu'à présent. </p> <p>Nos premières versions seront cependant centralisées. </p> <p>Nous faisons ceci parce que c'est plujs facile de se concentrer à améliorer les fonctionnalités du produit et l'expérience globale de l'utilisateur.trice. Ces choses vont déterminer si nous allons atteindre le nombre de membres nécessaire pour rivaliser avec les réseaux sociaux existants. </p> <p>Si nous résussissons, le ciel est la limite dans de ce que nous pouvons faire à propos de la décentralisation.</p>"
+        "why_not_decentralised_ans": "Building a federated login system which allows self-hosted instances to hook into the main network while being able to operate by themselves is in our roadmap."
     }
 }

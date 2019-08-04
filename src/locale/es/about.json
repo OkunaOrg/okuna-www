@@ -1,0 +1,19 @@
+{
+    "about_us": {
+        "title": "Acerca de nosotros",
+        "subtitle": "Tecnología para un <span class=\"has-text-primary\">mañana mejor</span>.",
+        "description": "Somos un equipo de ingenieros, diseñadores, hackers, activistas y expertos en seguridad de la información que construyen tecnología centrada en el hombre, responsable, sostenible y justa para un mañana más próspero.",
+        "description_founded": "Hacemos esto poniendo las mejores cualidades de la humanidad, como la bondad, la compasión, la tolerancia, la empatía y la cooperación en el centro de todo lo que hacemos.",
+        "description_funded": "Hemos financiado con éxito <a class=\"has-text-underlined\" href=\"https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne\" rel=\"noopener noreferrer\">colectivamente</a> <span class=\"has-text-logo\">a Okuna</span> el mes de septiembre de 2018 y actualmente está en pruebas alfa con más de 3,500 miembros.",
+        "accomplish_how": "¿Por qué una red social?",
+        "read_our_manifesto": "Leer nuestro manifesto",
+        "humans_behind_ob": "La gente",
+        "work_with_us": "¿Quieres trabajar con nosotros?",
+        "visit_jobs_page": "Visita nuestra página de trabajos",
+        "our_ambassadors": "Nuestros embajadores",
+        "our_contributors": " Our contributors",
+        "ambassadors_desc": "Las personas que nos ayudan a difundir el mensaje y a defender todo lo que hacemos.",
+        "become_ambassadors": "¿Quieres convertirte en embajador?",
+        "contact_us": "Contáctenos"
+    }
+}

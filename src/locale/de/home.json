@@ -2,7 +2,8 @@
     "home": {
         "want_to_know_more": "Du möchtest mehr erfahren?",
         "read_manifesto": "Lies unsere Prinzipien",
-        "featured_in": "Bereits erwähnt in"
+        "featured_in": "Bereits erwähnt in",
+        "signup_button": "Registriere dich für die Beta"
     },
     "honesty": {
         "title": "Offen und verantwortungsvoll",
@@ -60,7 +61,7 @@
         "world": "Welt",
         "friends": "Freunde",
         "family": "Familie",
-        "grandma": "Großmutter",
+        "grandma": "Oma",
         "we_are_ob": "Wir sind <strong class=\"has-text-logo is-size-5\">Okuna</strong>, ein ethisches soziales Netzwerk für eine bessere Zukunft.",
         "share": "Teilen",
         "notify_me": "Unterstütze uns"
@@ -85,7 +86,7 @@
         "modern_design": "Modern, schön und ethisch korrekt gestaltet.",
         "modern_design_desc": "Gebaut mit den neuesten Technologien, einem scharfen Blick für Details und Ethik. So etwas wirst du nirgends anders finden.",
         "good_for_planet": "Gut für den Planeten",
-        "good_for_planet_desc": "Wir glauben an eine bessere Welt für alle. Deshalb geben wir 30% unseres Gewinns dafür aus, die Welt zu einem besseren Ort zu machen, jetzt und in Zukunft.\n                                    für immer."
+        "good_for_planet_desc": "Wir glauben an eine bessere Welt für alle. Deshalb geben wir 30% unseres Gewinns dafür aus, die Welt zu einem besseren Ort zu machen, jetzt und in Zukunft."
     },
     "count_down": {
         "kickstarter": "Okuna",
@@ -98,5 +99,12 @@
     },
     "meet_the_team": {
         "title": "Triff das Team"
+    },
+    "beta_container": {
+        "title": "Werde Teil der Revolution!",
+        "beta_date": "Beta kommt Mitte 2019",
+        "email_placeholder": "deine@email.de",
+        "server_error": "Wir haben Serverprobleme. Bitte versuche es in wenigen Minuten erneut.",
+        "success": "&nbsp;&nbsp;Hurra! Du bist Nummer {count} auf unserer Warteliste."
     }
 }

@@ -117,7 +117,7 @@
           "friend_list": "Thomas Müller, Ursula Fischer und 590 andere.",
           "birthday": "12. Januar 1990",
           "likes": "Tatort, Fußball und 978 weitere",
-          "email_address": "fritz@fantom.de"
+          "email_address": "fritz_fantom@mail.com"
         }
       },
       "congrats": "Herzlichen Glückwunsch! Du hast gerade deine persönlichen Daten an einen WiFi-Hotspot weitergegeben!",
@@ -140,7 +140,7 @@
         "inspect": "Freigegebene Daten überprüfen",
         "descriptions": {
           "name": "Fritz Fantom",
-          "email": "fritz@fantom.de",
+          "email": "fritz_fantom@mail.com",
           "gender": "männlich",
           "language": "Deutsch",
           "country": "DE",
@@ -149,7 +149,7 @@
         "okuna_has_shared": "Okuna hat nun deine Informationen mit Songipy geteilt.",
         "restart": "Prototyp neu starten",
         "safe_app_modal": "<div class=\"content\"><p>In der Nicht-Prototypen-Version leitet dich dies zu einer Seite mit detaillierten Informationen über sichere Anwendungen weiter.</p><p> Offen gesagt, sind sichere Anwendungen solche, die das Datenfreigabesystem nicht missbrauchen, das Löschen deiner Daten aus deren Systemen ermöglichen und jederzeit wissen, wo sich deine Daten befinden.</p><p> Weitere Informationen dazu im folgenden Text.</p></div>",
-        "list_modal": "In der Nicht-Prototypen-Version würde dies eine Liste mit der vollständigen Liste deines {data_name} öffnen."
+        "list_modal": "In der Nicht-Prototypen-Version würde dies eine Liste mit der vollständigen Liste deiner {data_name} öffnen."
       },
       "did_you_spot": "Hast du die Unterschiede erkannt?",
       "most_important_ones": "Hier sind die wichtigsten."

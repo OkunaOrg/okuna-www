@@ -1,0 +1,110 @@
+{
+    "home": {
+        "want_to_know_more": "Vill du veta mer?",
+        "read_manifesto": "Läs vårt manifest",
+        "featured_in": "Som sett i",
+        "signup_button": "Skriv upp dig på väntlistan för betan"
+    },
+    "honesty": {
+        "title": "Öppet och ansvarsfullt",
+        "description": "All kod bakom nätverket är öppen källkod, vilket betyder att vem som helst kan läsa den. Abrakadabra-algoritmer har ingen plats här!"
+    },
+    "privacy": {
+        "title": "Integritetsfrämjande",
+        "description": "Vi tror starkt på att integritet är en grundläggande mänsklig rättighet. Vi varken spårar eller avlyssnar din aktivitet."
+    },
+    "secure": {
+        "title": "Designat för säkerhet",
+        "description": "Vår bakgrund är inom informationssäkerhet. Vi bygger in säkerhet, från första början."
+    },
+    "easy": {
+        "title": "Vänligt och avslappnat",
+        "description": "Genom en kombination av våra <a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\">gemenskapsbyggda riktilinjer</a>, etisk design och kod, främjer vi en omgivning av vänlighet, respekt och öppenhet, där glädje är slutmålet."
+    },
+    "fun": {
+        "title": "Fler sätt att uttrycka dig själv",
+        "description": "Vi människor är emotionella varelser. Hitta fler sätt att uttrycka ditt digitala själv med vårat växande bibliotek av reaktioner!"
+    },
+    "personal": {
+        "title": "Anpassningsbart",
+        "description": "Vi är alla olika och det är något vi bör omfamna och fira. Med anpassningsbara funktioner kan du göra så att nätverket känns precis som hemma!"
+    },
+    "community": {
+        "title": "Gemenskapsorienterat",
+        "description": "Upptäck intressen och människor genom att gå med i en av de 2500+ tillgängliga gemenskaperna eller skapa och fostra dig egna!"
+    },
+    "good_for_planet": {
+        "title": "För en bättre morgondag",
+        "description": "Förutom att donera en andel av våra inkomster <a href=\"https://founderspledge.com/research\" rel=\"noreferrer noopener\">till värdiga [XXX]</a>, vi är också engagerade i att ha en positiv inverkan på samhälle och miljö."
+    },
+    "ads_free": {
+        "title": "Etiskt hållbart",
+        "description": "Nätverket försörjs av en valfri prenumeration som ger tillgång till extra reaktioner, animerade avatarer, teman och mer. Inga annonser eller intäktsgenerering från personlig information."
+    },
+    "currency": {
+        "title": "En digital valuta",
+        "description": "Vi arbetar också på att skapa en digital valuta vi kallar <strong>Tip</strong> som ska kunna användas som ett sätt att stödja dina favoritskapare, prenumerera på utgivare, betala för tjänster och mer."
+    },
+    "quotes": {
+        "joel_name": "Joel Hernández",
+        "joel_title": "Okunas grundare",
+        "joel_quote": "Jag föreställer mig en värld med god, ansvarsfull och respektfull teknologi. Okuna är den världens sociala nätverk.",
+        "vincent_name": "Vincent Ruijter",
+        "vincent_title": "Etisk hacker",
+        "vincent_quote": "Okuna kan vara den sista riktiga chansen att bygga något annorlunda, något etiskt, något bättre.",
+        "phil_name": "Phil Zimmermann",
+        "phil_title": "Medlem i Internet Hall of Fame",
+        "phil_quote": "Okuna ger hopp om framtiden, ett socialt nätverk där vi inte är offer till dess affärsmodell."
+    },
+    "splash_hero": {
+        "hello_world": "Hej <span id=\"hello-subject\">världen!</span>",
+        "world": "världen",
+        "friends": "mina vänner",
+        "family": "familjen",
+        "grandma": "mormor",
+        "we_are_ob": "Vi är <strong class=\"has-text-logo is-size-5\">Okuna</strong>, ett etiskt socialt nätverk för en ljusare morgondag.",
+        "share": "Dela",
+        "notify_me": "Stöd oss"
+    },
+    "why_ob": {
+        "title": "Varför Okuna?",
+        "subtitle": "Några av de viktigaste sakerna som skiljer oss från andra sociala nätverk.",
+        "zero_tracking": "Ingen spårning",
+        "zero_tracking_desc": "Vi kommer aldrig spåra dig, oavsett vart eller hur.",
+        "zero_spying": "Inget spionage",
+        "zero_spying_desc": "Du kan vara säker på att dina privata konversationer faktiskt är helt privata.",
+        "zero_ads": "Inga annonser",
+        "zero_ads_desc": "Annonser leder till riktad annonsering, vilket i sin tur leder till förlusten av integritet online. Vi kommer inte ha annonser.",
+        "data_protection": "Robust dataskydd",
+        "data_protection_desc": "Tredjepartsapplikationer som vill få tillgång till dina data måste rätta sig efter våra strikta och hårda säkerhetsprinciper.",
+        "honest": "Ärligt",
+        "honest_desc": "All vår kod är fri och öppen för alla att inspektera, återskapa och bidra till. Inga obehagliga överraskningar.",
+        "easy_to_migrate": "Lätt att migrera",
+        "easy_to_migrate_desc": "Vi kommer erbjuda verktyg för att migrera alla dina existerande data till vårt nätverk.",
+        "future_proof": "Framtidssäkert",
+        "future_proof_desc": "Med en stadig och användbar affärsmodell baserad på transaktioner jämlikar emellan, kommer vi vara med länge.",
+        "modern_design": "Modern, vacker och etiskt designad.",
+        "modern_design_desc": "Byggt med de senaste teknologierna och ett öga för detaljer och etik, så kommer du inte hitta något annat liknande.",
+        "good_for_planet": "Bra för planeten",
+        "good_for_planet_desc": "Vi tror på en bättre värld för alla. Det är därför vi ger 30% av våra inkomster till att göra världen till en bättre plats, nu och\n                                    för alltid."
+    },
+    "count_down": {
+        "kickstarter": "Okuna",
+        "campaign_countdown": "nedräkning till lansering",
+        "days": "dag | dagar",
+        "hours": "timme | timmar",
+        "minutes": "minut | minuter",
+        "seconds": "sekund | sekunder",
+        "kickstarter_launch": "Okunas <strong class=\"has-text-kickstarter\">alfa</strong> börjar <br/>den <strong> {0}:de Mars 2019</strong>."
+    },
+    "meet_the_team": {
+        "title": "Möt teamet"
+    },
+    "beta_container": {
+        "title": "Gå med i revolutionen!",
+        "beta_date": "Betan kommer i mitten av 2019",
+        "email_placeholder": "din@epost.se",
+        "server_error": "Vi har serverproblem just nu. Vänligen försök igenom om några minuter.",
+        "success": "&nbsp;&nbsp;Hurra! Du är nummer {count} på vår väntlista."
+    }
+}
