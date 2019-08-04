@@ -2,7 +2,8 @@
     "home": {
         "want_to_know_more": "Vous souhaitez en savoir plus ?",
         "read_manifesto": "Lire notre manifeste",
-        "featured_in": "Comme mentionné dans"
+        "featured_in": "Comme mentionné dans",
+        "signup_button": "Sign up for beta"
     },
     "honesty": {
         "title": "Ouvert et responsable",
@@ -98,5 +99,12 @@
     },
     "meet_the_team": {
         "title": "Rencontrez l'équipe"
+    },
+    "beta_container": {
+        "title": "Join the revolution!",
+        "beta_date": "Beta coming mid 2019",
+        "email_placeholder": "your@email.com",
+        "server_error": "We're experiencing server issues. Please try again in a few minutes.",
+        "success": "&nbsp;&nbsp;Hooray! You're number {count} on our waitlist."
     }
 }

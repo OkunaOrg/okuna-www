@@ -4,6 +4,10 @@
         "subtitle": "A gyakran ismételt kérdések.",
         "office_dog": "Az irodánk kutyája keményen dolgozik.",
         "jump_to": "Ugrás",
+        "name": "Mi áll a név mögött?",
+        "name_ans": "A név az <a href=\"https://hu.wikipedia.org/wiki/Eszperant%C3%B3_nyelv\" rel=\"nofollow noreferrer\">eszperantó nyelvből</a> ered, a <strong>kune</strong> szóból, ami azt jelenti, \"együtt\".",
+        "openbook": "Nem Openbook volt a neve a projektnek?",
+        "openbook_ans": "De igen, amíg egy bizonyos cég nem küldte ránk ügyvédeit a <i>book</i> szóval kapcsolatban.",
         "whos_paying": "Ki fizet eddig mindezért?",
         "is_distributed": "Az Okuna decentralizált rendszerű lesz?",
         "whos_paying_ans": "A projekt sikeresen lett tömeg által finanszírozva 2018. szeptemberében és azóta ezeken az alapokon működik, a Patreon támogatóink mellett.",
@@ -12,6 +16,7 @@
         "many_ways": "Számos mód van, mellyel segítheted munkánkat akár most is.",
         "ideas": "Íme néhány:",
         "share_website": "Oszd meg ezt a weboldalt a közösségi hálózatokon",
+        "patreon": "Legyél a havi Patreon támogatónk!",
         "donate": "Adományozz IndieGogo-n!",
         "talk_to_friends": "Beszélj a barátaiddal és családtagjaiddal a projektről",
         "improve_website": "Ha egy fejlesztő vagy, segíthetsz <a\n                            href=\"https://github.com/OkunaOrg\"\n                            target=\"_blank\" rel=\"noopener noreferrer\">jobbá tenni</a> ezt a weboldalt.",
@@ -26,6 +31,6 @@
         "more_questions": "További kérdéseid vannak?",
         "send_us_message": "Küldj nekünk egy üzenetet",
         "why_not_decentralised": "Az Okuna decentralizált rendszerű lesz?",
-        "why_not_decentralised_ans": "<p>Szeretnénk a jövőben odajutni. Jelenleg a <a href=\"https://solid.mit.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">Solid MIT megközelítést</a> (Tm Berners Lee által) elemezzük és eddig nagyon meg vagyunk vele elégedve.</p> <p>Az első verzióink viszont centralizáltak lesznek.</p> <p>Ezt azért tesszük, mert így könnyebb lesz összpontosítani a termék funkcióinak és felhasználói élményének fejlesztésére. Ezek fogják meghatározni hogy elérjük-e azt a szükséges tagságot, mellyel a létező közösségi hálózatokkal versenyezhetünk.</p> <p>Ha sikerül, a decentralizációval kapcsolatban korlátlan lehetőségeink lesznek.</p>"
+        "why_not_decentralised_ans": "Terveinkben van egy föderált bejelentkezési rendszer létrehozása, melynek segítségével a saját üzemeltetésű instanciák rácsatlakozhatnak a fő hálózatra, de ugyanakkor önállóan is tudnak működni."
     }
 }
