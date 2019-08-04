@@ -47,9 +47,13 @@
                         </div>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'en' }" v-on:click="changeLocale('en')">English <i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'de' }" v-on:click="changeLocale('de')">Deutsch<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'es' }" v-on:click="changeLocale('es')">Español<i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'fr' }" v-on:click="changeLocale('fr')">Français<i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'hu' }" v-on:click="changeLocale('hu')">Magyar<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'it' }" v-on:click="changeLocale('it')">Italiano<i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'pt-br' }" v-on:click="changeLocale('pt-br')">Português (Brasil)<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'sv' }" v-on:click="changeLocale('sv')">Svenska<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'tr' }" v-on:click="changeLocale('tr')">Türkçe<i class="fas fa-check"></i></b-dropdown-item>
                     </b-dropdown>
                 </div>
             </div>
@@ -161,9 +165,15 @@
                     case 'no':
                         return 'Norsk';
                     case 'pt-br':
-                        return 'Português (Brasil)'
+                        return 'Português (Brasil)';
+                    case 'sv':
+                        return 'Svenska';
+                    case 'it':
+                        return 'Italiano';
+                    case 'tr':
+                        return 'Türkçe';
                     default :
-                        return 'English'
+                        return 'English';
                 }
             },
             changeLocale(locale) {

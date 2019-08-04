@@ -1,0 +1,36 @@
+{
+    "team_members": {
+        "joel_title": "Grundare & Chef",
+        "joel_desc": "Integritets- och säkerhetsaktivist, mjukvaruingenjör, designer av digitala produkter, \"Open sourcerer\", ung talang från The Next Web Top 500, människa.",
+        "jaya_title": "Verksamhetssensei",
+        "jaya_desc": "Globalt erkänd expert på informationssäkerhet, talare för lawful interception, kvantdatorteknik, anti-övervakning och kryptografi.",
+        "phil_title": "Kryptografitrollkarl",
+        "phil_desc": "Pionjär inom kryptografi, skapare av PGP (den mest använda krypteringsmjukvaran för e-post i världen), medlem i Internet Hall of Fame, integritetsaktivist.",
+        "lambrecht_title": "Mediamaestro",
+        "lambrecht_desc": "Expert på säkerhet och internationella relationer, konfliktanalytiker, fredsskapare, mediaforskare & -producent, människorättsaktivist.",
+        "vincent_title": "Hacker-in-residence",
+        "vincent_desc": "Etisk hacker, reverse-engineer, utvecklare av exploateringsmetoder, talare, gillar inte order cyber, cyberexpert.",
+        "bas_title": "Senior konceptexorcist",
+        "bas_desc": "Förespråkare för användbara och betydelsefulla produkter, användarupplevelsetrollkarl, har arbetat med flertalet internationella märken, forskare, hårdvaruhacker.",
+        "shantanu_title": "Digital svartkonstnär",
+        "shantanu_desc": "Pragmatiskt mjukvaruingenjör med talang för att bygga bra produkter och upplevelser, kryptonörd, bot-byggar, förespråkare för enkelhet.",
+        "nathalie_title": "Mästarkatalysator",
+        "nathalie_desc": "Mästarplanerare, personifiering av optimism, vill du få något gjort?`Ring Nathalie. ",
+        "robin_title": "Märkeskrigare",
+        "robin_desc": "Marknadsföringsmagiker, ung talang från The Next Web Top 500, strandälskare, hatar att avbruten av rutiner, älskar livet utanför komfortzonen.",
+        "martijn_title": "Mjukvaroninja",
+        "martijn_desc": "Praktiskt mjukvaruingenjör, JavaScript-guru, kroppsnära teknik-nörd, gamer, ansvarigt befäl för coolhet."
+    },
+    "ambassadors": {
+        "isaac_name": "Isaac Hernández",
+        "isaac_desc": "Artist, social entreprenör.",
+        "ruben_name": "Ruben Van Vreeland",
+        "ruben_desc": "VD och medgrundare av BitSensor, cybersäkerhetsmjukvara.",
+        "edwin_name": "Edwin van Andel",
+        "edwin_desc": "VD för Zerocopter, internationell talare, erfaren säkerhetsexpert.",
+        "chris_name": "Chris Duke",
+        "chris_desc": "Värd & exekutiv producent, Motorz TV",
+        "ashwin_name": "Ashwin Krishnan",
+        "ashwin_desc": "Operativ chef för UberKnowledge, teknologietiker, författare, podcast-värd, talare."
+    }
+}

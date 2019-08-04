@@ -1,0 +1,36 @@
+{
+    "team_members": {
+        "joel_title": "Fondatore & CEO",
+        "joel_desc": "Attivista in Privacy e sicurezza, ingegnere informatico, designer di prodotti digitali, sostenitore dell'open source, young talent nella Next Web Top 500, umano.",
+        "jaya_title": "Sensei delle Operazioni",
+        "jaya_desc": "Esperto riconosciuto a livello golbale di sicurezza dell'informazione, intercettazione legale, quantum-computing, controsorveglianza e crittografia.",
+        "phil_title": "Mago della Crittografia",
+        "phil_desc": "Pioniere della crittografia, creatore di PGP, il software di crittografia email più utilizzato al mondo, membro della internet hall of fame, attivista per la privacy.",
+        "lambrecht_title": "Maestro dei Media",
+        "lambrecht_desc": "Esperti di sicurezza e relazioni internazionali, conflict analyst, peace-builder, ricercatore e produttore dei mezzi di comunicazione, attivista per i diritti umani.",
+        "vincent_title": "Hacker-in-residence",
+        "vincent_desc": "Hacker etico, dedito al reverse-engineering, exploit developer, speaker, non ama la parola informatico, esperto informatico.",
+        "bas_title": "Senior Concept Exorcist",
+        "bas_desc": "Difensore di prodotti utili e significativi, mago della user experience, ha lavorato con numerosi brand internazionali, ricercatore, hardware hacker.",
+        "shantanu_title": "Mago del Digitale",
+        "shantanu_desc": "Ingegnere informatico concreto con un talento per realizzare grandi prodotti ed esperienze, cripto-geek, bot-maker, difensore di semplicità.",
+        "nathalie_title": "Mastro Motivatore",
+        "nathalie_desc": "Maestra pianificatrice, personificazione dell'ottimismo, vuoi che le cose siano fatte? chiama Nathalie. ",
+        "robin_title": "Guerriero del Brand",
+        "robin_desc": "Mago dei contenuti marketing, young talent nella The Newxt Web Top 500, amante del mare, odia essere interrotto dalla routine, ama la vita al di fuori della comfort zone.",
+        "martijn_title": "\"Ninja\"gnere Informatico",
+        "martijn_desc": "Ingegnere informatico concreto, guru di JavaScript, geek di tecnologia indossabile, gamer, ufficiale dell'eleganza in carica."
+    },
+    "ambassadors": {
+        "isaac_name": "Isaac Hernández",
+        "isaac_desc": "Artista, imprenditore social.",
+        "ruben_name": "Ruben Van Vreeland",
+        "ruben_desc": "CEO & Co-Fondatore di BitSensor, software di sicurezza informatica.",
+        "edwin_name": "Edwin van Andel",
+        "edwin_desc": "CEO a Zerocopter, speaker internazionale, esperto in materia di sicurezza.",
+        "chris_name": "Chris Duke",
+        "chris_desc": "Padrone & Produttore Esecutivo, Motorz TV",
+        "ashwin_name": "Ashwin Krishnan",
+        "ashwin_desc": "COO di UberKnowledge, eticista tecnologico, scrittore, realizzatore di podcast, speakere."
+    }
+}

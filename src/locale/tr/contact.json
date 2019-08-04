@@ -1,0 +1,44 @@
+{
+    "contact_us": {
+        "title": "Bizimle iletişime geç",
+        "subtitle": "Bunu sizden duymak istiyoruz.",
+        "info": "İletişim Bilgileri",
+        "message": "Bize bir mesaj gönder"
+    },
+    "address": {
+        "name": "İsim",
+        "ob_organization": "Okuna B.V",
+        "address": "Adres",
+        "ob_address": "Apollo 14, The Hague, Hollanda",
+        "telephone": "Telefon",
+        "telephone_no": "(+31) 611 60 4275",
+        "email": "E-Posta",
+        "website": "Web sitesi"
+    },
+    "message": {
+        "subject": "Konu",
+        "reason_placeholder": "Bize ulaşmanızın nedeni",
+        "email_placeholder": "Size ulaşabileceğimiz e-posta adresi",
+        "email": "E-Posta",
+        "user_message": "Mesaj",
+        "user_message_placeholder": "Sizin için ne yapabiliriz?",
+        "google_recaptcha_title": "Bu formun kötüye kullanılmasını önlemek için <a href=\"https://www.google.com/recaptcha/intro/v3beta.html\" target=\"_blank\"\n                                              rel=\"noopener noreferrer\">Google Recaptcha</a>\n                                     kullanıyoruz.",
+        "recaptcha_info": "Google, insan olduğunuzu \"doğrulamak\" için hakkınızdaki bilgileri toplar.",
+        "info_includes": "Bu bilgiler şunları içerir",
+        "info_ip_location": "Bulunduğunuz yeri belirlemek ve kimliğinizi ziyaret ettiğiniz diğer sitelere çapraz referans vermek için kullanabileceğiniz IP adresiniz.",
+        "info_cookies": "Google tarafından son 6 ay boyunca yerleştirilen tüm çerezler.",
+        "info_mouse_clicks": "Kaç fare tıklaması yaptığınız (veya bir dokunmatik cihazda dokunursa).",
+        "info_css": "Sayfanın CSS bilgisi",
+        "info_date": "Tarih",
+        "info_browser_lang": "Tarayıcınızın dili",
+        "info_plugins": "Tarayıcıya yüklediğiniz tüm eklentiler",
+        "info_js": "Sayfadaki Javascript nesneleri",
+        "recaptcha_authorization": "Google Recaptcha'yı yüklememize izin veriyor ve bu nedenle Google'ın bu bilgileri toplamasına izin veriyor musunuz?",
+        "recaptcha_authorization_yes": "Evet, Google Recaptcha’yı yüklemenize izin veriyorum",
+        "or": "veya",
+        "recaptcha_authorization_no": "Hayır, info@okuna.io adresine e-posta gönder",
+        "tick_box": "Lütfen bu kutuyu işaretleyiniz",
+        "clear_form": "Formu temizle",
+        "submit": "Gönder"
+    }
+}

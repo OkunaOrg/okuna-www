@@ -296,6 +296,10 @@
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Deutsch <i class="fas fa-check"></i></div>
                                     </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'es' }" v-on:click="changeLocale('es')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Español <i class="fas fa-check"></i></div>
+                                    </li>
                                     <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'fr' }" v-on:click="changeLocale('fr')">
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Français <i class="fas fa-check"></i></div>
@@ -304,9 +308,21 @@
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Magyar <i class="fas fa-check"></i></div>
                                     </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'it' }" v-on:click="changeLocale('it')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Italiano <i class="fas fa-check"></i></div>
+                                    </li>
                                     <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'pt-br' }" v-on:click="changeLocale('pt-br')">
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Português (Brasil) <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'sv' }" v-on:click="changeLocale('sv')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Svenska <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'tr' }" v-on:click="changeLocale('tr')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Türkçe <i class="fas fa-check"></i></div>
                                     </li>
                                 </ul>
                             </div>
