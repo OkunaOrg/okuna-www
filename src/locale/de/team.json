@@ -1,9 +1,9 @@
 {
     "team_members": {
         "joel_title": "Gründer & Chef",
-        "joel_desc": "Aktivistin für Datenschutz und Sicherheit, Softwareentwicklerin, Designerin von digitalen Produkten, Open Sourcerer, The Next Web Top 500 junge Talente, Mensch.",
+        "joel_desc": "Aktivist für Datenschutz und Sicherheit, Softwareentwickler, Designer von digitalen Produkten, Open Sourcerer, The Next Web Top 500 junge Talente, Mensch.",
         "jaya_title": "Operations Sensei",
-        "jaya_desc": "Weltweit anerkannter Experte für Informationssicherheit, Redner zum Thema rechtmäßiges Abfangen, Quanten-Computing, Gegenüberwachung und Kryptographie.",
+        "jaya_desc": "Weltweit anerkannte Expertin für Informationssicherheit, Rednerin zum Thema rechtmäßiges Abfangen, Quanten-Computing, Gegenüberwachung und Kryptographie.",
         "phil_title": "Kryptographie Zauberer",
         "phil_desc": "Kryptographie-Pionier, Erfinder von PGP, der am weitesten verbreiteten E-Mail-Verschlüsselungssoftware der Welt, Internet Hall of Fame Mitglied, Datenschutzaktivist.",
         "lambrecht_title": "Medien Maestro",
@@ -29,6 +29,8 @@
         "edwin_name": "Edwin van Andel",
         "edwin_desc": "CEO bei Zerocopter, internationaler Sprecher, erfahrener Sicherheitsexperte.",
         "chris_name": "Chris Duke",
-        "chris_desc": "Moderator & ausführender Produzent, Motorz TV"
+        "chris_desc": "Moderator & ausführender Produzent, Motorz TV",
+        "ashwin_name": "Ashwin Krishnan",
+        "ashwin_desc": "COO von UberKnowledge, Tech-Ethiker, Autor, Podcast-Moderator, Sprecher."
     }
 }

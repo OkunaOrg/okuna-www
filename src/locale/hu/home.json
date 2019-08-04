@@ -2,7 +2,8 @@
     "home": {
         "want_to_know_more": "Szeretnél többet megtudni?",
         "read_manifesto": "Olvasd el a nyilatkozatunkat",
-        "featured_in": "Ők már írtak rólunk"
+        "featured_in": "Ők már írtak rólunk",
+        "signup_button": "Feliratkozás a bétára"
     },
     "honesty": {
         "title": "Nyílt és felelősségteljes",
@@ -10,10 +11,10 @@
     },
     "privacy": {
         "title": "Adatvédelem-barát",
-        "description": "Hívei vagyunk annak, hogy a magánélet egy alapvető emberi jog. Nem követjük nyomon és nem figyeljük a tevékenységeidet."
+        "description": "Hisszük, hogy a magánélet alapvető emberi jog. Nem követjük nyomon és nem figyeljük a tevékenységeidet."
     },
     "secure": {
-        "title": "Biztonság középpontban",
+        "title": "Biztonság a középpontban",
         "description": "Tapasztaltak vagyunk az információbiztonság terén. Az elejétől kezdve biztonsággal előtérben csinálunk mindent."
     },
     "easy": {
@@ -98,5 +99,12 @@
     },
     "meet_the_team": {
         "title": "Ismerd meg a csapatot"
+    },
+    "beta_container": {
+        "title": "Csatlakozz a forradalomhoz!",
+        "beta_date": "A béta 2019 közepétől lesz elérhető",
+        "email_placeholder": "te@cimed.hu",
+        "server_error": "Szerverproblémákba ütköztünk. Kérünk, próbáld újra pár perc múlva.",
+        "success": "&nbsp;&nbsp;Hurrá! Ön a(z) {count}. a várólistánkon."
     }
 }

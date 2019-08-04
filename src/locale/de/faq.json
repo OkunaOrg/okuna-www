@@ -4,6 +4,10 @@
         "subtitle": "Die häufigsten Fragen.",
         "office_dog": "Unser Bürohund arbeitet hart.",
         "jump_to": "Springe zu",
+        "name": "Was soll der Name?",
+        "name_ans": "Der Name kommt aus der Sprache <a href=\"https://de.m.wikipedia.org/wiki/Esperanto\" rel=\"nofollow noreferrer\">Esperanto</a> und bedeutet gemeinsam: <strong>kune</strong>.",
+        "openbook": "Hießt ihr nicht mal Openbook?",
+        "openbook_ans": "Ja, bis eine bestimmte Firma ihre Anwälte in Bezug auf das Wort <i>book</i> geschickt hat.",
         "whos_paying": "Wer bezahlt bisher für alles?",
         "is_distributed": "Wird Okuna dezentralisiert?",
         "whos_paying_ans": "Das Projekt wurde im September 2018 erfolgreich durch Crowdfunding finanziert und läuft seitdem zusammen mit der Unterstützung unserer Förderer.",
@@ -12,11 +16,12 @@
         "many_ways": "Es gibt viele Möglichkeiten, wie du uns helfen kannst.",
         "ideas": "Hier sind einige Ideen:",
         "share_website": "Teile diese Webseite in sozialen Netzwerken",
+        "patreon": "Unterstütze uns monatlich!",
         "donate": "Spende über IndieGogo!",
         "talk_to_friends": "Sprich mit deinen Freunden und deiner Familie über uns",
         "improve_website": "Wenn du ein Entwickler bist, kannst du uns helfen, unsere <a\n                            href=\"https://github.com/OkunaOrg\"\n                            target=\"_blank\" rel=\"noopener noreferrer\">Website zu verbessern</a>.",
         "let_us_know": "Wenn du eine Idee für das Netzwerk hast, kannst du es uns gerne <a href=\"/en/contact-us\"\n                                                                            target=\"_blank\" rel=\"noopener noreferrer\">mitteilen</a>.",
-        "public_figure": "Wenn du eine Person des öffentlichen Lebens bist, und Botschafter werden möchtest,",
+        "public_figure": "Wenn du eine Person der Öffentlichkeit bist, und Botschafter werden möchtest,",
         "contact_us": "kontaktiere uns",
         "looking_for_job": "Wenn du auf der Suche nach einem Job bist und glaubst, dass Okuna genau das Richtige für dich ist,",
         "visit_jobs": "besuche unsere Jobseite",
@@ -26,6 +31,6 @@
         "more_questions": "Noch Fragen?",
         "send_us_message": "Sende uns eine Nachricht",
         "why_not_decentralised": "Wird Okuna dezentralisiert?",
-        "why_not_decentralised_ans": "<p>Wir wollen diesen Punkt irgendwann einmal erreichen. Wir befassen uns mit dem <a href=\"https://solid.mit.edu/\" target=\"_blank\" rel=\"noopener noreferrer\">Solid MIT-Ansatz</a> (von Tim Berners Lee) und sind bisher sehr zufrieden damit. </p> <p>Unsere ersten Versionen werden jedoch zentralisiert. </p> <p>Wir tun dies, weil es dann einfacher ist, sich auf die Innovation der Produktfunktionen und die allgemeine Benutzerfreundlichkeit zu konzentrieren. Diese Dinge werden darüber entscheiden, ob wir die Mitgliederbasis erreichen, die notwendig ist, um bestehende soziale Netzwerke zu übernehmen. </p> <p>Wenn wir erfolgreich sind, ist der Himmel die Grenze dessen, was wir in Bezug auf die Dezentralisierung tun können.</p>"
+        "why_not_decentralised_ans": "Der Aufbau eines föderierten Anmeldesystems, das es selbst gehosteten Instanzen ermöglicht, sich in das Hauptnetzwerk einzuloggen, während sie selbstständig arbeiten können, ist Teil unserer Roadmap."
     }
 }

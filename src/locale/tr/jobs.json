@@ -1,0 +1,13 @@
+{
+    "jobs": {
+        "title": "Kariyer",
+        "subtitle": "Bizimle çalışın.",
+        "exciting_adventure": "Biz dijital dünyanın en heyecan verici işlerinden birine giriştik ve bizimle engin denizlere açılacak yetenekli ve tutkulu kişiler aramaktayız!",
+        "all_skills": "Teknoloji, tasarım, pazarlama, finans, medya, adını sen koy işte!",
+        "need_your_help": "Sosyal ağlarda bir bütünlük için insanlık adına daha iyi bir gelecek olan<span class=\"has-text-primary\"><strong class=\"has-text-primary\">Okuna</strong></span>'ya inanıyor musun?",
+        "send_cv": "Bize özgeçmişinizi ve motivasyon mektubunuzu yollayın <a\n                        href=\"mailto:joel@okuna.io?subject=Job%20Application\">joel@okuna.io</a>.",
+        "look_forward": "Sizinle tanışmaya can atıyoruz !",
+        "colleagues": "Kimlerle çalışacaksınız?",
+        "meet_the_team": "Ekiple Tanışın"
+    }
+}

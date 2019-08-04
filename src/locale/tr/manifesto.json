@@ -1,0 +1,161 @@
+{
+  "manifesto": {
+    "common": {
+      "reading_time": "Okuma süresi",
+      "reading_time_minutes": "dakika"
+    },
+    "titles": {
+      "main": "Bildiri",
+      "toc": "İçindekiler",
+      "why": "Neden?",
+      "how": "Nasıl?",
+      "honest": "1. Dürüst.",
+      "customizable": "2. Özelleştirilebilir.",
+      "secure": "3. Gizlilik dostu ve güvenilir",
+      "explicit_consent": "Belirgin ve bilgilendirici izin",
+      "safe_apps": "Güvenlik uygulamaları",
+      "privacy_by_default": "Varsayılan olarak etkin",
+      "easy": "4. Çocuk oyuncağı.",
+      "research": "5. Araştırma.",
+      "revenue": "6. Temiz hazine."
+    },
+    "subtitles": {
+      "main": "Sorun, çözüm, diğer adımlar.",
+      "the_reason": "Başka bir sosyal ağı inşa etmemizin sebebi.",
+      "how_are_we_creating": "Daha iyi yarınlar için nasıl bir sosyal ağ oluşturuyoruz?"
+    },
+    "why": {
+      "awesome": "Sosyal siteler mükemmeldir.",
+      "they_connect": "Bizi birbirine bağlarlar, değerli anları sevdiklerimizle paylaşmamıza yardımcı olurlar ve bize komik kedi videoları sunarlar.",
+      "sadly_nowadays": "Ne yazık ki, günümüzde sosyal ağlar insanları birleştirmekle pek ilgili değil, sonuçları ne olursa olsun, insanlardan mümkün olduğunca çok para kazanmakla ilgili. Örneğin gizlilik kaybı.",
+      "we_want_to_do_better": "Daha iyisini yapmak istiyoruz, bu yüzden Okuna'da işleri farklı bir şekilde yapıyoruz.",
+      "we_are_designing": "Nezaket, şefkat, hoşgörü, yardımseverlik, empati ve özünde işbirliği gibi insanlığın en iyi niteliklerine sahip bir sosyal ağ tasarlıyoruz.",
+      "a_brighter_social_network": "Parlak bir sosyal site."
+    },
+    "how": {
+      "open_source": "Kodlarımızın hepsi <strong>açık kaynak kodludur</strong>. Bu, herkesin görmesi, çoğaltması ve katkıda bulunması için ücretsiz olduğu anlamına gelir. Sosyal ağın nasıl çalıştığı konusunda şeffafız.",
+      "30_percent": "Ayrıca herkes için daha iyi bir dünyaya inanıyoruz. Bu nedenle, dünyayı daha iyi bir yer haline getirmeye yönelik <strong>kazancımızın %30'unu veriyoruz</strong>, şimdi ve sonsuza kadar<a href=\"https://founderspledge.com/\" rel=\"noreferrer noopener\"> FoundersPledge</a>.",
+      "we_are_different": "Çünkü hepimiz farklıyız, bu kucaklamak ve kutlamak için güzel bir şey.",
+      "just_like_home": "Sadece size uygun bir deneyim oluşturabileceksiniz. Zaman Tünelinizin rengini değiştirmenizden, profilinize harika ekstra widget'lar eklemenizden, Zaman Tünelinizdeki içeriği nasıl görmek istediğinizi seçmenize kadar Okuna'nın size tanıdık, samimi ve rahat hissettirmesini istiyoruz. Tıpkı evinizdeymişiniz gibi.",
+      "build_Okuna_together": "Ve Okuna'da eksik olan bir şey varsa, bize bildirin. Okuna'yı birlikte inşa etmek istiyoruz. Bundan sonra ne yapmamız gerektiğine veya neyi geliştirmemiz gerektiğine karar vermemize yardımcı olmanız için sizi cesaretlendirdiğimiz özel bir grup oluşturacağız. Birlikte gelmiş geçmiş en iyi sosyal deneyimi inşa edelim.",
+      "privacy_and_security": "Başlangıçta Okuna'yı inşa etmemizi sağlayan şey budur. Kullanıcılarımızın gizliliği ve güvenliği her zaman yaptığımız her şeyin merkezinde olacaktır. Yaptığınız hiçbir şeyi izlemiyoruz, bilgilerinizden para kazanmıyor, açık ve bilgili izniniz olmadan paylaşmıyoruz.",
+      "how_does_this_translate": "Bu gerçek hayat senaryosuna nasıl tercüme edilir?",
+      "crystal_clear": "Neyin paylaşıldığını her zaman şeffaf bir şekilde netleştirmesini sağlıyoruz, bu yüzden pop-up'lar veya belirsiz açıklamalar yok. Emin olmak için kendiniz de inceleyebilirsiniz.",
+      "will_be_reviewed": "Tüm başvurular tarafımızdan gözden geçirilecektir. Şunlardan emin olacağız:",
+      "apps_will": {
+        "only_request": "yalnızca <strong>gerekli</strong> bilgilerini isteyin",
+        "exact_location_of_data": "verilerinizin <strong>tam</strong> yerini <strong>her zaman</strong> sizin için kullanılabilir hale getirin",
+        "delete": "izni iptal ederseniz bilgilerinizi <strong>hepsini</strong> silin",
+        "emergency_plan": "bir veri sızıntısı durumunda <strong>acil bir plan</strong> yapın ve bu gerçekleşirse hemen <strong>bize/size bildirecektir</strong>"
+      },
+      "once_they_meet": "Bu katı kurallara ulaştıklarında logosunun altında bir rozet olacak. Kişisel panonuzda, paylaşılan verilerinizin tam konumlarını belirleyebilir, uygulamanın erişimini iptal edebilir ve hepsinden iyisi, silme isteğinde bulunabilirsiniz.",
+      "optional_disabled_by_default": "Tüm isteğe bağlı veri paylaşımı varsayılan olarak devre dışı bırakılır ve bu uygulamayı başka bir yol yerine verilerinizden daha fazla vermek istiyorsanız bu durum size bırakılır.",
+      "we_will_research": "Gizliliğinizi ve güvenliğinizi arttırmak için sürekli olarak yeni yöntemler araştırıp geliştireceğiz.",
+      "technologies": "Araştıracağımız ve geliştireceğimiz teknolojiden bazı örnekler:",
+      "technologies_list": {
+        "crypto_enforced": "Kriptografik olarak uygulanan veri paylaşım politikaları",
+        "e2e": "Tarayıcıda bile uçtan uca şifreleme",
+        "public_key_crypto": "Tarayıcıdaki genel anahtar şifrelemesi",
+        "crypto_algo": "Kuantum sonrası şifreleme algoritmaları ve protokolleri"
+      },
+      "generally_speaking": "Genel olarak konuşursak, sizden ne kadar az şey bilirsek ve bizim hakkımızda ne kadar çok şey bilirseniz o kadar iyi.",
+      "smooth_transition": "Muhtemelen mevcut sosyal ağlarınıza zaten muazzam bir zaman (ve veri) koydunuz. Geçişi mümkün olduğunca yumuşak hale getirmeyi amaçlıyoruz.",
+      "import_your_data": "Bu nedenle, verilerinizi mevcut <sup>1</sup> veya daha fazla sosyal ağlardan içe aktarmak için araçlar oluşturacağız. En fazla 3 adım olarak düşünün.",
+      "research_1": "Okuna'ya duyulan ilgi gizlilik dostu bir sosyal ağ oluştururken, mevcut sosyal ağların komplikasyonları birçok başka konuya da uzanıyor. Kaybetme korkusu, dijital sosyal statü, ayrımcılık, dijital mobbing, sansür ve daha fazlası.",
+      "research_2": "Konularla ilgili çok fazla araştırma var, ne yazık ki şimdiye kadar sadece birkaç oyuncu bununla bir şeyler yapma gücüne sahipti. Artık değil.",
+      "research_3": "Platformu mevcut araştırmaları göz önünde bulundurarak tasarlıyoruz ve daha önce bahsedilen konulardan bazılarını ele almak için radikal yeni kavramlarla deney yapıyoruz.",
+      "research_4": "Çözümlerimizin işe yarayacağına söz veremeyiz, ancak araştırma ve açık diyaloglarla destekleneceklerine söz verebiliriz, onlar çalışana kadar denemeye devam edeceğiz.",
+      "no_ads": "İş modelimiz reklam değil ve asla olmayacak. Hiç.",
+      "okuna_gold": "Gelir modelimiz daha fazla reaksiyon, tema ve özelleştirme seçeneğine erişim sunan <span class=\"has-text-circular\"><strong>Okuna'nın</strong> Altın</span> adlı isteğe bağlı bir aboneliğidir.",
+      "digital_currency": "Gelecekte içerik yaratıcılarını desteklemek, yayıncılara abone olmak, mal ve hizmet satın alım ve satımını yapmak için kullanılan dijital bir para birimini de tanıtacağız.",
+      "currency_article": "Bu para biriminin tamamını <a class=\"has-text-underlined\" href=\"https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\"> adresinde okuyabilirsiniz. Bu makale (yaklaşık 6 dakikalık okuma süresi)</a>"
+    },
+    "examples": {
+      "common": {
+        "btn_continue": "Devam et",
+        "btn_cancel": "Vazgeç",
+        "btn_back": "Geri",
+        "btn_got_it": "Anladım!",
+        "required": "(zorunlu)",
+        "success": "Başarılı",
+        "last_item": " ve",
+        "open_list": "Listeyi aç",
+        "open_image": "Resmi aç"
+      },
+      "title": "Örnek",
+      "normally": "Normalde veri paylaşımına benzeyen şey budur.",
+      "public_wifi": "Diyelim ki halka açık bir WiFi bağlantı noktasına bağlanmak istediğinizi varsayalım; geleneksel olarak bilgisayarınızda aşağıdaki gibi bir pencere açılır:",
+      "box_below": "Aşağıdaki kutu ekranda belirir.",
+      "click": "(Devam edin, normalde yaptığınız gibi tıklayın)",
+      "can_receive_following_data": {
+        "public_profile": "herkese açık profil",
+        "friend_list": "arkadaş listesi",
+        "friends": "arkadaşlar",
+        "birthday": "doğum günü",
+        "likes": "beğeniler",
+        "email": "e-posta adresi",
+        "name": "isim",
+        "profile_picture": "profil resmi",
+        "age_range": "yaş aralığı",
+        "gender": "cinsiyet",
+        "language": "dil",
+        "country": "ülke",
+        "country_of_birth": "doğum ülkesi",
+        "other": "herkese açık diğer bilgiler"
+      },
+      "evilcorp": {
+        "before_you_can_enjoy": "Ücretsiz Wifi Hotspot'larımızın tadını çıkarmadan önce EvilCorp ile devam etmelisiniz.",
+        "continue": "EvilCorp ile devam et",
+        "will_receive": "<strong>WiFi Hotspots Uygulaması</strong> alın:",
+        "will_receive_list": "sizin {requested_data}.",
+        "public_profile_includes": "Herkese açık profiliniz şunları içerir: {public_info}.",
+        "edit": "Bunu düzenle",
+        "shared_the_info": "Sosyal ağ şimdi bilgilerinizi uygulama ile paylaştı.",
+        "restart": "Örneği yeniden başlat",
+        "descriptions": {
+          "public_profile": "John Doe, profil resmi, 33+ yaşında, erkek ve herkese açık diğer bilgileri",
+          "friend_list": "Mike Chowder, Barbara Lamb ve diğer 590.",
+          "birthday": "12 Ocak 1990",
+          "likes": "The Daily Show, NBC ve diğer 978",
+          "email_address": "john@doe.com"
+        }
+      },
+      "congrats": "Tebrikler! Kişisel bilgilerinizi bir WiFi erişim noktasıyla paylaştınız!",
+      "do_you_know": "Uygulama ile az önce hangi verileri paylaştığınızı biliyor musunuz?",
+      "hovered_icon": "Örneğin “i” simgesinin üzerine getirdiyseniz, şunu yazdığını fark etmiş olabilirsiniz:",
+      "quote": "\"Genel profilinizde isim, profil resmi, yaş aralığı, cinsiyet, dil, ülke ve <i><strong>\"diğer herkese açık bilgiler\"</i></strong> var mı?”",
+      "what_qualifies": "<i>\"Diğer herkese açık bilgiler\"</i> olarak nitelendirilen nedir? Ve neden bir WiFi erişim noktası tüm bu bilgileri sizden istiyor? Cinsiyetinize veya yaşınıza göre size daha hızlı WiFi sunacak mı? Peki, verileriniz elinizde olduğunda ne olacak?",
+      "people_share": "İnsanlar başlangıçta farkında oldukları bilgilerin daha fazlasını paylaşırlar ve veriler paylaşıldıktan sonra geri dönüşü olmaz.",
+      "how_we_do_it": "Bu nasıl yapılır:",
+      "awesome_music_app": "Şimdi herkesin size tavsiye ettiği harika müzik uygulamasını indirdiğinizi varsayalım. Uygulamayı açar açmaz, aşağıdaki kutu görünür.",
+      "songipy": {
+        "prompt": "Songipy'i kullanmak için Okuna'ya devam etmelisin.",
+        "continue": "Okuna ile devam et",
+        "safe_to_use": "Bu uygulamanın kullanımı güvenlidir.",
+        "strict_policy": "Katı gizlilik ve güvenlik politikalarımızı yerine getirdi.",
+        "learn_more": "Daha fazla bilgi",
+        "in_order_to_continue": "<strong>Songipy</strong> devam etmek için {required_data} gerektirir.",
+        "optionally": "<strong>İsteğe bağlı olarak</strong>, aynı zamanda {optional_data} erişmek istiyor.",
+        "edit_optional_data": "Paylaşılan isteğe bağlı verileri düzenle",
+        "inspect": "Paylaşılan verileri inceleyin",
+        "descriptions": {
+          "name": "Jules Winnfield",
+          "email": "badmf@pfiction.com",
+          "gender": "erkek",
+          "language": "İngilizce",
+          "country": "ABD",
+          "birthday": "25-3-1997"
+        },
+        "okuna_has_shared": "Okuna şimdi bilgilerinizi Songipy ile paylaştı.",
+        "restart": "Orijinali yeniden başlat",
+        "safe_app_modal": "<div class=\"content\"><p>Orijinal olmayan versiyonda, bu sizi güvenli uygulamalar hakkında detaylı bilgiler içeren bir sayfaya yönlendirecektir.</p><p>Kısaca, güvenli uygulamalar veri paylaşım sistemini kötüye kullanmayan, verilerinizin sistemlerinden silinmesine izin veren ve verilerinizin nerede olduğunu her zaman bilen uygulamalardır.</p><p>Bu konuda daha fazla bilgi aşağıdadır.</p></div>",
+        "list_modal": "Prototip olmayan versiyonda bu, {data_name} listenizin tam listesini içeren bir liste açar."
+      },
+      "did_you_spot": "Farklılıkları tespit ettiniz mi?",
+      "most_important_ones": "İşte en önemlileri."
+    },
+    "gdpr_footnote": "[1] Yeni GDPR düzenlemesi ile, sosyal ağların kullanıcılarının bunu şimdi yapmasına izin vermesi gerekiyor.",
+    "still_have_questions": "Hala sorularınız var mı?",
+    "visit_faq": "SSS sayfamızı ziyaret edin"
+  }
+}
