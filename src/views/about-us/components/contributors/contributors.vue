@@ -12,8 +12,10 @@
     import andrewPhoto from './assets/andrew-min.jpg';
     import caraPhoto from './assets/cara-min.jpg';
     import cyrillPhoto from './assets/cyrill-min.jpg';
+    import dennisPhoto from './assets/dennis-min.jpg';
     import jaapPhoto from './assets/jaap-min.jpg';
     import jakobPhoto from './assets/jakob-min.jpg';
+    import jeffPhoto from './assets/jeff-min.jpg';
     import joePhoto from './assets/joe-min.jpg';
     import mariusPhoto from './assets/marius-min.jpg';
     import patrickPhoto from './assets/patrick-min.jpg';
@@ -61,7 +63,13 @@
                         name: 'Cyrill Kunze',
                         photo: cyrillPhoto,
                         links: {},
-                    }, {
+                    },
+                    {
+                        name: 'Dennis Melhede',
+                        photo: dennisPhoto,
+                        links: {},
+                    },
+                    {
                         name: 'Jaap Elzes',
                         photo: jaapPhoto,
                         links: {
@@ -74,6 +82,12 @@
                         links: {
                             github: 'https://github.com/komposten',
                             linkedin: 'https://www.linkedin.com/in/jakobhjelm/'
+                        },
+                    },
+                    {
+                        name: 'Jeff Connary',
+                        photo: jeffPhoto,
+                        links: {
                         },
                     },
                     {
@@ -103,13 +117,6 @@
                         links: {
                             github: 'https://gitlab.com/999eagle',
                             website: 'https://999eagle.moe'
-                        },
-                    },
-                    {
-                        name: 'Alexander Friedrich',
-                        photo: alexPhoto,
-                        links: {
-                            github: 'https://github.com/johnendz',
                         },
                     },
                     {
