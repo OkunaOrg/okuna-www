@@ -79,14 +79,24 @@
         <section class="section">
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
-                    <p class="is-size-3 padding-bottom-1x">
+                    <h4 class="is-size-3 padding-bottom-3x">
                         {{ $t('about_us.our_ambassadors') }}
-                    </p>
+                    </h4>
                     <p class="is-size-6 is-marginless is-paddingless">
                         {{ $t('about_us.ambassadors_desc') }}
                     </p>
                 </div>
                 <ob-ambassadors></ob-ambassadors>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="content has-text-centered padding-bottom-2x">
+                    <h4 class="is-size-3 padding-bottom-3x">
+                        {{ $t('about_us.our_contributors') }}
+                    </h4>
+                </div>
+                <ob-contributors></ob-contributors>
             </div>
         </section>
         <section class="hero is-bold">
@@ -154,9 +164,11 @@
     import ObTeamMembers from "./components/team-members/team-members";
     import ObAmbassadors from "./components/ambassadors/ambassadors.vue";
     import spinningWorldImg from './../home/components/good-for-planet/components/earth-drawing.png';
+    import ObContributors from "./components/contributors/contributors";
 
     export default {
         components: {
+            ObContributors,
             ObAmbassadors,
             ObTeamMembers
         },
