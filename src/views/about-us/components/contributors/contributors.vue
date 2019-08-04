@@ -1,25 +1,25 @@
 <template>
     <div class="columns is-multiline is-mobile is-variable is-5">
-        <div class="column is-6-mobile is-3-tablet is-3-desktop" v-for="contributor of contributors">
+        <div class="column is-4-mobile is-2-tablet is-2-desktop" v-for="contributor of contributors">
             <ob-contributor :contributor="contributor" :key="contributor.name"/>
         </div>
     </div>
 </template>
 
 <script>
-    import alexPhoto from './assets/alex.jpg';
-    import anastasijaPhoto from './assets/anastasija.jpg';
-    import andrewPhoto from './assets/andrew.jpg';
-    import caraPhoto from './assets/cara.jpg';
-    import cyrillPhoto from './assets/cyrill.jpg';
-    import jaapPhoto from './assets/jaap.jpg';
-    import jakobPhoto from './assets/jakob.jpg';
-    import joePhoto from './assets/joe.jpg';
-    import mariusPhoto from './assets/marius.jpg';
-    import patrickPhoto from './assets/patrick.jpg';
-    import sophiePhoto from './assets/sophie.jpg';
-    import thomasPhoto from './assets/thomas.jpg';
-    import tomPhoto from './assets/tom.jpg';
+    import alexPhoto from './assets/alex-min.jpg';
+    import anastasijaPhoto from './assets/anastasija-min.jpg';
+    import andrewPhoto from './assets/andrew-min.jpg';
+    import caraPhoto from './assets/cara-min.jpg';
+    import cyrillPhoto from './assets/cyrill-min.jpg';
+    import jaapPhoto from './assets/jaap-min.jpg';
+    import jakobPhoto from './assets/jakob-min.jpg';
+    import joePhoto from './assets/joe-min.jpg';
+    import mariusPhoto from './assets/marius-min.jpg';
+    import patrickPhoto from './assets/patrick-min.jpg';
+    import sophiePhoto from './assets/sophie-min.jpg';
+    import thomasPhoto from './assets/thomas-min.jpg';
+    import tomPhoto from './assets/tom-min.jpg';
 
     import ObContributor from './components/contributor.vue';
 
