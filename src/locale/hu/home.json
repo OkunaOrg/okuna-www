@@ -7,7 +7,7 @@
     },
     "honesty": {
         "title": "Nyílt és felelősségteljes",
-        "description": "Minden kód, ami a közösségi hálózatot működteti nyílt forráskódú, ami azt jelenti, hogy bárki megtekintheti. Nincs itt helye trükkös algoritmusoknak!"
+        "description": "Minden kód, ami a közösségi hálózatot működteti, nyílt forrású, ami azt jelenti, hogy bárki megtekintheti. Itt nincs helye ördöngös algoritmusoknak!"
     },
     "privacy": {
         "title": "Adatvédelem-barát",
