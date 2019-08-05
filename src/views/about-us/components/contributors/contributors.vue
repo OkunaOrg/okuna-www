@@ -13,6 +13,8 @@
     import caraPhoto from './assets/cara-min.jpg';
     import cyrillPhoto from './assets/cyrill-min.jpg';
     import dennisPhoto from './assets/dennis-min.jpg';
+    import bardourPhoto from './assets/bardour-min.jpg';
+    import dejanPhoto from './assets/dejan-min.jpg';
     import jaapPhoto from './assets/jaap-min.jpg';
     import jakobPhoto from './assets/jakob-min.jpg';
     import jeffPhoto from './assets/jeff-min.jpg';
@@ -54,6 +56,13 @@
                         },
                     },
                     {
+                        name: 'Bárður Christiansen',
+                        photo: bardourPhoto,
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/bardurchristiansen',
+                        },
+                    },
+                    {
                         name: 'Cara Reynolds',
                         photo: caraPhoto,
                         links: {
@@ -70,10 +79,16 @@
                         links: {},
                     },
                     {
+                        name: 'Dejan Milosavljevic',
+                        photo: dejanPhoto,
+                        links: {},
+                    },
+                    {
                         name: 'Jaap Elzes',
                         photo: jaapPhoto,
                         links: {
-                            github: 'http://mediaprofessional.online',
+                            website: 'http://mediaprofessional.online',
+                            linkedin: 'https://www.linkedin.com/in/jaapelzes/'
                         },
                     },
                     {
