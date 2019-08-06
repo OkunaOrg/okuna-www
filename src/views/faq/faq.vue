@@ -104,7 +104,7 @@
                     </p>
                     <ul>
                         <li class="has-text-underlined">
-                            <a href="https://www.patreon.com/openbooksocial" rel="noopener noreferrer" target="_blank">
+                            <a href="https://www.patreon.com/okuna" rel="noopener noreferrer" target="_blank">
                                 {{ $t('faq.patreon') }}</a>
                         </li>
                         <li class="has-text-underlined">
