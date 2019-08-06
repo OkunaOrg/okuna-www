@@ -88,7 +88,7 @@
                         name: 'Ferdinand Thommes',
                         photo: ferdinandPhoto,
                         links: {
-                            url: 'https://linuxnews.de'
+                            website: 'https://linuxnews.de'
                         },
                     },
                     {
