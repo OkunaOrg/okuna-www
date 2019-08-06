@@ -15,6 +15,7 @@
     import dennisPhoto from './assets/dennis-min.jpg';
     import bardourPhoto from './assets/bardour-min.jpg';
     import dejanPhoto from './assets/dejan-min.jpg';
+    import ferdinandPhoto from './assets/ferdinand-min.jpg';
     import jaapPhoto from './assets/jaap-min.jpg';
     import jakobPhoto from './assets/jakob-min.jpg';
     import jeffPhoto from './assets/jeff-min.jpg';
@@ -82,6 +83,13 @@
                         name: 'Dejan Milosavljevic',
                         photo: dejanPhoto,
                         links: {},
+                    },
+                    {
+                        name: 'Ferdinand Thommes',
+                        photo: ferdinandPhoto,
+                        links: {
+                            url: 'https://linuxnews.de'
+                        },
                     },
                     {
                         name: 'Jaap Elzes',
