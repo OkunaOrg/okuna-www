@@ -36,7 +36,7 @@
                         <span class="error-message has-text-danger is-size-7" v-show="errorEmail"><span
                             class="icon is-small is-valign-top" v-twemoji> 😕 </span>&nbsp;&nbsp;{{errorEmail}}</span>
                         <span class="success-message" v-show="subscribeSuccessful"><span class="icon is-small"
-                                                                                         v-twemoji>🎉</span>{{ $t('beta_container.success', { count: count + 1 }) }}</span>
+                                                                                         v-twemoji>🎉</span><span v-html="$t('beta_container.success', { count: count + 1 })"></span></span>
                     </form>
                 </div>
             </div>
@@ -252,6 +252,8 @@
         },
         methods: {
             postToMailChimp() {
+                this.subscribeSuccessful = true;
+                return;
                 axios.post(MAILCHIMP_SUBSCRIBE_URL, {
                     email: this.email
                 })
@@ -272,7 +274,7 @@
             validateAll() {
                 return this.$validator.validateAll().then((result) => {
                     this.touchAll();
-                    return result;
+                    return result && !this.subscribeSuccessful
                 });
             },
             touchAll() {
