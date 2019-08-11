@@ -34,6 +34,7 @@
         "vue-social-sharing": "^2.4.5"
     },
     "devDependencies": {
+        "@fullhuman/postcss-purgecss": "^1.2.0",
         "@vue/cli-plugin-babel": "^3.8.0",
         "@vue/cli-service": "^3.8.3",
         "chalk": "^2.4.2",
