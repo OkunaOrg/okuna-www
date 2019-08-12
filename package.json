@@ -5,7 +5,8 @@
     "scripts": {
         "serve": "vue-cli-service serve --open",
         "build": "rm -rf dist && vue-cli-service build",
-        "test": "npm run build"
+        "test": "npm run build",
+        "check-translations": "node bin/checkTranslations.js"
     },
     "dependencies": {
         "@xkeshi/vue-countdown": "^0.6.0",
