@@ -25,6 +25,15 @@
     import sophiePhoto from './assets/sophie-min.jpg';
     import thomasPhoto from './assets/thomas-min.jpg';
     import tomPhoto from './assets/tom-min.jpg';
+    import andyPhoto from './assets/andy-min.jpg';
+    import finnPhoto from './assets/finn-min.jpg';
+    import ronaldPhoto from './assets/ronald-min.jpg';
+    import andreasPhoto from './assets/andreas-min.jpg';
+    import udoPhoto from './assets/udo-min.jpg';
+    import williamPhoto from './assets/william-min.jpg';
+    import richPhoto from './assets/rich-min.jpg';
+    import bennyPhoto from './assets/benny-min.jpg';
+    import vanessaPhoto from './assets/vanessa-min.jpg';
 
     import ObContributor from './components/contributor.vue';
 
@@ -57,11 +66,28 @@
                         },
                     },
                     {
+                        name: 'Andreas Hensel',
+                        photo: andreasPhoto,
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/andreas-h-2252b9140'
+                        },
+                    },
+                    {
+                        name: 'Andy Hofmann',
+                        photo: andyPhoto,
+                        links: {},
+                    },
+                    {
                         name: 'Bárður Christiansen',
                         photo: bardourPhoto,
                         links: {
                             linkedin: 'https://www.linkedin.com/in/bardurchristiansen',
                         },
+                    },
+                    {
+                        name: 'Benny',
+                        photo: bennyPhoto,
+                        links: {},
                     },
                     {
                         name: 'Cara Reynolds',
@@ -92,6 +118,11 @@
                         },
                     },
                     {
+                        name: 'Finn Strand',
+                        photo: finnPhoto,
+                        links: {},
+                    },
+                    {
                         name: 'Jaap Elzes',
                         photo: jaapPhoto,
                         links: {
@@ -110,8 +141,7 @@
                     {
                         name: 'Jeff Connary',
                         photo: jeffPhoto,
-                        links: {
-                        },
+                        links: {},
                     },
                     {
                         name: 'József Sallai',
@@ -132,6 +162,19 @@
                     {
                         name: 'Patrick Rios',
                         photo: patrickPhoto,
+                        links: {},
+                    },
+                    {
+                        name: 'Ronald Smeets',
+                        photo: ronaldPhoto,
+                        links: {
+                            website: 'http://ronaldsmeets.info/',
+                            linkedin: 'https://www.linkedin.com/in/ronaldsmeets/'
+                        },
+                    },
+                    {
+                        name: 'Rich Quaal',
+                        photo: richPhoto,
                         links: {},
                     },
                     {
@@ -156,7 +199,25 @@
                             linkedin: 'https://www.linkedin.com/in/tomvanthiel/',
                         },
                     },
-
+                    {
+                        name: 'Vanessa Condori',
+                        photo: vanessaPhoto,
+                        links: {
+                            twitter: 'https://twitter.com/vanevet15'
+                        },
+                    },
+                    {
+                        name: 'Udo Beckmann',
+                        photo: udoPhoto,
+                        links: {},
+                    },
+                    {
+                        name: 'William T.S.',
+                        photo: williamPhoto,
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/william-thanoothong-svendsen-70691a111/'
+                        },
+                    },
                 ]
             }
         }
