@@ -1,0 +1,110 @@
+{
+    "home": {
+        "want_to_know_more": "Want to know more?",
+        "read_manifesto": "Read our manifesto",
+        "featured_in": "As featured in",
+        "signup_button": "Sign up for beta"
+    },
+    "honesty": {
+        "title": "Open and accountable",
+        "description": "All of the code powering the network is open-source, meaning open for anyone to see. No room for abracadabra algorithms!"
+    },
+    "privacy": {
+        "title": "Privacy-friendly",
+        "description": "We're firm believers privacy is a fundamental human right. We don't track nor monitor your activity."
+    },
+    "secure": {
+        "title": "Secure by design",
+        "description": "Our background is information security. We are baking in security, right from the start."
+    },
+    "easy": {
+        "title": "Friendly and relaxed",
+        "description": "Through a combination of our <a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\">community-crafted guidelines</a>, ethical design and code, we foster an environment of friendliness, respect and openess where happiness is the end goal."
+    },
+    "fun": {
+        "title": "More ways to express yourself",
+        "description": "We humans are emotional beings. Find more ways to express your digital self with our increasing reactions library!"
+    },
+    "personal": {
+        "title": "Customisable",
+        "description": "We're all different and that's something to embrace and celebrate. With customisation features, make the network feel just like home!"
+    },
+    "community": {
+        "title": "Community oriented",
+        "description": "Discover interests & people by joining one of the 2,500+ existing communities available or create and grow your own!"
+    },
+    "good_for_planet": {
+        "title": "For a better tomorrow",
+        "description": "Apart from donating a percentage of our profits <a href=\"https://founderspledge.com/research\" rel=\"noreferrer noopener\">towards worthy causes</a>, we are also legally committed to being a positive influence on society and the environment."
+    },
+    "ads_free": {
+        "title": "Ethically sustained",
+        "description": "The network is sustained through an optional subscription offering access to extra reactions, animated avatars, themes and more. Absolutely zero ads and monetisation of personal information."
+    },
+    "currency": {
+        "title": "A digital currency",
+        "description": "We're also working on a digital currency called <strong>Tip</strong> to be used as a way to support your favourite video-maker, subscribe to publishers, pay for services and more."
+    },
+    "quotes": {
+        "joel_name": "Joel Hernández",
+        "joel_title": "Founder of Okuna",
+        "joel_quote": "I envision a world of kind, open, accountable and respectful technology. Okuna is the social network of that world.",
+        "vincent_name": "Vincent Ruijter",
+        "vincent_title": "Ethical Hacker",
+        "vincent_quote": "Okuna might be the last real chance to build something different, something ethical, something better.",
+        "phil_name": "Phil Zimmermann",
+        "phil_title": "Internet hall of fame member",
+        "phil_quote": "Okuna holds hope for the future, a social network where we are not victims of its business model."
+    },
+    "splash_hero": {
+        "hello_world": "Hello <span id=\"hello-subject\">world!</span>",
+        "world": "world",
+        "friends": "friends",
+        "family": "family",
+        "grandma": "grandma",
+        "we_are_ob": "We're <strong class=\"has-text-logo is-size-5\">Okuna</strong>, an ethical social network for a brighter tomorrow.",
+        "share": "Share",
+        "notify_me": "Support us"
+    },
+    "why_ob": {
+        "title": "Why Okuna?",
+        "subtitle": "Some of the key things that set us apart from other social networks.",
+        "zero_tracking": "Zero tracking",
+        "zero_tracking_desc": "We will never track you, anywhere, anyhow.",
+        "zero_spying": "Zero spying",
+        "zero_spying_desc": "Be confident your private conversations are truly private.",
+        "zero_ads": "Zero advertisement",
+        "zero_ads_desc": "Advertisement lead to targeted advertisement, which in turn lead to the loss of online privacy. We won't have ads.",
+        "data_protection": "Tough data protection",
+        "data_protection_desc": "Third party applications that wish to access your data will have to comply with our strict and tough security policies.",
+        "honest": "Honest",
+        "honest_desc": "All of our code is free and open for everyone to inspect, reproduce and contribute to. No unpleasant surprises.",
+        "easy_to_migrate": "Easy to migrate",
+        "easy_to_migrate_desc": "We will provide tools to migrate all of your existing data to our network.",
+        "future_proof": "Future-proof",
+        "future_proof_desc": "With a solid and useful business model based on peer-to-peer transactions, we are in for the long run.",
+        "modern_design": "Modern, beautiful, ethically designed.",
+        "modern_design_desc": "Built with the latest technologies, a keen eye for detail and ethics, you won't find anything like it elsewhere.",
+        "good_for_planet": "Good for the planet",
+        "good_for_planet_desc": "We believe in a better world for everyone. That's why we're giving 30% of our profits towards making the world a better place, now and\n                                    forever."
+    },
+    "count_down": {
+        "kickstarter": "Okuna",
+        "campaign_countdown": "launch countdown",
+        "days": "day | days",
+        "hours": "hour | hours",
+        "minutes": "minute | minutes",
+        "seconds": "second | seconds",
+        "kickstarter_launch": "Okuna <strong class=\"has-text-kickstarter\">alpha</strong> begins <br/>on the<strong> {0}th of March 2019</strong>."
+    },
+    "meet_the_team": {
+        "title": "Meet the team"
+    },
+    "beta_container": {
+        "title": "Join the revolution!",
+        "beta_date": "Beta coming mid 2019",
+        "email_placeholder": "your@email.com",
+        "server_error": "We're experiencing server issues. Please try again in a few minutes.",
+        "success": "&nbsp;&nbsp;Hooray! You're number {count} on our waitlist."
+    }
+}

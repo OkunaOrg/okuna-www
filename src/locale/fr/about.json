@@ -1,0 +1,19 @@
+{
+    "about_us": {
+        "title": "À propos de nous",
+        "subtitle": "Technologie pour de <span class=\"has-text-primary\">meilleurs lendemains</span>.",
+        "description": "Nous sommes une équipe d'ingénieurs, de designers, de hackers, de militants et d'experts en sécurité de l'information qui construisent des technologies centrées sur l'humain, responsables, durables et équitables pour un avenir plus prospère.",
+        "description_founded": "Nous le faisons en mettant au cœur de tout ce que nous faisons les meilleures qualités de l'humanité: telles que la gentillesse, la compassion, la tolérance, l'empathie et la coopération.",
+        "description_funded": "Nous avons réussi <a class=\"has-text-underlined\" href=\"https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne\" rel=\"noopener noreferrer\">un financement participatif pour</a> <span class=\"has-text-logo\">Okuna</span> le septembre 2018 et est actuellement en phase de test alpha avec plus de 3500 membres.",
+        "accomplish_how": "Pourquoi un réseau social?",
+        "read_our_manifesto": "Lire notre manifeste",
+        "humans_behind_ob": "Les gens",
+        "work_with_us": "Vous voulez travailler avec nous?",
+        "visit_jobs_page": "Visitez notre page de carrières",
+        "our_ambassadors": "Nos ambassadeurs.drices",
+        "our_contributors": " Our contributors",
+        "ambassadors_desc": "Les gens qui nous aident à parler d'Okuna aux autres et à défendre tout ce que nous faisons.",
+        "become_ambassadors": "Vous voulez devenir ambassadeur.drice?",
+        "contact_us": "Contactez-nous"
+    }
+}

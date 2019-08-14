@@ -1,0 +1,110 @@
+{
+    "home": {
+        "want_to_know_more": "Vous souhaitez en savoir plus ?",
+        "read_manifesto": "Lire notre manifeste",
+        "featured_in": "Comme mentionné dans",
+        "signup_button": "Sign up for beta"
+    },
+    "honesty": {
+        "title": "Ouvert et responsable",
+        "description": "Tout le code qui alimente le réseau est libre, ce qui signifie libre de le voir pour quiconque. Pas de place pour les algorithmes abracadabra !"
+    },
+    "privacy": {
+        "title": "Confidentiel",
+        "description": "Nous croyons fermement que la confidentialité est un droit fondamental de l'être humain. Nous ne traquons ni surveillons votre activité."
+    },
+    "secure": {
+        "title": "Sécuritaire dès la conception",
+        "description": "Notre expérience est en sécurité de l'information. Nous incorporons la sécurité, dès le début."
+    },
+    "easy": {
+        "title": "Amical et détendu",
+        "description": "Grâce à une combinaison de nos lignes directives <a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\">élaborées par la communauté</a>, de la conception et du code éthiques, nous favorisons un environnement d'amitié, de respect et d'ouverture où le bonheur est le but à atteindre."
+    },
+    "fun": {
+        "title": "Plus de moyens pour vous exprimer",
+        "description": "Nous, êtres humains, sommes des êtres émotionnels. Trouvez plus de moyens d'exprimer votre identité numérique avec notre bibliothèque croissante de réactions !"
+    },
+    "personal": {
+        "title": "Personnalisable",
+        "description": "Nous sommes tous.tes différent.e.s et c'est quelque chose à accueillir à bras ouverts et à célébrer. Avec des fonctionnalités personnalisées, faites que vous puissiez vous sentir comme chez vous dans le réseau !"
+    },
+    "community": {
+        "title": "Orienté par les communautés",
+        "description": "Découvrez des intérêts et des gens en rejoignant l'une des 2 500 communautés existantes disponibles ou en créant et en développant la vôtre!"
+    },
+    "good_for_planet": {
+        "title": "Pour un meilleur demain",
+        "description": "Outre le don d'un pourcentage de nos bénéfices <a href=\"https://founderspledge.com/research\" rel=\"noreferrer noopener\">vers des causes dignes</a>, nous sommes aussi légalement engagés à être une influence positive sur la société et l'environnement."
+    },
+    "ads_free": {
+        "title": "Soutenu de façon éthique",
+        "description": "Le réseau est soutenu par un abonnement optionnel offrant l'accès à des réactions supplémentaires, des avatars animés, des thèmes et plus encore. Absolument zéro publicité et monétisation des informations personnelles."
+    },
+    "currency": {
+        "title": "Une devise numérique",
+        "description": "Nous travaillons également sur une devise numérique appelée <strong>Tip</strong> pour être utilisée comme moyen de soutenir votre vidéoréalisateur.trice préféré.e, souscrire aux éditeurs.trices, payer des services et plus encore."
+    },
+    "quotes": {
+        "joel_name": "Joel Hernández",
+        "joel_title": "Fondateur d'Okuna",
+        "joel_quote": "Je pense à un monde de technologie généreuse, ouverte, responsable et respectueuse. Okuna est le réseau social de ce monde.",
+        "vincent_name": "Vincent Ruijter",
+        "vincent_title": "Hacker éthique",
+        "vincent_quote": "Okuna pourrait être la dernière vraie chance de construire quelque chose de différent, quelque chose d'éthique, quelque chose de mieux.",
+        "phil_name": "Phil Zimmermann",
+        "phil_title": "Membre du temple de la renommée de l'Internet",
+        "phil_quote": "Okuna est porteur d'espoir pour le futur, un réseau social où nous ne sommes pas victimes de son modèle d'affaires."
+    },
+    "splash_hero": {
+        "hello_world": "Bonjour <span id=\"hello-subject\"> tout le monde !</span>",
+        "world": "monde entier",
+        "friends": "ami.e.s",
+        "family": "famille",
+        "grandma": "grand-mère",
+        "we_are_ob": "Nous sommes <strong class=\"has-text-logo is-size-5\">Okuna</strong>, un réseau social éthique pour un meilleur demain.",
+        "share": "Partager",
+        "notify_me": "Soutenez-nous"
+    },
+    "why_ob": {
+        "title": "Pourquoi Okuna?",
+        "subtitle": "Certains des éléments-clés qui nous distinguent des autres réseaux sociaux.",
+        "zero_tracking": "Zéro suivi",
+        "zero_tracking_desc": "Nous ne vous suivrons jamais, n'importe où, de quelque façon que ce soit.",
+        "zero_spying": "Zéro espionnage",
+        "zero_spying_desc": "Soyez confiant.e.s que vos conversations privées sont vraiment privées.",
+        "zero_ads": "Zéro publicité",
+        "zero_ads_desc": "La publicité entraîne de la publicité ciblée, ce qui entraîne à son tour de la perte de confidentialité en ligne. Nous n'aurons pas de publicités.",
+        "data_protection": "Protection des données rigoureuse",
+        "data_protection_desc": "Les applications tierces qui souhaitent accéder à vos données devront respecter nos politiques de sécurité strictes et rigoureuses.",
+        "honest": "Honnête",
+        "honest_desc": "Tout notre code est libre et ouvert à tous.tes pour l'inspecter, le reproduire et y contribuer. Pas de surprises désagréables.",
+        "easy_to_migrate": "Facile à migrer",
+        "easy_to_migrate_desc": "Nous vous fournirons des outils pour migrer toutes vos données existantes vers notre réseau.",
+        "future_proof": "À l'épreuve du temps",
+        "future_proof_desc": "Avec un modèle d'affaires solide et utile basé sur les transactions entre pairs, nous sommes là pour y rester.",
+        "modern_design": "Moderne, beau et conçu de manière éthique.",
+        "modern_design_desc": "Construit avec les toutes dernières technologies, un regard attentif sur le détail et l'éthique, vous ne trouverez rien comme cela ailleurs.",
+        "good_for_planet": "Bon pour la planète",
+        "good_for_planet_desc": "Nous croyons en un monde meilleur pour tous.tes. C'est pourquoi nous donnons 30% de nos profits pour faire du monde un meilleur endroit, maintenant et pour toujours."
+    },
+    "count_down": {
+        "kickstarter": "Okuna",
+        "campaign_countdown": "décompte du lancement",
+        "days": "jour | jours",
+        "hours": "heure | heures",
+        "minutes": "minute | minutes",
+        "seconds": "seconde | secondes",
+        "kickstarter_launch": "Okuna <strong class=\"has-text-kickstarter\">alpha</strong> a commencé <br/>le<strong> {0} mars 2019</strong>."
+    },
+    "meet_the_team": {
+        "title": "Rencontrez l'équipe"
+    },
+    "beta_container": {
+        "title": "Join the revolution!",
+        "beta_date": "Beta coming mid 2019",
+        "email_placeholder": "your@email.com",
+        "server_error": "We're experiencing server issues. Please try again in a few minutes.",
+        "success": "&nbsp;&nbsp;Hooray! You're number {count} on our waitlist."
+    }
+}

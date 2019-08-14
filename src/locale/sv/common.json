@@ -1,0 +1,43 @@
+{
+    "global": {
+        "okuna": "Okuna"
+    },
+    "header": {
+        "home": "Hem",
+        "about_us": "Om oss",
+        "manifesto": "Manifest",
+        "contact_us": "Kontakta oss",
+        "jobs": "Jobb",
+        "faq": "FAQ",
+        "press": "Press",
+        "language": "Språk",
+        "blog": "Blogg",
+        "angel": "Ängel"
+    },
+    "footer": {
+        "report_vulnerability": "Rapportera säkerhetsproblem",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "reddit": "Reddit",
+        "gitter": "Gitter",
+        "linked_in": "LinkedIn",
+        "product_hunt": "Product Hunt",
+        "facebook": "Facebook",
+        "the_ob_organization": "Okuna",
+        "privacy_policy": "Sekretesspolicy",
+        "made_with": "Gjort med ",
+        "in_europe": " i Europa",
+        "all_rights_reserved": "Alla rättigheter förbehålls"
+    },
+    "hud": {
+        "share": "Dela",
+        "share_fb": "Dela på Facebook",
+        "share_twitter": "Dela på Twitter",
+        "share_email": "Skicka e-post",
+        "share_linkedin": "Dela på LinkedIn",
+        "share_wa": "Dela på WhatsApp",
+        "share_title": "Okuna. Ett socialt nätverk för en bättre framtid.",
+        "share_description": "Ärligt, personligt, integritetsfrämjande och etiskt hållbart.",
+        "share_quote": "Gå med i revolutionen! Kommer i mitten av 2019."
+    }
+}

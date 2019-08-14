@@ -1,0 +1,36 @@
+{
+    "team_members": {
+        "joel_title": "Kurucu & Başkan",
+        "joel_desc": "Güvenlik ve gizlilik eylemcisi, yazılım mühendisi, sayısal ürün tasarımcısı, açık kaynak kod yazıcısı, The Next Web Top 500 genç yeteneği, insan.",
+        "jaya_title": "İşletme Ustası",
+        "jaya_desc": "Küresel olarak tanınan bilgi güvenliği uzmanı, teknik takip konuşmacısı, kuantum hesaplama, karşı takip ve şifre bilim.",
+        "phil_title": "Şifreleme Sihirbazı",
+        "phil_desc": "Şifreleme öncüsü, PGP oluşturucusu, dünyadaki en çok kullanılan eposta şifreleme yazılımı, ünlü üyenin ağ alanı, gizlilik eylemcisi.",
+        "lambrecht_title": "Medya Maestro",
+        "lambrecht_desc": "Güvenlik ve uluslararası ilişkiler uzmanı, anlaşmazlık çözümcüsü, barış kurucusu, medya araştırmacısı & üreticisi, insan hakları eylemcisi.",
+        "vincent_title": "Hacker konağı",
+        "vincent_desc": "Beyaz şapkalı bilgisayar korsanı, tersine mühendis, sistem sömürü geliştiricisi, konuşmacı, siber kelimesini sevmeyen, siber uzman.",
+        "bas_title": "Kıdemli Kavram Hocası",
+        "bas_desc": "Yararlı ve anlamlı ürünlerin savunucusu, kullanıcı deneyimi sihirbazı, çok sayıda uluslararası marka, araştırmacı, donanım korsanı ile çalıştı.",
+        "shantanu_title": "Sayısal Sihirbazı",
+        "shantanu_desc": "Harika Ürünler ve deneyimler oluşturmak için bir püf noktası olan pragmatik yazılım mühendisi, kripto-geek, bot yapımcısı, sadelik savunucusu.",
+        "nathalie_title": "Usta Katalizör",
+        "nathalie_desc": "Usta plan yapıcı, iyimserliğin canlandırması, bazı şeyleri halletmek mi istiyorsun? Nathalie'i ara. ",
+        "robin_title": "Marka savaşçısı",
+        "robin_desc": "İçerik pazarlama sihirbazı, The Next Web Top 500 genç yeteneği, kumsal aşığı, sıradanlık tarafından rahatsız edilmeyi sevmez, dışarıdaki rahat alanı sever.",
+        "martijn_title": "Yazılım Geliştiricisi",
+        "martijn_desc": "Pratik yazılım mühendisi, JavaScript gurusu, giyilebilir teknoloji kurdu, oyuncu, havalı sorumlu müdür."
+    },
+    "ambassadors": {
+        "isaac_name": "Isaac Hernández",
+        "isaac_desc": "Sanatçı, sosyal girişimci.",
+        "ruben_name": "Ruben Van Vreeland",
+        "ruben_desc": "Siber güvenlik yazılımı BitSensor'un Üst Yöneticisi & Kurucu Ortağı.",
+        "edwin_name": "Edwin van Andel",
+        "edwin_desc": "Zerocopter'da üst yönetici, uluslararası konuşmacı, deneyimli güvenlik uzmanı.",
+        "chris_name": "Chris Duke",
+        "chris_desc": "Ana Sistem & Baş Yapımcı, Motorz TV",
+        "ashwin_name": "Ashwin Krishnan",
+        "ashwin_desc": "Uber Bilgili COO, teknik etik, yazar, podcast sahibi, konuşmacı."
+    }
+}

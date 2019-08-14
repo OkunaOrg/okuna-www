@@ -6,8 +6,7 @@
                     <div class="columns is-vcentered is-centered is-height-100 is-mobile">
                         <div class="column content is-medium easy-text">
                             <h3>{{ $t('easy.title') }}</h3>
-                            <p>
-                                {{ $t('easy.description') }}
+                            <p v-html="$t('easy.description')">
                             </p>
                         </div>
                     </div>

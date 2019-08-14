@@ -1,0 +1,161 @@
+{
+  "manifesto": {
+    "common": {
+      "reading_time": "Lästid",
+      "reading_time_minutes": "minuter"
+    },
+    "titles": {
+      "main": "Manifest",
+      "toc": "Innehållsförteckning",
+      "why": "Varför?",
+      "how": "Hur?",
+      "honest": "1. Ärligt.",
+      "customizable": "2. Anpassningsbart.",
+      "secure": "3. Integritetsfrämjande och säkert",
+      "explicit_consent": "Explicit och informerat medgivande",
+      "safe_apps": "Säkra applikationer",
+      "privacy_by_default": "Integritet som standard",
+      "easy": "4. Lätt som en plätt.",
+      "research": "5. Forskning.",
+      "revenue": "6. Ren inkomst."
+    },
+    "subtitles": {
+      "main": "Problemet, lösningen, och nästa steg.",
+      "the_reason": "Anledningen till att vi bygger ännu ett socialt nätverk.",
+      "how_are_we_creating": "Hur bygger vi ett socialt nätverk för en bättre morgondag?"
+    },
+    "why": {
+      "awesome": "Sociala nätverk är toppen.",
+      "they_connect": "De sammankopplar oss, hjälper oss att dela viktiga stunder med våra närmsta och förser oss med roliga kattvideor.",
+      "sadly_nowadays": "Tyvärr så handlar inte dagens sociala nätverk om att sammankoppla människor, utan istället handlar allt om att få ut så mycket pengar ur folk som möjligt, oavsett konsekvenserna. Till exempel förlusten av integritet.",
+      "we_want_to_do_better": "Vi vill göra detta bättre, vilket är varför vi på Okuna gör saker annorlunda.",
+      "we_are_designing": "Vi designar ett socialt nätverk med mänsklighetens bästa kvaliteter, så som vänlighet, medmänsklighet, tolerans, välgörande, empati och samarbete i dess kärna.",
+      "a_brighter_social_network": "Ett ljusare socialt nätverk."
+    },
+    "how": {
+      "open_source": "All vår kod är <strong>öppen källkod</strong>. Detta betyder att vem som helst kan läsa, återskapa och bidra till den. Vi är transparenta med hur det sociala nätverket fungerar.",
+      "30_percent": "Vi tror också i en bättre värld för alla. Det är anledningen till att vi kommer ge <strong>30% av våra inkomster till att göra världen till en bättre plats</strong>, nu och för alltid i samarbete med <a href=\"https://founderspledge.com/\" rel=\"noreferrer noopener\">FoundersPledge</a>.",
+      "we_are_different": "Eftersom vi är alla olika och det är något vi bör omfamna och fira.",
+      "just_like_home": "Du kommer kunna skapa en upplevelse skräddarsydd för just dig. Från att ändra färgerna i din tidslinje och lägga till coola widgets i din profil, till att välja hur du ser innehållet i din tidslinje. Vi vill att Okuna känns familjärt, vänligt och mysigt. Precis som hemma.",
+      "build_Okuna_together": "Och om det är något du saknar på Okuna så hör av dig. Vi vill att vi bygger Okuna tillsammans. Vi vill skapa en speciell grupp där vi uppmuntrar dig att hjälpa oss ta beslut om vad vi ska göra härnäst eller vad vi ska förbättra. Låt oss bygga den bästa sociala upplevelsen någonsin, tillsammans.",
+      "privacy_and_security": "Detta är vad som ursprungligen fick oss att bygga Okuna. Våra användares integritet och säkerhet kommer alltid vara kärnan i allt vi gör. Vi spårar inte vad du gör, och varken genererar inkomster från din information eller delar den utan konkret och informerat medgivande från dig.",
+      "how_does_this_translate": "Hur ser detta ut i ett verkligt scenario?",
+      "crystal_clear": "Vi kommer alltid vara kristallklara med vad som delas, utan poppuppfönster eller vaga beskrivningar. Du kan också inspektera det själv för att vara helt säker.",
+      "will_be_reviewed": "Alla applikationer kommer granskas av oss. Vi kommer se till att de:",
+      "apps_will": {
+        "only_request": "endast begär information de <strong>behöver</strong>",
+        "exact_location_of_data": "ger dig tillgång till den <strong>precisa</strong> platsen av alla data, <strong>alltid</strong>",
+        "delete": "raderar <strong>all</strong> information om du drar tillbaka ditt tillstånd",
+        "emergency_plan": "har en <strong>krisplan</strong> i händelse av dataläcker, och att de kommer <strong>meddela oss/dig</strong> direkt om det skulle hända"
+      },
+      "once_they_meet": "När de uppnår dessa strikta riktlinjer kommer de få ett emblem under deras logotyp. På din personliga instrumentpanel kan du enkelt hitta precis vart dina delade data finns, dra tillbaka applikationens tillgång till data och, bäst av allt, begära att alla data raderas.",
+      "optional_disabled_by_default": "All valfri datadelning kommer vara avstängd som standard, och det är upp till dig om du vill ge applikationen mer av dina data, istället för tvärtom.",
+      "we_will_research": "Vi kommer kontinuerligt forska och utveckla nya sätt att förbättra din integritet och säkerhet.",
+      "technologies": "Några example på teknologi vi kommer forska på och utveckla:",
+      "technologies_list": {
+        "crypto_enforced": "Kryptografiskt upprätthållande av datadelningsprinciper",
+        "e2e": "Kryptering från början till slut (\"end-to-end\"), även i webbläsaren",
+        "public_key_crypto": "Asymmetrisk kryptering i webbläsaren",
+        "crypto_algo": "Algoritmer och protokoll för post-kvantkryptering"
+      },
+      "generally_speaking": "Generellt sett, desto mindre vi vet om dig och desto mer du vet om oss, desto bättre.",
+      "smooth_transition": "Du har antagligen redan lagt enormt med tid (och data) på dina existerande sociala nätverk. Vi siktar på att göra övergången så enkel som möjligt.",
+      "import_your_data": "Därför bygger vi verktyg för att importera dina data från existerande sociala nätverk<sup>1</sup>. Tänk max 3 steg.",
+      "research_1": "Medan den ursprungliga grunden bakom Okuna var att bygga ett integritetsfrämjande socialt nätverk så sträcker sig komplikationerna med existerande sociala nätverk till många andra områden. Rädsla för att inte vara med, digital social status, diskriminering, digital mobbning, censur och mer.",
+      "research_2": "Det finns mycket forskning på området, men hittills har tyvärr endast några få haft kraften att göra något med det. Men inte längre.",
+      "research_3": "Vi designar plattformen utifrån existerande forskning och experimenterar med radikala nya koncept för att ta itu med några av de tidigare nämnda problemen.",
+      "research_4": "Vi kan inte lova att våra lösningar fungerar, men däremot kan vi lova att vi kommer fortsätta försöka tills dem gör det, med hjälp av forskning och öppen dialog.",
+      "no_ads": "Vår affärsmodell är inte och kommer aldrig vara annonser. Någonsin.",
+      "okuna_gold": "Vår inkomstmodell är en valfri prenumeration vi kallar <span class=\"has-text-circular\"><strong>Okuna</strong> Guld</span>, som ger tillgång till fler reaktioner, teman och anpassningsbara inställningar.",
+      "digital_currency": "I framtiden kommer vi också introducera en digital valuta som används för att stödja skapare, prenumerera på utgivare, köpa och sälja varor och tjänster, och mer.",
+      "currency_article": "Du kan läsa allt om den här valutan i <a class=\"has-text-underlined\" href=\"https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\">den här artikeln (ungefär 6 minuters lästid)</a>"
+    },
+    "examples": {
+      "common": {
+        "btn_continue": "Fortsätt",
+        "btn_cancel": "Avbryt",
+        "btn_back": "Tillbaka",
+        "btn_got_it": "Förstått!",
+        "required": "(krävs)",
+        "success": "Klart",
+        "last_item": " och",
+        "open_list": "Öppna lista",
+        "open_image": "Öppna bild"
+      },
+      "title": "Exempel",
+      "normally": "Detta är hur det oftast ser ut när man delar data.",
+      "public_wifi": "Låt oss säga att du vill koppla upp dig mot en offentlig WiFi-hotspot. Vanligtvis dyker ett fönster som det nedan upp på din dator med följande:",
+      "box_below": "Fönstret dyker upp på skärmen.",
+      "click": "(Varsågod, klicka runt som du vanligtvis skulle göra)",
+      "can_receive_following_data": {
+        "public_profile": "offentlig profil",
+        "friend_list": "vänlista",
+        "friends": "vänner",
+        "birthday": "födelsedag",
+        "likes": "gillningar",
+        "email": "e-postadress",
+        "name": "ditt namn",
+        "profile_picture": "profilbild",
+        "age_range": "ungefärlig ålder",
+        "gender": "kön",
+        "language": "språk",
+        "country": "land",
+        "country_of_birth": "födelseland",
+        "other": "annan offentlig information"
+      },
+      "evilcorp": {
+        "before_you_can_enjoy": "Innan du kan njuta av våra gratis WiFi-hotspots måste du fortsätta med EvilCorp.",
+        "continue": "Fortsätt med EvilCorp",
+        "will_receive": "<strong>Appen WiFi Hotspots</strong> kommer ta emot:",
+        "will_receive_list": "{requested_data}.",
+        "public_profile_includes": "Din offentliga profil innefattar: {public_info}.",
+        "edit": "Redigera detta",
+        "shared_the_info": "Det sociala nätverket har nu delat din information med applikationen.",
+        "restart": "Starta om exemplet",
+        "descriptions": {
+          "public_profile": "Sven Svensson, profilbild, 33+ år gammal, man och annan offentlig information",
+          "friend_list": "Göran Kall, Anna Eksköld och 590 andra.",
+          "birthday": "12 januari 1990",
+          "likes": "Kvarteret Skatan, TV4 och 978 andra",
+          "email_address": "john@doe.com"
+        }
+      },
+      "congrats": "Gratulerar! Du delade just din personliga information med en WiFi-hotspot!",
+      "do_you_know": "Vet du vilka data du precis delade med applikationen?",
+      "hovered_icon": "Om du höll musen över \"i\"-konen, till exempel, så kanske du märkte att den säger:",
+      "quote": "\"Din offentliga profil innefattar namn, profilbild, ungefärlig ålder, kön, språk, land och <i><strong>'annan offentlig information'</strong></i>?\"",
+      "what_qualifies": "Vad räknas som <i>\"annan offentlig information\"</i>? Och varför skulle en WiFi-hotspot vilja ha all denna information från dig? Kommer du få snabbare WiFi baserat på ditt kön eller din ålder? Och vad kommer hända med denna data när dem väl har den?",
+      "people_share": "Folk delar mer av deras information än var de är medvetna om och när data väl har delats finns det ingen återvändo.",
+      "how_we_do_it": "Det är så här vi gör det:",
+      "awesome_music_app": "Låt oss säga att du har laddat ner den häftiga musikappen alla har rekommenderat dig. Så fort du öppnar appen kommer rutan här nedanför upp.",
+      "songipy": {
+        "prompt": "För att kunna använga Songipy måste du fortsätta med Okuna.",
+        "continue": "Fortsätt med Okuna",
+        "safe_to_use": "Applikationen är säker att använda.",
+        "strict_policy": "Den har mött våra strikta principer för integritet och säkerhet.",
+        "learn_more": "Läs mer",
+        "in_order_to_continue": "För att fortsätta kräver <strong>Songipy</strong> {required_data}.",
+        "optionally": "<strong>Valfritt</strong>: Songipy skulle också vilja ha tillgång till {optional_data}.",
+        "edit_optional_data": "Redigera delade valfria data",
+        "inspect": "Inspektera delade data",
+        "descriptions": {
+          "name": "Inge Ängmark",
+          "email": "imark@mail.com",
+          "gender": "man",
+          "language": "Engelska",
+          "country": "USA",
+          "birthday": "1997-03-25"
+        },
+        "okuna_has_shared": "Okuna har nu delat din information med Songipy.",
+        "restart": "Starta om prototyp",
+        "safe_app_modal": "<div class=\"content\"><p>I den riktiga versionen kommer detta skicka dig till en sida med detaljerad information om säkra applikationer.</p><p>I korthet, säkra applikationer är applikationer som inte missbrukar systemet för datadelning, tillåter borttagning av dina data från deras system och låter dig veta precis vart dina data finns.</p><p>Mer information om detta följer nedan.</p></div>",
+        "list_modal": "I den riktiga versionen skulle detta öppnat en lista med alla dina {data_name}."
+      },
+      "did_you_spot": "Ser du skillnaderna?",
+      "most_important_ones": "Här är de viktigaste."
+    },
+    "gdpr_footnote": "[1] Enligt den nya GDPR-förordningen måste sociala nätverk tillåta sina användare att göra detta.",
+    "still_have_questions": "Har du fortfarande frågot?",
+    "visit_faq": "Besök vår FAQ"
+  }
+}

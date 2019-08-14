@@ -1,0 +1,20 @@
+{
+    "about_us": {
+        "title": "About us",
+        "subtitle": "Technology for a <span class=\"has-text-primary\">better tomorrow</span>.",
+        "description": "We're a team of engineers, designers, hackers, activists and information-security experts building human-centric, responsible, sustainable and fair technology for a more prosperous tomorrow.",
+        "description_founded": "We do this by putting humanity's best qualities such as kindness, compassion, tolerance, empathy and cooperation at the core of everything we do.",
+        "description_funded": "We successfully <a class=\"has-text-underlined\" href=\"https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne\" rel=\"noopener noreferrer\">crowd-funded</a> <span class=\"has-text-logo\">Okuna</span> on September 2018 and is currently in alpha testing with 3,500+ members.",
+        "accomplish_how": "Why a social network?",
+        "read_our_manifesto": "Read our manifesto",
+        "humans_behind_ob": "The people",
+        "work_with_us": "Want to work with us?",
+        "visit_jobs_page": "Visit our jobs page",
+        "our_ambassadors": " Our ambassadors",
+        "our_contributors": " Our contributors",
+        "our_backers": "... and the 3,000+ backers across <a class=\"has-text-underlined\" href=\"https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne\" rel=\"noopener noreferrer\">Kickstarter</a> and <a class=\"has-text-underlined\" href=\"https://www.indiegogo.com/projects/openbook-it-s-time-for-a-better-social-network/x/19347830?create_edit=true/\", rel=\"noopener noreferrer\">Indiegogo</a> that made this project possible!",
+        "ambassadors_desc": "People that help us spread the word around and stand for everything we do.",
+        "become_ambassadors": "Want to become an ambassador?",
+        "contact_us": "Contact us"
+    }
+}

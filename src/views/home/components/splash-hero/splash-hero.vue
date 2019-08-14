@@ -5,30 +5,28 @@
                 <div class="columns is-centered is-vcentered">
                     <div class="column splash-browser has-position-relative">
                         <figure class="has-position-absolute animated fadeInDown is-z-2 front-mockup">
-                            <img  :src="whiteMockupImage">
+                            <img :src="whiteMockupImage">
                         </figure>
                         <figure class="has-position-relative animated fadeInLeft is-z-1 back-mockup">
-                            <img  :src="blackMockupImage">
+                            <img :src="blackMockupImage">
                         </figure>
                     </div>
-                    <div class="column has-text-centered has-padding-top-2x-mobile has-background-white is-z-2 has-position-relative">
+                    <div
+                        class="column has-text-centered has-padding-top-2x-mobile has-background-white is-z-2 has-position-relative">
                         <div class="columns is-centered is-mobile">
-                            <div class="column" style="max-width: 520px">
+                            <div class="column" style="max-width: 450px">
                                 <h1 class="is-size-3-mobile is-size-1 has-text-weight-bold"
                                     v-html="$t('splash_hero.hello_world')">
                                 </h1>
                                 <p class="is-size-4 padding-top-1x"
-                                    v-html="$t('splash_hero.we_are_ob')">
-                                </p>
-                                <p class="is-size-5"
-                                    v-html="$t('splash_hero.kickstarter')">
+                                   v-html="$t('splash_hero.we_are_ob')">
                                 </p>
                                 <div class="has-padding-2x">
                                     <button class="button is-rainbow is-rounded" v-scroll-to="'#beta-signup'">
                                         <span class="icon">
                                             <i class="fas fa-heart"></i>
                                         </span>
-                                        <span>Sign up for beta</span>
+                                        <span>{{ $t('home.signup_button') }}</span>
                                     </button>
                                 </div>
                             </div>
@@ -65,6 +63,7 @@
     .front-mockup {
         width: 125%;
         top: -12%;
+        left: -3%;
     }
 
     .back-mockup {
@@ -88,11 +87,11 @@
         destroyed() {
             this.typewriter.stop();
         },
-        data(){
-          return {
-              blackMockupImage,
-              whiteMockupImage
-          }
+        data() {
+            return {
+                blackMockupImage,
+                whiteMockupImage
+            }
         },
         methods: {
             initHello() {
@@ -104,7 +103,6 @@
                     this.$i18n.t('splash_hero.friends'),
                     this.$i18n.t('splash_hero.family'),
                     this.$i18n.t('splash_hero.grandma'),
-                    this.$i18n.t('splash_hero.reddit'),
                 ];
 
                 const helloSubject = document.querySelector('#hello-subject');

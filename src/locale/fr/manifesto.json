@@ -1,0 +1,161 @@
+{
+  "manifesto": {
+    "common": {
+      "reading_time": "Temps de lecture",
+      "reading_time_minutes": "minutes"
+    },
+    "titles": {
+      "main": "Manifeste",
+      "toc": "Table des matières",
+      "why": "Pourquoi ?",
+      "how": "Comment ?",
+      "honest": "1. Honnête.",
+      "customizable": "2. Personnalisable.",
+      "secure": "3. Sécuritaire et respecte la vie privée",
+      "explicit_consent": "Consentement explicite et éclairé",
+      "safe_apps": "Applications sécuritaires",
+      "privacy_by_default": "Confidentialité par défaut",
+      "easy": "4. Facile comme bonjour.",
+      "research": "5. Recherche.",
+      "revenue": "6. Revenus propres."
+    },
+    "subtitles": {
+      "main": "Le problème, la solution, les prochaines étapes.",
+      "the_reason": "La raison pour laquelle nous construisons un autre réseau social.",
+      "how_are_we_creating": "Comment créons-nous un réseau social pour de meilleurs lendemains?"
+    },
+    "why": {
+      "awesome": "Les réseaux sociaux sont géniaux.",
+      "they_connect": "Ils nous connectent, nous aident à partager des moments précieux avec nos proches et nous fournissent des vidéos amusantes de chat.",
+      "sadly_nowadays": "Malheureusement, les réseaux sociaux d'aujourd'hui ne sont pas tant à propos de connecter les personnes entre elles, mais ils sont plutôt à propos de faire le plus d'argent possible sur le dos des gens, peu importe les conséquences; comme par exemple, la perte de la vie privée.",
+      "we_want_to_do_better": "Nous voulons faire mieux, et c’est exactement pourquoi à Okuna, nous faisons les choses différemment.",
+      "we_are_designing": "Nous concevons un réseau social avec au coeur les meilleures qualités de l'humanité telles que la bonté, la compassion, la tolérance, la charité, l'empathie et la coopération.",
+      "a_brighter_social_network": "Un réseau social plus brillant."
+    },
+    "how": {
+      "open_source": "Tout notre code source est <strong>libre</strong>. Cela signifie qu'il est libre pour tout le monde de le voir, de le reproduire et d'y contribuer. Nous sommes transparents sur le fonctionnement du réseau social.",
+      "30_percent": "Nous croyons également en un meilleur monde pour tous.tes. C'est pourquoi nous remettrons <strong>30% de nos profits afin de faire du monde un meilleur endroit</strong>, maintenant et pour toujours, en partenariat avec <a href=\"https://founderspledge.com/\" rel=\"noreferrer noopener\">FoundersPledge</a>.",
+      "we_are_different": "Parce que nous sommes tous.tes différent.e.s et c'est quelque chose à accueillir à bras ouverts et à célébrer.",
+      "just_like_home": "Vous pourrez fabriquer une expérience adaptée à vous. De changer la couleur de votre fil d'actualités, à ajouter des widgets supplémentaires cool dans votre profil, à choisir comment vous voulez voir le contenu dans votre cfil d'actualités, nous voulons qu'Okuna soit familier, amical et comfortable pour vous. Tout comme chez-vous.",
+      "build_Okuna_together": "Et s’il y a quelque chose que vous manquez sur Okuna, dites-le nous. Nous voulons construire Okuna ensemble. Nous créerons un groupe spécial où nous vous encourageons à nous aider à décider ce que nous construisons à l'étape suivante ou ce que nous devrions améliorer. Construisons la meilleure expérience sociale jamais vue, ensemble.",
+      "privacy_and_security": "Ceci est ce qui nous a poussé.e.s à construire Okuna. La confidentialité et la sécurité de nos utilisateurs.trices seront toujours au cœur de tout ce que nous faisons. Nous n'effectuons aucun suivi de ce que vous faites, ni monétisons vos informations, ni les partageons sans votre consentement explicite et éclairé.",
+      "how_does_this_translate": "Comment cela se traduit-t-il par un scénario dans la vraie vie?",
+      "crystal_clear": "Nous nous assurons que ce qui est partagé est toujours clair, donc pas de pop-ups ou de descriptions vagues. Vous pouvez aussi l'inspecter vous-même, juste pour être sûr.e.",
+      "will_be_reviewed": "Toutes les applications seront vérifiées par nous. Nous nous assurerons qu'elles :",
+      "apps_will": {
+        "only_request": "demandent seulement l'information <strong>requise</strong>",
+        "exact_location_of_data": "ont l'<strong>exact</strong> emplacement de vos données disponible pour vous, <strong>en tout temps</strong>",
+        "delete": "suppriment <strong>toute</strong> votre information si vous retirez votre permission",
+        "emergency_plan": "ont un <strong>plan d'urgence</strong> en cas de fuite de données, et vont <strong>nous/vous aviser</strong> immédiatement si cela se produisait"
+      },
+      "once_they_meet": "Une fois qu'ils/elles rencontrent ces directives strictes, ils/elles auront un badge sous leur logo. Sur votre tableau de bord personnel, vous pouvez localiser les emplacements exacts de vos données partagées, révoquer l'accès de l'application et, le mieux de tout, demander leur suppression.",
+      "optional_disabled_by_default": "Tous les partages de données facultatives seront désactivés par défaut, et c'est à vous de décider si vous voulez donner plus de données que moins à cette application.",
+      "we_will_research": "Nous recherchons et développerons continuellement de nouvelles façons d'améliorer votre vie privée et votre sécurité.",
+      "technologies": "Quelques exemples de la technologie que nous allons rechercher et développer :",
+      "technologies_list": {
+        "crypto_enforced": "Politiques de partage de données cryptographiquement appliquée",
+        "e2e": "Cryptage de bout en bout, même sur le navigateur",
+        "public_key_crypto": "Cryptographie de clé publique sur le navigateur",
+        "crypto_algo": "Algorithmes et protocoles de cryptographie post-quantique"
+      },
+      "generally_speaking": "En général, moins nous savons sur vous et plus vous en connaissez sur nous, le mieux.",
+      "smooth_transition": "Vous avez probablement déjà mis un temps énorme (et des données) dans vos réseaux sociaux existants. Nous avons pour objectif de rendre la transition aussi fluide que possible.",
+      "import_your_data": "C'est pourquoi nous allons construire des outils pour importer vos données depuis les réseaux sociaux existants<sup>1</sup>. Pensez à pas plus de 3 étapes.",
+      "research_1": "Alors que la raison d'être intiale d'Okuna était de construire un réseau social respectueux de la vie privée, les complications des réseaux sociaux existants s'étendent à de nombreux autres sujets. La crainte de manquer le bateau, le statut social en ligne, la discrimination, les lynchages en ligne, la censure, et plus.",
+      "research_2": "Il y a beaucoup de recherches sur les sujets, malheureusement jusqu'à présent seulement quelques joueurs ont eu le pouvoir de faire quelque chose avec elles. Plus maintenant.",
+      "research_3": "Nous concevons la plate-forme avec la recherche existante en tête et essayant de nouveaux concepts radicaux pour aborder certains des problèmes précédemment mentionnés.",
+      "research_4": "Nous ne pouvons pas promettre que nos solutions fonctionneront, cependant nous pouvons promettre qu'avec l'aide de la recherche et du dialogue, nous continuerons à essayer jusqu'à ce qu'elles fonctionnent.",
+      "no_ads": "Notre modèle d'entreprise n'est pas et ne sera jamais publicitaire. Jamais.",
+      "okuna_gold": "Notre modèle de revenus est un abonnement optionnel appelé <span class=\"has-text-circular\"><strong>Okuna</strong> Or</span> offrant un accès à plus de réactions, thèmes et options de personnalisation.",
+      "digital_currency": "Dans le futur, nous allons également introduire une monnaie numérique utilisée pour soutenir les créateurs.trices de contenus, souscrire aux éditeurs.trices, acheter et vendre des biens et des services, et plus encore.",
+      "currency_article": "Vous pouvez tout lire sur cette devise dans <a class=\"has-text-underlined\" href=\"https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\">cet article (temps approx. de lecture: 6 minutes)</a>"
+    },
+    "examples": {
+      "common": {
+        "btn_continue": "Continuer",
+        "btn_cancel": "Annuler",
+        "btn_back": "Précédent",
+        "btn_got_it": "Compris !",
+        "required": "(requis)",
+        "success": "Opération réussie",
+        "last_item": " et",
+        "open_list": "Liste ouverte",
+        "open_image": "Ouvrir l'image"
+      },
+      "title": "Exemple",
+      "normally": "Voici ce à quoi ressemble normalement le partage de données.",
+      "public_wifi": "Disons que vous voulez vous connecter à un point d'accès WiFi public, traditionnellement une fenêtre comme celle ci-dessous apparaît dans votre ordinateur avec ce qui suit :",
+      "box_below": "La case ci-dessous apparaît sur votre écran.",
+      "click": "(Allez-y, cliquez comme vous le feriez normalement)",
+      "can_receive_following_data": {
+        "public_profile": "profil public",
+        "friend_list": "liste d'ami.e.s",
+        "friends": "ami.e.s",
+        "birthday": "anniversaire",
+        "likes": "j'aime",
+        "email": "adresse courriel",
+        "name": "nom",
+        "profile_picture": "photo de profil",
+        "age_range": "tranche d’âge",
+        "gender": "sexe / identité de genre",
+        "language": "langue",
+        "country": "pays",
+        "country_of_birth": "pays de naissance",
+        "other": "autres informations publiques"
+      },
+      "evilcorp": {
+        "before_you_can_enjoy": "Avant de pouvoir profiter de nos points d'accès Wifi gratuits, vous devez continuer avec MéchanteEntreprise.",
+        "continue": "Continuer avec MéchanteEntreprise",
+        "will_receive": "<strong>L'application de point d'accès WiFi</strong> va recevoir :",
+        "will_receive_list": "votre {requested_data}.",
+        "public_profile_includes": "Votre profil public inclut : {public_info}.",
+        "edit": "Modifier ceci",
+        "shared_the_info": "Le réseau social a maintenant partagé vos informations avec l'application.",
+        "restart": "Redémarrer l'exemple",
+        "descriptions": {
+          "public_profile": "Monsieur Un Tel, photo de profil, plus de 33 ans, homme et autres informations publiques",
+          "friend_list": "Mike Chowder, Barbara Lamb et 590 autres.",
+          "birthday": "12 janvier 1990",
+          "likes": "Le Daily Show, NBC et 978 autres",
+          "email_address": "monsieur@untel.com"
+        }
+      },
+      "congrats": "Félicitations ! Vous venez de partager vos informations personnelles avec un point d'accès WiFi !",
+      "do_you_know": "Savez-vous quelles données vous venez de partager avec l'application ?",
+      "hovered_icon": "Si vous avez appuyé/placé le pointeur sur l'icône « i », vous avez peut-être remarqué que cela dit :",
+      "quote": "\"Votre profil public comprend le nom, la photo de profil, la tranche d'âge, le sexe, la langue, le pays et <i><strong>\"autres informations publiques\"</i></strong> ?\"",
+      "what_qualifies": "Qu'est-ce qui consiste en d'<i>\"autres informations publiques\"</i> ? Et pourquoi un point d'accès WiFi veut toute cette information de vous? Est-ce qu'elle vous donnera un accès WiFi plus rapide basé sur votre sexe ou votre age ? Et qu'est-ce qui va arriver à vos données lorsqu'ils les ont?",
+      "people_share": "Les gens partagent plus de leurs informations qu’ils en ont connaissance au départ et une fois que les données ont été partagées, c'est un point de non-retour.",
+      "how_we_do_it": "Voici comment nous le faisons :",
+      "awesome_music_app": "Disons maintenant que vous avez téléchargé l'application musicale impressionnante que tout le monde vous a recommandé. Dès que vous ouvrez l'application, la boîte ci-dessous s'affiche.",
+      "songipy": {
+        "prompt": "Afin d'utiliser Songipy, vous devez continuer avec Okuna.",
+        "continue": "Continuer avec Okuna",
+        "safe_to_use": "Cette application est sécuritaire à utiliser.",
+        "strict_policy": "Elle a respecté nos politiques strictes en matière de protection de la vie privée et de sécurité.",
+        "learn_more": "En savoir plus",
+        "in_order_to_continue": "Afin de continuer, <strong>Songipy</strong> nécessite votre {required_data}.",
+        "optionally": "<strong>Facultativement</strong>, il souhaiterait également accéder à votre {optional_data}.",
+        "edit_optional_data": "Modifier les données facultatives partagées",
+        "inspect": "Inspecter les données partagées",
+        "descriptions": {
+          "name": "Monsieur Un Tel",
+          "email": "badmf@pfiction.com",
+          "gender": "homme",
+          "language": "anglais",
+          "country": "États-Unis",
+          "birthday": "25-3-1997"
+        },
+        "okuna_has_shared": "Okuna a maintenant partagé votre information avec Songipy.",
+        "restart": "Redémarrer le prototype",
+        "safe_app_modal": "<div class=\"content\"><p>Dans la version non-prototype, ceci vous redirigera vers une page avec des informations détaillées sur les applications sécurisées.</p><p>En résumé, les applications sécurisées sont des applications qui ne maltraitent pas le système de partage de données, permettent la suppression de vos données de leurs systèmes et savent à tout moment où vos données se trouvent.</p><p>Plus d'informations sur ceci ci-dessous.</p></div>",
+        "list_modal": "Dans la version non-prototype, ceci ouvrirait une liste avec la liste complète de votre {data_name}."
+      },
+      "did_you_spot": "Avez-vous repéré les différences?",
+      "most_important_ones": "Voici les plus importantes."
+    },
+    "gdpr_footnote": "[1] Avec la nouvelle réglementation GDPR, les réseaux sociaux doivent permettre aux utilisateurs.trices de le faire maintenant.",
+    "still_have_questions": "Vous avez d'autres questions ?",
+    "visit_faq": "Visitez notre FAQ"
+  }
+}

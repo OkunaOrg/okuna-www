@@ -1,0 +1,36 @@
+{
+    "team_members": {
+        "joel_title": "Founder & Chief",
+        "joel_desc": "Privacy and security activist, software engineer, digital products designer, open sourcerer, The Next Web Top 500 young talent, human.",
+        "jaya_title": "Operations Sensei",
+        "jaya_desc": "Globally recognized information-security expert, speaker on lawful interception, quantum-computing, counter surveillance and cryptography.",
+        "phil_title": "Cryptography Wizard",
+        "phil_desc": "Cryptography pioneer, creator of PGP, the most widely used email encryption software in the world, internet hall of fame member, privacy activist.",
+        "lambrecht_title": "Media Maestro",
+        "lambrecht_desc": "Security and international relations expert, conflict analyst, peace-builder, media researcher & producer, human rights activist.",
+        "vincent_title": "Hacker-in-residence",
+        "vincent_desc": "Ethical hacker, reverse-engineer, exploit developer, speaker, does not like the word cyber, cyber expert.",
+        "bas_title": "Senior Concept Exorcist",
+        "bas_desc": "Advocate of useful and meaningful products, user experience wizard, worked with numerous international brands, researcher, hardware hacker.",
+        "shantanu_title": "Digital Sorcerer",
+        "shantanu_desc": "Pragmatic software engineer with a knack for building great products and experiences, crypto-geek, bot-maker, simplicity advocate.",
+        "nathalie_title": "Master Catalyst",
+        "nathalie_desc": "Master planner, personification of optimism, want to get things done? Call Nathalie. ",
+        "robin_title": "Brand Warrior",
+        "robin_desc": "Content marketing magician, The Next Web Top 500 young talent, beach lover, hates being disrupted by routine, loves life outside the comfort zone.",
+        "martijn_title": "Software Ninjaneer",
+        "martijn_desc": "Practical software engineer, JavaScript guru, wearable tech geek, gamer, coolness officer in charge."
+    },
+    "ambassadors": {
+        "isaac_name": "Isaac Hernández",
+        "isaac_desc": "Artist, social entrepreneur.",
+        "ruben_name": "Ruben Van Vreeland",
+        "ruben_desc": "CEO & Co-Founder of BitSensor, cyber-security software.",
+        "edwin_name": "Edwin van Andel",
+        "edwin_desc": "CEO at Zerocopter, international speaker, experienced security expert.",
+        "chris_name": "Chris Duke",
+        "chris_desc": "Host & Executive Producer, Motorz TV",
+        "ashwin_name": "Ashwin Krishnan",
+        "ashwin_desc": "COO of UberKnowledge, tech ethicist, writer, podcast host, speaker."
+    }
+}

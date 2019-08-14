@@ -186,7 +186,7 @@
                 return this.errors.items.length <= 0 && this.captchaVerified === true;
             },
             mailToLink() {
-                return `mailto:info@open-book.org${this.mailToQueryString}`;
+                return `mailto:info@okuna.io${this.mailToQueryString}`;
             },
             mailToQueryString() {
                 const encodedSubject = encodeURIComponent(this.subject);
@@ -255,7 +255,7 @@
                         this.disableLoading();
                         this.$dialog.alert({
                             title: 'Oh no...',
-                            message: 'We could not deliver your message. Please try again later or contact us at info@open-book.org'
+                            message: 'We could not deliver your message. Please try again later or contact us at info@okuna.io'
                         });
                     });
             },

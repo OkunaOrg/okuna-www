@@ -6,9 +6,9 @@
                 <header class="navbar">
                     <div class="container">
                         <div class="navbar-brand">
-                            <a class="navbar-item is-size-4" href="https://www.openbook.social">
+                            <a class="navbar-item is-size-4" href="https://www.okuna.io">
                                 <a href="#" class="header-logo"></a>
-                                <span class="header-logo-separator"></span><span v-html="$t('global.openbook')"
+                                <span class="header-logo-separator"></span><span v-html="$t('global.okuna')"
                                                                                  class="has-text-circular"></span>
                             </a>
                             <div class="navbar-close navbar-item">
@@ -144,7 +144,7 @@
                                 </div>
                             </div>
                         </router-link>
-                        <router-link :to="'jobs'" active-class="mobile-menu-item--active"
+                        <router-link :to="'angel'" active-class="mobile-menu-item--active"
                                      class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
@@ -159,7 +159,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>{{ $t('header.jobs') }}</span>
+                                            <span>{{ $t('header.angel') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
@@ -201,7 +201,7 @@
                                 </div>
                             </div>
                         </router-link>
-                        <a href="https://medium.com/openbook-org" rel="noopener noreferrer" target="_blank"
+                        <a href="https://medium.com/okuna" rel="noopener noreferrer" target="_blank"
                            class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
                             <div class="columns is-mobile">
                                 <div class="column is-3">
@@ -229,6 +229,104 @@
                                 </div>
                             </div>
                         </a>
+                        <a href="https://shwca.se/okuna" rel="noopener noreferrer" target="_blank"
+                           class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item">
+                            <div class="columns is-mobile">
+                                <div class="column is-3">
+                                    <div class="columns is-mobile is-centered is-vcentered">
+                                        <div class="column is-narrow">
+                                            <span class="icon">
+                                                <i class="fas fa-newspaper"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span>{{ $t('header.press') }}</span>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="columns is-mobile is-centered is-vcentered">
+                                                <div class="column is-narrow">
+                                                    <i class="fas fa-chevron-right mobile-menu-item__chevron"></i>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </a>
+                        <b-collapse
+                            :open="!isOpen"
+                            class="column is-12 is-size-5 has-border-bottom-gray-lighter has-text-grey-dark mobile-menu-item mobile-language-selection">
+                            <div class="columns is-mobile" slot="trigger" slot-scope="props">
+                                <div class="column is-3">
+                                    <div class="columns is-mobile is-centered is-vcentered">
+                                        <div class="column is-narrow">
+                                            <span class="icon">
+                                                <i class="fas fa-language"></i>
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="column">
+                                    <div class="columns is-mobile">
+                                        <div class="column">
+                                            <span>{{ $t('header.language') }}</span>
+                                        </div>
+                                        <div class="column is-4">
+                                            <div class="columns is-mobile is-centered is-vcentered">
+                                                <div class="column is-narrow">
+                                                    <span v-show="props.open === false"><i class="fas fa-chevron-right mobile-menu-item__chevron"></i></span>
+                                                    <span v-show="props.open === true"><i class="fas fa-chevron-down mobile-menu-item__chevron"></i></span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <ul class="content">
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'en' }" v-on:click="changeLocale('en')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">English <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'de' }" v-on:click="changeLocale('de')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Deutsch <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'es' }" v-on:click="changeLocale('es')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Español <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'fr' }" v-on:click="changeLocale('fr')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Français <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'hu' }" v-on:click="changeLocale('hu')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Magyar <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'it' }" v-on:click="changeLocale('it')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Italiano <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'pt-br' }" v-on:click="changeLocale('pt-br')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Português (Brasil) <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'sv' }" v-on:click="changeLocale('sv')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Svenska <i class="fas fa-check"></i></div>
+                                    </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'tr' }" v-on:click="changeLocale('tr')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Türkçe <i class="fas fa-check"></i></div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </b-collapse>
                     </div>
                 </div>
             </div>
@@ -239,7 +337,7 @@
                             <div class="column is-12">
                                 <div class="columns is-mobile is-vcentered">
                                     <div class="column">
-                                        <a href="https://twitter.com/OpenbookSocial" class="is-flex is-vcentered"
+                                        <a href="https://twitter.com/OkunaSocial" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -251,7 +349,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://github.com/OpenbookOrg" class="is-flex is-vcentered"
+                                        <a href="https://github.com/OkunaOrg" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -263,31 +361,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://www.reddit.com/user/openbook_org" class="is-flex is-vcentered"
-                                           target="_blank" rel="noopener noreferrer">
-                                            <div class="columns is-mobile">
-                                                <div class="column">
-                                            <span class="icon">
-                                                <i class="fab fa-reddit-alien"></i>
-                                            </span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="column">
-                                        <a href="https://gitter.im/openbook-org/Lobby" class="is-flex is-vcentered"
-                                           target="_blank" rel="noopener noreferrer">
-                                            <div class="columns is-mobile">
-                                                <div class="column">
-                                            <span class="icon">
-                                                <i class="fab fa-gitter"></i>
-                                            </span>
-                                                </div>
-                                            </div>
-                                        </a>
-                                    </div>
-                                    <div class="column">
-                                        <a href="https://www.producthunt.com/posts/openbook"
+                                        <a href="https://www.producthunt.com/posts/okuna/"
                                            class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
@@ -298,7 +372,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://www.linkedin.com/openbookorg/" class="is-flex is-vcentered"
+                                        <a href="https://www.linkedin.com/okuna/" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -308,7 +382,7 @@
                                         </a>
                                     </div>
                                     <div class="column">
-                                        <a href="https://www.facebook.com/openbooksocial/" class="is-flex is-vcentered"
+                                        <a href="https://www.facebook.com/okunasocial/" class="is-flex is-vcentered"
                                            target="_blank" rel="noopener noreferrer">
                                             <div class="columns is-mobile">
                                                 <div class="column">
@@ -463,8 +537,7 @@
             },
             changeLocale(locale) {
                 const path = this.$router.currentRoute.path.split('/')[2];
-                // Temporal fix, $router.go doesn't work for some reason.
-                window.location.href = `/${locale}/${path}`;
+                this.$router.push(`/${locale}/${path}`);
             }
         }
     }

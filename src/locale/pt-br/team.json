@@ -1,0 +1,36 @@
+{
+    "team_members": {
+        "joel_title": "Fundador e Chefe",
+        "joel_desc": "Ativista de privacidade e segurança, engenheiro de software, designer de produtos digitais, entusiasta do código aberto, \"The Next Web Top 500 young talent\", humano.",
+        "jaya_title": "Sensei das Operações",
+        "jaya_desc": "Perita em segurança da informação reconhecida globalmente, palestrante sobre interceptação legal, computação quântica, contra-vigilância e criptografia.",
+        "phil_title": "Mago da Criptografia",
+        "phil_desc": "Pioneiro em criptografia, criador do PGP — o software de criptografia de email mais usado no mundo —, membro do \"Internet Hall of Fame\", ativista da privacidade.",
+        "lambrecht_title": "Maestro da Mídia",
+        "lambrecht_desc": "Especialista em segurança e relações internacionais, analista de conflitos, construtor da paz, pesquisador e produtor de mídia, ativista de direitos humanos.",
+        "vincent_title": "Hacker Residente",
+        "vincent_desc": "Hacker ético, engenheiro reverso, desenvolvedor de exploit, palestrante, não gosta da palavra cibernética, especialista em cibernética.",
+        "bas_title": "Exorcista de Conceito Sênior",
+        "bas_desc": "Defensor de produtos úteis e com propósito, mentor da experiência de usuário, trabalhou com várias marcas internacionais, investigador, hacker de hardware.",
+        "shantanu_title": "Feiticeiro Digital",
+        "shantanu_desc": "Engenheiro de software pragmático com um talento especial para a construção de ótimos produtos e experiências, geek da criptografia, criador de bots, defensor da simplicidade.",
+        "nathalie_title": "Catalisadora Mestre",
+        "nathalie_desc": "Planejadora mestre, personificação do otimismo, quer fazer as coisas? Ligue para Nathalie. ",
+        "robin_title": "Guerreira da Marca",
+        "robin_desc": "Maga do marketing de conteúdo, \"The Next Web Top 500 young talent\", amante da praia, odeia ser interrompida pela rotina, ama a vida fora da zona de conforto.",
+        "martijn_title": "Ninjenheiro de Software",
+        "martijn_desc": "Engenheiro de software prático, guru do JavaScript, geek da tecnologia wearable, gamer e muito daora."
+    },
+    "ambassadors": {
+        "isaac_name": "Isaac Hernández",
+        "isaac_desc": "Artista, empreendedor social.",
+        "ruben_name": "Ruben Van Vreeland",
+        "ruben_desc": "CEO e Co-Fundador do BitSensor, software de segurança cibernética.",
+        "edwin_name": "Edwin van Andel",
+        "edwin_desc": "CEO da Zerocopter, palestrante internacional, especialista em segurança.",
+        "chris_name": "Chris Duke",
+        "chris_desc": "Apresentador e Produtor Executivo da Motorz TV",
+        "ashwin_name": "Ashwin Krishnan",
+        "ashwin_desc": "COO da UberKnowledge, especialista em ética da tecnologia, escritor, apresentador de podcast, palestrante."
+    }
+}

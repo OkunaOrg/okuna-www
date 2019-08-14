@@ -8,7 +8,6 @@
 
 <script>
     import isaacPhoto from './assets/isaac.jpg';
-    import rubenPhoto from './assets/ruben.jpg';
     import edwinPhoto from './assets/edwin.png';
     import chrisPhoto from './assets/chris.png';
     import ashwinPhoto from './assets/ashwin.png';
@@ -33,16 +32,6 @@
                         description: this.$t('ambassadors.isaac_desc'),
                     },
                     {
-                        name: this.$t('ambassadors.ruben_name'),
-                        photo: rubenPhoto,
-                        links: {
-                            website: 'https://bitsensor.io',
-                            twitter: 'https://twitter.com/EnableBitSensor',
-                            linkedin: 'https://www.linkedin.com/in/rubenvanvreeland/'
-                        },
-                        description: this.$t('ambassadors.ruben_desc'),
-                    },
-                    {
                         name: this.$t('ambassadors.edwin_name'),
                         photo: edwinPhoto,
                         links: {
@@ -64,13 +53,13 @@
                         description: this.$t('ambassadors.chris_desc'),
                     },
                     {
-                        name: 'Ashwin Krishnan',
+                        name: this.$t('ambassadors.ashwin_name'),
                         photo: ashwinPhoto,
                         links: {
                             website: 'https://ashwinkrishnan.me/',
                             linkedin: 'https://www.linkedin.com/in/ashwinkrishnan/'
                         },
-                        description: 'COO of UberKnowledge, tech ethicist, writer, podcast host, speaker.',
+                        description: this.$t('ambassadors.ashwin_desc')
                     }
                 ]
             }

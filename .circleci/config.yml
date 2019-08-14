@@ -10,11 +10,11 @@ jobs:
               name: Install dependencies
               command: npm install
         - run:
+              name: Check translations
+              command: npm run check-translations
+        - run:
               name: Test
               command: npm test
-        - run:
-              name: Security check
-              command: npm audit
     deploy:
         docker:
         - image: circleci/node:latest
@@ -24,6 +24,9 @@ jobs:
         - run:
               name: Install dependencies
               command: npm install
+        - run:
+              name: Check translations
+              command: npm run check-translations
         - run:
               name: Installing deployment dependencies
               working_directory: /

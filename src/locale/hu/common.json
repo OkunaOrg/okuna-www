@@ -1,0 +1,43 @@
+{
+    "global": {
+        "okuna": "Okuna"
+    },
+    "header": {
+        "home": "Főoldal",
+        "about_us": "Rólunk",
+        "manifesto": "Nyilatkozat",
+        "contact_us": "Kapcsolat",
+        "jobs": "Állás",
+        "faq": "GYIK",
+        "press": "Sajtó",
+        "language": "Nyelv",
+        "blog": "Blog",
+        "angel": "Angyal"
+    },
+    "footer": {
+        "report_vulnerability": "Sebezhetőség jelentése",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "reddit": "Reddit",
+        "gitter": "Gitter",
+        "linked_in": "LinkedIn",
+        "product_hunt": "Product Hunt",
+        "facebook": "Facebook",
+        "the_ob_organization": "Okuna",
+        "privacy_policy": "Adatvédelmi nyilatkozat",
+        "made_with": "Készült ",
+        "in_europe": "-el Európában",
+        "all_rights_reserved": "Minden jog fenntartva"
+    },
+    "hud": {
+        "share": "Megosztás",
+        "share_fb": "Megosztás Facebook-on",
+        "share_twitter": "Megosztás Twitter-en",
+        "share_email": "Küldés e-mailben",
+        "share_linkedin": "Megosztás LinkedIn-en",
+        "share_wa": "Megosztás WhatsApp-on",
+        "share_title": "Okuna. Egy közösségi hálózat egy jobb jövőért.",
+        "share_description": "Őszinte, személyes, magánélet-orientált és etikailag fenntartott.",
+        "share_quote": "Csatlakozz te is! 2019 közepén útnak indulunk."
+    }
+}

@@ -1,0 +1,43 @@
+{
+    "global": {
+        "okuna": "Okuna"
+    },
+    "header": {
+        "home": "Ana Sayfa",
+        "about_us": "Hakkımızda",
+        "manifesto": "Bildiri",
+        "contact_us": "Bizimle iletişime geç",
+        "jobs": "Kariyer",
+        "faq": "SSS",
+        "press": "Basın",
+        "language": "Dil",
+        "blog": "Blog",
+        "angel": "Melek"
+    },
+    "footer": {
+        "report_vulnerability": "Güvenlik Açığı Bildir",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "reddit": "Reddit",
+        "gitter": "Gitter",
+        "linked_in": "LinkedIn",
+        "product_hunt": "Product Hunt",
+        "facebook": "Facebook",
+        "the_ob_organization": "Okuna",
+        "privacy_policy": "Gizlilik Politikası",
+        "made_with": "Yapıldığı yer ",
+        "in_europe": " Avrupa'da",
+        "all_rights_reserved": "Tüm Hakları Saklıdır"
+    },
+    "hud": {
+        "share": "Paylaş",
+        "share_fb": "Facebook'da Paylaş",
+        "share_twitter": "Twitter'da Paylaş",
+        "share_email": "E-posta gönderin",
+        "share_linkedin": "LinkedIn'de Paylaş",
+        "share_wa": "Whatsapp üzerinden Paylaş",
+        "share_title": "Okuna. Daha iyi bir gelecek için bir sosyal ağ.",
+        "share_description": "Dürüst, kişisel, gizlilik dostu ve etik açıdan sürdürülebilir.",
+        "share_quote": "Devrime katıl! 2019'un ortalarına geliyor."
+    }
+}

@@ -10,12 +10,12 @@
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            {{ $t('manifesto.Before_you') }}
+                            {{ evilCorp('before_you_can_enjoy') }}
                         </div>
                         <div class="column is-12 has-text-centered">
                             <button class="button is-generic-social-media" @click="goToStep2()">
                                 <span class="icon"><i
-                                    class="fas fa-anchor"></i></span><span>{{ $t('manifesto.Continue_w') }}</span>
+                                    class="fas fa-anchor"></i></span><span>{{ evilCorp('continue') }}</span>
                             </button>
                         </div>
                     </div>
@@ -28,23 +28,13 @@
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
-                            <div v-html="$t('manifesto.wifi_hotspots_app')">
+                            <div v-html="evilCorp('will_receive')">
                             </div>
-                            <span> {{ $t('manifesto.your_') }} </span>
-                            <span v-for="(dataItem, index) of sharedData" v-if="sharedData.length > 1">
-                                <span v-if="index === (sharedData.length - 1)">
-                                     {{ $t('manifesto.and_') }}
-                                </span>
-                                <span>{{dataItem.name}}</span>
-                                <span v-if="index !== (sharedData.length - 2 ) && index !== (sharedData.length - 1)">,</span>
-                                <span v-if="index === (sharedData.length - 1)">.</span>
-                            </span>
-                            <span v-else>
-                                {{ sharedData[0].name }}
-                            </span>
+                            <span v-if="sharedData.length > 1">{{ sharedDataString }}</span>
+                            <span v-else>{{ $t('manifesto.examples.evilcorp.will_receive_list', { requested_data: sharedData[0].name }) }}</span>
                             <div>
                                 <b-tooltip
-                                    label="Your public profile includes name, profile picture, age range, gender, language, country and other public info."
+                                    :label="publicProfile"
                                     position="is-bottom" type="is-dark" multilined>
                                     <i class="icon is-small fas fa-info-circle info-icon"></i>
                                 </b-tooltip>
@@ -56,18 +46,18 @@
                                     <i class="fas fa-pencil-alt"></i>
                                 </span>
                                 <span>
-                                     {{ $t('manifesto.Edit_this') }}
+                                     {{ evilCorp('edit') }}
                                 </span>
                             </a>
                         </div>
                         <div class="column is-12 has-text-centered">
                             <button class="button is-generic-social-media is-medium" @click="goToStep4()">
-                                {{ $t('manifesto.Continue') }}
+                                {{ $t('manifesto.examples.common.btn_continue') }}
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
                             <a class="is-medium info-icon" @click="goToStep1()">
-                                {{ $t('manifesto.Cancel') }}
+                                {{ $t('manifesto.examples.common.btn_cancel') }}
                             </a>
                         </div>
                     </div>
@@ -81,7 +71,7 @@
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <span>{{ $t('manifesto.Back') }}</span>
+                                        <span>{{ $t('manifesto.examples.common.btn_back') }}</span>
                                     </button>
                                 </div>
                             </div>
@@ -91,7 +81,7 @@
                                 <div class="column is-10 is-size-6">
                                     <div>
                                         <strong>{{dataItem.name}}</strong>
-                                        <span v-if="dataItem.required">(required)</span>
+                                        <span v-if="dataItem.required"> {{ $t('manifesto.examples.common.required') }}</span>
                                     </div>
                                     <div class="is-size-7">
                                         {{dataItem.description}}
@@ -114,11 +104,11 @@
                         <div class="column is-12 has-text-centered">
                             <div>
                                 <strong>
-                                    {{ $t('manifesto.Success') }}
+                                    {{ $t('manifesto.examples.common.success') }}
                                 </strong>
                             </div>
                             <span>
-                                   {{ $t('manifesto.The_social') }}
+                                   {{ evilCorp('shared_the_info') }}
                             </span>
                         </div>
                         <div class="column is-12 has-text-centered">
@@ -126,7 +116,7 @@
                                 <span class="icon is-small">
                                     <i class="fas fa-sync-alt"></i>
                                 </span>
-                                <span>{{ $t('manifesto.Restart_ex') }}</span>
+                                <span>{{ evilCorp('restart') }}</span>
                             </button>
                         </div>
                     </div>
@@ -161,6 +151,7 @@
 </style>
 
 <script>
+    import concatenate from '@/lib/concatenate';
 
     export default {
         name: 'ob-generic-data-sharing',
@@ -170,34 +161,34 @@
                 publicProfileShared: true,
                 availableData: [
                     {
-                        name: this.$t('manifesto.public_pro'),
+                        name: this.$t('manifesto.examples.can_receive_following_data.public_profile'),
                         required: true,
                         enabled: true,
-                        description: this.$t('manifesto.John_Doe')
+                        description: this.evilCorp('descriptions.public_profile')
                     },
                     {
-                        name: this.$t('manifesto.friend_lis'),
+                        name: this.$t('manifesto.examples.can_receive_following_data.friend_list'),
                         required: false,
                         enabled: true,
-                        description: this.$t('manifesto.Mike_Chowd')
+                        description: this.evilCorp('descriptions.friend_list')
                     },
                     {
-                        name: this.$t('manifesto.birthday'),
+                        name: this.$t('manifesto.examples.can_receive_following_data.birthday'),
                         required: false,
                         enabled: true,
-                        description: this.$t('manifesto.January_1')
+                        description: this.evilCorp('descriptions.birthday')
                     },
                     {
-                        name: this.$t('manifesto.likes_'),
+                        name: this.$t('manifesto.examples.can_receive_following_data.likes'),
                         required: false,
                         enabled: true,
-                        description: this.$t('manifesto.The_Daily_')
+                        description: this.evilCorp('descriptions.likes')
                     },
                     {
-                        name: this.$t('manifesto.email_addr'),
+                        name: this.$t('manifesto.examples.can_receive_following_data.email'),
                         required: false,
                         enabled: true,
-                        description: this.$t('manifesto.john_doe_c')
+                        description: this.evilCorp('descriptions.email_address')
                     },
                 ]
             }
@@ -206,6 +197,26 @@
             sharedData() {
                 return this.availableData.filter((dataItem) => {
                     return dataItem.enabled;
+                });
+            },
+            sharedDataString() {
+                return this.$t('manifesto.examples.evilcorp.will_receive_list', {
+                    requested_data: concatenate(this.sharedData, 'name', this.$t('manifesto.examples.common.last_item'))
+                });
+            },
+            publicProfile() {
+                const data = [
+                    this.$t('manifesto.examples.can_receive_following_data.name'),
+                    this.$t('manifesto.examples.can_receive_following_data.profile_picture'),
+                    this.$t('manifesto.examples.can_receive_following_data.age_range'),
+                    this.$t('manifesto.examples.can_receive_following_data.gender'),
+                    this.$t('manifesto.examples.can_receive_following_data.language'),
+                    this.$t('manifesto.examples.can_receive_following_data.country'),
+                    this.$t('manifesto.examples.can_receive_following_data.other')
+                ];
+
+                return this.$t('manifesto.examples.evilcorp.public_profile_includes', {
+                    public_info: concatenate(data, null, this.$t('manifesto.examples.common.last_item'))
                 });
             }
         },
@@ -221,6 +232,9 @@
             },
             goToStep4() {
                 this.stepNumber = 4;
+            },
+            evilCorp(str) {
+                return this.$t(`manifesto.examples.evilcorp.${str}`);
             }
         }
     }

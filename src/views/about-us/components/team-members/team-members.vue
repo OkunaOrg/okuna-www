@@ -8,16 +8,14 @@
 
 <script>
     import ObTeamMember from "./components/team-member";
-    import joelPhoto from './assets/profile-picture-joel-min.png';
-    import jayaPhoto from './assets/profile-picture-jaya-min.png';
-    import martijnPhoto from './assets/profile-picture-martijn-min.jpg';
-    import philPhoto from './assets/phil-website-min.jpg';
-    import vincentPhoto from './assets/profile-picture-vincent-min.png';
-    import basPhoto from './assets/bas-website-min.png';
-    import lambrechtPhoto from './assets/profile-picture-lambrecht-min.png';
-    import shantanuPhoto from './assets/profile-picture-shantanu-min.png';
-    import nathaliePhoto from './assets/profile-picture-nathalie-min.png';
-    import robinPhoto from './assets/profile-picture-robin-min.png';
+    import philPhoto from './assets/profile-picture-phil.jpg';
+    import joelPhoto from './assets/profile-picture-joel.png';
+    import jayaPhoto from './assets/profile-picture-jaya.png';
+    import vincentPhoto from './assets/profile-picture-vincent.png';
+    import lambrechtPhoto from './assets/profile-picture-lambrecht.png';
+    import shantanuPhoto from './assets/profile-picture-shantanu.png';
+    import nathaliePhoto from './assets/profile-picture-nathalie.png';
+    import robinPhoto from './assets/profile-picture-robin.png';
 
 
     export default {
@@ -61,14 +59,14 @@
                         description: this.$t('team_members.phil_desc')
                     },
                     {
-                        name: 'Lambrecht Wessels',
-                        photo: lambrechtPhoto,
-                        position: this.$t('team_members.lambrecht_title'),
-                        description: this.$t('team_members.lambrecht_desc'),
+                        name: 'Shantanu Tarey',
+                        position: this.$t('team_members.shantanu_title'),
+                        photo: shantanuPhoto,
                         links: {
-                            linkedin: 'https://www.linkedin.com/in/lambrechtwessels/',
-                            twitter: 'https://twitter.com/lambrechtw?lang=en'
-                        }
+                            linkedin: 'https://www.linkedin.com/in/shantanutarey/',
+                            twitter: 'https://twitter.com/shantanutarey'
+                        },
+                        description: this.$t('team_members.shantanu_desc'),
                     },
                     {
                         name: 'Vincent Ruijter',
@@ -80,16 +78,6 @@
                             twitter: 'https://twitter.com/_evict'
                         },
                         description:  this.$t('team_members.vincent_desc'),
-                    },
-                    {
-                        name: 'Shantanu Tarey',
-                        position: this.$t('team_members.shantanu_title'),
-                        photo: shantanuPhoto,
-                        links: {
-                            linkedin: 'https://www.linkedin.com/in/shantanutarey/',
-                            twitter: 'https://twitter.com/shantanutarey'
-                        },
-                        description: this.$t('team_members.shantanu_desc'),
                     },
                     {
                         name: 'Nathalie Lokhorst',
@@ -108,7 +96,17 @@
                             linkedin: 'https://www.linkedin.com/in/robin-roosdorp/'
                         },
                         description: this.$t('team_members.robin_desc')
-                    }
+                    },
+                    {
+                        name: 'Lambrecht Wessels',
+                        photo: lambrechtPhoto,
+                        position: this.$t('team_members.lambrecht_title'),
+                        description: this.$t('team_members.lambrecht_desc'),
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/lambrechtwessels/',
+                            twitter: 'https://twitter.com/lambrechtw?lang=en'
+                        }
+                    },
                 ]
             }
         },

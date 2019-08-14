@@ -33,9 +33,9 @@
             <div>
                 <div class="columns is-centered">
                     <div class="column intro-text content">
-                        <h3 class="is-size-4 small-container padding-bottom-1x"
+                        <p class="is-size-4 small-container padding-bottom-1x has-text-weight-bold"
                            v-html="$t('about_us.description')">
-                        </h3>
+                        </p>
                     </div>
                 </div>
                 <div class="columns">
@@ -43,11 +43,7 @@
                         <p class="is-size-5 small-container">
                             {{ $t('about_us.description_founded') }}
                         </p>
-                        <p class="is-size-5 small-container" v-html="$t('about_us.description_project')">
-                        </p>
                         <p class="is-size-5 small-container" v-html="$t('about_us.description_funded')">
-                        </p>
-                        <p class="is-size-5 small-container" v-html="$t('about_us.description_release')">
                         </p>
                     </div>
                 </div>
@@ -80,35 +76,31 @@
                 <ob-team-members/>
             </div>
         </section>
-        <section class="hero is-white">
-            <div class="hero-body has-text-centered">
-                <div class="container">
-                    <div class="columns is-centered is-vcentered">
-                        <div class="column">
-                            <h3 class="title is-size-4">
-                                {{ $t('about_us.work_with_us') }}
-                            </h3>
-                        </div>
-                        <div class="column">
-                            <router-link :to="'jobs'" class="button is-rainbow is-rounded is-medium">
-                                {{ $t('about_us.visit_jobs_page') }}
-                            </router-link>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
         <section class="section">
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
-                    <p class="is-size-3 padding-bottom-1x">
+                    <h4 class="is-size-3 padding-bottom-3x">
                         {{ $t('about_us.our_ambassadors') }}
-                    </p>
+                    </h4>
                     <p class="is-size-6 is-marginless is-paddingless">
                         {{ $t('about_us.ambassadors_desc') }}
                     </p>
                 </div>
                 <ob-ambassadors></ob-ambassadors>
+            </div>
+        </section>
+        <section class="section">
+            <div class="container">
+                <div class="content has-text-centered padding-bottom-2x">
+                    <h4 class="is-size-3 padding-bottom-3x">
+                        {{ $t('about_us.our_contributors') }}
+                    </h4>
+                </div>
+                <ob-contributors></ob-contributors>
+                <div class="content has-text-centered padding-bottom-2x">
+                    <h5 class="padding-bottom-3x" v-html="$t('about_us.our_backers')">
+                    </h5>
+                </div>
             </div>
         </section>
         <section class="hero is-bold">
@@ -176,9 +168,11 @@
     import ObTeamMembers from "./components/team-members/team-members";
     import ObAmbassadors from "./components/ambassadors/ambassadors.vue";
     import spinningWorldImg from './../home/components/good-for-planet/components/earth-drawing.png';
+    import ObContributors from "./components/contributors/contributors";
 
     export default {
         components: {
+            ObContributors,
             ObAmbassadors,
             ObTeamMembers
         },

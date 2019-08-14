@@ -1,0 +1,36 @@
+{
+    "team_members": {
+        "joel_title": "Fondateur & Chef",
+        "joel_desc": "Activiste de la confidentialité et de la sécurité, ingénieur de logiciels, concepteur de produits numériques, magicien du code libre, \"The Next Web Top 500 young talent\", humain.",
+        "jaya_title": "Sensei des opérations",
+        "jaya_desc": "Experte en sécurité de l'information reconnue mondialement, conférencière sur l'interception légale, le calcul quantique, la contre-surveillance et la cryptographie.",
+        "phil_title": "Magicien de la cryptographie",
+        "phil_desc": "Pionnier de la cryptographie, créateur de PGP (le logiciel de chiffrement par courriel le plus utilisé au monde), membre du temple de la renommée de l'Internet, activiste de la confidentialité.",
+        "lambrecht_title": "Maestro des médias",
+        "lambrecht_desc": "Expert en relations internationales et en sécurité, analyste de conflits, créateur de paix, chercheur et producteur de médias, militant des droits de l'humain.",
+        "vincent_title": "Hacker maison",
+        "vincent_desc": "Hacker éthique, retro-ingénieur, développeur de failles, conférencier, n'aime pas le mot cyber, cyberexpert.",
+        "bas_title": "Exorciste de concept senior",
+        "bas_desc": "Défenseur de produits utiles et significatifs, magicien de l'expérience utilisateur, a travaillé avec de nombreuses marques internationales, chercheur, hacker matériel.",
+        "shantanu_title": "Sorcier du numérique",
+        "shantanu_desc": "Ingénieur logiciel pragmatique avec un don pour la construction de produits et expériences exceptionnels, crypto-geek, programmeur d'applications automatisées, défenseur de la simplicité.",
+        "nathalie_title": "Maître catalyste",
+        "nathalie_desc": "Maître planificatrice, personnification de l'optimisme, voulez accomplir des choses ? Appelez Nathalie. ",
+        "robin_title": "Guerrière de la marque de commerce",
+        "robin_desc": "Magicienne du marketing de contenu, \"The Next Web Top 500 young talent\", amoureuse de la plage, déteste être perturbée par la routine, adore la vie en dehors de la zone de confort.",
+        "martijn_title": "Ingénieur ninja de logiciels",
+        "martijn_desc": "Ingénieur de logiciels pratiques, gourou JavaScript, geek de la technologie portable, joueur de jeux vidéos, agent en charge du calme."
+    },
+    "ambassadors": {
+        "isaac_name": "Isaac Hernández",
+        "isaac_desc": "Artiste, entrepreneur social.",
+        "ruben_name": "Ruben Van Vreeland",
+        "ruben_desc": "PDG & Co-fondateur de BitSensor, logiciel de cybersécurité.",
+        "edwin_name": "Edwin van Andel",
+        "edwin_desc": "PDG de Zerocopter, conférencier international, expert expérimenté en sécurité.",
+        "chris_name": "Chris Duke",
+        "chris_desc": "Animateur & Producteur Exécutif, Motorz TV",
+        "ashwin_name": "Ashwin Krishnan",
+        "ashwin_desc": "COO of UberKnowledge, tech ethicist, writer, podcast host, speaker."
+    }
+}

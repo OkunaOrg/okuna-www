@@ -1,0 +1,110 @@
+{
+    "home": {
+        "want_to_know_more": "Szeretnél többet megtudni?",
+        "read_manifesto": "Olvasd el a nyilatkozatunkat",
+        "featured_in": "Ők már írtak rólunk",
+        "signup_button": "Feliratkozás a bétára"
+    },
+    "honesty": {
+        "title": "Nyílt és felelősségteljes",
+        "description": "Minden kód, ami a közösségi hálózatot működteti, nyílt forrású, ami azt jelenti, hogy bárki megtekintheti. Itt nincs helye ördöngös algoritmusoknak!"
+    },
+    "privacy": {
+        "title": "Adatvédelem-barát",
+        "description": "Hisszük, hogy a magánélet alapvető emberi jog. Nem követjük nyomon és nem figyeljük a tevékenységeidet."
+    },
+    "secure": {
+        "title": "Biztonság a középpontban",
+        "description": "Tapasztaltak vagyunk az információbiztonság terén. Az elejétől kezdve biztonsággal előtérben csinálunk mindent."
+    },
+    "easy": {
+        "title": "Barátságos és kényelmes",
+        "description": "A <a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\">közösség által formált irányelveink</a>, etikus tervezés és kód kombinációjával szeretnénk olyan körülményeket létrehozni, melyek barátságon, tiszteleten és nyitottságon alapulnak, és ahol a boldogság a fő cél."
+    },
+    "fun": {
+        "title": "Több módja az önkifejezésnek",
+        "description": "Mi emberek érzésekkel vagyunk megáldva. Folyamatosan növekvő reakciókönyvtárunkkal biztos találsz több módot, mellyel kifejezheted digitális énedet!"
+    },
+    "personal": {
+        "title": "Testreszabható",
+        "description": "Mindannyian különbözőek vagyunk és ezt szeretnénk átfogni és megünnepelni. Testreszabhatósági lehetőségeinkkel olyanná formálhatod a közösségi hálózatot, mint amilyen te vagy!"
+    },
+    "community": {
+        "title": "Közösségorientált",
+        "description": "Fedezz fel érdeklődési köröket és embereket, csatlakozz a több, mint 2500 közösségünk bármelyikéhez vagy hozd létre és növeld sajátodat!"
+    },
+    "good_for_planet": {
+        "title": "Egy szebb jövőért",
+        "description": "Amellett, hogy bevételünk egy részét <a href=\"https://founderspledge.com/research\" rel=\"noreferrer noopener\">adományra használjuk fel</a>, elkötelezettek vagyunk arra, hogy pozitív hatást gyakoroljunk a társadalmon és a környezeten belül."
+    },
+    "ads_free": {
+        "title": "Etikusan fenntartott",
+        "description": "A közösségi hálózat egy opcionális fizetéses szolgáltatás által van fenntartva, mely hozzáférést nyújt extra reakciókhoz, animált profilképekhez, témákhoz és még sok máshoz. Nincs reklám és nem értékesítjük a felhasználók személyes adatait."
+    },
+    "currency": {
+        "title": "Egy digitális pénznem",
+        "description": "Mi egy <strong>Tip</strong> nevű digitális pénznemen is dolgozunk, melynek segítségével támogathatod kedvenc videósaidat, feliratkozhatsz kiadókra, fizethetsz szolgáltatásokért és még sok másért."
+    },
+    "quotes": {
+        "joel_name": "Joel Hernández",
+        "joel_title": "Az Okuna alapítója",
+        "joel_quote": "Elképzelek egy világot, melyben a technológia jóindulatú, nyitott, felelősségteljes és tiszteletteljes. Az Okuna ennek a világnak a közösségi hálózata.",
+        "vincent_name": "Vincent Ruijter",
+        "vincent_title": "Etikus hacker",
+        "vincent_quote": "Az Okuna lehet az utolsó esélyünk arra, hogy valami különbet, etikusat és jobbat hozzunk létre.",
+        "phil_name": "Phil Zimmermann",
+        "phil_title": "Internet hírességek csarnokának tagja",
+        "phil_quote": "Az Okuna reményt ad a jövő számára - egy közösségi hálózat, ahol nem vagyunk holmi üzleti modell áldozatai."
+    },
+    "splash_hero": {
+        "hello_world": "Helló <span id=\"hello-subject\">világ!</span>",
+        "world": "világ",
+        "friends": "barátok",
+        "family": "család",
+        "grandma": "nagyi",
+        "we_are_ob": "Ez itt az <strong class=\"has-text-logo is-size-5\">Okuna</strong>, egy etikus közösségi hálózat egy szebb holnapért.",
+        "share": "Megosztás",
+        "notify_me": "Támogass minket"
+    },
+    "why_ob": {
+        "title": "Miért az Okuna?",
+        "subtitle": "Néhány dolog ami elkülönít minket a szokásos közösségi hálózatoktól.",
+        "zero_tracking": "Zéró nyomonkövetés",
+        "zero_tracking_desc": "Soha, semmilyen körülmények között nem követünk.",
+        "zero_spying": "Zéró kémkedés",
+        "zero_spying_desc": "Privát beszélgetéseid végre újra privátak lehetnek.",
+        "zero_ads": "Reklámmentes",
+        "zero_ads_desc": "A reklámok miatt jöttek létre a célzott reklámok, mely az online magánélet elvesztését jelentette. Nálunk nincsenek reklámok.",
+        "data_protection": "Erős adatvédelem",
+        "data_protection_desc": "Azon harmadik-felektől származó alkalmazások, melyek az adataidhoz szeretnének hozzáférni, meg kell felelniük szigorú és kemény biztonsági irányelveinknek.",
+        "honest": "Őszinte",
+        "honest_desc": "Minden forráskódunk szabadon elérhető, elemezhető, reprodukálható és hozzájárulható bárki számára. Nincsenek kellemetlen meglepetések.",
+        "easy_to_migrate": "Könnyű migrálás",
+        "easy_to_migrate_desc": "Eszközeinkkel az összes létező adatodat áthozhatod hozzánk.",
+        "future_proof": "Jövőbiztos",
+        "future_proof_desc": "Szolid és hasznos, peer-to-peer alapú üzleti modellünknek köszönhetően hosszú ideig itt leszünk.",
+        "modern_design": "Modern, szép, etikusan tervezett.",
+        "modern_design_desc": "A legújabb technológiákkal tervezve, valamint a részletekre és etikára figyelmet fektetve, ilyet sehol máshol nem találhatsz.",
+        "good_for_planet": "Jó a bolygónk számára",
+        "good_for_planet_desc": "Bízunk egy jobb világban. Éppen ezért használjuk fel a bevételünk 30%-át arra, hogy jobbá tegyük a világot - most és örökre."
+    },
+    "count_down": {
+        "kickstarter": "Okuna",
+        "campaign_countdown": "visszaszámláló az indulásig",
+        "days": "nap",
+        "hours": "óra",
+        "minutes": "perc",
+        "seconds": "másodperc",
+        "kickstarter_launch": "Okuna <strong class=\"has-text-kickstarter\">alpha</strong> begins <br/>on the<strong> {0}th of March 2019</strong>."
+    },
+    "meet_the_team": {
+        "title": "Ismerd meg a csapatot"
+    },
+    "beta_container": {
+        "title": "Csatlakozz a forradalomhoz!",
+        "beta_date": "A béta 2019 közepétől lesz elérhető",
+        "email_placeholder": "te@cimed.hu",
+        "server_error": "Szerverproblémákba ütköztünk. Kérünk, próbáld újra pár perc múlva.",
+        "success": "&nbsp;&nbsp;Hurrá! Ön a(z) {count}. a várólistánkon."
+    }
+}

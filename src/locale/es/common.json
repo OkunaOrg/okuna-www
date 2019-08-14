@@ -1,0 +1,43 @@
+{
+    "global": {
+        "okuna": "Okuna"
+    },
+    "header": {
+        "home": "Inicio",
+        "about_us": "Acerca de nosotros",
+        "manifesto": "Manifiesto",
+        "contact_us": "Contáctanos",
+        "jobs": "Trabajos",
+        "faq": "Preguntas frecuentes (FAQ)",
+        "press": "Prensa",
+        "language": "Idioma",
+        "blog": "Blog",
+        "angel": "Ángel"
+    },
+    "footer": {
+        "report_vulnerability": "Reportar Vulnerabilidad",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "reddit": "Reddit",
+        "gitter": "Gitter",
+        "linked_in": "LinkedIn",
+        "product_hunt": "Product Hunt",
+        "facebook": "Facebook",
+        "the_ob_organization": "Okuna",
+        "privacy_policy": "Política de privacidad",
+        "made_with": "Hecho con ",
+        "in_europe": " en Europa",
+        "all_rights_reserved": "Todos los derechos reservados"
+    },
+    "hud": {
+        "share": "Compartir",
+        "share_fb": "Compartir en Facebook",
+        "share_twitter": "Compartir en Twitter",
+        "share_email": "Enviar email",
+        "share_linkedin": "Compartir en LinkedIn",
+        "share_wa": "Compartir en Whatsapp",
+        "share_title": "Okuna. Una red social para un futuro mejor.",
+        "share_description": "Honesto, personal, respetuoso de la privacidad y éticamente sostenido.",
+        "share_quote": "¡Únete a la revolución! A mediados de 2019."
+    }
+}

@@ -1,0 +1,36 @@
+{
+    "team_members": {
+        "joel_title": "Alapító és vezető",
+        "joel_desc": "Adatvédelmi és biztonsági aktivista, szoftvermérnök, digitális termékek designere, open-sourcerer, The Next Web Top 500 fiatal tehetsége, ember.",
+        "jaya_title": "Operációs sensei",
+        "jaya_desc": "Globálisan elismert információbiztonsági szakértő, beszédeket tartott a törvényes lehallgatásokról, a kvantum-számítástechnikáról, ellenfelügyeletről és kriptográfiáról.",
+        "phil_title": "Kriptográfiai mágus",
+        "phil_desc": "Kriptográfiai pionír, megalkotta a világon legtöbbet használt e-mail titkosítási szoftvert - a PGP-t, tagja az internet hírességek csarnokának, adatvédelmi aktivista.",
+        "lambrecht_title": "Média mester",
+        "lambrecht_desc": "Szakértő biztonság és nemzetközi kapcsolatok terén, konfliktuselemző, békealkotó, médiakutató és producer, emberi jogi aktivista.",
+        "vincent_title": "Hacker-in-residence",
+        "vincent_desc": "Etikus hacker, reverse-engineer, beszélő, nem szereti a \"cyber\" szót, cyber-szakértő.",
+        "bas_title": "Vezető koncepció-fejlesztő",
+        "bas_desc": "Hasznos és értelmes termékek szószólója, UX zseni, számos nemzetközi márkával dolgozott már, kutató, hardver hacker.",
+        "shantanu_title": "Digitális varázsló",
+        "shantanu_desc": "Pragmatikus szoftvermérnök, aki szereti a remek termékeket és élményeket, crypto-geek, bot-készítő, egyszerűség szószólója.",
+        "nathalie_title": "Tervezőmester",
+        "nathalie_desc": "Tervező, az optimizmus megtestesítője. Szeretnél valamit készen látni? Hívd Nathalie-t. ",
+        "robin_title": "Márkaharcos",
+        "robin_desc": "Tartalmi marketing szakértő, The Next Web Top 500 fiatal tehetségei, szereti a tengerpartot, nem szereti ha megzavarja a rutin, szereti a komfortzónán kívüli életet.",
+        "martijn_title": "Software Ninjaneer",
+        "martijn_desc": "Praktikai szoftvermérnük, JavaScript guru, hordozható tech geek, gamer, menőségtiszt."
+    },
+    "ambassadors": {
+        "isaac_name": "Isaac Hernández",
+        "isaac_desc": "Művész, társadalmi vállalkozó.",
+        "ruben_name": "Ruben Van Vreeland",
+        "ruben_desc": "A BitSensor cyber-biztonsági szoftver vezérigazgatója és társalapítója.",
+        "edwin_name": "Edwin van Andel",
+        "edwin_desc": "A Zerocopter vezérigazgatója, nemzetközi beszélő, tapasztalt biztonsági szakértő.",
+        "chris_name": "Chris Duke",
+        "chris_desc": "Házigazda és producer, Motorz TV",
+        "ashwin_name": "Ashwin Krishnan",
+        "ashwin_desc": "Az UberKnowledge ügyvezető elnöke, tech aktivista, író, podcast házigazda, beszélő."
+    }
+}

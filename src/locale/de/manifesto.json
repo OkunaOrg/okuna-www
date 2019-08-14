@@ -1,0 +1,161 @@
+{
+  "manifesto": {
+    "common": {
+      "reading_time": "Lesezeit",
+      "reading_time_minutes": "Minuten"
+    },
+    "titles": {
+      "main": "Manifest",
+      "toc": "Inhaltsverzeichnis",
+      "why": "Warum?",
+      "how": "Wie?",
+      "honest": "1. Ehrlich.",
+      "customizable": "2. Anpassbar.",
+      "secure": "3. Datenschutzfreundlich und sicher",
+      "explicit_consent": "Explizite und informierte Zustimmung",
+      "safe_apps": "Sichere Anwendungen",
+      "privacy_by_default": "Datenschutz als Standard",
+      "easy": "4. Ganz einfach.",
+      "research": "5. Forschung.",
+      "revenue": "6. Saubere Einnahmen."
+    },
+    "subtitles": {
+      "main": "Das Problem, die Lösung, die nächsten Schritte.",
+      "the_reason": "Der Grund, warum wir ein weiteres soziales Netzwerk aufbauen.",
+      "how_are_we_creating": "Wie schaffen wir ein soziales Netzwerk für eine bessere Zukunft?"
+    },
+    "why": {
+      "awesome": "Soziale Netzwerke sind fantastisch.",
+      "they_connect": "Sie verbinden uns, helfen uns, wertvolle Momente mit unseren Lieben zu teilen und versorgen uns mit lustigen Katzenvideos.",
+      "sadly_nowadays": "Leider geht es bei sozialen Netzwerken heutzutage nicht mehr so sehr darum, Menschen zu verbinden, sondern darum, mit Menschen so viel Geld wie möglich zu verdienen, egal welche Folgen das hat. Zum Beispiel der Verlust der Privatsphäre.",
+      "we_want_to_do_better": "Wir wollen es besser machen, und genau deshalb machen wir bei Okuna die Dinge anders.",
+      "we_are_designing": "Wir entwerfen ein soziales Netzwerk mit den besten Eigenschaften der Menschheit wie Freundlichkeit, Mitgefühl, Toleranz, Nächstenliebe, Empathie und Kooperation im Mittelpunkt.",
+      "a_brighter_social_network": "Ein besseres soziales Netzwerk."
+    },
+    "how": {
+      "open_source": "Unser gesamter Code ist <strong>Opensource</strong>. Das bedeutet, das der Code offen für jeden ist, der ihn inspizieren, reproduzieren und mitgestalten kann. Wir sind transparent darüber, wie das soziale Netzwerk funktioniert.",
+      "30_percent": "Wir glauben auch an eine bessere Welt für alle. Deshalb werden wir <strong>30% unserer Gewinne dafür geben, die Welt zu einem besseren Ort zu machen</strong>, jetzt und für immer. In Partnerschaft mit <a href=\"https://founderspledge.com/\" rel=\"noreferrer noopener\">FoundersPledge</a>.",
+      "we_are_different": "Weil wir alle verschieden sind und das ist etwas, das man annehmen und feiern kann.",
+      "just_like_home": "Du wirst in der Lage sein, eine Erfahrung zu gestalten, die nur für dich zugeschnitten ist. Von der Änderung der Farbe deiner Timeline, dem Hinzufügen von coolen zusätzlichen Widgets in deinem Profil bis hin zur Auswahl, wie du Inhalte in deiner Timeline sehen möchtest, möchten wir, dass Okuna sich vertraut, freundlich und gemütlich für dich anfühlt. Wie zu Hause.",
+      "build_Okuna_together": "Und wenn es etwas gibt, was du auf Okuna vermisst, lass es uns wissen. Wir wollen Okuna gemeinsam aufbauen. Wir werden eine spezielle Gruppe bilden, in der wir dich ermutigen, uns bei der Entscheidung zu helfen, was wir als nächstes bauen oder was wir verbessern sollten. Lasst uns gemeinsam die beste soziale Erfahrung aller Zeiten aufbauen.",
+      "privacy_and_security": "Das war es, was uns zunächst dazu bewogen hat, Okuna zu bauen. Die Privatsphäre und Sicherheit unserer Benutzer wird immer im Mittelpunkt unseres Handelns stehen. Wir verfolgen nichts, was du tust, weder monetarisieren, noch teilen wir deine Daten ohne deine ausdrückliche und informierte Zustimmung.",
+      "how_does_this_translate": "Wie wird dies in ein reales Szenario umgesetzt?",
+      "crystal_clear": "Wir stellen sicher, dass es immer kristallklar ist, was geteilt wird, also keine Pop-ups oder undeutliche Beschreibungen. Du kannst es dir auch selbst ansehen, nur um sicher zu gehen.",
+      "will_be_reviewed": "Alle Anwendungen werden von uns geprüft. Wir werden sicherstellen, dass sie:",
+      "apps_will": {
+        "only_request": "nur die <strong>benötigten</strong> Informationen anfordern",
+        "exact_location_of_data": "<strong>jederzeit</strong> den <strong>exakten</strong> Speicherort deiner Daten für dich verfügbar haben",
+        "delete": "<strong>all</strong> deine Daten löschen, wenn du die Berechtigung widerrufen möchtest",
+        "emergency_plan": "einen <strong>Notfallplan</strong> für den Fall eines Datenlecks haben und <strong>uns/dich unverzüglich benachrichtigen</strong>, wenn dies geschehen sollte"
+      },
+      "once_they_meet": "Sobald sie diese strengen Richtlinien erfüllen, haben sie ein Abzeichen unter ihrem Logo. Auf deinem persönlichen Dashboard kannst du die genauen Positionen deiner gemeinsamen Daten ermitteln, den Zugriff der Anwendung widerrufen und vor allem die Löschung beantragen.",
+      "optional_disabled_by_default": "Alle optionalen Datenfreigaben werden standardmäßig deaktiviert, und es liegt an dir, ob du dieser Anwendung mehr von deinen Daten geben möchtest und nicht umgekehrt.",
+      "we_will_research": "Wir werden kontinuierlich nach neuen Wegen suchen und entwickeln, um deine Privatsphäre und Sicherheit zu verbessern.",
+      "technologies": "Einige Beispiele für die Technologie, die wir erforschen und entwickeln werden:",
+      "technologies_list": {
+        "crypto_enforced": "Kryptographisch erzwungene Richtlinien für die gemeinsame Nutzung von Daten",
+        "e2e": "Ende-zu-Ende-Verschlüsselung, auch im Browser",
+        "public_key_crypto": "Öffentliche Schlüssel Kryptographie im Browser",
+        "crypto_algo": "Post-Quantum-Kryptographie-Algorithmen und -Protokolle"
+      },
+      "generally_speaking": "Im Allgemeinen gilt: Je weniger wir über dich wissen und je mehr du über uns weißt, desto besser.",
+      "smooth_transition": "Du hast wahrscheinlich schon viel Zeit (und Daten) in deine bestehenden sozialen Netzwerke investiert. Wir sind bestrebt, den Übergang so reibungslos wie möglich zu gestalten.",
+      "import_your_data": "Deshalb werden wir Tools entwickeln, um deine Daten aus bestehenden sozialen Netzwerken zu importieren<sup>1</sup>. Denke an nicht mehr als 3 Schritte.",
+      "research_1": "Während der erste Schritt für Okuna der Aufbau eines datenschutzfreundlichen sozialen Netzwerks war, erstrecken sich die Komplikationen der bestehenden sozialen Netzwerke auf zahlreiche andere Themen. Angst vor Versäumnis, digitalem Sozialstatus, Diskriminierung, digitalem Mobbing, Zensur und mehr.",
+      "research_2": "Es gibt viel Forschung zu den Themen, aber leider hatten bisher nur wenige Spieler die Macht, etwas damit zu machen. Nicht mehr.",
+      "research_3": "Wir gestalten die Plattform unter Berücksichtigung der bestehenden Forschung und experimentieren mit radikal neuen Konzepten, um einige der zuvor genannten Probleme zu lösen.",
+      "research_4": "Wir können nicht versprechen, dass unsere Lösungen funktionieren werden, wir können jedoch versprechen, dass wir es mit Hilfe von Forschung und offenem Dialog weiter versuchen werden, bis sie es tun.",
+      "no_ads": "Unser Geschäftsmodell ist und bleibt keine Werbung. Für immer.",
+      "okuna_gold": "Unser Umsatzmodell ist ein optionales Abonnement namens <span class=\"has-text-circular\"><strong>Okuna</strong> Gold</span>, das Zugang zu mehr Reaktionen, Themen und Anpassungsmöglichkeiten bietet.",
+      "digital_currency": "In Zukunft werden wir auch eine digitale Währung einführen, mit der Inhaltsersteller unterstützt, Verlage abonniert, Waren und Dienstleistungen gekauft und verkauft werden und vieles mehr.",
+      "currency_article": "Du kannst alles über diese Währung in <a class=\"has-text-underlined\" href=\"https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\">diesem Artikel lesen (ca. 6 Minuten Lesezeit).</a>"
+    },
+    "examples": {
+      "common": {
+        "btn_continue": "Weiter",
+        "btn_cancel": "Abbrechen",
+        "btn_back": "Zurück",
+        "btn_got_it": "Verstanden!",
+        "required": "(erforderlich)",
+        "success": "Erfolgreich",
+        "last_item": " und",
+        "open_list": "Liste öffnen",
+        "open_image": "Bild öffnen"
+      },
+      "title": "Beispiel",
+      "normally": "So sieht die Datenfreigabe normalerweise aus.",
+      "public_wifi": "Angenommen, du möchtest dich mit einem öffentlichen WiFi-Hotspot verbinden. Traditionell erscheint ein Fenster wie das unten stehende auf deinem Gerät mit folgendem Inhalt:",
+      "box_below": "Das folgende Feld erscheint auf deinem Bildschirm.",
+      "click": "(Mach weiter, klicke dich herum, wie du es normalerweise tun würdest)",
+      "can_receive_following_data": {
+        "public_profile": "öffentliches Profil",
+        "friend_list": "Freundesliste",
+        "friends": "Freunde",
+        "birthday": "Geburtstag",
+        "likes": "Likes",
+        "email": "E-Mail-Adresse",
+        "name": "Name",
+        "profile_picture": "Profilbild",
+        "age_range": "Altersbereich",
+        "gender": "Geschlecht",
+        "language": "Sprache",
+        "country": "Land",
+        "country_of_birth": "Geburtsland",
+        "other": "andere öffentliche Informationen"
+      },
+      "evilcorp": {
+        "before_you_can_enjoy": "Bevor Sie unsere kostenlosen Wifi-Hotspots nutzen können, müssen Sie mit EvilCorp fortfahren.",
+        "continue": "Weiter mit EvilCorp",
+        "will_receive": "<strong>WiFi-Hotspots-App</strong> wird empfangen:",
+        "will_receive_list": "dein {requested_data}.",
+        "public_profile_includes": "Dein öffentliches Profil beinhaltet: {public_info}.",
+        "edit": "Bearbeiten",
+        "shared_the_info": "Das soziale Netzwerk hat nun deine Informationen mit der Anwendung geteilt.",
+        "restart": "Beispiel neu starten",
+        "descriptions": {
+          "public_profile": "Fritz Fantom, Profilbild, 33+ Jahre alt, männlich und andere öffentliche Infos",
+          "friend_list": "Thomas Müller, Ursula Fischer und 590 andere.",
+          "birthday": "12. Januar 1990",
+          "likes": "Tatort, Fußball und 978 weitere",
+          "email_address": "fritz_fantom@mail.com"
+        }
+      },
+      "congrats": "Herzlichen Glückwunsch! Du hast gerade deine persönlichen Daten an einen WiFi-Hotspot weitergegeben!",
+      "do_you_know": "Weißt du, welche Daten du gerade mit der Anwendung geteilt hast?",
+      "hovered_icon": "Wenn du zum Beispiel mit der Maus über das \"i\"-Symbol gefahren bist, hast du vielleicht bemerkt, dass da steht:",
+      "quote": "\"Dein öffentliches Profil enthält Name, Profilbild, Altersgruppe, Geschlecht, Sprache, Land und <i><strong>\"andere öffentliche Informationen\"</i></strong>?\"",
+      "what_qualifies": "Was gilt als <i>\"andere öffentliche Informationen\"</i>? Und warum sollte ein WiFi-Hotspot all diese Informationen von dir wollen? Wird es dir ein schnelleres WiFi basierend auf deinem Geschlecht oder deinem Alter bieten? Und was passiert mit deinen Daten, wenn sie einmal vorhanden sind?",
+      "people_share": "Menschen teilen mehr von ihren Informationen, die ihnen ursprünglich bekannt sind, und sobald die Daten freigegeben wurden, gibt es kein Zurück mehr.",
+      "how_we_do_it": "So machen wir es:",
+      "awesome_music_app": "Nehmen wir an, du hast jetzt die fantastische Musik-App heruntergeladen, die dir jeder empfohlen hat. Sobald du die App öffnest, erscheint die unten stehende Box.",
+      "songipy": {
+        "prompt": "Um Songipy nutzen zu können, musst du mit Okuna fortfahren.",
+        "continue": "Weiter mit Okuna",
+        "safe_to_use": "Diese Anwendung ist sicher zu verwenden.",
+        "strict_policy": "Es hat unsere strengen Datenschutz- und Sicherheitsrichtlinien erfüllt.",
+        "learn_more": "Mehr erfahren",
+        "in_order_to_continue": "Um fortzufahren, benötigt <strong>Songipy</strong>: {required_data}.",
+        "optionally": "<strong>Optional</strong> möchte es auch auf Folgendes zugreifen: {optional_data}",
+        "edit_optional_data": "Freigegebene optionale Daten bearbeiten",
+        "inspect": "Freigegebene Daten überprüfen",
+        "descriptions": {
+          "name": "Fritz Fantom",
+          "email": "fritz_fantom@mail.com",
+          "gender": "männlich",
+          "language": "Deutsch",
+          "country": "DE",
+          "birthday": "12.01.1990"
+        },
+        "okuna_has_shared": "Okuna hat nun deine Informationen mit Songipy geteilt.",
+        "restart": "Prototyp neu starten",
+        "safe_app_modal": "<div class=\"content\"><p>In der Nicht-Prototypen-Version leitet dich dies zu einer Seite mit detaillierten Informationen über sichere Anwendungen weiter.</p><p> Offen gesagt, sind sichere Anwendungen solche, die das Datenfreigabesystem nicht missbrauchen, das Löschen deiner Daten aus deren Systemen ermöglichen und jederzeit wissen, wo sich deine Daten befinden.</p><p> Weitere Informationen dazu im folgenden Text.</p></div>",
+        "list_modal": "In der Nicht-Prototypen-Version würde dies eine Liste mit der vollständigen Liste deiner {data_name} öffnen."
+      },
+      "did_you_spot": "Hast du die Unterschiede erkannt?",
+      "most_important_ones": "Hier sind die wichtigsten."
+    },
+    "gdpr_footnote": "[1] Mit der neuen GDPR-Verordnung müssen soziale Netzwerke ihren Nutzern dies jetzt ermöglichen.",
+    "still_have_questions": "Hast du noch Fragen?",
+    "visit_faq": "Besuche unsere FAQ"
+  }
+}

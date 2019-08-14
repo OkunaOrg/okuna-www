@@ -1,0 +1,44 @@
+{
+    "contact_us": {
+        "title": "Kontakta oss",
+        "subtitle": "Vi vill höra vad du tycker.",
+        "info": "Kontaktinformation",
+        "message": "Skicka ett meddelande till oss"
+    },
+    "address": {
+        "name": "Namn",
+        "ob_organization": "Okuna B.V",
+        "address": "Adress",
+        "ob_address": "Apollo 14, Haag, Nederländerna",
+        "telephone": "Telefon",
+        "telephone_no": "(+31) 611 60 4275",
+        "email": "E-post",
+        "website": "Webbsida"
+    },
+    "message": {
+        "subject": "Ämne",
+        "reason_placeholder": "Anledningen till att du kontaktar oss",
+        "email_placeholder": "En e-postadress vi kan nå dig på",
+        "email": "E-post",
+        "user_message": "Meddelande",
+        "user_message_placeholder": "Vad kan vi göra för dig?",
+        "google_recaptcha_title": "Vi använder <a href=\"https://www.google.com/recaptcha/intro/v3beta.html\" target=\"_blank\"\n                                              rel=\"noopener noreferrer\">Google Recaptcha</a>\n                                    för att förhindra missbruk av detta formulär.",
+        "recaptcha_info": "Google samlar in data om dig för att \"verifiera\" att du är en människa.",
+        "info_includes": "Denna information innefattar",
+        "info_ip_location": "Din IP, vilken kan användas för att bestämma din position och korsreferera din identitet med andra sidor du har besökt.",
+        "info_cookies": "Alla kakor Google har placerat under de senaste 6 månaderna.",
+        "info_mouse_clicks": "Hur många musklick du har gjort (eller hur många gånger du pekat på skärmen on du är på en enhet med pekskärm).",
+        "info_css": "CSS-information från sidan",
+        "info_date": "Dagens datum",
+        "info_browser_lang": "Din webbläsares språk",
+        "info_plugins": "Tillägg du har installerade i webbläsaren",
+        "info_js": "Javascript-objekt på sidan",
+        "recaptcha_authorization": "Tillåter du att vi laddar in Google Recaptcha och därmed låter Google samla in denna information?",
+        "recaptcha_authorization_yes": "Ja, jag ger tillstånd att läsa in Google Recaptcha",
+        "or": "eller",
+        "recaptcha_authorization_no": "Nej, skicka e-post till info@okuna.io istället",
+        "tick_box": "Vänligen kryssa för denna ruta",
+        "clear_form": "Rensa formulär",
+        "submit": "Skicka"
+    }
+}

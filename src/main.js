@@ -48,7 +48,7 @@ Raven.context(function () {
         offset: -90
     });
 
-const i18n = vuei18n.i18n;
+    const i18n = vuei18n.i18n;
 
     // Load Vue globals
     Vue.directive('twemoji', twemoji);

@@ -1,0 +1,19 @@
+{
+    "about_us": {
+        "title": "Hakkımızda",
+        "subtitle": "<span class=\"has-text-primary\">Yarın daha iyi</span> bir teknoloji için.",
+        "description": "Daha rahat bir yarın için insan merkezli, sorumlu, sürdürülebilir ve adil bir teknoloji inşa eden mühendisler, tasarımcılar, bilgisayar korsanları, aktivistler ve bilgi güvenliği uzmanlarından oluşan bir ekibiz.",
+        "description_founded": "Bunu iyilik, merhamet, hoşgörü, empati ve işbirliği gibi insanlığın en iyi niteliklerini yaptığımız her şeyin özüne koyarak yapıyoruz.",
+        "description_funded": "Başarılı bir şekilde <a class=\"has-text-underlined\" href=\"https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne\" rel=\"noopener noreferrer\">kalabalık finans destekli</a> <span class=\"has-text-logo\">Okuna</span>Eylül 2018’de, şu anda 3.500+ üyesi ile alfa testine başladı.",
+        "accomplish_how": "Neden bir sosyal ağ?",
+        "read_our_manifesto": "Manifestomuzu okuyun",
+        "humans_behind_ob": "İnsanlar",
+        "work_with_us": "Bizimle çalışmak ister misiniz?",
+        "visit_jobs_page": "İş sayfamızı ziyaret edin",
+        "our_ambassadors": " Temsilcilerimiz",
+        "our_contributors": " Katkıda bulunanlar",
+        "ambassadors_desc": "Yaptığımız her şeye destek olan ve yaymamıza yardım eden insanlar.",
+        "become_ambassadors": "Temsilcimiz olmak ister misiniz?",
+        "contact_us": "Bizimle iletişime geç"
+    }
+}

@@ -1,0 +1,110 @@
+{
+    "home": {
+        "want_to_know_more": "Daha Fazlasını Öğrenmek İster misiniz?",
+        "read_manifesto": "Manifestomuzu okuyun",
+        "featured_in": "Özellikli",
+        "signup_button": "Beta için kayıt olun"
+    },
+    "honesty": {
+        "title": "Açık ve hesap verebilir",
+        "description": "Ağa güç veren tüm kod açık kaynaklıdır, yani herkesin görmesi için açıktır. Abracadabra algoritmaları için yer yok!"
+    },
+    "privacy": {
+        "title": "Gizlilik dostu",
+        "description": "İnsanların gizliliğinin temel bir hak olduğuna inanan sağlam bir şirketiz. Faaliyetlerinizi veya etkinliklerinizi izlemiyoruz."
+    },
+    "secure": {
+        "title": "Tasarım tarafından güvenli",
+        "description": "Arka planımız bilgi güvenliğidir. En başından beri güvenilir çalışıyoruz."
+    },
+    "easy": {
+        "title": "Samimi ve rahat",
+        "description": "Bizim<a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\"> topluluğumuz tarafından oluşturulmuş kurallarımız</a>'ın bir kombinasyonu ile etik tasarım ve kod, mutluluğun son hedefi olduğu bir dostluk, saygı ve açıklık ortamını teşvik ediyoruz."
+    },
+    "fun": {
+        "title": "Kendini ifade etmenin daha fazla yolu",
+        "description": "Biz insanlar duygusal varlıklarız. Artan tepki kütüphanemizle dijital benliğinizi ifade etmenin daha fazla yolunu bulun!"
+    },
+    "personal": {
+        "title": "Özelleştirilebilir",
+        "description": "Hepimiz farklıyız yani bu kucaklamak ve kutlamak için güzel bir şey. Özelleştirme özellikleri ile ağının evindeymiş gibi hissetmesini sağlayın!"
+    },
+    "community": {
+        "title": "Topluluk odaklı",
+        "description": "Mevcut 2500'den fazla topluluktan birine katılarak ilgi alanlarını ve insanları keşfedin ya da kendiniz yaratın ve büyütün!"
+    },
+    "good_for_planet": {
+        "title": "Daha iyi bir yarın için",
+        "description": "Karımızın bir yüzdesini bağışlamak dışında <a href=\"https://founderspledge.com/research\" rel=\"noreferrer noopener\">layık nedenlere karşı</a>, yasal olarak toplum ve çevre üzerinde olumlu bir etki yaratmaya kararlıyız."
+    },
+    "ads_free": {
+        "title": "Etik olarak sürdürülebilir",
+        "description": "Ağ, ekstra tepkilere, animasyonlu avatarlara, temalara ve daha fazlasına erişim sunan isteğe bağlı bir abonelik yoluyla sürdürülür. Kesinlikle sıfır reklam ve kişisel bilgilerinden para kazanılmaz."
+    },
+    "currency": {
+        "title": "Dijital bir para birimi",
+        "description": "Ayrıca, en sevdiğiniz video yapımcısını desteklemek, yayıncılara abone olmak, servisler için ödeme yapmak ve daha fazlasını için <strong>İpucu</strong> adlı bir dijital para birimi üzerinde çalışıyoruz."
+    },
+    "quotes": {
+        "joel_name": "Joel Hernández",
+        "joel_title": "Okuna'nın Kurucusu",
+        "joel_quote": "Nazik, açık, hesap verebilir ve saygılı bir teknoloji dünyasını düşünüyorum. Okuna, o dünyanın sosyal ağıdır.",
+        "vincent_name": "Vincent Ruijter",
+        "vincent_title": "Etik Hacker",
+        "vincent_quote": "Okuna farklı, etik, daha iyi bir şey inşa etmek için son gerçek şans olabilir.",
+        "phil_name": "Phil Zimmermann",
+        "phil_title": "İnternet salon şöhreti üyesi",
+        "phil_quote": "Okuna gelecek için umut veriyor, iş modelinin kurbanı olmadığımız bir sosyal ağ."
+    },
+    "splash_hero": {
+        "hello_world": "Merhaba <span id=\"hello-subject\">Dünya!</span>",
+        "world": "Dünya",
+        "friends": "Arkadaşlar",
+        "family": "Aile",
+        "grandma": "Büyükanne",
+        "we_are_ob": "<strong class = \"has-text-logo is-size-5\"> Okuna olarak biz </strong> yarın daha parlak bir etik için sosyal bir ağız.",
+        "share": "Paylaş",
+        "notify_me": "Bizi destekleyin"
+    },
+    "why_ob": {
+        "title": "Neden Okuna?",
+        "subtitle": "Bizi diğer sosyal ağlardan ayıran en önemli şeylerden bazıları.",
+        "zero_tracking": "Sıfır izleme",
+        "zero_tracking_desc": "Her halükarda, seni asla izlemeyeceğiz.",
+        "zero_spying": "Sıfır casusluk",
+        "zero_spying_desc": "Özel konuşmalarınızın gerçekten özel olduğundan emin olun.",
+        "zero_ads": "Sıfır reklam",
+        "zero_ads_desc": "Reklam, hedeflenen reklamlara yol açar ve bu da çevrimiçi gizlilik kaybına neden olur. Reklamlarımız olmayacak.",
+        "data_protection": "Sağlam veri koruması",
+        "data_protection_desc": "Verilerinize erişmek isteyen üçüncü taraf uygulamalar katı ve sağlam güvenlik politikalarımıza uymak zorunda kalacaktır.",
+        "honest": "Dürüst",
+        "honest_desc": "Kurallarımızın tamamı, incelemeleri, çoğaltmaları ve katkıda bulunmaları için herkes için ücretsiz ve açıktır. Hoş olmayan sürprizler yok.",
+        "easy_to_migrate": "Taşınması kolay",
+        "easy_to_migrate_desc": "Mevcut tüm verilerinizi ağımıza taşımak için araçlar sağlayacağız.",
+        "future_proof": "Geleceğe dayanıklı",
+        "future_proof_desc": "Eşler arası işlemlere dayanan sağlam ve kullanışlı bir iş modeliyle uzun vadede varız.",
+        "modern_design": "Modern, harika, etik olarak tasarlandı.",
+        "modern_design_desc": "En son teknolojilerle detay ve etik için keskin bir göz ile inşa edildi, başka bir yerde böyle bir şey bulamazsınız.",
+        "good_for_planet": "Gezegen için iyi",
+        "good_for_planet_desc": "Herkes için daha iyi bir dünyaya inanıyoruz. Bu yüzden dünyayı daha iyi bir yer haline getirmek için kazancımızın %30'unu veriyoruz.\n                                     daima."
+    },
+    "count_down": {
+        "kickstarter": "Okuna",
+        "campaign_countdown": "geri sayımı başlat",
+        "days": "gün | gün",
+        "hours": "saat | saat",
+        "minutes": "dakika | dakika",
+        "seconds": "saniye | saniye",
+        "kickstarter_launch": "Okuna <strong class=\"has-text-kickstarter\">alpha olarak </strong><br/><strong> {0} Mart 2019</strong>'da başlıyor."
+    },
+    "meet_the_team": {
+        "title": "Ekiple Tanışın"
+    },
+    "beta_container": {
+        "title": "Devrime katılın!",
+        "beta_date": "Beta 2019'un ortasında geliyor",
+        "email_placeholder": "sizin@epostaadresiniz.com",
+        "server_error": "Sunucu sorunları yaşıyoruz. Lütfen birkaç dakika içinde tekrar deneyin.",
+        "success": "&nbsp;&nbsp;Yaşasın! Bekleme listemizdeki {count}. numaradasın."
+    }
+}
