@@ -97,6 +97,10 @@
                     </h4>
                 </div>
                 <ob-contributors></ob-contributors>
+                <div class="content has-text-centered padding-bottom-2x">
+                    <h5 class="padding-bottom-3x" v-html="$t('about_us.our_backers')">
+                    </h5>
+                </div>
             </div>
         </section>
         <section class="hero is-bold">
