@@ -16,17 +16,17 @@
                         <div class="columns is-centered is-mobile">
                             <div class="column" style="max-width: 450px">
                                 <h1 class="is-size-3-mobile is-size-1 has-text-weight-bold"
-                                    v-html="$t('splash_hero.hello_world')">
+                                    v-html="$t('home:splash_hero.hello_world')">
                                 </h1>
                                 <p class="is-size-4 padding-top-1x"
-                                   v-html="$t('splash_hero.we_are_ob')">
+                                   v-html="$t('home:splash_hero.we_are_ob')">
                                 </p>
                                 <div class="has-padding-2x">
                                     <button class="button is-rainbow is-rounded" v-scroll-to="'#beta-signup'">
                                         <span class="icon">
                                             <i class="fas fa-heart"></i>
                                         </span>
-                                        <span>{{ $t('home.signup_button') }}</span>
+                                        <span>{{ $t('home:home.signup_button') }}</span>
                                     </button>
                                 </div>
                             </div>
@@ -99,10 +99,10 @@
                 const Typewriter = window['Typewriter'];
 
                 const helloSubjects = [
-                    this.$i18n.t('splash_hero.world'),
-                    this.$i18n.t('splash_hero.friends'),
-                    this.$i18n.t('splash_hero.family'),
-                    this.$i18n.t('splash_hero.grandma'),
+                    this.$i18n.t('home:splash_hero.world'),
+                    this.$i18n.t('home:splash_hero.friends'),
+                    this.$i18n.t('home:splash_hero.family'),
+                    this.$i18n.t('home:splash_hero.grandma'),
                 ];
 
                 const helloSubject = document.querySelector('#hello-subject');

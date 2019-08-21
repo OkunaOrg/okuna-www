@@ -12,8 +12,8 @@
                 <div class="column">
                     <div class="columns is-centered is-vcentered is-height-100">
                         <div class="column is-narrow content is-medium good-for-planet-text">
-                            <h3>{{ $t('good_for_planet.title') }}</h3>
-                            <p v-html="$t('good_for_planet.description')">
+                            <h3>{{ $t('home:good_for_planet.title') }}</h3>
+                            <p v-html="$t('home:good_for_planet.description')">
                             </p>
                         </div>
                     </div>

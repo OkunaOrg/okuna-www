@@ -26,7 +26,7 @@
                 teamMembers: [
                     {
                         name: 'Joel Hernández',
-                        position: this.$t('team_members.joel_title'),
+                        position: this.$t('team:team_members.joel_title'),
                         photo: joelPhoto,
                         links: {
                             github: 'https://github.com/lifenautjoe',
@@ -34,11 +34,11 @@
                             linkedin: 'https://www.linkedin.com/in/lifenautjoe',
                             twitter: 'https://twitter.com/lifenautjoe'
                         },
-                        description: this.$t('team_members.joel_desc')
+                        description: this.$t('team:team_members.joel_desc')
                     },
                     {
                         name: 'Jaya Baloo',
-                        position: this.$t('team_members.jaya_title'),
+                        position: this.$t('team:team_members.jaya_title'),
                         photo: jayaPhoto,
                         links: {
                             website: 'https://singularityuthenetherlands.org/people/jaya-baloo/',
@@ -46,62 +46,62 @@
                             twitter: 'https://twitter.com/jayabaloo?lang=nl'
                         },
                         headline: 'Cyber-security expert',
-                        description: this.$t('team_members.jaya_desc')
+                        description: this.$t('team:team_members.jaya_desc')
                     },
                     {
                         name: 'Philip Zimmermann',
-                        position: this.$t('team_members.phil_title'),
+                        position: this.$t('team:team_members.phil_title'),
                         photo: philPhoto,
                         links: {
                             website: 'https://en.wikipedia.org/wiki/Phil_Zimmermann'
                         },
                         headline: 'Cryptography pioneer',
-                        description: this.$t('team_members.phil_desc')
+                        description: this.$t('team:team_members.phil_desc')
                     },
                     {
                         name: 'Shantanu Tarey',
-                        position: this.$t('team_members.shantanu_title'),
+                        position: this.$t('team:team_members.shantanu_title'),
                         photo: shantanuPhoto,
                         links: {
                             linkedin: 'https://www.linkedin.com/in/shantanutarey/',
                             twitter: 'https://twitter.com/shantanutarey'
                         },
-                        description: this.$t('team_members.shantanu_desc'),
+                        description: this.$t('team:team_members.shantanu_desc'),
                     },
                     {
                         name: 'Vincent Ruijter',
-                        position: this.$t('team_members.vincent_title'),
+                        position: this.$t('team:team_members.vincent_title'),
                         photo: vincentPhoto,
                         links: {
                             github: 'https://github.com/evict',
                             linkedin: 'https://www.linkedin.com/in/vincent-ruijter-97783215/',
                             twitter: 'https://twitter.com/_evict'
                         },
-                        description:  this.$t('team_members.vincent_desc'),
+                        description:  this.$t('team:team_members.vincent_desc'),
                     },
                     {
                         name: 'Nathalie Lokhorst',
-                        position: this.$t('team_members.nathalie_title'),
+                        position: this.$t('team:team_members.nathalie_title'),
                         photo: nathaliePhoto,
                         links: {
                             linkedin: 'https://www.linkedin.com/in/nathalie-lokhorst-1788069/'
                         },
-                        description: this.$t('team_members.nathalie_desc')
+                        description: this.$t('team:team_members.nathalie_desc')
                     },
                     {
                         name: 'Robin Roosdorp',
-                        position: this.$t('team_members.robin_title'),
+                        position: this.$t('team:team_members.robin_title'),
                         photo: robinPhoto,
                         links: {
                             linkedin: 'https://www.linkedin.com/in/robin-roosdorp/'
                         },
-                        description: this.$t('team_members.robin_desc')
+                        description: this.$t('team:team_members.robin_desc')
                     },
                     {
                         name: 'Lambrecht Wessels',
                         photo: lambrechtPhoto,
-                        position: this.$t('team_members.lambrecht_title'),
-                        description: this.$t('team_members.lambrecht_desc'),
+                        position: this.$t('team:team_members.lambrecht_title'),
+                        description: this.$t('team:team_members.lambrecht_desc'),
                         links: {
                             linkedin: 'https://www.linkedin.com/in/lambrechtwessels/',
                             twitter: 'https://twitter.com/lambrechtw?lang=en'

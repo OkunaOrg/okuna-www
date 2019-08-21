@@ -6,10 +6,11 @@ import SocialSharing from 'vue-social-sharing';
 
 import App from './App.vue'
 import router from './router'
+import store from './store';
+import buildLocale from './lib/buildLocale';
 import twemoji from './directives/twemoji.js';
 import rainbowText from './directives/rainbow-text.js';
 import './lib/fontawesome-all.min.exec.js';
-import * as vuei18n from './i18n-setup';
 // Load stylesheets
 import './styles/index.scss';
 
@@ -48,7 +49,7 @@ Raven.context(function () {
         offset: -90
     });
 
-    const i18n = vuei18n.i18n;
+    const i18n = buildLocale(store);
 
     // Load Vue globals
     Vue.directive('twemoji', twemoji);
@@ -60,6 +61,7 @@ Raven.context(function () {
     new Vue({
         i18n,
         router,
+        store,
         render: h => h(App)
     }).$mount('#app');
 });

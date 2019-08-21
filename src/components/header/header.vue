@@ -7,7 +7,7 @@
                     <router-link to="home" class="navbar-item is-size-4 has-text-primary">
                         <a href="#" class="header-logo"></a>
                         <span class="header-logo-separator"></span>
-                        <span v-html="$t('global.okuna')"
+                        <span v-html="$t('common:global.okuna')"
                               class="has-text-logo is-size-5" style="padding-top: 5px"></span>
                     </router-link>
                     <ob-hamburger></ob-hamburger>
@@ -15,35 +15,35 @@
                 <div class="navbar-menu">
                     <div class="navbar-end header-links">
                         <router-link :to="'home'" class="navbar-item" active-class="is-active is-active--home">{{
-                            $t('header.home') }}
+                            $t('common:header.home') }}
                         </router-link>
                         <router-link :to="'about-us'" class="navbar-item" active-class="is-active is-active--about-us">
-                            {{ $t('header.about_us') }}
+                            {{ $t('common:header.about_us') }}
                         </router-link>
                         <router-link :to="'manifesto'" class="navbar-item"
-                                     active-class="is-active is-active--manifesto">{{ $t('header.manifesto') }}
+                                     active-class="is-active is-active--manifesto">{{ $t('common:header.manifesto') }}
                         </router-link>
                         <router-link :to="'contact-us'" class="navbar-item"
-                                     active-class="is-active is-active--contact-us">{{ $t('header.contact_us') }}
+                                     active-class="is-active is-active--contact-us">{{ $t('common:header.contact_us') }}
                         </router-link>
                         <router-link :to="'faq'" class="navbar-item" active-class="is-active is-active--faq">{{
-                            $t('header.faq') }}
+                            $t('common:header.faq') }}
                         </router-link>
                         <router-link :to="'angel'" class="navbar-item" active-class="is-active is-active--angel">{{
-                            $t('header.angel') }}
+                            $t('common:header.angel') }}
                         </router-link>
                         <a href="https://medium.com/okuna" rel="noopener noreferrer" class="navbar-item"
                            target="_blank"
-                        >{{ $t('header.blog') }}</a>
+                        >{{ $t('common:header.blog') }}</a>
                         <a href="https://shwca.se/okuna" rel="noopener noreferrer" class="navbar-item"
                            target="_blank"
-                        >{{ $t('header.press') }}</a>
+                        >{{ $t('common:header.press') }}</a>
                     </div>
                 </div>
                 <div class="navbar-item select-language is-hidden-mobile">
                     <b-dropdown class="is-right">
                         <div class="current-language" slot="trigger">
-                            <span >{{getCurrentLang($i18n.locale)}} <i class="fas fa-angle-down"></i></span>
+                            <span>{{getCurrentLang($i18n.i18next.language || window.localStorage.i18nextLng)}} <i class="fas fa-angle-down"></i></span>
                         </div>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'en' }" v-on:click="changeLocale('en')">English <i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'de' }" v-on:click="changeLocale('de')">Deutsch<i class="fas fa-check"></i></b-dropdown-item>

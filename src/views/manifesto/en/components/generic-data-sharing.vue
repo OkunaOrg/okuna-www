@@ -31,7 +31,7 @@
                             <div v-html="evilCorp('will_receive')">
                             </div>
                             <span v-if="sharedData.length > 1">{{ sharedDataString }}</span>
-                            <span v-else>{{ $t('manifesto.examples.evilcorp.will_receive_list', { requested_data: sharedData[0].name }) }}</span>
+                            <span v-else>{{ $t('manifesto:manifesto.examples.evilcorp.will_receive_list', { requested_data: sharedData[0].name }) }}</span>
                             <div>
                                 <b-tooltip
                                     :label="publicProfile"
@@ -52,12 +52,12 @@
                         </div>
                         <div class="column is-12 has-text-centered">
                             <button class="button is-generic-social-media is-medium" @click="goToStep4()">
-                                {{ $t('manifesto.examples.common.btn_continue') }}
+                                {{ $t('manifesto:manifesto.examples.common.btn_continue') }}
                             </button>
                         </div>
                         <div class="column is-12 has-text-centered">
                             <a class="is-medium info-icon" @click="goToStep1()">
-                                {{ $t('manifesto.examples.common.btn_cancel') }}
+                                {{ $t('manifesto:manifesto.examples.common.btn_cancel') }}
                             </a>
                         </div>
                     </div>
@@ -71,7 +71,7 @@
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <span>{{ $t('manifesto.examples.common.btn_back') }}</span>
+                                        <span>{{ $t('manifesto:manifesto.examples.common.btn_back') }}</span>
                                     </button>
                                 </div>
                             </div>
@@ -81,7 +81,7 @@
                                 <div class="column is-10 is-size-6">
                                     <div>
                                         <strong>{{dataItem.name}}</strong>
-                                        <span v-if="dataItem.required"> {{ $t('manifesto.examples.common.required') }}</span>
+                                        <span v-if="dataItem.required"> {{ $t('manifesto:manifesto.examples.common.required') }}</span>
                                     </div>
                                     <div class="is-size-7">
                                         {{dataItem.description}}
@@ -104,7 +104,7 @@
                         <div class="column is-12 has-text-centered">
                             <div>
                                 <strong>
-                                    {{ $t('manifesto.examples.common.success') }}
+                                    {{ $t('manifesto:manifesto.examples.common.success') }}
                                 </strong>
                             </div>
                             <span>
@@ -161,31 +161,31 @@
                 publicProfileShared: true,
                 availableData: [
                     {
-                        name: this.$t('manifesto.examples.can_receive_following_data.public_profile'),
+                        name: this.$t('manifesto:manifesto.examples.can_receive_following_data.public_profile'),
                         required: true,
                         enabled: true,
                         description: this.evilCorp('descriptions.public_profile')
                     },
                     {
-                        name: this.$t('manifesto.examples.can_receive_following_data.friend_list'),
+                        name: this.$t('manifesto:manifesto.examples.can_receive_following_data.friend_list'),
                         required: false,
                         enabled: true,
                         description: this.evilCorp('descriptions.friend_list')
                     },
                     {
-                        name: this.$t('manifesto.examples.can_receive_following_data.birthday'),
+                        name: this.$t('manifesto:manifesto.examples.can_receive_following_data.birthday'),
                         required: false,
                         enabled: true,
                         description: this.evilCorp('descriptions.birthday')
                     },
                     {
-                        name: this.$t('manifesto.examples.can_receive_following_data.likes'),
+                        name: this.$t('manifesto:manifesto.examples.can_receive_following_data.likes'),
                         required: false,
                         enabled: true,
                         description: this.evilCorp('descriptions.likes')
                     },
                     {
-                        name: this.$t('manifesto.examples.can_receive_following_data.email'),
+                        name: this.$t('manifesto:manifesto.examples.can_receive_following_data.email'),
                         required: false,
                         enabled: true,
                         description: this.evilCorp('descriptions.email_address')
@@ -200,23 +200,23 @@
                 });
             },
             sharedDataString() {
-                return this.$t('manifesto.examples.evilcorp.will_receive_list', {
-                    requested_data: concatenate(this.sharedData, 'name', this.$t('manifesto.examples.common.last_item'))
+                return this.$t('manifesto:manifesto.examples.evilcorp.will_receive_list', {
+                    requested_data: concatenate(this.sharedData, 'name', this.$t('manifesto:manifesto.examples.common.last_item'))
                 });
             },
             publicProfile() {
                 const data = [
-                    this.$t('manifesto.examples.can_receive_following_data.name'),
-                    this.$t('manifesto.examples.can_receive_following_data.profile_picture'),
-                    this.$t('manifesto.examples.can_receive_following_data.age_range'),
-                    this.$t('manifesto.examples.can_receive_following_data.gender'),
-                    this.$t('manifesto.examples.can_receive_following_data.language'),
-                    this.$t('manifesto.examples.can_receive_following_data.country'),
-                    this.$t('manifesto.examples.can_receive_following_data.other')
+                    this.$t('manifesto:manifesto.examples.can_receive_following_data.name'),
+                    this.$t('manifesto:manifesto.examples.can_receive_following_data.profile_picture'),
+                    this.$t('manifesto:manifesto.examples.can_receive_following_data.age_range'),
+                    this.$t('manifesto:manifesto.examples.can_receive_following_data.gender'),
+                    this.$t('manifesto:manifesto.examples.can_receive_following_data.language'),
+                    this.$t('manifesto:manifesto.examples.can_receive_following_data.country'),
+                    this.$t('manifesto:manifesto.examples.can_receive_following_data.other')
                 ];
 
-                return this.$t('manifesto.examples.evilcorp.public_profile_includes', {
-                    public_info: concatenate(data, null, this.$t('manifesto.examples.common.last_item'))
+                return this.$t('manifesto:manifesto.examples.evilcorp.public_profile_includes', {
+                    public_info: concatenate(data, null, this.$t('manifesto:manifesto.examples.common.last_item'))
                 });
             }
         },
@@ -234,7 +234,7 @@
                 this.stepNumber = 4;
             },
             evilCorp(str) {
-                return this.$t(`manifesto.examples.evilcorp.${str}`);
+                return this.$t(`manifesto:manifesto.examples.evilcorp.${str}`);
             }
         }
     }

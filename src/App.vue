@@ -1,10 +1,14 @@
 <template>
     <div id="app" v-bind:class="{'is-android': isAndroid}">
-        <ob-mobile-menu></ob-mobile-menu>
-        <ob-header></ob-header>
-        <router-view/>
-        <ob-footer></ob-footer>
-        <ob-scroll-hud></ob-scroll-hud>
+        <div v-if="isI18nLoaded">
+            <ob-mobile-menu></ob-mobile-menu>
+            <ob-header></ob-header>
+            <router-view/>
+            <ob-footer></ob-footer>
+            <ob-scroll-hud></ob-scroll-hud>
+        </div>
+        <div v-else-if="isI18nErrored">Something went wrong...</div>
+        <div v-else>Loading...</div>
     </div>
 </template>
 
@@ -36,6 +40,14 @@
             obMobileMenu,
             obFooter,
             obHeader
+        },
+        computed: {
+            isI18nLoaded() {
+                return this.$store.getters.isI18nLoaded;
+            },
+            isI18nErrored() {
+                return this.$store.getters.isI18nErrored;
+            }
         }
     }
 </script>

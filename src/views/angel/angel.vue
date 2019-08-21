@@ -8,10 +8,10 @@
                             <div class="columns is-centered padding-top-2x-mobile">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
-                                        {{ $t('angel.title') }}
+                                        {{ $t('angel:angel.title') }}
                                     </h1>
                                     <h2 class="title is-size-2 angel-text has-text-centered-mobile">
-                                        {{ $t('angel.subtitle') }}
+                                        {{ $t('angel:angel.subtitle') }}
                                     </h2>
                                 </div>
                             </div>
@@ -32,18 +32,18 @@
                 <div class="columns is-centered">
                     <div class="column intro-text content">
                         <h3 class="is-size-4 small-container padding-bottom-1x"
-                            v-html="$t('angel.description_title')">
+                            v-html="$t('angel:angel.description_title')">
                         </h3>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column intro-text content small-container is-paddingless">
                         <p class="is-size-5 small-container">
-                            {{ $t('angel.description') }}
+                            {{ $t('angel:angel.description') }}
                         </p>
-                        <p class="is-size-5 small-container" v-html="$t('angel.description2')">
+                        <p class="is-size-5 small-container" v-html="$t('angel:angel.description2')">
                         </p>
-                        <p class="is-size-5 small-container" v-html="$t('angel.description3')">
+                        <p class="is-size-5 small-container" v-html="$t('angel:angel.description3')">
                         </p>
                     </div>
                 </div>

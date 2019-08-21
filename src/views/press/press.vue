@@ -8,11 +8,11 @@
                             <div class="columns is-centered has-padding-top-2x-mobile">
                                 <div class="column is-narrow">
                                     <h2 class="title is-size-2 contact-text has-text-centered-mobile">
-                                        {{ $t('press.we') }}  &nbsp;<span class="icon" style="color: #ff0000;"><i class="fas fa-heart"></i></span>
-                                        &nbsp;{{ $t('press.press') }}
+                                        {{ $t('press:press.we') }}  &nbsp;<span class="icon" style="color: #ff0000;"><i class="fas fa-heart"></i></span>
+                                        &nbsp;{{ $t('press:press.press') }}
                                     </h2>
                                     <h3 class="has-text-centered-mobile">
-                                        {{ $t('press.today_everyday') }}
+                                        {{ $t('press:press.today_everyday') }}
                                     </h3>
                                 </div>
                             </div>
@@ -32,26 +32,26 @@
             <div class="small-container">
                 <div class="content is-medium">
                     <h2>
-                        {{ $t('press.hi') }}
+                        {{ $t('press:press.hi') }}
                     </h2>
-                    <p v-html="$t('press.any_questions')">
+                    <p v-html="$t('press:press.any_questions')">
                     </p>
                     <p>
-                        {{ $t('press.happy_to_help') }}
+                        {{ $t('press:press.happy_to_help') }}
                     </p>
                     <div class="padding-top-2x">
-                        <h2 class="title is-4 is-spaced is-margin-top-small"> {{ $t('press.jump_to') }}</h2>
+                        <h2 class="title is-4 is-spaced is-margin-top-small"> {{ $t('press:press.jump_to') }}</h2>
                     </div>
                     <br/>
                     <ul>
                         <li>
                             <a href="#presskits" v-scroll-to="'#presskits'">
-                                {{ $t('press.press_kit') }}
+                                {{ $t('press:press.press_kit') }}
                             </a>
                         </li>
                         <li>
                             <a href="#newsroom" v-scroll-to="'#newsroom'">
-                                {{ $t('press.newsroom') }}
+                                {{ $t('press:press.newsroom') }}
                             </a>
                         </li>
                     </ul>
@@ -62,10 +62,10 @@
             <div class="small-container">
                 <div class="content is-medium padding-bottom-3x">
                     <h4>
-                        {{ $t('press.press_kit') }}
+                        {{ $t('press:press.press_kit') }}
                     </h4>
                     <p>
-                        {{ $t('press.includes_everything') }}
+                        {{ $t('press:press.includes_everything') }}
                     </p>
                 </div>
                 <ob-press-kits></ob-press-kits>
@@ -75,13 +75,13 @@
             <div class="small-container">
                 <div class="content is-medium padding-bottom-3x">
                     <h4>
-                        {{ $t('press.newsroom') }}
+                        {{ $t('press:press.newsroom') }}
                     </h4>
                     <p>
-                        {{ $t('press.home_press') }}
+                        {{ $t('press:press.home_press') }}
                     </p>
                     <router-link class="button is-rainbow" to="newsroom">
-                        {{ $t('press.go_to_newsroom') }}
+                        {{ $t('press:press.go_to_newsroom') }}
                     </router-link>
                 </div>
             </div>
@@ -89,7 +89,7 @@
         <section class="section" id="inquiries">
             <div class="small-container">
                 <div class="content is-medium">
-                    <p v-html="$t('press.missing_something')">
+                    <p v-html="$t('press:press.missing_something')">
                     </p>
                 </div>
             </div>

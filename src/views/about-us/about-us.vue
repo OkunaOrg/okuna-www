@@ -8,10 +8,10 @@
                             <div class="columns is-centered">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
-                                        {{ $t('about_us.title') }}
+                                        {{ $t('about:about_us.title') }}
                                     </h1>
                                     <h2 class="title is-size-2 trust-text has-text-centered-mobile"
-                                        v-html="$t('about_us.subtitle')">
+                                        v-html="$t('about:about_us.subtitle')">
                                     </h2>
                                 </div>
                             </div>
@@ -34,16 +34,16 @@
                 <div class="columns is-centered">
                     <div class="column intro-text content">
                         <p class="is-size-4 small-container padding-bottom-1x has-text-weight-bold"
-                           v-html="$t('about_us.description')">
+                           v-html="$t('about:about_us.description')">
                         </p>
                     </div>
                 </div>
                 <div class="columns">
                     <div class="column intro-text content small-container is-paddingless">
                         <p class="is-size-5 small-container">
-                            {{ $t('about_us.description_founded') }}
+                            {{ $t('about:about_us.description_founded') }}
                         </p>
-                        <p class="is-size-5 small-container" v-html="$t('about_us.description_funded')">
+                        <p class="is-size-5 small-container" v-html="$t('about:about_us.description_funded')">
                         </p>
                     </div>
                 </div>
@@ -55,12 +55,12 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                {{ $t('about_us.accomplish_how') }}
+                                {{ $t('about:about_us.accomplish_how') }}
                             </h3>
                         </div>
                         <div class="column">
                             <router-link to="manifesto" class="button is-rainbow is-rounded is-medium">
-                                {{ $t('about_us.read_our_manifesto') }}
+                                {{ $t('about:about_us.read_our_manifesto') }}
                             </router-link>
                         </div>
                     </div>
@@ -70,7 +70,7 @@
         <section class="section">
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
-                    <h4 class="is-size-3 padding-bottom-3x" v-html="$t('about_us.humans_behind_ob')">
+                    <h4 class="is-size-3 padding-bottom-3x" v-html="$t('about:about_us.humans_behind_ob')">
                     </h4>
                 </div>
                 <ob-team-members/>
@@ -80,10 +80,10 @@
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
                     <h4 class="is-size-3 padding-bottom-3x">
-                        {{ $t('about_us.our_ambassadors') }}
+                        {{ $t('about:about_us.our_ambassadors') }}
                     </h4>
                     <p class="is-size-6 is-marginless is-paddingless">
-                        {{ $t('about_us.ambassadors_desc') }}
+                        {{ $t('about:about_us.ambassadors_desc') }}
                     </p>
                 </div>
                 <ob-ambassadors></ob-ambassadors>
@@ -93,12 +93,12 @@
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
                     <h4 class="is-size-3 padding-bottom-3x">
-                        {{ $t('about_us.our_contributors') }}
+                        {{ $t('about:about_us.our_contributors') }}
                     </h4>
                 </div>
                 <ob-contributors></ob-contributors>
                 <div class="content has-text-centered padding-bottom-2x">
-                    <h5 class="padding-bottom-3x" v-html="$t('about_us.our_backers')">
+                    <h5 class="padding-bottom-3x" v-html="$t('about:about_us.our_backers')">
                     </h5>
                 </div>
             </div>
@@ -109,12 +109,12 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                {{ $t('about_us.become_ambassadors') }}
+                                {{ $t('about:about_us.become_ambassadors') }}
                             </h3>
                         </div>
                         <div class="column">
                             <router-link to="contact-us" class="button is-rainbow is-rounded is-medium">
-                                {{ $t('about_us.contact_us') }}
+                                {{ $t('about:about_us.contact_us') }}
                             </router-link>
                         </div>
                     </div>

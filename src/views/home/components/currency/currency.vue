@@ -5,8 +5,8 @@
                 <div class="column">
                     <div class="columns is-vcentered is-centered is-mobile">
                         <div class="column content is-medium currency-text">
-                            <h3>{{ $t('currency.title') }}</h3>
-                            <p v-html="$t('currency.description')">
+                            <h3>{{ $t('home:currency.title') }}</h3>
+                            <p v-html="$t('home:currency.description')">
                             </p>
                         </div>
                     </div>

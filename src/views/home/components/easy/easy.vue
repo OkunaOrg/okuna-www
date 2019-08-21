@@ -5,8 +5,8 @@
                 <div class="column">
                     <div class="columns is-vcentered is-centered is-height-100 is-mobile">
                         <div class="column content is-medium easy-text">
-                            <h3>{{ $t('easy.title') }}</h3>
-                            <p v-html="$t('easy.description')">
+                            <h3>{{ $t('home:easy.title') }}</h3>
+                            <p v-html="$t('home:easy.description')">
                             </p>
                         </div>
                     </div>

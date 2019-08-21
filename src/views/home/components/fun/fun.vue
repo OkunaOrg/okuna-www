@@ -12,9 +12,9 @@
                     <div class="column">
                         <div class="columns is-vcentered is-mobile is-height-100">
                             <div class="column content is-medium fun-text">
-                                <h3>{{ $t('fun.title') }}</h3>
+                                <h3>{{ $t('home:fun.title') }}</h3>
                                 <p>
-                                    {{ $t('fun.description') }}
+                                    {{ $t('home:fun.description') }}
                                 </p>
                             </div>
                         </div>

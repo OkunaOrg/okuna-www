@@ -2,7 +2,7 @@ import Vue from 'vue';
 import Router from 'vue-router';
 import home from './views/home/home.vue';
 import root from './views/root.vue';
-import * as setupi18n from './i18n-setup';
+import i18next from 'i18next';
 
 const locale = require('browser-locale')();
 const supportedLocales = ['en', 'de', 'es', 'fr', 'hu', 'it', 'pt-br', 'sv', 'tr'];
@@ -154,7 +154,8 @@ router.beforeEach((to, from, next) => {
     if (supportedLocales.indexOf(locale) === -1) {
         next('/en/home');
     } else {
-        setupi18n.loadLanguageAsync(locale).then(() => next());
+        i18next.changeLanguage(locale);
+        return next();
     }
 
 });

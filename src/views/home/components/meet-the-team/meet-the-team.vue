@@ -5,7 +5,7 @@
                 <div class="columns is-centered is-vcentered">
                     <div class="column">
                         <router-link to="about-us" class="button is-rainbow is-rounded is-medium">
-                            {{ $t('meet_the_team.title') }}
+                            {{ $t('home:meet_the_team.title') }}
                         </router-link>
                     </div>
                     <div class="column">
