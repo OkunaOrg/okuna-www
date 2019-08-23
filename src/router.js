@@ -3,6 +3,7 @@ import Router from 'vue-router';
 import home from './views/home/home.vue';
 import root from './views/root.vue';
 import i18next from 'i18next';
+import store from './store';
 
 const locale = require('browser-locale')();
 const supportedLocales = ['en', 'de', 'es', 'fr', 'hu', 'it', 'pt-br', 'sv', 'tr'];
@@ -19,6 +20,10 @@ const vulnerabilityReport = () => import('./views/vulnerability-report/vulnerabi
 const getApp = () => import('./views/get-app/get-app.vue');
 
 const browserLang = (locale || 'en-US').substring(0, 2);
+
+const getLocalizedTitle = key => {
+    return (i18next.t(`common:meta.${key}`) + ' | Okuna') || 'Okuna';
+};
 
 const router = new Router({
     mode: 'history',
@@ -66,66 +71,42 @@ const router = new Router({
                 {
                     path: 'home',
                     name: 'home',
-                    component: home,
-                    meta: {
-                        title: 'Home | Okuna'
-                    }
+                    component: home
                 },
                 {
                     path: 'about-us',
                     name: 'about-us',
-                    component: aboutUs,
-                    meta: {
-                        title: 'About us | Okuna'
-                    }
+                    component: aboutUs
                 },
                 {
                     path: 'contact-us',
                     name: 'contact-us',
-                    component: contactUs,
-                    meta: {
-                        title: 'Contact us | Okuna'
-                    }
+                    component: contactUs
                 },
                 {
                     path: 'faq',
                     name: 'faq',
-                    component: faq,
-                    meta: {
-                        title: 'FAQ | Okuna'
-                    }
+                    component: faq
                 },
                 {
                     path: 'angel',
                     name: 'angel',
-                    component: angel,
-                    meta: {
-                        title: 'Angel | Okuna'
-                    }
+                    component: angel
                 },
                 {
                     path: 'getapp',
                     name: 'getapp',
-                    component: getApp,
-                    meta: {
-                        title: 'Get App Link | Okuna'
-                    }
+                    component: getApp
                 },
                 {
                     path: 'vulnerability-report',
                     name: 'vulnerability-report',
-                    component: vulnerabilityReport,
-                    meta: {
-                        title: 'Report vulnerability | Okuna'
-                    }
+                    component: vulnerabilityReport
                 },
                 {
                     path: 'manifesto',
                     name: 'manifesto',
-                    component: manifesto,
-                    meta: {
-                        title: 'Manifesto | Okuna'
-                    }
+                    component: manifesto
                 },
                 {
                     path: '*',
@@ -142,8 +123,6 @@ const router = new Router({
     }
 });
 router.beforeEach((to, from, next) => {
-    document.title = to.meta.title;
-
     let locale = to.params.locale;
     if (!locale && to.name === 'manifesto') {
         locale = to.path.split('/')[1];
@@ -151,13 +130,21 @@ router.beforeEach((to, from, next) => {
         locale = browserLang;
     }
 
+    // ugly workaround for waiting until the translations are ready
+    // to set the title
+    const interval = setInterval(() => {
+        if (store.getters.isI18nLoaded) {
+            document.title = getLocalizedTitle(to.name);
+            clearInterval(interval);
+        }
+    }, 500);
+
     if (supportedLocales.indexOf(locale) === -1) {
         next('/en/home');
     } else {
         i18next.changeLanguage(locale);
         return next();
     }
-
 });
 
 export default router;

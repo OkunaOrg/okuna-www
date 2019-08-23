@@ -17,10 +17,10 @@
                             <div class="column" style="max-width: 450px">
                                 <vue-typed-js
                                     :strings="helloSubjects"
-                                    loop="true"
-                                    typeSpeed="9"
-                                    backSpeed="9"
-                                    backDelay="2000"
+                                    :loop="true"
+                                    :typeSpeed="9"
+                                    :backSpeed="9"
+                                    :backDelay="2000"
                                 >
                                     <h1 class="is-size-3-mobile is-size-1 has-text-weight-bold"
                                         v-html="$t('home:splash_hero.hello_world')">
