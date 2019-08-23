@@ -252,8 +252,6 @@
         },
         methods: {
             postToMailChimp() {
-                this.subscribeSuccessful = true;
-                return;
                 axios.post(MAILCHIMP_SUBSCRIBE_URL, {
                     email: this.email
                 })
