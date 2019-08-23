@@ -7,8 +7,11 @@ import VueI18Next from '@panter/vue-i18next';
 export default (store) => {
   Vue.use(VueI18Next);
 
-  i18next.on('loaded', function () {
-    store.commit('fetchI18nSuccess');
+  i18next.on('loaded', function (strings) {
+    if (Object.keys(strings).length) {
+      // only commit to store if strings were *actually* loaded via XHR
+      store.commit('fetchI18nSuccess');
+    }
   });
 
   i18next.on('error', function () {

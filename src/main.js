@@ -14,6 +14,8 @@ import './lib/fontawesome-all.min.exec.js';
 // Load stylesheets
 import './styles/index.scss';
 
+import VueTypedJs from 'vue-typed-js';
+
 // Load jQuery and it's global plugins
 window['jQuery'] = window['$'] = require('jquery');
 require('default-passive-events');
@@ -48,6 +50,8 @@ Raven.context(function () {
     Vue.use(VueScrollTo, {
         offset: -90
     });
+
+    Vue.use(VueTypedJs);
 
     const i18n = buildLocale(store);
 
