@@ -83,6 +83,11 @@ Build for production
 ```bash
 npm run build
 ```
+
+For integration tests, make sure you're running a [Selenium server](https://chromedriver.storage.googleapis.com/76.0.3809.126/chromedriver_win32.zip) and you have [ChromeDriver](https://chromedriver.chromium.org/downloads) installed.
+```bash
+npm run test:integration
+```
 <br>
 
 #### Happy coding 🎉!
