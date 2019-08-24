@@ -8,7 +8,7 @@
                         <div class="navbar-brand">
                             <a class="navbar-item is-size-4" href="https://www.okuna.io">
                                 <a href="#" class="header-logo"></a>
-                                <span class="header-logo-separator"></span><span v-html="$t('global.okuna')"
+                                <span class="header-logo-separator"></span><span v-html="$t('common:global.okuna')"
                                                                                  class="has-text-circular"></span>
                             </a>
                             <div class="navbar-close navbar-item">
@@ -43,7 +43,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>{{ $t('header.home') }}</span>
+                                            <span>{{ $t('common:header.home') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
@@ -72,7 +72,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>{{ $t('header.about_us') }}</span>
+                                            <span>{{ $t('common:header.about_us') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
@@ -101,7 +101,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>{{ $t('header.manifesto') }}</span>
+                                            <span>{{ $t('common:header.manifesto') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
@@ -130,7 +130,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>{{ $t('header.contact_us') }}</span>
+                                            <span>{{ $t('common:header.contact_us') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
@@ -159,7 +159,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>{{ $t('header.angel') }}</span>
+                                            <span>{{ $t('common:header.angel') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
@@ -188,7 +188,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>{{ $t('header.faq') }}</span>
+                                            <span>{{ $t('common:header.faq') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
@@ -216,7 +216,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>{{ $t('header.blog') }}</span>
+                                            <span>{{ $t('common:header.blog') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
@@ -244,7 +244,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>{{ $t('header.press') }}</span>
+                                            <span>{{ $t('common:header.press') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
@@ -273,7 +273,7 @@
                                 <div class="column">
                                     <div class="columns is-mobile">
                                         <div class="column">
-                                            <span>{{ $t('header.language') }}</span>
+                                            <span>{{ $t('common:header.language') }}</span>
                                         </div>
                                         <div class="column is-4">
                                             <div class="columns is-mobile is-centered is-vcentered">
@@ -288,39 +288,39 @@
                             </div>
                             <div class="card-content">
                                 <ul class="content">
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'en' }" v-on:click="changeLocale('en')">
+                                    <li class="columns is-mobile" v-bind:class="{ active: currentLocale === 'en' }" v-on:click="changeLocale('en')">
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">English <i class="fas fa-check"></i></div>
                                     </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'de' }" v-on:click="changeLocale('de')">
+                                    <li class="columns is-mobile" v-bind:class="{ active: currentLocale === 'de' }" v-on:click="changeLocale('de')">
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Deutsch <i class="fas fa-check"></i></div>
                                     </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'es' }" v-on:click="changeLocale('es')">
+                                    <li class="columns is-mobile" v-bind:class="{ active: currentLocale === 'es' }" v-on:click="changeLocale('es')">
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Español <i class="fas fa-check"></i></div>
                                     </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'fr' }" v-on:click="changeLocale('fr')">
+                                    <li class="columns is-mobile" v-bind:class="{ active: currentLocale === 'fr' }" v-on:click="changeLocale('fr')">
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Français <i class="fas fa-check"></i></div>
                                     </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'hu' }" v-on:click="changeLocale('hu')">
+                                    <li class="columns is-mobile" v-bind:class="{ active: currentLocale === 'hu' }" v-on:click="changeLocale('hu')">
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Magyar <i class="fas fa-check"></i></div>
                                     </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'it' }" v-on:click="changeLocale('it')">
+                                    <li class="columns is-mobile" v-bind:class="{ active: currentLocale === 'it' }" v-on:click="changeLocale('it')">
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Italiano <i class="fas fa-check"></i></div>
                                     </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'pt-br' }" v-on:click="changeLocale('pt-br')">
+                                    <li class="columns is-mobile" v-bind:class="{ active: currentLocale === 'pt-br' }" v-on:click="changeLocale('pt-br')">
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Português (Brasil) <i class="fas fa-check"></i></div>
                                     </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'sv' }" v-on:click="changeLocale('sv')">
+                                    <li class="columns is-mobile" v-bind:class="{ active: currentLocale === 'sv' }" v-on:click="changeLocale('sv')">
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Svenska <i class="fas fa-check"></i></div>
                                     </li>
-                                    <li class="columns is-mobile" v-bind:class="{ active: $i18n.locale === 'tr' }" v-on:click="changeLocale('tr')">
+                                    <li class="columns is-mobile" v-bind:class="{ active: currentLocale === 'tr' }" v-on:click="changeLocale('tr')">
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Türkçe <i class="fas fa-check"></i></div>
                                     </li>
@@ -518,6 +518,11 @@
         watch: {
             $route() {
                 this.closeMenu();
+            }
+        },
+        computed: {
+            currentLocale() {
+                return this.$i18n.i18next.language || window.localStorage.i18nextLng
             }
         },
         methods: {

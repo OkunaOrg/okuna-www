@@ -9,6 +9,7 @@
         "check-translations": "node bin/checkTranslations.js"
     },
     "dependencies": {
+        "@panter/vue-i18next": "^0.15.1",
         "@xkeshi/vue-countdown": "^0.6.0",
         "animate.css": "^3.7.2",
         "axios": "^0.18.1",
@@ -17,6 +18,9 @@
         "bulma": "^0.7.5",
         "dayjs": "^1.8.14",
         "default-passive-events": "^1.0.10",
+        "i18next": "^17.0.11",
+        "i18next-browser-languagedetector": "^3.0.3",
+        "i18next-xhr-backend": "^3.1.2",
         "install": "^0.11.2",
         "jquery": "^3.4.1",
         "lodash.debounce": "^4.0.8",
@@ -28,11 +32,12 @@
         "twemoji": "^11.3.0",
         "vee-validate": "^2.2.10",
         "vue": "^2.6.10",
-        "vue-i18n": "^8.11.2",
         "vue-recaptcha": "^1.1.1",
         "vue-router": "^3.0.6",
         "vue-scrollto": "^2.15.0",
-        "vue-social-sharing": "^2.4.5"
+        "vue-social-sharing": "^2.4.5",
+        "vue-typed-js": "^0.1.2",
+        "vuex": "^3.1.1"
     },
     "devDependencies": {
         "@fullhuman/postcss-purgecss": "^1.2.0",

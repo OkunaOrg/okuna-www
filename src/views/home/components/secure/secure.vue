@@ -13,9 +13,9 @@
                     <div class="column">
                         <div class="columns is-centered is-vcentered is-height-100 is-mobile">
                             <div class="column content is-medium secure-text">
-                                <h3>{{ $t('secure.title') }}</h3>
+                                <h3>{{ $t('home:secure.title') }}</h3>
                                 <p>
-                                    {{ $t('secure.description') }}
+                                    {{ $t('home:secure.description') }}
                                 </p>
                             </div>
                         </div>

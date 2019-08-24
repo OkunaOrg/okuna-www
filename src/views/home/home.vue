@@ -16,12 +16,12 @@
                     <div class="columns is-centered is-vcentered">
                         <div class="column">
                             <h3 class="title is-size-4">
-                                {{ $t('home.want_to_know_more') }}
+                                {{ $t('home:home.want_to_know_more') }}
                             </h3>
                         </div>
                         <div class="column">
                             <router-link to="manifesto" class="button is-rainbow is-rounded is-medium">
-                                {{ $t('home.read_manifesto') }}
+                                {{ $t('home:home.read_manifesto') }}
                             </router-link>
                         </div>
                     </div>
@@ -38,7 +38,7 @@
             <div class="container">
                 <div class="content has-text-centered padding-bottom-2x">
                     <p class="is-size-5 padding-bottom-3x has-text-grey-light">
-                        {{ $t('home.featured_in') }}
+                        {{ $t('home:home.featured_in') }}
                     </p>
                 </div>
                 <ob-featured-on></ob-featured-on>

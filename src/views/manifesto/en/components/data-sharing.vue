@@ -95,13 +95,13 @@
                                             <a v-else-if="dataItem.type === 'list'"
                                                @click="wantsToDisplayListWithName(dataItem.readableName)">
                                                 <span>
-                                                     {{ $t('manifesto.examples.common.open_list') }} ↗
+                                                     {{ $t('manifesto:manifesto.examples.common.open_list') }} ↗
                                                 </span>
                                             </a>
                                             <a v-else-if="dataItem.type === 'image'" :href="dataItem.value"
                                                target="_blank" rel="noopener noreferrer">
                                                 <span>
-                                                     {{ $t('manifesto.examples.common.open_image') }} ↗
+                                                     {{ $t('manifesto:manifesto.examples.common.open_image') }} ↗
                                                 </span>
                                             </a>
                                         </p>
@@ -116,12 +116,12 @@
                             <div class="columns is-mobile">
                                 <div class="column is-6">
                                     <button class="button is-outlined is-medium" @click="goToStep1()">
-                                        {{ $t('manifesto.examples.common.btn_cancel') }}
+                                        {{ $t('manifesto:manifesto.examples.common.btn_cancel') }}
                                     </button>
                                 </div>
                                 <div class="column is-6">
                                     <button class="button is-rainbow is-medium" @click="goToStep4()">
-                                        {{ $t('manifesto.examples.common.btn_continue') }}
+                                        {{ $t('manifesto:manifesto.examples.common.btn_continue') }}
                                     </button>
                                 </div>
                             </div>
@@ -137,7 +137,7 @@
                                         <span class="icon">
                                             <i class="fas fa-chevron-left"></i>
                                         </span>
-                                        <span>{{ $t('manifesto.examples.common.btn_back') }}</span>
+                                        <span>{{ $t('manifesto:manifesto.examples.common.btn_back') }}</span>
                                     </button>
                                 </div>
                             </div>
@@ -148,7 +148,7 @@
                                     <div class="column is-10">
                                         <div class="is-size-6" @click="wantsToToggleItem(dataItem)">
                                             <strong>{{dataItem.readableName}}</strong>
-                                            <span v-if="dataItem.required"> {{ $t('manifesto.examples.common.required') }}</span>
+                                            <span v-if="dataItem.required"> {{ $t('manifesto:manifesto.examples.common.required') }}</span>
                                         </div>
                                         <div class="is-size-7">
                                          <span v-if="dataItem.type === 'text'">
@@ -157,13 +157,13 @@
                                             <a v-else-if="dataItem.type === 'list'"
                                                @click="wantsToDisplayListWithName(dataItem.readableName)">
                                                 <span>
-                                                  {{ $t('manifesto.examples.common.open_list') }} ↗
+                                                  {{ $t('manifesto:manifesto.examples.common.open_list') }} ↗
                                                 </span>
                                             </a>
                                             <a v-else-if="dataItem.type === 'image'" :href="dataItem.value"
                                                target="_blank" rel="noopener noreferrer">
                                                 <span>
-                                                    {{ $t('manifesto.examples.common.open_image') }} ↗
+                                                    {{ $t('manifesto:manifesto.examples.common.open_image') }} ↗
                                                 </span>
                                             </a>
                                         </div>
@@ -190,7 +190,7 @@
                         <div class="column is-12 has-text-centered">
                             <div>
                                 <strong>
-                                    {{ $t('manifesto.examples.common.success') }}
+                                    {{ $t('manifesto:manifesto.examples.common.success') }}
                                 </strong>
                             </div>
                             <span>
@@ -262,7 +262,7 @@
                 inspectDataOpen: false,
                 availableData: [
                     {
-                        readableName: this.$t('manifesto.examples.can_receive_following_data.name'),
+                        readableName: this.$t('manifesto:manifesto.examples.can_receive_following_data.name'),
                         name: 'name',
                         type: 'text',
                         value: this.songipy('descriptions.name'),
@@ -270,7 +270,7 @@
                         enabled: true
                     },
                     {
-                        readableName: this.$t('manifesto.examples.can_receive_following_data.email'),
+                        readableName: this.$t('manifesto:manifesto.examples.can_receive_following_data.email'),
                         name: 'email',
                         type: 'text',
                         value: this.songipy('descriptions.email'),
@@ -278,7 +278,7 @@
                         enabled: true
                     },
                     {
-                        readableName: this.$t('manifesto.examples.can_receive_following_data.profile_picture'),
+                        readableName: this.$t('manifesto:manifesto.examples.can_receive_following_data.profile_picture'),
                         name: 'profile_picture',
                         type: 'image',
                         value: 'https://vignette.wikia.nocookie.net/pulpfiction/images/b/b6/Jules.jpg/revision/latest?cb=20090501131406',
@@ -286,7 +286,7 @@
                         enabled: false
                     },
                     {
-                        readableName: this.$t('manifesto.examples.can_receive_following_data.age_range'),
+                        readableName: this.$t('manifesto:manifesto.examples.can_receive_following_data.age_range'),
                         name: 'age_range',
                         type: 'text',
                         value: '35-40',
@@ -294,7 +294,7 @@
                         enabled: false
                     },
                     {
-                        readableName: this.$t('manifesto.examples.can_receive_following_data.gender'),
+                        readableName: this.$t('manifesto:manifesto.examples.can_receive_following_data.gender'),
                         name: 'gender',
                         type: 'text',
                         value: this.songipy('descriptions.gender'),
@@ -302,7 +302,7 @@
                         enabled: false
                     },
                     {
-                        readableName: this.$t('manifesto.examples.can_receive_following_data.language'),
+                        readableName: this.$t('manifesto:manifesto.examples.can_receive_following_data.language'),
                         name: 'language',
                         type: 'text',
                         value: this.songipy('descriptions.language'),
@@ -310,7 +310,7 @@
                         enabled: false
                     },
                     {
-                        readableName: this.$t('manifesto.examples.can_receive_following_data.country_of_birth'),
+                        readableName: this.$t('manifesto:manifesto.examples.can_receive_following_data.country_of_birth'),
                         name: 'birthplace_country',
                         type: 'text',
                         value: this.songipy('descriptions.country'),
@@ -318,7 +318,7 @@
                         enabled: false
                     },
                     {
-                        readableName: this.$t('manifesto.examples.can_receive_following_data.friends'),
+                        readableName: this.$t('manifesto:manifesto.examples.can_receive_following_data.friends'),
                         name: 'friends_list',
                         type: 'list',
                         value: [],
@@ -326,7 +326,7 @@
                         enabled: false
                     },
                     {
-                        readableName: this.$t('manifesto.examples.can_receive_following_data.birthday'),
+                        readableName: this.$t('manifesto:manifesto.examples.can_receive_following_data.birthday'),
                         name: 'birthday',
                         type: 'text',
                         value: this.songipy('descriptions.birthday'),
@@ -334,7 +334,7 @@
                         enabled: false
                     },
                     {
-                        readableName: this.$t('manifesto.examples.can_receive_following_data.likes'),
+                        readableName: this.$t('manifesto:manifesto.examples.can_receive_following_data.likes'),
                         name: 'user_likes',
                         type: 'list',
                         value: [],
@@ -379,18 +379,18 @@
                 return sharedData;
             },
             requiredSharedDataString() {
-                return this.$t('manifesto.examples.songipy.in_order_to_continue', {
-                    required_data: concatenate(this.requiredSharedData, 'readableName', this.$t('manifesto.examples.common.last_item'))
+                return this.$t('manifesto:manifesto.examples.songipy.in_order_to_continue', {
+                    required_data: concatenate(this.requiredSharedData, 'readableName', this.$t('manifesto:manifesto.examples.common.last_item'))
                 });
             },
             optionalDataString() {
-                return this.$t('manifesto.examples.songipy.optionally', {
-                    optional_data: concatenate(this.optionalSharedData, 'readableName', this.$t('manifesto.examples.common.last_item'))
+                return this.$t('manifesto:manifesto.examples.songipy.optionally', {
+                    optional_data: concatenate(this.optionalSharedData, 'readableName', this.$t('manifesto:manifesto.examples.common.last_item'))
                 });
             },
             optionalEnabledDataString() {
-                return this.$t('manifesto.examples.songipy.optionally', {
-                    optional_data: concatenate(this.enabledOptionalSharedData, 'readableName', this.$t('manifesto.examples.common.last_item'))
+                return this.$t('manifesto:manifesto.examples.songipy.optionally', {
+                    optional_data: concatenate(this.enabledOptionalSharedData, 'readableName', this.$t('manifesto:manifesto.examples.common.last_item'))
                 });
             }
         },
@@ -425,7 +425,7 @@
                 this.stepNumber = 4;
             },
             songipy(str) {
-                return this.$t(`manifesto.examples.songipy.${str}`);
+                return this.$t(`manifesto:manifesto.examples.songipy.${str}`);
             },
             disableAllOptionalSharedData() {
                 this.availableData = this.availableData.map((dataItem) => {
@@ -446,15 +446,15 @@
             },
             wantsToLearnMoreAboutSecureApps() {
                 this.$dialog.alert({
-                    message: this.$t('manifesto.examples.songipy.safe_app_modal'),
-                    confirmText:  this.$t('manifesto.examples.common.btn_got_it')
+                    message: this.$t('manifesto:manifesto.examples.songipy.safe_app_modal'),
+                    confirmText:  this.$t('manifesto:manifesto.examples.common.btn_got_it')
                 })
             },
             wantsToDisplayListWithName(name) {
-                const message = this.$t('manifesto.examples.songipy.list_modal', { data_name: name });
+                const message = this.$t('manifesto:manifesto.examples.songipy.list_modal', { data_name: name });
                 this.$dialog.alert({
                     message,
-                    confirmText: this.$t('manifesto.examples.common.btn_got_it')
+                    confirmText: this.$t('manifesto:manifesto.examples.common.btn_got_it')
                 });
             },
             wantsToToggleItem(dataItem) {

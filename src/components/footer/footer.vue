@@ -27,32 +27,32 @@
                                 <ul>
                                     <li>
                                         <router-link :to="'home'" class="navbar-item" active-class="is-active">{{
-                                            $t('header.home') }}
+                                            $t('common:header.home') }}
                                         </router-link>
                                     </li>
                                     <li>
                                         <router-link :to="'about-us'" class="navbar-item" active-class="is-active">{{
-                                            $t('header.about_us') }}
+                                            $t('common:header.about_us') }}
                                         </router-link>
                                     </li>
                                     <li>
                                         <router-link :to="'manifesto'" class="navbar-item" active-class="is-active">{{
-                                            $t('header.manifesto') }}
+                                            $t('common:header.manifesto') }}
                                         </router-link>
                                     </li>
                                     <li>
                                         <router-link :to="'contact-us'" class="navbar-item" active-class="is-active">{{
-                                            $t('header.contact_us') }}
+                                            $t('common:header.contact_us') }}
                                         </router-link>
                                     </li>
                                     <li>
                                         <router-link :to="'angel'" class="navbar-item" active-class="is-active">{{
-                                            $t('header.angel') }}
+                                            $t('common:header.angel') }}
                                         </router-link>
                                     </li>
                                     <li>
                                         <router-link :to="'faq'" class="navbar-item" active-class="is-active">{{
-                                            $t('header.faq') }}
+                                            $t('common:header.faq') }}
                                         </router-link>
                                     </li>
                                 </ul>
@@ -61,18 +61,18 @@
                                 <ul>
                                     <li>
                                         <router-link :to="'vulnerability-report'" class="navbar-item"
-                                                     active-class="is-active">{{ $t('footer.report_vulnerability') }}
+                                                     active-class="is-active">{{ $t('common:footer.report_vulnerability') }}
                                         </router-link>
                                     </li>
                                     <li>
                                         <a href="https://medium.com/okuna" rel="noopener noreferrer"
                                            class="navbar-item" target="_blank"
-                                        >{{ $t('header.blog') }}</a>
+                                        >{{ $t('common:header.blog') }}</a>
                                     </li>
                                     <li>
                                         <a href="https://shwca.se/okuna" rel="noopener noreferrer"
                                            class="navbar-item" target="_blank"
-                                        >{{ $t('header.press') }}</a>
+                                        >{{ $t('common:header.press') }}</a>
                                     </li>
                                 </ul>
                             </div>
@@ -90,7 +90,7 @@
                                             </span>
                                         </div>
                                         <div class="column">
-                                            {{ $t('footer.twitter') }}
+                                            {{ $t('common:footer.twitter') }}
                                         </div>
                                     </div>
                                 </a>
@@ -103,7 +103,7 @@
                                             </span>
                                         </div>
                                         <div class="column">
-                                            {{ $t('footer.github') }}
+                                            {{ $t('common:footer.github') }}
                                         </div>
                                     </div>
                                 </a>
@@ -116,7 +116,7 @@
                                             </span>
                                         </div>
                                         <div class="column">
-                                            {{ $t('footer.linked_in') }}
+                                            {{ $t('common:footer.linked_in') }}
                                         </div>
                                     </div>
                                 </a>
@@ -128,7 +128,7 @@
                                         </div>
                                         <div class="column">
                                             <span>
-                                                {{ $t('footer.product_hunt') }}
+                                                {{ $t('common:footer.product_hunt') }}
                                             </span>
                                         </div>
                                     </div>
@@ -146,22 +146,22 @@
                         <div class="level has-padding-2x">
                             <div class="level-left">
                                 <div class="content has-text-centered-mobile">
-                                    {{ $t('footer.the_ob_organization') }} ™️ All Rights Reserved | <a
+                                    {{ $t('common:footer.the_ob_organization') }} ™️ All Rights Reserved | <a
                                     href="https://www.iubenda.com/privacy-policy/91224954"
                                     class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank"
-                                    rel="noopener noreferrer">{{ $t('footer.privacy_policy') }} </a>
+                                    rel="noopener noreferrer">{{ $t('common:footer.privacy_policy') }} </a>
                                 </div>
                             </div>
                             <div class="level-right">
                                 <div class="content made-in-europe">
                             <span>
-                                    {{ $t('footer.made_with') }}
+                                    {{ $t('common:footer.made_with') }}
                                 </span>
                                     <span class="icon" style="color: #ff0000;">
                                     <i class="fas fa-heart"></i>
                                 </span>
                                     <span>
-                                     {{ $t('footer.in_europe') }}
+                                     {{ $t('common:footer.in_europe') }}
                                     </span>
                                     &nbsp;
                                     <span class="icon is-medium" v-twemoji>🇪🇺</span>

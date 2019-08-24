@@ -14,8 +14,8 @@
                 <div class="column is-6">
                     <div class="columns is-centered is-vcentered is-height-100">
                         <div class="column is-narrow personal-text content is-medium">
-                            <h3 class="has-text-shadow">{{ $t('personal.title') }}</h3>
-                            <p v-html="$t('personal.description')">
+                            <h3 class="has-text-shadow">{{ $t('home:personal.title') }}</h3>
+                            <p v-html="$t('home:personal.description')">
                             </p>
                         </div>
                     </div>

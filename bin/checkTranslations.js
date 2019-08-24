@@ -4,7 +4,7 @@ const fs = require('fs');
 const cheerio = require('cheerio');
 const chalk = require('chalk');
 
-const ALL_LOCALES_DIR = path.join(__dirname, '..', 'src', 'locale');
+const ALL_LOCALES_DIR = path.join(__dirname, '..', 'public', 'i18n');
 let counter = 0;  // counts how many issues there are
 
 /**
