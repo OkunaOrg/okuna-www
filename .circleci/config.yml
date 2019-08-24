@@ -2,7 +2,7 @@ version: 2
 jobs:
     build:
         docker:
-        - image: circleci/node:latest
+        - image: circleci/node:latest-browsers
         working_directory: ~/repo
         steps:
         - checkout
@@ -13,8 +13,17 @@ jobs:
               name: Check translations
               command: npm run check-translations
         - run:
-              name: Test
-              command: npm test
+              name: Download Selenium
+              command: curl -O http://selenium-release.storage.googleapis.com/3.5/selenium-server-standalone-3.5.3.jar
+        - run:
+              name: Start Selenium
+              command: java -jar selenium-server-standalone-3.5.3.jar -log test-reports/selenium.log
+              background: true
+        - run:
+              name: Run Integration Tests
+              command: |
+                  npm run dev
+                  npm run test:integration
     deploy:
         docker:
         - image: circleci/node:latest
