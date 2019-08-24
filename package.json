@@ -17,7 +17,7 @@
     "axios": "^0.18.1",
     "browser-locale": "^1.0.3",
     "buefy": "^0.6.7",
-    "bulma": "^0.7.5",
+    "bulma": "^0.8.2",
     "dayjs": "^1.8.14",
     "default-passive-events": "^1.0.10",
     "i18next": "^17.0.11",
