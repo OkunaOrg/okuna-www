@@ -13,7 +13,7 @@
         "animate.css": "^3.7.2",
         "axios": "^0.18.1",
         "browser-locale": "^1.0.3",
-        "buefy": "^0.6.7",
+        "buefy": "^0.8.2",
         "bulma": "^0.7.5",
         "dayjs": "^1.8.14",
         "default-passive-events": "^1.0.10",
