@@ -22,7 +22,7 @@ jobs:
         - run:
               name: Run Integration Tests
               command: |
-                  npm run dev
+                  npm run dev > /dev/null 2>&1
                   npm run test:integration
     deploy:
         docker:
