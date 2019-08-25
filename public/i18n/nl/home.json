@@ -1,0 +1,110 @@
+{
+    "home": {
+        "want_to_know_more": "Wil je meer weten?",
+        "read_manifesto": "Lees ons manifest",
+        "featured_in": "Zoals vermeld in",
+        "signup_button": "Meld je aan voor bèta"
+    },
+    "honesty": {
+        "title": "Open en verantwoordelijk",
+        "description": "De gehele code waaruit het netwerk is opgebouwd is open-source, dit betekent voor dat deze voor iedereen is in te zien en te checken. Er is geen ruimte voor stiekeme programmacode die ongeoorloofde dingen doet!"
+    },
+    "privacy": {
+        "title": "Privacy-vriendelijk",
+        "description": "We hebben een onwrikbaar basisbeginsel dat privacy een fundamenteel mensenrecht is. We volgen en monitoren je activiteiten dan ook totaal niet, op geen enkele manier."
+    },
+    "secure": {
+        "title": "Veiligheid is de basis van het ontwerp!",
+        "description": "Wij hebben een sterke achtergrond in informatiebeveiliging. We \"bakken\" alles in het beginsel van veiligheid en passen dit vanaf het allereerste begin toe."
+    },
+    "easy": {
+        "title": "Vriendelijk en ontspannen",
+        "description": "Door een combinatie van onze <a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\">door de gemeenschap samengestelde richtlijnen</a>, ethische ontwerp en code, bevorderen we een omgeving van vriendelijkheid, respect en openheid waar geluk het einddoel is."
+    },
+    "fun": {
+        "title": "Meer manieren om jezelf te uiten",
+        "description": "Wij mensen zijn emotionele wezens. Vind uitgebreide mogelijkheden om je in de onze digitale wereld te uiten met onze almaar groeiende bibliotheek van reacties!"
+    },
+    "personal": {
+        "title": "Aanpasbaar",
+        "description": "We zijn allemaal verschillend en dat is iets om te omarmen en te vieren. Met persoonlijke aanpassingen, kun je het netwerk helemaal jouw thuis maken!"
+    },
+    "community": {
+        "title": "Gemeenschapsgericht",
+        "description": "Ontdek interesses & mensen door deel te nemen aan een van de bestaande 2,500+ gemeenschappen of maak ze gewoon zelf!"
+    },
+    "good_for_planet": {
+        "title": "Voor een betere toekomst",
+        "description": "Afgezien van het doneren van een percentage van onze winsten <a href=\"https://founderspledge.com/research\" rel=\"noreferrer noopener\">aan goede doelen</a>, zijn we ook juridisch verplicht om een positieve invloed op de samenleving en het milieu te hebben."
+    },
+    "ads_free": {
+        "title": "Ethisch duurzaam",
+        "description": "Het netwerk wordt ondersteund door een optioneel abonnement dat toegang biedt tot extra reacties, geanimeerde avatars, thema's en meer. Absoluut geen verdiensten op advertenties of het verkopen van persoonlijke informatie."
+    },
+    "currency": {
+        "title": "Een digitale valuta",
+        "description": "We werken ook aan een digitale munt genaamd <strong>Tip</strong> die kan worden gebruikt om je favoriete videomaker te ondersteunen, je te abonneren op uitgevers, te betalen voor diensten en meer."
+    },
+    "quotes": {
+        "joel_name": "Joel Hernández",
+        "joel_title": "Oprichter van Okuna",
+        "joel_quote": "Ik stel me een wereld voor met vriendelijke, open, verantwoordelijke en respectvolle technologie. Okuna is het sociale netwerk van die wereld.",
+        "vincent_name": "Vincent Ruijter",
+        "vincent_title": "Ethische Hacker",
+        "vincent_quote": "Okuna kan wel eens de laatste reële kans zijn om iets anders, iets ethisch en iets beter op te bouwen.",
+        "phil_name": "Phil Zimmermann",
+        "phil_title": "Internet eregalerij lid",
+        "phil_quote": "Okuna geeft hoop op de toekomst, een sociaal netwerk waar wij niet het slachtoffer zijn van het bedrijfsmodel."
+    },
+    "splash_hero": {
+        "hello_world": "Hallo <span class=\"typing\"></span>",
+        "world": "wereld",
+        "friends": "vrienden",
+        "family": "familie",
+        "grandma": "oma",
+        "we_are_ob": "Wij zijn <strong class=\"has-text-logo is-size-5\">Okuna</strong>, een ethisch sociaal netwerk voor een betere toekomst.",
+        "share": "Deel",
+        "notify_me": "Steun ons"
+    },
+    "why_ob": {
+        "title": "Waarom Okuna?",
+        "subtitle": "Een aantal van de belangrijkste punten die ons onderscheiden van andere sociale netwerken.",
+        "zero_tracking": "Nul tracking",
+        "zero_tracking_desc": "We zullen je nooit volgen, waar dan ook.",
+        "zero_spying": "Nul spionage",
+        "zero_spying_desc": "Wees ervan overtuigd dat je privégesprekken echt privé zijn.",
+        "zero_ads": "Nul advertenties",
+        "zero_ads_desc": "Advertenties leiden tot gerichte reclame, dat op zijn beurt leidt tot het verlies van online privacy. Wij zullen geen advertenties toestaan.",
+        "data_protection": "Sterke gegevensbescherming",
+        "data_protection_desc": "Derde partijen die toegang willen tot je gegevens, moeten voldoen aan onze strikte en strenge veiligheidseisen.",
+        "honest": "Eerlijk",
+        "honest_desc": "Al onze code is vrij en open voor iedereen om te controleren, reproduceren en om aan bij te dragen. Geen onaangename verrassingen.",
+        "easy_to_migrate": "Gemakkelijk over te stappen",
+        "easy_to_migrate_desc": "We zullen hulpmiddelen beschikbaar stellen om al je bestaande gegevens naar ons netwerk te migreren.",
+        "future_proof": "Toekomstbestendig",
+        "future_proof_desc": "Met een solide en zinvol bedrijfsmodel dat gebaseerd is op \"peer-to-peer\" transacties, zetten we in op de lange termijn.",
+        "modern_design": "Modern, mooi, ethisch ontworpen.",
+        "modern_design_desc": "Gebouwd met de nieuwste technologieën en een scherp oog voor details en ethiek, zul je zoiets nergens anders vinden.",
+        "good_for_planet": "Goed voor de planeet",
+        "good_for_planet_desc": "We geloven in een betere wereld voor iedereen. Daarom doneren we 30% van onze winsten aan het verbeteren van de wereld, nu en voor altijd."
+    },
+    "count_down": {
+        "kickstarter": "Okuna",
+        "campaign_countdown": "aftellen naar de start",
+        "days": "dag | dagen",
+        "hours": "uur | uren",
+        "minutes": "minuut | minuten",
+        "seconds": "seconde | seconden",
+        "kickstarter_launch": "Okuna <strong class=\"has-text-kickstarter\">alpha</strong> start <br/>op <strong> {0} maart 2019</strong>."
+    },
+    "meet_the_team": {
+        "title": "Maak kennis met het team"
+    },
+    "beta_container": {
+        "title": "Doe mee met de revolutie!",
+        "beta_date": "Bèta komt midden 2019",
+        "email_placeholder": "jouw@email.com",
+        "server_error": "We ondervinden problemen met de server. Probeer het over enkele minuten opnieuw.",
+        "success": "&nbsp;&nbsp;Hoera! Je bent nummer {count} op onze wachtlijst."
+    }
+}
