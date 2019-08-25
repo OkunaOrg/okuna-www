@@ -8,7 +8,7 @@
         "manifesto": "Manifest",
         "contact_us": "Kontakta oss",
         "jobs": "Jobb",
-        "faq": "FAQ",
+        "faq": "Vanliga frågor",
         "press": "Press",
         "language": "Språk",
         "blog": "Blogg",
@@ -27,7 +27,7 @@
         "privacy_policy": "Sekretesspolicy",
         "made_with": "Gjort med ",
         "in_europe": " i Europa",
-        "all_rights_reserved": "Alla rättigheter förbehålls"
+        "all_rights_reserved": "Med ensamrätt"
     },
     "hud": {
         "share": "Dela",
@@ -39,5 +39,15 @@
         "share_title": "Okuna. Ett socialt nätverk för en bättre framtid.",
         "share_description": "Ärligt, personligt, integritetsfrämjande och etiskt hållbart.",
         "share_quote": "Gå med i revolutionen! Kommer i mitten av 2019."
+    },
+    "meta": {
+        "home": "Hem",
+        "about-us": "Om oss",
+        "contact-us": "Kontakta oss",
+        "faq": "Vanliga frågor",
+        "angel": "Ängel",
+        "getapp": "Get App Link",
+        "vulnerability-report": "Rapportera säkerhetsproblem",
+        "manifesto": "Manifest"
     }
 }

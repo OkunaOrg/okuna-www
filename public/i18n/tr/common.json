@@ -26,7 +26,7 @@
         "the_ob_organization": "Okuna",
         "privacy_policy": "Gizlilik Politikası",
         "made_with": "Yapıldığı yer ",
-        "in_europe": " Avrupa'da",
+        "in_europe": " Avrupa",
         "all_rights_reserved": "Tüm Hakları Saklıdır"
     },
     "hud": {
@@ -39,5 +39,15 @@
         "share_title": "Okuna. Daha iyi bir gelecek için bir sosyal ağ.",
         "share_description": "Dürüst, kişisel, gizlilik dostu ve etik açıdan sürdürülebilir.",
         "share_quote": "Devrime katıl! 2019'un ortalarına geliyor."
+    },
+    "meta": {
+        "home": "Ana Sayfa",
+        "about-us": "Hakkımızda",
+        "contact-us": "Bizimle iletişime geç",
+        "faq": "SSS",
+        "angel": "Melek",
+        "getapp": "Uygulama Bağlantısını Alın",
+        "vulnerability-report": "Güvenlik açığını bildir",
+        "manifesto": "Bildiri"
     }
 }

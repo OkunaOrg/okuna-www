@@ -2,12 +2,12 @@
     "jobs": {
         "title": "Jobs",
         "subtitle": "Arbeite mit uns.",
-        "exciting_adventure": "Wir haben eines der aufregendsten Abenteuer für die digitale Welt begonnen und suchen talentierte und leidenschaftliche Menschen, die mit uns segeln!",
-        "all_skills": "Technologie, Design, Marketing, Finanzen, Medien, was auch immer.",
+        "exciting_adventure": "Wir haben eines der aufregendsten Abenteuer der digitale Welt begonnen und suchen talentierte und leidenschaftliche Menschen, die sich gemeinsam mit uns auf die Reise begeben!",
+        "all_skills": "Technologie, Design, Marketing, Finanzen, Medien, du weißt schon.",
         "need_your_help": "Glaubst du an <span class=\"has-text-primary\"><strong class=\"has-text-primary\">Okuna</strong></span>, eine bessere Zukunft für soziale Netzwerke und die Menschheit insgesamt?",
         "send_cv": "Sende uns deinen Lebenslauf und ein Motivationsschreiben an <a\n                        href=\"mailto:joel@okuna.io?subject=Job%20Application\">joel@okuna.io</a>.",
         "look_forward": "Wir freuen uns darauf, dich kennenzulernen!",
         "colleagues": "Mit wem wirst du zusammenarbeiten?",
-        "meet_the_team": "Triff das Team"
+        "meet_the_team": "Lerne das Team kennen"
     }
 }

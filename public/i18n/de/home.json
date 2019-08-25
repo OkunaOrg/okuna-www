@@ -6,8 +6,8 @@
         "signup_button": "Registriere dich für die Beta"
     },
     "honesty": {
-        "title": "Offen und verantwortungsvoll",
-        "description": "Der gesamte Code, der das Netzwerk antreibt, ist Open-Source, d.h. offen für jedermann sichtbar. Kein Platz für Abrakadabra-Algorithmen!"
+        "title": "Offen und verantwortungsbewusst",
+        "description": "Der gesamte Code, der das Netzwerk antreibt, ist Open-Source, d.h. offen und für jedermann sichtbar. Kein Platz für mysteriöse Algorithmen!"
     },
     "privacy": {
         "title": "Datenschutzfreundlich",
@@ -15,27 +15,27 @@
     },
     "secure": {
         "title": "Von Haus aus sicher",
-        "description": "Unser Hintergrund ist die Informationssicherheit. Wir setzen von Anfang an auf Sicherheit."
+        "description": "Datensicherheit ist unser Fachgebiet und wir achten darauf, sie von Anfang an richtig umzusetzen."
     },
     "easy": {
         "title": "Freundlich und entspannt",
-        "description": "Durch eine Kombination aus unseren <a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\">von der Community entworfenen Richtlinien</a>, ethischem Design und Kodex, fördern wir ein Umfeld von Freundlichkeit, Respekt und Offenheit, in dem Glück das Endziel ist."
+        "description": "Durch eine Kombination aus unseren <a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\">von der Community entworfenen Richtlinien</a>, ethischem Design und Kodex, fördern wir ein Umfeld von Freundlichkeit, Respekt und Offenheit, in dem man sich einfach wohl fühlt."
     },
     "fun": {
-        "title": "Mehr Möglichkeiten, sich auszudrücken",
+        "title": "Mehr Möglichkeiten, dich auszudrücken",
         "description": "Wir sind Menschen mit Gefühlen. Entdecke mehr Möglichkeiten, dich auszudrücken - mit unserer wachsenden Anzahl Emojis!"
     },
     "personal": {
         "title": "Anpassbar",
-        "description": "Wir sind alle verschieden und das ist etwas, das man annehmen und feiern kann. Mit den Anpassungsfunktionen fühlt sich das Netzwerk wie zu Hause an!"
+        "description": "Wir sind alle verschieden und das ist etwas, das man akzeptieren und feiern kann. Mit den Möglichkeiten zur individuellen Anpassung fühlt sich Okuna intuitiv und vertraut an!"
     },
     "community": {
         "title": "Community-orientiert",
-        "description": "Entdecke Interessen und Menschen, indem du einer der mehr als 2.500 bestehenden Communitys beitrittst oder deine eigene Community gründest und mit dieser wächst!"
+        "description": "Entdecke interessante Themen und neue Leute in über 2.500 bereits bestehenden Communities. Oder erstelle einfach deine eigene!"
     },
     "good_for_planet": {
         "title": "Für eine bessere Zukunft",
-        "description": "Neben der Spende eines Teils unseres Gewinns für <a href=\"https://founderspledge.com/research\" rel=\"noreferrer noopener\">wohltätige Zwecke</a>, sind wir auch gesetzlich verpflichtet, einen positiven Einfluss auf Gesellschaft und Umwelt auszuüben."
+        "description": "Neben der Spende eines Teils unseres Gewinns für <a href=\"https://founderspledge.com/research\" rel=\"noreferrer noopener\">wohltätige Zwecke</a>, sehen wir uns selbst in der Pflicht, einen positiven Einfluss auf Gesellschaft und Umwelt auszuüben."
     },
     "ads_free": {
         "title": "Ethisch verantwortungsbewusst",
@@ -54,10 +54,10 @@
         "vincent_quote": "Okuna könnte vielleicht die letzte echte Chance sein, etwas Neues zu machen. Etwas Vernünftiges. Etwas \nBesseres.",
         "phil_name": "Phil Zimmermann",
         "phil_title": "Mitglied der \"Internet Hall of Fame\"",
-        "phil_quote": "Okuna hat Hoffnung auf die Zukunft, ein soziales Netzwerk, in dem wir nicht Opfer seines Geschäftsmodells sind."
+        "phil_quote": "Okuna ist die Hoffnung auf eine Zukunft, in der wir Nutzer eines sozialen Netzwerkes, und nicht Opfer eines Geschäftsmodells sind."
     },
     "splash_hero": {
-        "hello_world": "Hallo <span id=\"hello-subject\">Welt!</span>",
+        "hello_world": "Hallo <span class=\"typing\"></span>",
         "world": "Welt",
         "friends": "Freunde",
         "family": "Familie",
@@ -69,16 +69,16 @@
     "why_ob": {
         "title": "Warum Okuna?",
         "subtitle": "Einige der wichtigsten Dinge, die uns von anderen sozialen Netzwerken unterscheiden.",
-        "zero_tracking": "Keine Nachverfolgung",
-        "zero_tracking_desc": "Wir werden dich niemals irgendwo verfolgen.",
-        "zero_spying": "Keine Spionage",
-        "zero_spying_desc": "Sei sicher, dass deine privaten Gespräche wirklich privat sind.",
+        "zero_tracking": "Kein Tracking",
+        "zero_tracking_desc": "Wir werden dich niemals tracken. Egal wo. Egal wie.",
+        "zero_spying": "Kein Ausspionieren",
+        "zero_spying_desc": "Du kannst dir sicher sein, dass deine privaten Unterhaltungen auch wirklich privat sind.",
         "zero_ads": "Keine Werbung",
-        "zero_ads_desc": "Werbung führt zu gezielter Werbung, was wiederum zum Verlust der Privatsphäre im Internet führt. Wir werden keine Anzeigen haben.",
+        "zero_ads_desc": "Aus Werbung wird gezielte Werbung, was wiederum zum Verlust der Privatsphäre im Internet führt. Du wirst bei uns keine Reklame sehen.",
         "data_protection": "Strenger Datenschutz",
         "data_protection_desc": "Anwendungen von Drittanbietern, die auf deine Daten zugreifen möchten, müssen unsere strengen und strikten Sicherheitsrichtlinien einhalten.",
         "honest": "Ehrlich",
-        "honest_desc": "Unser gesamter Code ist offen für jeden, der ihn inspizieren, reproduzieren und mitgestalten kann. Keine unangenehmen Überraschungen.",
+        "honest_desc": "Unser gesamter Code ist offen für jeden, der ihn inspizieren, reproduzieren und mitgestalten kann. Keine bösen Überraschungen.",
         "easy_to_migrate": "Einfach zu migrieren",
         "easy_to_migrate_desc": "Wir stellen Tools zur Verfügung, um all deine vorhandenen Daten in unser Netzwerk zu migrieren.",
         "future_proof": "Zukunftssicher",
@@ -98,13 +98,13 @@
         "kickstarter_launch": "Okuna <strong class=\"has-text-kickstarter\">Alpha</strong> beginnt <br/>am<strong> {0}. März 2019</strong>."
     },
     "meet_the_team": {
-        "title": "Triff das Team"
+        "title": "Lerne das Team kennen"
     },
     "beta_container": {
         "title": "Werde Teil der Revolution!",
-        "beta_date": "Beta kommt Mitte 2019",
+        "beta_date": "Beta beginnt Mitte 2019",
         "email_placeholder": "deine@email.de",
-        "server_error": "Wir haben Serverprobleme. Bitte versuche es in wenigen Minuten erneut.",
+        "server_error": "Wir haben Serverprobleme. Bitte versuche es später noch einmal.",
         "success": "&nbsp;&nbsp;Hurra! Du bist Nummer {count} auf unserer Warteliste."
     }
 }
