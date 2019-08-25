@@ -5,7 +5,7 @@
             <i class="fas fa-share-alt"></i>
         </span>
             <span>
-            {{ $t('hud.share') }}
+            {{ $t('common:hud.share') }}
         </span>
         </button>
     </div>

@@ -3,14 +3,14 @@
         <form class="column is-12" @submit.prevent="onSubmit()">
             <div class="field padding-bottom-1x">
                 <label class="label" for="subject">
-                    {{ $t('message.subject') }}
+                    {{ $t('contact:message.subject') }}
                 </label>
                 <div class="control">
                     <input
                         class="input is-medium"
                         v-validate="'required|min:5|max:64'"
                         type="text"
-                        :placeholder="$t('message.reason_placeholder')"
+                        :placeholder="$t('contact:message.reason_placeholder')"
                         id="subject"
                         v-model="subject"
                         name="subject">
@@ -23,7 +23,7 @@
             </div>
             <div class="field padding-bottom-1x">
                 <label class="label" for="email">
-                    {{ $t('message.email') }}
+                    {{ $t('contact:message.email') }}
                 </label>
                 <div class="control">
                     <input class="input is-medium"
@@ -31,7 +31,7 @@
                            type="text"
                            id="email"
                            name="email"
-                           :placeholder="$t('message.email_placeholder')"
+                           :placeholder="$t('contact:message.email_placeholder')"
                            v-model="email">
                 </div>
                 <p class="help is-danger">
@@ -41,14 +41,14 @@
                 </p>
             </div>
             <div class="field padding-bottom-3x">
-                <label class="label" for="message"> {{ $t('message.user_message') }}</label>
+                <label class="label" for="message"> {{ $t('contact:message.user_message') }}</label>
                 <div class="field-body">
                     <div class="field">
                         <div class="control">
                             <textarea
                                 v-validate="'required|min:10|max:1000'"
                                 class="textarea is-medium"
-                                :placeholder="$t('message.user_message_placeholder')"
+                                :placeholder="$t('contact:message.user_message_placeholder')"
                                 style="resize: none;"
                                 id="message"
                                 name="message"
@@ -69,53 +69,53 @@
                         <b-message type="is-info">
                             <div class="columns is-mobile is-multiline">
                                 <div class="column is-12">
-                                    <p v-html="$t('message.google_recaptcha_title')"></p>
+                                    <p v-html="$t('contact:message.google_recaptcha_title')"></p>
                                     <br/>
-                                    {{ $t('message.recaptcha_info') }}
+                                    {{ $t('contact:message.recaptcha_info') }}
                                     <br/>
                                     <br/>
-                                    {{ $t('message.info_includes') }}
+                                    {{ $t('contact:message.info_includes') }}
                                     <ul>
                                         <li>
-                                            {{ $t('message.info_ip_location') }}
+                                            {{ $t('contact:message.info_ip_location') }}
                                         </li>
                                         <li>
-                                            {{ $t('message.info_cookies') }}
+                                            {{ $t('contact:message.info_cookies') }}
                                         </li>
                                         <li>
-                                            {{ $t('message.info_mouse_clicks') }}
+                                            {{ $t('contact:message.info_mouse_clicks') }}
                                         </li>
                                         <li>
-                                            {{ $t('message.info_css') }}
+                                            {{ $t('contact:message.info_css') }}
                                         </li>
                                         <li>
-                                            {{ $t('message.info_date') }}
+                                            {{ $t('contact:message.info_date') }}
                                         </li>
                                         <li>
-                                            {{ $t('message.info_browser_lang') }}
+                                            {{ $t('contact:message.info_browser_lang') }}
                                         </li>
                                         <li>
-                                            {{ $t('message.info_plugins') }}
+                                            {{ $t('contact:message.info_plugins') }}
                                         </li>
                                         <li>
-                                            {{ $t('message.info_js') }}
+                                            {{ $t('contact:message.info_js') }}
                                         </li>
                                     </ul>
                                     <br/>
-                                    {{ $t('message.recaptcha_authorization') }}
+                                    {{ $t('contact:message.recaptcha_authorization') }}
                                 </div>
                                 <div class="column is-12">
                                     <button class="button is-warning is-large is-size-7-mobile is-size-6" @click="enableGoogleRecaptcha()" type="button" v-scroll-to="'#message-form'">
-                                        {{ $t('message.recaptcha_authorization_yes') }}
+                                        {{ $t('contact:message.recaptcha_authorization_yes') }}
                                     </button>
                                 </div>
                                 <div class="column is-12">
-                                    {{ $t('message.or') }}
+                                    {{ $t('contact:message.or') }}
                                 </div>
                                 <div class="column is-12">
                                     <a :href="mailToLink"
                                        class="button is-success is-large is-size-7-mobile is-size-6">
-                                        {{ $t('message.recaptcha_authorization_no') }}
+                                        {{ $t('contact:message.recaptcha_authorization_no') }}
                                     </a>
                                 </div>
                             </div>
@@ -130,20 +130,20 @@
                 </div>
                 <p class="help is-danger">
                     <span v-show="formWasSubmitted && !captchaVerified">
-                        {{ $t('message.tick_box') }}
+                        {{ $t('contact:message.tick_box') }}
                     </span>
                 </p>
             </div>
             <div class="field is-grouped is-grouped-right">
                 <p class="control">
                     <a class="button is-light" @click="clearAll()">
-                        {{ $t('message.clear_form') }}
+                        {{ $t('contact:message.clear_form') }}
                     </a>
                 </p>
                 <p class="control">
                     <button class="button is-rainbow" type="submit"
                             :disabled="(formWasSubmitted && !formIsValid) || submissionInProgress || !acceptedRecaptcha">
-                        {{ $t('message.submit') }}
+                        {{ $t('contact:message.submit') }}
                     </button>
                 </p>
             </div>

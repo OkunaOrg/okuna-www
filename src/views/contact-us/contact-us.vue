@@ -8,10 +8,10 @@
                             <div class="columns is-centered has-padding-top-2x-mobile">
                                 <div class="column is-narrow">
                                     <h1 class="subtitle is-size-3 has-text-grey-light has-text-centered-mobile">
-                                        {{ $t('contact_us.title') }}
+                                        {{ $t('contact:contact_us.title') }}
                                     </h1>
                                     <h2 class="title is-size-2 contact-text has-text-centered-mobile">
-                                        {{ $t('contact_us.subtitle') }}
+                                        {{ $t('contact:contact_us.subtitle') }}
                                     </h2>
                                 </div>
                             </div>
@@ -34,7 +34,7 @@
                         <div class="columns is-centered is-mobile">
                             <div class="column contact-information">
                                 <div class="content">
-                                    <h4>{{ $t('contact_us.info') }}</h4>
+                                    <h4>{{ $t('contact:contact_us.info') }}</h4>
                                     <ob-address/>
                                 </div>
                             </div>
@@ -45,7 +45,7 @@
                             <div class="column contact-message padding-bottom-2x-mobile">
                                 <div class="content">
                                     <h4 class="padding-bottom-2x">
-                                        {{ $t('contact_us.message') }}
+                                        {{ $t('contact:contact_us.message') }}
                                     </h4>
                                     <ob-message/>
                                 </div>

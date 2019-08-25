@@ -15,18 +15,26 @@
                         class="column has-text-centered has-padding-top-2x-mobile has-background-white is-z-2 has-position-relative">
                         <div class="columns is-centered is-mobile">
                             <div class="column" style="max-width: 450px">
-                                <h1 class="is-size-3-mobile is-size-1 has-text-weight-bold"
-                                    v-html="$t('splash_hero.hello_world')">
-                                </h1>
+                                <vue-typed-js
+                                    :strings="helloSubjects"
+                                    :loop="true"
+                                    :typeSpeed="9"
+                                    :backSpeed="9"
+                                    :backDelay="2000"
+                                >
+                                    <h1 class="is-size-3-mobile is-size-1 has-text-weight-bold"
+                                        v-html="$t('home:splash_hero.hello_world')">
+                                    </h1>
+                                </vue-typed-js>
                                 <p class="is-size-4 padding-top-1x"
-                                   v-html="$t('splash_hero.we_are_ob')">
+                                   v-html="$t('home:splash_hero.we_are_ob')">
                                 </p>
                                 <div class="has-padding-2x">
                                     <button class="button is-rainbow is-rounded" v-scroll-to="'#beta-signup'">
                                         <span class="icon">
                                             <i class="fas fa-heart"></i>
                                         </span>
-                                        <span>{{ $t('home.signup_button') }}</span>
+                                        <span>{{ $t('home:home.signup_button') }}</span>
                                     </button>
                                 </div>
                             </div>
@@ -74,53 +82,33 @@
 
 
 <script>
-
-    require('./scripts/typewriter.exec.js');
     import blackMockupImage from './assets/black-min.png';
     import whiteMockupImage from './assets/white-min.png';
 
     export default {
         name: 'ob-splash-hero',
-        mounted() {
-            this.initHello();
-        },
-        destroyed() {
-            this.typewriter.stop();
-        },
         data() {
             return {
                 blackMockupImage,
-                whiteMockupImage
+                whiteMockupImage,
+                helloSubjects: [
+                    this.$i18n.t('home:splash_hero.world'),
+                    this.$i18n.t('home:splash_hero.friends'),
+                    this.$i18n.t('home:splash_hero.family'),
+                    this.$i18n.t('home:splash_hero.grandma')
+                ].map(subject => `${subject}!`)
             }
         },
-        methods: {
-            initHello() {
-                // This library should have been added in main.js
-                const Typewriter = window['Typewriter'];
-
-                const helloSubjects = [
-                    this.$i18n.t('splash_hero.world'),
-                    this.$i18n.t('splash_hero.friends'),
-                    this.$i18n.t('splash_hero.family'),
-                    this.$i18n.t('splash_hero.grandma'),
-                ];
-
-                const helloSubject = document.querySelector('#hello-subject');
-
-                const typewriter = this.typewriter = new Typewriter(helloSubject, {
-                    loop: true
-                });
-
-                helloSubjects.forEach((helloSubject) => {
-                    const helloSubjectText = `${helloSubject}!`;
-                    typewriter.typeString(helloSubjectText)
-                        .pauseFor(2500)
-                        .deleteAll();
-                });
-
-                typewriter.start();
-
+        computed: {
+            isI18nLoaded() {
+                return this.$store.getters.isI18nLoaded;
             }
         }
     }
 </script>
+
+<style lang="scss">
+    .typed-element {
+        display: block !important;
+    }
+</style>

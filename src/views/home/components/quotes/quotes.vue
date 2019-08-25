@@ -13,12 +13,12 @@
                     <div class="media-content">
                         <div class="content">
                             <p>
-                                <strong>{{ $t('quotes.joel_name') }}</strong>
+                                <strong>{{ $t('home:quotes.joel_name') }}</strong>
                                 <br>
-                                <small class="quote-box-occupation">{{ $t('quotes.joel_title') }}</small>
+                                <small class="quote-box-occupation">{{ $t('home:quotes.joel_title') }}</small>
                                 <br>
                                 <span class="quote-box-content">
-                                    {{ $t('quotes.joel_quote') }}
+                                    {{ $t('home:quotes.joel_quote') }}
                                 </span>
                             </p>
                         </div>
@@ -39,12 +39,12 @@
                     <div class="media-content">
                         <div class="content">
                             <p>
-                                <strong>{{ $t('quotes.vincent_name') }}</strong>
+                                <strong>{{ $t('home:quotes.vincent_name') }}</strong>
                                 <br>
-                                <small class="quote-box-occupation">{{ $t('quotes.vincent_title') }}</small>
+                                <small class="quote-box-occupation">{{ $t('home:quotes.vincent_title') }}</small>
                                 <br>
                                 <span class="quote-box-content">
-                                    {{ $t('quotes.vincent_quote') }}
+                                    {{ $t('home:quotes.vincent_quote') }}
                                 </span>
                             </p>
                         </div>
@@ -65,14 +65,14 @@
                     <div class="media-content">
                         <div class="content">
                             <p>
-                                <strong>{{ $t('quotes.phil_name') }}</strong>
+                                <strong>{{ $t('home:quotes.phil_name') }}</strong>
                                 <br>
                                 <small class="quote-box-occupation">
-                                    {{ $t('quotes.phil_title') }}
+                                    {{ $t('home:quotes.phil_title') }}
                                 </small>
                                 <br>
                                 <span class="quote-box-content">
-                                     {{ $t('quotes.phil_quote') }}
+                                     {{ $t('home:quotes.phil_quote') }}
                                 </span>
                             </p>
                         </div>

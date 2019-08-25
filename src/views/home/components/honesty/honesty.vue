@@ -5,9 +5,9 @@
                 <div class="column">
                     <div class="columns is-centered is-vcentered is-height-100 is-mobile">
                         <div class="column content is-medium honesty-text">
-                            <h3>{{ $t('honesty.title') }} </h3>
+                            <h3>{{ $t('home:honesty.title') }} </h3>
                             <p>
-                                {{ $t('honesty.description') }}
+                                {{ $t('home:honesty.description') }}
                             </p>
                         </div>
                     </div>

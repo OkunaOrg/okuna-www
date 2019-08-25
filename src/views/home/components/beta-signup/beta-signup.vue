@@ -2,9 +2,9 @@
     <section class="hero is-white">
         <div class="hero-body has-text-centered">
             <div class="content">
-                <h2 class="is-size-3"><span class="icon" v-twemoji>🚀</span> {{ $t('beta_container.title') }}</h2>
+                <h2 class="is-size-3"><span class="icon" v-twemoji>🚀</span> {{ $t('home:beta_container.title') }}</h2>
                 <p class="is-size-4">
-                    {{ $t('beta_container.beta_date') }}
+                    {{ $t('home:beta_container.beta_date') }}
                 </p>
             </div>
 
@@ -18,7 +18,7 @@
                                                name="email"
                                                type="email"
                                                v-validate="'required|email'"
-                                               :placeholder="$t('beta_container.email_placeholder')" v-model="email"
+                                               :placeholder="$t('home:beta_container.email_placeholder')" v-model="email"
                                                v-bind:disabled="emailSendClicked">
                                         <span></span>
                                     </span>
@@ -36,7 +36,7 @@
                         <span class="error-message has-text-danger is-size-7" v-show="errorEmail"><span
                             class="icon is-small is-valign-top" v-twemoji> 😕 </span>&nbsp;&nbsp;{{errorEmail}}</span>
                         <span class="success-message" v-show="subscribeSuccessful"><span class="icon is-small"
-                                                                                         v-twemoji>🎉</span><span v-html="$t('beta_container.success', { count: count + 1 })"></span></span>
+                                                                                         v-twemoji>🎉</span><span v-html="$t('home:beta_container.success', { count: count + 1 })"></span></span>
                     </form>
                 </div>
             </div>
@@ -264,7 +264,7 @@
                         if (error.response && error.response.status === 400) {
                             this.errorEmail = error.response.data.email[0];
                         } else {
-                            this.errorEmail = this.$t('beta_container.server_error');
+                            this.errorEmail = this.$t('home:beta_container.server_error');
                         }
                         this.emailSendClicked = false;
                     });

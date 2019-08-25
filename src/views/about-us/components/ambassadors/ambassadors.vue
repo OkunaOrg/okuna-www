@@ -21,7 +21,7 @@
             return {
                 ambassadors: [
                     {
-                        name: this.$t('ambassadors.isaac_name'),
+                        name: this.$t('team:ambassadors.isaac_name'),
                         photo: isaacPhoto,
                         links: {
                             website: 'https://en.wikipedia.org/wiki/Isaac_Hern%C3%A1ndez',
@@ -29,20 +29,20 @@
                             instagram: 'http://www.instagram.com/chapulo7',
                             facebook: 'https://www.facebook.com/IsaacHernandezOficial/'
                         },
-                        description: this.$t('ambassadors.isaac_desc'),
+                        description: this.$t('team:ambassadors.isaac_desc'),
                     },
                     {
-                        name: this.$t('ambassadors.edwin_name'),
+                        name: this.$t('team:ambassadors.edwin_name'),
                         photo: edwinPhoto,
                         links: {
                             website: 'https://www.zerocopter.nl',
                             twitter: 'https://twitter.com/yafsec',
                             linkedin: 'https://www.linkedin.com/in/yafsec/'
                         },
-                        description: this.$t('ambassadors.edwin_desc'),
+                        description: this.$t('team:ambassadors.edwin_desc'),
                     },
                     {
-                        name: this.$t('ambassadors.chris_name'),
+                        name: this.$t('team:ambassadors.chris_name'),
                         photo: chrisPhoto,
                         links: {
                             website: 'https://www.chrisduke.tv',
@@ -50,16 +50,16 @@
                             instagram: 'https://www.instagram.com/chrisduketv',
                             facebook: 'https://www.facebook.com/chrisduketv/'
                         },
-                        description: this.$t('ambassadors.chris_desc'),
+                        description: this.$t('team:ambassadors.chris_desc'),
                     },
                     {
-                        name: this.$t('ambassadors.ashwin_name'),
+                        name: this.$t('team:ambassadors.ashwin_name'),
                         photo: ashwinPhoto,
                         links: {
                             website: 'https://ashwinkrishnan.me/',
                             linkedin: 'https://www.linkedin.com/in/ashwinkrishnan/'
                         },
-                        description: this.$t('ambassadors.ashwin_desc')
+                        description: this.$t('team:ambassadors.ashwin_desc')
                     }
                 ]
             }
