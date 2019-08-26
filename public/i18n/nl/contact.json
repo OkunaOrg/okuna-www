@@ -1,0 +1,44 @@
+{
+    "contact_us": {
+        "title": "Neem contact met ons op",
+        "subtitle": "Wij willen van je horen.",
+        "info": "Contactgegevens",
+        "message": "Stuur ons een bericht"
+    },
+    "address": {
+        "name": "Naam",
+        "ob_organization": "Okuna B.V",
+        "address": "Adres",
+        "ob_address": "Apollo 14, Den Haag, Nederland",
+        "telephone": "Telefoon",
+        "telephone_no": "+31 (0)6 11 60 4275",
+        "email": "E-mail",
+        "website": "Website"
+    },
+    "message": {
+        "subject": "Onderwerp",
+        "reason_placeholder": "De reden waarom je contact met ons wil opnemen",
+        "email_placeholder": "Het e-mailadres waar we je op kunnen bereiken",
+        "email": "E-mail",
+        "user_message": "Bericht",
+        "user_message_placeholder": "Wat kunnen we voor je doen?",
+        "google_recaptcha_title": "We gebruiken <a href=\"https://www.google.com/recaptcha/intro/v3beta.html\" target=\"_blank\" rel=\"noopener noreferrer\">Google Recaptcha</a>  om misbruik van dit formulier te voorkomen.",
+        "recaptcha_info": "Google verzamelt informatie over jou om \"te verifiëren\" dat je een mens en geen robot bent.",
+        "info_includes": "Deze informatie omvat",
+        "info_ip_location": "Je IP adres, dat gebruikt kan worden voor het bepalen van je locatie en gebruikt kan worden om kruisverwijzingen van je identiteit met andere sites die je hebt bezocht te bepalen / onderzoeken.",
+        "info_cookies": "Alle cookies geplaatst door Google in de afgelopen 6 maanden.",
+        "info_mouse_clicks": "Hoeveel muisklikken je hebt gedaan (of \"tikken\" als je op een apparaat met een aanraakscherm werkt).",
+        "info_css": "De CSS-informatie van de pagina",
+        "info_date": "Datum",
+        "info_browser_lang": "De taal van je browser",
+        "info_plugins": "Iedere plugin die je hebt geïnstalleerd op de browser",
+        "info_js": "Javascript objecten op de pagina",
+        "recaptcha_authorization": "Sta je ons toe om Google Recaptcha te laden en daarmee Google toe te staan staan deze informatie te verzamelen?",
+        "recaptcha_authorization_yes": "Ja, ik geef toestemming om Google Recaptcha te laden",
+        "or": "of",
+        "recaptcha_authorization_no": "Nee, stuur een e-mail naar info@okuna.io",
+        "tick_box": "Vink dit vakje aan",
+        "clear_form": "Formulier wissen",
+        "submit": "Verzenden"
+    }
+}

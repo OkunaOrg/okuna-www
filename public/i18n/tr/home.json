@@ -7,7 +7,7 @@
     },
     "honesty": {
         "title": "Açık ve hesap verebilir",
-        "description": "Ağa güç veren tüm kod açık kaynaklıdır, yani herkesin görmesi için açıktır. Abracadabra algoritmaları için yer yok!"
+        "description": "Ağa güç veren tüm kodlar açık kaynaklıdır, yani herkesin görmesi için açıktır. Abracadabra tarzı algoritmalar için yer yok!"
     },
     "privacy": {
         "title": "Gizlilik dostu",
@@ -19,15 +19,15 @@
     },
     "easy": {
         "title": "Samimi ve rahat",
-        "description": "Bizim<a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\"> topluluğumuz tarafından oluşturulmuş kurallarımız</a>'ın bir kombinasyonu ile etik tasarım ve kod, mutluluğun son hedefi olduğu bir dostluk, saygı ve açıklık ortamını teşvik ediyoruz."
+        "description": "Bizim<a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\"> topluluğumuz tarafından oluşturulmuş kurallarımız</a>'ın bir kombinasyonu ile etik tasarım ve kodlarla mutluluğun son hedefi olduğu bir dostluğun saygı ve açıklık ortamını teşvik ediyoruz."
     },
     "fun": {
         "title": "Kendini ifade etmenin daha fazla yolu",
-        "description": "Biz insanlar duygusal varlıklarız. Artan tepki kütüphanemizle dijital benliğinizi ifade etmenin daha fazla yolunu bulun!"
+        "description": "Biz insanlar duygusal varlıklarız. Artan reaksiyon kütüphanemizle dijital benliğinizi ifade etmenin daha fazla yolunu bulun!"
     },
     "personal": {
         "title": "Özelleştirilebilir",
-        "description": "Hepimiz farklıyız yani bu kucaklamak ve kutlamak için güzel bir şey. Özelleştirme özellikleri ile ağının evindeymiş gibi hissetmesini sağlayın!"
+        "description": "Hepimiz farklıyız yani bu kucaklaşmak ve kutlamak için güzel bir şey. Kişiselleştirme özellikleri ile ağınızda evinizdeymişiniz gibi hissetmenizi sağlıyoruz!"
     },
     "community": {
         "title": "Topluluk odaklı",
@@ -39,7 +39,7 @@
     },
     "ads_free": {
         "title": "Etik olarak sürdürülebilir",
-        "description": "Ağ, ekstra tepkilere, animasyonlu avatarlara, temalara ve daha fazlasına erişim sunan isteğe bağlı bir abonelik yoluyla sürdürülür. Kesinlikle sıfır reklam ve kişisel bilgilerinden para kazanılmaz."
+        "description": "Ağ, ekstra reaksiyonlara, animasyonlu avatarlara, temalara ve daha fazlasına erişim sunan isteğe bağlı bir abonelik yoluyla sürdürülür. Kesinlikle sıfır reklam ve kişisel bilgilerinden para kazanılmaz."
     },
     "currency": {
         "title": "Dijital bir para birimi",
@@ -57,12 +57,12 @@
         "phil_quote": "Okuna gelecek için umut veriyor, iş modelinin kurbanı olmadığımız bir sosyal ağ."
     },
     "splash_hero": {
-        "hello_world": "Merhaba <span id=\"hello-subject\">Dünya!</span>",
+        "hello_world": "Merhaba <span class=\"typing\"></span>",
         "world": "Dünya",
         "friends": "Arkadaşlar",
         "family": "Aile",
         "grandma": "Büyükanne",
-        "we_are_ob": "<strong class = \"has-text-logo is-size-5\"> Okuna olarak biz </strong> yarın daha parlak bir etik için sosyal bir ağız.",
+        "we_are_ob": "<strong class = \"has-text-logo is-size-5\"> Biz Okuna olarak </strong> yarınlar adına parlak etik için sosyal bir ağız.",
         "share": "Paylaş",
         "notify_me": "Bizi destekleyin"
     },
@@ -101,7 +101,7 @@
         "title": "Ekiple Tanışın"
     },
     "beta_container": {
-        "title": "Devrime katılın!",
+        "title": "Devrime katıl!",
         "beta_date": "Beta 2019'un ortasında geliyor",
         "email_placeholder": "sizin@epostaadresiniz.com",
         "server_error": "Sunucu sorunları yaşıyoruz. Lütfen birkaç dakika içinde tekrar deneyin.",

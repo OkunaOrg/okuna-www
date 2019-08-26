@@ -39,5 +39,15 @@
         "share_title": "Okuna. Uma rede social para um futuro melhor.",
         "share_description": "Transparente, pessoal, com foco na privacidade e eticamente sustentável.",
         "share_quote": "Junte-se à revolução! Chegando em meados de 2019."
+    },
+    "meta": {
+        "home": "Início",
+        "about-us": "Sobre nós",
+        "contact-us": "Contate-nos",
+        "faq": "FAQ",
+        "angel": "Investidor-anjo",
+        "getapp": "Obter Link do App",
+        "vulnerability-report": "Reportar vulnerabilidade",
+        "manifesto": "Manifesto"
     }
 }

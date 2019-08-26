@@ -1,0 +1,53 @@
+{
+    "global": {
+        "okuna": "Okuna"
+    },
+    "header": {
+        "home": "Home",
+        "about_us": "Over ons",
+        "manifesto": "Manifest",
+        "contact_us": "Neem contact met ons op",
+        "jobs": "Vacatures",
+        "faq": "Veelgestelde vragen (FAQ)",
+        "press": "Pers",
+        "language": "Taal",
+        "blog": "Blog",
+        "angel": "Angel"
+    },
+    "footer": {
+        "report_vulnerability": "Meld een kwetsbaarheid",
+        "twitter": "Twitter",
+        "github": "Github",
+        "reddit": "Reddit",
+        "gitter": "Gitter",
+        "linked_in": "LinkedIn",
+        "product_hunt": "Product Hunt",
+        "facebook": "Facebook",
+        "the_ob_organization": "Okuna",
+        "privacy_policy": "Privacybeleid",
+        "made_with": "Gemaakt met ",
+        "in_europe": " in Europa",
+        "all_rights_reserved": "Alle rechten voorbehouden"
+    },
+    "hud": {
+        "share": "Deel",
+        "share_fb": "Deel op Facebook",
+        "share_twitter": "Delen op Twitter",
+        "share_email": "Verstuur e-mail",
+        "share_linkedin": "Deel op LinkedIn",
+        "share_wa": "Deel op Whatsapp",
+        "share_title": "Okuna. Een sociaal netwerk voor een betere toekomst.",
+        "share_description": "Eerlijk, persoonlijk, privacyvriendelijk en ethisch duurzaam.",
+        "share_quote": "Doe mee met de revolutie! Vanaf medio 2019."
+    },
+    "meta": {
+        "home": "Home",
+        "about-us": "Over ons",
+        "contact-us": "Neem contact met ons op",
+        "faq": "Veelgestelde vragen",
+        "angel": "Angel",
+        "getapp": "App Link ophalen",
+        "vulnerability-report": "Rapporteer kwetsbaarheid",
+        "manifesto": "Manifest"
+    }
+}

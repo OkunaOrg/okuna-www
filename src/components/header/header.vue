@@ -51,6 +51,7 @@
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'fr' }" v-on:click="changeLocale('fr')">Français<i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'hu' }" v-on:click="changeLocale('hu')">Magyar<i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'it' }" v-on:click="changeLocale('it')">Italiano<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'nl' }" v-on:click="changeLocale('nl')">Nederlands<i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'pt-br' }" v-on:click="changeLocale('pt-br')">Português (Brasil)<i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'sv' }" v-on:click="changeLocale('sv')">Svenska<i class="fas fa-check"></i></b-dropdown-item>
                         <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'tr' }" v-on:click="changeLocale('tr')">Türkçe<i class="fas fa-check"></i></b-dropdown-item>

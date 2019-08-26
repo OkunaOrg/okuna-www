@@ -1,0 +1,161 @@
+{
+  "manifesto": {
+    "common": {
+      "reading_time": "Leestijd",
+      "reading_time_minutes": "minuten"
+    },
+    "titles": {
+      "main": "Manifest",
+      "toc": "Inhoudsopgave",
+      "why": "Waarom?",
+      "how": "Hoe?",
+      "honest": "1. Eerlijk.",
+      "customizable": "2. Aanpasbaar.",
+      "secure": "3. Privacy-vriendelijk en veilig",
+      "explicit_consent": "Expliciete en geïnformeerde toestemming",
+      "safe_apps": "Veilige toepassingen",
+      "privacy_by_default": "Standaard Privacy",
+      "easy": "4. Makkelijk.",
+      "research": "5. Onderzoek.",
+      "revenue": "6. Eerlijke inkomsten."
+    },
+    "subtitles": {
+      "main": "Het probleem, de oplossing, de volgende stappen.",
+      "the_reason": "De reden waarom we nog een ander sociaal netwerk bouwen.",
+      "how_are_we_creating": "Hoe creëren we een sociaal netwerk voor een betere toekomst?"
+    },
+    "why": {
+      "awesome": "Sociale netwerken zijn geweldig.",
+      "they_connect": "Ze verbinden ons, helpen ons met het delen van gekoesterde momenten met onze geliefden en brengen ons grappige video's met katten.",
+      "sadly_nowadays": "Helaas zijn de sociale netwerken tegenwoordig niet zozeer bezig met het verbinden van mensen, maar zijn ze bedoeld om zoveel mogelijk geld uit mensen te halen, ongeacht de gevolgen, zoals bijvoorbeeld het verlies van privacy.",
+      "we_want_to_do_better": "We willen het beter doen, en dat is precies de reden waarom we bij Okuna de zaken anders doen.",
+      "we_are_designing": "We ontwerpen een sociaal netwerk met de beste kwaliteiten van de mensheid, zoals vriendelijkheid, mededogen, tolerantie, liefdadigheid, empathie en samenwerking in de kern.",
+      "a_brighter_social_network": "Een beter sociaal netwerk."
+    },
+    "how": {
+      "open_source": "Al onze code is <strong>open-source</strong>. Dit betekent dat het voor iedereen vrij is om te zien, te reproduceren en bij te dragen. We zijn transparant over hoe het sociale netwerk werkt.",
+      "30_percent": "Ook geloven we in een betere wereld voor iedereen. Daarom geven we <strong>30% van onze winst om de wereld een betere plaats te maken</strong>, nu en voor altijd, in partnerschap met <a href=\"https://founderspledge.com/\" rel=\"noreferrer noopener\">FoundersPledge</a>.",
+      "we_are_different": "Omdat we allemaal verschillend zijn en dat is iets om te omarmen en vieren.",
+      "just_like_home": "Je kunt een ervaring maken die alleen voor jou geschikt is. Als je de kleur van je tijdlijn wijzigt, voeg je coole extra widgets toe in je profiel om te kiezen hoe je inhoud in je tijdlijn wilt zien. We willen dat Okuna vertrouwd, vriendelijk en knus voelt voor je. Net als thuis.",
+      "build_Okuna_together": "En als er iets ontbreekt op Okuna, laat het ons weten. We willen Okuna samen bouwen. We zullen een speciale groep creëren waar we je aanmoedigen om te bepalen wat we als volgende bouwen of wat we moeten verbeteren. Laten we de beste sociale ervaring ooit samen opbouwen.",
+      "privacy_and_security": "Dit is wat ons aanvankelijk heeft bewogen om Okuna te bouwen. De privacy en veiligheid van onze gebruikers zullen altijd centraal staan in alles wat we doen. We volgen niets wat je doet, maken je informatie niet te gelde noch delen het zonder je expliciete en geïnformeerde toestemming.",
+      "how_does_this_translate": "Hoe vertaalt zich dit in een real-life scenario?",
+      "crystal_clear": "We zorgen ervoor dat het altijd glashelder is wat er wordt gedeeld, dus geen pop-ups of vage beschrijvingen. Je kunt het zelf ook controleren, gewoon om zeker te zijn.",
+      "will_be_reviewed": "Alle toepassingen zullen door ons worden beoordeeld. We zullen ervoor zorgen dat ze:",
+      "apps_will": {
+        "only_request": "alleen de <strong>vereiste</strong> informatie aanvragen",
+        "exact_location_of_data": "de <strong>exacte</strong> locatie van je gegevens <strong>altijd</strong> beschikbaar voor je hebben",
+        "delete": "<strong>al</strong> je informatie verwijderen als je de toestemming intrekt",
+        "emergency_plan": "een <strong>noodplan</strong> hebben in geval van een gegevenslek en ze <strong>ons/je</strong> onmiddellijk informeren als dat zou gebeuren"
+      },
+      "once_they_meet": "Zodra ze aan deze strenge richtlijnen voldoen, hebben ze een badge onder hun logo. Op je persoonlijke dashboard kun je de exacte locaties van je gedeelde gegevens vastzetten, de toegang van de applicatie intrekken en het beste van alles, een verzoek om verwijdering indienen.",
+      "optional_disabled_by_default": "Alle opties voor delen van gegevens worden standaard uitgeschakeld en het is aan jou als je deze toepassing meer van je gegevens wilt geven in plaats van andersom.",
+      "we_will_research": "We zullen voortdurend onderzoek doen en nieuwe manieren ontwikkelen om je privacy en veiligheid te verbeteren.",
+      "technologies": "Enkele voorbeelden van de technologie die we gaan onderzoeken en ontwikkelen:",
+      "technologies_list": {
+        "crypto_enforced": "Een beleid dat versleutelde uitwisseling van data afdwingt",
+        "e2e": "End-to-end encryptie, zelfs op de browser",
+        "public_key_crypto": "Publieke sleutel cryptografie op de browser",
+        "crypto_algo": "Post-quantum cryptografie algoritmen en protocollen"
+      },
+      "generally_speaking": "Over het algemeen, hoe minder we over jou weten en hoe meer jij over ons weet, hoe beter.",
+      "smooth_transition": "Je hebt waarschijnlijk al een enorme hoeveelheid tijd (en gegevens) in je bestaande sociale netwerken geplaatst. We willen de overgang zo soepel mogelijk maken.",
+      "import_your_data": "Dat is waarom we tools bouwen om je gegevens te importeren uit bestaande sociale netwerken<sup>1</sup>. Denk aan niet meer dan 3 stappen.",
+      "research_1": "Terwijl de initiële drijfveer voor Okuna een privacyvriendelijk sociaal netwerk bouwen was, beslaan de complicaties van bestaande sociale netwerken vele andere onderwerpen zoals: angst om iets te missen, digitale sociale status, discriminatie, digitale mobbing, censuur en meer.",
+      "research_2": "Er is veel onderzoek naar de onderwerpen, helaas hebben tot nu toe slechts enkele spelers de macht gehad om er iets mee te doen. Dat is veranderd.",
+      "research_3": "We ontwerpen het platform met bestaande onderzoeken in gedachten en experimenteren met radicale nieuwe concepten om een aantal van de eerder genoemde kwesties aan te pakken.",
+      "research_4": "We kunnen niet beloven dat onze oplossingen zullen werken, we kunnen wel beloven dat we met behulp van onderzoek en open dialoog zullen blijven proberen totdat ze dat doen.",
+      "no_ads": "Ons bedrijfsmodel is en zal nooit op advertenties gebaseerd zijn. Voor altijd.",
+      "okuna_gold": "Ons revenue model is een optioneel abonnement genaamd <span class=\"has-text-circular\"><strong>Okuna</strong> Gold</span> dat toegang biedt tot meer reacties, thema's en aanpassingsopties.",
+      "digital_currency": "In de toekomst zullen we ook een digitale munt invoeren die gebruikt wordt om de content makers te ondersteunen, zich te abonneren op uitgevers, goederen en diensten te kopen en te verkopen en meer.",
+      "currency_article": "Je kunt alles over deze valuta lezen in <a class=\"has-text-underlined\" href=\"https://medium.com/openbook-org/so-how-will-openbook-make-money-daf99589643d\" rel=\"noreferrer noopener\" target=\"_blank\">dit artikel (plm. 6 min leestijd)</a>"
+    },
+    "examples": {
+      "common": {
+        "btn_continue": "Doorgaan",
+        "btn_cancel": "Annuleren",
+        "btn_back": "Terug",
+        "btn_got_it": "Begrepen!",
+        "required": "(vereist)",
+        "success": "Geslaagd",
+        "last_item": " en",
+        "open_list": "Open lijst",
+        "open_image": "Afbeelding openen"
+      },
+      "title": "Voorbeeld",
+      "normally": "Dat is hoe het delen van gegevens normaal gesproken eruitziet.",
+      "public_wifi": "Stel dat je verbinding wilt maken met een openbare WiFi hotspot, traditioneel verschijnt er een venster zoals hieronder op je computer met het volgende:",
+      "box_below": "Onderstaande box verschijnt op je scherm.",
+      "click": "(Ga door, klik rond zoals je normaal zou doen)",
+      "can_receive_following_data": {
+        "public_profile": "openbaar profiel",
+        "friend_list": "vriendenlijst",
+        "friends": "vrienden",
+        "birthday": "verjaardag",
+        "likes": "vind-ik-leuks",
+        "email": "e-mailadres",
+        "name": "naam",
+        "profile_picture": "profielfoto",
+        "age_range": "leeftijdcategorie",
+        "gender": "geslacht",
+        "language": "taal",
+        "country": "land",
+        "country_of_birth": "geboorteland",
+        "other": "andere openbare info"
+      },
+      "evilcorp": {
+        "before_you_can_enjoy": "Voordat je kunt genieten van onze gratis Wifi Hotspots, dien je verder te gaan met EvilCorp.",
+        "continue": "Ga verder met EvilCorp",
+        "will_receive": "<strong>WiFi Hotspots App</strong> zal ontvangen:",
+        "will_receive_list": "je {requested_data}.",
+        "public_profile_includes": "Je openbare profiel omvat: {public_info}.",
+        "edit": "Bewerk dit",
+        "shared_the_info": "Het sociale netwerk heeft je informatie nu met de applicatie gedeeld.",
+        "restart": "Voorbeeld herstarten",
+        "descriptions": {
+          "public_profile": "Pietje Puk, profielfoto, 33+ jaar oud, man en andere publieke info",
+          "friend_list": "Mike Chowder, Barbara Lamb en 590 anderen.",
+          "birthday": "12 januari 1990",
+          "likes": "The Daily Show, NBC en 978 anderen",
+          "email_address": "pietje@puk.com"
+        }
+      },
+      "congrats": "Gefeliciteerd! Je hebt zojuist je persoonlijke informatie gedeeld met een WiFi hotspot!",
+      "do_you_know": "Weet je welke gegevens je zojuist met de applicatie hebt gedeeld?",
+      "hovered_icon": "Als je bijvoorbeeld over het \"i\"-pictogram zweefde, dan had je wellicht gemerkt dat het aangeeft:",
+      "quote": "Je openbare profiel bevat naam, profielfoto, leeftijdscategorie, geslacht, taal, land en <i><strong>”andere openbare info”</i></strong>?”",
+      "what_qualifies": "Wat kwalificeert als <i>\"overige publieke informatie\"</i>? En waarom zou een WiFi-hotspot al deze informatie van je willen hebben? Zal je sneller WiFi krijgen op basis van je geslacht of leeftijd? En wat gaat met je gegevens gebeuren zodra ze dit hebben?",
+      "people_share": "Mensen delen meer persoonlijke informatie dan waar ze aanvankelijk bij stil staan en zodra de gegevens zijn gedeeld, is er geen mogelijkheid meer dit ongedaan te maken.",
+      "how_we_do_it": "Hier is hoe wij het doen:",
+      "awesome_music_app": "Laten we zeggen dat je die ene geweldige muziek-app hebt gedownload waar iedereen het over heeft. Zodra je de app opent, wordt het onderstaande vak getoond.",
+      "songipy": {
+        "prompt": "Om Songipy te gebruiken moet je doorgaan met Okuna.",
+        "continue": "Ga verder met Okuna",
+        "safe_to_use": "Deze applicatie is veilig te gebruiken.",
+        "strict_policy": "Het voldoet aan ons strikte privacy- en veiligheidseisen.",
+        "learn_more": "Meer weten",
+        "in_order_to_continue": "Om door te gaan, heeft <strong>Songipy</strong> je {required_data} nodig.",
+        "optionally": "<strong>Optioneel</strong>, wil het ook toegang tot je {optional_data}.",
+        "edit_optional_data": "Optioneel gedeelde gegevens bewerken",
+        "inspect": "Bekijk gedeelde gegevens",
+        "descriptions": {
+          "name": "Jules Winnfield",
+          "email": "badmf@pfiction.com",
+          "gender": "mannelijk",
+          "language": "Engels",
+          "country": "VS",
+          "birthday": "25-3-1997"
+        },
+        "okuna_has_shared": "Okuna heeft nu je informatie met Songipy gedeeld.",
+        "restart": "Herstart prototype",
+        "safe_app_modal": "<div class=\"content\"><p>In de niet-prototype versie, zal dit je doorverwijzen naar een pagina met gedetailleerde informatie over beveiligde applicaties.</p><p>Kort samengevat, beveiligde applicaties zijn toepassingen die het delen van gegevens niet misbruiken, het verwijderen van je gegevens uit hun systemen toestaan en op elk moment weten waar je gegevens zijn.</p><p>Meer informatie over dit volgt hieronder.</p></div>",
+        "list_modal": "In de niet-prototype versie zou dit een lijst openen met de volledige lijst van je {data_name}."
+      },
+      "did_you_spot": "Heb je de verschillen gemerkt?",
+      "most_important_ones": "Dit zijn de belangrijkste."
+    },
+    "gdpr_footnote": "[1] Met de nieuwe AVG regelgeving moeten sociale netwerken de gebruikers het nu toestaan dit te doen.",
+    "still_have_questions": "Heb je nog steeds vragen?",
+    "visit_faq": "Lees onze FAQ"
+  }
+}

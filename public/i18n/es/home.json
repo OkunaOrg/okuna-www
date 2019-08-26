@@ -57,7 +57,7 @@
         "phil_quote": "Okuna tiene esperanza para el futuro, una red social en la que no somos víctimas de su modelo de negocio."
     },
     "splash_hero": {
-        "hello_world": "¡Hola <span id=\"hello-subject\">mundo!</span>",
+        "hello_world": "Hola <span class=\"typing\"></span>",
         "world": "mundo",
         "friends": "amigos",
         "family": "familia",

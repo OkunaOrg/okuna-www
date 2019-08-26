@@ -1,0 +1,36 @@
+{
+    "team_members": {
+        "joel_title": "Founder & Chief",
+        "joel_desc": "Privacy en beveiligingsactivist, software engineer, digitale producten ontwerper, open sourcerer, The Next Web Top 500 jonge talent, mens.",
+        "jaya_title": "Operations Sensei",
+        "jaya_desc": "Wereldwijd erkende informatiebeveiligingsdeskundige, spreker over wettelijke interceptie, quantum-computing, counter surveillance en cryptografie.",
+        "phil_title": "Cryptography Wizard",
+        "phil_desc": "Cryptografie pionier, maker van PGP, de meest gebruikte e-mailencryptie software ter wereld, \"internet hall of fame\"-lid, privacy activist.",
+        "lambrecht_title": "Media Maestro",
+        "lambrecht_desc": "Veiligheids- en internationale betrekkingen expert, conflictanalist, vredestichter, mediaonderzoeker & producent, mensenrechtenactivist.",
+        "vincent_title": "Hacker-in-residence",
+        "vincent_desc": "Ethische hacker, reverse-engineer, exploit ontwikkelaar, spreker, houdt niet van het woord cyber, cyber expert.",
+        "bas_title": "Senior Concept Exorcist",
+        "bas_desc": "Voorstander van nuttige en zinvolle producten, magiër gebruikerservaring, heeft gewerkt met talrijke internationale merken, onderzoeker, hardware hacker.",
+        "shantanu_title": "Digital Sorcerer",
+        "shantanu_desc": "Pragmatische software ingenieur met een talent voor het bouwen van geweldige producten en ervaringen, crypto-geek, bot-maker, voorstander van eenvoud.",
+        "nathalie_title": "Master Catalyst",
+        "nathalie_desc": "Meesterplanner, personificatie van optimisme, wil je dingen voor elkaar krijgen? Bel Nathalie. ",
+        "robin_title": "Brand Warrior",
+        "robin_desc": "Content marketing goochelaar, het volgende Web Top 500 jong talent, strand liefhebber, haat te wordt verstoord door routine, houdt van het leven buiten de comfortzone.",
+        "martijn_title": "Software Ninjaneer",
+        "martijn_desc": "Praktische software ingenieur, JavaScript guru, draagbare technologie geek, gamer, coolness manager."
+    },
+    "ambassadors": {
+        "isaac_name": "Isaac Hernández",
+        "isaac_desc": "Artiest, sociale ondernemer.",
+        "ruben_name": "Ruben van Vreeland",
+        "ruben_desc": "CEO & mede operichter van BitSensor, cyber-security software.",
+        "edwin_name": "Edwin van Andes",
+        "edwin_desc": "CEO bij Zerocopter, internationale spreker, ervaren beveiligingsexpert.",
+        "chris_name": "Chris Duke",
+        "chris_desc": "Host & uitvoerend producent, Motorz TV",
+        "ashwin_name": "Ashwin Krishnan",
+        "ashwin_desc": "COO van UberKnowledge, tech ethicus, schrijver, podcast host, spreker."
+    }
+}

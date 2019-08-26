@@ -19,11 +19,11 @@
     },
     "easy": {
         "title": "Vänligt och avslappnat",
-        "description": "Genom en kombination av våra <a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\">gemenskapsbyggda riktilinjer</a>, etisk design och kod, främjer vi en omgivning av vänlighet, respekt och öppenhet, där glädje är slutmålet."
+        "description": "Genom en kombination av våra <a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\">gemenskapsbyggda riktlinjer</a>, etisk design och kod, främjer vi en omgivning av vänlighet, respekt och öppenhet, där glädje är slutmålet."
     },
     "fun": {
         "title": "Fler sätt att uttrycka dig själv",
-        "description": "Vi människor är emotionella varelser. Hitta fler sätt att uttrycka ditt digitala själv med vårat växande bibliotek av reaktioner!"
+        "description": "Vi människor är emotionella varelser. Hitta fler sätt att uttrycka ditt digitala själv med vårat växande utbud av reaktioner!"
     },
     "personal": {
         "title": "Anpassningsbart",
@@ -57,7 +57,7 @@
         "phil_quote": "Okuna ger hopp om framtiden, ett socialt nätverk där vi inte är offer till dess affärsmodell."
     },
     "splash_hero": {
-        "hello_world": "Hej <span id=\"hello-subject\">världen!</span>",
+        "hello_world": "Hej <span class=\"typing\"></span>",
         "world": "världen",
         "friends": "mina vänner",
         "family": "familjen",

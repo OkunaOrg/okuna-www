@@ -2,80 +2,80 @@
     "home": {
         "want_to_know_more": "Vous souhaitez en savoir plus ?",
         "read_manifesto": "Lire notre manifeste",
-        "featured_in": "Comme mentionné dans",
-        "signup_button": "Sign up for beta"
+        "featured_in": "Mentionné dans",
+        "signup_button": "Inscrivez-vous à la version bêta"
     },
     "honesty": {
         "title": "Ouvert et responsable",
-        "description": "Tout le code qui alimente le réseau est libre, ce qui signifie libre de le voir pour quiconque. Pas de place pour les algorithmes abracadabra !"
+        "description": "Tout le code qui alimente le réseau est libre, ce qui signifie que tout le monde peut le voir. Pas de place pour les algorithmes abracadabrantesque !"
     },
     "privacy": {
-        "title": "Confidentiel",
-        "description": "Nous croyons fermement que la confidentialité est un droit fondamental de l'être humain. Nous ne traquons ni surveillons votre activité."
+        "title": "Respectueux de la vie privée",
+        "description": "Nous croyons fermement que la vie privée est un droit fondamental de l'être humain. Nous ne traquons et ne surveillons pas votre activité."
     },
     "secure": {
-        "title": "Sécuritaire dès la conception",
-        "description": "Notre expérience est en sécurité de l'information. Nous incorporons la sécurité, dès le début."
+        "title": "Sécurisé de part sa conception",
+        "description": "Nous avons une grande expérience en sécurité informatique. Nous intégrons la sécurité, dès le départ."
     },
     "easy": {
         "title": "Amical et détendu",
-        "description": "Grâce à une combinaison de nos lignes directives <a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\">élaborées par la communauté</a>, de la conception et du code éthiques, nous favorisons un environnement d'amitié, de respect et d'ouverture où le bonheur est le but à atteindre."
+        "description": "Grâce à une combinaison d'à la fois <a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\">nos lignes directrices élaborées par la communauté</a>, du code éthique et de la conception, nous favorisons un environnement d'amitié, de respect et d'ouverture où le bonheur est le but à atteindre."
     },
     "fun": {
         "title": "Plus de moyens pour vous exprimer",
-        "description": "Nous, êtres humains, sommes des êtres émotionnels. Trouvez plus de moyens d'exprimer votre identité numérique avec notre bibliothèque croissante de réactions !"
+        "description": "Nous, humains, sommes des êtres plein d'émotions. Trouvez plus de moyens d'exprimer votre identité numérique avec notre collection grandissante de réactions !"
     },
     "personal": {
         "title": "Personnalisable",
-        "description": "Nous sommes tous.tes différent.e.s et c'est quelque chose à accueillir à bras ouverts et à célébrer. Avec des fonctionnalités personnalisées, faites que vous puissiez vous sentir comme chez vous dans le réseau !"
+        "description": "Nous sommes tous.tes différent.e.s et c'est quelque chose à accueillir à bras ouverts. Avec des fonctionnalités personnalisées sur le réseau, sentez-vous comme à la maison !"
     },
     "community": {
-        "title": "Orienté par les communautés",
-        "description": "Découvrez des intérêts et des gens en rejoignant l'une des 2 500 communautés existantes disponibles ou en créant et en développant la vôtre!"
+        "title": "Orienté vers les communautés",
+        "description": "Découvrez des intérêts et des gens en rejoignant l'une des 2 500 communautés existantes ou en créant et développant la vôtre!"
     },
     "good_for_planet": {
-        "title": "Pour un meilleur demain",
-        "description": "Outre le don d'un pourcentage de nos bénéfices <a href=\"https://founderspledge.com/research\" rel=\"noreferrer noopener\">vers des causes dignes</a>, nous sommes aussi légalement engagés à être une influence positive sur la société et l'environnement."
+        "title": "Pour un meilleur lendemain",
+        "description": "Outre le don d'un pourcentage de nos bénéfices <a href=\"https://founderspledge.com/research\" rel=\"noreferrer noopener\">à des causes dignes</a>, nous sommes aussi légalement engagés à avoir un impact positif sur la société et l'environnement."
     },
     "ads_free": {
         "title": "Soutenu de façon éthique",
         "description": "Le réseau est soutenu par un abonnement optionnel offrant l'accès à des réactions supplémentaires, des avatars animés, des thèmes et plus encore. Absolument zéro publicité et monétisation des informations personnelles."
     },
     "currency": {
-        "title": "Une devise numérique",
-        "description": "Nous travaillons également sur une devise numérique appelée <strong>Tip</strong> pour être utilisée comme moyen de soutenir votre vidéoréalisateur.trice préféré.e, souscrire aux éditeurs.trices, payer des services et plus encore."
+        "title": "Une monnaie numérique",
+        "description": "Nous travaillons également sur une monnaie numérique appelée <strong>Tip</strong> qui pourra être utilisée comme moyen de soutenir votre vidéoréalisateur.trice préféré.e, souscrire aux éditeurs.trices, payer pour des services et plus encore."
     },
     "quotes": {
         "joel_name": "Joel Hernández",
         "joel_title": "Fondateur d'Okuna",
-        "joel_quote": "Je pense à un monde de technologie généreuse, ouverte, responsable et respectueuse. Okuna est le réseau social de ce monde.",
+        "joel_quote": "J'imagine un monde où la technologie serait bienveillante, ouverte, responsable et respectueuse. Okuna est le réseau social de ce monde.",
         "vincent_name": "Vincent Ruijter",
         "vincent_title": "Hacker éthique",
         "vincent_quote": "Okuna pourrait être la dernière vraie chance de construire quelque chose de différent, quelque chose d'éthique, quelque chose de mieux.",
         "phil_name": "Phil Zimmermann",
-        "phil_title": "Membre du temple de la renommée de l'Internet",
+        "phil_title": "Membre du panthéon d'Internet",
         "phil_quote": "Okuna est porteur d'espoir pour le futur, un réseau social où nous ne sommes pas victimes de son modèle d'affaires."
     },
     "splash_hero": {
-        "hello_world": "Bonjour <span id=\"hello-subject\"> tout le monde !</span>",
-        "world": "monde entier",
+        "hello_world": "Bonjour <span class=\"typing\"></span>",
+        "world": "monde",
         "friends": "ami.e.s",
         "family": "famille",
         "grandma": "grand-mère",
-        "we_are_ob": "Nous sommes <strong class=\"has-text-logo is-size-5\">Okuna</strong>, un réseau social éthique pour un meilleur demain.",
+        "we_are_ob": "Nous sommes <strong class=\"has-text-logo is-size-5\">Okuna</strong>, un réseau social éthique pour un meilleur lendemain.",
         "share": "Partager",
         "notify_me": "Soutenez-nous"
     },
     "why_ob": {
         "title": "Pourquoi Okuna?",
         "subtitle": "Certains des éléments-clés qui nous distinguent des autres réseaux sociaux.",
-        "zero_tracking": "Zéro suivi",
-        "zero_tracking_desc": "Nous ne vous suivrons jamais, n'importe où, de quelque façon que ce soit.",
-        "zero_spying": "Zéro espionnage",
-        "zero_spying_desc": "Soyez confiant.e.s que vos conversations privées sont vraiment privées.",
-        "zero_ads": "Zéro publicité",
-        "zero_ads_desc": "La publicité entraîne de la publicité ciblée, ce qui entraîne à son tour de la perte de confidentialité en ligne. Nous n'aurons pas de publicités.",
-        "data_protection": "Protection des données rigoureuse",
+        "zero_tracking": "Pas de traquage",
+        "zero_tracking_desc": "Nous ne vous traquerons jamais, nulle part, de quelque façon que ce soit.",
+        "zero_spying": "Pas d'espionnage",
+        "zero_spying_desc": "Soyez certain.e que vos conversations privées le sont vraiment.",
+        "zero_ads": "Pas de publicité",
+        "zero_ads_desc": "La publicité entraîne la publicité ciblée, qui entraîne à son tour la perte de confidentialité en ligne. Nous n'aurons pas de publicités.",
+        "data_protection": "Protection rigoureuse des données",
         "data_protection_desc": "Les applications tierces qui souhaitent accéder à vos données devront respecter nos politiques de sécurité strictes et rigoureuses.",
         "honest": "Honnête",
         "honest_desc": "Tout notre code est libre et ouvert à tous.tes pour l'inspecter, le reproduire et y contribuer. Pas de surprises désagréables.",
@@ -101,10 +101,10 @@
         "title": "Rencontrez l'équipe"
     },
     "beta_container": {
-        "title": "Join the revolution!",
-        "beta_date": "Beta coming mid 2019",
-        "email_placeholder": "your@email.com",
-        "server_error": "We're experiencing server issues. Please try again in a few minutes.",
-        "success": "&nbsp;&nbsp;Hooray! You're number {count} on our waitlist."
+        "title": "Rejoignez la révolution !",
+        "beta_date": "Version bêta à venir à la mi-2019",
+        "email_placeholder": "votre@courriel.com",
+        "server_error": "Nous éprouvons des problèmes de serveur. Veuillez s.v.p. réessayer dans quelques minutes.",
+        "success": "&nbsp;&nbsp;Hourra! Vous êtes numéro {count} sur notre liste d'attente."
     }
 }
