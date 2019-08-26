@@ -6,7 +6,7 @@
         "jump_to": "Springe zu",
         "name": "Was soll der Name?",
         "name_ans": "Der Name kommt aus der Sprache <a href=\"https://de.m.wikipedia.org/wiki/Esperanto\" rel=\"nofollow noreferrer\">Esperanto</a> und bedeutet gemeinsam: <strong>kune</strong>.",
-        "openbook": "Hießt ihr nicht mal Openbook?",
+        "openbook": "Wart ihr nicht mal Openbook?",
         "openbook_ans": "Ja, bis eine bestimmte Firma ihre Anwälte in Bezug auf das Wort <i>book</i> geschickt hat.",
         "whos_paying": "Wer bezahlt bisher für alles?",
         "is_distributed": "Wird Okuna dezentralisiert?",
@@ -31,6 +31,6 @@
         "more_questions": "Noch Fragen?",
         "send_us_message": "Sende uns eine Nachricht",
         "why_not_decentralised": "Wird Okuna dezentralisiert?",
-        "why_not_decentralised_ans": "Der Aufbau eines föderierten Anmeldesystems, das es selbst gehosteten Instanzen ermöglicht, sich in das Hauptnetzwerk einzuloggen, während sie selbstständig arbeiten können, ist Teil unserer Roadmap."
+        "why_not_decentralised_ans": "Der Aufbau eines föderierten Anmeldesystems, das es selbst gehosteten Instanzen ermöglicht, sich mit dem Hauptnetzwerk zu verbinden und trotzdem selbstständig arbeiten zu können, ist Teil unserer Roadmap."
     }
 }

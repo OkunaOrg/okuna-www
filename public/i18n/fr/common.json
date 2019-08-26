@@ -11,8 +11,8 @@
         "faq": "FAQ",
         "press": "Presse",
         "language": "Langue",
-        "blog": "Blogue",
-        "angel": "Angel"
+        "blog": "Blog",
+        "angel": "Ange gardien"
     },
     "footer": {
         "report_vulnerability": "Signaler une vulnérabilité",
@@ -27,7 +27,7 @@
         "privacy_policy": "Politique de confidentialité",
         "made_with": "Construit avec ",
         "in_europe": " en Europe",
-        "all_rights_reserved": "All Rights Reserved"
+        "all_rights_reserved": "Tous droits réservés"
     },
     "hud": {
         "share": "Partager",
@@ -35,9 +35,19 @@
         "share_twitter": "Partager sur Twitter",
         "share_email": "Envoyer un courriel",
         "share_linkedin": "Partager sur LinkedIn",
-        "share_wa": "Partager sur Whatsapp",
+        "share_wa": "Partager sur WhatsApp",
         "share_title": "Okuna. Un réseau social pour un meilleur avenir.",
         "share_description": "Honnête, personnel, respectueux de la vie privée et soutenu financièrement de façon éthique.",
         "share_quote": "Rejoignez la révolution ! Dès la mi-2019."
+    },
+    "meta": {
+        "home": "Home",
+        "about-us": "About us",
+        "contact-us": "Contact us",
+        "faq": "FAQ",
+        "angel": "Angel",
+        "getapp": "Get App Link",
+        "vulnerability-report": "Report vulnerability",
+        "manifesto": "Manifesto"
     }
 }

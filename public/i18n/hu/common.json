@@ -39,5 +39,15 @@
         "share_title": "Okuna. Egy közösségi hálózat egy jobb jövőért.",
         "share_description": "Őszinte, személyes, magánélet-orientált és etikailag fenntartott.",
         "share_quote": "Csatlakozz te is! 2019 közepén útnak indulunk."
+    },
+    "meta": {
+        "home": "Főoldal",
+        "about-us": "Rólunk",
+        "contact-us": "Kapcsolat",
+        "faq": "GYIK",
+        "angel": "Angyal",
+        "getapp": "Alkalmazáslink beszerzése",
+        "vulnerability-report": "Sebezhetőség jelentése",
+        "manifesto": "Nyilatkozat"
     }
 }

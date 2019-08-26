@@ -15,49 +15,49 @@
     },
     "secure": {
         "title": "Biztonság a középpontban",
-        "description": "Tapasztaltak vagyunk az információbiztonság terén. Az elejétől kezdve biztonsággal előtérben csinálunk mindent."
+        "description": "Tapasztaltak vagyunk az információbiztonság terén. A biztonságot szem előtt tartva tervezünk mindent, már a kezdetektől."
     },
     "easy": {
-        "title": "Barátságos és kényelmes",
+        "title": "Barátságos és felszabadult légkör",
         "description": "A <a href=\"https://github.com/OkunaOrg/Okuna-api/blob/master/docs/COMMUNITY_GUIDELINES.md\" rel=\"noreferrer noopener nofollow\">közösség által formált irányelveink</a>, etikus tervezés és kód kombinációjával szeretnénk olyan körülményeket létrehozni, melyek barátságon, tiszteleten és nyitottságon alapulnak, és ahol a boldogság a fő cél."
     },
     "fun": {
         "title": "Több módja az önkifejezésnek",
-        "description": "Mi emberek érzésekkel vagyunk megáldva. Folyamatosan növekvő reakciókönyvtárunkkal biztos találsz több módot, mellyel kifejezheted digitális énedet!"
+        "description": "Mi, emberek, érzésekkel vagyunk megáldva. Folyamatosan növekvő reakciókönyvtárunkkal biztosan találsz rá módot, hogy kifejezd digitális énedet!"
     },
     "personal": {
         "title": "Testreszabható",
-        "description": "Mindannyian különbözőek vagyunk és ezt szeretnénk átfogni és megünnepelni. Testreszabhatósági lehetőségeinkkel olyanná formálhatod a közösségi hálózatot, mint amilyen te vagy!"
+        "description": "Mindannyian különbözőek vagyunk, mi pedig felkarolni és ünnepelni szeretnénk ezt. Testreszabhatósági lehetőségeinkkel olyanná formálhatod a közösségi hálózatot, mint amilyen te vagy!"
     },
     "community": {
         "title": "Közösségorientált",
-        "description": "Fedezz fel érdeklődési köröket és embereket, csatlakozz a több, mint 2500 közösségünk bármelyikéhez vagy hozd létre és növeld sajátodat!"
+        "description": "Fedezz fel érdeklődési köröket és embereket, csatlakozz a több mint 2500 közösségünk bármelyikéhez, vagy hozd létre és növeld a sajátodat!"
     },
     "good_for_planet": {
         "title": "Egy szebb jövőért",
-        "description": "Amellett, hogy bevételünk egy részét <a href=\"https://founderspledge.com/research\" rel=\"noreferrer noopener\">adományra használjuk fel</a>, elkötelezettek vagyunk arra, hogy pozitív hatást gyakoroljunk a társadalmon és a környezeten belül."
+        "description": "Amellett, hogy bevételünk egy részét <a href=\"https://founderspledge.com/research\" rel=\"noreferrer noopener\">méltó ügyek támogatására fordítjuk</a>, jogi kötelezettségként vállaljuk, hogy pozitív hatást gyakorolunk a társadalomra és a környezetre."
     },
     "ads_free": {
         "title": "Etikusan fenntartott",
-        "description": "A közösségi hálózat egy opcionális fizetéses szolgáltatás által van fenntartva, mely hozzáférést nyújt extra reakciókhoz, animált profilképekhez, témákhoz és még sok máshoz. Nincs reklám és nem értékesítjük a felhasználók személyes adatait."
+        "description": "A közösségi hálózatot opcionális előfizetésekből tartjuk fenn, amely extra reakciókhoz, animált profilképekhez, témákhoz és még sok minden máshoz nyújt hozzáférést. Nincs reklám és nem értékesítjük a felhasználók személyes adatait."
     },
     "currency": {
         "title": "Egy digitális pénznem",
-        "description": "Mi egy <strong>Tip</strong> nevű digitális pénznemen is dolgozunk, melynek segítségével támogathatod kedvenc videósaidat, feliratkozhatsz kiadókra, fizethetsz szolgáltatásokért és még sok másért."
+        "description": "Egy <strong>Tip</strong> nevű digitális pénznemen is dolgozunk, melynek segítségével támogathatod kedvenc videóalkotóidat, feliratkozhatsz kiadókra, fizethetsz szolgáltatásokért és még sok másért."
     },
     "quotes": {
         "joel_name": "Joel Hernández",
         "joel_title": "Az Okuna alapítója",
-        "joel_quote": "Elképzelek egy világot, melyben a technológia jóindulatú, nyitott, felelősségteljes és tiszteletteljes. Az Okuna ennek a világnak a közösségi hálózata.",
+        "joel_quote": "Egy olyan világot képzelek el, amelyben a technológia jóindulatú, nyitott, felelős és tiszteletteljes. Az Okuna ennek a világnak a közösségi hálózata.",
         "vincent_name": "Vincent Ruijter",
         "vincent_title": "Etikus hacker",
         "vincent_quote": "Az Okuna lehet az utolsó esélyünk arra, hogy valami különbet, etikusat és jobbat hozzunk létre.",
         "phil_name": "Phil Zimmermann",
-        "phil_title": "Internet hírességek csarnokának tagja",
-        "phil_quote": "Az Okuna reményt ad a jövő számára - egy közösségi hálózat, ahol nem vagyunk holmi üzleti modell áldozatai."
+        "phil_title": "Az Internet Hírességek Csarnokának tagja",
+        "phil_quote": "Az Okuna reményt ad a jövő számára, egy olyan közösségi hálózatként, ahol nem vagyunk az üzleti modell áldozatai."
     },
     "splash_hero": {
-        "hello_world": "Helló <span id=\"hello-subject\">világ!</span>",
+        "hello_world": "Helló <span class=\"typing\"></span>",
         "world": "világ",
         "friends": "barátok",
         "family": "család",
@@ -68,25 +68,25 @@
     },
     "why_ob": {
         "title": "Miért az Okuna?",
-        "subtitle": "Néhány dolog ami elkülönít minket a szokásos közösségi hálózatoktól.",
-        "zero_tracking": "Zéró nyomonkövetés",
+        "subtitle": "A legfontosabb dolgok, amelyek elkülönítenek minket más közösségi hálózatoktól.",
+        "zero_tracking": "Nincs nyomonkövetés",
         "zero_tracking_desc": "Soha, semmilyen körülmények között nem követünk.",
-        "zero_spying": "Zéró kémkedés",
+        "zero_spying": "Nincs kémkedés",
         "zero_spying_desc": "Privát beszélgetéseid végre újra privátak lehetnek.",
-        "zero_ads": "Reklámmentes",
-        "zero_ads_desc": "A reklámok miatt jöttek létre a célzott reklámok, mely az online magánélet elvesztését jelentette. Nálunk nincsenek reklámok.",
+        "zero_ads": "Nincs reklám",
+        "zero_ads_desc": "A reklámból fakad a célzott reklám, ami pedig az online magánélet elvesztéséhez vezet. Nálunk nincsenek reklámok.",
         "data_protection": "Erős adatvédelem",
-        "data_protection_desc": "Azon harmadik-felektől származó alkalmazások, melyek az adataidhoz szeretnének hozzáférni, meg kell felelniük szigorú és kemény biztonsági irányelveinknek.",
+        "data_protection_desc": "Azon harmadik féltől származó alkalmazásoknak, amelyek az adataidhoz szeretnének hozzáférni, meg kell felelniük szigorú biztonsági irányelveinknek.",
         "honest": "Őszinte",
-        "honest_desc": "Minden forráskódunk szabadon elérhető, elemezhető, reprodukálható és hozzájárulható bárki számára. Nincsenek kellemetlen meglepetések.",
+        "honest_desc": "Minden forráskódunk szabadon elérhető és elemezhető, továbbá reprodukálható és hozzájárulható bárki által. Nincsenek kellemetlen meglepetések.",
         "easy_to_migrate": "Könnyű migrálás",
         "easy_to_migrate_desc": "Eszközeinkkel az összes létező adatodat áthozhatod hozzánk.",
         "future_proof": "Jövőbiztos",
-        "future_proof_desc": "Szolid és hasznos, peer-to-peer alapú üzleti modellünknek köszönhetően hosszú ideig itt leszünk.",
+        "future_proof_desc": "Jól átgondolt, peer-to-peer tranzakciókon alapuló üzleti modellünknek köszönhetően hosszú távon jelen leszünk.",
         "modern_design": "Modern, szép, etikusan tervezett.",
-        "modern_design_desc": "A legújabb technológiákkal tervezve, valamint a részletekre és etikára figyelmet fektetve, ilyet sehol máshol nem találhatsz.",
+        "modern_design_desc": "A legújabb technológiákkal dolgozunk, kiemelt figyelemmel a részletekre és az etikus működésre - ezt nem találod meg sehol máshol.",
         "good_for_planet": "Jó a bolygónk számára",
-        "good_for_planet_desc": "Bízunk egy jobb világban. Éppen ezért használjuk fel a bevételünk 30%-át arra, hogy jobbá tegyük a világot - most és örökre."
+        "good_for_planet_desc": "Bízunk egy jobb világban. Éppen ezért használjuk fel a bevételünk 30%-át arra, hogy jobbá tegyük a világot - most és a jövőben örökre."
     },
     "count_down": {
         "kickstarter": "Okuna",

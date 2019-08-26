@@ -312,6 +312,10 @@
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Italiano <i class="fas fa-check"></i></div>
                                     </li>
+                                    <li class="columns is-mobile" v-bind:class="{ active: currentLocale === 'nl' }" v-on:click="changeLocale('nl')">
+                                        <div class="column"></div>
+                                        <div class="column is-two-thirds">Nederlands <i class="fas fa-check"></i></div>
+                                    </li>
                                     <li class="columns is-mobile" v-bind:class="{ active: currentLocale === 'pt-br' }" v-on:click="changeLocale('pt-br')">
                                         <div class="column"></div>
                                         <div class="column is-two-thirds">Português (Brasil) <i class="fas fa-check"></i></div>

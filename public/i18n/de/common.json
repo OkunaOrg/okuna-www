@@ -17,7 +17,7 @@
     "footer": {
         "report_vulnerability": "Schwachstellen melden",
         "twitter": "Twitter",
-        "github": "GitHub",
+        "github": "Github",
         "reddit": "Reddit",
         "gitter": "Gitter",
         "linked_in": "LinkedIn",
@@ -39,5 +39,15 @@
         "share_title": "Okuna. Ein soziales Netzwerk für eine bessere Zukunft.",
         "share_description": "Ehrlich, persönlich, datenschutzfreundlich und ethisch nachhaltig.",
         "share_quote": "Werde Teil der Revolution! Ab Mitte 2019."
+    },
+    "meta": {
+        "home": "Startseite",
+        "about-us": "Über uns",
+        "contact-us": "Schreib uns",
+        "faq": "FAQ",
+        "angel": "Engel",
+        "getapp": "App Link erhalten",
+        "vulnerability-report": "Schwachstelle melden",
+        "manifesto": "Manifest"
     }
 }

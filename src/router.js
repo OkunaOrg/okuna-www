@@ -6,7 +6,7 @@ import i18next from 'i18next';
 import store from './store';
 
 const locale = require('browser-locale')();
-const supportedLocales = ['en', 'de', 'es', 'fr', 'hu', 'it', 'pt-br', 'sv', 'tr'];
+const supportedLocales = ['en', 'de', 'es', 'fr', 'hu', 'it', 'nl', 'pt-br', 'sv', 'tr'];
 
 Vue.use(Router);
 
