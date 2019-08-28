@@ -503,8 +503,9 @@
         name: 'ob-mobile-menu',
         data() {
             return {
-                isOpen: false
-            }
+                isOpen: false,
+                currentLocale: this.$i18n.i18next.language || window.localStorage.i18nextLng
+            };
         },
         mounted() {
             const eventRemovers = [
@@ -524,11 +525,6 @@
                 this.closeMenu();
             }
         },
-        computed: {
-            currentLocale() {
-                return this.$i18n.i18next.language || window.localStorage.i18nextLng
-            }
-        },
         methods: {
             onWantsToOpenMenu() {
                 document.getElementsByTagName('html')[0].className += ' html-overflow-hidden';
@@ -545,6 +541,7 @@
                 this.isOpen = false;
             },
             changeLocale(locale) {
+                this.currentLocale = locale;
                 const path = this.$router.currentRoute.path.split('/')[2];
                 this.$router.push(`/${locale}/${path}`);
             }
