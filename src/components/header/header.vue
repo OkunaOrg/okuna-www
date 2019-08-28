@@ -40,7 +40,7 @@
                         >{{ $t('common:header.press') }}</a>
                     </div>
                 </div>
-                <div class="navbar-item select-language is-hidden-mobile">
+                <div class="navbar-item select-language is-hidden-touch">
                     <b-dropdown class="is-right">
                         <div class="current-language" slot="trigger">
                             <span>{{getCurrentLang(currentLocale)}} <i class="fas fa-angle-down"></i></span>
