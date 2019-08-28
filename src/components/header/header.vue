@@ -43,18 +43,18 @@
                 <div class="navbar-item select-language is-hidden-mobile">
                     <b-dropdown class="is-right">
                         <div class="current-language" slot="trigger">
-                            <span>{{getCurrentLang($i18n.i18next.language || window.localStorage.i18nextLng)}} <i class="fas fa-angle-down"></i></span>
+                            <span>{{getCurrentLang(currentLocale)}} <i class="fas fa-angle-down"></i></span>
                         </div>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'en' }" v-on:click="changeLocale('en')">English <i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'de' }" v-on:click="changeLocale('de')">Deutsch<i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'es' }" v-on:click="changeLocale('es')">Español<i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'fr' }" v-on:click="changeLocale('fr')">Français<i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'hu' }" v-on:click="changeLocale('hu')">Magyar<i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'it' }" v-on:click="changeLocale('it')">Italiano<i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'nl' }" v-on:click="changeLocale('nl')">Nederlands<i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'pt-br' }" v-on:click="changeLocale('pt-br')">Português (Brasil)<i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'sv' }" v-on:click="changeLocale('sv')">Svenska<i class="fas fa-check"></i></b-dropdown-item>
-                        <b-dropdown-item v-bind:class="{ active: $i18n.locale === 'tr' }" v-on:click="changeLocale('tr')">Türkçe<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: currentLocale === 'en' }" v-on:click="changeLocale('en')">English <i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: currentLocale === 'de' }" v-on:click="changeLocale('de')">Deutsch<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: currentLocale === 'es' }" v-on:click="changeLocale('es')">Español<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: currentLocale === 'fr' }" v-on:click="changeLocale('fr')">Français<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: currentLocale === 'hu' }" v-on:click="changeLocale('hu')">Magyar<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: currentLocale === 'it' }" v-on:click="changeLocale('it')">Italiano<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: currentLocale === 'nl' }" v-on:click="changeLocale('nl')">Nederlands<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: currentLocale === 'pt-br' }" v-on:click="changeLocale('pt-br')">Português (Brasil)<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: currentLocale === 'sv' }" v-on:click="changeLocale('sv')">Svenska<i class="fas fa-check"></i></b-dropdown-item>
+                        <b-dropdown-item v-bind:class="{ active: currentLocale === 'tr' }" v-on:click="changeLocale('tr')">Türkçe<i class="fas fa-check"></i></b-dropdown-item>
                     </b-dropdown>
                 </div>
             </div>
@@ -146,9 +146,14 @@
         components: {
             obHamburger
         },
+        data() {
+            return {
+                currentLocale: this.$i18n.i18next.language || window.localStorage.i18nextLng
+            };
+        },
         methods: {
             getCurrentLang(locale) {
-                switch (locale) {
+                switch (locale.toLowerCase()) {
                     case 'en':
                         return 'English';
                     case 'nl':
@@ -178,6 +183,7 @@
                 }
             },
             changeLocale(locale) {
+                this.currentLocale = locale;
                 const path = this.$router.currentRoute.path.split('/')[2];
                 this.$router.push(`/${locale}/${path}`);
             }
