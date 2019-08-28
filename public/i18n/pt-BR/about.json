@@ -1,0 +1,20 @@
+{
+    "about_us": {
+        "title": "Sobre nós",
+        "subtitle": "Tecnologia para um <span class=\"has-text-primary\">amanhã melhor</span>.",
+        "description": "Somos uma equipe de engenheiros, designers, hackers, ativistas e especialistas em segurança da informação construindo tecnologia centrada no ser humano, responsável, sustentável e justa para um futuro mais próspero.",
+        "description_founded": "Fazemos isso colocando em tudo o que construímos as melhores qualidades da humanidade, como gentileza, compaixão, tolerância, empatia e cooperação.",
+        "description_funded": "Em setembro de 2018, completamos com sucesso uma campanha de <a class=\"has-text-underlined\" href=\"https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne\" rel=\"noopener noreferrer\">financiamento coletivo</a> para construir a <span class=\"has-text-logo\">Okuna</span>, e mais de 3.500 membros estão testando a nossa versão alpha neste momento.",
+        "accomplish_how": "Por que uma rede social?",
+        "read_our_manifesto": "Leia o nosso manifesto",
+        "humans_behind_ob": "As pessoas",
+        "work_with_us": "Quer trabalhar conosco?",
+        "visit_jobs_page": "Visite a nossa página de empregos",
+        "our_ambassadors": " Nossos embaixadores",
+        "our_contributors": " Nossos colaboradores",
+        "our_backers": "... e os mais de 3.000 apoiadores no <a class=\"has-text-underlined\" href=\"https://www.kickstarter.com/projects/1520156881/openbook-privacy-friendly-fun-and-honest-social-ne\" rel=\"noopener noreferrer\">Kickstarter</a> e no <a class=\"has-text-underlined\" href=\"https://www.indiegogo.com/projects/openbook-it-s-time-for-a-better-social-network/x/19347830?create_edit=true/\", rel=\"noopener noreferrer\">Indiegogo</a> que tornaram este projeto possível!",
+        "ambassadors_desc": "As pessoas que nos ajudam a espalhar a palavra e a defender tudo o que fazemos.",
+        "become_ambassadors": "Quer tornar-se embaixador?",
+        "contact_us": "Contate-nos"
+    }
+}

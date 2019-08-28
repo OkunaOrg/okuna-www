@@ -1,0 +1,53 @@
+{
+    "global": {
+        "okuna": "Okuna"
+    },
+    "header": {
+        "home": "Início",
+        "about_us": "Sobre nós",
+        "manifesto": "Manifesto",
+        "contact_us": "Contato",
+        "jobs": "Empregos",
+        "faq": "FAQ",
+        "press": "Imprensa",
+        "language": "Idioma",
+        "blog": "Blog",
+        "angel": "Investidor-anjo"
+    },
+    "footer": {
+        "report_vulnerability": "Reportar vulnerabilidade",
+        "twitter": "Twitter",
+        "github": "GitHub",
+        "reddit": "Reddit",
+        "gitter": "Gitter",
+        "linked_in": "LinkedIn",
+        "product_hunt": "Product Hunt",
+        "facebook": "Facebook",
+        "the_ob_organization": "Okuna",
+        "privacy_policy": "Política de privacidade",
+        "made_with": "Feito com ",
+        "in_europe": " na Europa",
+        "all_rights_reserved": "Todos os direitos reservados"
+    },
+    "hud": {
+        "share": "Compartilhe",
+        "share_fb": "Compartilhar no Facebook",
+        "share_twitter": "Compartilhar no Twitter",
+        "share_email": "Enviar email",
+        "share_linkedin": "Compartilhar no LinkedIn",
+        "share_wa": "Compartilhar no WhatsApp",
+        "share_title": "Okuna. Uma rede social para um futuro melhor.",
+        "share_description": "Transparente, pessoal, com foco na privacidade e eticamente sustentável.",
+        "share_quote": "Junte-se à revolução! Chegando em meados de 2019."
+    },
+    "meta": {
+        "home": "Início",
+        "about-us": "Sobre nós",
+        "contact-us": "Contate-nos",
+        "faq": "FAQ",
+        "angel": "Investidor-anjo",
+        "getapp": "Obter Link do App",
+        "vulnerability-report": "Reportar vulnerabilidade",
+        "manifesto": "Manifesto"
+    }
+}
