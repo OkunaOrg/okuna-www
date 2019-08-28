@@ -16,6 +16,7 @@
                         <div class="columns is-centered is-mobile">
                             <div class="column" style="max-width: 450px">
                                 <vue-typed-js
+                                    :key="locale"
                                     :strings="helloSubjects"
                                     :loop="true"
                                     :typeSpeed="9"
@@ -90,18 +91,23 @@
         data() {
             return {
                 blackMockupImage,
-                whiteMockupImage,
-                helloSubjects: [
-                    this.$i18n.t('home:splash_hero.world'),
-                    this.$i18n.t('home:splash_hero.friends'),
-                    this.$i18n.t('home:splash_hero.family'),
-                    this.$i18n.t('home:splash_hero.grandma')
-                ].map(subject => `${subject}!`)
-            }
+                whiteMockupImage
+            };
         },
         computed: {
             isI18nLoaded() {
                 return this.$store.getters.isI18nLoaded;
+            },
+            helloSubjects() {
+                return this.isI18nLoaded && [
+                    this.$i18n.t('home:splash_hero.world'),
+                    this.$i18n.t('home:splash_hero.friends'),
+                    this.$i18n.t('home:splash_hero.family'),
+                    this.$i18n.t('home:splash_hero.grandma')
+                ].map(subject => `${subject}!`);
+            },
+            locale() {
+                return this.$store.state.i18n;
             }
         }
     }

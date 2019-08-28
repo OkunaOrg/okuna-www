@@ -11,7 +11,7 @@ export default new Vuex.Store({
         errored: false
       }
     },
-    i18n: true
+    i18n: null
   },
 
   mutations: {
@@ -22,7 +22,10 @@ export default new Vuex.Store({
       state.meta.i18n.mutating = false;
       state.meta.i18n.errored = true;
 
-      state.i18n = false;
+      state.i18n = null;
+    },
+    updateI18n(state, language) {
+      state.i18n = language;
     }
   },
 
