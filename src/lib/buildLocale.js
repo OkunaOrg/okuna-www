@@ -18,6 +18,10 @@ export default (store) => {
     store.commit('fetchI18nFailure');
   });
 
+  i18next.on('languageChanged', function (language) {
+    store.commit('updateI18n', language);
+  });
+
   i18next
     .use(i18nextBrowserLanguageDetector)
     .use(i18nextXHRBackend)
