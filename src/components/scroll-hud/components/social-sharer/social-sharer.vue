@@ -36,8 +36,9 @@
                 this.openShareModal();
             },
             openShareModal() {
-                this.$modal.open({
+                this.$buefy.modal.open({
                     parent: this,
+                    hasModalCard: true,
                     component: obSocialSharerModal
                 })
             }
