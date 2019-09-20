@@ -105,7 +105,9 @@
                                     {{ $t('contact:message.recaptcha_authorization') }}
                                 </div>
                                 <div class="column is-12">
-                                    <button class="button is-warning is-large is-size-7-mobile is-size-6" @click="enableGoogleRecaptcha()" type="button" v-scroll-to="'#message-form'">
+                                    <button class="button is-warning is-large is-size-7-mobile is-size-6"
+                                            @click="enableGoogleRecaptcha()" type="button"
+                                            v-scroll-to="'#message-form'">
                                         {{ $t('contact:message.recaptcha_authorization_yes') }}
                                     </button>
                                 </div>
@@ -277,7 +279,7 @@
             },
             enableLoading() {
                 this.submissionInProgress = true;
-                this.loadingComponent = this.$loading.open();
+                this.loadingComponent = this.$buefy.loading.open();
             },
             disableLoading() {
                 this.submissionInProgress = false;
