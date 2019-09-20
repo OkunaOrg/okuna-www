@@ -117,10 +117,9 @@
                         <li>
                             {{ $t('faq:faq.talk_to_friends') }}
                         </li>
-                        <li v-html="$t('faq:faq.improve_website')">
-                        </li>
-                        <li v-html="$t('faq:faq.let_us_know')">
-                        </li>
+                        <li v-html="$t('faq:faq.improve_website')"></li>
+                        <li v-html="$t('faq:faq.translation')"></li>
+                        <li v-html="$t('faq:faq.let_us_know')"></li>
                         <li>
                             {{ $t('faq:faq.public_figure') }}
                             <router-link to="contact-us"> {{ $t('faq:faq.contact_us') }}</router-link>
