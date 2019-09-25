@@ -1,6 +1,6 @@
 <template>
     <div class="columns is-multiline is-mobile is-variable is-5">
-        <div class="column is-6-mobile is-3-tablet is-3-desktop" v-for="teamMember of teamMembers">
+        <div class="column is-6-mobile is-3-tablet is-3-desktop" v-for="(teamMember, idx) of teamMembers" :key="`member-${idx}`">
             <ob-team-member :team-member="teamMember" :key="teamMember.name"/>
         </div>
     </div>
@@ -17,13 +17,12 @@
     import nathaliePhoto from './assets/profile-picture-nathalie.png';
     import robinPhoto from './assets/profile-picture-robin.png';
 
-
     export default {
         components: {ObTeamMember},
         name: 'ob-team-members',
-        data() {
-            return {
-                teamMembers: [
+        computed: {
+            teamMembers: function () {
+                return [
                     {
                         name: 'Joel Hernández',
                         position: this.$t('team:team_members.joel_title'),
@@ -106,21 +105,8 @@
                             linkedin: 'https://www.linkedin.com/in/lambrechtwessels/',
                             twitter: 'https://twitter.com/lambrechtw?lang=en'
                         }
-                    },
-                ]
-            }
-        },
-        methods: {
-            refreshData: () => {
-                console.log('exec');
-                const teamData = this.teamMembers;
-                this.teamMembers = [];
-                setTimeout(() => {this.teamMembers = teamData}, 0);
-            }
-        },
-        watch: {
-            '$i18n.locale':  (n, o) => {
-                console.log('aaa->',n,o);
+                    }
+                ];
             }
         }
     }

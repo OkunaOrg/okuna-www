@@ -1,6 +1,6 @@
 <template>
     <div class="columns is-multiline is-mobile is-variable is-5">
-        <div class="column is-6-mobile is-3-tablet is-3-desktop" v-for="ambassador of ambassadors">
+        <div class="column is-6-mobile is-3-tablet is-3-desktop" v-for="(ambassador, idx) of ambassadors" :key="`ambassador-${idx}`">
             <ob-ambassador :ambassador="ambassador" :key="ambassador.name"/>
         </div>
     </div>
@@ -13,13 +13,12 @@
     import ashwinPhoto from './assets/ashwin.png';
     import ObAmbassador from './components/ambassador.vue';
 
-
     export default {
         components: {ObAmbassador},
         name: 'ob-ambassadors',
-        data() {
-            return {
-                ambassadors: [
+        computed: {
+            ambassadors: function () {
+                return [
                     {
                         name: this.$t('team:ambassadors.isaac_name'),
                         photo: isaacPhoto,
@@ -61,7 +60,7 @@
                         },
                         description: this.$t('team:ambassadors.ashwin_desc')
                     }
-                ]
+                ];
             }
         }
     }
