@@ -4,7 +4,7 @@
             <div class="content">
                 <h2 class="is-size-3"><span class="icon" v-twemoji>🚀</span> {{ $t('home:beta_container.title') }}</h2>
                 <p class="is-size-4">
-                    {{ $t('home:beta_container.beta_date') }}
+                    {{ $t('home:home.signup_button') }}
                 </p>
             </div>
 
