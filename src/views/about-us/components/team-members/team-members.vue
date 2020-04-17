@@ -16,6 +16,7 @@
     import shantanuPhoto from './assets/profile-picture-shantanu.png';
     import nathaliePhoto from './assets/profile-picture-nathalie.png';
     import robinPhoto from './assets/profile-picture-robin.png';
+    import marisaPhoto from './assets/profile-picture-marisa.jpg';
 
     export default {
         components: {ObTeamMember},
@@ -104,6 +105,16 @@
                         links: {
                             linkedin: 'https://www.linkedin.com/in/lambrechtwessels/',
                             twitter: 'https://twitter.com/lambrechtw?lang=en'
+                        }
+                    },
+                    {
+                        name: 'Marisa Monteiro',
+                        photo: marisaPhoto,
+                        position: this.$t('team:team_members.marisa_title'),
+                        description: this.$t('team:team_members.marisa_desc'),
+                        links: {
+                            linkedin: 'https://www.linkedin.com/in/marisamborsboom/',
+                            website: 'https://mqmlegal.com/'
                         }
                     }
                 ];
