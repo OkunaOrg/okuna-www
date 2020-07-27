@@ -6,7 +6,7 @@
                 <header class="navbar">
                     <div class="container">
                         <div class="navbar-brand">
-                            <a class="navbar-item is-size-4" href="https://www.okuna.io">
+                            <a class="navbar-item is-size-4" href="https://about.okuna.io">
                                 <a href="#" class="header-logo"></a>
                                 <span class="header-logo-separator"></span><span v-html="$t('common:global.okuna')"
                                                                                  class="has-text-circular"></span>

@@ -37,8 +37,8 @@
             </div>
             <div class="column is-10">
                 <strong>{{ $t('contact:address.website') }}</strong><br/>
-                <a href="https://www.okuna.io" target="_blank" rel="noopener noreferrer">
-                    www.okuna.io
+                <a href="https://about.okuna.io" target="_blank" rel="noopener noreferrer">
+                    about.okuna.io
                 </a>
             </div>
         </div>

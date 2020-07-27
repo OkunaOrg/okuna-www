@@ -2,7 +2,7 @@
 
 [![CircleCI](https://circleci.com/gh/OkunaOrg/okuna-www.svg?style=svg)](https://circleci.com/gh/OkunaOrg/okuna-www) [![gitmoji badge](https://img.shields.io/badge/gitmoji-%20😜%20😍-FFDD67.svg?style=flat-square)](https://github.com/carloscuesta/gitmoji)
 
-The code for [okuna.io](https://okuna.io).
+The code for [about.okuna.io](https://about.okuna.io).
 
 ## Table of contents
 
