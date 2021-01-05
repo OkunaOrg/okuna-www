@@ -14,7 +14,7 @@
     "@panter/vue-i18next": "^0.15.1",
     "@xkeshi/vue-countdown": "^0.6.0",
     "animate.css": "^3.7.2",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "browser-locale": "^1.0.3",
     "buefy": "^0.8.2",
     "bulma": "^0.7.5",
