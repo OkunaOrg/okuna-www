@@ -147,8 +147,8 @@
                             <div class="level-left">
                                 <div class="content has-text-centered-mobile">
                                     {{ $t('common:footer.the_ob_organization') }} ™️ All Rights Reserved | <a
-                                    href="https://www.iubenda.com/privacy-policy/91224954"
-                                    class="iubenda-white iubenda-embed " title="Privacy Policy" target="_blank"
+                                    href="https://github.com/OkunaOrg/okuna-www/blob/master/public/docs/PRIVACY_POLICY.md"
+                                    title="Privacy Policy" target="_blank"
                                     rel="noopener noreferrer">{{ $t('common:footer.privacy_policy') }} </a>
                                 </div>
                             </div>
