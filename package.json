@@ -28,7 +28,7 @@
     "lodash.debounce": "^4.0.8",
     "mitt": "^1.1.3",
     "normalize.css": "^8.0.1",
-    "npm": "^6.13.4",
+    "npm": "^6.14.6",
     "raven-js": "^3.27.2",
     "slick-carousel": "^1.8.1",
     "twemoji": "^11.3.0",
