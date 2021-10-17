@@ -13,7 +13,6 @@
     import caraPhoto from './assets/cara-min.jpg';
     import cyrillPhoto from './assets/cyrill-min.jpg';
     import dennisPhoto from './assets/dennis-min.jpg';
-    import bardourPhoto from './assets/bardour-min.jpg';
     import dejanPhoto from './assets/dejan-min.jpg';
     import ferdinandPhoto from './assets/ferdinand-min.jpg';
     import jaapPhoto from './assets/jaap-min.jpg';
@@ -76,13 +75,6 @@
                         name: 'Andy Hofmann',
                         photo: andyPhoto,
                         links: {},
-                    },
-                    {
-                        name: 'Bárður Christiansen',
-                        photo: bardourPhoto,
-                        links: {
-                            linkedin: 'https://www.linkedin.com/in/bardurchristiansen',
-                        },
                     },
                     {
                         name: 'Benny',
